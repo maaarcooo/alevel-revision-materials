@@ -6,6 +6,5 @@
 - revisionNotesPrompt_v1
 
 ### Version 2
-- Uses Claude Opus 4.5 model
-- ankiFlashcardPrompt_v4
-- revisionNotesPrompt_v2
+- ankiFlashcardPrompt_v4 | Claude Opus 4.5
+- revisionNotesPrompt_v2 | Claude Opus 4.5 Thinking

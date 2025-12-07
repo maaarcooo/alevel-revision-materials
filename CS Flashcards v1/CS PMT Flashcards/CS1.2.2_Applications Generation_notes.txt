@@ -1,0 +1,38 @@
+What is applications software? | Software designed to be used by the end-user to perform one specific task. Requires systems software to run.
+What is systems software? | Low-level software responsible for running the computer system smoothly, interacting with hardware, and providing a platform for applications software to run.
+What are utilities? | System software programs with specific functions linked to the maintenance of the operating system, ensuring consistent, high performance.
+What does the compression utility do? | Enables files to be compressed and decompressed, used for transmitting large files across the Internet and compressing scanned files.
+What does the disk defragmentation utility do? | Rearranges the contents of the hard drive so files stored in different parts of memory can be accessed faster, improving performance.
+What does the automatic updating utility do? | Ensures the operating system is kept up to date, automatically installing updates when the computer is restarted to tackle bugs or security flaws.
+What does the backup utility do? | Automatically creates routine copies of specific files selected by the user so files can be recovered in the event of power failure, malicious attack, or other accident.
+What is open source software? | Software that can be used by anyone without a license and is distributed with the source code accessible to the public.
+What is closed source software? | Software that requires the user to hold an appropriate license to use it. Users cannot access the source code as the company owns the copyright license.
+What is an advantage of open source software? | Can be modified and improved by anyone; can be modified and sold on; has technical support from online community.
+What is a disadvantage of open source software? | Support available online may be insufficient or incorrect with no user manuals; lower security as may not be developed in a controlled environment.
+What is an advantage of closed source software? | Thorough, regular, and well-tested updates; company provides expert support and user manuals; high levels of security as developed professionally.
+What is a disadvantage of closed source software? | License restricts how many people can use the software at once; users cannot modify and improve software themselves.
+What is a translator? | A program that converts high-level source code into low-level object code, which is then ready to be executed by a computer.
+What is a compiler? | A translator that translates high-level code into machine code all at once, after carrying out checks and reporting errors.
+What is a key characteristic of compiled code? | It is specific to a particular processor type and operating system. Can be run without a translator being present.
+What is an interpreter? | A translator that translates and executes code line-by-line, stopping to produce an error if a line contains an error.
+Why are interpreters useful for testing? | They are useful for testing sections of code and pinpointing errors, as time is not wasted compiling the entire program before it has been fully debugged.
+What is an assembler? | A translator that translates assembly code into machine code on almost a one-to-one basis.
+What is assembly code? | A low-level language that is the 'next level up' from machine code. It is platform specific as instructions depend on the processor's instruction set.
+What happens during lexical analysis? | Whitespace and comments are removed from the code. Remaining code is analysed for keywords and names of variables/constants, which are replaced with tokens and stored in a symbol table.
+What happens during syntax analysis? | Tokens are analysed against the grammar and rules of the programming language. Tokens that break the rules are flagged as syntax errors and added to a list of errors.
+What is an abstract syntax tree? | A representation of the source code in the form of a tree, produced during syntax analysis stage.
+What is semantic analysis? | Analysis carried out at the syntax analysis stage where logic mistakes within the program are detected (e.g., multiple declaration, undeclared identifiers).
+What happens during code generation? | The abstract syntax tree produced in the syntax analysis stage is used to produce machine code.
+What happens during optimisation? | The code is searched for areas it could be made more efficient. Insignificant, redundant parts of code are detected and removed to make the code faster to execute.
+What is a danger of optimisation? | Excessive optimisation may alter the way in which the program behaves.
+What is a linker? | Software responsible for linking external modules and libraries included within the code.
+What is static linking? | Modules and libraries are added directly into the main file. Increases file size but any updates to modules externally will not affect the program.
+What is dynamic linking? | Addresses of modules and libraries are included in the file where they are referenced. Files remain small and external updates feed through to the main file.
+What is a loader? | A program provided by the operating system that retrieves the library or subroutine from the given memory location when a file is executed.
+What are libraries? | Pre-compiled programs which can be incorporated within other programs using static or dynamic linking. They are ready-to-use and error free.
+What are advantages of using libraries? | Save time developing and testing modules; can be reused within multiple programs; save programmers from having to 'reinvent the wheel'.
+Give an example of a syntax error. | Undeclared variable type or incomplete set of brackets.
+Give an example of a semantic error. | Multiple declaration or undeclared identifiers.
+What is parsing? | The process used to check each line of code is well-formed during syntax analysis.
+Is machine code the same as object code? | Yes, machine code is the same as object code.
+What is high-level code? | Code that is written and understood by the programmer but not the computer. Low-level code can be executed by a computer but cannot be directly understood.

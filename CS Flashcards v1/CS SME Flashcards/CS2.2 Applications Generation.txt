@@ -1,0 +1,67 @@
+# 2.2 Applications Generation - Anki Flashcards
+
+## Application Software
+What is application software? | Software designed to perform specific tasks for a user (e.g., word processors, web browsers, games).
+Give three examples of application software and their purposes. | Word processor (creating documents), database management (storing/managing data), web browser (accessing web content).
+What is an IDE? | Integrated Development Environment - software for developing, testing and debugging code (e.g., Visual Studio).
+What is virtualisation software? | Software that creates and runs virtual machines on a single physical machine (e.g., VMware, VirtualBox).
+
+## Utility Software
+What is utility software? | Software designed to analyse, configure, optimise or maintain a computer. It supports the operating system.
+What is disk defragmentation? | A utility that rearranges files on a hard drive into contiguous blocks to increase efficiency and speed up file access.
+Do modern SSDs require defragmentation? | No, SSDs generally don't require defragmentation.
+What is the purpose of a device driver? | To provide an interface between hardware and the operating system, enabling communication without needing precise hardware details.
+What does system cleanup utility software do? | Removes unnecessary files (temporary files, cache, unused applications) to free up space and improve system performance.
+Give two examples of security utility software. | Norton, McAfee, Windows Defender - protect against viruses, malware and spyware.
+
+## Open Source & Closed Source Software
+What is open source software (OSS)? | Software where the source code is freely available and can be viewed, modified and distributed by anyone.
+What is closed source software (CSS)? | Software where the source code is hidden and proprietary - users cannot view or modify it.
+Give two examples of open source software. | Linux, Apache HTTP Server.
+Give two examples of closed source software. | Microsoft Windows, Adobe Photoshop.
+State two benefits of open source software to users. | Often free; customisable and transparent.
+State two drawbacks of open source software to users. | Might be less user-friendly; may contain bugs or compatibility issues.
+State two benefits of closed source software to users. | More polished products with professional support; consistent quality.
+State two drawbacks of closed source software to users. | Costly; less customisable.
+State one benefit of open source software to creators. | Collaboration and community engagement leads to faster innovation.
+State one drawback of open source software to creators. | Less control over the software; burdened with user requests.
+State one benefit of closed source software to creators. | Greater control, revenue through sales, intellectual property protection.
+State one drawback of closed source software to creators. | Slower innovation; full responsibility for all updates and flaws.
+
+## Translators
+What is a translator in programming? | Software that converts source code from a high-level language to a low-level language (machine code).
+Name the three main types of translators. | Interpreters, compilers and assemblers.
+How does an interpreter work? | Translates and executes source code line-by-line on the fly.
+State two advantages of interpreters. | Easier to debug; allows incremental testing and faster to start execution.
+State one disadvantage of interpreters. | Slower execution time overall; requires the interpreter present during execution.
+How does a compiler work? | Translates the entire source code into machine code at once, then executes it.
+State two advantages of compilers. | Faster execution time; no need for compiler during execution.
+State one disadvantage of compilers. | Longer initial compilation time; more challenging to debug.
+What does an assembler do? | Translates assembly language (low-level) into machine code.
+Which translator is used for Python? | Interpreter.
+Which translator is used for C++? | Compiler.
+Which translator is used for Assembly Language? | Assembler.
+
+## Stages of Compilation
+Name the four stages of compilation in order. | Lexical analysis, syntax analysis, code generation, optimisation.
+What is lexical analysis? | The stage that identifies lexical tokens (keywords, identifiers, operators, separators) in the code and creates a token table.
+What elements are ignored during lexical analysis? | Comments and whitespace.
+Give four types of tokens identified in lexical analysis. | Keywords (e.g., var, function), identifiers (variable names), operators (e.g., +, *), separators (e.g., ;, {, }).
+What is the output of lexical analysis? | A token table listing all identified tokens and their types.
+What is syntax analysis? | The stage that checks tokens adhere to the syntax rules of the programming language.
+Give two examples of common syntax errors. | Mismatched parentheses; missing semicolons.
+What is created if code passes syntax analysis? | An Abstract Syntax Tree (AST) - a graph-based representation of the code.
+What happens during code generation? | The AST is traversed to generate object code that can be executed by the computer.
+What is optimisation in compilation? | Modifying code to make it more efficient without changing its functionality (e.g., removing duplicate code).
+Why is optimisation important? | Reduces memory required and leads to faster execution.
+
+## Libraries, Linkers & Loaders
+What is a code library? | A collection of pre-written code, functions and procedures that developers can use to perform common tasks without writing from scratch.
+What are standard libraries? | Basic libraries that come with most programming languages offering fundamental functionalities.
+What are third-party libraries? | Libraries created by others, often shared through package managers.
+State three benefits of using libraries. | Efficiency (saves time), reliability (tested and optimised), reusability (use in multiple projects).
+State three drawbacks of using libraries. | Dependency issues (if discontinued), compatibility problems, unnecessary overhead for small tasks.
+What is static linking? | Libraries are combined with code at compile time, creating a larger executable.
+What is dynamic linking? | Libraries are linked at runtime, requiring the library to be present during execution but allowing more flexibility.
+What do linkers do? | Combine different code files and libraries into a single executable, resolving references between files.
+What do loaders do? | System tools that load executable files into memory so they can be run by the operating system.

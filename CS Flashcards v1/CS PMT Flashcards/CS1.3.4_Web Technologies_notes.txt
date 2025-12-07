@@ -1,0 +1,39 @@
+What is HTML? | A language/script used to write web pages that describes the structure and order of content using tags in angle brackets (<tag>, </tag>).
+What are the two main sections of a webpage? | The head (contains title) and the body (contains main content).
+What does the <html> tag do? | Defines that all code within should be interpreted as HTML.
+What is the purpose of the <head> tag? | Defines the browser tab or window heading area.
+What does the <link> tag do? | Links to additional files, including CSS stylesheets.
+What are <h1>, <h2>, and <h3> tags used for? | Creating heading styles in decreasing sizes.
+What does the <p> tag define? | A paragraph separated with line spaces above and below.
+What is the <img> tag and what makes it special? | A self-closing tag used for images that requires src, height, and width parameters.
+What is the <a> tag used for? | Creating hyperlinks using the format <a href="location">link text</a>.
+What does the <ol> tag create? | An ordered (numbered) list.
+What does the <ul> tag create? | An unordered (bulleted) list.
+What tag is used for list items in both ordered and unordered lists? | The <li> tag.
+What does the <div> tag do? | Divides a page into separate areas that can be referred to uniquely by name.
+What is a class in HTML/CSS? | An attribute assigned to multiple elements to apply consistent styling, defined with a full stop (.).
+What is an identifier in HTML/CSS? | A unique name given to a single element on a webpage, defined with a hashtag (#).
+What is CSS? | Cascading Style Sheets - a language used to describe the style and appearance of HTML elements.
+What are the two forms of CSS? | Internal/embedded CSS (inside style tags) and external CSS (separate document linked to HTML).
+How do you link an external CSS file? | <link href="nameofstylesheet.css" rel="stylesheet" type="text/css"> in the head section.
+What is JavaScript? | A scripting language that adds interactivity to websites and is interpreted by the browser.
+What is a key advantage of JavaScript being interpreted? | Web pages are interpreted independently of the processor architecture each time they load.
+What are three advantages of using JavaScript? | Local computer validates data before sending to servers, eases load on busy servers, reduces web traffic.
+How do you change HTML element content using JavaScript? | chosenElement = document.getElementById("example"); chosenElement.innerHTML = "Hello World";
+How do you write directly to a document in JavaScript? | document.write("Hello World");
+How do you display an alert box in JavaScript? | alert("Hello World");
+What is a search engine? | A program that searches through a database of internet addresses looking for resources based on client criteria.
+What are web crawlers (spiders)? | Programs that traverse the Internet collecting keywords, phrases, and metadata from websites to build search indexes.
+What is the PageRank algorithm used for? | Ranking web pages to determine the order they appear in search results.
+What two factors determine a page's PageRank? | Number of incoming links from other pages, and the PageRank of pages that link to it.
+What data structure is used for PageRank? | A directed graph where webpages are nodes and links are arcs between nodes.
+What is the PageRank formula? | PageRank(x) = (1-d) + d[(PageRank(T1) ÷ Count(T1)) + ... + (PageRank(Tn) ÷ Count(Tn))]
+What is the typical damping factor (d) in PageRank? | 0.85
+What is server-side processing? | When a client sends data to a server for it to be processed, with no processing on the client computer.
+What are common server-side scripting languages? | SQL and PHP.
+What are three advantages of server-side processing? | Does not require plugins, performs large calculations faster, not browser dependent, more secure.
+What is client-side processing? | When a client processes data on their local device using languages like JavaScript.
+What are three advantages of client-side processing? | Webpage responds immediately to user actions, executes quickly, gives developers more control over website behaviour and appearance.
+What do modern search engines consider beyond PageRank? | Factors like webpage age and how quickly content loads.
+What is metadata in web pages? | Information specified by the website owner that web crawlers collect and add to search indexes.
+Why is the order of search results important? | It determines which websites users choose to visit and use, so high-quality relevant content should appear first.

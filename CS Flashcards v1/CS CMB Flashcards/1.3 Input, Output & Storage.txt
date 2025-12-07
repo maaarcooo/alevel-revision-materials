@@ -1,0 +1,72 @@
+What is an input device? | A hardware component that allows users to put data and information into a computer.
+What is an output device? | A hardware component that sends information from the computer to the user.
+Give 3 examples of input devices. | Keyboard, mouse, webcam, microphone, scanner, barcode reader, magnetic stripe reader.
+Give 3 examples of output devices. | Monitor, printer, speakers, headphones, projector.
+What is a touchscreen classified as? | Both an input and output device.
+What factors should you consider when choosing an input device? | Speed, accuracy, cost, and relevance to the task.
+What are the 3 types of secondary storage? | Magnetic, optical, and flash.
+How do optical storage devices work? | They use lasers to read and write data. Pits scatter light (0), lands reflect light (1).
+Give 3 examples of optical storage devices. | CD, DVD, Blu-ray disc.
+What is a CD typically used for? | Storing audio files, text, and digital images.
+What does DVD stand for? | Digital versatile disc or digital video disc.
+What advantage do Blu-ray discs have over DVDs? | More than five times the storage capacity, suitable for high-resolution films.
+What are the disadvantages of optical storage? | Easily damaged by scratches, limited storage capacity, relatively slow transfer speeds.
+How do magnetic storage devices represent binary data? | Using two magnetic states: polarised (1) and unpolarised (0).
+What does HDD stand for? | Hard Disk Drive.
+What is the typical storage capacity of HDDs? | Between 500GB and 5TB.
+How do HDDs work? | Rotating magnetic platters spin under a read/write head on an actuating arm.
+What are the disadvantages of HDDs? | Slow data transfer speeds, easily damaged by movement due to moving parts.
+What were floppy disks typically used for? | Exchanging small amounts of data (similar to USB drives today).
+What was the typical storage capacity of floppy disks? | 1MB, though some later versions had up to 200MB.
+How does flash storage work? | Uses silicon semiconductors forming NAND and NOR logic gates to store electrical charge in high or low states.
+How is information organised in flash storage? | In blocks, which are combined to form pages.
+Which logic gate is preferred for storing small amounts of data in flash? | NOR.
+Which logic gate is preferred for larger files in flash storage? | NAND.
+Is flash memory volatile or non-volatile? | Non-volatile (retains data when power is lost).
+What does SSD stand for? | Solid State Drive.
+What are the advantages of SSDs? | Light, portable, no moving parts, resistant to damage, high data transfer rates.
+What are the disadvantages of SSDs? | Higher cost, limited lifespan (voltage required to write increases over time).
+What does RAM stand for? | Random Access Memory.
+What is RAM used for? | Fast main memory to store data and programs currently being used by the computer.
+Is RAM volatile or non-volatile? | Volatile (loses information when power is lost).
+What is typical RAM capacity in computers? | 4GB or 8GB.
+What does ROM stand for? | Read Only Memory.
+Can ROM be modified? | No, it cannot be modified once programmed.
+What is ROM used for? | Storing fixed sequences of instructions like the computer's startup (bootstrap) routine.
+Is ROM volatile or non-volatile? | Non-volatile (retains data when powered off).
+What is virtual storage? | Storing information remotely (e.g., cloud storage) so it can be accessed by any computer with internet access.
+Give 2 examples of virtual storage services. | Google Drive, Microsoft OneDrive.
+How does virtual storage work technically? | Data is stored on multiple hard drives or SSDs formatted to act as a single piece of storage.
+What are the advantages of virtual storage? | Scalability, accessibility from anywhere, data protection, cost-effective.
+What are the disadvantages of virtual storage? | Dependence on internet connection, security concerns, ongoing costs.
+What is the difference between primary and secondary storage? | Primary storage (RAM, ROM) is used by the OS to run the computer; secondary storage stores user data like images and videos.
+What factors should you consider when choosing a storage device? | Storage needs, performance needs, portability, and cost.
+What type of storage is fastest? | Flash storage (SSDs).
+What type of storage has the highest capacity? | Magnetic storage (HDDs).
+What type of storage is most portable? | USB flash drives.
+What is the typical storage capacity of a CD? | 700MB.
+What is the typical storage capacity of a DVD? | 4.7GB to 9GB.
+What is the typical storage capacity of a Blu-ray disc? | 25GB to 50GB.
+Why is RAM more expensive than secondary storage? | RAM has higher access speeds and is more expensive per gigabyte.
+Why is flash memory more expensive than magnetic or optical storage? | Flash technology is faster and more advanced, resulting in higher cost per gigabyte.
+What happens to data in RAM when power is lost? | It is lost (RAM is volatile).
+What happens to data in ROM when power is lost? | It is retained (ROM is non-volatile).
+What is stored in RAM? | Data and programs currently being used, code instructions to execute, files required by running programs.
+What is stored in ROM? | BIOS (Basic Input/Output System) or firmware used for computer startup.
+Can the processor write to ROM? | No, ROM is read-only.
+Can the processor write to RAM? | Yes, RAM can be read from and written to.
+What does BIOS stand for? | Basic Input/Output System.
+Why are SSDs replacing HDDs? | Same functionality but improved performance, no moving parts, faster, more durable.
+What is the main disadvantage of magnetic tape? | Bulky and was superseded by more modern technology.
+What factors affect input device selection for a user? | User needs, user skills, environment, and cost.
+What factors affect output device selection for a user? | User needs, user skills, environment, and cost.
+Why might a graphic designer need a graphics tablet? | To draw or sketch directly onto a computer for design work.
+Why might an office need wired mice instead of wireless? | To prevent theft in public computer labs.
+What is the purpose of a barcode reader? | To read information from printed labels and cards in supermarkets and access control systems.
+What is the purpose of a magnetic stripe reader? | To read data from magnetic stripes on cards like credit and debit cards.
+What is a webcam used for? | Taking photos and recording videos.
+What is a projector used for? | Projecting video content from a computer onto a screen.
+What type of storage would be best for backing up large amounts of data? | Magnetic storage (HDDs) due to high capacity and low cost per GB.
+What type of storage would be best for fast access in video editing? | Flash storage (SSDs) due to high-speed data access.
+What is the main security concern with virtual storage? | Storing sensitive data off-site can pose risks despite provider security measures.
+Why is internet connection important for virtual storage? | Access to data can be slow or impossible with poor internet connection.

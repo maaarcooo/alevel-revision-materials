@@ -1,0 +1,49 @@
+What is a network? | Two or more computers connected together with the ability to transmit data between each other.
+What is a LAN? | Local Area Network - a network spread over a small geographical area or single site (e.g., a school).
+What is a WAN? | Wide Area Network - a network spread over a large geographical area, often connecting multiple sites.
+What is a protocol? | A set of rules defining how two computers communicate with each other.
+What does HTTP stand for and what is it used for? | Hypertext Transfer Protocol - used for web page rendering. HTTPS is the encrypted version.
+What does TCP/IP stand for? | Transmission Control Protocol / Internet Protocol - used for routing packets through networks.
+What are POP3 and IMAP? | Mailing protocols used for email access.
+What does FTP stand for and what is it used for? | File Transfer Protocol - used for transmission of files over networks.
+What is the Internet? | A network of networks connecting computers globally using large international backbone cables.
+What does the Application Layer do in the TCP/IP stack? | Specifies what protocol needs to be used for the application being sent (e.g., HTTP, POP3, FTP).
+What does the Transport Layer do in the TCP/IP stack? | Uses TCP to establish end-to-end connection, splits data into packets, labels them with packet number and port number, and requests retransmissions if packets are lost.
+What does the Network Layer do in the TCP/IP stack? | Adds source and destination IP addresses; routers use these IP addresses to forward packets.
+What is a socket address? | The combination of an IP address and port number.
+What does the Link Layer do in the TCP/IP stack? | Adds MAC addresses identifying the Network Interface Cards of source and destination computers.
+How are TCP/IP layers processed at the destination? | From bottom to top - MAC address removed by Link Layer, IP addresses removed by Network Layer, port number removed and packets reassembled by Transport Layer, then Application Layer presents the data.
+What infrastructure is used in WANs? | Telecommunication hardware owned by third-parties.
+What does DNS stand for? | Domain Name System - used to name and organise internet resources.
+What does TLD stand for? | Top Level Domain (e.g., .uk, .com).
+What does 2LD stand for? | 2nd Level Domain (e.g., gov in leeds.gov.uk).
+What is the role of a DNS server? | To translate domain names into IP addresses when accessing websites.
+What information is in a packet header? | Sender and recipient IP addresses, protocol being used, order of packets, and Time To Live (TTL).
+What is in a packet payload? | The raw data to be transmitted.
+What is in a packet trailer? | A checksum or cyclic redundancy check to detect transmission errors.
+What is Time To Live (TTL)? | A value that tells the packet when to expire so it doesn't travel forever.
+What is packet switching? | A method where data is sent as packets across the most efficient route, which can vary for each packet.
+What is an advantage of packet switching? | Multiple routes available; if one path breaks, another can be used. Data can be transferred over very large networks.
+What is a disadvantage of packet switching? | Time spent deconstructing and reconstructing packets; must wait for all packets to arrive before data can be received.
+What is circuit switching? | A method where a direct link is created between two devices and maintained for the entire conversation.
+What is an advantage of circuit switching? | Data arrives in logical order, resulting in quicker reconstruction; enables calls without delay in speech.
+What are disadvantages of circuit switching? | Bandwidth wasted when no data sent; devices must transfer at same rate; ties up network sections; electrical interference can corrupt data.
+What is a firewall? | A device designed to prevent unauthorised access to a network by comparing packets against preconfigured rules (packet filters).
+What does packet filtering examine? | Source IP, destination IP, protocols being used, and ports being requested.
+What's the difference between dropped and rejected packets? | Rejected packets send an alert to the sender; dropped packets do not.
+What is a proxy server? | An intermediary that collects and sends data on behalf of the user.
+What are benefits of using proxies? | User privacy and anonymity, caching frequently used website data for faster loading, reduced web traffic, and blocking access to sensitive sites.
+What is encryption? | A way of keeping data secure during transmission by making it unreadable if intercepted, using encryption keys.
+What is a Network Interface Card (NIC)? | A card (usually built into devices) that connects a device to a network and assigns a unique MAC address.
+What is a MAC address? | A 48-bit value coded into the device, written as a twelve-digit hexadecimal number, uniquely identifying each device.
+What is a switch? | A device used to direct the flow of data across a network, commonly used in star topology networks.
+What is a Wireless Access Point (WAP)? | A device that allows devices to connect to a network, commonly combined with a router. Used in mesh networks.
+What is a router? | A device used to connect two or more networks together, allowing private networks to connect to the Internet.
+What is a gateway? | A device that translates protocols between networks when they are not the same, enabling communication.
+How does a gateway work? | By removing headers from packets and adding the data to packets using the new protocol.
+What is a client-server network? | A network where terminals (clients) are connected to a powerful central computer (server) that holds important information and resources.
+What are advantages of client-server networks? | More secure (data in one location), central backups (no individual backups needed), data and resources can be shared between clients.
+What are disadvantages of client-server networks? | Relatively expensive to set up, functionality depends on server (if it fails, performance falls), trained staff required to maintain server.
+What is a peer-to-peer network? | A network where computers are connected to each other to share files, with each device acting as both server and client.
+What are advantages of peer-to-peer networks? | Cheaper to set up, allows resource sharing, easy to maintain, not dependent on central server, specialist staff not required.
+What are disadvantages of peer-to-peer networks? | Impossible to trace origin of files, backups must be performed separately, poorer security, may be difficult to locate resources.

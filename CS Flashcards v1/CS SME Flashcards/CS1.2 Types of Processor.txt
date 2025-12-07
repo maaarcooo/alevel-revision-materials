@@ -1,0 +1,43 @@
+What does RISC stand for? | Reduced Instruction Set Computer
+What does CISC stand for? | Complex Instruction Set Computer
+How many clock cycles does a RISC instruction take? | One clock cycle per instruction
+How many clock cycles does a CISC instruction take? | Multiple clock cycles per instruction
+Which processor type has a smaller instruction set? | RISC
+Which processor type has more complex instructions? | CISC
+Which processor type is better suited for pipelining? | RISC
+Which processor type has more general purpose registers? | CISC
+Which devices typically use RISC processors? | Smartphones and tablets
+Which devices typically use CISC processors? | Laptops and desktop computers
+Which processor type has more transistors? | CISC
+Which processor type requires less power? | RISC
+Which processor type costs less to manufacture? | RISC
+Which processor type takes up less space in memory? | CISC (instructions take up less space)
+Which processor type has more complicated compilers? | RISC
+Which processor type has more addressing modes? | CISC
+Can a program written for a RISC processor run on a CISC processor? | No
+Can a program written for one RISC processor always run on another RISC processor? | Not necessarily - they may have different instruction sets
+What is the main purpose of a GPU? | To process graphics and reduce the load on the CPU
+How do CPUs and GPUs differ in purpose? | CPUs are general purpose processors, GPUs are designed specifically for graphics
+What special capability do GPUs have for data processing? | They can perform an instruction on multiple pieces of data at one time
+Where can a GPU be located? | Either part of the graphics card or embedded in the CPU
+Approximately how many processing cores do modern GPUs contain? | Hundreds or even thousands of smaller processing cores
+Name three non-graphics uses for GPUs. | 3D modelling, data modelling, financial modelling, data mining, machine learning (any three)
+Why are GPUs useful for machine learning? | They can train on massive amounts of data in parallel with matrix multiplications and other computations
+What does SIMD stand for? | Single Instruction Multiple Data
+What is SIMD processing? | When multiple processing elements perform the same operation on multiple data points simultaneously
+Why do GPUs support SIMD processing? | They were designed to perform the same operations on multiple pixels or vertices simultaneously
+What three features make GPUs suited for certain tasks? | Specialist instructions, multiple cores, and SIMD processing
+How are GPU cores different from CPU cores? | GPU cores are smaller but optimised for parallel processing; CPU cores are optimised for serial processing
+Name two benefits of using a GPU alongside a CPU. | Parallel processing and speed (also efficiency)
+Why are GPUs more energy efficient for parallel tasks? | They can perform more calculations per unit of power consumed compared to CPUs
+Can a computer use only a GPU without a CPU? | No - the CPU assigns tasks to the GPU
+What is parallel processing? | When a computer has multiple cores that can work on the same task or separate tasks simultaneously
+What is a multicore system? | A system with more than one processing unit in a single processor that can independently process instructions at the same time
+Name two speed-related benefits of parallel processing. | Reduced execution time for divisible tasks and improved performance through simultaneous computation
+Name two limitations of parallel processing. | Limit on maximum speed improvement and complex programming requirements
+Why is debugging parallel programs more difficult? | Due to the precise timing of specific events
+What is a drawback of communication between processors in parallel processing? | Communication can take significant time and resources, potentially outweighing the benefits
+Can all tasks be run in parallel? | No - some tasks must be executed serially
+Name three benefits of using multicore processors. | Multitasking, handling background tasks, and improved responsiveness
+How do multicore processors help with background tasks? | They can assign background tasks to one core, reducing impact on other tasks
+How do multicore processors improve responsiveness? | If one program becomes unresponsive, other cores continue running their tasks so the computer doesn't slow down as much

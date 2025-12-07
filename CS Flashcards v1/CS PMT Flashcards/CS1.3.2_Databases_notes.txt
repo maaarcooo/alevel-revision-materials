@@ -1,0 +1,52 @@
+What is an entity in a database? | An item of interest about which information is stored.
+What is a relational database? | A database that recognises differences between entities by creating different tables for each entity.
+What are attributes? | Characteristics of an entity; categories about which data is collected.
+What is a flat file database? | A database consisting of a single file, typically based around a single entity and its attributes.
+What is a primary key? | A unique identifier for each record in a table.
+What is a foreign key? | An attribute that links two tables together; exists as a primary key in one table and a foreign key in another.
+How is a primary key shown in database notation? | By underlining it.
+How is a foreign key shown in database notation? | Using an asterisk (*).
+What is a secondary key? | An attribute indexed to allow a database to be searched quickly on that field.
+What is a one-to-one relationship? | Each entity can only be linked to one other entity (e.g., husband and wife).
+What is a one-to-many relationship? | One entity can be associated with many other entities (e.g., mother with multiple children).
+What is a many-to-many relationship? | One entity can be associated with many other entities and vice versa (e.g., students and courses).
+What is normalisation? | The process of creating the best possible layout for a relational database.
+What are the four goals of normalisation? | No redundancy, consistent data throughout linked tables, records can be added/removed without issues, complex queries can be carried out.
+What is First Normal Form (1NF)? | No attribute contains more than a single value.
+What is Second Normal Form (2NF)? | In 1NF with no partial dependencies; no attributes depend on part of a composite key.
+What is Third Normal Form (3NF)? | In 2NF with no non-key dependencies; attributes only depend on the primary key.
+What is indexing? | A method to store the position of each record ordered by a certain attribute for quick lookup.
+What is MICR? | Magnetic Ink Character Recognition; used by banks to scan cheques printed in special magnetic ink.
+What is OMR? | Optical Mark Recognition; used for multiple choice questions on tests.
+What is OCR? | Optical Character Recognition; used to recognise text on forms.
+What is EDI? | Electronic Data Interchange; enables automated data transfer from one computer to another without human interaction.
+What does SQL stand for? | Structured Query Language.
+What type of language is SQL? | A declarative language.
+What does the SELECT statement do? | Collects specified fields from a table.
+What does the FROM statement specify? | Which table(s) the information will come from.
+What does the WHERE statement do? | Specifies the search criteria for a query.
+What does ORDER BY do by default? | Orders results in ascending order.
+How do you order results in descending order? | Add DESC after ORDER BY (e.g., ORDER BY DatePublished DESC).
+What does JOIN do? | Combines rows from multiple tables based on a common field.
+What does the CREATE statement do? | Creates new databases or tables.
+What does NOT NULL mean in CREATE TABLE? | The field must be filled in; it cannot be empty.
+What is the CHAR(n) data type? | A string of fixed length n.
+What is the VARCHAR(n) data type? | A string of variable length with upper limit n.
+What is the INTEGER/INT data type? | An integer number.
+What is the FLOAT data type? | A number with a floating decimal point.
+What is the DATE data type format? | Day/Month/Year.
+What is the TIME data type format? | Hour/Minute/Second.
+What does ALTER TABLE do? | Adds, deletes, or modifies columns in a table.
+What does INSERT INTO do? | Inserts a new record into a database table.
+What does UPDATE do? | Updates an existing record in a database table.
+What does DELETE FROM do? | Deletes a record from a database table.
+What is referential integrity? | Ensuring consistency by preventing deletion of information required elsewhere in a linked database.
+What is a transaction in databases? | A single operation or collection of operations executed on data.
+What does the A in ACID stand for? | Atomicity - a transaction must be processed entirely or not at all.
+What does the C in ACID stand for? | Consistency - a transaction must maintain referential integrity rules between linked tables.
+What does the I in ACID stand for? | Isolation - simultaneous transactions should produce the same result as if executed sequentially.
+What does the D in ACID stand for? | Durability - once executed, a transaction remains so regardless of circumstances (e.g., power cut).
+What is record locking? | Preventing simultaneous access to records in a database to prevent inconsistencies or loss of updates.
+What is deadlock in databases? | When two users are each waiting for a record locked by the other, causing no progress.
+What is redundancy in databases? | Having one or more copies of data in physically different locations as backup.
+Why is redundancy important? | If one copy is damaged, other copies remain unaffected and can be recovered.

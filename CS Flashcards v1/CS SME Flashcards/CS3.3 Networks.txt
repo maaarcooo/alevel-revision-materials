@@ -1,0 +1,90 @@
+3.3 Networks Flashcards
+
+What is a network? | A set of interconnected devices designed to share resources, exchange data, and communicate with each other.
+What is the main purpose of a network? | To enable data and resource sharing, communication, and collaboration.
+What are network protocols? | Rules and formats that devices must follow to communicate with each other over a network.
+Why are protocols important? | They ensure successful and secure data transmission and maintain order and efficiency in communications.
+What is a standard in networking? | A set of guidelines or frameworks that govern how tasks should be performed or products should function.
+Why are standards needed in networks? | To ensure compatibility and interoperability between different devices and software, regardless of manufacturer.
+What does HTTP stand for? | HyperText Transfer Protocol.
+What is HTTP used for? | Transferring web content (text, images, video) between clients and servers.
+What is HTTPS? | HTTP Secure - a version of HTTP with encryption for secure transactions.
+What does SMTP stand for? | Simple Mail Transfer Protocol.
+What is SMTP used for? | Sending email messages between servers.
+What does FTP stand for? | File Transfer Protocol.
+What is FTP used for? | Transferring files from one host to another over a network.
+What does ARP stand for? | Address Resolution Protocol.
+What does ARP do? | Translates IP addresses into MAC addresses.
+What does TCP stand for? | Transmission Control Protocol.
+What does TCP provide? | Reliable, ordered, and error-checked delivery of data packets.
+What does UDP stand for? | User Datagram Protocol.
+How does UDP differ from TCP? | UDP is faster but doesn't guarantee delivery or order, as it skips error-checking.
+What does IP stand for? | Internet Protocol.
+What does IP do? | Addresses and routes packets of data from source to destination.
+What is protocol layering? | Dividing network protocols into layers, each performing specific functions.
+Why use layering in networks? | Provides modularity, simplifies troubleshooting, promotes interoperability, and allows independent updates.
+What does TCP/IP stand for? | Transmission Control Protocol/Internet Protocol.
+What are the four layers of the TCP/IP model? | Application, Transport, Internet, and Link layers.
+What does the Application layer do? | Interacts with software applications and prepares data for transmission (encapsulation).
+What does the Transport layer do? | Breaks data into packets, assigns port numbers, and adds headers for end-to-end communication.
+What does the Internet layer do? | Adds IP addresses to packets and routes them across the network.
+What does the Link layer do? | Translates digital packets into electrical, optical, or wireless signals for physical transmission.
+What is a packet? | A small unit of data containing a header, payload, and footer.
+What does a packet header contain? | Source and destination IP addresses, sequence number, protocol, packet length, and checksum.
+What is an IP address? | A unique identifier for a device on a network.
+What are the two versions of IP addresses? | IPv4 (e.g., 104.22.74.202) and IPv6 (e.g., 0000:0000:0000:0000:0000::6816:4aca).
+What is DNS? | Domain Name System - a directory that translates domain names to IP addresses.
+Why do we need DNS? | So we can use easy-to-remember domain names instead of hard-to-remember IP addresses.
+What is a DNS resolver? | The first stop in DNS lookup, usually provided by your ISP or third-party service.
+What are DNS root servers? | Servers that direct the resolver to the top-level domain server (like .com, .org).
+What are TLD servers? | Top-Level Domain servers that store information about domains with specific extensions.
+What are authoritative DNS servers? | Servers that provide the actual IP address for a requested domain.
+What is a LAN? | Local Area Network - a network contained within a small geographical location.
+Who typically owns LAN hardware? | A single entity or organisation.
+What is an advantage of a LAN? | Centralised management, better security, and easy file sharing.
+What is a disadvantage of a LAN? | If hardware fails, the network may not function; requires maintenance.
+What is a WAN? | Wide Area Network - connects multiple LANs over a large geographical area.
+How are WANs typically connected? | Using third-party connections like leased lines, fibre, or satellite links from ISPs.
+What is an advantage of a WAN? | Enables communication and data sharing between different locations.
+What is a disadvantage of a WAN? | Typically slower than LANs, more expensive, and more vulnerable to security risks.
+What is packetising? | Dividing a large message into smaller, manageable units called packets.
+What three parts make up a packet? | Header, payload (data), and footer.
+What is packet switching? | A method where data is broken into packets, sent along different routes, and reassembled at the destination.
+What is an advantage of packet switching? | Efficient use of network resources and more reliable.
+What is a disadvantage of packet switching? | Not ideal for real-time services; packets can arrive out of order.
+What is circuit switching? | A method where a dedicated communication path is established for the duration of a conversation.
+What is an advantage of circuit switching? | Ideal for real-time services with constant data transmission and no delays.
+What is a disadvantage of circuit switching? | Less efficient as resources remain allocated even when no data is being sent.
+What is hacking? | Gaining unauthorised access to a system to steal data, disrupt services, or cause damage.
+What is a virus? | Malicious software that attaches to legitimate programs and replicates to spread.
+What is a worm? | Malware that can spread and replicate itself over networks without attaching to programs.
+What is a Trojan horse? | Malware disguised as legitimate software that can delete data or damage hardware.
+What is spyware? | Software that records key presses and transmits them to a third party.
+What is ransomware? | Malware that encrypts files and demands payment to decrypt them.
+What is a DoS attack? | Denial of Service - flooding a server with requests to crash it or make it unavailable.
+What is a DDoS attack? | Distributed Denial of Service - using multiple computers as bots to flood a server.
+What is SQL injection? | Inserting malicious SQL statements into entry fields to exploit database vulnerabilities.
+What is phishing? | Sending fake emails with links to fake websites to steal personal information.
+What is pharming? | Redirecting website traffic to a bogus site through malware to steal information.
+What is social engineering? | Manipulating individuals to gain access to confidential information or systems.
+What is a firewall? | A security system that monitors and controls network traffic based on security rules.
+What is two-factor authentication (2FA)? | Requiring two forms of identification (password plus code) for added security.
+What is a modem? | A device that converts digital signals to analogue (and vice versa) for transmission over telephone or cable lines.
+What is a router? | A device that routes data between networks by analysing packets and determining the best path.
+What is a public IP address? | An IP address assigned by an ISP to identify a network on the internet.
+What does a router use to direct packets? | The IP address in the packet header and a routing table.
+What is a hop in networking? | Each pass from router to router as a packet travels to its destination.
+What are Ethernet cables? | Physical cables (like Cat5, Cat6) used to transfer data in wired networks.
+What is a NIC? | Network Interface Card - hardware that enables a device to connect to a network.
+What is a MAC address? | A unique identifier assigned to a network interface card during manufacturing.
+What is a Wireless Access Point (WAP)? | A device that transmits and receives Wi-Fi signals, connecting wireless devices to a wired network.
+What is a hub? | A networking device that connects multiple devices and broadcasts data to all connections.
+Why are hubs inefficient? | They send all data to all devices, creating unnecessary traffic and security issues.
+What is a switch? | A networking device that sends data only to the intended device using a lookup table.
+How does a switch know where to send data? | It examines the destination MAC address and checks its lookup table.
+What is a client-server network? | A network where powerful servers control and serve clients with resources and services.
+What is an advantage of a client-server network? | Easier central management, scalability, and higher reliability.
+What is a disadvantage of a client-server network? | Single point of failure; expensive to set up and maintain.
+What is a peer-to-peer network? | A network where all computers share equal responsibility with no central server.
+What is an advantage of a peer-to-peer network? | Easy to set up, less expensive, and no dependency on a central server.
+What is a disadvantage of a peer-to-peer network? | Lack of central control can lead to security issues; not suitable for large networks.

@@ -1,0 +1,61 @@
+What are programming paradigms? | Different approaches to using a programming language to solve a problem.
+What are the two broad categories of programming paradigms? | Imperative and declarative.
+What is imperative programming? | Programming that uses code that clearly specifies the actions to be performed.
+What is procedural programming? | A type of imperative programming that uses a sequence of instructions carried out step-by-step, which may be contained within procedures.
+Give three examples of procedural programming languages. | Pascal, Python, Logo.
+What is object-oriented programming (OOP)? | Programming built on entities called objects formed from classes, which have attributes and methods. Focuses on reusable, easy to update programs.
+Give three examples of object-oriented programming languages. | Python, Delphi, Java.
+What is declarative programming? | Programming that focuses on stating the desired result rather than exact instructions. The language determines how to obtain the result.
+What is functional programming? | Programming that uses reusable functions which form the core of the program. Programs consist of function calls, often combined within each other.
+Give three examples of functional programming languages. | Haskell, C#, Java.
+What is logic programming? | Programming that defines facts and rules based on the problem. Queries are used to find answers.
+Give an example of a logic programming language. | Prolog.
+What are the four main programming structures in structured programming? | Sequence, selection, iteration, and recursion.
+What is sequence in programming? | Code executed line-by-line, from top to bottom.
+What is selection in programming? | A block of code run if a specific condition is met, using IF statements.
+What is iteration in programming? | A block of code executed a certain number of times or while a condition is met, using FOR, WHILE or REPEAT UNTIL loops.
+What is recursion in programming? | Functions expressed in terms of themselves, calling themselves until a base case is met.
+What is assembly language? | A low-level language that is the next level up from machine code, converted to machine code using an assembler.
+What does assembly language use instead of binary? | Mnemonics (abbreviations for machine code instructions).
+What is a mnemonic in assembly language? | An abbreviation for a machine code instruction in assembly code.
+What does the ADD mnemonic do in LMC? | Adds the value at the given memory address to the value in the Accumulator.
+What does the SUB mnemonic do in LMC? | Subtracts the value at the given memory address from the value in the Accumulator.
+What does the STA mnemonic do in LMC? | Stores the value in the Accumulator at the given memory address.
+What does the LDA mnemonic do in LMC? | Loads the value at the given memory address into the Accumulator.
+What does the INP mnemonic do in LMC? | Allows the user to input a value which will be held in the Accumulator.
+What does the OUT mnemonic do in LMC? | Prints the value currently held in the Accumulator.
+What does the HLT mnemonic do in LMC? | Stops the program at that line, preventing the rest of the code from executing.
+What does the DAT mnemonic do in LMC? | Creates a flag with a label at which data is stored.
+What does the BRZ mnemonic do in LMC? | Branches to a given address if the value in the Accumulator is zero (conditional branch).
+What does the BRP mnemonic do in LMC? | Branches to a given address if the value in the Accumulator is positive (conditional branch).
+What does the BRA mnemonic do in LMC? | Branches to a given address no matter the value in the Accumulator (unconditional branch).
+What is an opcode? | The part of a machine code instruction that specifies the instruction to be performed.
+What is an operand? | The part of a machine code instruction that holds a value related to the data on which the instruction is performed.
+What is an addressing mode? | How the operand should be interpreted in a machine code instruction.
+What are the four addressing modes you need to know? | Immediate, direct, indirect, and indexed.
+What is immediate addressing? | The operand is the actual value upon which the instruction is to be performed, represented in binary.
+What is direct addressing? | The operand gives the address which holds the value upon which the instruction is to be performed.
+What is indirect addressing? | The operand gives the address of a register which holds another address, where the data is located.
+What is indexed addressing? | An index register stores a value. The address is determined by adding the operand to the index register. Used for arrays.
+What is a class in OOP? | A template for an object that defines the state and behaviour of an object.
+What is an object in OOP? | A particular instance of a class.
+What are attributes in OOP? | Properties that give an object's state.
+What are methods in OOP? | Actions associated with a class that describe what it can perform.
+What is instantiation in OOP? | The process of creating objects from a class.
+What is a setter in OOP? | A method that sets the value of a particular attribute.
+What is a getter in OOP? | A method that retrieves the value of a given attribute.
+What is encapsulation in OOP? | Attributes are declared as private so can only be altered by public methods, preventing direct access by users.
+What is a constructor in OOP? | A method called 'new' that allows a new object to be created.
+What is inheritance in OOP? | A class (subclass) can inherit all methods and attributes from another class (superclass) and have its own additional properties.
+What is the superclass in inheritance? | The parent class from which a subclass inherits properties.
+What is the subclass in inheritance? | The derived class that inherits from the superclass and can have additional properties.
+What is polymorphism in OOP? | Objects can behave differently depending on their class, producing different outputs for the same method.
+What is overriding in polymorphism? | Redefining a method within a subclass so it functions differently and produces a different output.
+What is overloading in polymorphism? | Passing different parameters into a method to produce different results.
+Give three advantages of OOP. | High level of reusability, encapsulation makes code reliable, modular structure makes it easy to maintain.
+Give three disadvantages of OOP. | Different style of thinking, not suited to all problems, unsuitable for smaller problems.
+What is the Little Man Computer (LMC)? | A simplified hypothetical computer model used for understanding fundamental computer operations.
+What advantage does assembly language have over machine code? | Uses mnemonics instead of binary, making it easier to use.
+What disadvantage does assembly language have? | Commands are processor-specific, so not portable across different CPUs.
+When is procedural programming most suited? | For problems that can easily be expressed as a series of instructions using sequence, selection, iteration, and recursion.
+What is structured programming? | A subsection of procedural programming where control flow is given by sequence, selection, iteration, and recursion.

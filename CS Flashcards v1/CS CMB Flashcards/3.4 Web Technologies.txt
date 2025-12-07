@@ -1,0 +1,55 @@
+What is HTML? | HTML is the language/script that web pages are written in. It describes the structure and order of a webpage using tags in angle brackets.
+What are the two main sections of a webpage? | The head (contains the title) and the body (contains the content).
+What does the <html> tag do? | All code written within these tags is interpreted as HTML.
+What does the <body> tag define? | Defines the content in the main content area of the webpage.
+What does the <head> tag define? | Defines the browser tab or window heading area.
+What does the <title> tag do? | Defines the text that appears in the tab or window heading area.
+What do <h1>, <h2>, <h3> tags represent? | Heading styles in decreasing sizes.
+What does the <p> tag do? | Defines a paragraph separated with a line space above and below.
+What is the <img> tag used for? | Used for images. It's a self-closing tag that requires src (source), height, and width parameters.
+What does the <a> tag do? | An anchor tag that defines a hyperlink with format: <a href="location">link text</a>
+What does the <ol> tag create? | An ordered list (numbered list).
+What does the <ul> tag create? | An unordered list (bulleted list).
+What tag is used for list items in both ordered and unordered lists? | The <li> tag.
+What does the <div> tag do? | Divides a page into separate areas, each which can be referred to uniquely by name.
+What is the <link> tag used for? | Used to link to additional files, including CSS stylesheets.
+What are classes in HTML? | Attributes given to elements that allow multiple elements to follow a consistent style. Defined using a full stop (.).
+What are identifiers in HTML? | A unique name given to an element on a web page. Only one element can be associated with a particular identifier. Defined using a hashtag (#).
+What is CSS? | Cascading Style Sheets - a language used to describe the style of a webpage and specify how HTML elements look.
+What are the two forms of CSS? | Internal/embedded CSS (placed inside style tags in HTML) and external CSS (written in a separate document).
+How do you link an external CSS stylesheet to HTML? | <link href="nameofstylesheet.css" rel="stylesheet" type="text/css">
+What is JavaScript? | A scripting language that adds interactivity to websites and is interpreted by the browser rather than compiled.
+Is JavaScript compiled or interpreted? | Interpreted - web pages are interpreted by the browser each time they are loaded.
+What is JavaScript often used to validate? | Input data on the client computer.
+Give three advantages of using JavaScript. | 1) Local computer can deal with invalid data before sending to servers, 2) Eases the load on busy servers, 3) Reduces web traffic.
+How do you change the attributes of a HTML element using JavaScript? | chosenElement = document.getElementById("example"); chosenElement.innerHTML = "Hello World";
+How do you write directly to a document using JavaScript? | document.write("Hello World");
+How do you display an alert box using JavaScript? | alert("Hello World");
+What is a search engine? | A program that searches through a database of internet addresses looking for resources based on criteria set by the client.
+What are web crawlers? | Programs (also called spiders) used to collect information about websites to build the search engine index by traversing the Internet page by page.
+How do web crawlers work? | They traverse the Internet using links on websites, collecting keywords, phrases, and metadata from web pages to add to the index.
+What is metadata in the context of websites? | Information specified by the website owner that web crawlers collect and add to the search engine index.
+What does the PageRank algorithm do? | Ranks web pages to determine the order in which they are displayed when a search is conducted.
+What two factors determine a page's PageRank? | 1) How many incoming links it has from other web pages, 2) The page rank of the web pages that link to it.
+What data structure is used to represent PageRank information? | A directed graph, where webpages are nodes and links between pages are arcs.
+What is the PageRank algorithm formula? | PageRank(x) = (1-d) + d[(PageRank(T1)÷Count(T1)) + ... + (PageRank(Tn)÷Count(Tn))]
+What is the damping factor (d) in PageRank typically set to? | 0.85
+What is Count(Tn) in the PageRank formula? | The total count of outbound links from a webpage n.
+What other factors do modern search engines consider besides PageRank? | The age of a web page and how quickly content on the web page loads.
+What is server side processing? | When a client sends data to a server for it to be processed, meaning no information is processed on the client computer.
+Name two common server side scripting languages. | SQL and PHP.
+Give four advantages of server side processing. | 1) Does not require plugins, 2) Can perform large calculations faster than clients, 3) Not browser dependent, 4) More secure.
+What is client side processing? | When a client processes data on a local device, meaning all information is processed on the client computer.
+What is another name for client side processing? | Client side scripting.
+Name a common client side scripting language. | JavaScript.
+Give three advantages of client side processing. | 1) Webpage can immediately respond to user actions, 2) Executes quickly, 3) Gives developers more control over the behaviour and look of the website.
+What does an index of web pages contain? | Keywords, phrases, and metadata collected by web crawlers from websites across the Internet.
+Why is the order of web resources in search results important? | It determines which websites users choose to visit and use, so high-quality websites with relevant content should appear first.
+In the PageRank algorithm, what initial value is assumed for unknown page ranks in the first iteration? | 1
+What does CSS stand for? | Cascading Style Sheets.
+Can CSS be applied to HTML tags like <h1>, <p>, and <div>? | Yes, CSS can be used to specify the way these HTML elements look.
+What is the difference between a class and an identifier in HTML/CSS? | Multiple elements can be assigned to a class, but only one element can be associated with a particular identifier.
+What symbol is used to define a class in CSS? | A full stop (.)
+What symbol is used to define an identifier in CSS? | A hashtag (#)
+What makes JavaScript platform-independent? | It is interpreted by the browser each time pages are loaded, independently of the processor architecture.
+What are web crawlers also called? | Spiders.

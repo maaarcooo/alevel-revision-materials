@@ -1,0 +1,20 @@
+What is compression? | The process used to reduce the storage space required by a file, allowing more files to be stored and faster transfer over networks.
+What is the main difference between lossy and lossless compression? | Lossy compression removes some information permanently, while lossless compression allows the original file to be fully recovered.
+What is Run Length Encoding (RLE)? | A lossless compression method where repeated values are replaced with one occurrence followed by the number of repetitions (e.g., AAAAAABBBBBCCC becomes A6B5C3).
+When does Run Length Encoding work well? | When there is high repetition with consecutive pieces of data being the same. Little repetition means poor file size reduction.
+What is dictionary encoding? | A lossless compression method where frequently occurring data is replaced with an index, and compressed data is stored alongside a dictionary for restoration.
+What must be transferred alongside dictionary-compressed data? | The dictionary itself. Without the dictionary, the data cannot be used.
+What is encryption used for? | To keep data secure when it's being transmitted by scrambling it before transmission and deciphering it at the destination.
+What is symmetric encryption? | An encryption method where both sender and receiver share the same private key used for both encrypting and decrypting data.
+What is the main security risk of symmetric encryption? | If the private key is intercepted during the key exchange, any communications can be intercepted and decrypted.
+What is asymmetric encryption? | An encryption method using two mathematically related keys: a public key (can be published freely) and a private key (must be kept secret).
+How does asymmetric encryption work for sending secure messages? | The sender encrypts the message with the recipient's public key, and only the recipient can decrypt it with their private key.
+How can you prove you sent a message using asymmetric encryption? | Encrypt the message with your private key. Anyone can decrypt it with your public key, proving only you could have encrypted it (basis of digital signatures).
+What is hashing? | A process where an input (key) is turned into a fixed-size value (hash) using a hash function.
+Can a hash be reversed to get the original input? | No, hash functions cannot be reversed, which makes them useful for storing passwords securely.
+What is a hash table? | A data structure holding key-value pairs, formed from a bucket array and hash function, allowing constant-time data lookup.
+What is a collision in hashing? | When two different pieces of data (keys) produce the same hash value.
+What are two methods to overcome hash collisions? | Storing items together in a list under the hash value, or using a second hash function to generate a new hash.
+What are three characteristics of a good hash function? | Low chance of collision, quick to calculate, and output smaller than input.
+Where are hash tables commonly used? | In caches and databases where large amounts of data need constant access times.
+Why is hashing useful for password storage? | A hacker only gains access to hashes which cannot be reversed to reveal passwords, while entered passwords can still be verified by hashing and comparing.

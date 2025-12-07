@@ -1,0 +1,34 @@
+What is the Accumulator (ACC)? | A special register that temporarily stores results of ALU operations.
+What does the Address Bus do? | Carries memory location addresses between the CPU and memory.
+What is the ALU? | The Arithmetic and Logic Unit - performs calculations and logical operations on data.
+What are buses in a computer? | Parallel wires connecting components and carrying groups of bits.
+What is cache memory? | Small, fast, expensive memory in the CPU storing frequently accessed instructions and data.
+What is clock speed? | The frequency at which the CPU clock generates signals, controlling how often instructions execute.
+What is contemporary processor architecture? | Modern computer architecture combining elements of Von Neumann and Harvard architectures.
+What does the Control Bus do? | Bi-directional bus carrying control signals from the CU to synchronise data access.
+What is the Control Unit (CU)? | Controls and manages instruction execution, sends control signals, and manages the fetch-decode-execute cycle.
+What is the Current Instruction Register (CIR)? | Stores the current instruction being executed, divided into operand and opcode.
+What does the Data Bus do? | Bi-directional bus carrying data and instructions between processor and memory.
+Describe the fetch-decode-execute cycle. | Fetch: retrieve instruction from memory. Decode: interpret instruction and retrieve data. Execute: carry out the instruction.
+What is Harvard Architecture? | Stores data and instructions in separate memories, allowing simultaneous access.
+What is the Memory Address Register (MAR)? | Stores the memory address of the next instruction or data to access.
+What is the Memory Data Register (MDR)? | Temporarily stores data being read from or written to memory.
+What are cores in a processor? | Independent processing units with their own fetch-decode-execute cycles that can run simultaneously.
+What is pipelining? | Simultaneously processing multiple instructions by fetching the next while decoding the current one.
+What is the Program Counter (PC)? | Stores the address of the next instruction to execute.
+What are registers? | Fast-access special memory cells temporarily storing data and control information.
+What is Von Neumann Architecture? | Single control unit managing program control via linear fetch-decode-execute cycles, with shared memory for data and instructions.
+What is CISC? | Complex Instruction Set Computer - executes complex multi-step instructions in hardware. Uses less RAM but cannot pipeline.
+What is a GPU? | Graphics Processing Unit - has many small cores for efficient parallel computation in graphics, machine learning, etc.
+What are multicore systems? | Multiple CPU cores in a single chip to distribute workload.
+What is parallel processing? | Splitting tasks into subtasks executed simultaneously by different cores.
+What is RISC? | Reduced Instruction Set Computer - executes one simple instruction per clock cycle. Uses more RAM but allows pipelining.
+What is flash storage? | Solid state storage using memory chips with no moving parts, accessed by software.
+What are input devices? | Peripherals that allow users to pass readable data into a computer and send it to the CPU.
+What is magnetic storage? | Uses polarisation of magnetic particles on mechanically moved material. High capacity, low cost.
+What is optical storage? | Stores data as reflectivity patterns (pits and lands) read/written by laser.
+What are output devices? | Peripherals converting computer signals into human-readable form.
+What is RAM? | Random Access Memory - volatile memory storing programs and data currently in use. Fast access but data lost when powered off.
+What is ROM? | Read-Only Memory - non-volatile memory storing permanent boot-up information. Cannot be written to.
+What is a storage device? | Any medium storing data even when powered off.
+What is virtual storage? | Using hard disk as an extension of RAM to free up memory for current programs.

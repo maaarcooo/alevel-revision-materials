@@ -1,0 +1,40 @@
+What are programming paradigms? | Established conventions and practices that dictate how computer programs are structured and developed.
+What is procedural programming? | A subtype of imperative programming structured around procedure calls (e.g., C, Go, Rust).
+What is object-oriented programming? | A paradigm that organises code around objects which combine data and functionality (e.g., Java, C#, Swift).
+What is assembly language? | Low-level mnemonic representation of machine code for a specific computer architecture.
+Name two strengths of procedural programming. | Efficient execution of straightforward tasks and clear flow of control (top to bottom).
+Name two weaknesses of procedural programming. | Can become unwieldy for large programs and lacks modularity leading to code redundancy.
+Name two strengths of object-oriented programming. | Enhances modularity with encapsulation and enables code reuse through inheritance.
+Name two weaknesses of object-oriented programming. | Can lead to unnecessary complexity and inefficiency due to overhead (e.g., memory for objects).
+Name two strengths of assembly language. | Direct control over hardware and optimised performance due to low-level operations.
+Name two weaknesses of assembly language. | Extremely steep learning curve and hardware-specific leading to lack of portability.
+What is a variable in programming? | A storage location for data values that can change during program execution.
+What is a constant in programming? | A storage location for values that remain unchanged throughout program execution.
+What is selection in programming? | Decision-making constructs (e.g., if-else statements) that control program flow.
+What is iteration in programming? | Using loops to repeat actions (e.g., for loops, while loops).
+What is a subroutine? | A reusable block of code that organises program functionality into separate parts.
+What is string handling? | Operations performed on character strings (e.g., converting to uppercase, concatenation).
+What is file handling? | Reading from and writing to files for data storage and retrieval.
+What are boolean operators? | Logical operations (e.g., AND, OR, NOT) that work with true/false values.
+What are arithmetic operators? | Basic mathematical operations (e.g., +, -, *, /).
+What is the purpose of assembly language? | It sits between high-level languages and machine code, allowing more efficient but complex code with direct hardware access.
+What is the Little Man Computer (LMC)? | A simplified hypothetical computer model used to understand fundamental computer operations and mechanics.
+What does the LMC mnemonic ADD do? | Adds a value to the accumulator.
+What does the LMC mnemonic SUB do? | Subtracts a value from the accumulator.
+What does the LMC mnemonic STA (or STO) do? | Stores the accumulator value in a memory location.
+What does the LMC mnemonic LDA (or LOAD) do? | Loads a value from memory into the accumulator.
+What does the LMC mnemonic BRA (or BR) do? | Branch always - unconditionally jumps to a label.
+What does the LMC mnemonic BRZ (or BZ) do? | Branch if zero - jumps to a label if the accumulator is zero.
+What does the LMC mnemonic BRP (or BP) do? | Branch if positive or zero - jumps to a label if the accumulator is positive or zero.
+What does the LMC mnemonic INP (or IN, INPUT) do? | Inputs a value from the user into the accumulator.
+What does the LMC mnemonic OUT (or OUTPUT) do? | Outputs the value in the accumulator.
+What does the LMC mnemonic HLT (or COB, END) do? | Ends the program execution.
+What does the LMC mnemonic DAT do? | Defines a data location in memory for storing values.
+What is an addressing mode? | The way an instruction in assembly language accesses data stored in memory.
+What are the four main types of addressing modes? | Immediate, direct, indirect, and indexed.
+What is immediate addressing? | The operand is part of the instruction itself (e.g., MOV AX, 1234h).
+What is direct addressing? | The memory address of the operand is directly specified in the instruction (e.g., MOV AX, [1234h]).
+What is indirect addressing? | A register contains the memory address of the operand (e.g., MOV AX, [BX] where BX holds an address).
+What do brackets [ ] around a register mean in assembly language? | Treat the value inside the register as a memory address and use the data at that address.
+What is indexed addressing? | Combines a base address with an index to compute the effective address (e.g., MOV AX, [BX + SI]).
+In indexed addressing with MOV AX, [BX + SI], if BX = 0050h and SI = 1000h, what is the effective address? | 1050h (because 1000h + 0050h = 1050h).

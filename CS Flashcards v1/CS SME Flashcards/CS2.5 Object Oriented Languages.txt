@@ -1,0 +1,36 @@
+# 2.5 Object Oriented Languages - Flashcards
+
+What is a class in OOP? | A blueprint or template used to create objects with specific attributes and methods.
+What is instantiation? | The process of creating an object from a class.
+What are class variables? | Attributes (variables) defined within a class.
+What are instance variables? | Attributes belonging to a specific object created from a class.
+What is an identifier in OOP? | The name used to refer to an object.
+Give three examples of prebuilt classes in Java. | Date/Calendar (dates), String (text), Random (random numbers), Scanner (user input).
+What is an object in OOP? | A specific instance of a class representing a real-world entity with its own unique values.
+What is a constructor? | A special method automatically called when an object is created, used to initialise instance variables.
+What is a method in OOP? | A function associated with a class that defines the behaviour and actions objects can perform.
+What is the difference between a function and a procedure? | A function returns a value; a procedure does not return a value.
+What are instance methods? | Methods associated with individual objects that operate on the object's specific data.
+What are static methods? | Methods associated with a class itself that can be called without creating an object.
+How do you call a method on an object? | Use dot notation: objectName.methodName()
+What is a public method? | A method accessible by any code within the same class or from external classes.
+What is a private method? | A method only accessible within the same class, not by external code.
+What is the default access level if public or private is not specified? | Public.
+What is an attribute in OOP? | A data member or property associated with an object or class that defines its state.
+Can local variables have access modifiers? | No, local variables are limited to the method scope and cannot have access modifiers.
+What is inheritance in OOP? | When a class inherits properties and behaviours (methods and attributes) from another class.
+What is a base class? | The parent/superclass that serves as the blueprint from which derived classes inherit.
+What is a derived class? | The child/subclass that inherits attributes and methods from the base class.
+What relationship does inheritance establish? | An "IS-A" relationship (e.g., "a Car is a Vehicle").
+What is the super keyword used for? | To refer to the superclass and access its members from within the subclass.
+What is the main benefit of inheritance? | Code reuse by avoiding duplication and promoting better organisation.
+What is encapsulation? | The practice of grouping data and methods within a class while controlling access using access modifiers.
+What are the benefits of encapsulation? | Data security, prevents accidental modification, organises related code together, promotes code reusability.
+What is abstraction in encapsulation? | Hiding implementation details of an object to reduce complexity and make it easier to use.
+How does encapsulation work with private variables? | Private variables are only accessible within the class; external code must use public methods to interact with them.
+What is polymorphism? | When objects can take on different forms or behaviours, allowing methods with the same name to execute different code.
+What is method overloading? | Declaring methods with the same name in different classes that execute different code.
+What is method overriding? | Providing a new implementation for a method already defined in the parent class using the override keyword.
+What is the override keyword used for? | To provide a new implementation for a method inherited from a parent class.
+How does polymorphism allow treating objects as common groups? | Objects of different derived classes can be treated as objects of their common base class.
+What are the benefits of polymorphism? | Makes code more flexible, reusable, easier to maintain, and more adaptable to changes.

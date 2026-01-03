@@ -1,0 +1,123 @@
+What are the three constituents of an atom? | Protons, neutrons, and electrons
+What are nucleons? | Protons and neutrons (particles in the nucleus)
+What is the charge of a proton in coulombs? | +1.6 × 10⁻¹⁹ C
+What is the mass of a proton in kg? | 1.67 × 10⁻²⁷ kg
+What is the relative mass of an electron? | 0.0005
+What is specific charge? | The charge-mass ratio of a particle (charge ÷ mass)
+What is the specific charge of a proton? | 9.58 × 10⁷ C kg⁻¹
+What is the proton number (Z)? | The number of protons in an atom
+What is the nucleon number (A)? | The total number of protons and neutrons
+What are isotopes? | Atoms with the same number of protons but different numbers of neutrons
+What is carbon-14 used for? | Carbon dating to find the approximate age of objects containing organic material
+What is the strong nuclear force (SNF)? | The force that keeps nuclei stable by counteracting electrostatic repulsion between protons
+What is the range of the strong nuclear force when attractive? | Up to 3 fm (femtometres)
+At what separation does the strong nuclear force become repulsive? | Below 0.5 fm
+What particles does the strong nuclear force act on? | Nucleons only (protons and neutrons)
+What are unstable nuclei? | Nuclei with too many protons, neutrons, or both, causing them to decay
+When does alpha decay occur? | In large nuclei with too many of both protons and neutrons
+In alpha decay, how does the proton number change? | It decreases by 2
+In alpha decay, how does the nucleon number change? | It decreases by 4
+When does beta-minus decay occur? | In neutron-rich nuclei (too many neutrons)
+In beta-minus decay, how does the proton number change? | It increases by 1
+In beta-minus decay, how does the nucleon number change? | It stays the same
+Why were neutrinos hypothesised? | To account for energy not appearing to be conserved in beta-minus decay
+What is an antiparticle? | A particle with the same rest energy and mass but opposite properties to its corresponding particle
+What is the antiparticle of an electron? | A positron (e⁺)
+What is the rest energy of an electron in MeV? | 0.511 MeV
+What are photons? | Packets of electromagnetic radiation that transfer energy and have no mass
+What equation relates photon energy to frequency? | E = hf (where h is Planck's constant)
+What is Planck's constant? | 6.63 × 10⁻³⁴ Js
+What is the alternative equation for photon energy? | E = hc/λ (where λ is wavelength)
+What is annihilation? | When a particle and its antiparticle collide, converting their masses into energy
+How many photons are produced in annihilation? | 2 photons moving in opposite directions (to conserve momentum)
+What is pair production? | When a photon is converted into equal amounts of matter and antimatter
+What minimum energy must a photon have for pair production? | Energy greater than the total rest energy of both particles produced
+What is a PET scanner? | A medical device using positron annihilation to create 3D images of the body's interior
+What are the four fundamental forces? | Gravity, electromagnetic, weak nuclear, and strong nuclear
+What are exchange particles? | Particles that carry energy and momentum between particles experiencing a force
+What is the exchange particle for the strong force? | Gluon
+What is the range of the strong force? | 3 × 10⁻¹⁵ m
+What particles does the strong force act on? | Hadrons
+What is the exchange particle for the weak force? | W boson (W⁺ or W⁻)
+What is the range of the weak force? | 10⁻¹⁸ m
+What particles does the weak force act on? | All particles
+What is the exchange particle for electromagnetic force? | Virtual photon (γ)
+What particles does electromagnetic force act on? | Charged particles
+What is responsible for beta decay? | The weak nuclear force
+What is the equation for electron capture? | p + e⁻ → n + νₑ
+What is the equation for beta-plus decay? | p → n + e⁺ + νₑ
+What is the equation for beta-minus decay? | n → p + e⁻ + ν̄ₑ
+What are the two main categories of particles? | Hadrons and leptons
+What are leptons? | Fundamental particles that do not experience the strong nuclear force
+What are hadrons? | Particles formed of quarks that experience the strong nuclear force
+What are the two types of hadrons? | Baryons (and antibaryons) and mesons
+What are baryons made of? | 3 quarks
+What are antibaryons made of? | 3 antiquarks
+What are mesons made of? | A quark and an antiquark
+What is the baryon number? | A property showing whether a particle is a baryon (+1), antibaryon (-1), or not a baryon (0)
+Is baryon number conserved in particle interactions? | Yes, always
+What is the only stable baryon? | The proton
+What is the lepton number? | A property showing whether a particle is a lepton (+1), antilepton (-1), or not a lepton (0)
+What are the two types of lepton number? | Electron lepton number and muon lepton number
+Is lepton number conserved in particle interactions? | Yes, always
+What is a muon sometimes called? | A "heavy electron"
+What do muons decay into? | Electrons
+What are strange particles? | Particles produced by strong interaction but decay by weak interaction
+What strange particles do you need to know? | Kaons (which decay into pions)
+What is strangeness? | A property showing strange particles must be created in pairs
+Is strangeness conserved in strong interactions? | Yes
+Can strangeness change in weak interactions? | Yes, by 0, +1, or -1
+What are quarks? | Fundamental particles that make up hadrons
+What is the charge of an up quark? | +2/3 e
+What is the charge of a down quark? | -1/3 e
+What is the charge of a strange quark? | -1/3 e
+What is the baryon number of all quarks? | +1/3
+What is the strangeness of an up quark? | 0
+What is the strangeness of a down quark? | 0
+What is the strangeness of a strange quark? | -1
+What quark combination forms a proton? | uud (up, up, down)
+What quark combination forms a neutron? | udd (up, down, down)
+How do you find the quark combination of an antibaryon? | Change the quarks of the baryon into their respective antiquarks
+What is the quark combination for π⁺? | ud̄ (up and anti-down)
+What is the quark combination for π⁻? | ūd (anti-up and down)
+What is the quark combination for K⁺? | us̄ (up and anti-strange)
+What properties must always be conserved in particle interactions? | Energy, momentum, charge, baryon number, electron lepton number, muon lepton number
+When must strangeness be conserved? | Only during strong interactions
+In beta-minus decay, what quark change occurs? | A down quark changes into an up quark
+In beta-plus decay, what quark change occurs? | An up quark changes into a down quark
+Why are beta decays caused by the weak interaction? | Because there is a change of quark type
+What is the photoelectric effect? | Photoelectrons are emitted from a metal surface when light above a threshold frequency shines on it
+What is threshold frequency? | The minimum frequency of light needed to cause photoelectric emission from a specific metal
+Why couldn't wave theory explain the threshold frequency? | Wave theory suggested any frequency should cause emission as energy gradually accumulates
+What does the photon model say about EM waves? | EM waves travel in discrete packets called photons with energy proportional to frequency
+How many photons can each electron absorb? | A single photon
+What happens if light intensity increases above threshold frequency? | More photoelectrons are emitted per second
+What is the work function (φ)? | The minimum energy required for electrons to be emitted from a metal surface
+What is stopping potential? | The potential difference needed to stop photoelectrons with maximum kinetic energy
+How do you calculate maximum kinetic energy from stopping potential? | Eₖ(max) = eVₛ (where e is electron charge and Vₛ is stopping potential)
+What is the photoelectric equation? | E = hf = φ + Eₖ(max)
+What are discrete energy levels? | Specific energy states where electrons can exist in atoms
+What is excitation? | When an electron gains energy and moves to a higher energy level
+What is ionisation? | When an electron gains enough energy to be completely removed from an atom
+When does ionisation occur? | When the free electron energy is greater than the ionisation energy
+What happens when an excited electron returns to ground state? | It releases energy in the form of a photon
+What is in a fluorescent tube? | Mercury vapour
+How does a fluorescent tube produce light? | High voltage accelerates electrons, which collide with mercury atoms causing excitation; de-excitation releases UV photons; phosphorous coating absorbs UV and emits visible light
+What is an electron volt (eV)? | The energy gained by one electron passing through a potential difference of 1 volt
+What is 1 eV in joules? | 1.6 × 10⁻¹⁹ J
+How do you convert eV to joules? | Multiply by 1.6 × 10⁻¹⁹
+How do you convert joules to eV? | Divide by 1.6 × 10⁻¹⁹
+What is a line spectrum? | A spectrum containing discrete wavelengths of light emitted by excited atoms
+What does a line spectrum prove? | Electrons can only transition between discrete energy levels
+What is a line absorption spectrum? | A continuous spectrum with black lines at specific wavelengths where photons were absorbed
+Why do absorption lines appear at specific wavelengths? | Atoms can only absorb photons with energy exactly equal to the difference between energy levels
+What equation relates energy level difference to photon frequency? | hf = E₁ - E₂
+What are examples of light acting as a wave? | Diffraction and interference
+What is an example of light acting as a particle? | The photoelectric effect
+How is the wave nature of electrons demonstrated? | Through electron diffraction
+What did de Broglie hypothesise? | If light has particle properties, then particles should have wave-like properties
+What is the de Broglie wavelength equation? | λ = h/(mv) where h is Planck's constant, m is mass, v is velocity
+What happens to diffraction when particle momentum increases? | Wavelength decreases, diffraction decreases, interference rings become closer
+What happens to diffraction when particle momentum decreases? | Wavelength increases, diffraction increases, interference rings move further apart
+How does scientific knowledge change over time? | In accordance with experimental evidence gathered by the scientific community
+What must happen before experimental evidence is accepted? | It must be published and peer-reviewed by the scientific community

@@ -1,0 +1,40 @@
+What is the Young Modulus? | A measure of the ability of a material to withstand changes in length with an added load. It indicates the stiffness of a material.
+What is the equation for Young Modulus? | Young Modulus = (Tensile stress)/(Tensile strain) = (FL)/(AΔL)
+What are the units of Young Modulus? | Pascals (Pa), typically in the order of GPa
+What is the Young Modulus of aluminium? | 70 GPa
+What is the Young Modulus of copper? | 117 GPa
+What is the Young Modulus of steel? | 110 GPa
+What is the Young Modulus of nickel? | 240 GPa
+How do you find Young Modulus from a stress-strain graph? | It equals the gradient of the linear (straight line) region where Hooke's Law is obeyed.
+What does the area under the linear region of a stress-strain graph represent? | The energy stored per unit volume of the material
+What is the independent variable in the Young Modulus practical? | Force (or load) in Newtons
+What is the dependent variable in the Young Modulus practical? | Extension in metres
+What are the control variables in the Young Modulus practical? | Original length of wire, thickness of wire, and the metal used for the wire
+What is the resolution of a metre ruler? | 1 mm
+What is the resolution of a micrometer? | 0.001 mm
+How do you calculate the cross-sectional area of the wire? | A = πd²/4, where d is the diameter of the wire
+What is the equation for force when rearranging the Young Modulus equation? | F = (Young Modulus × A/L) × ΔL
+What does the gradient of a force-extension graph equal? | (Young Modulus × A)/L, where A is cross-sectional area and L is original length
+How do you calculate Young Modulus from a force-extension graph? | Young Modulus = gradient × (L/A)
+What systematic error can occur when extending the wire? | If the wire extends past its elastic limit, it will be permanently deformed
+How can you check if the wire has been permanently deformed? | Remove the load and check the wire returns to its original length before taking new readings
+What random error can occur when reading the ruler? | Parallax error from reading the marker on the ruler
+How can you reduce random errors in the Young Modulus experiment? | Repeat the experiment for all loads and find an average extension
+How can you reduce uncertainty in cross-sectional area measurements? | Measure the diameter in several places and calculate an average
+What safety precaution protects against wire snapping? | Wear safety goggles at all times
+What safety precaution protects against the mass hanger falling? | Keep a cushion or soft surface directly below the mass hanger
+How can you improve the precision of extension readings? | Use a vernier scale instead of a metre ruler
+Why should you use a longer wire in the experiment? | It produces larger extensions, making measurements more accurate and reducing percentage uncertainty
+In the worked example with 92 N force and 0.04 mm² area, what is the stress? | 2.3 × 10⁸ Pa
+If extension is 0.50% of original length, what is the strain? | 0.005 (or 5 × 10⁻³)
+What is the Young Modulus if stress = 2.3 × 10⁸ Pa and strain = 0.005? | 4.6 × 10¹¹ Pa
+What conversion is needed for wire diameter measured in mm? | Divide by 1000 to convert to metres (e.g., 0.277 mm = 2.77 × 10⁻⁴ m)
+How do you convert mass to load (force)? | Multiply mass by g (9.81 N kg⁻¹)
+What mnemonic helps remember the Young Modulus equation? | "When you're stressed, you show the strain" - Stress ÷ Strain
+In what region of a stress-strain graph does Hooke's Law apply? | The linear (straight line) region
+What happens to the wire beyond the elastic limit? | It becomes permanently deformed and will not return to its original length
+Why measure wire diameter at multiple points? | To account for variations in thickness and reduce uncertainty
+How many mass increments should be used in the experiment? | At least 5-10 different masses (typically 100 g increments)
+What should you do before taking each new reading? | Check the wire returns to its original length when unloaded
+Why is Young Modulus useful for engineers? | It helps ensure materials can withstand sufficient forces in structures and applications
+What does a higher Young Modulus value indicate? | A stiffer material that resists deformation more

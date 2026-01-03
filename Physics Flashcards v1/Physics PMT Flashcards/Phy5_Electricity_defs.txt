@@ -1,0 +1,26 @@
+What is current? | The rate of flow of charge in a circuit.
+What is resistance? | A measure of how difficult it is for current to flow through a material.
+What does an ammeter measure? | The current in the loop of the circuit it is connected in series with.
+What resistance does an ideal ammeter have? | Zero resistance.
+What does a voltmeter measure? | The potential difference across components.
+What resistance does an ideal voltmeter have? | Infinite resistance.
+What is electromotive force (EMF)? | The amount of energy transferred by a source to each unit of charge that passes through it.
+What is internal resistance? | The resistance to the flow of charge within a source, resulting in energy being dissipated within the source.
+What is terminal potential difference? | The potential difference across the terminals of a power source. It equals the source's EMF minus any voltage drop over the source's internal resistance.
+What is an ohmic conductor? | A conductor for which current flow is directly proportional to potential difference across it, when under constant physical conditions.
+State Ohm's Law. | The current and potential difference through an ohmic conductor held under constant physical conditions are directly proportional, with the constant of proportionality being resistance.
+What is resistivity? | A quantity that is proportional to an object's resistance and cross-sectional area, and inversely proportional to the object's length.
+What is a superconductor? | A material which has zero resistivity when the temperature is decreased to, or below, the material's critical temperature.
+What are superconductors used for? | Producing strong magnetic fields and reducing energy loss when transmitting electric power.
+How are components connected in a series circuit? | End to end in one loop.
+What is identical for all resistors connected in series? | The current through each resistor.
+How is potential difference split across resistors in series? | In the ratio of their resistances.
+How do you calculate total resistance of resistors in series? | Sum the resistances of all the resistors.
+How are components connected in a parallel circuit? | Across each other in separate loops.
+What is identical for all resistors connected in parallel? | The potential difference across each resistor.
+How is current split in resistors connected in parallel? | The current is split between the resistors.
+How do you calculate total resistance of resistors in parallel? | The inverse of the sum of the inverses of the resistances.
+What is a potential divider? | A method of splitting a potential difference by connecting two resistors in series.
+How is the total potential difference split in a potential divider? | In the ratio of the resistances.
+What is a thermistor? | A temperature sensitive semiconductor whose resistance increases when temperature decreases.
+What is a light dependent resistor (LDR)? | A light sensitive semiconductor whose resistance increases when light intensity decreases.

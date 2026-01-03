@@ -1,0 +1,29 @@
+What is amplitude? | A wave's maximum displacement from its equilibrium position.
+What is an antinode? | A position of maximum displacement in a stationary wave.
+What is cladding in optical fibres? | A protective layer that improves tensile strength, prevents scratching, and prevents signal transfer between adjacent fibres.
+What does coherence mean for waves? | Waves have the same wavelength and frequency, with a fixed phase difference between them.
+What is a diffraction grating? | A grating with hundreds of slits per millimetre that produces sharper interference patterns, used to calculate atomic spacing and analyse elements.
+What is diffraction? | The spreading of waves as they pass through a gap of similar magnitude to their wavelength.
+What are electromagnetic waves? | Waves consisting of perpendicular electric and magnetic oscillations.
+What is frequency? | The number of waves passing a point per unit time. It's the inverse of time period.
+What is fringe spacing? | The distance between two adjacent bright fringes or two adjacent dark fringes.
+What is interference? | The superposition of waves when they meet. In-phase waves constructively interfere; out-of-phase waves destructively interfere.
+What is a laser? | A light source that produces a collimated and coherent beam.
+What is a longitudinal wave? | A wave with oscillations parallel to the direction of energy propagation (e.g., sound waves).
+What is material dispersion? | When waves of different wavelengths travel at different speeds through an optical fibre, reaching the end at different times and causing pulse broadening.
+What is modal dispersion? | When waves enter an optical fibre at different angles, travelling different distances and reaching the end at different times, causing pulse broadening.
+What is a node? | A position of minimum displacement in a stationary wave.
+What is an optical fibre? | A thin glass fibre through which signals are passed, usually with cladding surrounding it.
+What is path difference? | A measure of how far ahead one wave is compared to another, usually expressed in wavelengths.
+What is phase difference? | The difference in phase between two points on a wave, usually expressed in radians.
+What is phase? | A measure of how far through the wave's cycle a given point on the wave is.
+What is polarisation? | The restriction of a wave so it can only oscillate in a single plane. Only occurs for transverse waves.
+What is pulse broadening? | The elongation of a signal passed down an optical fibre, commonly due to modal or material dispersion.
+What is refractive index? | The ratio between the speed of light in a vacuum and the speed of light in a given material.
+What is Snell's Law? | A law linking a wave's angle of incidence to its angle of refraction, using the refractive indexes of the mediums involved.
+What is the speed of a wave? | The product of the wave's frequency and wavelength.
+What is a stationary wave? | A wave that stores, but does not transfer, energy.
+What is total internal reflection? | Full reflection at the inside boundary of an optical fibre, meaning no radiation passes out.
+What is a transverse wave? | A wave with oscillations perpendicular to the direction of energy propagation (e.g., electromagnetic waves).
+What is wavelength? | The distance between two identical positions on adjacent waves, commonly measured peak to peak or trough to trough.
+What is Young's Double-Slit Experiment? | An experiment demonstrating light diffraction by passing monochromatic light through two narrow slits and observing the pattern of bright and dark fringes.

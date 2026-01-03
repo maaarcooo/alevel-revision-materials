@@ -1,0 +1,72 @@
+What is a scalar quantity? | A physical quantity that describes only magnitude (e.g., distance, speed, mass, temperature)
+What is a vector quantity? | A physical quantity that describes both magnitude and direction (e.g., displacement, velocity, force, acceleration)
+When should you use calculation (Pythagoras) to add vectors? | When the two vectors are perpendicular to each other
+When should you use scale drawing to add vectors? | When vectors are at angles other than 90°
+What is the formula for resolving a vector into horizontal component? | x = V cos θ (when moving through the angle to the component)
+What is the formula for resolving a vector into vertical component? | y = V sin θ (when moving away from the angle to the component)
+What does it mean for an object to be in equilibrium? | The sum of all forces acting on it is zero, so it's either at rest or moving at constant velocity
+What is a moment? | The force multiplied by the perpendicular distance from the line of action of the force to the point
+What is the formula for moment? | Moment = Force × Perpendicular distance
+What is a couple? | A pair of coplanar forces equal in magnitude but acting in opposite directions
+What is the formula for moment of a couple? | Moment of a couple = Force × Perpendicular distance between the lines of action
+What is the principle of moments? | For an object in equilibrium, sum of anticlockwise moments = sum of clockwise moments
+What is the centre of mass? | The point at which an object's mass acts
+What is displacement? | The overall distance travelled from the starting position (vector quantity)
+What is velocity? | Rate of change of displacement: Δs/Δt
+What is acceleration? | Rate of change of velocity: Δv/Δt
+What is instantaneous velocity? | The velocity of an object at a specific point in time (found from gradient of tangent on displacement-time graph)
+What is average velocity? | The velocity over a specified time frame (final displacement ÷ time taken)
+What does the gradient of a velocity-time graph represent? | Acceleration
+What does the area under a velocity-time graph represent? | Displacement
+What does the gradient of a displacement-time graph represent? | Velocity
+What does the area under an acceleration-time graph represent? | Change in velocity
+What is uniform acceleration? | When the acceleration of an object is constant
+What is the first equation of motion? | v = u + at
+What is the second equation of motion? | s = (u+v)t/2
+What is the third equation of motion? | s = ut + ½at²
+What is the fourth equation of motion? | v² = u² + 2as
+How are horizontal and vertical components of projectile motion related? | They are independent and can be evaluated separately
+What is free fall? | When an object experiences an acceleration of g (9.81 m/s²)
+What is friction? | A force which opposes the motion of an object (converts kinetic energy to heat and sound)
+How does air resistance change with speed? | The magnitude of air resistance increases as the speed increases
+What is lift? | An upward force acting on objects in a fluid, perpendicular to the direction of fluid flow
+What is terminal speed? | When frictional forces and driving forces are equal, so there's no resultant force and the object travels at constant speed
+State Newton's 1st law | An object will remain at rest or at constant velocity until it experiences a resultant force
+State Newton's 2nd law | The acceleration of an object is proportional to the resultant force: F = ma
+State Newton's 3rd law | For each force experienced by an object, the object exerts an equal and opposite force
+What is a free-body diagram? | A diagram showing all the forces that act on an object
+What is momentum? | The product of mass and velocity: momentum = mass × velocity
+Is momentum conserved in collisions? | Yes, momentum is always conserved in any interaction where no external forces act
+What is impulse? | The change in momentum: FΔt = Δ(mv)
+What does the area under a force-time graph represent? | Impulse (change in momentum)
+How do car safety features use impulse? | They increase impact time, which decreases force on passengers (crumple zones, seat belts, air bags)
+What is an elastic collision? | Both momentum and kinetic energy are conserved
+What is an inelastic collision? | Only momentum is conserved; kinetic energy is converted to other forms
+What is work done? | Force causing motion × distance travelled in direction of force: W = Fs cos θ
+What is power? | Rate of energy transfer: P = ΔW/Δt = Fv
+What is the formula for power in terms of force and velocity? | P = Fv
+What is efficiency? | Useful output power ÷ input power
+What is the formula for efficiency as a percentage? | Efficiency (%) = (useful output power ÷ input power) × 100
+State the principle of conservation of energy | Energy cannot be created or destroyed, but can be transferred from one form to another
+What is the formula for change in gravitational potential energy? | ΔEp = mgΔh
+What is the formula for kinetic energy? | Ek = ½mv²
+What is density? | Mass per unit volume of a material
+State Hooke's law | Extension is directly proportional to force applied (constant environmental conditions)
+What is the formula for Hooke's law? | F = kΔL (where k is spring constant)
+What is the limit of proportionality? | The point after which Hooke's law is no longer obeyed
+What is the elastic limit? | The point beyond which the material will deform plastically (permanently stretched)
+What is tensile stress? | Force applied per unit cross-sectional area: Stress = F/A
+What is tensile strain? | Extension over original length: Strain = ΔL/L
+What is elastic strain energy? | Energy stored when work is done to stretch or compress a material: ½FΔL
+How do you find elastic strain energy from a graph? | Area under a force-extension graph
+What is breaking stress? | The value of stress at which the material will break apart
+What is plastic deformation? | When a material experiences large extension as load increases, especially beyond elastic limit
+What is a brittle material? | A material that extends very little and fractures at low extension
+What happens when a material is stretched beyond its elastic limit? | Loading and unloading lines are parallel but don't return to origin (permanent deformation)
+What is the area between loading and unloading lines? | Work done to permanently deform the material
+What is a stress-strain graph? | A graph describing the behaviour of a material (not a specific object)
+What is ultimate tensile stress (UTS)? | The highest point on a stress-strain graph; maximum stress the material can withstand
+What is a ductile material? | A material that can undergo large plastic deformation before fracturing
+What is the Young modulus? | A value describing the stiffness of a material
+What is the formula for Young modulus? | E = (Tensile Stress)/(Tensile Strain) = FL/(ΔLA)
+How do you find Young modulus from a stress-strain graph? | Calculate the gradient of the straight part of the graph

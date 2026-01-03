@@ -1,0 +1,22 @@
+What is a moment? | The turning effect of a force
+What is the equation for calculating a moment? | Moment (N m) = Force (N) × perpendicular distance from the pivot (m)
+What are the SI units for moment? | Newton metres (N m) or Newton centimetres (N cm)
+Why is a door handle placed far from the hinge? | To maximise the distance for a given force, providing a greater moment (turning force) and making it easier to push or pull
+What must you do when the force is not perpendicular to the distance? | Take the component of the distance which is perpendicular to the force (use d cos θ)
+State the principle of moments | For a system in equilibrium, the sum of clockwise moments about a point equals the sum of anticlockwise moments about the same point
+What is a couple? | A pair of equal and opposite coplanar forces that acts to produce rotation only
+What are the three characteristics of forces that form a couple? | Equal in magnitude, opposite in direction, perpendicular to the distance between them
+What is the resultant force of a couple? | Zero (therefore the object does not accelerate)
+How do you calculate the moment of a couple? | Force × perpendicular distance between the lines of action of the forces
+Does the moment of a couple depend on a pivot? | No, unlike moments of a single force
+Can forces that share the same line of action form a couple? | No, they must have different lines of action
+What is the centre of mass? | The point at which the weight of an object may be considered to act
+Where is the centre of mass located for uniform regular solids? | At its centre (the point of symmetry)
+When is an object stable? | When its centre of mass lies above its base
+What makes an object more stable? | A wide base and a low centre of mass
+What happens when an object's centre of mass is no longer over its base? | The object will topple
+What is the difference between centre of mass and centre of gravity? | Centre of mass does not depend on the gravitational field, but centre of gravity does (since weight = mass × g)
+In a uniform gravitational field, how do centre of mass and centre of gravity compare? | They are identical
+Can the centre of mass lie outside a body? | Yes, since it is a hypothetical point
+How does body position affect centre of mass in humans? | The centre of mass is lower when leaning forward than when upright
+In space, where is an object's centre of gravity located? | Closer to the object with the larger gravitational field

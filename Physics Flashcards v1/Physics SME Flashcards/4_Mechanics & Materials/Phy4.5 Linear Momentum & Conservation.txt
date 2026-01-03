@@ -1,0 +1,37 @@
+What is linear momentum? | The product of an object's mass and velocity: p = mv (measured in kg m s⁻¹)
+Is momentum a vector or scalar quantity? | Vector quantity - it has both magnitude and direction
+What direction is usually assigned as positive for momentum? | The initial direction of motion
+State the principle of conservation of momentum | Total momentum before a collision equals total momentum after a collision, provided no external force acts
+What is the conservation of momentum equation for two colliding objects? | pAi + pBi = pAf + pBf
+What is an external force? | A force that acts on a system from outside (e.g. friction, weight)
+What is an internal force? | A force exchanged by particles within the system (e.g. tension in a string)
+What is a closed or isolated system? | A system not affected by external forces where total momentum is conserved
+How can force be defined in terms of momentum? | Force equals the rate of change of momentum: F = Δp/Δt
+If an object rebounds after collision, what happens to its velocity sign? | It becomes negative (opposite direction to initial motion)
+What is impulse? | The product of force applied and time for which it acts: Impulse = FΔt
+What are the units of impulse? | Newton seconds (N s)
+How is impulse related to momentum? | Impulse equals change in momentum: Impulse = Δp = mv - mu
+How do you find impulse from a force-time graph? | Calculate the area under the graph
+Why do cricketers move their hands back when catching? | To increase contact time, reducing the force experienced (for same impulse)
+Why does hail feel different from rain on an umbrella? | Hail has greater mass and bounces back, causing larger change in momentum and greater impulse
+What is an elastic collision? | A collision where kinetic energy is conserved
+What is an inelastic collision? | A collision where kinetic energy is NOT conserved
+In elastic collisions, what typically happens to the objects? | They move in opposite directions after collision
+In inelastic collisions, what typically happens to the objects? | They stick together after collision
+Is momentum conserved in both elastic and inelastic collisions? | Yes, momentum is always conserved in both types
+How do you determine if a collision is elastic or inelastic? | Compare kinetic energy before and after the collision
+What is the kinetic energy equation? | KE = ½mv²
+What are three vehicle safety features that increase contact time? | Seat belts, airbags, and crumple zones
+How do seat belts reduce injury risk? | They stretch slightly to increase contact time, reducing force on passengers
+How do airbags reduce injury risk? | They act as a soft cushion, increasing contact time and reducing force
+How do crumple zones reduce injury risk? | They crush in a controlled way, increasing time for momentum change and reducing force
+On a force-time graph, what indicates increased contact time? | Lower peak force and wider base (for same impulse/area)
+What happens when you "follow through" when kicking a football? | Increases contact time, creating larger impulse and higher ball velocity
+If mass is given in grams, what must you do? | Convert to kg by dividing by 1000
+If velocity is given in km s⁻¹, what must you do? | Convert to m s⁻¹ by multiplying by 1000
+What is the momentum of a stationary object? | Zero (velocity = 0, so p = 0)
+When two objects stick together after collision, how do you treat them? | As a single object with mass equal to the sum of both masses
+Does a small force over long time equal a large force over short time? | Yes, if they produce the same impulse (same change in momentum)
+What does "rate of change" mean mathematically? | Dividing by Δt (change in time)
+What is the base unit for 1 Newton? | 1 N = 1 kg m s⁻²
+Why do packaging materials like bubble wrap protect fragile items? | They increase the time over which impact forces act, reducing the force experienced

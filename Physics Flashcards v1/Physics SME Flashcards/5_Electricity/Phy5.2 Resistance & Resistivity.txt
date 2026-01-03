@@ -1,0 +1,56 @@
+What is resistivity? | A property that describes the extent to which a material opposes the flow of electric current through it. It is measured in Ω m.
+What causes electrical resistance in materials? | Free electrons collide with ions in the material, transferring kinetic energy and causing electrical heating.
+How does wire length affect resistance? | The longer the wire, the greater its resistance.
+How does wire thickness affect resistance? | The thicker the wire, the smaller its resistance.
+What is the resistivity equation? | R = ρL/A, where R is resistance (Ω), ρ is resistivity (Ω m), L is length (m), and A is cross-sectional area (m²).
+Why is copper used for electrical wires? | Copper has relatively low resistivity at room temperature, allowing current to flow through it very easily.
+What happens if you double the length of a wire? | The resistance doubles.
+What happens if you double the cross-sectional area of a wire? | The resistance halves.
+How does temperature affect metallic conductor resistance? | An increase in temperature causes an increase in resistance for metallic conductors.
+Why does temperature increase resistance in metals? | Higher temperatures cause atoms to vibrate faster, creating more collisions with electrons and impeding current flow.
+What is a thermistor? | A non-ohmic conductor and sensory resistor whose resistance varies with temperature.
+How does temperature affect thermistor resistance? | For NTC thermistors, an increase in temperature causes a decrease in resistance.
+What does NTC stand for? | Negative Temperature Coefficient.
+What applications use thermistors? | Ovens, fire alarms, and digital thermometers.
+What is a superconductor? | A material with no resistance below a critical temperature.
+What is the critical temperature? | The temperature at which a material becomes superconducting.
+What is the critical temperature of mercury? | 4.2 K
+What happens to resistivity below the critical temperature? | It drops to zero instantly.
+Name three applications of superconductors. | MRI scanners, maglev trains, and particle accelerators.
+Why are superconductors useful for power transmission? | They reduce energy loss/dissipation in the transmission of electric power.
+What is the main advantage of superconducting electromagnets? | They can produce very strong magnetic fields with no energy loss.
+How fast can maglev trains travel? | Up to 603 km/h.
+What countries currently have maglev train systems? | Japan, South Korea, and China.
+In the resistivity practical, what is the independent variable? | Length (L) of the wire in metres.
+In the resistivity practical, what is the dependent variable? | Current (I) through the wire in amperes.
+What control variables are needed in the resistivity experiment? | Voltage through the wire and the material the wire is made from.
+Why should you measure wire diameter 5-10 times? | To reduce random errors and calculate an average diameter.
+What equipment measures wire diameter? | A micrometer screw gauge.
+What is the resolution of a micrometer screw gauge? | 0.01 mm
+Why should current be switched off between readings? | To prevent the wire heating up and changing its resistivity.
+How do you calculate resistance from voltage and current? | R = V/I
+What should you plot to find resistivity? | Length (L) on x-axis against resistance (R) on y-axis.
+What does the gradient of the R vs L graph equal? | ρ/A (resistivity divided by cross-sectional area).
+How do you calculate resistivity from the graph? | ρ = gradient × A
+What is the formula for cross-sectional area of a wire? | A = πd²/4, where d is diameter.
+Why use constantan wire in the resistivity experiment? | It has suitable resistivity for measurements and consistent properties.
+What voltage should be used in the resistivity practical? | 6.0 V
+What interval should be used for length measurements? | 0.25 m intervals (or 0.1 m intervals), with 8-10 readings total.
+Why take at least 3 current readings for each length? | To calculate an average and reduce random errors.
+What safety precaution is needed with high current? | Never touch the wire when the circuit is switched on, as it becomes very hot.
+What should you do if you smell burning? | Switch off the power supply immediately.
+What is a systematic error in the resistivity experiment? | If the wire doesn't start at 0 on the ruler, causing a zero error in length measurements.
+Why should only small currents flow through the wire? | To prevent temperature increase which would change the wire's resistivity.
+What is the resistivity of copper at room temperature? | 1.7 × 10⁻⁸ Ω m
+What is the resistivity of aluminium at room temperature? | 2.6 × 10⁻⁸ Ω m
+What is the resistivity of silicon at room temperature? | 2.3 × 10³ Ω m
+What is the resistivity of glass at room temperature? | 10¹² Ω m
+How do metals, semiconductors, and insulators compare in resistivity? | Metals have lowest resistivity (10⁻⁸), semiconductors are intermediate (10⁰-10³), insulators have highest (10¹²-10¹⁵).
+If diameter doubles, how does resistance change? | Area quadruples (A ∝ d²), so resistance drops to one quarter.
+In a series circuit with a thermistor, what happens to p.d. across it when temperature decreases? | The p.d. across the thermistor increases (as its resistance increases).
+What happens to current in a circuit when thermistor resistance increases? | Total current decreases (as total resistance has increased).
+Why do superconductors have no resistance? | Below critical temperature, electrons flow without colliding with the lattice structure.
+What type of materials can become superconductors? | Only certain materials with specific characteristics can become superconductors.
+What is another name for critical temperature? | Transition temperature.
+How does a normal metal's resistivity change with temperature? | It increases gradually as temperature increases.
+How does a superconductor's resistivity change with temperature? | It increases gradually until critical temperature, then drops instantly to zero.

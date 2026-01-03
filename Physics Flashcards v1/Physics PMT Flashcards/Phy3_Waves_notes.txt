@@ -1,0 +1,84 @@
+What is a progressive wave? | A wave that transfers energy without transferring material, made up of particles of a medium (or field) oscillating.
+Define amplitude. | A wave's maximum displacement from the equilibrium position (measured in metres).
+Define frequency (f). | The number of complete oscillations passing through a point per second (measured in Hz).
+Define wavelength (λ). | The length of one whole oscillation, e.g. the distance between successive peaks/troughs (measured in metres).
+Define wave speed (c). | Distance travelled by the wave per unit time (measured in m/s).
+Define phase. | The position of a certain point on a wave cycle (measured in radians, degrees or fractions of a cycle).
+Define phase difference. | How much a particle/wave lags behind another particle/wave (measured in radians, degrees or fractions of a cycle).
+Define period (T). | Time taken for one full oscillation (measured in seconds).
+What is the wave equation relating speed, frequency and wavelength? | c = fλ
+What is the relationship between frequency and period? | f = 1/T
+When are two points on a wave in phase? | When they are at the same point of the wave cycle, have the same displacement and velocity, and their phase difference is a multiple of 360° (2π radians).
+When are two points completely out of phase? | When they are an odd integer of half cycles apart (e.g. 5 half cycles), where one half cycle is 180° (π radians).
+What is a transverse wave? | A wave where oscillation of particles (or fields) is at right angles to the direction of energy transfer.
+Give an example of transverse waves. | All electromagnetic (EM) waves, which travel at 3 × 10⁸ m/s in a vacuum.
+What is a longitudinal wave? | A wave where oscillation of particles is parallel to the direction of energy transfer.
+What are longitudinal waves made up of? | Compressions and rarefactions. They cannot travel in a vacuum.
+Give an example of a longitudinal wave. | Sound waves.
+What is a polarised wave? | A wave that oscillates in only one plane (e.g. only up and down).
+Which type of waves can be polarised? | Only transverse waves can be polarised.
+How do Polaroid sunglasses work? | They reduce glare by blocking partially polarised light reflected from water and tarmac, only allowing oscillations in the plane of the filter.
+How are TV and radio signals polarised? | They are usually plane-polarised by the orientation of the rods on the transmitting aerial.
+What is superposition? | Where the displacements of two waves are combined as they pass each other; the resultant displacement is the vector sum of each wave's displacement.
+What is constructive interference? | When 2 waves have displacement in the same direction during superposition.
+What is destructive interference? | When one wave has positive displacement and the other has negative displacement during superposition.
+What is total destructive interference? | When waves have equal but opposite displacements during superposition.
+What is a stationary wave? | A wave formed from the superposition of 2 progressive waves travelling in opposite directions in the same plane, with the same frequency, wavelength and amplitude.
+Is energy transferred by a stationary wave? | No, no energy is transferred by a stationary wave.
+What are antinodes? | Regions of maximum amplitude formed where waves meet in phase and constructive interference occurs.
+What are nodes? | Regions of no displacement formed where waves meet completely out of phase and destructive interference occurs.
+What is the first harmonic? | The lowest frequency at which a stationary wave forms, creating a stationary wave with two nodes and a single antinode.
+What is the distance between adjacent nodes or antinodes? | Half a wavelength (λ/2) for any harmonic.
+What is the formula for the first harmonic frequency on a string? | f = (1/2L)√(T/μ), where L is string length, T is tension, and μ is mass per unit length.
+How do you find the second harmonic frequency? | Double the first harmonic frequency (gives 2 antinodes).
+How can stationary microwaves be formed? | By reflecting a microwave beam at a metal plate; use a microwave probe to find nodes and antinodes.
+How can stationary sound waves be formed in a tube? | Place a speaker at one end of a closed glass tube with powder across the bottom; powder shakes at antinodes and settles at nodes.
+Define path difference. | The difference in the distance travelled by two waves.
+What is a coherent light source? | A source with the same frequency and wavelength and a fixed phase difference.
+What type of light do lasers emit? | Coherent and monochromatic light (single or small range of wavelengths).
+What does Young's double slit experiment demonstrate? | Interference of light from two sources.
+When do light fringes form in Young's double slit experiment? | Where light meets in phase and interferes constructively; occurs when path difference is a whole number of wavelengths (nλ).
+When do dark fringes form in Young's double slit experiment? | Where light meets completely out of phase and interferes destructively; occurs when path difference is (n+½)λ.
+What is the formula for Young's double slit experiment? | w = λD/s, where w is fringe spacing, λ is wavelength, D is distance to screen, and s is slit separation.
+What pattern results from using white light in Young's double slit experiment? | Wider maxima, less intense pattern with a central white fringe and alternating bright fringes that are spectra (violet closest to centre, red furthest).
+List the laser safety precautions. | Wear laser safety goggles; don't shine at reflective surfaces; display warning signs; never shine at a person.
+What is diffraction? | The spreading out of waves when they pass through or around a gap.
+When does the greatest diffraction occur? | When the gap is the same size as the wavelength.
+What happens when a gap is smaller than the wavelength? | Most waves are reflected.
+Describe the single slit diffraction pattern for monochromatic light. | A bright central fringe (double the width of other fringes) with alternating dark and bright fringes on either side, decreasing in intensity.
+What causes bright fringes in single slit diffraction? | Constructive interference where waves meet in phase.
+What causes dark fringes in single slit diffraction? | Destructive interference where waves arrive completely out of phase.
+Describe the single slit diffraction pattern for white light. | Central white maximum with alternating bright fringes that are spectra (violet closest to centre, red furthest).
+How does increasing slit width affect the central maximum? | Decreases diffraction, so central maximum becomes narrower and intensity increases.
+How does increasing wavelength affect the central maximum? | Increases diffraction (slit closer in size to wavelength), so central maximum becomes wider and intensity decreases.
+What is a diffraction grating? | A slide containing many equally spaced slits very close together.
+What is the advantage of a diffraction grating over a double slit? | Produces sharper and brighter interference patterns, making measurements more accurate.
+What is the zero order line? | The ray of light passing through the centre of a diffraction grating.
+What is the diffraction grating formula? | d sinθ = nλ, where d is slit separation, θ is angle to normal, n is order, and λ is wavelength.
+What is the maximum value of sinθ? | 1, therefore any values of n giving sinθ > 1 are impossible.
+How is the diffraction grating formula derived? | For first order: path difference = λ, forming right triangle with sides d and λ, so sinθ = λ/d, giving d sinθ = λ. Generalise by replacing λ with nλ.
+Give an application of diffraction gratings in astronomy. | Splitting light from stars to get line absorption spectra showing which elements are present.
+What is X-ray crystallography? | X-rays directed at a thin crystal sheet (acting as a diffraction grating) to form a pattern that can measure atomic spacing in materials.
+Define refractive index (n). | A property of a material measuring how much it slows down light passing through it.
+What is the formula for refractive index? | n = c/cs, where c is speed of light in vacuum and cs is speed in the substance.
+What does it mean for a material to be more optically dense? | It has a higher refractive index.
+What is the refractive index of air? | Approximately 1 (light doesn't slow down significantly in air compared to vacuum).
+What is refraction? | When a wave enters a different medium, causing it to change direction (towards or away from normal depending on refractive index).
+What is Snell's law? | n₁sinθ₁ = n₂sinθ₂, where n is refractive index and θ is angle to normal.
+What happens when light moves from less to more optically dense material? | Light slows down and bends towards the normal.
+What happens when light moves from more to less optically dense material? | Light speeds up and bends away from the normal.
+What is the critical angle (θc)? | The angle of incidence when the angle of refraction is exactly 90° and light is refracted along the boundary.
+What is the formula for critical angle? | sinθc = n₂/n₁, where n₁ > n₂.
+When does total internal reflection (TIR) occur? | When angle of incidence is greater than the critical angle and the incident refractive index (n₁) is greater than the boundary refractive index (n₂).
+What are optical fibres? | Flexible, thin tubes of plastic or glass that carry information as light signals.
+What is the structure of an optical fibre? | An optically dense core surrounded by cladding with lower optical density.
+What is the purpose of cladding in optical fibres? | Allows TIR to occur, protects core from damage, prevents signal degradation by preventing light from escaping.
+What is absorption in optical fibres? | When part of the signal's energy is absorbed by the fibre, reducing signal amplitude and potentially causing information loss.
+What is dispersion in optical fibres? | A phenomenon causing pulse broadening where the received signal is broader than the transmitted signal, potentially causing overlapping signals and information loss.
+What is modal dispersion? | Pulse broadening caused by light rays entering the fibre at different angles, taking different paths and times through the fibre.
+How can modal dispersion be reduced? | Make the core very narrow to reduce possible differences in path lengths.
+What is material dispersion? | Pulse broadening caused by using light of different wavelengths that travel at different speeds along the fibre.
+How can material dispersion be prevented? | Use monochromatic light.
+How can absorption and dispersion be reduced? | Use an optical fibre repeater to regenerate the signal during travel.
+What evidence did Young's double slit experiment provide? | Evidence for the wave nature of light, since diffraction and interference are wave properties, proving EM radiation acts as a wave.
+How does scientific understanding change? | Knowledge and understanding of any scientific concept changes over time in accordance with experimental evidence gathered by the scientific community.

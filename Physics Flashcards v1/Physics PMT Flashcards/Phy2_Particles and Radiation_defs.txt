@@ -1,0 +1,36 @@
+What is alpha decay? | An unstable nucleus emits an alpha particle (2 protons + 2 neutrons) to become more stable.
+What is annihilation? | A particle and antiparticle collide and convert into energy, released as two photons to conserve momentum.
+What is an antiparticle? | A particle with the same mass but opposite charge and conservation numbers to its corresponding particle.
+What is baryon number? | A quantum number conserved in all interactions. Baryons = +1, non-baryons = 0.
+What is a baryon? | A hadron made of three quarks. The proton is the only stable baryon.
+What is beta-minus decay? | A neutron turns into a proton, emitting an electron and antineutrino.
+What is beta-plus decay? | A proton turns into a neutron, emitting a positron and neutrino.
+What is electron diffraction? | Electrons spreading as they pass through a gap similar to their de Broglie wavelength, showing wave-like properties.
+What is an electron-volt (eV)? | The work done to accelerate an electron through 1V potential difference. 1 eV = charge of electron (E=qV).
+What are energy levels? | Defined, distinct energies where electrons can exist in an atom. Electrons cannot exist between levels.
+What is excitation? | An electron absorbs exactly the right energy to move to a higher energy level.
+What is a gauge boson? | Exchange particles that transmit the four fundamental interactions between particles.
+What is the ground state? | The most stable energy level an electron can exist in.
+What are hadrons? | Subatomic particles that experience the strong nuclear interaction.
+What is ionisation? | An atom loses an orbital electron and becomes charged.
+What is an isotope? | Atoms with the same number of protons but different numbers of neutrons.
+What is isotopic data? | Data from isotopes used for purposes like carbon dating.
+What is a kaon? | A type of meson that decays into pions.
+What is lepton number? | A quantum number conserved in all interactions. Both electron and muon lepton numbers must be conserved separately.
+What is a lepton? | An elementary subatomic particle: electrons, muons, or neutrinos.
+What is a meson? | A hadron made of a quark-antiquark pair.
+What is a muon? | A type of lepton that decays into electrons.
+What is a neutrino? | A subatomic particle hypothesised to conserve energy in beta decay.
+What is nucleon number (A)? | The sum of protons and neutrons in a nucleus.
+What is a nucleon? | A proton or neutron.
+What is pair production? | A high-energy photon converts into a particle and its antiparticle, usually near a nucleus to conserve momentum.
+What is a photon? | A packet of energy.
+What is a pion? | A type of meson and the exchange particle for the strong nuclear force.
+What is a positron? | The positively charged antiparticle of an electron.
+What is proton number (Z)? | The number of protons in the nucleus of an element.
+What is stopping potential? | The minimum potential difference to stop the highest kinetic energy electrons leaving the metal plate in the photoelectric effect.
+What are strange particles? | Particles produced through strong interaction but decay through weak interaction.
+What is strangeness? | A quantum number conserved in strong interactions but not weak interactions. Strange particles are always produced in pairs.
+What is the strong nuclear force? | A force between nucleons keeping the nucleus stable. Attractive up to 3 fm, repulsive below 0.5 fm.
+What is threshold frequency? | The minimum photon frequency for photoelectrons to be emitted from a metal surface. Equal to work function ÷ Planck's constant.
+What is work function? | The minimum energy required to remove an electron from a metal's surface.

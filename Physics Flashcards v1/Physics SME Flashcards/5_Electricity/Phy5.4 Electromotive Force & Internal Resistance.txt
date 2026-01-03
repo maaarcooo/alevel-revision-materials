@@ -1,0 +1,33 @@
+What is electromotive force (e.m.f)? | The amount of chemical energy converted to electrical energy per coulomb of charge when passing through a power supply.
+What is the equation for e.m.f? | ε = E/Q, where E is energy transformed (J) and Q is charge (C).
+What are the units of e.m.f? | Volts (V). It is not actually a force despite its name.
+When is e.m.f equal to the potential difference across a cell? | When no current is flowing (open circuit).
+How is e.m.f measured? | By connecting a high-resistance voltmeter in parallel with the cell in an open circuit.
+What is terminal potential difference? | The potential difference across the terminals of a cell.
+What is the relationship between terminal p.d, current and resistance? | V = IR, where V is terminal p.d (V), I is current (A), and R is resistance (Ω).
+Why is terminal p.d always lower than e.m.f? | Because the cell has internal resistance, which causes voltage to be lost.
+What are "lost volts"? | The work done per coulomb to overcome the internal resistance inside the battery when current flows.
+What is the equation for lost volts? | v = Ir, where v is lost volts (V), I is current (A), and r is internal resistance (Ω).
+What is the relationship between e.m.f, terminal p.d, and lost volts? | ε = V + v, or ε = IR + Ir = I(R + r)
+What is internal resistance? | The resistance of the materials within the battery itself.
+Why does a cell become warm after use? | Because internal resistance causes charge to dissipate electrical energy as heat within the power supply.
+What does internal resistance cause over time? | Loss of voltage or energy loss in a power supply.
+In the equation ε = I(R + r), what does each symbol represent? | ε = e.m.f (V), I = current (A), R = load resistance (Ω), r = internal resistance (Ω)
+What is the aim of the EMF and internal resistance required practical? | To investigate the relationship between e.m.f and internal resistance by measuring voltage and current variation using a variable resistor.
+What are the independent and dependent variables in the EMF practical? | Independent: resistance R (Ω). Dependent: voltage V (V) and current I (A).
+What are the control variables in the EMF practical? | E.m.f of the cell and internal resistance of the cell.
+Why should the switch be opened between readings in the EMF practical? | To prevent the internal resistance of the battery from changing during the experiment and to avoid draining the battery.
+What is the resolution of the voltmeter in the EMF practical? | 1 mV
+What is the resolution of the ammeter in the EMF practical? | 0.1 mA
+How many readings should be taken in the EMF practical? | A minimum of 8-10 readings across the whole range of the variable resistor.
+What equation relates V and I in the EMF practical analysis? | V = -rI + E (comparing to y = mx + c)
+In a V against I graph, what does the gradient represent? | The negative of the internal resistance: gradient = -r (Ω)
+In a V against I graph, what does the y-intercept represent? | The e.m.f: y-intercept = E (V)
+What type of cells should be used in the EMF practical? | Fairly new cells, as run-down batteries can have varying e.m.f and internal resistance.
+How can random errors be reduced in the EMF practical? | Take at least 3 repeat readings for each voltage and current, then calculate a mean.
+When should readings be taken in the EMF practical? | Wait for the voltmeter and ammeter readings to stabilise (stop fluctuating) before recording.
+What safety precaution should be taken if you smell burning? | Switch off the power supply immediately.
+Why should liquids be kept away from the equipment? | To prevent damage to the electrical equipment.
+If a battery has negligible internal resistance, what does this mean? | The e.m.f of the battery equals its voltage, and internal resistance calculations are not needed.
+In a circuit with e.m.f 7.3 V, internal resistance 0.3 Ω, and load resistance 9.5 Ω, how do you find the current? | Use ε = I(R + r), rearrange to I = ε/(R + r) = 7.3/(9.5 + 0.3) = 0.7 A (approximately)
+How do you calculate lost volts from current and internal resistance? | Lost volts = Ir, multiply the current by the internal resistance.

@@ -1,0 +1,98 @@
+What is the difference between a scalar and a vector quantity? | Scalars have only magnitude (size), while vectors have both magnitude and direction.
+Define displacement | The distance of an object from a fixed point in a specified direction (vector)
+Define velocity | The rate of change of displacement of an object (vector)
+Define acceleration | The rate of change of velocity of an object (vector)
+What is the equation for velocity? | v = Δs/Δt (change in displacement divided by change in time)
+What is the equation for acceleration? | a = Δv/Δt (change in velocity divided by change in time)
+What are the units for velocity? | m s⁻¹ (metres per second)
+What are the units for acceleration? | m s⁻² (metres per second squared)
+What is instantaneous velocity? | The velocity of an object at any given point in time
+How do you find instantaneous velocity on a displacement-time graph? | Draw a tangent at the required time and calculate its gradient
+What is average velocity? | Total displacement divided by total time
+How do you find average velocity on a displacement-time graph? | Divide total displacement (y-axis) by total time (x-axis)
+What does the gradient of a displacement-time graph represent? | Velocity
+What does a straight diagonal line on a displacement-time graph represent? | Constant velocity
+What does a curved line on a displacement-time graph represent? | Acceleration
+What does a horizontal line on a displacement-time graph represent? | Object at rest (zero velocity)
+What does a positive slope on a displacement-time graph indicate? | Motion in the positive direction
+What does a negative slope on a displacement-time graph indicate? | Motion in the negative direction
+What does the gradient of a velocity-time graph represent? | Acceleration
+What does the area under a velocity-time graph represent? | Displacement or distance travelled
+What does a straight line on a velocity-time graph represent? | Uniform (constant) acceleration
+What does a horizontal line on a velocity-time graph represent? | Motion with constant velocity (zero acceleration)
+What does a curved line on a velocity-time graph represent? | Non-uniform acceleration
+What does a positive slope on a velocity-time graph indicate? | Increasing velocity (acceleration) in the positive direction
+What does a negative slope on a velocity-time graph indicate? | Increasing velocity (acceleration) in the negative direction (or deceleration)
+What does the area under an acceleration-time graph represent? | Change in velocity
+What does a horizontal line on an acceleration-time graph represent? | Constant acceleration
+What does 's' represent in SUVAT equations? | Displacement (m)
+What does 'u' represent in SUVAT equations? | Initial velocity (m s⁻¹)
+What does 'v' represent in SUVAT equations? | Final velocity (m s⁻¹)
+What does 'a' represent in SUVAT equations? | Acceleration (m s⁻²)
+What does 't' represent in SUVAT equations? | Time (s)
+What is the first SUVAT equation? | v = u + at
+What is the second SUVAT equation? | s = ut + ½at²
+What is the third SUVAT equation? | s = (v + u)t/2
+What is the fourth SUVAT equation? | v² = u² + 2as
+What does "starts from rest" mean in SUVAT problems? | u = 0 (initial velocity is zero)
+What value should you use for acceleration due to gravity? | a = g = 9.81 m s⁻² (downwards)
+In SUVAT equations, which variables are vectors? | All except time (t): s, u, v, and a are vectors
+What is a projectile? | A particle moving freely (non-powered) under gravity in a two-dimensional plane
+What is the time of flight? | The total time the projectile is in the air
+What is maximum height in projectile motion? | The height at which the projectile is momentarily at rest (vertical velocity = 0)
+What is range in projectile motion? | The horizontal distance travelled by the projectile
+When is maximum height reached in typical projectile motion? | When half the total time has elapsed
+Are horizontal and vertical components of projectile motion independent? | Yes, they are completely independent of each other
+What is the horizontal velocity in projectile motion? | Constant (u cos θ)
+What is the horizontal acceleration in projectile motion? | Zero (because velocity remains constant)
+What is the vertical velocity at maximum height? | Zero
+What is the vertical acceleration in projectile motion? | g = 9.81 m s⁻² (acceleration due to gravity)
+Is vertical acceleration positive or negative when an object is falling towards Earth? | Positive
+Is vertical acceleration positive or negative when an object is moving away from Earth? | Negative
+How do you find the vertical component of initial velocity? | u sin θ (opposite side of triangle)
+How do you find the horizontal component of initial velocity? | u cos θ (adjacent side of triangle)
+What is the equation for time of flight? | 2t = 2u sin θ / g
+What is the equation for maximum height? | H = (u sin θ)² / 2g
+What is the equation for range? | R = u² sin 2θ / g
+How does air resistance affect the horizontal component of projectile motion? | It decreases horizontal velocity and reduces range
+How does air resistance affect the vertical component of projectile motion? | It reduces maximum height and causes steeper descent
+What factors affect the motion of an object through a fluid? | Mass and surface area
+What are drag forces? | Forces that oppose the motion of an object moving through a fluid (gas or liquid)
+Give two examples of drag forces | Friction and air resistance
+In what direction do drag forces act? | Always opposite to the direction of motion
+Can drag forces speed up an object? | No, they only slow objects down or keep them at constant speed
+What do drag forces convert kinetic energy into? | Heat and sound
+What is lift? | An upwards force on an object moving through a fluid, perpendicular to fluid flow
+How does drag force change with speed? | It increases as the speed of the object increases
+What is terminal velocity? | The maximum constant velocity reached when drag force equals gravitational pull
+When does an object reach terminal velocity? | When drag force equals weight (no net force, no acceleration)
+What happens to acceleration as an object approaches terminal velocity? | Acceleration decreases and eventually becomes zero
+For a falling object, what is the only force acting in free fall (ignoring air resistance)? | Weight (gravitational force)
+If skydiver A is heavier than skydiver B, who has the higher terminal velocity? | Skydiver A (greater mass/weight means higher terminal velocity)
+What happens when a parachute opens during skydiving? | The skydiver decelerates to a lower terminal velocity (not moves upwards)
+For a bouncing ball, is acceleration due to gravity constant? | Yes, always in the same direction (downwards in uniform gravitational field)
+At the highest point of a bounce, what is the ball's velocity? | Zero (momentarily at rest)
+At the highest point, what is the ball's acceleration? | Still g downwards (constant throughout motion)
+At the lowest point (ground), what happens to the ball's velocity direction? | Changes instantaneously from negative to positive (but speed magnitude stays the same)
+What is the aim of the determination of g experiment? | To calculate the value of acceleration due to gravity (g)
+What is the independent variable in the g experiment? | Height (h)
+What is the dependent variable in the g experiment? | Time (t)
+What equipment is used to drop the ball bearing consistently? | Electromagnet
+What measures the time in the g experiment? | Two light gates connected to a timer
+What is used to measure the distance between light gates? | Metre ruler
+Why must the ball bearing be made of magnetic material? | So it can be held by the electromagnet
+What is placed at the bottom to catch the ball bearing? | A cushion
+How does the timer start in this experiment? | When the ball passes through the first light gate
+How does the timer stop? | When the ball passes through the second light gate
+How many times should you repeat measurements for each height? | At least 3 times (to calculate an average)
+What should you plot on the y-axis of the graph? | 2h/t (in m s⁻¹)
+What should you plot on the x-axis of the graph? | Time, t (in s)
+What does the gradient of the 2h/t against t graph represent? | Acceleration due to gravity (g)
+What SUVAT equation is rearranged to give 2h/t = gt + 2u? | s = ut + ½at²
+What should the y-intercept of the graph equal? | 2u (twice the initial velocity)
+What is a systematic error in this experiment? | Residue magnetism after electromagnet is switched off (causes longer time)
+What are random errors in this experiment? | Large uncertainty in height measurement, parallax error, ball not falling through centre of light gates
+How do you reduce random errors? | Repeat at least 3-5 times for each height and calculate average time
+What safety consideration relates to electricity? | Keep water away from electromagnet; only switch on current once everything is set up
+What is the resolution of a standard metre ruler? | 1 mm
+What is the typical resolution of the timer? | 0.01 s

@@ -1,0 +1,35 @@
+What is the formula for combined resistance in series? | R = R₁ + R₂ + R₃ + ...
+What is the formula for combined resistance in parallel? | 1/R = 1/R₁ + 1/R₂ + 1/R₃ + ...
+How does adding more resistors in parallel affect total resistance? | Total resistance decreases and becomes less than the smallest individual resistor
+What happens to total resistance when two equal resistors are connected in parallel? | The combined resistance halves
+What is the reciprocal of a whole number like 2? | 1/2 (or 0.5)
+How is current distributed in a series circuit? | Current is the same through all components
+How is current distributed in a parallel circuit? | Current splits across different branches; total current in equals total current out at junctions
+How is voltage distributed in a series circuit? | Voltage is shared amongst components depending on their resistance
+How is voltage distributed in a parallel circuit? | Voltage is the same across all components in each branch
+What is Kirchhoff's First Law? | The sum of currents entering a junction equals the sum of currents leaving it
+What is a junction in a circuit? | A point where at least three circuit paths meet
+What is a branch in a circuit? | A path connecting two junctions
+What is Kirchhoff's Second Law? | The total e.m.f. in a closed circuit equals the sum of potential differences across each component
+What is the formula for electrical power? | P = IV (Power = Current × Voltage)
+What are the two alternative power equations using resistance? | P = I²R and P = V²/R
+What happens to power if current doubles in a resistor? | Power becomes four times as great
+What is the formula for energy transferred in a circuit? | E = VIt (Energy = Voltage × Current × Time)
+What is a potential divider? | A circuit that produces an output voltage as a fraction of its input voltage
+What is the potential divider equation? | Vout = (R₂/(R₁ + R₂)) × Vin
+Which resistance value goes in the numerator of the potential divider equation? | The resistance of the component you want to find Vout for
+How does an LDR's resistance change with light intensity? | Higher light intensity = lower resistance; lower light intensity = higher resistance
+How does a thermistor's resistance change with temperature? | Higher temperature = lower resistance; lower temperature = higher resistance
+What happens to voltage across a component when its resistance increases? | Voltage across it also increases (from V = IR)
+In a potential divider, if one component's voltage increases, what happens to the other? | The other component's voltage must decrease to maintain constant total e.m.f.
+What are three main purposes of potential dividers? | 1) Provide variable p.d., 2) Enable specific p.d. to be chosen, 3) Split p.d. between components
+Where are LDR circuits commonly used? | Street lights and security lights
+Where are thermistor circuits commonly used? | Fire alarms, ovens, and digital thermometers
+In series circuits, how do cells combine their voltage? | Total voltage is the sum of individual cell voltages
+In parallel circuits, how do cells combine their voltage? | Total voltage equals the voltage of one cell
+What is conservation of charge in circuits? | Charge is never used up or lost in a circuit
+What is conservation of energy in circuits? | Energy is never used up or lost in a circuit
+Why are parallel circuits useful for home wiring? | Single power source supplies all devices with same voltage; if one breaks, others still work
+What is the mnemonic for remembering P = I²R? | "Twinkle Twinkle Little Star, Power equals I squared R"
+What units must time be in when calculating electrical power? | Seconds (s)
+What is the relationship between p.d. and resistance in potential dividers? | The p.d. across a component is proportional to its resistance

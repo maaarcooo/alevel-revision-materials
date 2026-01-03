@@ -1,0 +1,45 @@
+What is mechanical work defined as? | The amount of energy transferred when an external force causes an object to move over a certain distance.
+What is the equation for work done when force is parallel to displacement? | W = Fs (where W = work done in J, F = force in N, s = displacement in m)
+What is the relationship between newton metres and joules? | 1 N m = 1 J
+How do you calculate work done when force is at an angle θ to displacement? | W = Fs cos θ
+When force is horizontal, which trigonometric function is used? | cos θ
+When force is vertical, which trigonometric function is used? | sin θ
+Which component of force is needed for calculating work done? | The component parallel to the displacement.
+What is power? | The rate of doing work or the rate of energy transfer.
+What is the equation for power in terms of work and time? | P = ΔW/Δt (where P = power in W, ΔW = work done in J, Δt = time in s)
+What is the equation for power when an object moves at constant velocity with constant force? | P = Fv (where F = force in N, v = velocity in m s⁻¹)
+For P = Fv, what condition must be met about the force? | The force must be in the direction of velocity, or use the component of force in the direction of velocity.
+How do you find work done from a force-displacement graph? | Work done equals the area under the force-displacement graph.
+What is efficiency defined as? | The ratio of the useful power output from a system to its total power input.
+What is the equation for efficiency as a percentage? | Efficiency = (Useful power output / Total power input) × 100%
+What is the alternative efficiency equation using energy? | Efficiency = (Useful energy output / Total energy input) × 100%
+Does efficiency have units? | No, efficiency has no units as it is a ratio.
+What is the Principle of Conservation of Energy? | Energy cannot be created or destroyed, it can only be transferred from one form to another.
+What is kinetic energy? | The energy an object has due to its motion or velocity.
+What is the equation for kinetic energy? | Eₖ = ½mv² (where Eₖ = kinetic energy in J, m = mass in kg, v = velocity in m s⁻¹)
+What is gravitational potential energy? | Energy stored in a mass due to its position in a gravitational field.
+What is the equation for gravitational potential energy? | ΔEₚ = mgΔh (where ΔEₚ = GPE in J, m = mass in kg, g = 9.81 N kg⁻¹, Δh = change in height in m)
+What happens to kinetic energy when an object falls? | It gains kinetic energy as it gains speed.
+What happens to gravitational potential energy when an object is lifted? | It gains gravitational potential energy.
+What is dissipated energy? | Energy that is wasted and transferred to the surroundings, usually as thermal, light or sound energy.
+What energy transfer occurs when a falling object drops in a vacuum? | Gravitational potential energy → kinetic energy
+What energy transfer occurs in a battery? | Chemical energy → electrical energy
+What energy transfer occurs in a horizontal mass on a spring? | Elastic potential energy → kinetic energy
+What are common forms of wasted energy? | Thermal (heat), light, or sound energy.
+In a television, which energy transfers are useful and which are wasted? | Useful: light and sound energy. Wasted: thermal energy from heating wires.
+In a heater, which energy transfer is useful and which is wasted? | Useful: thermal energy. Wasted: sound energy.
+What is a variable force? | A force on an object that is not constant; more representative of real-life forces.
+How do you calculate work done for a variable force? | Find the area under the force-displacement graph.
+What is the relationship between gravitational potential energy and height? | Linear relationship - GPE increases proportionally with height.
+Where is gravitational potential energy on Earth's surface usually taken to be zero? | At ground level.
+What condition must exist for ΔEₚ = mgΔh to be valid? | The gravitational field must be uniform (such as near Earth's surface).
+What happens to kinetic energy when speed doubles? | Kinetic energy quadruples (increases by a factor of 4) because KE ∝ v².
+How can power be increased? | By having greater energy transfer (work done) or by transferring energy over a shorter period of time.
+When calculating work done on a slope, which component of weight is used? | The component parallel to the slope (W sin θ where θ is the angle to horizontal).
+What is elastic potential energy? | The energy of a stretched spring or elastic band (strain energy).
+What is the equation for elastic potential energy? | Eₑ = ½k(ΔL)² (where k = spring constant, ΔL = extension)
+What types of energy are there? | Kinetic, gravitational potential, elastic, chemical, nuclear, internal (thermal), electrical.
+If an object travels up a rough inclined surface, what happens to kinetic energy? | Loss in KE = Gain in GPE + Work done against friction
+How do you split a force-displacement graph to find total work done? | Split into sections (rectangles, triangles, trapeziums), calculate area of each, then sum all areas.
+What must you check when reading values from a force-displacement graph? | The units on the axes - convert kN to N and km to m if necessary before calculating work done.
+When sketching graphs, do they need to be to scale? | No, but key points on x and y axes must be labelled from the question.

@@ -1,0 +1,31 @@
+What is breaking stress? | The maximum stress an object can withstand before failure occurs.
+What characterizes a brittle material? | It shows very little strain before reaching its breaking stress.
+What is the centre of mass? | The single point through which all the mass of an object can be said to act.
+State the principle of conservation of energy. | Energy cannot be created or destroyed - it can only be transferred into different forms.
+State the principle of conservation of momentum. | Total momentum before an event equals total momentum after the event, assuming no external forces act.
+What is a couple? | Two equal and opposite parallel forces acting through different lines of action, causing rotation without translation.
+Define density. | The mass per unit volume of a material.
+What is efficiency? | The ratio of useful output to total input for a given system.
+What is elastic behaviour? | When a material returns to its original shape after deforming forces are removed, with no permanent deformation.
+What is an elastic collision? | A collision where total kinetic energy before equals total kinetic energy after.
+What is the elastic limit? | The force beyond which an object will no longer deform elastically and instead deforms plastically.
+What is elastic strain energy? | The energy stored in a stretched object, equal to the work done to stretch it, found from the area under a force-extension graph.
+What conditions are needed for equilibrium? | Both the resultant force and resultant moment acting on the object must equal zero.
+State Hooke's Law. | The extension of an elastic object is directly proportional to the force applied, up to the limit of proportionality.
+What is impulse? | The change of momentum when a force acts on an object, equal to force × time.
+What is an inelastic collision? | A collision where total kinetic energy before does not equal total kinetic energy after.
+What is a moment? | The product of a force and the perpendicular distance from the line of action to the pivot.
+Define momentum. | The product of an object's mass and velocity.
+State Newton's First Law. | An object will remain in its current state of motion unless acted on by a resultant force.
+State Newton's Second Law. | The sum of forces acting on an object equals the rate of change of momentum.
+State Newton's Third Law. | Every action has an equal and opposite reaction.
+What is plastic behaviour? | When a material does not return to its original shape after deforming forces are removed, resulting in permanent deformation.
+State the Principle of Moments. | For equilibrium, the sum of clockwise moments about a point equals the sum of anticlockwise moments about that point.
+What is a scalar quantity? | A quantity that only has magnitude, such as length, mass, or temperature.
+What is the spring constant? | The constant of proportionality for the extension of a spring under a force. Higher values mean more force is needed for a given extension.
+What is stiffness? | A measure of how difficult it is to stretch a given object.
+What is tensile strain? | The ratio of an object's extension to its original length. It has no unit.
+What is tensile stress? | The amount of force acting per unit area, measured in Pascals (Pa).
+What is terminal speed? | The maximum speed of an object when resistive and driving forces are equal.
+What is a vector quantity? | A quantity that has both magnitude and direction, such as velocity, displacement, or acceleration.
+What is the Young Modulus? | The ratio of stress to strain for a given material, measured in Pascals (Pa).

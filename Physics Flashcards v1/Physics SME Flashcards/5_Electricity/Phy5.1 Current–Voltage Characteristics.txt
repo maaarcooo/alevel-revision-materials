@@ -1,0 +1,45 @@
+What is electric current? | The rate of flow of electric charge
+What is the unit of electric current? | Amperes (A) or amps
+What does 1 amp equal? | 1 coulomb of charge flowing in 1 second (1 A = 1 C s⁻¹)
+What is the equation for electric current? | I = ΔQ/Δt where I = current (A), ΔQ = charge (C), Δt = time (s)
+What two things are required for a simple electrical circuit? | A conductor through which current can flow and a source of potential difference
+What is conventional current? | The flow of positive charge from the positive terminal to the negative terminal
+Which direction do electrons actually flow? | From the negative terminal to the positive terminal (opposite to conventional current)
+How must an ammeter be connected to measure current? | In series with the component being measured
+What is potential difference? | The electrical work done per unit charge flowing between two points
+What is the unit of potential difference? | Volts (V)
+What does 1 volt equal? | The transfer of 1 joule of electrical energy by 1 coulomb of charge (1 V = 1 J C⁻¹)
+What is the equation for potential difference? | V = W/Q where V = potential difference (V), W = work done (J), Q = charge (C)
+What happens to electrons as they flow through a cell? | They gain energy
+What happens to electrons as they flow through a circuit? | They lose energy (transferring it to components)
+How must a voltmeter be connected to measure potential difference? | In parallel with the component being measured
+What is resistance? | The opposition of a component to the flow of electric current through it
+What is the equation for resistance? | R = V/I where R = resistance (Ω), V = potential difference (V), I = current (A)
+What is the unit of resistance? | Ohms (Ω)
+What does 1 ohm equal? | A potential difference of 1 V producing a current of 1 A
+How does high resistance affect current? | Higher resistance means lower current for a given potential difference
+How does low resistance affect current? | Lower resistance means higher current for a given potential difference
+Why are wires often made from copper? | Because copper has low electrical resistance (it's a good conductor)
+What is Ohm's law? | For a conductor at constant temperature, the current through it is proportional to the potential difference across it
+What does constant temperature imply for Ohm's law? | Constant resistance
+What does the I-V graph look like for an ohmic conductor? | A straight line through the origin
+What does the gradient of an I-V graph represent? | 1/R (one divided by resistance)
+How do you calculate resistance from an I-V graph? | R = 1 ÷ gradient
+When does a component obey Ohm's law? | When its I-V graph is a straight line through the origin
+Does a resistor obey Ohm's law? | Yes
+Does a filament lamp obey Ohm's law? | No (except for small voltages)
+What shape is the I-V graph for a resistor? | Straight line through the origin
+What shape is the I-V graph for a semiconductor diode? | Horizontal line that goes sharply upwards (only conducts in one direction)
+What shape is the I-V graph for a filament lamp? | An 'S' shaped curve
+For an ohmic conductor, how does current relate to potential difference? | Current is directly proportional to potential difference
+What is forward bias for a diode? | When current flows in the direction of the arrowhead symbol (sharp increase in I-V graph)
+What is reverse bias for a diode? | When the diode does not conduct (zero current on I-V graph)
+Why does the I-V graph curve for a filament lamp? | As current increases, temperature increases, which increases resistance, slowing the rate of current increase
+When a filament lamp I-V graph is a straight line, what does this mean? | The resistance is constant
+When does resistance increase on a filament lamp I-V graph? | As the graph curves
+What happens to a metal filament as current increases? | Temperature increases, causing resistance to increase
+Why does resistance oppose current in a filament lamp? | Higher temperature increases resistance, which opposes current flow
+What are the three main I-V characteristic shapes you need to know? | Straight line (resistor), horizontal then sharp upward (diode), S-curve (filament lamp)
+What type of component has constant resistance? | An ohmic conductor (e.g., resistor at constant temperature)
+What type of component only allows current in one direction? | A semiconductor diode
+What type of component has increasing resistance as current increases? | A filament lamp

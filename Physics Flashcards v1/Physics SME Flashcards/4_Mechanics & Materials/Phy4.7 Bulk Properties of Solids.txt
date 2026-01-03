@@ -1,0 +1,39 @@
+What is density? | Mass per unit volume of an object (ρ = m/V)
+What are the units of density if mass is in kg and volume in m³? | kg/m³ (or g/cm³ if mass in g and volume in cm³)
+How do you convert 1 mm³ to m³? | 1 mm³ = 1 × 10⁻⁹ m³ (divide by 1000³)
+How do you convert 1 cm³ to m³? | 1 cm³ = 1 × 10⁻⁶ m³ (divide by 100³)
+Are gases more or less dense than solids? | Less dense
+What is Hooke's Law? | Extension is directly proportional to applied force up to the limit of proportionality (F = kΔL)
+What does k represent in Hooke's Law? | Spring constant (N/m) - measures stiffness of material
+What does a larger spring constant indicate? | Stiffer material
+How do you calculate extension? | Extension = stretched length - unstretched length
+What is the limit of proportionality? | The point beyond which extension is no longer proportional to force
+What is the elastic limit? | The point beyond which material will not return to original length
+What does the gradient of a force-extension graph represent? | Spring constant (k)
+If extension is on the y-axis and force on x-axis, what does the gradient represent? | 1/k (reciprocal of spring constant)
+What is tensile stress? | Force per unit cross-sectional area (σ = F/A, measured in Pa)
+What is tensile strain? | Extension per unit original length (ΔL/L, dimensionless)
+Is strain a dimensionless quantity? | Yes, it's a ratio of lengths
+What is ultimate tensile stress? | Maximum stress a material can withstand before breaking
+What is yield stress? | Force per unit area at which material extends plastically with little/no increase in stress
+What is breaking stress? | Maximum stress a material can stand before fracture
+What is elastic strain energy? | Work done (energy stored) when stretching a material that obeys Hooke's Law
+How do you calculate elastic strain energy from a force-extension graph? | Area under the graph
+What is the equation for elastic strain energy when material obeys Hooke's Law? | E = ½FΔL or E = ½k(ΔL)²
+What does the area under a stress-strain graph represent? | Energy stored (or work done) per unit volume
+What is elastic deformation? | When material returns to original shape after load is removed
+What is plastic deformation? | When material is permanently deformed and doesn't return to original shape
+What is the elastic region on a force-extension graph? | Straight line portion where extension is proportional to force
+What is the plastic region on a force-extension graph? | Curved portion where extension is no longer proportional to force
+What is a brittle material? | Material with little/no plastic deformation before breaking (e.g. glass, concrete)
+What is a ductile material? | Material with large plastic region that stretches before breaking (e.g. copper, rubber)
+How does a brittle material appear on a stress-strain graph? | Straight line with no/negligible curved region
+How does a ductile material appear on a stress-strain graph? | Straight line followed by significant curve toward x-axis
+What happens when a metal wire is loaded beyond limit of proportionality then unloaded? | It undergoes plastic deformation; unloading line is parallel to loading line but doesn't pass through origin
+What does the area between loading and unloading lines represent? | Work done to permanently deform the wire
+Why is the unloading curve of a rubber band below the loading curve? | Some energy is converted to thermal energy (heat)
+What do shock absorbers do in vehicle suspension? | Convert kinetic energy from vehicle movement into thermal energy to dampen spring movement
+What energy conversions occur in a vertical mass-spring system? | Elastic potential energy, kinetic energy, and gravitational potential energy
+At maximum extension on a vertical spring, what energies are at maximum/minimum? | EPE maximum, KE zero, GPE minimum
+At equilibrium position on vertical spring moving down, what energies are at maximum? | KE maximum, EPE and GPE have intermediate values
+For a horizontal mass-spring system, what energy types are involved? | Only kinetic energy and elastic potential energy (no GPE)

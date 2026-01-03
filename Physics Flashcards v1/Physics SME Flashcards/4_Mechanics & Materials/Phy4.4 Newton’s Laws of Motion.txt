@@ -1,0 +1,27 @@
+What does Newton's First Law state? | An object will remain at rest or move with constant velocity unless acted on by a resultant force.
+What three changes require a resultant force? | To speed up, to slow down, or to change direction.
+If forces on a body are balanced, what two states can the body be in? | At rest or moving at a constant velocity.
+How do you know forces are balanced on an object? | Forces acting left equal forces acting right, and forces acting upward equal forces acting downward (resultant force = 0).
+What is Newton's Second Law equation? | F = ma (Force equals mass times acceleration)
+What are the units for force, mass, and acceleration in F = ma? | Force in newtons (N), mass in kilograms (kg), acceleration in metres per second squared (m s⁻²)
+In what direction does acceleration always act relative to resultant force? | In the same direction as the resultant force.
+What happens when a resultant force acts along an object's direction of motion? | The object will speed up (accelerate) or slow down (decelerate).
+What happens when a resultant force acts at an angle to an object's direction of motion? | The object will change direction.
+Is acceleration positive or negative if the resultant force acts in the direction of motion? | Positive.
+Is acceleration positive or negative if the resultant force opposes the direction of motion? | Negative.
+What is Newton's Second Law in terms of momentum? | The resultant force equals the rate of change of momentum: F = Δp/Δt
+How do you calculate rate of change of momentum? | F = m(Δv/Δt) where Δp/Δt = m(Δv/Δt)
+What does Newton's Third Law state? | If Object A exerts a force on Object B, then Object B exerts a force on Object A which is equal in magnitude but opposite in direction.
+What are the four criteria for a Newton's Third Law force pair? | Same type of force, same magnitude, opposite direction, acting on different objects.
+What are Newton's Third Law force pairs often called? | Third-law pairs.
+When walking, what are the Newton's Third Law force pairs involved? | The foot pushes the ground backwards, and the ground pushes the foot forwards (both are normal contact forces).
+Why is a free-body force diagram NOT an example of Newton's Third Law? | Because all forces shown act on the same object, not different objects.
+For a book resting on a table, what are the two Newton's Third Law pairs? | 1) Book pushes down on table, table pushes up on book (contact forces). 2) Earth pulls on book, book pulls on Earth (gravitational forces).
+What is the resultant force? | The vector sum of all forces acting on a body.
+If an object is in motion, which direction is considered positive? | The direction of motion.
+Does the acceleration of a falling object depend on its mass (assuming no air resistance)? | No, it is independent of mass.
+What is a common misconception about Newton's First Law? | That moving objects naturally slow down to a stop (they only slow down due to forces like friction).
+Will a resultant force opposing motion make an object suddenly travel backwards? | No, it will cause the object to decelerate.
+What is another name for the normal contact force? | Support force or normal reaction force.
+What is momentum defined as? | p = mv (mass times velocity)
+Are force and acceleration vectors or scalars? | Both are vectors (they have magnitude and direction).

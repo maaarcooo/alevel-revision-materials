@@ -1,0 +1,42 @@
+What is electric current? | The rate of flow of charge. I = ΔQ/Δt (where Q is charge in coulombs, t is time in seconds)
+What is potential difference? | The energy transferred per unit charge between two points in a circuit. V = W/Q (where W is energy transferred)
+What is resistance? | A measure of how difficult it is for charge carriers to pass through a component. R = V/I
+State Ohm's law. | For an ohmic conductor, current is directly proportional to potential difference, provided physical conditions (e.g. temperature) remain constant.
+What does the I-V graph of an ohmic conductor look like? | A straight line through the origin (when physical conditions are constant)
+What is the threshold voltage of a diode? | The smallest voltage needed to allow current to flow through a diode in its forward bias direction.
+Describe the behaviour of a diode in reverse bias. | The resistance is extremely high, meaning only a very small current can flow.
+Why does the resistance of a filament lamp increase with current? | The metal wire heats up as current increases, causing greater resistance. At low currents, Ohm's law is obeyed, but at higher currents the graph curves.
+What resistance do ammeters have? | Zero resistance (assumed), so they don't affect current measurement.
+What resistance do voltmeters have? | Infinite resistance (assumed), so no current flows through them and voltage measurement is exact.
+What is resistivity? | A measure of how easily a material conducts electricity. ρ = RA/L (where R is resistance, A is cross-sectional area, L is length)
+Why does resistance increase in a metal conductor when temperature increases? | Atoms gain kinetic energy and vibrate more, causing more frequent collisions with charge carriers (electrons), which slows them down.
+Why does resistance decrease in a thermistor when temperature increases? | More electrons are emitted from atoms, increasing the number of charge carriers, so current increases and resistance decreases.
+What is a superconductor? | A material that has zero resistivity below a certain temperature called the critical temperature.
+What is the critical temperature of a superconductor? | The temperature below which a material has zero resistivity. Most known superconductors have critical temperatures close to 0 K (-273°C).
+Give two applications of superconductors. | 1) Power cables (zero energy loss during transmission) 2) Strong magnetic fields for maglev trains or medical applications
+How do you calculate total resistance of resistors in series? | RT = R₁ + R₂ + R₃ + ...
+How do you calculate total resistance of resistors in parallel? | 1/RT = 1/R₁ + 1/R₂ + 1/R₃ + ...
+What is the formula for electrical power? | P = E/t (where E is energy transferred, t is time). Also P = VI
+Give two alternative formulas for power using resistance. | P = V²/R and P = I²R
+What is the formula for energy transferred? | E = VIt (combining power and time)
+In a series circuit, how is current distributed? | Current is the same everywhere in the circuit.
+In a series circuit, how is voltage distributed? | The battery p.d. is shared across all elements. The sum of voltages equals the supply p.d.
+In a parallel circuit, how is current distributed? | The sum of currents in each parallel branch equals the total current.
+In a parallel circuit, how is voltage distributed? | The potential difference across each branch is the same.
+What is the total voltage when cells are connected in series? | VT = V₁ + V₂ + V₃ + ... (sum of individual voltages)
+What is the total voltage when identical cells are connected in parallel? | VT = V₁ = V₂ = V₃ = ... (equal to the voltage of one cell)
+State Kirchhoff's first law. | The total current flowing into a junction equals the current flowing out. This shows charge is conserved.
+State Kirchhoff's second law. | The sum of all voltages in a series circuit equals the battery voltage. This shows energy is conserved.
+What is a potential divider? | A circuit with several resistors in series connected across a voltage source, used to produce a required fraction of the source p.d.
+How does a light dependent resistor (LDR) respond to light? | Its resistance decreases as light intensity increases.
+What is internal resistance in a battery? | Resistance caused by electrons colliding with atoms inside the battery, resulting in energy loss before electrons leave the battery.
+What is electromotive force (emf)? | The energy transferred by a cell per coulomb of charge passing through it. ε = E/Q
+What is the relationship between emf, load resistance, and internal resistance? | ε = I(R + r) where R is load resistance and r is internal resistance
+What is terminal p.d.? | The p.d. across the load resistance R in a circuit. V = IR
+What are lost volts? | The p.d. across the internal resistance r, equal to the energy wasted by the cell per coulomb of charge. v = Ir
+What is the relationship between emf, terminal p.d., and lost volts? | ε = V + v
+How can you measure the emf of a battery? | Measure the voltage across a cell using a voltmeter when there is no current (open circuit).
+What is the total resistance in a circuit with internal resistance? | RT = R + r (load resistance plus internal resistance)
+How can a thermistor be used as a temperature sensor? | It can trigger an event when temperature drops or reaches a certain value, e.g. turning on heating when room temperature falls below a threshold.
+How can you make a potential divider with variable output? | Use a variable resistor as one of the resistors in series. Varying its resistance changes the output p.d.
+In a potential divider with LDR, what happens to output p.d. when light intensity falls? | Resistance across the LDR increases, circuit current decreases, and output p.d. decreases (if LDR is in R₁ position).

@@ -1,0 +1,30 @@
+What is a scalar quantity? | A quantity with magnitude but no direction (e.g. mass, distance, speed, time, energy)
+What is a vector quantity? | A quantity with both magnitude and direction (e.g. weight, displacement, velocity, force, momentum)
+What is the difference between distance and displacement? | Distance is the total length of path travelled (scalar). Displacement is the straight-line distance from start to finish with direction (vector)
+What is the difference between speed and velocity? | Speed is distance per unit time with no direction (scalar). Velocity is displacement per unit time with direction (vector)
+Can an object have constant speed but changing velocity? | Yes, if the object is changing direction (e.g. circular motion)
+How are vectors represented visually? | By arrows. The arrowhead shows direction, and the arrow length represents magnitude
+What is a resultant vector? | The single vector produced when two or more vectors are combined (also called the 'net' vector)
+What are the two methods for adding vectors? | Calculation (if perpendicular) using Pythagoras' theorem, or scale drawing (if not perpendicular)
+How do you find the magnitude of a resultant vector from two perpendicular vectors? | Use Pythagoras' theorem: R = √(a² + b²)
+How do you find the direction of a resultant vector? | Use trigonometry: tan θ = opposite/adjacent
+What is the triangle method for vector addition? | Link vectors head-to-tail. The resultant connects the tail of the first to the head of the second
+What is the parallelogram method for vector addition? | Link vectors tail-to-tail, complete the parallelogram, and the diagonal is the resultant
+How do you subtract vectors? | Reverse the direction of the vector being subtracted, then add using normal vector addition
+What does resolving a vector mean? | Breaking down a single vector into two component vectors (usually horizontal and vertical)
+What is the horizontal component of force F at angle θ? | Fₓ = F cos θ
+What is the vertical component of force F at angle θ? | Fᵧ = F sin θ
+What is an inclined plane? | A flat surface tilted at an angle θ (a slope)
+What is the component of weight parallel to a slope at angle θ? | W sin θ (this causes motion down the slope)
+What is the component of weight perpendicular to a slope at angle θ? | W cos θ (this equals the normal reaction force R)
+What is the "cos sandwich" memory aid? | The cos θ component is always the adjacent side of the right-angled triangle
+When are forces in equilibrium? | When an object is at rest or moving at constant velocity
+How are forces in equilibrium represented? | By a closed vector triangle where vectors form a complete path
+What are the four most common forces on objects? | Weight, normal reaction force, tension, and friction
+In a scale drawing, what must you remember about the scale? | Always convert the measured length back to the actual units needed (e.g. 1 cm = 2 km)
+What tool measures the length of resultant vectors in scale drawings? | A ruler
+What tool measures the angle of resultant vectors in scale drawings? | A protractor
+Is mass a scalar or vector? | Scalar
+Is acceleration a scalar or vector? | Vector
+Is temperature a scalar or vector? | Scalar
+Is momentum a scalar or vector? | Vector

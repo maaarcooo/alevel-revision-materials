@@ -25,8 +25,8 @@ A comprehensive collection of A-Level revision materials for **Computer Science*
 
 | Subject | Topics | Flashcard Files | Note Files | Anki Decks |
 |---------|--------|-----------------|------------|------------|
-| Computer Science | 12+ | 38 | 48 | 2 |
-| Physics | 2 | 20 | 21 | 2 |
+| Computer Science | 12+ | 68 | 48 | 2 |
+| Physics | 5 | 54 | 41 | 2 |
 
 ## Subject Coverage
 
@@ -56,24 +56,42 @@ A comprehensive collection of A-Level revision materials for **Computer Science*
 
 | Topic | Flashcards | Notes v1 | Notes v2 |
 |-------|:----------:|:--------:|:--------:|
-| 3.1 Scalars & Vectors | ✓ | ✓ | ✓ |
-| 3.2 Moments | ✓ | ✓ | ✓ |
-| 3.3 Equations of Motion | ✓ | ✓ | ✓ |
-| 3.4 Newton's Laws of Motion | ✓ | ✓ | ✓ |
-| 3.5 Linear Momentum & Conservation | ✓ | ✓ | ✓ |
-| 3.6 Work, Energy & Power | ✓ | ✓ | ✓ |
-| 3.7 Bulk Properties of Solids | ✓ | ✓ | ✓ |
-| 3.8 The Young Modulus | ✓ | ✓ | ✓ |
-| 4.1 Current-Voltage Characteristics | ✓ | ✓ | ✓ |
-| 4.2 Resistance & Resistivity | ✓ | ✓ | ✓ |
-| 4.3 Circuits & The Potential Divider | ✓ | ✓ | ✓ |
-| 4.4 Electromotive Force & Internal Resistance | ✓ | ✓ | ✓ |
+| **1. Measurements & Their Errors** | | | |
+| 1.1 Use of SI Units & Their Prefixes | ✓ | - | ✓ |
+| 1.2 Limitation of Physical Measurements | ✓ | - | ✓ |
+| **2. Particles & Radiation** | | | |
+| 2.1 Atomic Structure & Decay Equations | ✓ | - | ✓ |
+| 2.2 Classification of Particles | ✓ | - | ✓ |
+| 2.3 Conservation Laws & Particle Interactions | ✓ | - | ✓ |
+| 2.4 The Photoelectric Effect | ✓ | - | ✓ |
+| 2.5 Energy Levels & Photon Emission | ✓ | - | ✓ |
+| **3. Waves** | | | |
+| 3.1 Longitudinal & Transverse Waves | ✓ | - | ✓ |
+| 3.2 Stationary Waves | ✓ | - | ✓ |
+| 3.3 Interference | ✓ | - | ✓ |
+| 3.4 Diffraction | ✓ | - | ✓ |
+| 3.5 Refraction | ✓ | - | ✓ |
+| **4. Mechanics & Materials** | | | |
+| 4.1 Scalars & Vectors | ✓ | ✓ | ✓ |
+| 4.2 Moments | ✓ | ✓ | ✓ |
+| 4.3 Equations of Motion | ✓ | ✓ | ✓ |
+| 4.4 Newton's Laws of Motion | ✓ | ✓ | ✓ |
+| 4.5 Linear Momentum & Conservation | ✓ | ✓ | ✓ |
+| 4.6 Work, Energy & Power | ✓ | ✓ | ✓ |
+| 4.7 Bulk Properties of Solids | ✓ | ✓ | ✓ |
+| 4.8 The Young Modulus | ✓ | ✓ | ✓ |
+| **5. Electricity** | | | |
+| 5.1 Current-Voltage Characteristics | ✓ | ✓ | ✓ |
+| 5.2 Resistance & Resistivity | ✓ | ✓ | ✓ |
+| 5.3 Circuits & The Potential Divider | ✓ | ✓ | ✓ |
+| 5.4 Electromotive Force & Internal Resistance | ✓ | ✓ | ✓ |
 
 ## Directory Structure
 
 ```
 alevel-revision-materials/
 ├── README.md
+├── LICENSE
 ├── CS CMB Notes v1/                    # Computer Science notes (organized by topic)
 │   ├── 1. Processors, Input, Output & Storage/
 │   ├── 2. Software & Software Development/
@@ -88,15 +106,21 @@ alevel-revision-materials/
 │   ├── CS PMT Flashcards/              # PMT variant flashcards
 │   ├── CS SME Flashcards/              # SME variant flashcards
 │   └── Anki decks APKG/                # Pre-built Anki decks
-├── Physics Gen Notes (SME) v1/         # Physics notes (SME variant)
-│   ├── 3. Mechanics & Materials/
-│   └── 4. Electricity/
-├── Physics Gen Notes v2/               # Physics notes (flat structure)
-│   └── *.md files
-└── Physics Flashcards v1/
-    ├── Physics PMT Flashcards/         # PMT variant flashcards
-    ├── Physics SME Flashcards/         # SME variant flashcards
-    └── Anki decks APKG/                # Pre-built Anki decks
+├── CS Flashcards v2/
+│   ├── CS CMB Flashcards/              # CMB variant flashcards (expanded)
+│   └── CS PMT defs Flashcards/         # PMT definition-focused flashcards
+├── Physics Gen Notes v1 (SME)/         # Physics notes (SME variant)
+│   ├── 4. Mechanics & Materials/
+│   └── 5. Electricity/
+├── Physics Gen Notes v2 (Mix)/         # Physics notes (comprehensive)
+│   └── *.md files                      # Includes all 5 topic areas
+├── Physics Flashcards v1/
+│   ├── Physics PMT Flashcards/         # PMT variant flashcards
+│   ├── Physics SME Flashcards/         # SME variant flashcards
+│   └── Anki decks APKG/                # Pre-built Anki decks
+└── Physics Flashcards v2/
+    ├── Physics PMT Flashcards/         # PMT variant flashcards (expanded)
+    └── Physics SME Flashcards/         # SME variant flashcards (expanded)
 ```
 
 ### Flashcard Variants
@@ -127,6 +151,8 @@ All materials are AI-generated using different Claude model configurations for q
 - Version 2 uses more advanced prompts and the Opus 4.5 model
 - Version 2 notes are generally more detailed and comprehensive
 - Version 1 notes use organized subdirectories; Version 2 uses flat structure
+- Physics v2 includes 3 additional topic areas (Measurements, Particles & Radiation, Waves)
+- Version 2 flashcards have significantly expanded coverage
 
 ## How to Use
 

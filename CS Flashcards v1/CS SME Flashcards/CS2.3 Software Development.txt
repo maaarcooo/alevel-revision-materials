@@ -1,0 +1,35 @@
+What is the Waterfall Model? | A sequential software development process divided into distinct phases, where each phase must be completed before the next one begins.
+What are the 6 phases of the Waterfall Model in order? | 1. Requirement Gathering and Analysis, 2. System Design, 3. Implementation, 4. Integration and Testing, 5. Deployment, 6. Maintenance.
+What happens in the Requirement Gathering and Analysis phase? | All possible system requirements are captured and documented clearly.
+What happens in the System Design phase? | Requirements are translated into a design, defining the overall architecture and identifying main components.
+What are 3 benefits of the Waterfall Model? | 1. Simple and linear - easy to understand, 2. Clear stages and milestones, 3. Suitable for well-defined projects.
+What are 3 drawbacks of the Waterfall Model? | 1. Inflexible - changes are difficult once started, 2. Expensive to fix late problems, 3. Long development cycle.
+When is the Waterfall Model most suitable? | For projects where requirements are well understood and unlikely to change, and where high quality and compliance are essential.
+What is Agile (Extreme Programming)? | A software development methodology that promotes adaptability and high customer involvement through iterative development.
+What is a sprint in Agile? | A short time-boxed development period, usually 1-4 weeks, where specific tasks are completed.
+What are user stories in Agile? | Requirements written from the user's perspective (e.g. "As a user, I want to...").
+What are the main phases in an Agile sprint cycle? | Plan sprint → Design solution → Develop features → Test continuously → Review progress → Reflect on process → Release → Repeat.
+What is pair programming? | A practice where developers work in pairs or small teams to write code together.
+What are 4 benefits of Agile/XP? | 1. Highly adaptable to changes, 2. Frequent communication, 3. Quality focus with continuous testing, 4. Customer collaboration.
+What are 4 drawbacks of Agile/XP? | 1. Requires experienced team members, 2. Intensive collaboration can lead to burnout, 3. May lack documentation, 4. Scope creep.
+What is scope creep? | When the flexible nature of development leads to uncontrolled changes in requirements.
+When is Extreme Programming most suitable? | For small to medium-sized projects where requirements can change and customer involvement is high.
+What is the Spiral Model? | A software development methodology that combines aspects of both iterative (agile) and sequential (waterfall) processes.
+What are the 4 stages of the Spiral Model? | 1. Planning, 2. Risk Analysis, 3. Engineering, 4. Evaluation and Feedback. The process repeats in spiral loops.
+What happens in the Risk Analysis phase of the Spiral Model? | Identify and assess potential risks, and plan mitigation strategies.
+What are 4 benefits of the Spiral Model? | 1. Flexibility for changes, 2. Risk management emphasis, 3. Strong customer involvement, 4. Incremental releases.
+What are 4 drawbacks of the Spiral Model? | 1. Complex and harder to manage, 2. Time-consuming, 3. Expensive, 4. Not suitable for small projects.
+When is the Spiral Model most suitable? | For large, complex projects where requirements may change and risk management is essential.
+What is Rapid Application Development (RAD)? | A software development methodology that emphasises fast and iterative development.
+What are the 5 phases of RAD? | 1. Requirement Planning, 2. User Design and Prototyping, 3. Construction/Iterative Development, 4. Cutover/Deployment, 5. Maintenance and Updates.
+What happens in the User Design and Prototyping phase of RAD? | Collaborate with users to develop prototypes, ensuring alignment with user needs.
+What are 4 benefits of RAD? | 1. Speed - rapid development, 2. User involvement throughout, 3. Flexibility for changes, 4. Incremental development with feedback.
+What are 4 drawbacks of RAD? | 1. Dependent on strong team collaboration, 2. Potential lack of quality due to speed focus, 3. Not suitable for small projects, 4. Can lead to scope creep.
+When is RAD most suitable? | For projects where rapid delivery is required and requirements can be developed and refined on the go.
+Which model is best for well-defined projects with stable requirements? | Waterfall Lifecycle.
+Which model is best for fast-paced projects with changing requirements? | Agile (XP).
+Which model is best for complex projects needing extensive risk management? | Spiral Model.
+Which model is best for projects requiring quick delivery with active user participation? | Rapid Application Development (RAD).
+What is the main difference between Waterfall and Agile? | Waterfall is linear and inflexible (all stages completed in sequence), while Agile is iterative and adaptable (repeating cycles with continuous feedback).
+What makes the Spiral Model unique compared to other models? | It combines iterative and sequential processes with a strong emphasis on risk analysis at each spiral loop.
+Why might Agile be preferred over Waterfall for adding a new feature to existing software? | Agile's flexibility allows for continuous improvements and adjustments during development, while Waterfall's rigid structure makes changes difficult once started.

@@ -1,0 +1,18 @@
+What does RISC stand for? | Reduced Instruction Set Computer
+What is the key characteristic of RISC processors? | Small instruction set where each instruction is approximately one line of machine code and takes one clock cycle
+What does CISC stand for? | Complex Instruction Set Computer
+What is the key characteristic of CISC processors? | Large instruction set designed to accomplish tasks in as few lines of assembly code as possible, with instructions built into hardware
+How many lines of code does it take to multiply two numbers in RISC? | 4 lines (LDA R1, X; LDA R2, Y; MULT R1, R2; STO R1, X)
+How many lines of code does it take to multiply two numbers in CISC? | 1 line (MULT A, B)
+Which processor type requires the compiler to do more work? | RISC - the compiler must translate high-level code into more lines of machine code
+Which processor type requires more RAM? | RISC - because the code is longer and requires more storage
+Which processor type allows pipelining? | RISC - because each instruction takes one clock cycle
+What is a disadvantage of CISC processors? | Many specialised instructions are created, but only a few are actually used
+Where are CISC processors commonly used today? | In microcontrollers and embedded systems
+What is a multi-core CPU? | A CPU with multiple independent cores that can complete instructions separately, resulting in higher performance
+How do parallel systems differ from multi-core systems? | Parallel systems complete tasks with a single core using threading, while multi-core systems use multiple physical cores
+Which performs better for larger projects: multi-core or parallel systems? | Multi-core systems
+What is a GPU? | Graphics Processing Unit - a device with many independent processors that work in parallel
+What type of processor is a GPU classified as? | A co-processor (secondary processor that supplements the primary processor)
+What tasks are GPUs particularly efficient at? | Repetitive tasks such as image processing and machine learning
+Why are GPUs efficient at repetitive tasks? | They have many independent processors working in parallel

@@ -1,0 +1,44 @@
+What are the six common stages in most Software Development Life Cycles (SDLCs)? | Analysis, Design, Development, Testing, Implementation, Evaluation, Maintenance
+What happens during the Analysis stage? | Stakeholders define requirements by analysing current solutions and considering data types, inputs, outputs, and volumes
+What is designed during the Design stage? | Inputs/outputs (volume, methods, frequency), security features, hardware compatibility, user interface, and test plan
+What happens during the Development stage? | The project is split into individual, self-contained modules allocated to teams for programming
+What is alpha testing? | Testing carried out in-house by software development teams to pinpoint and fix bugs
+What is beta testing? | Testing carried out by end-users after alpha testing, with user feedback informing next development stage
+What is white box testing? | Testing by development teams based on internal program structure, testing all possible routes through the program
+What is black box testing? | Testing without knowledge of internal structure, tracing inputs and outputs, can be done in-house or by end-users
+What happens during the Implementation stage? | The tested software is installed onto users' systems
+What is evaluated during the Evaluation stage? | Software effectiveness against system requirements, including robustness, reliability, portability and maintainability
+What happens during the Maintenance stage? | Programmers send regular updates to fix bugs, security issues and make improvements flagged by end-users
+What does TELOS stand for in feasibility studies? | Technical, Economic, Legal, Operational, Scheduling
+What is the Waterfall lifecycle? | A sequential software development model where stages are completed in order from start to finish
+What is a major drawback of the Waterfall model? | Inflexibility - programmers must revisit all levels between current stage and where change is needed
+When is user involvement limited in the Waterfall model? | Users only involved at the beginning (analysis) and end (evaluation) stages
+What are Agile methodologies? | Collection of methodologies that improve flexibility and adapt to changing requirements faster
+How does Agile handle development? | Problem broken into sections developed in parallel, with working prototypes delivered early and regularly
+What is prioritised in Agile development? | User satisfaction over documentation
+What is Extreme Programming (XP)? | Agile model with paired programmers and end-user representative, using user stories for requirements
+What is the benefit of pair programming in XP? | High-quality code - one person writes while the other critiques, improving code as it's written
+What is a 'working version' in XP? | Each iteration produces a program that could function as the final product
+What are the four key stages of the Spiral model? | Analysing requirements, pinpointing and mitigating risks, development/testing/implementation, evaluating for next iteration
+When is a project terminated in the Spiral model? | If the project is found to be too risky at any point
+What type of projects is the Spiral model suited for? | Very large-scale, risk-intensive projects with high budgets
+What is Rapid Application Development (RAD)? | Iterative methodology using partially functioning prototypes that are continually built-upon based on user feedback
+How are requirements gathered in RAD? | Using focus groups to develop incomplete versions for users to trial
+When is RAD commonly used? | When user requirements are incomplete or unclear at the start
+What is a drawback of RAD? | As requirements change, additions and code changes may be inefficient
+What is an algorithm? | A set of instructions used to solve a problem
+What are six key qualities of good algorithms? | Clearly defined inputs, always produce valid output, deal with invalid inputs, reach stopping condition, well-documented, well-commented
+What is a merit of the Waterfall model? | Straightforward to manage and clearly documented
+What is a drawback of the Waterfall model? | Lack of flexibility, no risk analysis, limited user involvement
+When should the Waterfall model be used? | Static, low-risk projects needing little user input, such as general-purpose software
+What are merits of Agile methodologies? | Produces high quality code, flexible to changing requirements, regular user input
+What are drawbacks of Agile methodologies? | Poor documentation, requires consistent interaction between user and programmer
+When should Agile be used? | Small to medium projects with unclear initial requirements
+What are merits of Extreme Programming? | Produces high quality code, constant user involvement means high usability
+What are drawbacks of Extreme Programming? | High cost of two people on one project, teamwork essential, end-user may not be present
+When should Extreme Programming be used? | Small to medium projects with unclear requirements requiring excellent usability
+What are merits of the Spiral model? | Thorough risk-analysis and mitigation, caters to changing needs, produces prototypes throughout
+What are drawbacks of the Spiral model? | Expensive to hire risk assessors, lack of focus on code efficiency, high prototyping costs
+What are merits of RAD? | Caters to changing requirements, highly usable product, focus on core features reduces development time
+What are drawbacks of RAD? | Poorer documentation quality, fast pace may reduce code quality
+When should RAD be used? | Small to medium, low-budget projects with short time-frames

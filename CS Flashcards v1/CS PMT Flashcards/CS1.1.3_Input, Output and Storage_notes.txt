@@ -1,0 +1,41 @@
+What is an input device? | A device used to put data and information into a computer.
+What is an output device? | A device used to send information from a computer.
+Give three examples of input devices. | Keyboard (text entry), webcam (photos/videos), magnetic stripe reader (card data), barcode reader (labels/cards).
+Give three examples of output devices. | Speakers (sound), printers (paper output), projector (video to screen).
+What type of device is a touchscreen? | Both input and output device - outputs visual information and accepts touch input.
+What two factors are important when choosing an input device? | Speed and accuracy of input, cost, and relevance to the task.
+How do optical storage devices work? | Use lasers to read/write data. Portions either reflect or scatter laser light to represent binary information.
+What do pits and lands represent on a CD? | Pits represent 0, lands represent 1.
+What is a CD primarily used for? | Storing audio files, text, and digital images.
+What are three disadvantages of CDs? | Easily damaged by scratches, limited storage capacity, slow transfer speeds.
+What does DVD stand for? | Digital versatile disc or digital video disc.
+How does Blu-Ray compare to DVD? | Over five times the storage capacity, useful for high-resolution films.
+How do magnetic storage devices represent binary data? | Using two magnetic states: polarised (aligned poles) and unpolarised (random poles) to represent 1 and 0.
+What is the typical storage capacity of a hard disk drive? | Between 500GB and 5TB.
+How does a hard disk drive work? | Rotating magnetic platters spin at high speed under a read/write head on an actuating arm.
+What are two disadvantages of HDDs? | Slow data transfer speeds and easily damaged by movement due to brittle platters and moving parts.
+What was the typical storage capacity of a floppy disk? | 1MB, though later versions reached 200MB.
+What logic gates does flash storage use? | NAND and NOR gates to store electrical charge in high or low states.
+How is data organised in flash storage? | Information stored in blocks, which combine to form pages.
+Which logic gate is preferred for small files like code? | NOR.
+Which logic gate is preferred for larger files like photos and videos? | NAND.
+Is flash memory volatile or non-volatile? | Non-volatile - retains data when power is lost.
+What is a key disadvantage of flash memory? | More expensive per gigabyte than magnetic and optical storage.
+What does SSD stand for? | Solid state drive.
+What are three advantages of SSDs over HDDs? | Light and portable, no moving parts (resistant to damage), high data transfer rates.
+What is a disadvantage of SSDs? | Cost (though decreasing) and limited lifespan - required voltage increases with each write until page becomes unusable.
+What does RAM stand for? | Random access memory.
+What is RAM used for? | Fast main memory to store data and programs currently being used by the computer.
+Is RAM volatile or non-volatile? | Volatile - loses information when power is lost.
+Why is RAM capacity typically smaller than secondary storage? | RAM is more expensive per gigabyte than secondary storage.
+What does ROM stand for? | Read only memory.
+Can ROM be modified after programming? | No, it cannot be modified once programmed.
+What is ROM used for? | Storing fixed instruction sequences like a computer's bootstrap (startup) routine.
+Is ROM volatile or non-volatile? | Non-volatile - retains data when power is lost.
+What is virtual storage? | Storing information remotely so it can be accessed by any computer with access to the same system (e.g., over the Internet).
+Give two examples of virtual storage services. | Google Drive and Microsoft OneDrive, or networked storage in offices/schools.
+How is cloud storage physically implemented? | An abstraction of multiple drives (100s of HDDs or SSDs) formatted to act as a single piece of storage.
+What are two disadvantages of virtual storage? | Limitations of network speed and high costs.
+What are the three main types of secondary storage? | Optical, magnetic, and flash storage.
+What type of storage is RAM and ROM? | Primary storage.
+What is the main difference between primary and secondary storage? | Primary storage (RAM/ROM) is used by the OS to run the computer; secondary storage holds user data like images and videos.

@@ -1,0 +1,51 @@
+What is the CPU? | The processor/brain of the computer that executes instructions to run programs.
+What does the ALU do? | Performs arithmetic operations (addition, subtraction) and logical operations (AND, OR, NOT, XOR).
+What is the function of the Control Unit? | Directs CPU operations, manages data flow, accepts instructions, decodes them, and stores results in memory.
+What are registers? | Small, very fast memory cells inside the CPU that temporarily store data.
+What does the Program Counter (PC) hold? | The address of the next instruction to be executed.
+What does the Accumulator (ACC) store? | Results from calculations.
+What does the Memory Address Register (MAR) hold? | The address of a location to be read from or written to.
+What does the Memory Data Register (MDR) store? | Data that has been read or data that needs to be written.
+What does the Current Instruction Register (CIR) hold? | The current instruction being executed, split into opcode and operand.
+What is a bus? | A set of parallel wires connecting components inside the CPU.
+What are the three buses in the CPU? | Data bus, address bus, and control bus (collectively called the system bus).
+What does bus width determine? | The number of bits that can be transferred simultaneously.
+What does the data bus carry? | Data and instructions between components (bidirectional).
+What does the address bus carry? | Memory addresses specifying where data is sent to or retrieved from.
+What does the control bus carry? | Control signals between internal and external components (bidirectional).
+What control signal shows a device is requesting the data bus? | Bus request.
+What control signal shows the CPU has granted data bus access? | Bus grant.
+What is the opcode? | The part of an instruction that specifies the type of operation to be executed.
+What is the operand? | The data or address of data upon which the operation is to be performed.
+What is the fetch-decode-execute cycle? | The sequence of operations completed to execute an instruction.
+What happens during the fetch phase? | PC copied to MAR, instruction from that address sent to MDR via data bus, PC incremented by 1, MDR copied to CIR.
+What happens during the decode phase? | CIR contents split into opcode and operand, then sent to Control Unit to be decoded.
+What happens during the execute phase? | The decoded instruction is executed (varies by instruction type).
+Which register holds the value being stored with STA instruction? | The Accumulator (ACC).
+Where does data go before being sent to memory? | The Memory Data Register (MDR).
+What three factors affect CPU performance? | Clock speed, number of cores, and cache.
+What is clock speed? | The number of state changes (cycles) the CPU performs per second, measured in Hz.
+How does higher clock speed affect performance? | More instructions can be executed per second, completing tasks more quickly.
+What is a core? | An independent processing unit that can run its own fetch-execute cycle.
+Why isn't a dual core processor twice as fast as single core? | Time is spent organising tasks between cores, and not all programs can utilise multiple cores efficiently.
+What is cache memory? | CPU's onboard memory that stores frequently used instructions and data for faster access.
+What are the three levels of cache? | Level 1 (fastest, smallest), Level 2 (medium speed and size), Level 3 (largest, slowest).
+Which cache level is fastest? | Level 1 cache (2-64KB).
+Which cache level is largest? | Level 3 cache.
+What is pipelining? | Completing fetch, decode, and execute cycles of three separate instructions simultaneously.
+How does pipelining improve efficiency? | Reduces CPU idle time by processing multiple instructions concurrently at different stages.
+What happens to the pipeline during a branch instruction? | The pipeline is flushed.
+What happens in Step 3 of pipelining? | Instruction C is fetched, Instruction B is decoded, Instruction A is executed.
+What is Von Neumann architecture? | Uses shared memory and a shared data bus for both data and instructions.
+What is Harvard architecture? | Uses physically separate memories and buses for instructions and data.
+What are the main components of Von Neumann architecture? | Control Unit, ALU, registers, memory units, and a single set of buses.
+What advantage does Harvard architecture have over Von Neumann? | Quicker execution as data and instructions can be fetched in parallel.
+What advantage does Von Neumann architecture have? | Cheaper to develop as the control unit is easier to design, and programs can be optimised in size.
+What is contemporary processor architecture? | A combination of Harvard and Von Neumann - uses Von Neumann for main memory but Harvard architecture to divide cache into instruction cache and data cache.
+How many separate buses does Harvard architecture use? | Separate buses for data and instructions.
+Why can Harvard architecture be more efficient with space? | Memories can be different sizes, optimised for their specific purpose.
+What feature allows instructions to be fetched while others are decoded? | Pipelining.
+What is parallel processing? | When each core carries out its own task simultaneously.
+What is hyperthreading/virtual cores? | Where a physical core can act as two virtual cores.
+What is out of order execution? | Instructions can be executed before earlier ones if they are ready.
+What is super scalar execution? | Multiple instructions can be executed simultaneously.

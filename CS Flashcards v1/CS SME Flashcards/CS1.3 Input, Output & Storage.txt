@@ -1,0 +1,56 @@
+What is an input device? | A hardware component that allows users to interact with a computer system by inputting data or commands.
+Name three common input devices used for text and navigation. | Keyboard, mouse, and touchscreen.
+What input device captures audio for voice commands or recording? | Microphone.
+What input device is used by artists for drawing directly onto a computer? | Graphics tablet.
+What type of input device uses fingerprint scanners or facial recognition for security? | Biometric devices.
+What input device scans barcodes in retail environments? | Barcode reader.
+What input device is often used for flight simulators to control movement fluidly? | Joystick.
+What is an output device? | A hardware component that receives information from a computer and presents it to the user in a comprehensible form.
+What is the most common output device for displaying visual information? | Monitor.
+What output device produces a hard copy of digital documents? | Printer.
+What specialised output device allows visually impaired users to read text? | Braille display.
+What output device is used for printing large, high-quality diagrams in engineering? | Plotter.
+What output device provides an immersive visual and audio experience for gaming? | Virtual Reality (VR) headset.
+What four factors should be considered when choosing input/output devices? | User needs, user skills, environment, and cost.
+Why might a wireless mouse be suitable for an office environment? | It provides a clutter-free workspace.
+What are the three types of secondary storage? | Magnetic, optical, and flash.
+How do magnetic storage devices store data? | By magnetising particles on a disk or tape.
+What is a key benefit of magnetic storage devices? | High storage capacity and relatively low cost per gigabyte.
+What is a major drawback of magnetic storage devices? | Slower read/write speeds and susceptibility to physical damage due to moving parts.
+How do optical storage devices store data? | Using a laser to burn pits into the surface of the disc.
+What are two benefits of optical storage devices? | Durable, relatively immune to environmental conditions, and easy to transport.
+What is a drawback of optical storage devices? | Lower storage capacity and can be easily scratched or damaged.
+How do flash storage devices store data? | In flash memory cells.
+What are two key benefits of flash storage devices? | Fast read/write speeds and no moving parts (less likely to fail from physical shock).
+What is a drawback of flash storage devices? | Higher cost per gigabyte and memory cells can wear out after many write cycles.
+What type of storage device is a Hard Disk Drive (HDD)? | Magnetic storage device.
+What is the typical consumer-grade storage capacity for an HDD? | 500GB to 2TB.
+What type of storage device is a Solid-State Drive (SSD)? | Flash storage device.
+Compare the cost per GB of SSDs versus HDDs. | SSDs have a higher cost per GB, while HDDs have a low cost per GB.
+Why are SSDs more durable than HDDs? | SSDs have no moving parts, making them less susceptible to physical shock.
+What is the typical storage capacity of a USB flash drive? | 8GB to 256GB (common sizes).
+What are the storage capacities for CD, DVD, and Blu-ray discs? | CD: 700MB, DVD: 4.7GB-9GB, Blu-ray: 25GB-50GB.
+What is a major durability issue with optical discs? | They can be scratched or damaged easily.
+What four factors should be considered when choosing a storage device? | Storage needs, performance needs, portability, and cost.
+What storage device is best for tasks requiring high-speed data access like video editing? | Solid-State Drive (SSD).
+What portable storage devices can transfer data between computers? | USB flash drives and external HDDs or SSDs.
+What is virtual storage (cloud storage)? | A data storage model where digital data is stored across multiple servers and locations, typically hosted by third parties.
+Why is there a need for virtual storage? | Local devices have storage capacity limitations and risk of data loss; virtual storage offers scalable, off-site storage with built-in redundancy.
+How does virtual storage work? | Data is transmitted over the internet to a data centre where servers store, secure, and back up the data for access as needed.
+Name two benefits of virtual storage. | Scalability (easy to increase capacity) and accessibility (data accessible from anywhere with internet).
+What is a major drawback of virtual storage? | Dependence on internet connection - access can be slow or impossible with poor connectivity.
+What are two other drawbacks of virtual storage? | Security concerns for sensitive data and ongoing costs over time.
+What is the difference between virtual storage and virtual memory? | Virtual storage is data stored on the cloud; virtual memory uses secondary storage as RAM when RAM is maximised.
+What does RAM stand for? | Random Access Memory.
+What type of data does RAM store? | Data currently being used by the computer, such as open applications and files.
+Is RAM volatile or non-volatile? | Volatile - it loses its contents when the computer is turned off or restarted.
+Why is it called "Random Access" Memory? | The processor can access any part of RAM equally fast, regardless of location.
+How does the amount of RAM affect computer performance? | More RAM allows more data to be processed simultaneously, leading to faster performance.
+Can data in RAM be both read from and written to? | Yes, the processor can both read from and write to RAM.
+What does ROM stand for? | Read-Only Memory.
+What does ROM store? | The BIOS (Basic Input/Output System) or firmware used to start up the computer and initialise hardware components.
+Is ROM volatile or non-volatile? | Non-volatile - it retains its contents when the computer is turned off.
+Can data in ROM be modified by the computer? | No, data in ROM can be read but not written to or modified.
+Why is ROM essential for all computers? | It contains the instructions needed for system startup and hardware initialisation.
+Compare the purpose of RAM versus ROM. | RAM stores data currently being used (applications, files); ROM stores BIOS/firmware for startup and hardware initialisation.
+Compare the volatility of RAM versus ROM. | RAM is volatile (loses data when powered off); ROM is non-volatile (retains data when powered off).

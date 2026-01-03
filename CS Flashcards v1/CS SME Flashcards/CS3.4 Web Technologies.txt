@@ -1,0 +1,58 @@
+What are the three main stages of how search engines work? | 1. Crawling - gathering web pages, 2. Indexing - organizing information, 3. Ranking - ordering results by relevance
+What are web crawlers? | Software programs (also called spiders, bots, or robots) that follow links from one webpage to another to discover content
+What is the robots.txt file used for? | It provides guidelines to crawlers on which areas of a website to explore or avoid
+What does indexing involve? | Storing collected information from webpages in a structured manner within a search engine's database, with each word recorded along with its position
+What is the PageRank algorithm? | A ranking system that evaluates web pages based on their importance, determined by the quantity and quality of links pointing to them
+Who developed the PageRank algorithm? | Larry Page and Sergey Brin, the founders of Google
+How does PageRank work? | Each link acts as a "vote" for a page, with the voting weight determined by the importance of the linking page
+What is the damping factor in PageRank? | A value between 0 and 1 (usually 0.85) representing the probability that a user will jump to a random new page instead of following a link
+What does server side processing involve? | Running code and carrying out operations on the server instead of on the client's device or browser
+What is PHP used for? | Server side scripting language for web development, handling tasks like database interaction and form processing
+What is client side processing? | Carrying out code or processing tasks on the user's device, usually within the web browser
+What is JavaScript primarily used for? | Client side scripting to add interactivity and dynamic functionality to webpages
+What is the HTML <head> section used for? | Contains information about the web page that's not displayed on the page itself, like the title and stylesheet links
+What does the HTML <body> section contain? | The main content of the web page that is displayed in the browser window
+What is the purpose of HTML headings (<h1>, <h2>, etc.)? | To structure content hierarchically and help users and search engines understand page organization
+What does the HTML <img> tag do? | Embeds an image into an HTML document with src (source) and alt (alternative text) attributes
+What does the HTML <a> tag create? | Hyperlinks using the href attribute to specify the destination URL
+What is CSS used for? | Defining the style or appearance of a webpage (colors, fonts, layouts, etc.)
+How do you reference a CSS class in code? | Use a full stop (.) before the class name, e.g., .myClass
+How do you reference a CSS ID in code? | Use a hash (#) before the ID name, e.g., #myID
+What is the difference between a class and an ID in HTML/CSS? | A class can be used on multiple elements; an ID must be unique and used only once per page
+How do you specify colors in CSS? | By name (e.g., "red") or hex code (e.g., #FF0000)
+What does the background-color property do in CSS? | Sets the background color of an element
+What does the color property do in CSS? | Changes the font/text color of an element
+What are the three ways to produce outputs in JavaScript? | 1. Changing HTML element contents, 2. Writing directly to document, 3. Using alert boxes
+What is an if statement used for? | Selecting code to run depending on whether a condition is true or false
+What does the == operator do? | Checks if two values are equal (with type coercion)
+What does the === operator do? | Checks if two values are equal in both value and type (strict equality, no type coercion)
+What is a switch case statement? | An alternative to multiple if statements for comparing a single expression against multiple possible values
+What is a for loop used for? | Repeatedly executing code for a specified number of iterations
+What are the three parts of a for loop? | 1. Initialization, 2. Condition, 3. Increment/Decrement
+What is a while loop? | A loop that repeatedly executes code as long as a specified condition remains true
+What is the difference between while and do while loops? | A do while loop executes at least once before checking the condition; a while loop checks the condition first
+What does the .length property do for strings? | Returns the number of characters in a string
+What does the .substring() method do? | Extracts a portion of a string based on starting and ending indices
+What is the addition operator (+) used for in JavaScript? | Adding numerical values together or concatenating strings
+What does the modulus operator (%) do? | Returns the remainder when one number is divided by another
+What does the increment operator (++) do? | Increases the value of a variable by one
+What does the AND operator (&&) do? | Returns true only if both operands are true
+What does the OR operator (||) do? | Returns true if at least one operand is true
+What does the NOT operator (!) do? | Negates a Boolean value (true becomes false, false becomes true)
+What is a nested statement? | Putting one block of code (if statement or loop) within another
+What is a function in JavaScript? | A reusable block of code that performs a specific task and can return a value
+What is a procedure in JavaScript? | Similar to a function but does not return a value; it performs actions or operations
+How do you define a function in JavaScript? | Using the function keyword followed by the function name, parameters in parentheses, and code block in curly braces
+What does the return statement do in a function? | Specifies the value that the function should return when called
+What is the difference between server side and client side validation? | Server side is more secure but slower; client side provides immediate feedback but can be bypassed
+What are the benefits of search engine indexing? | Improved search results, efficient retrieval, better ranking and relevance, freshness and updates
+What factors influence PageRank besides links? | Content relevance, user engagement, authority and trust, content freshness, mobile-friendliness
+What is DOM manipulation in JavaScript? | Modifying the Document Object Model to make dynamic changes to a web page's content and structure
+What is form validation in JavaScript? | Checking user input in real time to ensure all required fields are filled correctly before submission
+What are the basic data types in JavaScript? | Integer, Real/Float, Char, String, Boolean
+How do you declare a variable in JavaScript? | Using the let keyword: let variableName = value;
+How do you declare a constant in JavaScript? | Using the const keyword: const constantName = value;
+What is operator precedence? | The order in which operators are evaluated (follows BIDMAS/BODMAS rules)
+What comparison operators check for greater than or less than? | > (greater than), < (less than), >= (greater than or equal to), <= (less than or equal to)
+What does the for...in loop do? | Iterates through the items in a data structure like a list or array
+How do you calculate total iterations in nested loops? | Multiply the number of outer loop iterations by the number of inner loop iterations

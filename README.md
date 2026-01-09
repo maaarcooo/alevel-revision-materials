@@ -26,7 +26,7 @@ A comprehensive collection of A-Level revision materials for **Computer Science*
 | Subject | Topics | Flashcard Files | Note Files | Anki Decks |
 |---------|--------|-----------------|------------|------------|
 | Computer Science | 12+ | 68 | 48 | 2 |
-| Physics | 5 | 54 | 41 | 2 |
+| Physics | 5 | 54 | 70 | 2 |
 
 ## Subject Coverage
 
@@ -54,37 +54,37 @@ A comprehensive collection of A-Level revision materials for **Computer Science*
 
 ### Physics
 
-| Topic | Flashcards | Notes v1 | Notes v2 |
-|-------|:----------:|:--------:|:--------:|
-| **1. Measurements & Their Errors** | | | |
-| 1.1 Use of SI Units & Their Prefixes | ✓ | - | ✓ |
-| 1.2 Limitation of Physical Measurements | ✓ | - | ✓ |
-| **2. Particles & Radiation** | | | |
-| 2.1 Atomic Structure & Decay Equations | ✓ | - | ✓ |
-| 2.2 Classification of Particles | ✓ | - | ✓ |
-| 2.3 Conservation Laws & Particle Interactions | ✓ | - | ✓ |
-| 2.4 The Photoelectric Effect | ✓ | - | ✓ |
-| 2.5 Energy Levels & Photon Emission | ✓ | - | ✓ |
-| **3. Waves** | | | |
-| 3.1 Longitudinal & Transverse Waves | ✓ | - | ✓ |
-| 3.2 Stationary Waves | ✓ | - | ✓ |
-| 3.3 Interference | ✓ | - | ✓ |
-| 3.4 Diffraction | ✓ | - | ✓ |
-| 3.5 Refraction | ✓ | - | ✓ |
-| **4. Mechanics & Materials** | | | |
-| 4.1 Scalars & Vectors | ✓ | ✓ | ✓ |
-| 4.2 Moments | ✓ | ✓ | ✓ |
-| 4.3 Equations of Motion | ✓ | ✓ | ✓ |
-| 4.4 Newton's Laws of Motion | ✓ | ✓ | ✓ |
-| 4.5 Linear Momentum & Conservation | ✓ | ✓ | ✓ |
-| 4.6 Work, Energy & Power | ✓ | ✓ | ✓ |
-| 4.7 Bulk Properties of Solids | ✓ | ✓ | ✓ |
-| 4.8 The Young Modulus | ✓ | ✓ | ✓ |
-| **5. Electricity** | | | |
-| 5.1 Current-Voltage Characteristics | ✓ | ✓ | ✓ |
-| 5.2 Resistance & Resistivity | ✓ | ✓ | ✓ |
-| 5.3 Circuits & The Potential Divider | ✓ | ✓ | ✓ |
-| 5.4 Electromotive Force & Internal Resistance | ✓ | ✓ | ✓ |
+| Topic | Flashcards | Notes v1 | Notes v2 | Notes v3 |
+|-------|:----------:|:--------:|:--------:|:--------:|
+| **1. Measurements & Their Errors** | | | | |
+| 1.1 Use of SI Units & Their Prefixes | ✓ | - | ✓ | ✓ |
+| 1.2 Limitation of Physical Measurements | ✓ | - | ✓ | ✓ |
+| **2. Particles & Radiation** | | | | |
+| 2.1 Atomic Structure & Decay Equations | ✓ | - | ✓ | ✓ |
+| 2.2 Classification of Particles | ✓ | - | ✓ | ✓ |
+| 2.3 Conservation Laws & Particle Interactions | ✓ | - | ✓ | ✓ |
+| 2.4 The Photoelectric Effect | ✓ | - | ✓ | ✓ |
+| 2.5 Energy Levels & Photon Emission | ✓ | - | ✓ | ✓ |
+| **3. Waves** | | | | |
+| 3.1 Longitudinal & Transverse Waves | ✓ | - | ✓ | ✓ |
+| 3.2 Stationary Waves | ✓ | - | ✓ | ✓ |
+| 3.3 Interference | ✓ | - | ✓ | ✓ |
+| 3.4 Diffraction | ✓ | - | ✓ | ✓ |
+| 3.5 Refraction | ✓ | - | ✓ | ✓ |
+| **4. Mechanics & Materials** | | | | |
+| 4.1 Scalars & Vectors | ✓ | ✓ | ✓ | ✓ |
+| 4.2 Moments | ✓ | ✓ | ✓ | ✓ |
+| 4.3 Equations of Motion | ✓ | ✓ | ✓ | ✓ |
+| 4.4 Newton's Laws of Motion | ✓ | ✓ | ✓ | ✓ |
+| 4.5 Linear Momentum & Conservation | ✓ | ✓ | ✓ | ✓ |
+| 4.6 Work, Energy & Power | ✓ | ✓ | ✓ | ✓ |
+| 4.7 Bulk Properties of Solids | ✓ | ✓ | ✓ | ✓ |
+| 4.8 The Young Modulus | ✓ | ✓ | ✓ | ✓ |
+| **5. Electricity** | | | | |
+| 5.1 Current-Voltage Characteristics | ✓ | ✓ | ✓ | ✓ |
+| 5.2 Resistance & Resistivity | ✓ | ✓ | ✓ | ✓ |
+| 5.3 Circuits & The Potential Divider | ✓ | ✓ | ✓ | ✓ |
+| 5.4 Electromotive Force & Internal Resistance | ✓ | ✓ | ✓ | ✓ |
 
 ## Directory Structure
 
@@ -110,9 +110,10 @@ alevel-revision-materials/
 │   ├── CS CMB Flashcards/              # CMB variant flashcards (expanded)
 │   └── CS PMT defs Flashcards/         # PMT definition-focused flashcards
 ├── Physics Gen Notes v1 (SME)/         # Physics notes (SME variant)
-│   ├── 4. Mechanics & Materials/
-│   └── 5. Electricity/
+│   └── *.md files                      # Topics 4 & 5 only
 ├── Physics Gen Notes v2 (Mix)/         # Physics notes (comprehensive)
+│   └── *.md files                      # Includes all 5 topic areas
+├── Physics Gen Notes v3 (Mix)/         # Physics notes (comprehensive, concise)
 │   └── *.md files                      # Includes all 5 topic areas
 ├── Physics Flashcards v1/
 │   ├── Physics PMT Flashcards/         # PMT variant flashcards
@@ -147,12 +148,20 @@ All materials are AI-generated using different Claude model configurations for q
 | Flashcards | `ankiFlashcardPrompt_v4` | Claude Opus 4.5 |
 | Notes | `revisionNotesPrompt_v2` | Claude Opus 4.5 (Thinking) |
 
-**Key Differences:**
-- Version 2 uses more advanced prompts and the Opus 4.5 model
+### Version 3
+
+| Content Type | Generation Method | Model |
+|--------------|-------------------|-------|
+| Notes (Physics only) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Claude Skill | Claude Opus 4.5 (Thinking) |
+
+**Key Differences Between Versions:**
+- Version 2 uses more advanced prompts and the Opus 4.5 model compared to v1
 - Version 2 notes are generally more detailed and comprehensive
-- Version 1 notes use organized subdirectories; Version 2 uses flat structure
-- Physics v2 includes 3 additional topic areas (Measurements, Particles & Radiation, Waves)
+- All versions now use flat file structure with individual .md files
+- Physics v2 & v3 include 3 additional topic areas (Measurements, Particles & Radiation, Waves) compared to v1
 - Version 2 flashcards have significantly expanded coverage
+- Physics v3 notes are more concise and focused compared to v2 (~27% smaller file size)
+- Version 3 uses a Claude Skill for generation instead of direct prompt templates
 
 ## How to Use
 

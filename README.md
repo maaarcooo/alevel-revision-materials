@@ -110,8 +110,7 @@ alevel-revision-materials/
 │   ├── CS CMB Flashcards/              # CMB variant flashcards (expanded)
 │   └── CS PMT defs Flashcards/         # PMT definition-focused flashcards
 ├── Physics Gen Notes v1 (SME)/         # Physics notes (SME variant)
-│   ├── 4. Mechanics & Materials/
-│   └── 5. Electricity/
+│   └── *.md files                      # Topics 4 & 5 only
 ├── Physics Gen Notes v2 (Mix)/         # Physics notes (comprehensive)
 │   └── *.md files                      # Includes all 5 topic areas
 ├── Physics Gen Notes v3 (Mix)/         # Physics notes (comprehensive, concise)
@@ -151,17 +150,18 @@ All materials are AI-generated using different Claude model configurations for q
 
 ### Version 3
 
-| Content Type | Prompt Template | Model |
-|--------------|-----------------|-------|
-| Notes (Physics only) | `revisionNotesPrompt_v3` | Claude Opus 4.5 (Thinking) |
+| Content Type | Generation Method | Model |
+|--------------|-------------------|-------|
+| Notes (Physics only) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Claude Skill | Claude Opus 4.5 (Thinking) |
 
 **Key Differences Between Versions:**
 - Version 2 uses more advanced prompts and the Opus 4.5 model compared to v1
 - Version 2 notes are generally more detailed and comprehensive
-- Version 1 notes use organized subdirectories; Version 2 & 3 use flat structure
+- All versions now use flat file structure with individual .md files
 - Physics v2 & v3 include 3 additional topic areas (Measurements, Particles & Radiation, Waves) compared to v1
 - Version 2 flashcards have significantly expanded coverage
 - Physics v3 notes are more concise and focused compared to v2 (~27% smaller file size)
+- Version 3 uses a Claude Skill for generation instead of direct prompt templates
 
 ## How to Use
 

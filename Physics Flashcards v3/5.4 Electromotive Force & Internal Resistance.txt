@@ -1,0 +1,68 @@
+What happens to charge when it passes through a power supply? | It gains electrical energy
+What is electromotive force (e.m.f)? | The amount of chemical energy converted to electrical energy per coulomb of charge when passing through a power supply
+The amount of chemical energy converted to electrical energy per coulomb of charge — what quantity is this? | Electromotive force (e.m.f)
+What symbol represents e.m.f? | ε (Greek letter epsilon)
+What is the unit of e.m.f? | Volts (V)
+Is e.m.f actually a force? | No, despite its name it is not a force
+What is the equation for e.m.f in terms of energy and charge? | ε = E/Q
+In the equation ε = E/Q, what does E represent? | Energy transformed from other forms to electrical (J)
+In the equation ε = E/Q, what does Q represent? | Charge (C)
+When is e.m.f equal to the potential difference across a cell? | When no current is flowing (open circuit)
+How can e.m.f be measured experimentally? | By connecting a high-resistance voltmeter in parallel with the cell in an open circuit
+Why must a high-resistance voltmeter be used to measure e.m.f? | To ensure negligible current flows through the circuit
+What is terminal potential difference? | The potential difference across the terminals of a cell
+What is the equation for terminal p.d? | V = IR
+In the equation V = IR, what does V represent? | Terminal potential difference (V)
+In the equation V = IR, what does R represent? | Resistance of the external circuit (Ω)
+Why is the terminal p.d always lower than the e.m.f when current flows? | Because the cell has internal resistance which causes some voltage to be lost
+What is internal resistance? | The resistance of the materials within the battery
+The resistance of the materials within the battery — what term describes this? | Internal resistance
+What symbol represents internal resistance? | r
+What causes some electrical energy to be dissipated within a power supply? | Internal resistance
+Why does a cell become warm after being used for a period of time? | Internal resistance causes energy dissipation within the cell
+What are lost volts? | The work done per unit charge to overcome the internal resistance inside the battery when current flows
+The work done per unit charge to overcome internal resistance — what term describes this? | Lost volts
+What symbol represents lost volts? | v (lowercase)
+What is the equation for lost volts? | v = Ir
+What is the relationship between lost volts, e.m.f and terminal p.d? | v = ε − V
+What is the full e.m.f equation including internal resistance? | ε = IR + Ir or ε = I(R + r)
+In the equation ε = I(R + r), what does IR represent? | Terminal p.d (voltage across the external circuit)
+In the equation ε = I(R + r), what does Ir represent? | Lost volts (voltage lost across internal resistance)
+How can e.m.f be defined in terms of the circuit? | The total or maximum voltage available to the circuit
+What happens to the voltage available to the external circuit as internal resistance increases? | It decreases (more voltage is lost internally)
+How are a cell's e.m.f and internal resistance represented in a circuit diagram? | As a source of e.m.f with an internal resistance connected in series
+What is the load resistor in a circuit? | The external resistance connected to the power supply
+If a battery has negligible internal resistance, what equals the e.m.f? | The terminal p.d (voltage across the battery)
+What is the aim of the EMF and internal resistance practical? | To investigate the relationship between e.m.f and internal resistance by measuring the variation of current and voltage
+What is the independent variable in the EMF practical? | Resistance, R (Ω)
+What are the dependent variables in the EMF practical? | Voltage, V (V) and current, I (A)
+What are the control variables in the EMF practical? | E.m.f of the cell and internal resistance of the cell
+What is the purpose of the variable resistor in the EMF practical? | To change the values of current and voltage in the circuit
+What is the purpose of the switch in the EMF practical? | To open between readings so as not to run down the battery
+Why should the switch be opened between readings in the EMF practical? | To prevent the internal resistance of the battery from changing during the experiment
+What is the minimum number of readings recommended in the EMF practical? | 8-10 readings
+How is the EMF equation rearranged for graphing V against I? | V = −rI + ε
+When plotting V against I for the EMF practical, what does the y-axis represent? | Terminal potential difference, V (V)
+When plotting V against I for the EMF practical, what does the x-axis represent? | Current, I (A)
+What does the gradient of a V-I graph represent in the EMF practical? | Negative internal resistance (−r)
+What does the y-intercept of a V-I graph represent in the EMF practical? | The e.m.f (ε)
+Why is the gradient of the V-I graph negative? | Because increasing current causes greater voltage loss across internal resistance, reducing terminal p.d
+What systematic error must be avoided in the EMF practical? | Leaving the switch closed too long, which can cause internal resistance to change
+How can systematic errors be reduced in the EMF practical? | Only close the switch for as long as it takes to take each pair of readings
+Why should only fairly new cells be used in the EMF practical? | Because the e.m.f and internal resistance of run-down batteries can vary during the experiment
+Why should you wait for readings to stabilise before recording values? | To reduce random errors from fluctuating measurements
+How many repeat readings should be taken for each resistance value? | At least 3
+Why are multiple repeat readings taken? | To calculate a mean and reduce random errors
+What safety consideration applies to the EMF practical? | Electrical components can get hot when used for a long period
+What should you do if you smell burning during the practical? | Switch off the power supply immediately
+Why should liquids be kept away from the equipment? | They could damage the electrical equipment
+What is the resolution of a typical voltmeter used in this practical? | 1 mV
+What is the resolution of a typical ammeter used in this practical? | 0.1 mA
+What range voltmeter is typically used in the EMF practical? | 0-2 V
+What range ammeter is typically used in the EMF practical? | 0-200 mA
+How do you calculate current in a circuit with internal resistance? | I = ε/(R + r)
+How do you calculate lost volts if you know current and internal resistance? | v = I × r
+What does it mean if a question states "a battery of negligible internal resistance"? | E.m.f equals the battery voltage, and internal resistance calculations are not needed
+When current flows through a cell, what develops across the internal resistance? | A potential difference (the lost volts)
+Why does resistance oppose current in a circuit? | It reduces the energy per unit charge (voltage) available to the external circuit
+In the graphical analysis, why is the line of best fit used? | To determine e.m.f from the y-intercept and internal resistance from the gradient

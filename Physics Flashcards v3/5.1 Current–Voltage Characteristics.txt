@@ -1,0 +1,76 @@
+What two things does a simple electrical circuit require? | A conductor for current to flow through and a source of potential difference
+Define electric current | The rate of flow of electric charge
+The rate of flow of electric charge — what quantity is this? | Electric current
+What is the unit of electric current? | Ampere (A)
+What is 1 ampere equivalent to? | 1 coulomb of charge flowing per second (1 A = 1 C s⁻¹)
+What is the equation for electric current? | I = ΔQ/Δt
+In the equation I = ΔQ/Δt, what does I represent? | Current (A)
+In the equation I = ΔQ/Δt, what does ΔQ represent? | Amount of charge flowing (C)
+In the equation I = ΔQ/Δt, what does Δt represent? | Time interval (s)
+What causes current to flow in a circuit? | A conductor connecting the positive and negative terminals of an electrical energy source
+In electric circuits, what particles carry the current? | Electrons
+Define conventional current | The flow of positive charge
+Conventional current flows from which terminal to which? | From the positive terminal to the negative terminal of a cell
+In which direction do electrons flow relative to conventional current? | Opposite direction (from negative to positive terminal)
+Why do electrons flow from negative to positive terminal? | Electrons are negatively charged, so they are repelled by the negative terminal and attracted to the positive terminal
+What instrument measures electric current? | An ammeter
+How must an ammeter be connected in a circuit? | In series with the component being measured
+Define potential difference | The electrical work done per unit charge flowing between two points
+The electrical work done per unit charge flowing between two points — what quantity is this? | Potential difference
+What is the unit of potential difference? | Volt (V)
+What is 1 volt equivalent to? | 1 joule of electrical energy transferred per coulomb of charge (1 V = 1 J C⁻¹)
+What is the equation for potential difference? | V = W/Q
+In the equation V = W/Q, what does V represent? | Potential difference (V)
+In the equation V = W/Q, what does W represent? | Electrical work done by the charge (J)
+In the equation V = W/Q, what does Q represent? | Charge flow (C)
+How does a simple cell create a potential difference? | Through the separation of charge between its terminals
+What is present at each terminal of a cell? | One terminal has excess positive charge, the other has excess negative charge
+What happens to electrons as they flow through a cell? | They gain energy
+In a 12 V cell, how much energy does each coulomb of charge gain? | 12 J
+What happens to electrons as they flow through a circuit? | They lose energy (transfer energy to components)
+What instrument measures potential difference? | A voltmeter
+How must a voltmeter be connected in a circuit? | In parallel with the component being measured
+Define resistance | The opposition of a component to the flow of electric current through it
+The opposition to the flow of electric current through a component — what quantity is this? | Resistance
+What is the equation that defines resistance? | R = V/I
+In the equation R = V/I, what does R represent? | Resistance (Ω)
+In the equation R = V/I, what does V represent? | Potential difference across the conductor (V)
+In the equation R = V/I, what does I represent? | Current in the conductor (A)
+What is the unit of resistance? | Ohm (Ω)
+What is 1 ohm equivalent to? | A potential difference of 1 V producing a current of 1 A
+For a given potential difference, what is the relationship between resistance and current? | Higher resistance means lower current; lower resistance means higher current
+Why is copper often used for electrical wires? | It has low electrical resistance (good conductor)
+What is resistance assumed to be for wires in exam questions? | Zero
+State Ohm's law | For a conductor at constant temperature, the current through it is proportional to the potential difference across it
+For a conductor at constant temperature, current is proportional to potential difference — what law is this? | Ohm's law
+What does constant temperature imply about resistance? | Constant resistance
+What equation represents Ohm's law? | V = IR
+How can resistance be calculated from an I-V graph? | R = 1 ÷ gradient of the graph
+What does the gradient of an I-V graph equal? | 1/R (inverse of resistance)
+What must an I-V graph look like for a component to obey Ohm's law? | A straight line through the origin
+Does a fixed resistor obey Ohm's law? | Yes
+Does a filament lamp obey Ohm's law? | No
+What is the shape of an I-V graph for an ohmic conductor? | A straight line through the origin
+What does a straight line through the origin on an I-V graph indicate? | Current is directly proportional to potential difference (constant resistance)
+What is a semiconductor diode used for in a circuit? | To allow current to flow only in a specific direction
+What is forward bias for a diode? | When current flows in the direction of the arrowhead symbol
+What happens to a diode in forward bias? | Sharp increase in current as potential difference increases
+What is reverse bias for a diode? | When the diode is connected the opposite way and does not conduct
+What does an I-V graph show for a diode in reverse bias? | Zero current (horizontal line at I = 0)
+What is the shape of an I-V graph for a semiconductor diode? | Horizontal line (no current) that curves sharply upward in forward bias
+What is the shape of an I-V graph for a filament lamp? | An 'S' shaped curve (current increases at a slower rate than p.d.)
+Why does the I-V graph for a filament lamp curve? | As current increases, temperature increases, which increases resistance
+What happens to the temperature of a filament lamp as current increases? | Temperature increases
+What happens to the resistance of a metal filament as temperature increases? | Resistance increases
+How does increased resistance affect current in a filament lamp? | Current increases at a slower rate
+On a filament lamp I-V graph, where is resistance constant? | Where the graph is a straight line (near the origin)
+On a filament lamp I-V graph, where does resistance increase? | Where the graph curves
+For what values of voltage does a filament lamp obey Ohm's law? | For small voltages only
+What does an increasing gradient on an I-V graph indicate about resistance? | Resistance is decreasing
+What does a constant gradient on an I-V graph indicate about resistance? | Resistance is constant
+What does a decreasing gradient on an I-V graph indicate about resistance? | Resistance is increasing
+A linear I-V graph that passes through the origin indicates what type of component? | An ohmic conductor (e.g., a resistor)
+An I-V graph with zero current in reverse bias and sharp increase in forward bias indicates what component? | A semiconductor diode
+An I-V graph with an S-shaped curve indicates what component? | A filament lamp
+What type of resistor is used to vary current and potential difference in a circuit? | A variable resistor
+How can you investigate the I-V characteristics of a component? | Use a variable resistor to adjust p.d. and current, measure with voltmeter (parallel) and ammeter (series)

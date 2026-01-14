@@ -1,0 +1,79 @@
+What are the two types that all physical quantities can be classified as? | Scalar or vector
+What is a scalar quantity? | A quantity that has magnitude but no direction
+A quantity that has magnitude but no direction is called what? | A scalar quantity
+What is a vector quantity? | A quantity that has both magnitude and direction
+A quantity that has both magnitude and direction is called what? | A vector quantity
+Is mass a scalar or vector quantity? | Scalar (has magnitude but no direction)
+Is weight a scalar or vector quantity? | Vector (has both magnitude and direction)
+Why is weight a vector quantity? | Because it is a force and has both magnitude and direction
+What is distance? | A measure of how far an object has travelled, regardless of direction
+Is distance a scalar or vector quantity? | Scalar
+Why is distance a scalar quantity? | Because it has magnitude but no direction
+What does distance measure in terms of path? | The total length of the path taken
+What is displacement? | A measure of how far it is between two points in space, including the direction
+Is displacement a scalar or vector quantity? | Vector
+Why is displacement a vector quantity? | Because it has both magnitude and direction
+How is displacement defined geometrically? | The length and direction of a straight line drawn from the starting point to the finishing point
+What is the key difference between distance and displacement? | Distance is the total path length regardless of direction; displacement is the straight-line distance including direction
+What is speed? | A measure of the distance travelled by an object per unit time, regardless of direction
+Is speed a scalar or vector quantity? | Scalar
+Why is speed a scalar quantity? | Because it has magnitude but no direction
+What is velocity? | A measure of the displacement of an object per unit time, including the direction
+Is velocity a scalar or vector quantity? | Vector
+Why is velocity a vector quantity? | Because it has both magnitude and direction
+Can an object have constant speed but changing velocity? | Yes, if the object is changing direction
+What does the speed of an object describe? | How fast it is moving, but not the direction it is travelling in
+What does the velocity of an object describe? | How fast it is moving and which direction it is travelling in
+Give five examples of scalar quantities | Distance, speed, mass, time, energy
+Give five more examples of scalar quantities | Volume, density, pressure, electric charge, temperature
+Give five examples of vector quantities | Displacement, velocity, acceleration, force, momentum
+How are vectors represented graphically? | By an arrow
+What does the arrowhead of a vector arrow indicate? | The direction of the vector
+What does the length of a vector arrow represent? | The magnitude of the vector
+What is a resultant vector? | The single vector produced by combining (adding) two or more vectors
+What is another name for the resultant vector? | The net vector
+What are the two methods for adding vectors? | Calculation (for perpendicular vectors) and scale drawing (for non-perpendicular vectors)
+When should calculation be used to add vectors? | When the vectors are perpendicular (at right angles)
+When should scale drawing be used to add vectors? | When the vectors are not perpendicular
+How is the magnitude of the resultant vector found when two vectors are at right angles? | Using Pythagoras' theorem
+What is the formula for finding the resultant R of two perpendicular vectors a and b? | R = √(a² + b²)
+How is the direction of a resultant vector found? | Using trigonometry (sine, cosine, or tangent)
+In the triangle method of vector addition, how are the vectors arranged? | Head-to-tail
+In the triangle method, how is the resultant vector formed? | By connecting the tail of the first vector to the head of the second vector
+In the parallelogram method of vector addition, how are the vectors arranged? | Tail-to-tail
+In the parallelogram method, what represents the resultant vector? | The diagonal of the completed parallelogram
+What tools are used to find the resultant vector in a scale drawing? | A ruler (for magnitude) and a protractor (for direction)
+In vector subtraction c = a - b, what must be done to vector b first? | Reverse its direction to make -b
+What does resolving a vector mean? | Breaking a single vector down into two perpendicular components
+What are the parts called when a vector is broken down? | Components
+What is the horizontal component of a force F at angle θ to the horizontal? | Fₓ = F cos θ
+What is the vertical component of a force F at angle θ to the horizontal? | Fᵧ = F sin θ
+What is an inclined plane? | A flat surface tilted at an angle θ
+For an object on an inclined plane, what component of weight acts perpendicular to the slope? | W cos θ (or mg cos θ)
+For an object on an inclined plane, what component of weight acts parallel to the slope? | W sin θ (or mg sin θ)
+On a frictionless inclined plane, what force causes the object to move down the slope? | The parallel component of weight: W sin θ
+On an inclined plane, what is the normal reaction force R equal to? | W cos θ (the perpendicular component of weight)
+Why does the normal force equal W cos θ on an inclined plane? | Because the object is not moving perpendicular to the slope, so forces in that direction are balanced
+What are the two conditions for forces to be in equilibrium? | The object is at rest OR moving at constant velocity
+How are coplanar forces in equilibrium represented graphically? | By a closed vector triangle
+What does it mean for vectors to form a closed path? | When joined together head-to-tail, they return to the starting point
+What are the four most common forces acting on objects? | Weight, normal reaction force, tension, and friction
+For an object in equilibrium, what must the vector sum of all forces equal? | Zero (the vectors form a closed triangle)
+Which trigonometric function relates opposite and adjacent sides? | Tangent (tan θ = opposite/adjacent)
+Which trigonometric function relates adjacent and hypotenuse? | Cosine (cos θ = adjacent/hypotenuse)
+Which trigonometric function relates opposite and hypotenuse? | Sine (sin θ = opposite/hypotenuse)
+The component adjacent to the angle θ uses which trigonometric function? | Cosine (cos θ)
+The component opposite to the angle θ uses which trigonometric function? | Sine (sin θ)
+Is acceleration a scalar or vector quantity? | Vector
+Is force a scalar or vector quantity? | Vector
+Is momentum a scalar or vector quantity? | Vector
+Is energy a scalar or vector quantity? | Scalar
+Is time a scalar or vector quantity? | Scalar
+Is pressure a scalar or vector quantity? | Scalar
+Is electric charge a scalar or vector quantity? | Scalar
+Is temperature a scalar or vector quantity? | Scalar
+Is density a scalar or vector quantity? | Scalar
+Is volume a scalar or vector quantity? | Scalar
+What mathematical theorem is consistently used in vector addition with perpendicular vectors? | Pythagoras' theorem
+What branch of mathematics is used to find vector directions? | Trigonometry
+In equilibrium, what type of vector triangle do coplanar forces form? | A closed vector triangle

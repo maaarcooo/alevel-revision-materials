@@ -1,0 +1,99 @@
+What is momentum? | The product of mass and velocity (p = mv)
+The product of mass and velocity — what quantity is this? | Momentum
+What is linear momentum? | The momentum of an object moving in only one dimension
+What is the equation for momentum? | p = mv
+What does p represent in the momentum equation? | Momentum
+What does m represent in the momentum equation? | Mass
+What does v represent in the momentum equation? | Velocity
+What are the SI units for momentum? | kg m s⁻¹
+Is momentum a scalar or vector quantity? | Vector (has both magnitude and direction)
+What happens to an object's linear momentum if no external resultant force acts? | It remains constant
+If an object travels in the opposite direction to the initial motion, what happens to the sign of its velocity? | It becomes negative
+If velocity is negative, what happens to the sign of momentum? | Momentum is also negative
+Which direction is usually assigned as positive in momentum problems? | The initial direction of motion
+What must you do if mass is given in grams for momentum calculations? | Convert to kg by dividing by 1000
+What must you do if velocity is given in km s⁻¹ for momentum calculations? | Convert to m s⁻¹ by multiplying by 1000
+State the principle of conservation of linear momentum | Total momentum before a collision equals total momentum after, provided no external force acts
+What condition is required for momentum to be conserved? | No external force acts on the system
+What happens when opposing momentum vectors cancel out? | The net momentum is zero
+What is the momentum of a stationary object? | Zero
+If an object collides and rebounds, what happens to its velocity sign? | It changes from positive to negative (or vice versa)
+Write the conservation of momentum equation for two objects A and B | pAi + pBi = pAf + pBf
+What are external forces? | Forces that act on a structure or system from outside (e.g., friction, weight)
+Forces that act on a system from outside — what are these called? | External forces
+What are internal forces? | Forces exchanged by particles within the system (e.g., tension in a string)
+Forces exchanged by particles within a system — what are these called? | Internal forces
+What is a closed or isolated system? | A system not affected by external forces
+In a closed system, what happens to total momentum? | It is conserved
+Give an example of momentum conservation in an explosion | A swimmer diving from a boat — diver moves forward, boat moves backward
+Why does a boat move backward when a diver jumps forward from it? | To conserve momentum (initial momentum was zero, so final momentum must also be zero)
+What is force defined as in terms of momentum? | The rate of change of momentum
+Write the equation relating force and momentum | F = Δp/Δt
+What does Δp represent? | Change in momentum
+What does Δt represent? | Change in time
+How is change in momentum calculated? | Final momentum minus initial momentum (Δp = pf - pi)
+What is the positive direction taken as when calculating forces? | The direction of initial motion
+What sign does force have if it opposes the initial velocity? | Negative
+According to Newton's Third Law, what can be said about forces in a collision? | Forces are equal in magnitude and opposite in direction
+What is impulse? | The product of force and the time for which it acts
+The product of force and time — what quantity is this? | Impulse
+Write the equation for impulse | Impulse = FΔt
+What are the units of impulse? | Newton seconds (N s)
+Give three examples of impulse | Kicking a ball, catching a ball, collision between objects
+Why is it difficult to directly measure force during an impulse? | The force acts for only a short time
+How can impulse be measured indirectly? | By measuring the change in momentum
+What is the relationship between impulse and change in momentum? | Impulse equals change in momentum (Impulse = Δp)
+Write the equation relating impulse to initial and final velocities | Impulse = Δp = mv - mu
+What does u represent in the impulse equation? | Initial velocity
+What does v represent in the impulse equation? | Final velocity
+When are the impulse equations only valid? | When force F is constant
+Is impulse a scalar or vector quantity? | Vector (has magnitude and direction)
+In what direction does impulse act? | In the direction of the resultant force
+A small force over a long time has the same effect as what? | A large force over a short time
+What are the base units for the newton? | kg m s⁻²
+Why do hailstones feel different from raindrops hitting an umbrella? | Hailstones have greater change in momentum (they bounce back), creating greater impulse
+Why does a cricket fielder move their hands backwards when catching a ball? | To increase contact time, reducing the force experienced
+What effect does increasing contact time have on force for a given impulse? | It reduces the force
+How is impulse represented on a force-time graph? | As the area under the graph
+Why does impulse equal area under a force-time graph? | Because Impulse = Force × Time
+If a force-time graph is curved, how do you find the impulse? | Count the squares under the curve
+If a force-time graph has straight lines, how do you find the impulse? | Split into sections and sum the areas
+What shapes might you need to calculate when finding impulse from a graph? | Rectangles, triangles, trapeziums
+What does a larger area under a force-time graph indicate? | Greater impulse (greater change in momentum)
+How are impact forces reduced? | By increasing contact time
+Where is reducing impact force important? | In sport and in packaging
+Why does a footballer follow through when kicking a ball? | To increase contact time and create larger impulse, giving the ball higher velocity
+Why does packaging use bubble wrap or polyester? | To increase contact time and reduce impact forces, preventing damage
+What is an elastic collision? | A collision where kinetic energy is conserved
+A collision where kinetic energy is conserved — what type is this? | Elastic collision
+What is an inelastic collision? | A collision where kinetic energy is not conserved
+A collision where kinetic energy is not conserved — what type is this? | Inelastic collision
+In elastic collisions, what typically happens to the objects? | They move apart in opposite directions (don't stick together)
+In inelastic collisions, what typically happens to the objects? | They stick together after collision
+Is momentum conserved in elastic collisions? | Yes
+Is momentum conserved in inelastic collisions? | Yes
+Is kinetic energy conserved in elastic collisions? | Yes
+Is kinetic energy conserved in inelastic collisions? | No
+What is the equation for kinetic energy? | KE = ½mv²
+How do you determine if a collision is elastic or inelastic? | Compare kinetic energy before and after the collision
+What is an explosion in terms of momentum? | An event involving recoil, such as a gun firing or nuclear decay
+Give an example of an explosion involving recoil | Gun recoiling after shooting, or nucleus emitting an alpha particle
+When two objects stick together after collision, how do you treat the final mass? | As a single object with mass equal to the sum of both masses
+What momentum does a stationary object have? | Zero (velocity = 0, so p = mv = 0)
+What kinetic energy does a stationary object have? | Zero
+How can impact force in vehicle collisions be decreased? | By increasing the contact time over which the collision occurs
+What is contact time in a collision? | The time during which the vehicle or passenger is in contact with the colliding object
+Name three vehicle safety features designed to reduce impact force | Crumple zones, seat belts, airbags
+How do vehicle safety features reduce risk of injury? | By absorbing energy and increasing time for momentum change, reducing force
+How do seat belts reduce injury? | They stretch slightly, increasing contact time and reducing force on the passenger
+How do airbags reduce injury? | They act as a cushion, increasing contact time and reducing force on the passenger
+Where are airbags deployed from in vehicles? | Dashboard, steering wheel, and in newer cars, from doors
+What are crumple zones? | Areas at front and back of vehicles designed to crush in a controlled way during collision
+Where are crumple zones located on a vehicle? | At the front and back
+How do crumple zones reduce injury? | By increasing the time over which the vehicle's momentum reaches zero, reducing force
+On a force-time graph, how does increased contact time appear? | Lower peak force and wider base
+For the same change in momentum, what happens to maximum force if contact time increases? | Maximum force decreases
+Why do vehicles look heavily damaged even after small collisions? | Crumple zones are designed to crush, absorbing energy and increasing contact time
+What remains constant in all collisions and explosions? | Momentum (always conserved)
+What may not be conserved in collisions? | Kinetic energy
+In momentum problems, what must be consistent throughout calculations? | The signs of velocities (positive and negative directions)

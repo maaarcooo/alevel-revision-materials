@@ -1,0 +1,70 @@
+What is density? | Mass per unit volume of an object
+Mass per unit volume of an object — what quantity is this? | Density
+What is the equation for density? | ρ = m/V
+What are the SI units of density? | kg m⁻³
+Why are gases less dense than solids? | Their particles are more spread out
+What does Hooke's Law state? | The extension of a material is directly proportional to the applied force up to the limit of proportionality
+What is the equation for Hooke's Law? | F = kΔL
+What does k represent in Hooke's Law? | Spring constant
+What are the units of spring constant? | N m⁻¹
+What does the spring constant measure? | The stiffness of the spring
+What does a higher spring constant indicate? | A stiffer spring
+How is extension calculated? | Stretched length minus unstretched length
+What is the limit of proportionality? | The point beyond which extension is no longer proportional to the applied force
+On a force-extension graph, what does the gradient represent? | The spring constant k
+For a material obeying Hooke's Law, what shape is the force-extension graph? | A straight line through the origin
+What is tensile stress? | Force exerted per unit cross-sectional area of a material
+Force per unit cross-sectional area — what quantity is this? | Tensile stress
+What is the equation for tensile stress? | σ = F/A
+What are the units of tensile stress? | Pa or N m⁻²
+What is ultimate tensile stress (UTS)? | The maximum force per original cross-sectional area a wire can withstand before it breaks
+What is tensile strain? | A deformation of a solid due to stress in the form of elongation or contraction
+What is the equation for tensile strain? | ε = ΔL/L
+Why does tensile strain have no units? | Because it is a ratio of two lengths
+What is the elastic limit? | The maximum stress a material can experience and still return to its original shape when the force is removed
+The maximum stress where a material still returns to its original shape — what is this called? | Elastic limit
+What is yield stress? | The force per unit area at which the material extends plastically for no or small increase in stress
+What is breaking stress? | The maximum stress a material can stand before it fractures
+What is elastic deformation? | Deformation where the material returns to its original shape when the applied force is removed
+Deformation where a material returns to its original shape after force removal — what type is this? | Elastic deformation
+What is plastic deformation? | Permanent deformation where the material does not return to its original shape when the force is removed
+Permanent deformation that remains after force removal — what type is this? | Plastic deformation
+Where does the elastic region end on a stress-strain graph? | At the elastic limit
+What is elastic strain energy? | Energy stored in a material when work is done to stretch it
+How is work done found from a force-extension graph? | By calculating the area under the graph
+What is the equation for elastic strain energy when Hooke's Law is obeyed? | E = ½FΔL or E = ½k(ΔL)²
+What shape is the area under a force-extension graph for a material obeying Hooke's Law? | A triangle
+How is elastic strain energy calculated for materials not obeying Hooke's Law? | By dividing the area under the graph into segments or counting squares
+In a vertical spring-mass system, what three forms can energy convert between? | Gravitational potential energy (GPE), kinetic energy (KE), and elastic potential energy (EPE)
+At maximum extension in a spring-mass system, which energy type is at maximum? | Elastic potential energy (EPE)
+When passing through equilibrium in a spring-mass system, which energy type is at maximum? | Kinetic energy (KE)
+What are brittle materials? | Materials that break with little elastic deformation and insignificant plastic deformation
+Materials that break with little elastic and insignificant plastic deformation — what are these called? | Brittle materials
+What are ductile materials? | Materials that stretch into a new shape before breaking, showing significant plastic deformation
+Materials that show significant plastic deformation before breaking — what are these called? | Ductile materials
+How does a brittle material appear on a stress-strain graph? | A straight line through the origin with no or minimal plastic region before fracture
+How does a ductile material appear on a stress-strain graph? | A straight line through the origin then curving into a plastic region before fracture
+Why is copper suitable for making wires? | Because it is ductile
+What happens when a metal wire is stretched beyond its limit of proportionality? | Plastic deformation occurs
+What does the area between loading and unloading curves represent for a metal wire? | Work done to permanently deform the material
+What is hysteresis? | The difference between the loading and unloading curves for a material like rubber
+What does hysteresis show about rubber bands? | They store more strain energy when stretched than when contracted
+Why does a rubber band become warm when repeatedly stretched and contracted? | Energy is dissipated as thermal energy
+Does a rubber band return to its original length after unloading? | Yes, it is elastic
+On a rubber band's force-extension graph, where is the contraction curve relative to the stretching curve? | Always below it
+What is the purpose of shock absorbers in vehicles? | To absorb or dampen the compression and rebound of the spring, improving comfort and handling
+What causes the need for shock absorbers? | Bumps, potholes, and speed bumps cause wheels to move up and down
+What would happen without shock absorbers when hitting a bump? | Large vibrations within the car, potential damage, and discomfort for passengers
+What factors can affect the UTS and breaking stress of a material? | The condition of the material, such as temperature
+Why is the temperature dependence of UTS important for engineers? | Materials may need to withstand extreme temperatures and loads in particular applications
+What does 1 mm³ equal in m³? | 1 × 10⁻⁹ m³
+What is compression of an object? | How much it has decreased in length
+In the elastic region of a stress-strain graph, what is the relationship between stress and strain? | Stress is proportional to strain
+Where does the plastic region start on a stress-strain graph? | At the elastic limit
+Where does the plastic region end on a stress-strain graph? | At the point of fracture
+What remains when a plastically deformed metal wire is unloaded? | Some extension due to permanent deformation
+What does area X represent on a rubber band hysteresis graph? | Work done in heating the rubber (increase in thermal energy)
+What does area Y represent on a rubber band hysteresis graph? | Work done by the rubber when returned to its original shape
+What does area X + Y represent on a rubber band hysteresis graph? | Total work done in stretching the rubber band originally
+How can strain be expressed besides as a decimal? | As a percentage
+What is another name for elastic potential energy stored in a stretched material? | Elastic strain energy

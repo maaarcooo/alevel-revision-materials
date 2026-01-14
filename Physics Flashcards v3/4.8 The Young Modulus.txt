@@ -1,0 +1,66 @@
+What does the Young modulus measure? | The ability of a material to withstand changes in length with an added load
+The ability of a material to withstand changes in length under load — what property is this? | The Young modulus
+What information does the Young modulus give about a material? | Its stiffness
+Why is the Young modulus useful for engineers? | To ensure materials can withstand sufficient forces
+How is the Young modulus defined? | The ratio of tensile stress to tensile strain
+The ratio of tensile stress to tensile strain defines which quantity? | The Young modulus
+Write the equation for Young modulus in terms of stress and strain | Young Modulus = Tensile stress / Tensile strain
+Write the equation for Young modulus in terms of F, L, A, and ΔL | Young Modulus = FL / AΔL
+In the Young modulus equation, what does F represent? | Force (N)
+In the Young modulus equation, what does L represent? | Original length (m)
+In the Young modulus equation, what does A represent? | Cross-sectional area (m²)
+In the Young modulus equation, what does ΔL represent? | Extension (m)
+Why is the unit of Young modulus pascals (Pa)? | Because strain is dimensionless, so the unit comes from stress alone
+What are the units of the Young modulus? | Pascals (Pa)
+What order of magnitude is the Young modulus typically expressed in? | GPa (gigapascals)
+What is the Young modulus of aluminium? | 70 GPa
+What is the Young modulus of copper? | 117 GPa
+What is the Young modulus of brass? | 120 GPa
+What is the Young modulus of iron? | 170 GPa
+What is the Young modulus of nickel? | 210 GPa
+What is the Young modulus of steel? | 110 GPa
+How can the Young modulus be determined from a stress-strain graph? | It equals the gradient of the linear region
+On a stress-strain graph, what does the gradient of the linear region represent? | The Young modulus
+In which region of a stress-strain graph can the Young modulus be found? | The linear region where Hooke's Law is obeyed
+What does the area under the linear region of a stress-strain graph represent? | Energy stored per unit volume of the material
+The energy stored per unit volume of a material corresponds to what on a stress-strain graph? | The area under the linear region
+What is the aim of the Young modulus required practical? | To measure the Young modulus of a metal in the form of a wire
+What is the independent variable in the Young modulus experiment? | Force (or load) in newtons
+What is the dependent variable in the Young modulus experiment? | Extension in metres
+List three control variables in the Young modulus experiment | Original length of wire, thickness of wire, and metal used
+What is the purpose of the G-clamp in the Young modulus experiment? | To stabilise the apparatus
+What is the purpose of the pulley in the Young modulus experiment? | To allow the mass to hang vertically and reduce friction at the table edge
+What is the purpose of wooden blocks in the Young modulus experiment? | To clamp the wire together keeping it taut and straight
+What is the purpose of the tape marker in the Young modulus experiment? | To accurately measure extension with the applied load
+What instrument is used to measure the diameter of the wire? | Micrometer screw gauge or digital callipers
+What is the resolution of a metre ruler? | 1 mm
+What is the resolution of a micrometer? | 0.001 mm
+Why should at least 3 diameter readings be taken when measuring the wire? | To find an average and reduce uncertainty
+How is the cross-sectional area of the wire calculated? | A = πd²/4
+What equation is used to rearrange Young modulus for force? | F = (Young Modulus × A / L) × ΔL
+In a force-extension graph for the experiment, what does y represent? | Force (F)
+In a force-extension graph for the experiment, what does x represent? | Extension (ΔL)
+What does the gradient of a force-extension graph equal in terms of Young modulus? | (Young Modulus × A) / L
+How is Young modulus calculated from the gradient of a force-extension graph? | Young modulus = gradient × (L/A)
+How is load calculated from mass in the Young modulus experiment? | Load = mass × g (where g = 9.81 N kg⁻¹)
+What systematic error can a vernier scale help reduce in the Young modulus experiment? | It provides more precise extension readings
+What happens if the wire is extended past its elastic limit? | It becomes permanently deformed
+How can you check the wire hasn't exceeded its elastic limit? | Remove the load and check the wire returns to its original length
+What is a source of random error in the Young modulus experiment? | Parallax error from reading the marker on the ruler
+How can random errors be reduced in the Young modulus experiment? | Repeat the experiment for all loads and find an average extension
+How can uncertainty in cross-sectional area be reduced? | Measure the diameter in several places and calculate an average
+Why should safety goggles be worn during the Young modulus experiment? | In case the wire snaps
+What safety precaution involves the mass hanger? | Keep a cushion or soft surface below it in case it falls
+What mnemonic helps remember the Young modulus equation order? | "When you're stressed, you show the strain" (Stress ÷ Strain)
+How do you convert mm² to m² for cross-sectional area? | 1 mm² = 1 × 10⁻⁶ m²
+If a wire extends by 0.50%, what is the strain? | 0.005 (or 5 × 10⁻³)
+What does a steeper gradient on a stress-strain graph indicate about a material? | Higher Young modulus (stiffer material)
+What physical property of a material does a higher Young modulus indicate? | Greater stiffness
+A material with a low Young modulus would be described as what? | Flexible or less stiff
+Why is a long wire used in the Young modulus experiment? | To produce a measurable extension for a given load
+Why is a thin wire preferable in the Young modulus experiment? | It produces greater extension for the same load, improving measurement accuracy
+What type of graph should be plotted to analyse results in the Young modulus experiment? | Force (load) against extension
+Where should the reference point marker ideally be placed on the ruler? | Near the beginning of the scale (e.g., at 1 cm)
+What should the wire be before any masses are added? | Taut (but with no masses on the hanger)
+How many 100g masses should typically be added during the experiment? | At least 5 to 10 masses
+What improvements can make the Young modulus experiment more reliable? | Repeat readings and use a longer length of wire

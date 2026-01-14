@@ -1,0 +1,98 @@
+What is work done by a force equivalent to? | A transfer of energy
+What is the unit of work done? | Newton metres (N m) or Joules (J)
+1 N m equals how many joules? | 1 J
+What does the work done by a resultant force on a system equal? | The change in energy in that system
+Define mechanical work | The amount of energy transferred when an external force causes an object to move over a certain distance
+State the equation for work done when force is parallel to displacement | W = Fs
+In W = Fs, what does W represent? | Work done (J)
+In W = Fs, what does F represent? | Average force applied (N)
+In W = Fs, what does s represent? | Displacement (m)
+When pushing an object, what is work done against? | Friction
+What happens to some energy when work is done against friction? | It is dissipated to the surroundings by heating and as sound
+State the equation for work done when force is at an angle to displacement | W = Fs cos θ
+In W = Fs cos θ, what does θ represent? | The angle between the direction of the force and the motion of the object
+When θ = 0 (force parallel to motion), what does cos θ equal? | 1
+For horizontal motion with a force at an angle, which trigonometric function is used? | cos θ
+For vertical motion with a force at an angle, which trigonometric function is used? | sin θ
+When force is at an angle to displacement, which component is used to calculate work done? | The component parallel to the displacement
+Define power | The rate of doing work or the rate of energy transfer
+State the equation for power in terms of work done and time | P = ΔW/Δt
+In P = ΔW/Δt, what does P represent? | Power (W)
+In P = ΔW/Δt, what does ΔW represent? | Change in work done (J)
+In P = ΔW/Δt, what does Δt represent? | Change in time (s)
+How is power increased according to the equation P = ΔW/Δt? | By increasing energy transfer (work done) or transferring energy over a shorter time
+State the equation for power when an object moves at constant velocity with constant force | P = Fv
+In P = Fv, what does F represent? | Force (N)
+In P = Fv, what does v represent? | Velocity (m s⁻¹)
+For the equation P = Fv to apply, what condition must be met regarding the force direction? | The force must be in the direction of the velocity
+If force is not in the direction of velocity for P = Fv, what must be used instead? | The component of force in the direction of velocity
+How can work done by a varying force be found from a graph? | From the area under a force-displacement graph
+Why does the area under a force-displacement graph equal work done? | Because work done = force × displacement
+A small force over a long displacement does how much work compared to a large force over a small displacement? | The same amount (work done is equivalent)
+What is a variable force? | A force on an object that is not constant
+If force is constant, which equations can be used for work and power? | W = Fs and P = Fv
+If force is varying, how must work done be calculated? | From the area under the force-displacement graph
+What happens to an object's acceleration when a varying force increases? | Acceleration increases
+What happens to an object's acceleration when a varying force decreases? | Acceleration decreases
+Define efficiency | The ratio of the useful power output from a system to its total power input
+What does high efficiency mean for a system? | Most of the energy transferred is useful
+What does low efficiency mean for a system? | Most of the energy transferred is wasted
+State the efficiency equation in terms of power | Efficiency = (useful power output / total power input) × 100%
+State the efficiency equation in terms of energy | Efficiency = (useful energy output / total energy input) × 100%
+In a lightbulb, which energy is useful and which is wasted? | Light energy is useful; thermal (heat) energy is wasted
+In a heater, which energy is useful and which is wasted? | Thermal energy is useful; sound energy is wasted
+What is the range of efficiency as a percentage? | 0% to 100%
+What is the range of efficiency as a ratio? | 0 to 1
+Does efficiency have units? | No, efficiency is a dimensionless ratio
+State the Principle of Conservation of Energy | Energy cannot be created or destroyed, it can only be transferred from one form to another
+What remains constant in a closed system according to conservation of energy? | The total amount of energy
+What is kinetic energy? | The energy of a moving object
+What is gravitational potential energy? | The energy something gains when lifted up and loses when it falls
+What is elastic potential energy? | The energy of a stretched spring or elastic band (strain energy)
+What is chemical energy? | The energy contained in a chemical substance
+What is nuclear energy? | The energy contained within the nucleus of an atom
+What is internal (thermal) energy? | The energy something has due to its temperature or state
+Why is no energy transfer 100% efficient? | Because some energy is always dissipated to the surroundings
+What is dissipated energy? | Energy transferred to the surroundings, usually regarded as wasted energy
+What forms does dissipated energy commonly take? | Thermal (heat), light, or sound energy
+In a falling object (in vacuum), what energy transfer occurs? | Gravitational potential energy → kinetic energy
+In a battery, what energy transfer occurs? | Chemical energy → electrical energy
+In a horizontal mass on a spring, what energy transfer occurs? | Elastic potential energy → kinetic energy
+For an object travelling up a rough inclined surface, state the energy equation | Loss in KE = Gain in GPE + Work done against friction
+State the equation for kinetic energy | Eₖ = ½mv²
+In Eₖ = ½mv², what does Eₖ represent? | Kinetic energy (J)
+In Eₖ = ½mv², what does m represent? | Mass (kg)
+In Eₖ = ½mv², what does v represent? | Velocity (m s⁻¹)
+In the kinetic energy equation, which quantity is squared? | Velocity (not mass or the ½)
+When an object falls, what happens to its kinetic energy? | It increases (gains KE as it gains speed)
+When an object falls, from where is kinetic energy transferred? | From gravitational potential energy
+State the equation for gravitational potential energy in a uniform field | ΔEₚ = mgΔh
+In ΔEₚ = mgΔh, what does ΔEₚ represent? | Change in gravitational potential energy (J)
+In ΔEₚ = mgΔh, what does m represent? | Mass (kg)
+In ΔEₚ = mgΔh, what does g represent? | Gravitational field strength (9.81 N kg⁻¹)
+In ΔEₚ = mgΔh, what does Δh represent? | Change in height (m)
+What value is GPE on Earth's surface at ground level usually taken to be? | Zero
+Can any position be taken as zero for GPE calculations? | Yes, when calculating the change in GPE
+For what type of gravitational field is the equation ΔEₚ = mgΔh relevant? | A uniform gravitational field (such as near Earth's surface)
+What is the relationship between GPE and height shown on a graph? | Linear (straight line)
+If a mass is lifted up, what happens to its gravitational potential energy? | It gains (increases) GPE
+If a mass falls, what happens to its gravitational potential energy? | It loses (decreases) GPE
+The faster an object moves, what happens to its kinetic energy? | It increases (greater KE)
+On a rollercoaster going down from a height, GPE is converted into what? | Kinetic energy
+On a rollercoaster going up a loop, KE is converted into what? | Gravitational potential energy
+What energy transfer occurs when jumping on a trampoline (going up)? | KE → GPE
+What energy transfer occurs on a trampoline at the surface (going down)? | Elastic PE → KE
+In a television, what are the useful energy outputs? | Light and sound energy
+In a television, what energy is wasted? | Thermal energy (from heating of wires)
+Why can't the equations W = Fs and P = Fv be used for varying forces? | Because the force is not constant
+What must be considered when calculating work done on an inclined plane? | The component of weight parallel to the slope
+To find the force parallel to a slope at angle θ to horizontal, which equation is used? | F = W sin θ (where W is weight)
+What common mistake is made when calculating work done with forces at an angle? | Choosing the incorrect force that is not parallel to the direction of movement
+When sketching force-displacement graphs for area calculations, what is important to label? | Key points on the x and y axes from the question
+What should be checked on graph axes before calculating work done? | The units (convert kN to N, km to m, etc.)
+For a trapezium on a force-displacement graph, how is area calculated? | Split into triangle and rectangle, or use ½(a + b) × h
+Energy is what type of quantity (scalar or vector)? | Scalar
+Why should 'loss of kinetic energy' not include a negative sign? | Because energy is a scalar quantity
+The equation ΔEₚ = mgΔh does not work where? | Far from Earth's surface where the gravitational field is not uniform
+What is power measured in? | Watts (W)
+What is 1 watt equivalent to? | 1 joule per second (1 J s⁻¹)

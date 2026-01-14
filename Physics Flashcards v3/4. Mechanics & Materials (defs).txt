@@ -1,0 +1,85 @@
+What is breaking stress? | The maximum stress that an object can withstand before failure occurs
+The maximum stress an object can withstand before failure — what term describes this? | Breaking stress
+What does it mean for a material to be brittle? | It will show very little strain before reaching its breaking stress
+A material that shows very little strain before breaking — what property is this? | Brittle
+What is the centre of mass? | The single point through which all the mass of an object can be said to act
+The single point through which all the mass of an object acts — what is this called? | Centre of mass
+State the principle of conservation of energy | Energy cannot be created or destroyed — it can only be transferred into different forms
+State the principle of conservation of momentum | The total momentum of a system before an event must equal the total momentum after the event, assuming no external forces act
+What condition is required for conservation of momentum to apply? | No external forces act on the system
+What is a couple? | Two equal and opposite parallel forces acting through different lines of action
+What effect does a couple have on an object? | It causes rotation without translation
+Two equal and opposite parallel forces causing rotation without translation — what is this called? | A couple
+What is density? | The mass per unit volume of a material
+Mass per unit volume of a material — what quantity is this? | Density
+What is efficiency? | The ratio of useful output to total input for a given system
+The ratio of useful output to total input — what quantity is this? | Efficiency
+What is elastic behaviour? | When a material returns to its original shape after the deforming forces are removed
+A material that returns to its original shape when deforming forces are removed exhibits what type of behaviour? | Elastic behaviour
+Is an object permanently deformed after elastic behaviour? | No
+What is an elastic collision? | A collision where total kinetic energy before equals total kinetic energy after
+A collision where kinetic energy is conserved — what type of collision is this? | Elastic collision
+What quantity is conserved in an elastic collision (besides momentum)? | Kinetic energy
+What is the elastic limit? | The force beyond which an object will no longer deform elastically and instead deforms plastically
+What happens to an object stretched beyond its elastic limit? | It will not return to its original shape when deforming forces are removed
+The force beyond which an object deforms plastically — what is this called? | Elastic limit
+What is elastic strain energy? | The energy stored in an object when it is stretched
+How can elastic strain energy be determined from a graph? | From the area under a force-extension graph
+What does the area under a force-extension graph represent? | Elastic strain energy (or work done to stretch the object)
+Elastic strain energy equals what? | The work done to stretch the object
+What are the two conditions for an object to be in equilibrium? | The resultant force and resultant moment must both equal zero
+For equilibrium, what must the resultant force equal? | Zero
+For equilibrium, what must the resultant moment equal? | Zero
+State Hooke's Law | The extension of an elastic object is directly proportional to the force applied, up to the limit of proportionality
+Extension is directly proportional to force up to a limit — what law is this? | Hooke's Law
+What is the limit of proportionality? | The point up to which Hooke's Law applies (extension proportional to force)
+What is impulse? | The change of momentum of an object when a force acts on it
+Impulse equals what product? | Force multiplied by time (F × t)
+The product of force and time — what quantity is this? | Impulse
+Change of momentum — what is this also called? | Impulse
+What is an inelastic collision? | A collision where total kinetic energy before does not equal total kinetic energy after
+A collision where kinetic energy is not conserved — what type is this? | Inelastic collision
+What is a moment? | The product of a force and the perpendicular distance from the line of action to the pivot
+Moment equals what product? | Force multiplied by perpendicular distance from line of action to pivot
+The product of force and perpendicular distance to pivot — what quantity is this? | Moment
+What is momentum? | The product of an object's mass and velocity
+Momentum equals what product? | Mass multiplied by velocity (m × v)
+The product of mass and velocity — what quantity is this? | Momentum
+State Newton's First Law | An object will remain in its current state of motion unless acted on by a resultant force
+What does an object require to accelerate? | A resultant force
+An object remains in its current state of motion unless a resultant force acts — which law is this? | Newton's First Law
+State Newton's Second Law | The sum of forces acting on an object equals the rate of change of momentum of the object
+The sum of forces equals rate of change of momentum — which law is this? | Newton's Second Law
+State Newton's Third Law | Every action has an equal and opposite reaction
+If object A exerts a force on object B, what must object B do? | Exert an equal force on A in the opposite direction
+Every action has an equal and opposite reaction — which law is this? | Newton's Third Law
+What is plastic behaviour? | When a material does not return to its original shape after the deforming forces are removed
+A material that is permanently deformed when forces are removed exhibits what behaviour? | Plastic behaviour
+Is an object permanently deformed after plastic behaviour? | Yes
+State the Principle of Moments | For equilibrium, the sum of clockwise moments about a point must equal the sum of anticlockwise moments
+Sum of clockwise moments equals sum of anticlockwise moments — what principle is this? | Principle of Moments
+What is a scalar quantity? | A quantity that only has magnitude
+Give three examples of scalar quantities | Length, mass, temperature
+A quantity with only magnitude — what type is this? | Scalar
+What is a vector quantity? | A quantity that has both magnitude and direction
+Give three examples of vector quantities | Velocity, displacement, acceleration
+A quantity with both magnitude and direction — what type is this? | Vector
+What is the spring constant? | The constant of proportionality for the extension of a spring under a force
+What does a higher spring constant indicate? | Greater force is needed to achieve a given extension
+The constant of proportionality relating force and extension — what is this called? | Spring constant
+What is stiffness? | A measure of how difficult it is to stretch a given object
+A measure of how difficult it is to stretch an object — what property is this? | Stiffness
+What is tensile strain? | The ratio of an object's extension to its original length
+What is the unit of tensile strain? | It has no unit (dimensionless ratio)
+The ratio of extension to original length — what quantity is this? | Tensile strain
+Why does tensile strain have no unit? | Because it is a ratio of two lengths
+What is tensile stress? | The amount of force acting per unit area
+What is the unit of tensile stress? | Pascal (Pa)
+Force per unit area — what quantity is this? | Tensile stress
+What is terminal speed? | The maximum speed when resistive and driving forces are equal
+When does terminal speed occur? | When resistive forces equal driving forces
+The maximum speed when resistive and driving forces balance — what is this called? | Terminal speed
+What is the Young modulus? | The ratio of stress to strain for a given material
+What is the unit of Young modulus? | Pascal (Pa)
+The ratio of stress to strain — what quantity is this? | Young modulus
+What is the formula for Young modulus? | Young modulus = stress / strain

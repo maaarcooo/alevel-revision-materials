@@ -127,8 +127,8 @@ alevel-revision-materials/
 ### Flashcard Variants
 
 - **CMB**: Combine - Flashcards or notes created by combining sources from both PMT and SME
-- **PMT**: Physics and Maths Tutor - Content sourced from [Physics & Maths Tutor](https://www.physicsandmathstutor.com/)
-- **SME**: Save My Exams - Content sourced from [Save My Exams](https://www.savemyexams.com/)
+- **PMT**: Physics and Maths Tutor - Content based on [Physics & Maths Tutor](https://www.physicsandmathstutor.com/)
+- **SME**: Save My Exams - Content based on [Save My Exams](https://www.savemyexams.com/)
 
 ## Content Versions
 

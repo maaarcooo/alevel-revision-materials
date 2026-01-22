@@ -1,0 +1,82 @@
+What are the certain energy states that electrons occupy in an atom called? | Energy levels
+Electrons in an atom occupy certain energy states — what are these called? | Energy levels
+Why do electrons occupy the lowest possible energy level? | This is the most stable configuration
+What happens when an electron absorbs enough energy? | It moves up to a higher energy level
+When an electron moves to a higher energy level, what state is the atom said to be in? | An excited state
+An atom with an electron in a higher energy level is said to be in what state? | An excited state
+What is de-excitation? | When an electron moves back down to a lower energy level
+When an electron moves back down to a lower energy level, what is this process called? | De-excitation
+What is ionisation? | When an atom gains or loses an orbital electron and becomes charged
+When an atom gains or loses an orbital electron and becomes charged — what is this called? | Ionisation
+What is ionisation energy? | The energy required to remove an electron from the ground state of an atom
+The energy required to remove an electron from the ground state — what is this called? | Ionisation energy
+What causes fluorescence to occur? | An electron absorbs energy from a photon or a collision with another electron
+What gas is used inside fluorescent tubes? | Low-pressure mercury vapour
+What coating is applied to the glass of fluorescent tubes? | Phosphor coating
+In a fluorescent tube, what type of radiation do mercury atoms emit when electrons de-excite? | Ultraviolet (UV) photons
+What causes the visible light emission in a fluorescent tube? | UV photons excite electrons in the phosphor coating, which then de-excite and emit visible light
+What does the bottom line with greatest negative energy represent on an energy level diagram? | The ground state (n = 1)
+What is the ground state of an atom? | The lowest energy level (n = 1), most stable configuration
+What do the lines above the ground state on an energy level diagram represent? | Excited states (n = 2, 3, 4...)
+When is a photon emitted by an atom? | When an electron moves from a higher energy state to a lower energy state
+What are line spectra? | Series of lines produced when excited atoms emit light of certain wavelengths corresponding to specific electron transitions
+Another name for line spectra is what? | Atomic spectra
+Why does each element produce a unique set of spectral lines? | Each element has unique energy level spacings, so transitions produce unique wavelengths
+What are the two types of line spectra? | Emission spectra and absorption spectra
+What is an emission spectrum? | Light emitted when electrons transition from higher to lower energy levels, appearing as bright lines on a dark background
+What is an absorption spectrum? | A continuous spectrum with dark lines at specific wavelengths where light has been absorbed
+What does an absorption spectrum consist of? | A continuous spectrum containing all colours with dark lines at specific wavelengths
+Why do dark lines appear in an absorption spectrum? | Specific wavelengths are absorbed and re-emitted in random directions rather than the original direction
+How do the wavelengths in an absorption spectrum relate to the emission spectrum of the same element? | The wavelengths missing from an absorption spectrum are the same as the emission spectrum wavelengths
+What evidence do line spectra provide about electrons in atoms? | Electrons can only transition between discrete energy levels
+State the photon energy equation | ΔE = hf = hc/λ
+What does ΔE represent in the photon energy equation? | Energy difference between levels (in joules)
+What does h represent in the photon energy equation? | Planck's constant (6.63 × 10⁻³⁴ J s)
+What is the value of Planck's constant? | 6.63 × 10⁻³⁴ J s
+What is the relationship between photon energy and wavelength? | They are inversely proportional
+Which electron transition produces the shortest wavelength photon? | The transition with the largest energy difference
+What phenomenon demonstrates the wave-particle nature of light? | Wave-particle duality
+What provides evidence for the particle nature of light? | The photoelectric effect
+What are discrete packets of electromagnetic energy called? | Photons
+State the equation for photon energy | E = hf
+What is the threshold frequency? | The minimum frequency of light required to cause photoelectron emission
+What provides evidence for the wave nature of light? | Diffraction and interference (Young's Double-Slit Experiment)
+What happens when waves pass through a gap or around an obstacle? | Diffraction occurs — the wave spreads out
+Why does the wave theory of light fail to explain the photoelectric effect? | It predicts any frequency could cause emission with long exposure, but emission only occurs above the threshold frequency
+According to wave theory, how would energy be absorbed by electrons? | Gradually, with each wave
+What actually happens to energy absorption in the photoelectric effect? | Energy is absorbed instantaneously
+If light intensity increases above threshold frequency, what happens to photoelectrons? | More photoelectrons are emitted per second, but their maximum kinetic energy remains unchanged
+Who discovered that matter can behave as a wave? | Louis de Broglie
+What pattern is produced when a beam of electrons passes through a thin crystal or graphite film? | A diffraction pattern
+Why is graphite film ideal for electron diffraction experiments? | Its crystalline structure has gaps between atomic planes that act as slits
+What shape is the electron diffraction pattern observed on screen? | Concentric rings
+If electrons behaved only as particles, how would they be distributed on the screen? | Uniformly, rather than forming a ring pattern
+How does a larger accelerating voltage affect the diameter of diffraction rings? | It reduces the diameter (shorter wavelength)
+How does a lower accelerating voltage affect the diameter of diffraction rings? | It increases the diameter (longer wavelength)
+What equation relates the kinetic energy of electrons to accelerating voltage? | Eₖ = eV
+State the de Broglie equation | λ = h/p = h/mv
+What does the de Broglie equation relate? | Wavelength (wave property) to momentum (particle property)
+What does λ represent in the de Broglie equation? | de Broglie wavelength (m)
+What does p represent in the de Broglie equation? | Momentum (kg m s⁻¹)
+How can kinetic energy be expressed in terms of momentum? | Eₖ = p²/2m
+Express momentum in terms of kinetic energy | p = √(2mEₖ)
+State the de Broglie equation relating wavelength to kinetic energy | λ = h/√(2mEₖ)
+How does a smaller momentum affect the de Broglie wavelength? | Results in a longer wavelength
+How does a larger momentum affect the de Broglie wavelength? | Results in a shorter wavelength
+How does increasing the accelerating voltage affect electron wavelength? | Decreases the wavelength
+How does increasing the accelerating voltage affect the diffraction rings? | The rings appear closer together (smaller radius)
+What can electron diffraction patterns be used to deduce? | The structure of crystals
+Why can high energy electrons be used to examine atomic nuclei? | They have shorter wavelengths, allowing examination of smaller structures
+What is peer review? | A process where other scientists evaluate theories and research
+What does the scientific community assess through peer review? | Validity, originality, and significance of research
+What does validity mean in peer review? | Whether the research achieves what it claims, uses appropriate methods, and addresses errors
+What does originality mean in peer review? | Whether the results are new or if similar research already exists
+What does significance mean in peer review? | Whether the findings are important or ground-breaking
+What two qualities should research have besides being peer-reviewed? | Repeatable (by same scientists) and reproducible (by other teams)
+What is repeatability in scientific research? | The same scientists can achieve the same results
+What is reproducibility in scientific research? | Other teams of scientists can achieve the same results
+Why should claims from non-peer-reviewed research be questioned? | There may be issues with methodology, interpretation, or conclusions
+What was discovered at CERN in 2012? | The Higgs boson
+When did the Large Hadron Collider (LHC) at CERN become operational? | 2008
+Who discovered quarks? | Murray Gell-Mann
+In what year were exotic tetraquarks discovered at CERN LHCb? | 2020

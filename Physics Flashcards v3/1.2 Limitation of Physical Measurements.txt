@@ -1,0 +1,54 @@
+What is the true value of a quantity? | The actual value of a quantity that measurements aim to find
+What is uncertainty in a measurement? | An estimate of the difference between a measurement reading and the true value
+How do errors differ from uncertainties? | Errors are issues with equipment/methodology causing readings to differ from true value; uncertainty is a range within which the true value is expected to lie
+What are random errors? | Errors that cause unpredictable fluctuations in readings, making measurements sometimes too high and sometimes too low
+What aspect of results do random errors affect? | Precision
+Name three causes of random errors | Natural variations in measurements, timing errors in human reactions, reading fluctuating instruments
+How can random errors be reduced? (2 methods) | Repeat measurements and calculate an average; use more precise measuring instruments
+What are systematic errors? | Errors arising from faulty instruments or flaws in experimental method that are repeated consistently every time
+Name three causes of systematic errors | Faulty or incorrectly calibrated instruments, parallax error when reading scales, background radiation in radioactivity experiments
+How can systematic errors be reduced? (2 methods) | Recalibrate instruments or use different instruments; make corrections or adjustments to the technique
+What is a zero error? | A type of systematic error that occurs when an instrument gives a reading when the true reading is zero
+What type of error does a zero error introduce? | A fixed error that must be accounted for when recording results
+Define precision | Measurements with very little spread about the mean value, regardless of whether the mean is close to the true value
+How is precision reflected in recorded values? | Measurements to a greater number of decimal places are more precise than those to a whole number
+Define accuracy | A measurement that is close to the true value
+How can accuracy be increased? | By repeating measurements and finding a mean of the results
+Measurements with very little spread about the mean value — what term describes this? | Precise measurements
+A measurement close to the true value — what term describes this? | An accurate measurement
+What is repeatability? | When the original experimenter repeats the investigation using the same method and equipment and obtains the same results
+Define resolution | The smallest change in the quantity being measured that gives a perceptible change in the reading
+What does resolution mean for imaging systems? | The ability to distinguish two separate structures rather than as one fuzzy entity
+The smallest change in a measured quantity that produces a perceptible change in reading — what is this called? | Resolution
+What is absolute uncertainty? | Uncertainty given as a fixed quantity (e.g., 1.6 ± 0.1 mA)
+What is fractional uncertainty? | Uncertainty given as a fraction of the measurement
+What is percentage uncertainty? | Uncertainty given as a percentage of the measurement
+State the formula for fractional uncertainty | Fractional uncertainty = uncertainty ÷ measured value
+State the formula for percentage uncertainty | Percentage uncertainty = (uncertainty ÷ measured value) × 100%
+What is the uncertainty for a single reading from an analogue instrument? | ± half the smallest division
+What is the uncertainty for repeated readings? | ± half the range, i.e., (max − min) ÷ 2
+What is the uncertainty for a digital instrument? | ± the last significant digit
+For a reading of 1.6 mA with scale resolution 0.2 mA, what is the absolute uncertainty? | 0.1 mA (half of 0.2 mA)
+When adding or subtracting quantities, how do you combine uncertainties? | Add the absolute uncertainties
+When multiplying or dividing quantities, how do you combine uncertainties? | Add the percentage (or fractional) uncertainties
+When raising a quantity to a power, how do you handle the uncertainty? | Multiply the percentage uncertainty by the power
+For volume V = (4/3)πr³, how does the percentage uncertainty in V relate to that in r? | The percentage uncertainty in V is 3 times the percentage uncertainty in r
+What is an error bar on a graph? | A bar drawn above and below a point (or side to side) showing the range within which the true value is expected to lie
+What does a y-error bar represent? | The uncertainty in the y-value of a data point
+What does an x-error bar represent? | The uncertainty in the x-value of a data point
+How do you find the uncertainty in a gradient from a graph? | Draw lines of best fit and worst fit, then calculate the difference between their gradients
+What are the lines of worst fit? | The steepest and shallowest lines that still pass through all error bars
+State the formula for percentage uncertainty in gradient | ((best gradient − worst gradient) ÷ best gradient) × 100%
+State the formula for percentage uncertainty in y-intercept | ((best y-intercept − worst y-intercept) ÷ best y-intercept) × 100%
+How should the line of best fit be drawn when error bars are present? | Through the error bars of all data points
+Can a measurement be precise but not accurate? | Yes — readings may have little spread but be consistently offset from the true value
+Can a measurement be accurate but not precise? | Yes — the mean may be close to true value but with large spread in individual readings
+Errors repeated consistently every time an instrument is used — what type of error is this? | Systematic error
+Unpredictable fluctuations causing readings to be sometimes too high and sometimes too low — what type of error is this? | Random error
+Why does averaging repeated measurements reduce random errors? | Random errors fluctuate above and below the true value, so averaging cancels them out
+Why doesn't averaging reduce systematic errors? | Systematic errors shift all readings in the same direction by the same amount
+What is parallax error? | A systematic error caused by viewing a scale at an angle rather than perpendicular to it
+How do you express a measurement with absolute uncertainty? | Value ± absolute uncertainty with units (e.g., 1.6 ± 0.1 mA)
+Convert 0.1 ÷ 1.6 to a percentage uncertainty | 6.25% (or approximately 6.2%)
+If distance has 2% uncertainty and time has 3% uncertainty, what is the percentage uncertainty in speed? | 5% (add percentage uncertainties when dividing)
+If length has 1% uncertainty, what is the percentage uncertainty in area (length²)? | 2% (multiply percentage uncertainty by the power)

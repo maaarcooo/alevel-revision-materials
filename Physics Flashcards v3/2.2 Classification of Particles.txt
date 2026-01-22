@@ -1,0 +1,133 @@
+What are hadrons? | Subatomic particles made up of quarks
+Subatomic particles composed of quarks — what are these called? | Hadrons
+Why can hadrons feel the strong nuclear force? | Because they are made up of quarks
+What are the two classes of hadrons? | Baryons and mesons
+How many quarks make up a baryon? | Three quarks
+How many quarks make up a meson? | Two (a quark and an anti-quark pair)
+What are the most common baryons? | Protons and neutrons
+What are the most common mesons? | Pions and kaons
+What is an anti-baryon made of? | Three anti-quarks
+What is an anti-meson made of? | A quark and an anti-quark pair
+Why have quarks never been discovered on their own? | They always exist in pairs or groups of three
+What type of charge do all baryons and mesons have? | Integer (whole number) charges, e.g. +1e, −1e
+Why can't a baryon contain a mixture of quarks and anti-quarks? | This would not give an integer charge; baryons must be all quarks or all anti-quarks
+How does a meson become its antiparticle? | The quark becomes the anti-quark and vice versa
+What is the baryon number (B) for baryons? | B = +1
+What is the baryon number (B) for anti-baryons? | B = −1
+What is the baryon number (B) for particles that are not baryons? | B = 0
+Is baryon number conserved in all interactions? | Yes, baryon number is always conserved
+What is the baryon number of each quark (u, d, s)? | +1/3
+What is the baryon number of each anti-quark? | −1/3
+Why is the proton the most stable baryon? | Because it is the lightest baryon
+What does it mean that the proton is the most stable baryon? | It has the longest half-life of any baryon and other baryons eventually decay into protons
+Why would proton decay violate conservation laws? | It would violate conservation of baryon number
+What is the theorised half-life of a proton? | Around 10³² years
+What are pions also called? | π-mesons
+What are the three types of pions? | π⁺ (positive), π⁻ (negative), and π⁰ (neutral)
+What quarks do pions contain? | Only up and down quarks (and their anti-quarks)
+What is the strangeness of all pions? | S = 0
+What is the antiparticle of the positive pion (π⁺)? | The negative pion (π⁻)
+What is the antiparticle of the neutral pion (π⁰)? | It is its own antiparticle
+Why are pions the most stable mesons? | Because they are the lightest mesons
+Where were pions originally discovered? | In cosmic rays (can be observed in a cloud chamber)
+What is the quark composition of π⁺? | u(anti-d) — up quark and anti-down quark
+What is the quark composition of π⁻? | (anti-u)d — anti-up quark and down quark
+What is the quark composition of π⁰? | u(anti-u) or d(anti-d)
+What role do pions play in the strong nuclear force? | They are the exchange particles of the strong nuclear force between baryons
+How do protons and neutrons exhibit the strong force in a nucleus? | By exchanging pions
+What does it mean that pions mediate the strong nuclear force? | Pions bring about (cause) the strong nuclear force between nucleons
+What are kaons also called? | K-mesons
+What are the three types of kaons? | K⁺ (positive), K⁻ (negative), and K⁰ (neutral)
+Why do kaons have the property of strangeness? | Because they contain a strange quark
+What is the antiparticle of K⁺? | K⁻ (and vice versa)
+Is the neutral kaon (K⁰) its own antiparticle? | No (unlike the neutral pion)
+What do kaons normally decay into? | Pions
+Why do kaons have unusually long lifetimes compared to other mesons? | This is characteristic of particles containing strange quarks
+What is the quark composition of K⁺? | u(anti-s) — up quark and anti-strange quark
+What is the quark composition of K⁻? | s(anti-u) — strange quark and anti-up quark
+What is the quark composition of K⁰? | d(anti-s) — down quark and anti-strange quark
+What is the quark composition of anti-K⁰? | s(anti-d) — strange quark and anti-down quark
+What is the strangeness of K⁺? | S = +1
+What is the strangeness of K⁻? | S = −1
+What is the strangeness of K⁰? | S = +1
+What is the strangeness of anti-K⁰? | S = −1
+Through which interaction are kaons produced? | The strong interaction
+Is strangeness conserved in kaon production? | Yes, strangeness is always conserved in the strong interaction
+Through which interaction do kaons decay? | The weak interaction
+Is strangeness conserved in kaon decay? | No, strangeness is not conserved in weak interactions
+What are leptons? | Fundamental (elementary) particles not made up of quarks
+Fundamental particles that are not made of quarks — what are these called? | Leptons
+Through which interactions do leptons interact? | Weak, gravitational, and electromagnetic interactions
+Do leptons interact via the strong nuclear force? | No
+Name the four most common leptons | Electron (e⁻), electron neutrino (νₑ), muon (μ⁻), and muon neutrino (νμ)
+How is the muon similar to the electron? | It has the same charge (−1e) but is slightly heavier
+What is the approximate mass of an electron in atomic mass units? | 0.0005 u
+What is the approximate mass of a muon in atomic mass units? | 0.1 u
+What charge do electrons and muons have? | −1e
+What are the properties of neutrinos? | No charge and negligible mass (almost zero)
+What are the most abundant leptons in the universe? | Neutrinos
+Why are quarks not classified as leptons even though they are fundamental particles? | Quarks interact with the strong force, while leptons do not
+What is the lepton number (L) for leptons? | L = +1
+What is the lepton number (L) for anti-leptons? | L = −1
+What is the lepton number (L) for particles that are not leptons? | L = 0
+Is lepton number conserved in all interactions? | Yes, lepton number is always conserved
+What do muons (μ⁻) typically decay into? | Electrons
+What do anti-muons (μ⁺) typically decay into? | Positrons
+Through which interaction does muon decay occur? | The weak interaction
+What exchange particle is involved in muon decay? | The W⁻ boson
+What products are formed in muon decay (μ⁻ → ?)? | An electron (e⁻), an anti-electron neutrino, and a muon neutrino
+What are the three most common flavours of quarks? | Up (u), down (d), and strange (s)
+What is the charge of an up quark? | +2/3 e
+What is the charge of a down quark? | −1/3 e
+What is the charge of a strange quark? | −1/3 e
+What is the strangeness of an up quark? | 0
+What is the strangeness of a down quark? | 0
+What is the strangeness of a strange quark? | −1
+What is the charge of an anti-up quark? | −2/3 e
+What is the charge of an anti-down quark? | +1/3 e
+What is the charge of an anti-strange quark? | +1/3 e
+What is the strangeness of an anti-strange quark? | +1
+What is the baryon number of an anti-quark? | −1/3
+What is the quark composition of a proton? | uud (two up quarks and one down quark)
+What is the quark composition of a neutron? | udd (one up quark and two down quarks)
+How is the charge of a hadron determined? | By summing the charges of its constituent quarks
+Calculate the charge of a proton from its quarks | (+2/3) + (+2/3) + (−1/3) = +1e
+Calculate the charge of a neutron from its quarks | (+2/3) + (−1/3) + (−1/3) = 0
+What are strange particles? | Particles that contain a strange or anti-strange quark
+How are strange particles always produced? | Through the strong interaction, in quark-antiquark pairs
+How do strange particles always decay? | Through the weak interaction
+What is strangeness (S) as a quantum number? | A quantum number that indicates the presence of strange quarks
+In which interactions is strangeness conserved? | All interactions except the weak interaction
+What strangeness do particles with an anti-strange quark have? | S = +1
+What strangeness do particles with a strange quark have? | S = −1
+What strangeness do particles with no strange quarks have? | S = 0
+By how much can strangeness change in weak interactions? | 0, +1, or −1
+What is a particle accelerator? | A complex machine used to collide particles at very high speeds
+What are particle accelerators used for? | To produce new particles and reveal the inner structure of particles
+What speeds do particles reach in particle accelerators? | Close to the speed of light
+What are the two types of particle accelerators? | Linear and circular
+What do circular particle accelerators require to keep particles in orbit? | Extremely powerful superconducting magnets
+Why do particle physics experiments require international collaboration? | The expensive and complicated equipment requires funding and expertise from large groups of scientists worldwide
+What is the LHC? | The Large Hadron Collider — the world's largest and highest-energy particle collider
+Where is the LHC located? | At CERN in Geneva, on the France-Switzerland border
+Approximately how many scientists work at CERN? | Around 2500 scientists from 110 nationalities
+Name the four main detectors at the LHC | ATLAS, CMS, ALICE, and LHCb
+Which two LHC detectors are the largest and research fundamental particles? | ATLAS and CMS
+What major discovery did both ATLAS and CMS confirm? | The Higgs Boson
+Why was the Higgs Boson discovery validated? | Because it was detected by two independent experiments (ATLAS and CMS)
+What is the purpose of theory validation in particle physics? | Repeat experiments reduce uncertainty, and if confirmed, the scientific community accepts the theory as likely correct
+What is the role of the gluon in particle physics? | It is the exchange particle of the strong interaction between quarks
+What is the difference between gluons and pions as exchange particles? | Gluons bind quarks together (strong interaction); pions bind nucleons together (strong nuclear force)
+Why is baryon number conservation useful? | It helps determine whether an interaction can occur
+Why is lepton number conservation useful? | It helps determine whether an interaction can occur
+What particles have a baryon number of zero? | Mesons, leptons, and photons
+What particles have a lepton number of zero? | Baryons, mesons, and quarks
+In beta-minus decay (n → p + e⁻ + anti-νₑ), is baryon number conserved? | Yes: 1 = 1 + 0 + 0
+What determines the strangeness of a particle? | The number and type of strange quarks it contains
+Why do particles containing strange quarks have long lifetimes? | They must decay via the weak interaction, which is slower than the strong interaction
+What is the equation for muon decay showing all products? | μ⁻ → e⁻ + anti-νₑ + νμ
+In muon decay, how is electron lepton number conserved? | 0 = +1 + (−1) + 0
+In muon decay, how is muon lepton number conserved? | +1 = 0 + 0 + 1
+What is the quark change that occurs in beta-minus decay? | A down quark changes to an up quark (d → u)
+Which exchange particle is involved in beta decay? | The W boson
+How can you determine the quark composition of an unknown hadron? | Use the known total charge and strangeness, then find which quark combination gives those values

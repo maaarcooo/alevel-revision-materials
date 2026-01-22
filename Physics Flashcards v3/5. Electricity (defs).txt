@@ -1,0 +1,57 @@
+What is an ammeter? | A device that measures the current in the loop of the circuit it is connected in series with
+A device that measures current and must be connected in series — what is this? | Ammeter
+What is the ideal resistance of an ammeter? | Zero resistance
+What is current? | The rate of flow of charge in a circuit
+The rate of flow of charge in a circuit — what quantity is this? | Current
+What is electromotive force (emf)? | The amount of energy transferred by a source to each unit of charge that passes through it
+The energy transferred by a source per unit charge — what quantity is this? | Electromotive force (emf)
+What is internal resistance? | The resistance to the flow of charge within a source
+The resistance to charge flow within a power source — what term describes this? | Internal resistance
+What effect does internal resistance have on energy? | Energy is dissipated within the source
+What is a light dependent resistor (LDR)? | A light sensitive semiconductor whose resistance increases when light intensity decreases
+A semiconductor whose resistance increases when light intensity decreases — what component is this? | Light dependent resistor (LDR)
+How does an LDR's resistance change with light intensity? | Resistance increases as light intensity decreases
+What is an ohmic conductor? | A conductor for which current is directly proportional to potential difference under constant physical conditions
+A conductor where current is directly proportional to p.d. under constant conditions — what type of conductor is this? | Ohmic conductor
+State Ohm's Law | Current and potential difference through an ohmic conductor under constant physical conditions are directly proportional, with resistance as the constant of proportionality
+In Ohm's Law, what is the constant of proportionality between current and p.d.? | Resistance
+What condition must be met for Ohm's Law to apply? | Constant physical conditions (e.g., constant temperature)
+When are components connected in parallel? | When they are connected across each other in separate loops
+Components connected across each other in separate loops are said to be connected how? | In parallel
+What is a potential divider? | A method of splitting a potential difference by connecting two resistors in series
+How is the total p.d. split in a potential divider? | In the ratio of the resistances
+What is resistance? | A measure of how difficult it is for current to flow through a material
+A measure of how difficult it is for current to flow — what quantity is this? | Resistance
+What is resistivity? | A quantity proportional to an object's resistance and cross-sectional area, and inversely proportional to its length
+How does resistivity relate to resistance, cross-sectional area, and length? | Proportional to R and A, inversely proportional to L
+What is the same for all resistors connected in parallel? | The potential difference across each resistor
+How is current distributed in a parallel circuit? | Split between the resistors
+How do you calculate total resistance for resistors in parallel? | The inverse of the sum of the inverses: 1/R_total = 1/R₁ + 1/R₂ + ...
+What is the same for all resistors connected in series? | The current through each resistor
+How is potential difference distributed in a series circuit? | Split in the ratio of the resistances
+How do you calculate total resistance for resistors in series? | Sum of the individual resistances: R_total = R₁ + R₂ + ...
+When are components connected in series? | When they are connected end to end in one loop
+Components connected end to end in one loop are said to be connected how? | In series
+What is a superconductor? | A material with zero resistivity when cooled to or below its critical temperature
+A material with zero resistivity below a certain temperature — what is this called? | Superconductor
+What is the critical temperature of a superconductor? | The temperature at or below which the material has zero resistivity
+Give two applications of superconductors | Producing strong magnetic fields and reducing energy loss in power transmission
+Why are superconductors useful for power transmission? | They have zero resistivity, so no energy is lost as heat
+What is terminal potential difference? | The potential difference across the terminals of a power source
+How is terminal p.d. related to emf and internal resistance? | Terminal p.d. = emf − voltage drop across internal resistance
+The p.d. across a power source's terminals equals emf minus the internal voltage drop — what is this quantity called? | Terminal potential difference
+What is a thermistor? | A temperature sensitive semiconductor whose resistance increases when temperature decreases
+A semiconductor whose resistance increases when temperature decreases — what component is this? | Thermistor
+How does a thermistor's resistance change with temperature? | Resistance increases as temperature decreases
+What is a voltmeter? | A device used to measure the potential difference across components
+A device that measures potential difference across components — what is this? | Voltmeter
+What is the ideal resistance of a voltmeter? | Infinite resistance
+Why should an ideal ammeter have zero resistance? | So it does not affect the current in the circuit it is measuring
+Why should an ideal voltmeter have infinite resistance? | So it draws no current and does not affect the p.d. it is measuring
+How must an ammeter be connected in a circuit? | In series with the component being measured
+How must a voltmeter be connected in a circuit? | In parallel with the component being measured
+What type of component is an LDR? | A semiconductor
+What type of component is a thermistor? | A semiconductor
+In a potential divider with resistors R₁ and R₂, what is the p.d. across R₁? | V₁ = (R₁/(R₁+R₂)) × V_total
+What happens to terminal p.d. when current increases in a circuit with internal resistance? | Terminal p.d. decreases (more voltage dropped across internal resistance)
+What equation relates emf, terminal p.d., current, and internal resistance? | ε = V + Ir (or V = ε − Ir)

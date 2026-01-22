@@ -1,0 +1,83 @@
+What is amplitude? | A wave's maximum displacement from its equilibrium position
+A wave's maximum displacement from its equilibrium position — what term describes this? | Amplitude
+What is an antinode? | A position of maximum displacement in a stationary wave
+A position of maximum displacement in a stationary wave — what term describes this? | Antinode
+What is a node? | A position of minimum displacement in a stationary wave
+A position of minimum displacement in a stationary wave — what term describes this? | Node
+What is the difference between a node and an antinode? | A node has minimum (zero) displacement; an antinode has maximum displacement
+What is cladding on an optical fibre? | A protective layer that improves tensile strength, prevents scratching, and prevents signal transfer between adjacent fibres
+What are the three functions of optical fibre cladding? | 1) Improve tensile strength, 2) Prevent scratching, 3) Prevent signal transfer between adjacent fibres
+What does coherence mean for waves? | Waves have the same wavelength and frequency, with a fixed phase difference between them
+What three conditions must waves meet to be coherent? | Same wavelength, same frequency, and fixed phase difference
+Two waves have the same wavelength and frequency with a fixed phase difference — what term describes these waves? | Coherent
+What is a diffraction grating? | A grating with hundreds of slits per millimetre that produces sharper interference patterns
+What are diffraction gratings used for? | Calculating atomic spacing and analysing elements
+Why do diffraction gratings produce sharper patterns than double slits? | They have hundreds of slits per millimetre
+What is diffraction? | The spreading of waves as they pass through a gap of similar magnitude to their wavelength
+The spreading of waves as they pass through a gap — what phenomenon is this? | Diffraction
+When does maximum diffraction occur? | When the gap width is similar to the wavelength
+What are electromagnetic waves? | Waves consisting of perpendicular electric and magnetic oscillations
+What makes electromagnetic waves different from mechanical waves? | EM waves consist of perpendicular electric and magnetic field oscillations
+What is frequency? | The number of waves that pass a point in a unit time period
+The number of waves passing a point per unit time — what quantity is this? | Frequency
+What is the relationship between frequency and time period? | Frequency is the inverse of time period (f = 1/T)
+What is fringe spacing? | The distance between two adjacent bright fringes or two adjacent dark fringes
+The distance between two adjacent bright fringes — what term describes this? | Fringe spacing
+What is interference? | The superposition of waves that occurs when two waves meet
+When do waves constructively interfere? | When the waves are in phase
+When do waves destructively interfere? | When the waves are out of phase
+What is the result of constructive interference? | The amplitudes add together, producing a larger resultant amplitude
+What is the result of destructive interference? | The amplitudes cancel out, producing a smaller or zero resultant amplitude
+What is a laser? | A light source that produces a collimated and coherent beam
+A light source that produces a collimated and coherent beam — what device is this? | Laser
+What two properties characterise laser light? | Collimated (parallel rays) and coherent
+What is a longitudinal wave? | A wave with oscillations parallel to the direction of energy propagation
+A wave with oscillations parallel to the direction of energy propagation — what type of wave is this? | Longitudinal wave
+Give an example of a longitudinal wave | Sound waves
+What is a transverse wave? | A wave with oscillations perpendicular to the direction of energy propagation
+A wave with oscillations perpendicular to the direction of energy propagation — what type of wave is this? | Transverse wave
+Give an example of a transverse wave | Electromagnetic waves
+What is material dispersion in optical fibres? | Waves of different wavelengths travel at slightly different speeds, reaching the end at different times, causing pulse broadening
+How is material dispersion in optical fibres reduced? | Using monochromatic light
+What is modal dispersion in optical fibres? | Waves enter at slightly different angles, travelling different distances and reaching the end at different times, causing pulse broadening
+What causes modal dispersion? | Light rays entering the fibre at slightly different angles
+What is an optical fibre? | A thin glass fibre through which signals are passed, usually surrounded by cladding
+What is path difference? | A measure of how far ahead one wave is compared to another, usually expressed in terms of wavelength
+A measure of how far ahead one wave is compared to another — what term describes this? | Path difference
+What units is path difference typically expressed in? | In terms of wavelength (e.g., λ, 2λ, λ/2)
+What is phase difference? | The difference in phase between two points on a wave, usually expressed in radians
+The difference in phase between two points on a wave — what term describes this? | Phase difference
+What units is phase difference typically expressed in? | Radians
+What is phase? | A measure of how far through the wave's cycle a given point on the wave is
+A measure of how far through a wave's cycle a point is — what term describes this? | Phase
+What is polarisation? | The restriction of a wave so it can only oscillate in a single plane
+The restriction of a wave to oscillate in a single plane — what phenomenon is this? | Polarisation
+Which type of waves can be polarised? | Only transverse waves
+Why can't longitudinal waves be polarised? | Their oscillations are already confined to one direction (parallel to propagation)
+What is pulse broadening? | The elongation of a signal passed down an optical fibre
+What are the two main causes of pulse broadening? | Modal dispersion and material dispersion
+The elongation of a signal in an optical fibre — what term describes this? | Pulse broadening
+What is refractive index? | The ratio between the speed of light in a vacuum and the speed of light in a given material
+The ratio of speed of light in vacuum to speed of light in a material — what quantity is this? | Refractive index
+What is the formula for refractive index? | n = c/v (where c is speed of light in vacuum, v is speed in the material)
+What does Snell's Law describe? | The relationship between a wave's angle of incidence and angle of refraction using refractive indices
+A law linking angle of incidence to angle of refraction using refractive indices — what law is this? | Snell's Law
+What is the wave equation for speed? | Speed = frequency × wavelength (v = fλ)
+The product of frequency and wavelength gives what quantity? | Wave speed
+What is a stationary wave? | A wave that stores, but does not transfer, energy
+A wave that stores but does not transfer energy — what type of wave is this? | Stationary wave (standing wave)
+What is total internal reflection? | Full reflection at the inside boundary of a fibre, where no radiation passes out
+An effect where full reflection occurs at a boundary with no radiation passing through — what is this called? | Total internal reflection
+Where does total internal reflection occur? | In optical fibres, at the fibre-cladding boundary
+What is wavelength? | The distance between two identical positions on two adjacent waves
+The distance between two identical positions on adjacent waves — what quantity is this? | Wavelength
+How is wavelength commonly measured? | From peak to peak or trough to trough
+What is Young's double-slit experiment? | An experiment demonstrating light diffraction by passing monochromatic light through two narrow slits and observing bright and dark fringes
+An experiment using two narrow slits to demonstrate wave behaviour of light — what is this called? | Young's double-slit experiment
+What does Young's double-slit experiment demonstrate? | The diffraction and interference of light (wave nature of light)
+What type of light is used in Young's double-slit experiment? | Monochromatic light
+What pattern is observed in Young's double-slit experiment? | Alternating bright and dark fringes
+For constructive interference, what must the path difference be? | A whole number of wavelengths (nλ)
+For destructive interference, what must the path difference be? | An odd number of half wavelengths ((n + ½)λ)
+What phase difference corresponds to waves being in phase? | 0, 2π, 4π radians (or multiples of 2π)
+What phase difference corresponds to waves being in antiphase? | π, 3π, 5π radians (or odd multiples of π)

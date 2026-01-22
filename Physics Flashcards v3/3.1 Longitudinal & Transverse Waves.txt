@@ -1,0 +1,81 @@
+What is a progressive wave? | A wave that transfers energy from one point to another without transferring the medium itself
+A wave that transfers energy without transferring the medium — what type of wave is this? | A progressive wave
+What is displacement (x) of a wave? | The distance of a point on the wave from its equilibrium position
+The distance of a point on a wave from its equilibrium position — what quantity is this? | Displacement (x)
+Is displacement a scalar or vector quantity? | Vector (it can be positive or negative)
+What is amplitude (A) of a wave? | The maximum displacement of a particle in the wave from its equilibrium position
+The maximum displacement of a particle from its equilibrium position — what wave property is this? | Amplitude (A)
+What is wavelength (λ)? | The distance between points on successive oscillations of the wave that are in phase
+The distance between points on successive oscillations that are in phase — what quantity is this? | Wavelength (λ)
+What are the units of displacement, amplitude, and wavelength? | Metres (m)
+What is the period (T) of a wave? | The time taken for one complete oscillation or cycle of the wave
+The time taken for one complete oscillation of a wave — what quantity is this? | Period (T)
+What are the units of period? | Seconds (s)
+What is frequency (f) of a wave? | The number of complete oscillations per unit time
+The number of complete oscillations per unit time — what quantity is this? | Frequency (f)
+What are the units of frequency? | Hertz (Hz) or s⁻¹
+What is the relationship between frequency and period? | f = 1/T
+How do you calculate frequency from period? | f = 1/T
+How do you calculate period from frequency? | T = 1/f
+What is speed (v) of a wave? | The distance travelled by the wave per unit time
+What are the units of wave speed? | Metres per second (m s⁻¹)
+State the wave equation | v = fλ
+What does the wave equation v = fλ link together? | Speed, frequency, and wavelength
+For a wave of constant speed, what happens to frequency as wavelength increases? | Frequency decreases
+For a wave of constant speed, what happens to frequency as wavelength decreases? | Frequency increases
+The wave equation applies to which types of waves? | Both transverse and longitudinal waves
+Why is it best to use v for wave speed rather than c? | c specifically represents the speed of light (3 × 10⁸ m s⁻¹), which only applies to electromagnetic waves
+What is phase difference? | A measure of how much a point or wave is in front of or behind another
+How much a point or wave is in front of or behind another — what is this called? | Phase difference
+When are two waves said to be in phase? | When their crests or troughs are aligned
+When are two waves said to be in antiphase? | When the crest of one wave aligns with the trough of another
+What units can phase difference be measured in? | Fractions of a wavelength, degrees, or radians
+What is the phase difference for two points in phase? | 360° or 2π radians
+What is the phase difference for two points in antiphase? | 180° or π radians
+How do you convert a fraction of wavelength to degrees? | Multiply the fraction by 360°
+How do you convert a fraction of wavelength to radians? | Multiply the fraction by 2π
+What is the phase difference in degrees for a ¼λ shift? | 90°
+What is the phase difference in radians for a ¼λ shift? | π/2 radians
+What is a transverse wave? | A wave in which particles oscillate perpendicular to the direction of wave travel and energy transfer
+A wave where particles oscillate perpendicular to the direction of energy transfer — what type is this? | Transverse wave
+What features do transverse waves show? | Crests (peaks) and troughs
+Give four examples of transverse waves | Electromagnetic waves, vibrations on a guitar string, waves on a string, seismic S waves
+Can transverse waves be polarised? | Yes
+What is a longitudinal wave? | A wave in which particles oscillate parallel to the direction of wave travel and energy transfer
+A wave where particles oscillate parallel to the direction of energy transfer — what type is this? | Longitudinal wave
+What features do longitudinal waves show? | Compressions and rarefactions
+What is a compression in a longitudinal wave? | A region of increased pressure
+A region of increased pressure in a longitudinal wave — what is this called? | Compression
+What is a rarefaction in a longitudinal wave? | A region of decreased pressure
+A region of decreased pressure in a longitudinal wave — what is this called? | Rarefaction
+Give four examples of longitudinal waves | Sound waves, ultrasound waves, waves on a slinky spring, seismic P waves
+Can longitudinal waves be polarised? | No
+Why can't longitudinal waves be polarised? | Because they oscillate parallel to the direction of travel
+How is a wavelength measured on a longitudinal wave? | The distance between two compressions or two rarefactions
+How can transverse waves be demonstrated? | Using a rope
+How can longitudinal waves be demonstrated? | Using a slinky spring
+What is polarisation? | When particle oscillations occur in a single plane perpendicular to the direction of wave propagation
+Particle oscillations occurring in a single plane perpendicular to wave propagation — what is this? | Polarisation
+Why can only transverse waves be polarised? | Because transverse waves oscillate in any plane perpendicular to the propagation direction
+What does it mean when a transverse wave is polarised? | Vibrations are restricted to one direction, still perpendicular to the direction of propagation
+What is a polariser or polarising filter? | A device that only allows oscillations in a certain plane to be transmitted
+Besides using a polariser, how else can light be polarised? | Through reflection, refraction, and scattering
+What happens when polarised light passes through a filter with perpendicular transmission axis? | None of the light passes through
+What happens when two polarisers have parallel transmission axes? | Maximum intensity of light is transmitted
+What happens when two polarisers have perpendicular transmission axes? | Minimum intensity (zero) light is transmitted
+How does light intensity vary as a polariser is rotated through 360°? | It varies periodically, with maxima at 0°, 180°, 360° and minima at 90°, 270°
+What is the orientation of polarising filters in Polaroid sunglasses? | Vertically oriented
+Why do Polaroid sunglasses reduce glare? | They block horizontally polarised light that is created when light reflects off horizontal surfaces
+What is partial plane polarisation? | When light reflected from a surface oscillates more in one plane than another
+Why is light reflected from water surfaces partially horizontally polarised? | Because the reflecting surface is horizontal
+How do polarising filters help photographers take underwater photos? | They eliminate the horizontally polarised glare from the water surface while allowing refracted light from underwater objects through
+Why must TV aerials be mounted horizontally or vertically? | To match the polarisation of the broadcast signal from the transmitter
+What determines whether a TV aerial should be horizontal or vertical? | The transmitter it is pointing towards and the polarity of the broadcast services
+Why can radio waves be polarised by a metal grid? | Because radio waves are transverse waves
+Are sound waves transverse or longitudinal? | Longitudinal
+Are electromagnetic waves transverse or longitudinal? | Transverse
+Are seismic P waves transverse or longitudinal? | Longitudinal
+Are seismic S waves transverse or longitudinal? | Transverse
+What happens to the intensity of unpolarised light after passing through a polarising filter? | It reduces
+In mechanical waves, what do particles do? | Oscillate about fixed points
+How is energy transmitted through a longitudinal wave? | Particles vibrate and compressions cause nearby particles to vibrate, producing compressions further along

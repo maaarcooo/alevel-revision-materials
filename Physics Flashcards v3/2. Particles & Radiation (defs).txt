@@ -1,0 +1,110 @@
+What is alpha decay? | The process of an unstable nucleus emitting an alpha particle (two protons and two neutrons) to become more stable
+An unstable nucleus emits two protons and two neutrons to become more stable — what is this process called? | Alpha decay
+What does an alpha particle consist of? | Two protons and two neutrons
+What is annihilation? | The process of a particle and its antiparticle colliding and being converted into energy
+A particle and its antiparticle collide and convert into energy — what is this process called? | Annihilation
+Why are two photons released during annihilation? | To conserve momentum
+What is an antiparticle? | A particle with the same mass as its corresponding particle but opposite charge and conservation numbers
+A particle with the same mass but opposite charge and conservation numbers — what is this called? | An antiparticle
+What properties do a particle and its antiparticle share? | The same mass
+What properties differ between a particle and its antiparticle? | Charge and conservation numbers (opposite)
+What is baryon number? | A quantum number that is conserved in all particle interactions
+What is the baryon number of a baryon? | +1
+What is the baryon number of a non-baryon? | 0
+Is baryon number conserved in all particle interactions? | Yes
+What is a baryon? | A class of hadron made up of three quarks
+A hadron made up of three quarks is called what? | A baryon
+How many quarks make up a baryon? | Three
+What is the only stable baryon? | The proton
+What is beta-minus decay? | The process of a neutron inside a nucleus turning into a proton, emitting an electron and an antineutrino
+A neutron turns into a proton, emitting an electron and antineutrino — what decay is this? | Beta-minus decay
+What particles are emitted during beta-minus decay? | An electron (beta-minus particle) and an antineutrino
+What happens to the neutron in beta-minus decay? | It turns into a proton
+What is beta-plus decay? | The process of a proton inside a nucleus turning into a neutron, emitting a positron and a neutrino
+A proton turns into a neutron, emitting a positron and neutrino — what decay is this? | Beta-plus decay
+What particles are emitted during beta-plus decay? | A positron (beta-plus particle) and a neutrino
+What happens to the proton in beta-plus decay? | It turns into a neutron
+What is electron diffraction? | The spreading of electrons as they pass through a gap similar to their de Broglie wavelength
+What does electron diffraction provide evidence for? | The wave-like properties of particles
+The spreading of electrons through a gap similar to their de Broglie wavelength — what is this called? | Electron diffraction
+What is an electron-volt (eV)? | The work done to accelerate an electron through a potential difference of 1V
+The work done to accelerate an electron through 1V of potential difference — what unit is this? | Electron-volt (eV)
+What equation relates an electron-volt to energy? | E = qV (1 eV equals the charge of an electron times 1 volt)
+What are energy levels? | Defined and distinct energies at which electrons can exist in an atom
+Can an electron exist between energy levels? | No
+What is excitation? | The process of an electron absorbing exactly the right quantity of energy to move to a higher energy level
+An electron absorbs exactly the right energy to move to a higher level — what is this process called? | Excitation
+What must be true about the energy absorbed for excitation to occur? | It must be exactly the right quantity to match an energy level transition
+What are gauge bosons? | The exchange particles that transmit the four fundamental interactions between particles
+The exchange particles that transmit the four fundamental forces — what are these called? | Gauge bosons
+What is the ground state? | The most stable (lowest) energy level that an electron can exist in
+The lowest energy level an electron can occupy — what is this called? | Ground state
+What are hadrons? | A class of subatomic particle that experiences the strong nuclear interaction
+Subatomic particles that experience the strong nuclear interaction are called what? | Hadrons
+What interaction do hadrons experience? | The strong nuclear interaction
+What is ionisation? | The process of an atom losing an orbital electron and becoming charged
+An atom loses an orbital electron and becomes charged — what is this process called? | Ionisation
+What is an isotope? | An atom with the same number of protons but a different number of neutrons
+Atoms with the same proton number but different neutron numbers — what are these called? | Isotopes
+What is isotopic data? | Data from isotopes that can be used for a purpose, such as carbon dating
+What is a kaon? | A type of meson that decays into pions
+A meson that decays into pions is called what? | A kaon
+What does a kaon decay into? | Pions
+What is lepton number? | A quantum number that is conserved in all particle interactions
+Is lepton number conserved in all particle interactions? | Yes
+What two types of lepton number must be conserved separately? | Electron lepton number and muon lepton number
+What is a lepton? | A group of elementary subatomic particles consisting of electrons, muons and neutrinos
+Elementary particles including electrons, muons and neutrinos — what group are these? | Leptons
+Name the three types of leptons | Electrons, muons, and neutrinos
+What is a meson? | A class of hadron made up of a quark and antiquark pair
+A hadron made of a quark-antiquark pair is called what? | A meson
+How many quarks make up a meson? | Two (one quark and one antiquark)
+What is a muon? | A type of lepton that decays into electrons
+A lepton that decays into electrons is called what? | A muon
+What does a muon decay into? | Electrons
+What is a neutrino? | A subatomic particle whose existence was hypothesised to maintain conservation of energy in beta decay
+Why was the neutrino hypothesised to exist? | To maintain conservation of energy in beta decay
+What is nucleon number (A)? | The sum of the number of protons and neutrons in a nucleus
+The total number of protons and neutrons in a nucleus — what is this called? | Nucleon number (A)
+What symbol represents nucleon number? | A
+What is a nucleon? | A proton or neutron
+The collective term for protons and neutrons is what? | Nucleons
+What is pair production? | The process of a sufficiently high-energy photon converting into a particle and its corresponding antiparticle
+A high-energy photon converts into a particle and antiparticle — what is this process called? | Pair production
+Why does pair production usually occur near a nucleus? | To conserve momentum
+What is a photon? | A packet (quantum) of energy
+A packet of electromagnetic energy is called what? | A photon
+What is a pion? | A type of meson and the exchange particle for the strong nuclear force
+The exchange particle for the strong nuclear force is what? | A pion
+What is a positron? | A positively charged particle that is the antiparticle of an electron
+The antiparticle of an electron is called what? | A positron
+What is the charge of a positron relative to an electron? | Opposite (positive instead of negative)
+What is proton number (Z)? | The number of protons present in the nucleus of a given element
+The number of protons in a nucleus — what is this called? | Proton number (Z)
+What symbol represents proton number? | Z
+What is stopping potential? | The minimum potential difference required to stop the highest kinetic energy electrons from leaving the metal plate in the photoelectric effect
+The minimum p.d. required to stop the most energetic photoelectrons — what is this called? | Stopping potential
+What are strange particles? | Particles that are produced through the strong interaction but decay through the weak interaction
+Particles produced by strong interaction but decaying via weak interaction — what are these called? | Strange particles
+What is strangeness? | A quantum number that is conserved in strong interactions but not in weak interactions
+A quantum number conserved in strong but not weak interactions — what is this? | Strangeness
+Why are strange particles always produced in pairs? | Because strangeness must be conserved in strong interactions (during production)
+Is strangeness conserved in strong interactions? | Yes
+Is strangeness conserved in weak interactions? | No
+What is the strong nuclear force? | A force that acts between nucleons in a nucleus to keep it stable
+What keeps nucleons bound together in a nucleus? | The strong nuclear force
+At what range is the strong nuclear force attractive? | Up to 3 fm
+At what range is the strong nuclear force repulsive? | At separations less than 0.5 fm
+At separations less than 0.5 fm, is the strong nuclear force attractive or repulsive? | Repulsive
+At separations between 0.5 fm and 3 fm, is the strong nuclear force attractive or repulsive? | Attractive
+What is threshold frequency? | The minimum frequency of photons required for photoelectrons to be emitted from a metal surface in the photoelectric effect
+The minimum photon frequency needed for photoelectric emission — what is this called? | Threshold frequency
+How is threshold frequency calculated? | Work function divided by Planck's constant (f₀ = φ/h)
+What is work function? | The minimum energy required to remove an electron from a metal's surface
+The minimum energy needed to release an electron from a metal surface — what is this called? | Work function
+What symbol is commonly used for work function? | φ (phi)
+Which particle classification includes both baryons and mesons? | Hadrons
+What distinguishes baryons from mesons? | Baryons have three quarks; mesons have a quark-antiquark pair
+Are leptons affected by the strong nuclear force? | No (only hadrons experience it)
+In beta-minus decay, what type of neutrino is emitted? | An antineutrino
+In beta-plus decay, what type of neutrino is emitted? | A neutrino

@@ -1,0 +1,68 @@
+What is an electronvolt? | The energy gained by an electron travelling through a potential difference of one volt
+The energy gained by an electron travelling through a potential difference of one volt — what unit is this? | Electronvolt (eV)
+What is the value of 1 eV in joules? | 1.60 × 10⁻¹⁹ J
+Why is the electronvolt commonly used in quantum physics? | Because quantum energies tend to be much smaller than 1 joule
+How do you convert electronvolts to joules? | Multiply by 1.6 × 10⁻¹⁹
+How do you convert joules to electronvolts? | Divide by 1.6 × 10⁻¹⁹
+What equation relates energy, charge and potential difference? | V = E/Q or E = QV
+When an electron accelerates from rest through a potential difference, what is the relationship between eV and kinetic energy? | eV = ½mv²
+What is the formula for the speed of an electron accelerated through potential difference V? | v = √(2eV/m)
+What is the photoelectric effect? | The phenomenon in which electrons are emitted from the surface of a metal upon the absorption of electromagnetic radiation
+Electrons removed from a metal via the photoelectric effect are called what? | Photoelectrons
+What important evidence does the photoelectric effect provide about light? | Evidence that light behaves as a particle (is quantised/carried in discrete packets)
+Why does only light above a certain frequency cause photoelectric emission? | Because each electron can only absorb a single photon, so the photon must have sufficient energy
+What is threshold frequency? | The minimum frequency of incident electromagnetic radiation required to remove a photoelectron from the surface of a metal
+The minimum frequency required to remove a photoelectron from a metal surface — what term describes this? | Threshold frequency
+What is threshold wavelength? | The longest wavelength of incident electromagnetic radiation that would remove a photoelectron from the surface of a metal
+The longest wavelength that can cause photoelectric emission — what term describes this? | Threshold wavelength
+What equation relates wave speed, frequency and wavelength? | v = fλ (or c = fλ for light)
+Are threshold frequency and wavelength the same for all metals? | No, they vary from metal to metal
+What is the work function (Φ)? | The minimum energy required to release a photoelectron from the surface of a metal
+The minimum energy required to release a photoelectron from a metal surface — what term describes this? | Work function (Φ)
+How many photons can a single electron absorb in the photoelectric effect? | One (a single photon)
+What condition must a photon's energy meet for an electron to escape the metal? | The photon energy must be equal to or greater than the work function (Φ)
+Why do different metals have different work functions? | Because the attractive forces between surface electrons and positive metal ions vary between metals
+In which region of the EM spectrum are the threshold frequencies of alkali metals (sodium, potassium)? | The visible light region
+In which region of the EM spectrum are the threshold frequencies of transition metals (zinc, iron)? | The ultraviolet region
+Why do alkali metals have lower threshold frequencies than transition metals? | Because the attractive forces between surface electrons and positive metal ions are relatively weak in alkali metals
+What is stopping potential? | The potential difference required to stop photoelectron emission from occurring
+The potential difference required to stop photoelectron emission — what term describes this? | Stopping potential (Vₛ)
+In a photoelectric experiment, what is the emitter plate? | The metal plate from which photoelectrons are emitted when photons arrive
+In a photoelectric experiment, what is the collector plate? | The metal plate that collects the electrons that cross the gap
+What is the relationship between maximum kinetic energy and stopping potential? | E_k(max) = eVₛ
+What happens to the stopping potential when the intensity of incident radiation is increased? | It remains the same
+What does the fact that stopping potential is unchanged by intensity show? | That intensity does not affect the kinetic energy of photoelectrons
+What does increasing the intensity of incident radiation increase? | The number of photons incident on the metal (and hence the photoelectric current)
+What two factors does the maximum kinetic energy of photoelectrons depend on? | The frequency (or wavelength) of incident photons and the work function of the metal
+What is the photoelectric equation? | hf = Φ + E_k(max) or E = hf = Φ + ½mv²_max
+In the equation hf = Φ + E_k(max), what does hf represent? | The energy of a single photon
+At the threshold frequency, what is the relationship between photon energy and work function? | hf₀ = Φ (the photon energy exactly equals the work function)
+What happens if incident photons have frequency below the threshold frequency? | No electrons are emitted
+On a graph of E_k(max) vs frequency, what does the y-intercept represent? | The work function (−Φ)
+On a graph of E_k(max) vs frequency, what does the x-intercept represent? | The threshold frequency (f₀)
+On a graph of E_k(max) vs frequency, what does the gradient represent? | Planck's constant (h)
+Why is the kinetic energy of photoelectrons independent of intensity? | Because each electron can only absorb one photon; intensity only affects the number of photons
+Why is the kinetic energy referred to as "maximum" kinetic energy? | Because electrons deeper in the metal use some absorbed energy to reach the surface, leaving less for kinetic energy
+Which photoelectrons have the maximum kinetic energy? | Those on the surface of the metal (they don't need energy to reach the surface)
+Why do photoelectrons from deeper in the metal have lower kinetic energy? | Because some of the photon's energy is used to bring them to the surface
+What is photoelectric current? | A measure of the number of photoelectrons emitted per second
+What is photoelectric current proportional to? | The intensity of radiation incident on the metal surface
+Why is photoelectric current proportional to intensity? | Because intensity is proportional to the number of photons per second, and each photoelectron absorbs one photon
+If frequency increases while intensity stays constant, what happens to photoelectric current? | It decreases (fewer photons needed to maintain same energy transfer rate)
+What is the equation for photon energy? | E = hf or E = hc/λ
+What does h represent in quantum equations? | Planck's constant (6.63 × 10⁻³⁴ J s)
+What is intensity in terms of photon properties? | I = nhf/(tA) where n is number of photons, t is time, A is area
+If you increase frequency while keeping intensity constant, what must happen to the number of photons? | The number of photons must decrease
+Why do higher frequency photons at constant intensity mean fewer photons? | Because each photon has higher energy, so fewer are needed to transfer the same energy per unit area per second
+What determines whether photoelectric emission occurs: intensity or frequency? | Frequency (must be above threshold frequency)
+What determines the number of photoelectrons emitted per second? | Intensity (number of photons incident per second)
+What is the formula for calculating work function from threshold frequency? | Φ = hf₀
+Convert 2.4 eV to joules | 3.84 × 10⁻¹⁹ J (2.4 × 1.6 × 10⁻¹⁹)
+What is the threshold frequency of sodium? | 4.40 × 10¹⁴ Hz
+What is the threshold wavelength of zinc? | 294 nm
+Does the stopping potential have a positive or negative value in experiments? | Negative (but magnitude is used in calculations)
+What analogy helps explain threshold frequency? | The coconut shy analogy — table tennis balls (low frequency) won't knock off a coconut no matter how many, but a single bullet (high frequency) will
+In the energy well analogy, what represents the work function? | The energy between the surface electron and the top of the well
+What happens to an electron if it absorbs a photon with energy less than the work function? | It gains energy but falls back into the well (doesn't escape)
+What happens to excess photon energy above the work function? | It becomes kinetic energy of the photoelectron
+Why can't electrons accumulate energy from multiple low-frequency photons? | Because each electron can only absorb one photon at a time

@@ -1,0 +1,108 @@
+What are scalar quantities? | Quantities that only have a magnitude (size)
+Quantities that only have magnitude but no direction are called what? | Scalar quantities
+What is distance? | The total length between two points
+What is speed? | The total distance travelled per unit of time
+What are vector quantities? | Quantities that have both magnitude and direction
+Quantities that have both magnitude and direction are called what? | Vector quantities
+What is displacement? | The distance of an object from a fixed point in a specified direction
+The distance of an object from a fixed point in a specified direction is called what? | Displacement
+What is velocity? | The rate of change of displacement of an object
+The rate of change of displacement is called what? | Velocity
+What is acceleration? | The rate of change of velocity of an object
+The rate of change of velocity is called what? | Acceleration
+Is distance a scalar or vector quantity? | Scalar
+Is speed a scalar or vector quantity? | Scalar
+Is displacement a scalar or vector quantity? | Vector
+Is velocity a scalar or vector quantity? | Vector
+Is acceleration a scalar or vector quantity? | Vector
+What is instantaneous speed? | The speed of an object at any given point in time
+The speed of an object at any given point in time is called what? | Instantaneous speed (or velocity)
+How is an accelerating object shown on a displacement-time graph? | By a curved line
+How do you find instantaneous velocity on a displacement-time graph? | Draw a tangent to the curve at the required point and calculate the gradient of that tangent
+What is average speed? | The total distance divided by the total time
+What is average velocity? | The total displacement divided by the total time
+How is average velocity calculated from a displacement-time graph? | By dividing the total displacement (y-axis) by the total time (x-axis)
+On a displacement-time graph, what does the y-intercept represent? | The initial displacement
+On a displacement-time graph, what does a diagonal straight line represent? | Constant velocity
+On a displacement-time graph, what does a positive slope represent? | Motion in the positive direction
+On a displacement-time graph, what does a negative slope represent? | Motion in the negative direction
+On a displacement-time graph, what does a horizontal line (zero slope) represent? | A state of rest
+What does the gradient of a displacement-time graph give? | Velocity
+On a velocity-time graph, what does a straight line represent? | Uniform acceleration
+On a velocity-time graph, what does a positive slope represent? | Acceleration in the positive direction
+On a velocity-time graph, what does a negative slope represent? | Acceleration in the negative direction
+On a velocity-time graph, what does a curved line represent? | Non-uniform acceleration
+On a velocity-time graph, what does a horizontal line represent? | Motion with constant velocity
+What does the area under a velocity-time graph represent? | Displacement or distance travelled
+What does the gradient of a velocity-time graph give? | Acceleration
+On an acceleration-time graph, what does the y-intercept represent? | The initial acceleration
+On an acceleration-time graph, what does a horizontal line represent? | Constant acceleration
+What does the area under an acceleration-time graph represent? | Change in velocity
+What do the SUVAT equations describe? | Motion of objects moving with constant acceleration in a straight line
+When can SUVAT equations be used? | When an object is moving with constant acceleration in a straight line
+In SUVAT equations, what does 's' represent? | Displacement (m)
+In SUVAT equations, what does 'u' represent? | Initial velocity (m s⁻¹)
+In SUVAT equations, what does 'v' represent? | Final velocity (m s⁻¹)
+In SUVAT equations, what does 'a' represent? | Acceleration (m s⁻²)
+In SUVAT equations, what does 't' represent? | Time (s)
+State the SUVAT equation linking v, u, a, and t | v = u + at
+State the SUVAT equation linking s, u, t, and a | s = ut + ½at²
+State the SUVAT equation linking s, v, u, and t | s = ½(v + u)t
+State the SUVAT equation linking v, u, a, and s | v² = u² + 2as
+Why can SUVAT variables be positive or negative? | Because they are vectors, and direction determines sign
+What are the steps for solving SUVAT problems? | 1. List known variables, 2. Identify the unknown, 3. Select appropriate equation, 4. Rearrange and solve
+What is projectile motion? | The motion of an object under the influence of gravity alone (ignoring air resistance)
+The motion of an object under the influence of gravity alone is called what? | Projectile motion
+What is the curved path followed by a projectile called? | A trajectory
+At what point does a projectile reach maximum height? | When the vertical velocity component equals zero
+For a projectile launched and landing at the same level, when does it reach maximum height? | At half of its total flight time
+What is the range of a projectile? | The horizontal distance travelled by the projectile
+The horizontal distance travelled by a projectile is called what? | Range
+How many independent components does projectile motion have? | Two (horizontal and vertical)
+What is the horizontal acceleration of a projectile (ignoring air resistance)? | Zero
+What is the vertical acceleration of a projectile? | The acceleration due to gravity, g = 9.8 m s⁻²
+What happens to horizontal velocity during projectile motion (ignoring air resistance)? | It remains constant
+What is the vertical velocity at maximum height of a projectile? | Zero
+How do you find the vertical component of a projectile's initial velocity? | u sin θ (where u is initial velocity and θ is angle of projection)
+How do you find the horizontal component of a projectile's initial velocity? | u cos θ (where u is initial velocity and θ is angle of projection)
+What is air resistance? | A drag force experienced by objects moving through air, caused by friction between air molecules and the object
+In which direction does air resistance act? | In the opposite direction to the direction of motion
+How does air resistance affect the range of a projectile? | It reduces the horizontal velocity and range
+How does air resistance affect the maximum height of a projectile? | It reduces the maximum height
+How does air resistance affect a projectile's descent? | It causes a steeper descent gradient
+What is a drag force? | A force that opposes the motion of an object moving through a fluid (gas or liquid)
+What is a fluid in physics? | A term used to describe both liquids and gases
+Name two examples of drag forces | Friction and air resistance
+In which direction do drag forces always act? | In the opposite direction to motion
+Can drag forces ever speed up an object or start them moving? | No, they can only slow objects down or maintain constant speed
+What energy transformation do drag forces cause? | They convert kinetic energy into heat and sound
+What happens to drag force as an object's speed increases? | Drag force increases
+What two factors mainly affect an object's motion through a fluid? | Mass and surface area
+How does surface area affect air resistance? | A larger surface area experiences larger air resistance
+Why do aeroplanes travel at high altitudes? | There is less air resistance because the air is less dense
+Why is air resistance less than water resistance? | Air is 800 times less dense than water
+What is terminal velocity? | The constant velocity reached when drag force equals weight and an object no longer accelerates
+The constant velocity reached when drag force equals weight is called what? | Terminal velocity
+What is the condition for terminal velocity? | Drag force equals weight (no net force, so no acceleration)
+For a falling object, what happens when weight is greater than drag force? | The object accelerates
+For a falling object, what happens as speed increases? | Drag force increases
+When does a skydiver reach terminal velocity? | When weight equals drag force and acceleration becomes zero
+What is the aim of the free fall practical? | To calculate the acceleration due to gravity (g) by measuring the time taken for a ball-bearing to fall through different heights
+In the free fall practical, why must the ball-bearing be made of a magnetic material? | So it can be held and released by the electromagnet
+What is the purpose of the electromagnet in the free fall practical? | To drop the ball-bearing at a consistent starting point every time
+What is the purpose of the light gates in the free fall practical? | To determine the time taken to drop a certain distance
+What is the purpose of the cushion in the free fall practical? | To prevent damage to the ball-bearing and the surface when landing
+In the free fall practical, what SUVAT equation is used for analysis? | s = ut + ½at² (which simplifies to s = ½at² since u = 0)
+In the free fall practical, what is plotted on the y-axis? | 2h/t (where h is height and t is time)
+In the free fall practical, what is plotted on the x-axis? | t (time)
+In the free fall practical, what does the gradient of the graph represent? | The acceleration due to gravity, g
+Why does the initial velocity equal zero in the free fall practical? | Because the ball starts from rest
+What is a systematic error in the free fall practical due to residual magnetism? | The time recorded is longer than actual because the ball is momentarily held after the electromagnet switches off
+What is a random error in the free fall practical? | The ball may not fall accurately down the centre of each light gate
+How are random errors reduced in the free fall practical? | By repeating the experiment at least 3 times for each value of h
+What safety precaution relates to the electromagnet in the free fall practical? | Keep water away from it due to high current, and only switch it on when dropping the ball
+Why must the clamp stand be secured with a G clamp in the free fall practical? | To keep it rigid and stable
+What is the line of worst fit? | The steepest line that still passes through all error bars
+How is the error in t calculated in the free fall practical? | Half the range of each set of values
+How is the fractional uncertainty in g calculated? | The difference in gradient between lines of best and worst fit, divided by the gradient of the line of best fit
+What height increments are used in the free fall practical? | 5 cm increments from around 10 cm to 50 cm

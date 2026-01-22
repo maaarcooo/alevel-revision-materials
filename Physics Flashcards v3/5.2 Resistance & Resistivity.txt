@@ -1,0 +1,82 @@
+What causes electrical resistance in a metal wire? | Free electrons collide with ions as they move through the wire
+What happens when free electrons collide with ions in a metal wire? | They transfer kinetic energy, causing electrical heating
+What is the equation for electrical resistance in terms of resistivity? | R = ρL/A
+In the resistance equation R = ρL/A, what does ρ represent? | Resistivity (in Ω m)
+In the resistance equation R = ρL/A, what does L represent? | Length of the wire (in m)
+In the resistance equation R = ρL/A, what does A represent? | Cross-sectional area (in m²)
+How does resistance change when the length of a wire is doubled? | Resistance doubles
+How does resistance change when the cross-sectional area of a wire is doubled? | Resistance halves
+What three factors does resistance depend on? | Length, cross-sectional area, and resistivity of the material
+What is resistivity? | A property that describes the extent to which a material opposes the flow of electric current through it
+A property describing how much a material opposes electric current flow — what is this called? | Resistivity
+What is the unit of resistivity? | Ω m (ohm metres)
+Is resistivity dependent on temperature? | Yes, resistivity is dependent on temperature
+Why is copper used for electrical wires? | It has a relatively low resistivity at room temperature, allowing current to flow easily
+Why do insulators conduct virtually no current? | They have very high resistivity
+Which has higher resistivity: metals or insulators? | Insulators
+If the diameter of a wire doubles, what happens to its resistance? | Resistance drops to one quarter (area quadruples, R ∝ 1/A)
+What is the relationship between cross-sectional area and diameter for a circular wire? | Area is proportional to diameter squared (A = πd²/4)
+What is the typical resistivity of copper at room temperature? | 1.7 × 10⁻⁸ Ω m
+What is the typical resistivity of glass at room temperature? | 10¹² Ω m
+Are metals, semiconductors, or insulators the best conductors? | Metals
+What happens to atoms in a solid when temperature increases? | They vibrate faster
+How does increased atomic vibration affect free electrons in a metal? | Electrons collide more with vibrating atoms, impeding their flow
+For a metallic conductor, how does resistance change when temperature increases? | Resistance increases
+For a metallic conductor, how does resistance change when temperature decreases? | Resistance decreases
+What is a thermistor? | A non-ohmic conductor whose resistance varies with temperature
+A non-ohmic conductor whose resistance varies with temperature — what is this called? | Thermistor
+What does NTC stand for in thermistors? | Negative Temperature Coefficient
+For an NTC thermistor, how does resistance change when temperature increases? | Resistance decreases
+For an NTC thermistor, how does resistance change when temperature decreases? | Resistance increases
+Why is the thermistor called a non-ohmic conductor? | Its resistance changes with temperature, so it doesn't follow Ohm's law
+Name three applications of thermistors | Ovens, fire alarms, and digital thermometers
+What type of sensor is a thermistor? | A temperature sensor
+In a series circuit with a thermistor and resistor, what happens to current when temperature decreases? | Current decreases (thermistor resistance increases, so total resistance increases)
+In a series circuit with a thermistor and resistor, what happens to p.d. across the thermistor when temperature decreases? | P.d. increases (thermistor's share of total resistance increases)
+What is superconductivity? | The property of having zero electrical resistance below a critical temperature
+What is a superconductor? | A material with no resistance below a critical temperature
+A material with no resistance below a critical temperature — what is this called? | A superconductor
+What is the critical temperature (in superconductivity)? | The temperature at which a material becomes superconducting
+The temperature at which a material becomes superconducting — what is this called? | Critical temperature (or transition temperature)
+What happens to the resistivity of a superconductor at the critical temperature? | It drops to zero
+What is another name for critical temperature in superconductivity? | Transition temperature
+What is the critical temperature of mercury? | 4.2 K
+Why are superconductors useful? | They allow large electric currents with no energy loss
+Name two general uses of superconductors | Production of strong magnetic fields and reduction of energy loss in power transmission
+Name three specific applications of superconductors | MRI scanners, maglev trains, particle accelerators (also accept: transformers, motors, fusion reactors, electromagnets, power cables, microchips)
+What does maglev stand for? | Magnetic levitation
+Why do maglev trains need superconducting electromagnets? | They require extremely strong magnetic fields to levitate the large mass of the train
+What speeds can maglev trains reach? | Up to 603 km/h
+In which countries do maglev train systems currently exist? | Japan, South Korea, and China
+What is the aim of the resistivity practical? | To determine the resistivity of a constantan wire
+What is the independent variable in the resistivity practical? | Length of the wire
+What is the dependent variable in the resistivity practical? | Current through the wire
+Name two control variables in the resistivity practical | Voltage through the wire and the material of the wire
+What instrument is used to measure wire diameter in the resistivity practical? | Micrometer screw gauge
+Why should diameter measurements be taken at 5-10 random points along the wire? | To calculate a mean value and reduce random errors
+How is the ammeter connected in the resistivity practical circuit? | In series with the wire
+How is the voltmeter connected in the resistivity practical circuit? | In parallel with the wire
+What is a flying lead? | A wire with a crocodile clip at one end to allow connection at any point along the test wire
+Why should current be switched off immediately after taking a reading in the resistivity practical? | To prevent the wire heating up and changing its resistivity
+How is resistance calculated from voltage and current? | R = V/I
+What graph is plotted to find resistivity? | Length (L) against resistance (R)
+What does the gradient of an R vs L graph represent? | ρ/A (resistivity divided by cross-sectional area)
+How is resistivity calculated from the gradient of an R vs L graph? | ρ = gradient × A
+What is the formula for the cross-sectional area of a circular wire? | A = πd²/4
+What systematic error must be avoided when setting up the resistivity practical? | The wire end must start at 0 on the ruler to avoid zero error
+Why must only small currents flow through the wire in the resistivity practical? | To keep temperature constant and prevent changes in resistivity
+Why is constantan wire used in the resistivity practical? | It has relatively stable resistivity with temperature changes
+What safety precaution should be taken with high current and thin wire? | Never touch the wire directly when the circuit is on; switch off if you smell burning
+Why should liquids be kept away from the resistivity practical equipment? | They could damage the electrical equipment
+How many length measurements should be taken in the resistivity practical? | 8-10 readings at different lengths
+Why should current readings be taken at least 3 times for each length? | To calculate an average and reduce random errors
+What happens to the resistivity-temperature graph of a superconductor at the critical temperature? | Resistivity suddenly drops to zero
+How does the resistivity-temperature graph of a normal metal compare to a superconductor? | Normal metals show gradually decreasing resistivity; superconductors drop to zero at Tc
+What is the resolution of a typical micrometer screw gauge? | 0.01 mm
+What typical voltage is used in the resistivity practical? | 6.0 V
+Why does higher resistivity mean higher resistance for a given wire? | R = ρL/A, so R is directly proportional to ρ
+What type of relationship exists between resistance and length? | Directly proportional (R ∝ L)
+What type of relationship exists between resistance and cross-sectional area? | Inversely proportional (R ∝ 1/A)
+Why do MRI scanners use superconducting magnets? | To produce the strong magnetic fields required for imaging
+Why are superconductors useful in power transmission? | They eliminate energy loss as heat due to zero resistance
+Why are superconductors useful in particle accelerators? | They can produce the large magnetic fields needed to accelerate particles

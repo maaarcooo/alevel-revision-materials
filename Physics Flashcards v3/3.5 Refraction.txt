@@ -1,0 +1,76 @@
+What is the refractive index of a material? | The ratio of how fast light travels through that substance compared to the speed of light in a vacuum
+The ratio of light speed in a vacuum to light speed in a substance — what quantity is this? | Refractive index
+What is refraction? | The change in direction of a wave when it passes through a boundary between mediums of different density
+The change in direction of a wave at a boundary between media of different density — what is this called? | Refraction
+What causes refraction to occur? | A change in the speed of different parts of the wavefront as they hit the boundary
+In optics, what does the term 'medium' refer to? | A transparent material
+What happens to light when it enters a more optically dense medium? | It bends towards the normal
+What happens to light when it enters a less optically dense medium? | It bends away from the normal
+In a more optically dense medium, how do wave speed and angle of refraction change? | Waves travel slower and the angle of refraction is smaller
+In a less optically dense medium, how do wave speed and angle of refraction change? | Waves travel faster and the angle of refraction is larger
+What is the angle of incidence? | The angle between the approaching incident ray and the normal
+The angle between the incident ray and the normal — what is this called? | Angle of incidence
+What is the angle of refraction? | The angle between the ray leaving the boundary and the normal
+The angle between the refracted ray and the normal — what is this called? | Angle of refraction
+What is the normal line? | A line drawn at 90° to the boundary between two media
+When light passes from a less dense to a more dense medium, what happens to its speed and wavelength? | Speed decreases and wavelength becomes shorter
+When light passes from a more dense to a less dense medium, what happens to its speed and wavelength? | Speed increases and wavelength becomes longer
+When a wave refracts, what property remains constant? | Frequency
+How can you tell frequency stays constant during refraction? | The colour of the wave does not change
+What happens when a light ray hits a boundary at 90° (along the normal)? | The wave passes straight through without changing direction
+Why does light pass straight through when incident at 90° to a boundary? | The whole wavefront enters the boundary at the same time
+What is the equation for refractive index? | n = c / cₛ (where c = speed of light in vacuum, cₛ = speed of light in substance)
+What does n represent in the refractive index equation? | Refractive index of the material
+What does c represent in n = c/cₛ? | Speed of light in a vacuum (m s⁻¹)
+What does cₛ represent in n = c/cₛ? | Speed of light in the substance (m s⁻¹)
+Is refractive index dimensionless or does it have units? | It is dimensionless (no units)
+Why is refractive index always greater than 1? | Because light speed in a substance is always less than in a vacuum
+What is the refractive index of air approximately equal to? | 1
+Why can air's refractive index be approximated as 1? | Light does not slow down significantly when travelling through air compared to a vacuum
+What is an optically dense material? | A material with a high refractive index that causes light to travel slower
+What is Snell's Law? | n₁ sin θ₁ = n₂ sin θ₂
+In Snell's Law, what do n₁ and n₂ represent? | Refractive indices of material 1 and material 2
+In Snell's Law, what do θ₁ and θ₂ represent? | Angle of incidence in material 1 and angle of refraction in material 2
+From what line are angles in Snell's Law always measured? | The normal
+What is the critical angle? | The angle of incidence at which the angle of refraction equals 90°
+The angle of incidence that produces a 90° angle of refraction — what is this called? | Critical angle
+What is the equation for critical angle? | sin θc = n₂/n₁
+What happens when the angle of incidence equals the critical angle? | The refracted ray travels along the boundary between the two materials
+What happens when the angle of incidence is less than the critical angle? | The ray is refracted and exits the material
+What happens when the angle of incidence is greater than the critical angle? | The ray undergoes total internal reflection
+What is the relationship between refractive index and critical angle? | The larger the refractive index, the smaller the critical angle
+What is total internal reflection (TIR)? | When light is completely reflected back into the denser medium instead of refracting
+What two conditions are required for total internal reflection? | 1) Angle of incidence greater than critical angle, 2) Light travelling from denser to less dense medium (n₁ > n₂)
+What law does total internal reflection follow? | The law of reflection (angle of incidence = angle of reflection)
+Which medium has the higher refractive index — a denser or less dense medium? | A denser medium
+How do optical fibres transmit light signals? | Using repeated total internal reflection against the sides of the fibre
+What are two main uses of optical fibres? | Communications (telephone/internet) and medical imaging (endoscopes)
+What are the three main components of an optical fibre? | Optically dense core, lower optically dense cladding, and outer sheath
+What is a step-index fibre? | An optical fibre where refractive index increases from outside to centre
+For TIR in optical fibres, how must the refractive indices compare? | n(cladding) < n(core)
+What are the roles of cladding in optical fibres? | Protect core from damage, prevent signal degradation, keep signals secure, prevent information crossover between fibres
+What is material dispersion? | The spreading of white light into its spectral colours as different wavelengths travel at different speeds
+What causes material dispersion? | Different wavelengths of light travelling at different speeds in the medium
+Which colour travels slowest in an optical fibre and why? | Violet, because it has the shortest wavelength
+Why does violet light take longer to travel down a fibre? | It undergoes more reflections due to smaller angles of incidence/reflection
+What is modal dispersion? | The spreading of monochromatic light pulses because different parts of the wavefront have different angles of incidence
+What causes modal dispersion? | Different parts of the wavefront undergoing TIR a different number of times
+When is modal dispersion more prominent? | When the core of the fibre is wider
+How can modal dispersion be prevented? | Using a very narrow core
+What is pulse broadening? | When pulses emerging from a fibre are longer than those entering
+What causes pulse broadening? | Modal and material dispersion
+What problems does pulse broadening cause? | Merging of pulses, distortion of information, decreased signal amplitude
+What is absorption in an optical fibre? | When the fibre absorbs part of the signal's energy
+What effect does absorption have on the signal? | Reduces the amplitude, leading to loss of transmitted information
+How can absorption be reduced in optical fibres? | Use extremely transparent core, use optical fibre repeaters
+How can pulse broadening be reduced? | Use narrow core, monochromatic source, optical fibre repeaters, single-mode fibre
+What is a single-mode fibre? | A fibre where only a single wavelength of light passes through the core
+Why do single-mode fibres reduce dispersion? | They eliminate multipath modal dispersion
+What do optical fibre repeaters do? | Regenerate the pulse before significant absorption or broadening occurs
+In a step-index fibre, which has the higher refractive index — core or cladding? | Core
+Why is monochromatic light used in optical fibres? | To keep pulse speed constant and reduce material dispersion
+At what angle does light refract when the angle of incidence equals the critical angle? | 90° (along the boundary)
+How can critical angle be calculated from angles of incidence and refraction? | sin θc = n₂/n₁ = sin θ₁/sin θ₂
+In refraction problems, if given the angle between ray and boundary, how do you find the angle of incidence? | Calculate 90° minus the given angle
+What analogy helps understand refraction? | A car driving from road onto mud — one wheel slows first, causing the car to turn
+Why should you check that calculated refractive index is greater than 1? | Values less than 1 indicate an error in calculation

@@ -1,0 +1,219 @@
+What are the three constituents of an atom? | Protons, neutrons, and electrons
+What is found at the centre of an atom? | A nucleus formed of protons and neutrons
+Where are electrons located in an atom? | Orbiting the nucleus in shells
+What are protons and neutrons collectively called? | Nucleons
+What is the charge of a proton in coulombs? | +1.6 × 10⁻¹⁹ C
+What is the relative charge of a proton? | +1
+What is the mass of a proton in kg? | 1.67 × 10⁻²⁷ kg
+What is the relative mass of a proton? | 1
+What is the specific charge of a proton? | 9.58 × 10⁷ C kg⁻¹
+What is the charge of a neutron? | 0 (no charge)
+What is the mass of a neutron in kg? | 1.67 × 10⁻²⁷ kg
+What is the relative mass of a neutron? | 1
+What is the specific charge of a neutron? | 0
+What is the charge of an electron in coulombs? | -1.6 × 10⁻¹⁹ C
+What is the relative charge of an electron? | -1
+What is the mass of an electron in kg? | 9.11 × 10⁻³¹ kg
+What is the relative mass of an electron? | 0.0005
+What is the specific charge of an electron? | 1.76 × 10¹¹ C kg⁻¹
+What is specific charge? | The charge-mass ratio of a particle, calculated by dividing charge by mass
+The charge-mass ratio of a particle — what is this called? | Specific charge
+What is the formula for specific charge? | Specific charge = Charge / Mass
+What is the proton number (Z)? | The number of protons present in the nucleus of a given element
+The number of protons in a nucleus — what is this called? | Proton number (Z)
+What is the nucleon number (A)? | The sum of the number of protons and neutrons in a given nucleus
+The total number of protons and neutrons in a nucleus — what is this called? | Nucleon number (A)
+What is a nucleon? | A proton or neutron
+A proton or neutron — what general term describes this? | Nucleon
+What is an isotope? | Atoms with the same number of protons but different numbers of neutrons
+Atoms with the same proton number but different nucleon numbers — what are these called? | Isotopes
+What is isotopic data? | Data from isotopes that can be used for a purpose, such as carbon dating
+How does carbon dating work? | By calculating the percentage of carbon-14 remaining in organic material and using its known starting value and half-life to calculate an approximate age
+What is the strong nuclear force (SNF)? | A force that acts between nucleons in a nucleus to keep it stable
+What does the strong nuclear force counteract? | The electrostatic force of repulsion between protons in the nucleus
+At what range is the strong nuclear force attractive? | Up to separations of 3 fm
+At what range is the strong nuclear force repulsive? | Below separations of 0.5 fm
+What particles does the strong nuclear force act on? | Nucleons only
+Why do unstable nuclei decay? | They have too many protons, neutrons, or both, causing the SNF to not be enough to keep them stable
+What is alpha decay? | The process of an unstable nucleus emitting an alpha particle (two protons and two neutrons) to become more stable
+An unstable nucleus emitting two protons and two neutrons — what process is this? | Alpha decay
+What type of nuclei undergo alpha decay? | Large nuclei with too many of both protons and neutrons
+In alpha decay, what happens to the proton number? | Decreases by 2
+In alpha decay, what happens to the nucleon number? | Decreases by 4
+What is an alpha particle? | Two protons and two neutrons (a helium nucleus)
+What is beta-minus decay? | The process of a neutron inside a nucleus turning into a proton, emitting an electron and an antineutrino
+A neutron converting to a proton while emitting an electron and antineutrino — what process is this? | Beta-minus decay
+What type of nuclei undergo beta-minus decay? | Neutron-rich nuclei (too many neutrons)
+In beta-minus decay, what happens to the proton number? | Increases by 1
+In beta-minus decay, what happens to the nucleon number? | Stays the same
+What particles are emitted in beta-minus decay? | A beta-minus particle (electron) and an electron antineutrino
+What is beta-plus decay? | The process of a proton inside a nucleus turning into a neutron, emitting a positron and a neutrino
+A proton converting to a neutron while emitting a positron and neutrino — what process is this? | Beta-plus decay
+What particles are emitted in beta-plus decay? | A beta-plus particle (positron) and an electron neutrino
+Why were neutrinos hypothesised to exist? | To maintain conservation of energy in beta decay, as observations showed energy was not conserved if only the electron was emitted
+What is an antiparticle? | A particle with the same mass and rest energy as its corresponding particle, but with opposite charge and conservation numbers
+What are the key differences between a particle and its antiparticle? | Same mass and rest energy, but opposite charge and conservation numbers
+What is the antiparticle of the electron? | The positron
+What is a positron? | A positively charged particle that is the antiparticle of an electron
+The antiparticle of an electron — what is this called? | Positron
+What is the antiparticle of an electron neutrino? | An electron antineutrino
+What is the mass of an electron in kg? | 9.11 × 10⁻³¹ kg
+What is the rest energy of an electron in MeV? | 0.511 MeV
+What is the rest energy of a positron in MeV? | 0.511 MeV
+What is the rest energy of an electron neutrino? | 0
+What is a photon? | A packet of electromagnetic energy with no mass
+Electromagnetic radiation travelling in discrete packets — what are these packets called? | Photons
+What is the equation for photon energy in terms of frequency? | E = hf
+What is the equation for photon energy in terms of wavelength? | E = hc/λ
+What is the value of Planck's constant? | 6.63 × 10⁻³⁴ J s
+What is annihilation? | The process of a particle and its antiparticle colliding and being converted into energy, released as two photons
+A particle and antiparticle colliding and converting to energy — what process is this? | Annihilation
+Why are two photons produced in annihilation? | To conserve momentum
+What is an application of annihilation in medicine? | PET scanners, which use positron-emitting radioisotopes to produce gamma photons for imaging
+What is pair production? | The process of a sufficiently high-energy photon converting into a particle and its corresponding antiparticle
+A high-energy photon converting into a particle-antiparticle pair — what process is this? | Pair production
+What is the minimum photon energy required for pair production? | Greater than the total rest energy of both particles produced
+Where does pair production usually occur? | Near a nucleus, to conserve momentum
+What happens to excess photon energy in pair production? | It is converted into kinetic energy of the particles
+What are the four fundamental forces? | Gravity, electromagnetic, weak nuclear, and strong nuclear
+What causes forces between particles? | Exchange particles
+What do exchange particles carry between particles? | Energy and momentum
+What is the exchange particle for the strong interaction? | Gluon
+What is the range of the strong interaction? | 3 × 10⁻¹⁵ m
+What particles does the strong interaction act on? | Hadrons
+What are the exchange particles for the weak interaction? | W bosons (W⁺ or W⁻)
+What is the range of the weak interaction? | 10⁻¹⁸ m
+What particles does the weak interaction act on? | All particles
+What is the exchange particle for the electromagnetic interaction? | Virtual photon (γ)
+What is the range of the electromagnetic interaction? | Infinite
+What particles does the electromagnetic interaction act on? | Charged particles
+What is the range of gravity? | Infinite
+What particles does gravity act on? | Particles with mass
+What is a gauge boson? | An exchange particle that transmits one of the four fundamental interactions between particles
+Exchange particles that transmit fundamental forces — what are these called? | Gauge bosons
+What interactions is the weak nuclear force responsible for? | Beta decay, electron capture, and electron-proton collisions
+In electron capture, what happens? | A proton absorbs an electron to become a neutron, emitting a neutrino
+What is the equation for electron capture? | p + e⁻ → n + νₑ
+What is the equation for beta-minus decay? | n → p + e⁻ + ν̄ₑ
+What is the equation for beta-plus decay? | p → n + e⁺ + νₑ
+What are the two main classes of particles? | Hadrons and leptons
+What distinguishes leptons from hadrons? | Leptons are fundamental particles that do not experience the strong nuclear force; hadrons are made of quarks and do experience the strong force
+What is a hadron? | A class of subatomic particle that experiences the strong nuclear interaction, made of quarks
+A particle that experiences the strong force and is made of quarks — what type of particle is this? | Hadron
+What is a lepton? | A group of elementary subatomic particles that are fundamental and do not experience the strong nuclear force
+Fundamental particles that don't experience the strong force — what type of particle are these? | Leptons
+Give examples of leptons | Electrons, muons, and neutrinos (and their antiparticles)
+What are the two subcategories of hadrons? | Baryons and mesons
+What is a baryon? | A class of hadron made up of three quarks
+A hadron made of three quarks — what type of particle is this? | Baryon
+What is an antibaryon? | A hadron made of three antiquarks
+What is a meson? | A class of hadron made up of a quark and antiquark pair
+A hadron made of a quark and antiquark — what type of particle is this? | Meson
+What is the only stable baryon? | The proton
+Why is the proton the only stable baryon? | All other baryons eventually decay into protons either directly or indirectly
+What is baryon number? | A quantum number that is conserved in all particle interactions
+What is the baryon number of a baryon? | +1
+What is the baryon number of an antibaryon? | -1
+What is the baryon number of a non-baryon (meson or lepton)? | 0
+Is baryon number conserved in particle interactions? | Yes, always
+What is lepton number? | A quantum number that is conserved in all particle interactions
+What are the two types of lepton number? | Electron lepton number and muon lepton number
+What is the lepton number of a lepton? | +1
+What is the lepton number of an antilepton? | -1
+What is the lepton number of a non-lepton? | 0
+Is lepton number conserved in particle interactions? | Yes, both electron and muon lepton numbers must be conserved
+What is a muon? | A type of lepton that is heavier than an electron and decays into electrons
+A lepton sometimes called a "heavy electron" — what is this? | Muon
+What do muons decay into? | Electrons
+What are strange particles? | Particles that are produced through the strong interaction but decay through the weak interaction
+Particles produced by strong interaction but decaying via weak interaction — what are these called? | Strange particles
+What is strangeness? | A quantum number that is conserved in strong interactions but not in weak interactions
+A quantum number conserved in strong but not weak interactions — what is this called? | Strangeness
+Why must strange particles be produced in pairs? | Because strangeness must be conserved in strong interactions
+How can strangeness change in weak interactions? | By 0, +1, or -1
+What is a kaon? | A type of strange meson that decays into pions
+What do kaons decay into? | Pions
+What is a pion? | A type of meson and the exchange particle for the strong nuclear force
+The exchange particle for the strong nuclear force between nucleons — what is this? | Pion
+What are quarks? | Fundamental particles that make up hadrons
+What are the three types of quark you need to know? | Up (u), down (d), and strange (s)
+What is the charge of an up quark? | +⅔e
+What is the charge of a down quark? | -⅓e
+What is the charge of a strange quark? | -⅓e
+What is the baryon number of any quark? | +⅓
+What is the strangeness of an up quark? | 0
+What is the strangeness of a down quark? | 0
+What is the strangeness of a strange quark? | -1
+How do antiquark properties compare to quark properties? | Antiquarks have opposite sign for charge, baryon number, and strangeness
+What is the quark composition of a proton? | uud (up, up, down)
+What is the quark composition of a neutron? | udd (up, down, down)
+What is the quark composition of a π⁺ pion? | ud̄ (up, anti-down)
+What is the quark composition of a π⁻ pion? | ūd (anti-up, down)
+What is the quark composition of a π⁰ pion? | uū or dd̄
+What is the quark composition of a K⁺ kaon? | us̄ (up, anti-strange)
+What is the quark composition of a K⁻ kaon? | ūs (anti-up, strange)
+What is the quark composition of a K⁰ kaon? | ds̄ or d̄s
+What is the strangeness of a K⁺ kaon? | +1
+What is the strangeness of a K⁻ kaon? | -1
+What is the strangeness of a K⁰ kaon? | ±1
+What properties must always be conserved in particle interactions? | Energy and momentum, charge, baryon number, electron lepton number, muon lepton number
+When must strangeness be conserved? | Only in strong interactions
+In beta-minus decay, what quark change occurs? | A down quark changes into an up quark
+In beta-plus decay, what quark change occurs? | An up quark changes into a down quark
+Why are beta decay processes caused by the weak interaction? | Because there is a change of quark type
+What is the photoelectric effect? | The emission of photoelectrons from a metal surface when light above a certain frequency is shone on it
+Emission of electrons from a metal surface due to incident light — what effect is this? | The photoelectric effect
+What is the threshold frequency? | The minimum frequency of photons required for photoelectrons to be emitted from a metal surface
+The minimum frequency needed to cause photoelectric emission — what is this called? | Threshold frequency
+How is threshold frequency related to work function? | Threshold frequency equals work function divided by Planck's constant (f₀ = φ/h)
+Why couldn't wave theory explain the threshold frequency? | Wave theory suggested any frequency should eventually cause emission as energy would gradually accumulate
+What did the photon model explain about the photoelectric effect? | That EM waves travel in discrete packets (photons) with energy proportional to frequency, and each electron absorbs a single photon
+What happens if light intensity increases above threshold frequency? | More photoelectrons are emitted per second
+What is the work function (φ)? | The minimum energy required to remove an electron from a metal's surface
+The minimum energy needed to release an electron from a metal surface — what is this called? | Work function
+What is the photoelectric equation? | E = hf = φ + Eₖ(max)
+What is stopping potential? | The minimum potential difference required to stop the highest kinetic energy photoelectrons
+The potential difference needed to stop the most energetic photoelectrons — what is this called? | Stopping potential
+How do you calculate maximum kinetic energy from stopping potential? | Eₖ(max) = eVₛ (charge × stopping potential)
+What are energy levels? | Defined and distinct energies at which electrons can exist in an atom
+Can an electron exist between energy levels? | No
+What is the ground state? | The most stable (lowest) energy level that an electron can exist in
+The lowest energy level an electron can occupy — what is this called? | Ground state
+What is excitation? | The process of an electron absorbing exactly the right amount of energy to move to a higher energy level
+An electron absorbing energy to move to a higher energy level — what process is this? | Excitation
+What is ionisation? | The process of an atom losing an orbital electron and becoming charged
+An atom losing an electron and becoming charged — what process is this? | Ionisation
+When does ionisation occur? | When a free electron has energy greater than the ionisation energy
+What happens when an excited electron returns to its ground state? | It releases the energy it gained in the form of a photon
+What is electron diffraction? | The spreading of electrons as they pass through a gap similar to the magnitude of their de Broglie wavelength
+Electrons spreading as they pass through a small gap — what phenomenon is this? | Electron diffraction
+Why is electron diffraction significant? | It provides evidence of the wave-like properties of particles
+What is an electron volt (eV)? | The work done to accelerate an electron through a potential difference of 1V
+The energy gained by an electron accelerated through 1V — what unit is this? | Electron volt (eV)
+What is 1 eV equal to in joules? | 1.6 × 10⁻¹⁹ J
+How do you convert eV to joules? | Multiply by 1.6 × 10⁻¹⁹
+How do you convert joules to eV? | Divide by 1.6 × 10⁻¹⁹
+How does a fluorescent tube work? | High voltage accelerates electrons through mercury vapour, exciting atoms which emit UV photons; these are absorbed by the fluorescent coating which re-emits visible light
+What does the fluorescent coating in a tube do? | Absorbs UV photons and emits visible light photons through excitation and de-excitation
+What is a line spectrum? | A spectrum containing only discrete wavelengths of light, appearing as separate lines
+What does a line spectrum provide evidence for? | That electrons can only transition between discrete energy levels
+What is a line absorption spectrum? | A continuous spectrum with black lines at certain wavelengths where specific photon energies have been absorbed
+What do the black lines in an absorption spectrum represent? | Wavelengths corresponding to photon energies equal to differences between energy levels
+What is the equation relating energy level difference to photon frequency? | hf = E₁ - E₂
+What is wave-particle duality? | The property of matter and light having both wave and particle characteristics
+Examples of light showing wave properties? | Diffraction and interference
+Example of light showing particle properties? | The photoelectric effect
+What evidence shows electrons have wave properties? | Electron diffraction
+What is the de Broglie wavelength equation? | λ = h/mv (wavelength = Planck's constant / momentum)
+Who hypothesised that particles have wave-like properties? | De Broglie
+What happens to de Broglie wavelength when momentum increases? | Wavelength decreases
+What happens to the electron diffraction pattern when momentum increases? | The concentric rings become closer together (less diffraction)
+What happens to the electron diffraction pattern when momentum decreases? | The concentric rings move further apart (more diffraction)
+Why do particle accelerators require international collaboration? | They are very expensive to build and run, and produce huge amounts of data
+How is scientific knowledge validated? | Through peer review by the scientific community
+What is the equation for neutron decay? | n → p + e⁻ + ν̄ₑ
+What exchange particle is involved in beta-minus decay? | W⁻ boson
+What exchange particle is involved in beta-plus decay? | W⁺ boson
+What exchange particle is involved in electron capture? | W⁺ boson (different from electron-proton collision which uses W⁻)
+In PET scanning, what produces the gamma photons detected? | Annihilation of positrons (from radioisotope) with electrons in the patient
+What is the minimum photon energy for electron-positron pair production? | 2 × 0.511 MeV = 1.022 MeV (twice the rest energy of an electron)

@@ -1,0 +1,87 @@
+What are stationary waves also called? | Standing waves
+How are stationary waves formed? | By the superposition of two waves of the same frequency and amplitude travelling in opposite directions
+The superposition of two waves travelling in opposite directions with the same frequency and amplitude produces what? | A stationary wave
+How is a stationary wave usually achieved in practice? | By a travelling wave and its reflection
+What happens to the peaks and troughs in a stationary wave pattern? | They do not move
+In a progressive wave, what can be said about the amplitude of all points? | All points have the same amplitude (in turn)
+In a stationary wave, what can be said about the amplitude of different points? | Each point has a different amplitude depending on the amount of superposition
+In a progressive wave, what is the phase relationship between points exactly one wavelength apart? | They are in phase
+In a stationary wave, what is the phase relationship between points between adjacent nodes? | They are in phase
+In a stationary wave, what is the phase relationship between points on either side of a node? | They are out of phase (antiphase)
+How does energy behave in a progressive wave? | Energy is transferred along the wave
+How does energy behave in a stationary wave? | Energy is stored, not transferred
+Do progressive waves have nodes and antinodes? | No
+Do stationary waves have nodes and antinodes? | Yes
+In a progressive wave, what does wave speed represent? | The speed at which the wave moves through a medium
+In a stationary wave, does the overall wave pattern move? | No, the overall wave does not move
+What are nodes on a stationary wave? | Regions where there is no vibration
+Regions on a stationary wave where there is no vibration are called what? | Nodes
+What are antinodes on a stationary wave? | Regions where the vibrations are at their maximum amplitude
+Regions on a stationary wave where vibrations are at maximum amplitude are called what? | Antinodes
+Do nodes and antinodes move along the string in a stationary wave? | No, nodes are fixed and antinodes only move in the vertical direction
+What are the only two possible phase differences between two points on a stationary wave? | In phase or out of phase (antiphase)
+When are two points on a stationary wave in phase with each other? | When they are between nodes (no nodes between them) or have an even number of nodes between them
+When are two points on a stationary wave out of phase? | When they have an odd number of nodes between them
+What does the principle of superposition state? | The resultant displacement at any point is the sum of the displacements of each wave
+The resultant displacement at any point equals the sum of individual wave displacements — what principle is this? | The principle of superposition
+What two types of interference can waves in superposition undergo? | Constructive and destructive interference
+What conditions are required for two waves to form a stationary wave? | Same frequency, same amplitude, travelling in opposite directions along the same line
+What type of interference occurs at nodes? | Destructive interference
+What type of interference occurs at antinodes? | Constructive interference
+Why does destructive interference occur at nodes? | The waves are in anti-phase, causing them to cancel each other out
+Why does constructive interference occur at antinodes? | The waves are in phase
+What is the resultant amplitude at an antinode compared to the individual wave amplitudes? | Double the amplitude
+In a stationary wave, does each point have the same amplitude? | No, each point has a different amplitude
+In a progressive wave, does each point have the same amplitude? | Yes
+What produces sound from a stretched string with stationary waves? | Vibrations caused by the stationary waves
+At what frequencies do stationary waves form on a stretched string? | At specific frequencies where a whole number of wavelengths fit on the length of the string
+How can stationary microwaves be demonstrated? | Using a microwave source, reflecting plate, and small detector between them
+How can stationary sound waves in an air column be demonstrated? | By placing fine powder inside an air column with a loudspeaker at the open end
+In the air column demonstration, where does the powder settle? | At positions of zero disturbance (nodes)
+In the air column demonstration, where is the node located? | At the closed end
+In the air column demonstration, where is the antinode located? | At the open end (where the loudspeaker is)
+What determines the characteristic wavelengths and frequencies of stationary waves? | The frequency of vibration and the boundary conditions
+What is the first harmonic also called? | The fundamental frequency
+The fundamental frequency is another name for which harmonic? | The first harmonic
+How many nodes does the first harmonic have? | Two nodes
+How many antinodes does the first harmonic have? | One antinode
+What is the wavelength of the first harmonic on a string of length L? | 2L
+What is the formula for the frequency of the first harmonic? | f₁ = v/2L
+How many nodes does the second harmonic have? | Three nodes
+How many antinodes does the second harmonic have? | Two antinodes
+What is the wavelength of the second harmonic on a string of length L? | L
+What is the frequency of the second harmonic in terms of the first harmonic? | f₂ = 2f₁
+How many nodes does the third harmonic have? | Four nodes
+How many antinodes does the third harmonic have? | Three antinodes
+What is the wavelength of the third harmonic on a string of length L? | 2L/3
+What is the frequency of the third harmonic in terms of the first harmonic? | f₃ = 3f₁
+For the nth harmonic, how many nodes are there? | n + 1 nodes
+For the nth harmonic, how many antinodes are there? | n antinodes
+What is the wavelength of the nth harmonic on a string of length L? | 2L/n
+What is the frequency of the nth harmonic in terms of the first harmonic? | fₙ = nf₁
+What is the formula for wave speed on a string? | v = √(T/μ)
+In the wave speed equation v = √(T/μ), what does T represent? | Tension in the string (N)
+In the wave speed equation v = √(T/μ), what does μ represent? | Mass per unit length (kg m⁻¹)
+What is the formula for the first harmonic frequency in terms of tension and mass per unit length? | f = (1/2L)√(T/μ)
+How does increasing tension affect wave speed on a string? | Wave speed increases (v ∝ √T)
+How does increasing mass per unit length affect wave speed on a string? | Wave speed decreases (v ∝ 1/√μ)
+In the required practical for stationary waves, what is the dependent variable? | Frequency of the first harmonic
+What three independent variables can be investigated in the stationary waves practical? | Length of string, tension in the string, mass per unit length
+What is the purpose of the signal generator in the stationary waves practical? | To operate the vibration generator and measure the frequency of the first harmonic
+What is the purpose of the pulley in the stationary waves practical? | To allow masses to hang vertically with less friction than the table edge
+What is the purpose of the wooden bridge in the stationary waves practical? | To provide a fixed end and allow variation of string length
+How is tension calculated in the stationary waves practical? | T = mg, where m is the mass attached and g is gravitational field strength
+When plotting results to find wave speed, what should be plotted on the axes? | f (frequency) against 1/L
+What does the gradient represent when plotting f against 1/L? | (1/2)√(T/μ)
+How can an oscilloscope improve the stationary waves experiment? | It can verify the signal generator's readings
+Why should the signal generator be left for about 20 minutes before measurements? | To allow it to stabilise
+Why should the length of string be as large as possible in the experiment? | To achieve greater resolution in measurements
+What is the biggest problem in deciding when the first harmonic is achieved? | The sharpness of resonance
+What technique helps find the first harmonic more accurately? | Reduce frequency then gradually increase until first harmonic is observed, then increase past it and gradually reduce back, then average the readings
+Why is looking at amplitude less reliable for identifying the first harmonic? | Because the wave will be moving
+What is the main safety precaution in the stationary waves practical? | Stand well away from the masses in case they fall onto the floor
+What stabilises the apparatus in the stationary waves practical? | A G clamp or 2 kg mass placed on the retort stand
+What length of string is typically used in the stationary waves practical? | 2.0 m
+What is the relationship between frequency and length for the first harmonic? | f ∝ 1/L (frequency is inversely proportional to length)
+What is the relationship between frequency and tension for the first harmonic? | f ∝ √T (frequency is proportional to square root of tension)
+What is the relationship between frequency and mass per unit length for the first harmonic? | f ∝ 1/√μ (frequency is inversely proportional to square root of mass per unit length)

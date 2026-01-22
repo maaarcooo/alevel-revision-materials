@@ -1,0 +1,84 @@
+What are the four fundamental interactions (forces)? | Gravity, Electromagnetism, Strong Nuclear, Weak Nuclear
+Which fundamental force is the weakest? | Gravity
+Which fundamental force is the strongest? | Strong nuclear force (strong interaction)
+What is the range of the electromagnetic interaction? | Infinite
+What is the range of the gravitational interaction? | Infinite
+What is the range of the weak force? | Up to 10⁻¹⁸ m
+What is the range of the strong force? | Approximately 10⁻¹⁵ m
+Which particles does the gravitational interaction affect? | Particles with mass
+Which particles does the electromagnetic interaction affect? | Particles with charge
+Which particles does the weak interaction affect? | All particles
+Which particles does the strong interaction affect? | Hadrons only
+What are exchange particles? | Virtual particles that carry the fundamental force between interacting particles
+Exchange particles are also known as what? | Gauge bosons
+What is the exchange particle for the strong interaction? | Pion (π⁺, π⁻, π⁰)
+What is the exchange particle for the weak interaction? | W-boson (W⁺, W⁻) or Z-boson (Z⁰)
+What is the exchange particle for the electromagnetic interaction? | Photon (γ)
+What is the theorised exchange particle for gravity? | Graviton (not yet discovered)
+What is a virtual photon? | The exchange particle that carries the electromagnetic force between charged particles
+State three properties of the photon | No mass, no charge, is its own antiparticle
+The photon is its own what? | Antiparticle
+Why does gravity not play a part in particle interactions? | It is so weak that it only has a noticeable effect on large masses
+What is the exchange particle between nucleons in the strong interaction? | Pion
+What is the exchange particle between quarks in the strong interaction? | Gluon
+Why can leptons not interact with the strong force? | Because they are not made up of quarks
+What is responsible for binding electrons to atoms? | The electromagnetic force (attraction between negative electrons and positive nucleus)
+What is the weak interaction responsible for? | The radioactive decay of atoms
+What is the exchange particle in β⁻ decay? | W⁻ boson
+What is the exchange particle in β⁺ decay? | W⁺ boson
+In β⁻ decay, what does a neutron turn into? | A proton, emitting an electron and an anti-electron neutrino
+Write the equation for β⁻ decay | n → p + e⁻ + v̄ₑ
+In β⁺ decay, what does a proton turn into? | A neutron, emitting a positron and an electron neutrino
+Write the equation for β⁺ decay | p → n + e⁺ + vₑ
+What is electron capture? | When an atomic electron is absorbed by a proton in the nucleus, producing a neutron and electron neutrino
+Write the equation for electron capture | p + e⁻ → n + vₑ
+What is the exchange particle in electron capture? | W⁺ boson
+In electron capture, which particle acts on which? | The proton acts on the electron
+What is the exchange particle in electron-proton collisions? | W⁻ boson
+In electron-proton collisions, which particle acts on which? | The electron acts on the proton
+What do Feynman diagrams represent? | Particle interactions and decays, showing exchange particles involved
+On a Feynman diagram, what does the y-axis represent? | Time
+On a Feynman diagram, what does the x-axis represent? | Space
+What is a vertex on a Feynman diagram? | Where particles and exchange particles meet, representing points of interaction
+On a Feynman diagram, where do incoming particles start? | At the bottom
+On a Feynman diagram, where do outgoing particles end? | At the top
+How are particles represented on Feynman diagrams? | Straight lines with arrows (pointing forward in time)
+How are exchange particles represented on Feynman diagrams? | Wavy lines without arrows
+On a Feynman diagram, which side are hadrons/quarks shown? | On the left
+On a Feynman diagram, which side are leptons shown? | On the right
+What must be conserved at each vertex in a Feynman diagram? | Charge, baryon number, and lepton number
+Can lines cross over on a Feynman diagram? | No
+In β⁻ decay, which quark changes to which? | A down quark changes to an up quark
+In β⁺ decay, which quark changes to which? | An up quark changes to a down quark
+What does the W⁻ boson 'carry away' in β⁻ decay? | The negative charge of the down quark
+What does the W⁺ boson 'carry away' in β⁺ decay? | The positive charge of the up quark
+What quantities must be conserved in all particle interactions? | Charge (Q), Baryon number (B), Lepton number (L), Strangeness (S), Energy, Momentum
+Which quantity does NOT need to be conserved in weak interactions? | Strangeness
+In weak interactions, strangeness can change by what values? | 0, +1, or −1
+What are quantum numbers? | Discrete values such as Q, B, L, and S that can only take values like 0, +1, −1, or ½
+How do you determine if a particle interaction can occur? | Check whether each quantum number is equal on both sides of the equation
+If any quantum number (except strangeness in weak interactions) is not conserved, what happens? | The interaction cannot occur
+A neutron decays into a proton — what type of decay is this? | β⁻ decay
+A proton decays into a neutron — what type of decay is this? | β⁺ decay
+Which boson sign matches which beta decay? | W⁻ for β⁻ decay, W⁺ for β⁺ decay
+What type of force holds nucleons together in the nucleus? | Strong nuclear force
+What type of interaction occurs between two charged particles? | Electromagnetic interaction
+When two electrons repel each other, what is exchanged? | A virtual photon
+What enables one particle to "know" that another particle is there? | Exchange (virtual) particles
+Which particles are composed of quarks? | Hadrons
+What must happen for a down quark to become an up quark? | The weak interaction via a W⁻ boson
+What must happen for an up quark to become a down quark? | The weak interaction via a W⁺ boson
+The quark composition of a neutron is udd — what is the total charge? | 0 (calculated as +2/3 − 1/3 − 1/3 = 0)
+The quark composition of a proton is uud — what is the total charge? | +1 (calculated as +2/3 + 2/3 − 1/3 = +1)
+What is the baryon number of a proton? | +1
+What is the baryon number of a neutron? | +1
+What is the lepton number of an electron? | +1
+What is the lepton number of an anti-electron neutrino? | −1
+What is the lepton number of a positron? | −1
+What is the lepton number of an electron neutrino? | +1
+What is the baryon number of an electron? | 0
+What is the strangeness of a particle containing one strange quark? | −1
+If strangeness changes from +1 to 0 in an interaction, what type of interaction is it? | Weak interaction
+In electron-proton collisions, what particles are produced? | A neutron and an electron neutrino
+What is the direction of W boson exchange in electron capture shown by? | An arrow above the wavy line indicating left to right (from proton to electron)
+What is the direction of W boson exchange in electron-proton collision shown by? | An arrow above the wavy line indicating right to left (from electron to proton)

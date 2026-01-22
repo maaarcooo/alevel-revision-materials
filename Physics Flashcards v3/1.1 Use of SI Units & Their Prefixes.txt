@@ -1,0 +1,95 @@
+What does SI stand for in SI units? | Système International (International System of Units)
+How many SI base units are there in total? | Seven
+How many SI base units are required for the AQA A-Level Physics course? | Six
+What is the SI base unit for mass? | Kilogram (kg)
+What is the SI base unit for length? | Metre (m)
+What is the SI base unit for time? | Second (s)
+What is the SI base unit for electric current? | Ampere (A)
+What is the SI base unit for temperature? | Kelvin (K)
+What is the SI base unit for amount of substance? | Mole (mol)
+The kilogram (kg) is the SI base unit for which quantity? | Mass
+The metre (m) is the SI base unit for which quantity? | Length
+The second (s) is the SI base unit for which quantity? | Time
+The ampere (A) is the SI base unit for which quantity? | Electric current
+The kelvin (K) is the SI base unit for which quantity? | Temperature
+The mole (mol) is the SI base unit for which quantity? | Amount of substance
+What are derived units? | Units derived from the seven SI base units
+How do you deduce the base units of a derived unit? | Use the definition of the quantity
+What equation defines the Newton (N)? | Force = mass × acceleration
+What is the Newton (N) in SI base units? | kg m s⁻²
+What equation defines the Joule (J)? | Energy = ½ × mass × velocity²
+What is the Joule (J) in SI base units? | kg m² s⁻²
+What equation defines the Pascal (Pa)? | Pressure = force ÷ area
+What is the Pascal (Pa) in SI base units? | kg m⁻¹ s⁻²
+What is the prefix for 10¹²? | Tera (T)
+What is the prefix for 10⁹? | Giga (G)
+What is the prefix for 10⁶? | Mega (M)
+What is the prefix for 10³? | Kilo (k)
+What is the prefix for 10⁻²? | Centi (c)
+What is the prefix for 10⁻³? | Milli (m)
+What is the prefix for 10⁻⁶? | Micro (μ)
+What is the prefix for 10⁻⁹? | Nano (n)
+What is the prefix for 10⁻¹²? | Pico (p)
+What is the prefix for 10⁻¹⁵? | Femto (f)
+What power of ten does tera (T) represent? | 10¹²
+What power of ten does giga (G) represent? | 10⁹
+What power of ten does mega (M) represent? | 10⁶
+What power of ten does kilo (k) represent? | 10³
+What power of ten does centi (c) represent? | 10⁻²
+What power of ten does milli (m) represent? | 10⁻³
+What power of ten does micro (μ) represent? | 10⁻⁶
+What power of ten does nano (n) represent? | 10⁻⁹
+What power of ten does pico (p) represent? | 10⁻¹²
+What power of ten does femto (f) represent? | 10⁻¹⁵
+What is the abbreviation for tera? | T
+What is the abbreviation for giga? | G
+What is the abbreviation for mega? | M
+What is the abbreviation for kilo? | k
+What is the abbreviation for centi? | c
+What is the abbreviation for milli? | m
+What is the abbreviation for micro? | μ
+What is the abbreviation for nano? | n
+What is the abbreviation for pico? | p
+What is the abbreviation for femto? | f
+Express 5 kN in standard form | 5 × 10³ N
+Express 7 nC in standard form | 7 × 10⁻⁹ C
+What is an electronvolt (eV) derived from? | The equation work done W = qV
+What is the value of 1 eV in joules? | 1.6 × 10⁻¹⁹ J
+How do you convert from joules to electronvolts? | Divide by 1.6 × 10⁻¹⁹
+How do you convert from electronvolts to joules? | Multiply by 1.6 × 10⁻¹⁹
+What is 1 kW h equal to in joules? | 3.6 × 10⁶ J (3.6 MJ)
+How do you convert from joules to kilowatt-hours? | Divide by 3.6 × 10⁶
+How do you convert from kilowatt-hours to joules? | Multiply by 3.6 × 10⁶
+Why does 1 kW h = 3600 kW s? | Because 1 hour = 3600 seconds
+Why does 3600 kW s = 3,600,000 W s? | Because 1 kW = 1000 W
+What is the ionisation energy of hydrogen in eV? | 13.6 eV
+What is the ionisation energy of hydrogen in joules? | 2.176 × 10⁻¹⁸ J
+What is an order of magnitude? | A number expressed as a power of 10
+What is the order of magnitude of 3 × 10⁸? | 10⁸
+What is the order of magnitude of 6 × 10⁸? | 10⁹ (rounded up)
+If a quantity is one order of magnitude larger than another, how many times larger is it? | About 10 times larger
+If a quantity is two orders of magnitude larger than another, how many times larger is it? | About 100 times larger (10²)
+What is the approximate diameter of an atom? | 10⁻¹⁰ m
+What is the approximate width of a galaxy? | 10²¹ m
+What is the approximate distance to the edge of the observable universe? | 4.40 × 10²⁶ m (order of magnitude 10²⁶)
+What is the approximate distance from Earth to Neptune? | 4.5 × 10¹² m (order of magnitude 10¹²)
+What is the approximate distance from London to Cape Town? | 9.7 × 10⁶ m (order of magnitude 10⁷)
+What is the approximate height of an adult human? | 1.7 m (order of magnitude 10⁰)
+What is the approximate length of an ant? | 9 × 10⁻⁴ m (order of magnitude 10⁻³)
+What is the approximate length of a bacterium? | 2 × 10⁻⁶ m (order of magnitude 10⁻⁶)
+What is the approximate wavelength of UV light? | 10 nm
+What is the approximate distance between Earth and the Sun (1 AU)? | 1.5 × 10¹¹ m
+What is the approximate mass of a hydrogen atom? | 10⁻²⁷ kg
+What is the approximate mass of an adult human? | 70 kg
+What is the approximate mass of a car? | 1000 kg
+How many seconds are there in a day? | 90,000 s (approximately)
+How many seconds are there in a year? | 3 × 10⁷ s
+What is the approximate speed of sound in air? | 300 m s⁻¹
+What is the approximate power of a standard lightbulb? | 60 W
+What is the approximate value of atmospheric pressure? | 1 × 10⁵ Pa
+What is the order of magnitude of the Sun's surface temperature in kelvin? | 10⁴ K (approximately 6000 K)
+What is the order of magnitude of a standard lightbulb's power? | 10² W
+What equation is used to estimate energy for climbing stairs? | E = mgh (gravitational potential energy)
+What is the estimated energy for a 70 kg adult to climb a 3 m staircase? | 2100 J (70 × 10 × 3)
+A quantity with order of magnitude 10⁶ is how many times larger than one with magnitude 10²? | 10,000 times larger (10⁴)
+Why is scientific notation useful in physics? | It allows convenient representation of very large or very small numbers

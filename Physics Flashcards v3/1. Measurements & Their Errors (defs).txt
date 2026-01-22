@@ -1,0 +1,23 @@
+What is accuracy? | A measure of how close a measurement is to the true value
+A measure of how close a measurement is to the true value — what term describes this? | Accuracy
+What is precision? | A measure of how close a measurement is to the mean value
+A measure of how close a measurement is to the mean value — what term describes this? | Precision
+Does precision indicate how close data is to the true value? | No, it only indicates the magnitude of random errors
+What does precision tell us about random errors? | It gives an indication of the magnitude of random errors
+What is a random error? | Unpredictable variation between measurements that leads to a spread of values about the true value
+Unpredictable variation between measurements causing a spread of values about the true value — what type of error is this? | Random error
+How can random error be reduced? | By taking repeat measurements
+What is a systematic error? | An error that causes all readings to differ from the true value by a fixed amount
+An error that causes all readings to differ from the true value by a fixed amount — what type of error is this? | Systematic error
+Can systematic error be corrected by repeat readings? | No, a different technique or apparatus should be used instead
+How can systematic error be corrected? | By using a different technique or apparatus
+What is the key difference between random and systematic error in terms of repeat measurements? | Random error can be reduced by repeats; systematic error cannot
+What does repeatable mean? | The same experimenter can repeat a measurement using the same method and equipment and obtain the same value
+The same experimenter repeating a measurement with the same method and equipment to obtain the same value — what term describes this? | Repeatable
+What does reproducible mean? | An experiment can be repeated by a different experimenter using a different method and different apparatus, and still obtain the same results
+A different experimenter using different method and apparatus obtaining the same results — what term describes this? | Reproducible
+What is the key difference between repeatable and reproducible? | Repeatable: same experimenter, same method, same equipment. Reproducible: different experimenter, different method, different apparatus
+What is resolution? | The smallest change in a quantity that causes a visible change in the reading that a measuring instrument records
+The smallest change in a quantity that causes a visible change in a measuring instrument's reading — what term describes this? | Resolution
+What is uncertainty? | The interval that a value is said to lie within, with a given level of confidence
+The interval within which a value is said to lie, with a given level of confidence — what term describes this? | Uncertainty

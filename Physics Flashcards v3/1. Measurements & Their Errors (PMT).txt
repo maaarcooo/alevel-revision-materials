@@ -1,0 +1,91 @@
+What is accuracy? | A measure of how close a measurement is to the true value
+A measure of how close a measurement is to the true value — what term describes this? | Accuracy
+What is precision? | A measure of how close a measurement is to the mean value, indicating the magnitude of random errors
+A measure of how close a measurement is to the mean value — what term describes this? | Precision
+Does precision indicate how close data is to the true value? | No, precision only indicates the magnitude of random errors, not closeness to the true value
+What is a random error? | Unpredictable variation between measurements that causes a spread of values about the true value
+Unpredictable variation causing a spread of values about the true value — what type of error is this? | Random error
+How can random errors be reduced? | By taking repeat measurements
+What is a systematic error? | An error that causes all readings to differ from the true value by a fixed amount
+An error causing all readings to differ from the true value by a fixed amount — what type of error is this? | Systematic error
+Can systematic errors be corrected by repeat readings? | No, a different technique or apparatus must be used
+What is an example of a random error? | Electronic noise in the circuit of an electrical instrument
+What is an example of a systematic error? | A balance that isn't zeroed correctly (zero error) or reading a scale at a different angle (parallax error)
+What is a zero error? | When a measuring instrument does not read zero when it should, causing systematic error
+What is parallax error? | Error caused by reading a scale at an angle rather than perpendicular to the scale
+What does repeatable mean? | The same experimenter can repeat a measurement using the same method and equipment and obtain the same value
+The same experimenter obtaining the same value with the same method and equipment — what term describes this? | Repeatable
+What does reproducible mean? | An experiment can be repeated by a different experimenter using different methods and apparatus, and still obtain the same results
+Different experimenters obtaining the same results with different methods and apparatus — what term describes this? | Reproducible
+What is resolution? | The smallest change in a quantity that causes a visible change in the reading a measuring instrument records
+The smallest change in a quantity that causes a visible change in reading — what term describes this? | Resolution
+What is uncertainty? | The interval that a value is said to lie within, with a given level of confidence
+The interval a value lies within at a given confidence level — what term describes this? | Uncertainty
+What are the six SI base units and their quantities? | Mass (kg), Length (m), Time (s), Amount of substance (mol), Temperature (K), Electric current (A)
+What is the SI unit for mass? | Kilogram (kg)
+What is the SI unit for length? | Metre (m)
+What is the SI unit for time? | Second (s)
+What is the SI unit for amount of substance? | Mole (mol)
+What is the SI unit for temperature? | Kelvin (K)
+What is the SI unit for electric current? | Ampere (A)
+How can the SI units of a derived quantity be found? | By using the equation and substituting in the base units
+What are the SI base units of force? | kg m s⁻² (from F = ma)
+What are the SI base units of voltage? | kg m² s⁻³ A⁻¹
+What does the prefix Tera (T) represent? | 10¹²
+What does the prefix Giga (G) represent? | 10⁹
+What does the prefix Mega (M) represent? | 10⁶
+What does the prefix kilo (k) represent? | 10³
+What does the prefix centi (c) represent? | 10⁻²
+What does the prefix milli (m) represent? | 10⁻³
+What does the prefix micro (μ) represent? | 10⁻⁶
+What does the prefix nano (n) represent? | 10⁻⁹
+What does the prefix pico (p) represent? | 10⁻¹²
+What does the prefix femto (f) represent? | 10⁻¹⁵
+What is the value of 1 eV in joules? | 1.6 × 10⁻¹⁹ J
+How do you convert MeV to joules? | Multiply by 10⁶ to get eV, then multiply by 1.6 × 10⁻¹⁹
+What is 1 kWh in joules? | 3.6 × 10⁶ J (or 3.6 MJ)
+How do you convert kWh to joules? | Multiply by 3.6 × 10⁶ (since 1 kW = 1000 J/s and 1 hour = 3600 s)
+What type of error affects precision? | Random error
+What type of error affects accuracy? | Systematic error
+State three ways to reduce random errors | Take at least 3 repeats and calculate a mean; use computers/data loggers/cameras; use appropriate equipment with higher resolution
+State three ways to reduce systematic errors | Calibrate apparatus by measuring a known value; correct for background radiation in experiments; read meniscus at eye level to reduce parallax error
+How can you identify systematic error through calibration? | Measure a known value (e.g., 1 kg on a balance) — if the reading is inaccurate, systematic error is present
+How should you read a meniscus to reduce parallax error? | At eye level, looking at the central curve on the surface of the liquid
+What is absolute uncertainty? | Uncertainty given as a fixed quantity (e.g., 7 ± 0.6 V)
+What is fractional uncertainty? | Uncertainty as a fraction of the measurement (e.g., 7 ± 3/35 V)
+What is percentage uncertainty? | Uncertainty as a percentage of the measurement (e.g., 7 ± 8.6% V)
+How do you calculate percentage uncertainty? | (Uncertainty ÷ Value) × 100
+How can you reduce percentage and fractional uncertainty? | By measuring larger quantities
+What is the difference between a reading and a measurement? | A reading finds one value (e.g., thermometer); a measurement finds the difference between two readings (e.g., ruler)
+What is the uncertainty in a single reading? | ± half the smallest division
+What is the uncertainty in a measurement using a ruler? | At least ± 1 smallest division (as both start and end points have uncertainty of ± 0.5 smallest division)
+What is the assumed uncertainty for digital readings if not quoted? | ± the last significant digit
+How is uncertainty calculated for repeated data? | Half the range: mean ± (range/2)
+How can you reduce uncertainty when using a ruler? | Fix one end of the ruler so only one reading's uncertainty is included
+How does measuring multiple instances reduce uncertainty? | The uncertainty is divided by the number of instances measured
+If time for 10 pendulum swings is 6.2 ± 0.1 s, what is the time and uncertainty for 1 swing? | 0.62 ± 0.01 s (both the value and uncertainty are divided by 10)
+How many significant figures should uncertainties be given to? | The same number as the data
+When adding or subtracting data, how do you combine uncertainties? | Add the absolute uncertainties
+When multiplying or dividing data, how do you combine uncertainties? | Add the percentage uncertainties
+When raising to a power, how do you combine uncertainties? | Multiply the percentage uncertainty by the power
+How are uncertainties shown on graphs? | As error bars
+What should a line of best fit do with error bars? | Pass through all error bars (excluding anomalous points)
+How do you find the uncertainty in a gradient from a graph? | Draw lines of best and worst fit; the uncertainty is the difference between the best and worst gradients
+What must a line of worst fit do? | Pass through all the error bars
+How do you calculate percentage uncertainty in the gradient? | (|best gradient − worst gradient| ÷ best gradient) × 100%
+How do you find the uncertainty in the y-intercept? | |best y-intercept − worst y-intercept|
+What alternative method can calculate percentage uncertainty in gradient? | ((max gradient − min gradient) ÷ 2) × 100%
+What are orders of magnitude? | Powers of ten used to describe and compare the sizes of objects
+What is the order of magnitude of nuclear diameters? | 10⁻¹⁴ m
+How many orders of magnitude greater is 100 m than 1 m? | Two orders of magnitude
+How do you give a value to the nearest order of magnitude? | Calculate the value and express it only as a power of ten
+Why do physicists use estimation? | To approximate values, make comparisons, or check if calculated values are reasonable
+If a hydrogen atom diameter is 1.06 × 10⁻¹⁰ m, what is its area to the nearest order of magnitude? | 10⁻²⁰ m² (using A = πr²)
+What is the relationship between precision and random error? | Precise measurements have small random errors, showing little spread about the mean
+Can a measurement be precise but not accurate? | Yes, measurements can cluster tightly (precise) but all be offset from the true value (inaccurate) due to systematic error
+Can a measurement be accurate but not precise? | Yes, the mean could equal the true value while individual measurements are spread widely
+What happens to random errors when you take more repeat measurements? | They tend to cancel out, and the mean becomes more reliable
+Why can't systematic errors be reduced by taking more readings? | Because systematic errors shift all readings by the same fixed amount in the same direction
+What determines the resolution of an instrument? | The smallest division or increment the instrument can detect
+Why is a micrometer better than a ruler for small measurements? | A micrometer has higher resolution (0.1 mm) compared to a ruler (1 mm)
+In radiation experiments, what systematic correction is often needed? | Subtracting background radiation measured beforehand

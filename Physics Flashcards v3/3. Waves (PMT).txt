@@ -1,0 +1,165 @@
+What is amplitude? | A wave's maximum displacement from its equilibrium position
+A wave's maximum displacement from its equilibrium position is called what? | Amplitude
+What are the units of amplitude? | Metres (m)
+What is an antinode? | A position of maximum displacement in a stationary wave
+A position of maximum displacement in a stationary wave is called what? | An antinode
+What is a node? | A position of minimum displacement in a stationary wave
+A position of minimum displacement in a stationary wave is called what? | A node
+What is cladding in optical fibres? | A protective layer that improves tensile strength, prevents scratching, and prevents signal transfer between adjacent fibres
+What are the three functions of cladding on an optical fibre? | Improves tensile strength, prevents scratching, and prevents signal transfer between adjacent fibres
+What is coherence? | When waves have the same wavelength and frequency, with a fixed phase difference between them
+What three conditions must be met for waves to be coherent? | Same wavelength, same frequency, and fixed phase difference
+What is a diffraction grating? | A grating with hundreds of slits per millimetre that produces sharper interference patterns
+What are diffraction gratings used for? | Calculating atomic spacing and analysing elements
+What is diffraction? | The spreading of waves as they pass through a gap of a similar magnitude to their wavelength
+The spreading of waves through a gap is called what? | Diffraction
+When does the greatest diffraction occur? | When the gap is the same size as the wavelength
+What happens when a wave passes through a gap smaller than its wavelength? | Most waves are reflected
+What are electromagnetic waves? | Waves consisting of perpendicular electric and magnetic oscillations
+Waves consisting of perpendicular electric and magnetic oscillations are called what? | Electromagnetic waves
+What is frequency? | The number of waves that pass a point in a unit time period
+The number of waves passing a point per unit time is called what? | Frequency
+What are the units of frequency? | Hertz (Hz)
+What is the relationship between frequency and time period? | Frequency is the inverse of time period (f = 1/T)
+What is fringe spacing? | The distance between two adjacent bright fringes or two adjacent dark fringes
+What is interference? | The superposition of waves that occurs when two waves meet
+When does constructive interference occur? | When waves are in phase
+When does destructive interference occur? | When waves are out of phase
+What is a laser? | A light source that produces a collimated and coherent beam
+A light source producing a collimated and coherent beam is called what? | A laser
+What is a longitudinal wave? | A wave with oscillations parallel to the direction of energy propagation
+A wave with oscillations parallel to the direction of energy propagation is called what? | A longitudinal wave
+Give an example of a longitudinal wave | Sound waves
+What is material dispersion? | When waves of different wavelengths travel at slightly different speeds through an optical fibre, reaching the end at different times
+What causes material dispersion in optical fibres? | Waves of different wavelengths travelling at slightly different speeds
+How is material dispersion prevented? | By using monochromatic light
+What is modal dispersion? | When waves enter an optical fibre at different angles, travelling different distances and reaching the end at different times
+What causes modal dispersion in optical fibres? | Light rays entering the fibre at different angles, taking different paths
+How is modal dispersion reduced? | By making the core very narrow
+What is an optical fibre? | A thin glass fibre through which signals are passed
+What is path difference? | A measure of how far ahead a wave is compared to another wave, usually expressed in terms of wavelength
+What is phase difference? | The difference in phase between two points on a wave, usually expressed in radians
+What is phase? | A measure of how far through the wave's cycle a given point on the wave is
+What is polarisation? | The restriction of a wave so that it can only oscillate in a single plane
+Which type of wave can be polarised? | Only transverse waves
+Why can only transverse waves be polarised? | Because polarisation requires oscillations perpendicular to the direction of travel
+What is pulse broadening? | The elongation of a signal passed down an optical fibre
+What causes pulse broadening in optical fibres? | Modal or material dispersion
+What is refractive index? | The ratio between the speed of light in a vacuum and the speed of light in a given material
+The ratio of the speed of light in a vacuum to the speed of light in a material is called what? | Refractive index
+What is Snell's Law? | A law linking a wave's angle of incidence to its angle of refraction using the refractive indexes of the mediums involved
+What is the formula for wave speed? | c = fλ (speed = frequency × wavelength)
+What is a stationary wave? | A wave that stores, but does not transfer, energy
+A wave that stores energy but does not transfer it is called what? | A stationary wave
+What is total internal reflection? | When full reflection occurs at the inside boundary of a fibre, meaning no radiation passes out
+What two conditions are required for total internal reflection? | Angle of incidence greater than the critical angle, and incident medium has higher refractive index than boundary medium
+What is a transverse wave? | A wave with oscillations perpendicular to the direction of energy propagation
+A wave with oscillations perpendicular to the direction of energy propagation is called what? | A transverse wave
+Give an example of a transverse wave | Electromagnetic waves
+What is wavelength? | The distance between two identical positions on two adjacent waves
+How is wavelength commonly measured? | From peak to peak or trough to trough
+What are the units of wavelength? | Metres (m)
+What does Young's double-slit experiment demonstrate? | The diffraction and interference of light
+What is a progressive wave? | A wave that transfers energy without transferring material
+What is a progressive wave made up of? | Particles of a medium or field oscillating
+What is the period of a wave? | The time taken for one full oscillation
+What are the units of period? | Seconds (s)
+What is the formula relating frequency and period? | f = 1/T
+When are two points on a wave in phase? | When they are at the same point of the wave cycle with the same displacement and velocity
+What is the phase difference between two points in phase? | A multiple of 360° (2π radians)
+When are two points completely out of phase? | When they are an odd integer of half cycles apart
+What is the phase difference for completely out of phase points? | An odd multiple of 180° (π radians)
+How can transverse waves be demonstrated with a slinky? | By shaking the slinky vertically
+How can longitudinal waves be demonstrated with a slinky? | By pushing the slinky horizontally
+What are longitudinal waves made up of? | Compressions and rarefactions
+Can longitudinal waves travel in a vacuum? | No
+What speed do all electromagnetic waves travel at in a vacuum? | 3 × 10⁸ m/s
+What evidence does polarisation provide? | Evidence for the nature of transverse waves
+How do Polaroid sunglasses work? | They reduce glare by blocking partially polarised light reflected from water and tarmac
+Why must TV/radio receiving aerials be aligned with transmitting aerials? | Because signals are plane-polarised by the transmitting aerial orientation
+What is superposition? | When the displacements of two waves are combined as they pass each other
+What is the resultant displacement during superposition? | The vector sum of each wave's displacement
+What occurs when two waves have displacement in the same direction during superposition? | Constructive interference
+What occurs when waves have equal but opposite displacements during superposition? | Total destructive interference
+How is a stationary wave formed? | From the superposition of two progressive waves travelling in opposite directions with the same frequency, wavelength and amplitude
+Is energy transferred by a stationary wave? | No
+Where do antinodes form in a stationary wave? | Where waves meet in phase (constructive interference)
+Where do nodes form in a stationary wave? | Where waves meet completely out of phase (destructive interference)
+What is the first harmonic? | The lowest frequency at which a stationary wave forms
+How many nodes and antinodes does the first harmonic have? | Two nodes and one antinode
+What is the distance between adjacent nodes in a stationary wave? | Half a wavelength (λ/2)
+What is the formula for the first harmonic frequency on a string? | f = (1/2L)√(T/μ)
+In the first harmonic formula, what does L represent? | The length of the vibrating string
+In the first harmonic formula, what does T represent? | The tension in the string
+In the first harmonic formula, what does μ represent? | The mass per unit length
+How do you find the frequency of the nth harmonic? | Multiply the first harmonic frequency by n
+How many antinodes does the second harmonic have? | Two
+How many antinodes does the third harmonic have? | Three
+How can stationary microwaves be formed? | By reflecting a microwave beam at a metal plate
+How are nodes and antinodes detected in stationary microwaves? | Using a microwave probe
+How can stationary sound waves be demonstrated? | By placing a speaker at one end of a closed glass tube with powder along the bottom
+Where does powder settle in a stationary sound wave demonstration? | At the nodes
+Where is powder shaken in a stationary sound wave demonstration? | At the antinodes
+What is a coherent light source? | A light source with the same frequency and wavelength and a fixed phase difference
+What does monochromatic mean? | Emitting a single (or small range of) wavelength(s) of light
+Why are lasers usually used in diffraction experiments? | Because they are coherent and monochromatic, forming clear interference patterns
+Where do light fringes form in Young's double-slit experiment? | Where light meets in phase and interferes constructively
+What path difference produces light fringes? | A whole number of wavelengths (nλ)
+Where do dark fringes form in Young's double-slit experiment? | Where light meets completely out of phase and interferes destructively
+What path difference produces dark fringes? | A whole number plus half wavelengths ((n+½)λ)
+What is the double-slit fringe spacing formula? | w = λD/s
+In the fringe spacing formula, what does w represent? | Fringe spacing
+In the fringe spacing formula, what does D represent? | Distance between the screen and slits
+In the fringe spacing formula, what does s represent? | Slit separation
+What pattern does white light produce in a double-slit experiment? | A central white fringe with alternating spectra, violet closest to centre and red furthest
+List four laser safety precautions | Wear laser safety goggles, don't shine at reflective surfaces, display a warning sign, never shine at a person
+What evidence did Young's double-slit experiment provide? | Evidence for the wave nature of light, as diffraction and interference are wave properties
+What is single-slit diffraction? | Monochromatic light diffracted through a single slit forming an interference pattern
+What is special about the central fringe in single-slit diffraction? | It is bright and double the width of all other fringes
+What causes the bright fringes in single-slit diffraction? | Constructive interference where waves meet in phase
+What causes the dark fringes in single-slit diffraction? | Destructive interference where waves arrive completely out of phase
+How does fringe intensity vary in single-slit diffraction? | Intensity decreases from the central fringe outward
+In white light diffraction, which colour is closest to the central maximum? | Violet
+In white light diffraction, which colour is furthest from the central maximum? | Red
+Why do different colours appear at different positions in white light diffraction? | Different wavelengths are diffracted by different amounts
+What happens to the central maximum when slit width increases? | It becomes narrower and intensity increases
+What happens to the central maximum when wavelength increases? | It becomes wider and intensity decreases
+Why does a diffraction grating produce sharper patterns than a double slit? | Because there are many more rays of light reinforcing the pattern
+What is the zero order line in a diffraction grating? | The ray of light passing through the centre of the grating
+What is the diffraction grating formula? | d sin θ = nλ
+In the diffraction grating formula, what does d represent? | The distance between the slits
+In the diffraction grating formula, what does θ represent? | The angle to the normal made by the maximum
+In the diffraction grating formula, what does n represent? | The order of the maximum
+What is the maximum value of sin θ? | 1
+What happens to the diffraction pattern when wavelength increases? | The pattern spreads out as the angle θ increases
+How are diffraction gratings used in astronomy? | To split light from stars into line absorption spectra to identify elements present
+What is X-ray crystallography? | Using X-rays directed at a thin crystal sheet (acting as a diffraction grating) to measure atomic spacing
+Why do X-rays work for crystallography? | Because their wavelength is similar in size to the gaps between atoms
+What is the formula for refractive index? | n = c/cs (speed of light in vacuum ÷ speed in material)
+What does a higher refractive index mean? | The material is more optically dense
+What is the approximate refractive index of air? | 1
+What is refraction? | When a wave enters a different medium and changes direction
+What is Snell's Law formula? | n₁ sin θ₁ = n₂ sin θ₂
+What happens when light enters a more optically dense medium? | It slows down and bends towards the normal
+What happens when light enters a less optically dense medium? | It speeds up and bends away from the normal
+What is the critical angle? | The angle of incidence at which the angle of refraction is exactly 90°
+What is the formula for critical angle? | sin θc = n₂/n₁ (where n₁ > n₂)
+What two conditions are needed for total internal reflection? | Angle of incidence greater than critical angle, and n₁ > n₂
+What is the core of an optical fibre? | The optically dense central part that carries the light signal
+Why must the cladding have lower optical density than the core? | To allow total internal reflection to occur
+How does cladding prevent signal degradation? | By preventing light escaping the core which would cause information loss
+What is absorption in optical fibres? | Where part of the signal's energy is absorbed by the fibre, reducing amplitude
+What is the effect of absorption on signals? | Reduces the amplitude, which could lead to loss of information
+What is dispersion in optical fibres? | A process causing pulse broadening where signals become broader than when transmitted
+What happens when broadened signals overlap? | Loss of information
+How does making the core narrower reduce modal dispersion? | It makes the possible difference in path lengths smaller
+What is an optical fibre repeater? | A device that regenerates the signal during its travel to reduce absorption and dispersion effects
+What provides the evidence that polarisation supports transverse wave nature? | Polarisation can only occur if oscillations are perpendicular to direction of travel
+How can interference be demonstrated with sound waves? | Using two speakers connected to the same signal generator
+How is sound wave intensity measured in interference experiments? | Using a microphone to find maxima and minima
+What happens when a gap is much larger than the wavelength? | Less noticeable diffraction occurs
+What happens when a wave meets an obstacle? | Diffraction occurs around the edges
+How does obstacle width affect diffraction? | The wider the obstacle compared to wavelength, the less diffraction
+What makes the interference pattern from a diffraction grating more useful than a double slit? | Measurements of slit widths are more accurate as fringes are sharper and easier to measure
+Why does the path difference for the first order maximum equal one wavelength? | Because constructive interference requires waves to be in phase after travelling different distances
+Do two points need the same amplitude to be in phase? | No, only the same frequency and wavelength

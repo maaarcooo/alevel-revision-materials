@@ -1,0 +1,82 @@
+What is the combined resistance of resistors connected in series? | The sum of the individual resistances
+The sum of individual resistances gives what quantity for series resistors? | The combined (total) resistance
+What is the equation for combined resistance in series? | R = R₁ + R₂ + R₃ ...
+How do you calculate the total resistance of resistors in parallel? | The reciprocal of total resistance equals the sum of reciprocals of individual resistances
+What is the equation for combined resistance in parallel? | 1/R = 1/R₁ + 1/R₂ + 1/R₃ ...
+What happens to combined resistance as more resistors are added in parallel? | Combined resistance decreases
+If two resistors of equal resistance are connected in parallel, what happens to the combined resistance? | It halves
+What is the reciprocal of a number? | 1 ÷ the number
+What is the reciprocal of resistance R? | 1/R
+How do you get R from 1/R? | Calculate 1 ÷ (1/R) or use the reciprocal button (x⁻¹ or 1/x)
+What is a common mistake when calculating parallel resistance? | Forgetting to find the reciprocal of 1/R_T to get R_T
+In a series circuit, what is true about the current through all components? | The current is the same for all components
+In a parallel circuit, what happens to the current at junctions? | The current splits across different branches
+What determines the amount of current in each branch of a parallel circuit? | The total resistance of the components within that branch
+In a series circuit, how is the e.m.f of the power supply distributed? | It is shared amongst all components in different amounts depending on their resistance
+In a parallel circuit, what is the voltage across components in each branch equal to? | The e.m.f of the power supply
+When cells are connected in series, how is total voltage calculated? | The sum of potential differences across each cell
+When cells are connected in parallel, what is the total voltage across the arrangement? | The same as for one cell
+In a series circuit, what is the relationship between total voltage and component voltages? | V_in = V₁ + V₂ + V₃
+In a parallel circuit, what is the relationship between input voltage and component voltages? | V_in = V₁ = V₂ = V₃
+In a series circuit, how is total current related to current through each component? | I_in = I₁ = I₂ = I₃
+In a parallel circuit, how is total current related to current through each branch? | I_in = I₁ + I₂ + I₃
+What is conservation of charge in a circuit? | Charge is never used up or lost in a circuit
+What does Kirchhoff's First Law state? | The sum of currents entering a junction equals the sum of currents out of the junction
+Kirchhoff's First Law is a consequence of which conservation principle? | Conservation of charge
+What is a junction in a circuit? | A point where at least three circuit paths meet
+What is a branch in a circuit? | A path connecting two junctions
+What is conservation of energy in a circuit? | Energy is never used up or lost in a circuit
+What does Kirchhoff's Second Law state? | The total e.m.f in a closed circuit equals the sum of the potential differences across each component
+Kirchhoff's Second Law is a consequence of which conservation principle? | Conservation of energy
+How can a closed circuit loop be treated? | Like a series circuit
+Why are parallel circuits useful for home wiring systems? | A single power source supplies all lights and appliances with the same voltage, and if one breaks, current can still flow to the rest
+What is the definition of electrical power? | The rate of change of work done (or energy transferred per second)
+What is the equation relating power, energy and time? | P = E/t = W/t
+What is the equation relating power, current and voltage? | P = IV
+What is the equation for power in terms of current and resistance? | P = I²R
+What is the equation for power in terms of voltage and resistance? | P = V²/R
+If current through a resistor doubles, what happens to the power? | Power increases by a factor of four (quadruples)
+If voltage across a resistor doubles, what happens to the power? | Power increases by a factor of four (quadruples)
+What is the equation for energy transferred in an electrical component? | E = VIt
+What is the unit of electrical power? | Watt (W)
+What mnemonic helps remember P = I²R? | "Twinkle Twinkle Little Star, Power equals I squared R"
+What is a potential divider circuit? | A circuit that produces an output voltage as a fraction of its input voltage
+A circuit that produces an output voltage as a fraction of its input voltage is called what? | A potential divider
+What are the three main purposes of potential dividers? | To provide variable potential difference, to enable a specific p.d. to be chosen, and to split p.d. between components
+What is the potential divider equation? | V_out = (R₂/(R₁ + R₂)) × V_in
+In the potential divider equation, which resistance must be in the numerator? | The resistance of the component across which V_out is measured
+In potential divider circuits, how is p.d. across a component related to its resistance? | The p.d. is proportional to its resistance
+If the resistance of one resistor in a potential divider increases, what happens to its share of p.d.? | It gets a greater share of the potential difference
+Which resistor in a potential divider has the greater potential difference? | The resistor with the largest resistance
+What common applications use potential dividers? | Volume controls and sensory circuits using LDRs and thermistors
+What does LDR stand for? | Light Dependent Resistor
+How does the resistance of an LDR vary with light intensity? | Higher light intensity causes lower resistance (and vice versa)
+Higher light intensity causes lower resistance in which component? | Light Dependent Resistor (LDR)
+What common applications use LDR circuits? | Street lights and security lights
+How does the resistance of a thermistor vary with temperature? | Higher temperature causes lower resistance (and vice versa)
+Higher temperature causes lower resistance in which component? | Thermistor
+What common applications use thermistor circuits? | Fire alarms, ovens, and digital thermometers
+From V = IR, what happens to p.d. across an LDR or thermistor when its resistance decreases? | The potential difference also decreases
+From V = IR, what happens to p.d. across an LDR or thermistor when its resistance increases? | The potential difference also increases
+In a potential divider with a sensory resistor, if the p.d. across the sensor decreases, what happens to the p.d. across the other resistor? | It must increase (to maintain total e.m.f.)
+In a thermistor potential divider, if temperature decreases, what happens to thermistor resistance? | Resistance increases
+In a thermistor potential divider, if temperature decreases, what happens to p.d. across the thermistor? | It increases
+In a thermistor potential divider, if temperature decreases, what happens to p.d. across the fixed resistor? | It decreases
+In an LDR potential divider, if light intensity increases, what happens to LDR resistance? | Resistance decreases
+In an LDR potential divider, if light intensity increases, what happens to p.d. across the LDR? | It decreases
+What is potential difference defined as? | Work done per unit charge
+What is current defined as? | Rate of flow of charge
+For resistors in series with known R and total R, how do you find an unknown resistance? | Rearrange R_total = R₁ + R₂ + R₃... and solve for the unknown
+What must you always remember to do after calculating 1/R_total for parallel resistors? | Take the reciprocal to find R_total
+Why does the p.d. across a higher resistance component in a series circuit exceed that of lower resistance? | From V = IR, with same current I, larger R gives larger V
+When solving potential divider problems, what must be in the numerator of the equation? | The resistance of the component across which output voltage is being measured
+What type of resistor can be used in a potential divider to vary the output voltage? | Variable resistor or sensory resistors (LDRs and thermistors)
+How do you determine which currents are into vs out of a junction? | Draw arrows showing current flow direction (from positive to negative)
+What determines the direction of conventional current flow? | From positive terminal to negative terminal
+What is the SI unit of resistance? | Ohm (Ω)
+What is the SI unit of current? | Ampere (A)
+What is the SI unit of potential difference? | Volt (V)
+What is the SI unit of charge? | Coulomb (C)
+What is the SI unit of energy? | Joule (J)
+How do you check your answer for combined parallel resistance? | The combined resistance must be less than any individual resistance
+In a series circuit, what relationship exists between component p.d.s and e.m.f.? | The sum of component p.d.s equals the e.m.f. of the supply

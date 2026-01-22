@@ -1,0 +1,114 @@
+What is electric current? | The rate of flow of charge in a circuit
+The rate of flow of charge in a circuit — what quantity is this? | Electric current
+What is the formula for electric current? | I = ΔQ/Δt
+What does Q represent in the current formula I = ΔQ/Δt? | Charge
+What is the unit of electric current? | Ampere (A)
+What is potential difference? | The energy transferred per unit charge between two points in a circuit
+The energy transferred per unit charge between two points — what quantity is this? | Potential difference
+What is the formula for potential difference? | V = W/Q
+What does W represent in V = W/Q? | Energy transferred
+What is the unit of potential difference? | Volt (V)
+What is resistance? | A measure of how difficult it is for current to flow through a material
+A measure of how difficult it is for current to flow through a material — what is this called? | Resistance
+What is the formula for resistance? | R = V/I
+What is the unit of resistance? | Ohm (Ω)
+What does Ohm's law state? | For an ohmic conductor, current is directly proportional to potential difference when physical conditions are constant
+What condition must be kept constant for Ohm's law to apply? | Physical conditions (e.g., temperature)
+What is an ohmic conductor? | A conductor where current is directly proportional to potential difference under constant physical conditions
+A conductor that obeys Ohm's law — what is this called? | An ohmic conductor
+What does the current-voltage graph look like for an ohmic conductor? | A straight line through the origin
+What is the constant of proportionality in Ohm's law? | Resistance
+What is a semiconductor diode? | A component that allows current to flow easily in one direction (forward bias) but has very high resistance in reverse bias
+What is forward bias in a diode? | The direction in which current flows easily past the threshold voltage
+What is threshold voltage? | The smallest voltage needed to allow current to flow through a diode
+What is reverse bias in a diode? | The direction where the diode has extremely high resistance, allowing only very small current
+What happens to resistance in a filament lamp as current increases? | Resistance increases
+Why does a filament lamp's resistance increase with current? | The metal wire heats up as current increases
+At what current levels does a filament lamp obey Ohm's law? | At very low currents (before significant heating)
+What is the ideal resistance of an ammeter? | Zero resistance
+What is the ideal resistance of a voltmeter? | Infinite resistance
+Why should an ideal ammeter have zero resistance? | So it does not affect the measurement of current in the circuit
+Why should an ideal voltmeter have infinite resistance? | So no current flows through it, giving an exact measurement of potential difference
+How is an ammeter connected in a circuit? | In series
+How is a voltmeter connected in a circuit? | In parallel (across the component)
+What is resistivity? | A quantity equal to the product of resistance and cross-sectional area, divided by length
+What is the formula for resistivity? | ρ = RA/L
+What is the unit of resistivity? | Ohm-metre (Ωm)
+What does resistivity tell you about a material? | How easily the material conducts electricity
+What factors affect the resistance of a wire? | Length, cross-sectional area, material (resistivity), and temperature
+How does resistance depend on length? | Resistance is directly proportional to length
+How does resistance depend on cross-sectional area? | Resistance is inversely proportional to cross-sectional area
+What happens to a metal conductor's resistance when temperature increases? | Resistance increases
+Why does a metal's resistance increase with temperature? | Atoms gain kinetic energy and vibrate more, causing electrons to collide more frequently with atoms
+What is a thermistor? | A temperature-sensitive semiconductor whose resistance increases when temperature decreases
+A semiconductor whose resistance decreases as temperature increases — what is this? | A thermistor
+Why does a thermistor's resistance decrease when heated? | More electrons are emitted from atoms, increasing the number of charge carriers
+What is an application of a thermistor? | Temperature sensor to trigger events when temperature changes
+What is an LDR (Light Dependent Resistor)? | A light-sensitive semiconductor whose resistance increases when light intensity decreases
+A semiconductor whose resistance decreases as light intensity increases — what is this? | Light Dependent Resistor (LDR)
+What is a superconductor? | A material with zero resistivity when cooled to or below its critical temperature
+What is critical temperature? | The temperature at or below which a superconductor has zero resistivity
+What happens to a superconductor's resistance below critical temperature? | It drops to zero
+Give one application of superconductors | Power cables (reduce energy loss to zero during transmission)
+Give another application of superconductors | Strong magnetic fields (for maglev trains or medical applications)
+What is a series circuit? | Components connected end to end in one loop
+What is a parallel circuit? | Components connected across each other in separate loops
+What is the formula for total resistance in series? | R_T = R₁ + R₂ + R₃ + ...
+What is the formula for total resistance in parallel? | 1/R_T = 1/R₁ + 1/R₂ + 1/R₃ + ...
+What is true about current in a series circuit? | Current is the same everywhere
+What is true about voltage in a series circuit? | The sum of voltages across all components equals the supply voltage
+What is true about current in a parallel circuit? | The sum of currents in each branch equals the total current
+What is true about voltage in a parallel circuit? | Potential difference across each branch is the same
+When identical cells are connected in series, what is the total voltage? | The sum of individual cell voltages
+When identical cells are connected in parallel, what is the total voltage? | Equal to the voltage of one cell
+What is Kirchhoff's first law? | The total current flowing into a junction equals the current flowing out
+What does Kirchhoff's first law demonstrate? | Conservation of charge
+What is Kirchhoff's second law? | The sum of all voltages in a series circuit equals the battery voltage
+What does Kirchhoff's second law demonstrate? | Conservation of energy
+What is the formula for electrical power? | P = E/t or P = VI
+What are two alternative formulas for power using resistance? | P = V²/R and P = I²R
+What is the formula for energy transferred in an electrical circuit? | E = VIt
+What is a potential divider? | A circuit with resistors in series used to produce a fraction of the source potential difference
+Resistors in series used to split a voltage into a required fraction — what circuit is this? | A potential divider
+In a potential divider, how is the source voltage split? | In the ratio of the resistances
+In a potential divider, if R₁ increases, what happens to V_out across R₂? | V_out decreases (as circuit current decreases)
+How can an LDR be used in a potential divider? | As a light sensor to vary output voltage based on light intensity
+How can a thermistor be used in a potential divider? | As a temperature sensor to vary output voltage based on temperature
+What is internal resistance? | The resistance to flow of charge within a power source
+The resistance within a power source that causes energy to be dissipated inside it — what is this? | Internal resistance
+What causes internal resistance? | Electrons colliding with atoms inside the battery
+What is electromotive force (emf)? | The energy transferred by a source to each unit of charge that passes through it
+The energy transferred per coulomb of charge by a power source — what quantity is this? | Electromotive force (emf)
+What is the formula for emf? | ε = E/Q
+What is the relationship between emf, terminal p.d., and lost volts? | ε = V + v (emf = terminal p.d. + lost volts)
+What is terminal potential difference? | The p.d. across the terminals of a power source (emf minus voltage drop over internal resistance)
+What are lost volts? | The p.d. across the internal resistance, equal to energy wasted per coulomb
+What is the formula relating emf to current and resistances? | ε = I(R + r) or ε = IR + Ir
+How do you measure the emf of a battery? | Measure voltage across the cell when no current is flowing (open circuit)
+What is the formula for lost volts? | v = Ir
+What is the formula for terminal p.d.? | V = IR (where R is the load resistance)
+In the emf equation, what does r represent? | Internal resistance
+In the emf equation, what does R represent? | Load resistance (external resistance)
+What is the total resistance in a circuit with internal resistance? | R_T = R + r (load resistance + internal resistance)
+How are resistors in series related to potential difference? | P.d. is split in the ratio of their resistances
+How are resistors in series related to current? | Current through each resistor is identical
+How are resistors in parallel related to potential difference? | P.d. across each resistor is identical
+How are resistors in parallel related to current? | Current is split between the resistors
+Why does resistivity depend on temperature? | Temperature affects how easily charge carriers move through the material
+What physical quantity does resistivity give for a 1m length and 1m² cross-section? | The resistance of that material
+What determines the critical temperature of a superconductor? | The material it is made from
+What temperature range do most known superconductors have for critical temperature? | Very low, close to 0 K (-273°C)
+Why would superconducting power cables be beneficial? | They would reduce energy loss through heating to zero
+Why would superconducting magnets not require a constant power source? | Zero resistance means no energy is lost, so current flows indefinitely
+What happens to current if resistance increases while voltage stays constant? | Current decreases (I = V/R)
+What happens to resistance if current decreases while voltage stays constant? | Resistance increases (R = V/I)
+In a potential divider with an LDR, what happens to V_out if light intensity decreases? | Depends on position — if LDR is R₁, V_out (across R₂) decreases; if LDR is R₂, V_out increases
+How can a potential divider trigger a light to turn on when it gets dark? | Use an LDR positioned so V_out increases as light intensity decreases, reaching a threshold voltage
+What causes a filament lamp's I-V graph to curve at higher currents? | Increasing resistance due to heating of the wire
+What is the gradient of an I-V graph for an ohmic conductor? | 1/R (the reciprocal of resistance)
+What is the gradient of a V-I graph for an ohmic conductor? | R (resistance)
+Why does no charge get lost in an electrical circuit? | Conservation of charge (Kirchhoff's first law)
+Why is no energy lost in an electrical circuit? | Conservation of energy (Kirchhoff's second law)
+What type of component is a thermistor? | A semiconductor
+What type of component is an LDR? | A semiconductor
+What happens when electrons collide more frequently with atoms in a conductor? | They slow down, reducing current and increasing resistance

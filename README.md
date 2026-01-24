@@ -25,66 +25,66 @@ A comprehensive collection of A-Level revision materials for **Computer Science*
 
 | Subject | Topics | Flashcard Files | Note Files | Anki Decks |
 |---------|--------|-----------------|------------|------------|
-| Computer Science | 12+ | 68 | 48 | 2 |
-| Physics | 5 | 54 | 70 | 2 |
+| Computer Science | 12+ | 68 | 67 | 2 |
+| Physics | 5 | 88 | 70 | 2 |
 
 ## Subject Coverage
 
 ### Computer Science
 
-| Topic | Flashcards | Notes v1 | Notes v2 |
-|-------|:----------:|:--------:|:--------:|
-| 1.1 Structure & Function of the Processor | ✓ | ✓ | ✓ |
-| 1.2 Types of Processor | ✓ | ✓ | ✓ |
-| 1.3 Input, Output & Storage | ✓ | ✓ | ✓ |
-| 2.1 Systems Software | ✓ | ✓ | ✓ |
-| 2.2 Applications Generation | ✓ | ✓ | ✓ |
-| 2.3 Software Development | ✓ | ✓ | ✓ |
-| 2.4 Types of Programming Language | ✓ | ✓ | ✓ |
-| 2.5 Object Oriented Languages | ✓ | ✓ | ✓ |
-| 3.1 Compression, Encryption & Hashing | ✓ | ✓ | ✓ |
-| 3.2 Databases | ✓ | ✓ | ✓ |
-| 3.3 Networks | ✓ | ✓ | ✓ |
-| 3.4 Web Technologies | ✓ | ✓ | ✓ |
-| 4.1-4.3 Data Types, Structures & Algorithms | - | ✓ | ✓ |
-| 5. Legal, Moral, Cultural & Ethical Issues | - | ✓ | ✓ |
-| 6. Elements of Computational Thinking | - | ✓ | ✓ |
-| 7. Programming Techniques | - | - | ✓ |
-| 8. Algorithms | - | - | ✓ |
+| Topic | Flashcards v1 | Flashcards v2 | Notes v1 | Notes v2 | Notes v3 |
+|-------|:-------------:|:-------------:|:--------:|:--------:|:--------:|
+| 1.1 Structure & Function of the Processor | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 1.2 Types of Processor | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 1.3 Input, Output & Storage | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.1 Systems Software | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.2 Applications Generation | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.3 Software Development | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.4 Types of Programming Language | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.5 Object Oriented Languages | ✓ | ✓ | ✓ | ✓ | - |
+| 3.1 Compression, Encryption & Hashing | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3.2 Databases | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3.3 Networks | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3.4 Web Technologies | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.1-4.3 Data Types, Structures & Algorithms | - | - | ✓ | ✓ | ✓ |
+| 5. Legal, Moral, Cultural & Ethical Issues | - | - | ✓ | ✓ | ✓ |
+| 6. Elements of Computational Thinking | - | - | ✓ | ✓ | Partial |
+| 7. Programming Techniques | - | - | - | ✓ | - |
+| 8. Algorithms | - | - | - | ✓ | - |
 
 ### Physics
 
-| Topic | Flashcards | Notes v1 | Notes v2 | Notes v3 |
-|-------|:----------:|:--------:|:--------:|:--------:|
-| **1. Measurements & Their Errors** | | | | |
-| 1.1 Use of SI Units & Their Prefixes | ✓ | - | ✓ | ✓ |
-| 1.2 Limitation of Physical Measurements | ✓ | - | ✓ | ✓ |
-| **2. Particles & Radiation** | | | | |
-| 2.1 Atomic Structure & Decay Equations | ✓ | - | ✓ | ✓ |
-| 2.2 Classification of Particles | ✓ | - | ✓ | ✓ |
-| 2.3 Conservation Laws & Particle Interactions | ✓ | - | ✓ | ✓ |
-| 2.4 The Photoelectric Effect | ✓ | - | ✓ | ✓ |
-| 2.5 Energy Levels & Photon Emission | ✓ | - | ✓ | ✓ |
-| **3. Waves** | | | | |
-| 3.1 Longitudinal & Transverse Waves | ✓ | - | ✓ | ✓ |
-| 3.2 Stationary Waves | ✓ | - | ✓ | ✓ |
-| 3.3 Interference | ✓ | - | ✓ | ✓ |
-| 3.4 Diffraction | ✓ | - | ✓ | ✓ |
-| 3.5 Refraction | ✓ | - | ✓ | ✓ |
-| **4. Mechanics & Materials** | | | | |
-| 4.1 Scalars & Vectors | ✓ | ✓ | ✓ | ✓ |
-| 4.2 Moments | ✓ | ✓ | ✓ | ✓ |
-| 4.3 Equations of Motion | ✓ | ✓ | ✓ | ✓ |
-| 4.4 Newton's Laws of Motion | ✓ | ✓ | ✓ | ✓ |
-| 4.5 Linear Momentum & Conservation | ✓ | ✓ | ✓ | ✓ |
-| 4.6 Work, Energy & Power | ✓ | ✓ | ✓ | ✓ |
-| 4.7 Bulk Properties of Solids | ✓ | ✓ | ✓ | ✓ |
-| 4.8 The Young Modulus | ✓ | ✓ | ✓ | ✓ |
-| **5. Electricity** | | | | |
-| 5.1 Current-Voltage Characteristics | ✓ | ✓ | ✓ | ✓ |
-| 5.2 Resistance & Resistivity | ✓ | ✓ | ✓ | ✓ |
-| 5.3 Circuits & The Potential Divider | ✓ | ✓ | ✓ | ✓ |
-| 5.4 Electromotive Force & Internal Resistance | ✓ | ✓ | ✓ | ✓ |
+| Topic | Flashcards v1 | Flashcards v2 | Flashcards v3 | Notes v1 | Notes v2 | Notes v3 |
+|-------|:-------------:|:-------------:|:-------------:|:--------:|:--------:|:--------:|
+| **1. Measurements & Their Errors** | | | | | | |
+| 1.1 Use of SI Units & Their Prefixes | - | ✓ | ✓ | - | ✓ | ✓ |
+| 1.2 Limitation of Physical Measurements | - | ✓ | ✓ | - | ✓ | ✓ |
+| **2. Particles & Radiation** | | | | | | |
+| 2.1 Atomic Structure & Decay Equations | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| 2.2 Classification of Particles | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| 2.3 Conservation Laws & Particle Interactions | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| 2.4 The Photoelectric Effect | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| 2.5 Energy Levels & Photon Emission | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| **3. Waves** | | | | | | |
+| 3.1 Longitudinal & Transverse Waves | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| 3.2 Stationary Waves | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| 3.3 Interference | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| 3.4 Diffraction | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| 3.5 Refraction | ✓ | ✓ | ✓ | - | ✓ | ✓ |
+| **4. Mechanics & Materials** | | | | | | |
+| 4.1 Scalars & Vectors | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.2 Moments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.3 Equations of Motion | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.4 Newton's Laws of Motion | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.5 Linear Momentum & Conservation | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.6 Work, Energy & Power | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.7 Bulk Properties of Solids | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.8 The Young Modulus | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **5. Electricity** | | | | | | |
+| 5.1 Current-Voltage Characteristics | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 5.2 Resistance & Resistivity | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 5.3 Circuits & The Potential Divider | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 5.4 Electromotive Force & Internal Resistance | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ## Directory Structure
 
@@ -101,6 +101,8 @@ alevel-revision-materials/
 │   └── 6. Elements of Computational Thinking/
 ├── CS CMB Notes v2/                    # Computer Science notes (flat structure)
 │   └── *.md files
+├── CS CMB Notes v3/                    # Computer Science notes (flat, concise)
+│   └── *.md files                      # Topics 1-6 (partial coverage)
 ├── CS Flashcards v1/
 │   ├── CS CMB Flashcards/              # CMB variant flashcards
 │   ├── CS PMT Flashcards/              # PMT variant flashcards
@@ -119,16 +121,19 @@ alevel-revision-materials/
 │   ├── Physics PMT Flashcards/         # PMT variant flashcards
 │   ├── Physics SME Flashcards/         # SME variant flashcards
 │   └── Anki decks APKG/                # Pre-built Anki decks
-└── Physics Flashcards v2/
-    ├── Physics PMT Flashcards/         # PMT variant flashcards (expanded)
-    └── Physics SME Flashcards/         # SME variant flashcards (expanded)
+├── Physics Flashcards v2/
+│   ├── Physics PMT Flashcards/         # PMT variant flashcards (expanded)
+│   └── Physics SME Flashcards/         # SME variant flashcards (expanded)
+└── Physics Flashcards v3/              # Physics flashcards (flat structure)
+    └── *.txt files                     # PMT, defs, and individual subtopic variants
 ```
 
 ### Flashcard Variants
 
-- **CMB**: Combine - Flashcards or notes created by combining sources from both PMT and SME
-- **PMT**: Physics and Maths Tutor - Content based on [Physics & Maths Tutor](https://www.physicsandmathstutor.com/)
-- **SME**: Save My Exams - Content based on [Save My Exams](https://www.savemyexams.com/)
+- **CMB**: Combine - Flashcards or notes created by combining content sourced from both PMT and SME
+- **PMT**: Physics and Maths Tutor - Content sourced from [Physics & Maths Tutor](https://www.physicsandmathstutor.com/)
+- **SME**: Save My Exams - Content sourced from [Save My Exams](https://www.savemyexams.com/)
+- **defs**: Definitions - Focused on key term definitions and concise explanations
 
 ## Content Versions
 
@@ -154,6 +159,7 @@ All materials are AI-generated using different Claude model configurations for q
 |--------------|-------------------|-------|
 | Notes (Physics) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.2 | Claude Opus 4.5 (Thinking) |
 | Notes (CompSci) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.3 | Claude Opus 4.5 (Thinking) |
+| Flashcards (Physics) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill | Claude Opus 4.5 |
 
 **Key Differences Between Versions:**
 - Version 2 uses more advanced prompts and the Opus 4.5 model compared to v1
@@ -163,6 +169,7 @@ All materials are AI-generated using different Claude model configurations for q
 - Version 2 flashcards have significantly expanded coverage
 - Physics v3 notes are more concise and focused compared to v2 (~27% smaller file size)
 - Version 3 uses a Claude Skill for generation instead of direct prompt templates
+- Physics Flashcards v3 uses a flat structure with aggregate topic files (PMT, defs) plus individual subtopic files
 
 ## How to Use
 

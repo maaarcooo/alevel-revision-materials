@@ -144,22 +144,22 @@ All materials are AI-generated using different Claude model configurations for q
 | Content Type | Prompt Template | Model |
 |--------------|-----------------|-------|
 | Flashcards | `ankiFlashcardPrompt_v3` | Claude Sonnet 4.5 |
-| Notes | `revisionNotesPrompt_v1` | Claude Sonnet 4.5 (Thinking) |
+| Notes | `revisionNotesPrompt_v1` | Claude Sonnet 4.5 (Extended thinking) |
 
 ### Version 2
 
 | Content Type | Prompt Template | Model |
 |--------------|-----------------|-------|
 | Flashcards | `ankiFlashcardPrompt_v4` | Claude Opus 4.5 |
-| Notes | `revisionNotesPrompt_v2` | Claude Opus 4.5 (Thinking) |
+| Notes | `revisionNotesPrompt_v2` | Claude Opus 4.5 (Extended thinking) |
 
 ### Version 3
 
 | Content Type | Generation Method | Model |
 |--------------|-------------------|-------|
-| Notes (Physics) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.2 | Claude Opus 4.5 (Thinking) |
-| Notes (CompSci) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.3 | Claude Opus 4.5 (Thinking) |
-| Flashcards (Physics) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill v3.3 | Claude Opus 4.5 |
+| Notes (Physics) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.2 | Claude Opus 4.5 (Extended thinking) |
+| Notes (CompSci) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.3 | Claude Opus 4.5 (Extended thinking) |
+| Flashcards (Physics) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill v3.3 | Claude Opus 4.5 (Extended thinking) |
 
 **Key Differences Between Versions:**
 - Version 2 uses more advanced prompts and the Opus 4.5 model compared to v1

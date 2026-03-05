@@ -159,7 +159,7 @@ All materials are AI-generated using different Claude model configurations for q
 |--------------|-------------------|-------|
 | Notes (Physics) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.2 | Claude Opus 4.5 (Thinking) |
 | Notes (CompSci) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.3 | Claude Opus 4.5 (Thinking) |
-| Flashcards (Physics) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill | Claude Opus 4.5 |
+| Flashcards (Physics) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill v3.3 | Claude Opus 4.5 |
 
 **Key Differences Between Versions:**
 - Version 2 uses more advanced prompts and the Opus 4.5 model compared to v1

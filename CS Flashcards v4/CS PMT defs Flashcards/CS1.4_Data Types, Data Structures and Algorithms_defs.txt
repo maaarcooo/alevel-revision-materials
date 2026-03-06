@@ -1,0 +1,112 @@
+What is the AND (∧) logical operator? | A logical operator that returns TRUE (1) only if ALL inputs are TRUE (1)
+A logical operator that returns TRUE only when all inputs are TRUE — what operator is this? | AND (∧)
+What is the OR (∨) logical operator? | A logical operator that returns TRUE (1) if any one of the inputs is TRUE (1)
+A logical operator that returns TRUE when at least one input is TRUE — what operator is this? | OR (∨)
+What is the XOR logical operator? | A logical operator that returns TRUE (1) only if exactly one of the inputs is TRUE (1)
+A logical operator that returns TRUE only when exactly one input is TRUE — what operator is this? | XOR (exclusive OR)
+How does AND differ from OR? | AND requires all inputs to be TRUE to return TRUE; OR requires only one input to be TRUE to return TRUE
+How does XOR differ from OR? | XOR returns TRUE only when exactly one input is TRUE; OR returns TRUE when one or more inputs are TRUE (including when both are TRUE)
+What is ASCII? | A character set that represents alphanumeric characters or symbols using 8 bits per character
+A character set that uses 8 bits to encode alphanumeric characters and symbols — what is this? | ASCII
+What is UNICODE? | A character set that is a superset of ASCII, representing characters as integer code points equal to their ASCII codes
+A character set that extends ASCII and assigns an integer code point to each character — what is this? | UNICODE
+How does UNICODE differ from ASCII? | UNICODE is a superset of ASCII — it includes all ASCII characters but can represent a much larger set of characters from different languages and symbol sets
+What is binary? | A base 2 number system that uses only ones and zeros to represent numbers
+A base 2 number system using only 1s and 0s — what is this called? | Binary
+What is denary? | A base 10 number system that uses 10 characters (0 to 9) to represent numbers
+A base 10 number system using digits 0-9 — what is this called? | Denary (decimal)
+What is hexadecimal? | A base 16 number system that uses 16 characters (0-9 and A-F) to represent numbers
+A base 16 number system using characters 0-9 and A-F — what is this called? | Hexadecimal
+What base does binary use? | Base 2
+What base does denary use? | Base 10
+What base does hexadecimal use? | Base 16
+What is an integer data type? | A data type for storing whole number values (positive or negative) with no decimal parts
+A data type that stores whole numbers with no fractional component — what is this? | Integer
+What is a real/floating point data type? | A data type for storing numbers with decimal or fractional parts
+A data type that stores numbers with decimal or fractional parts — what is this? | Real (floating point)
+What is a Boolean data type? | A data type that can store only one of two possible values (e.g. TRUE/FALSE or 1/0)
+A data type restricted to exactly two possible values such as TRUE or FALSE — what is this? | Boolean
+What is a character data type? | A data type for storing a single letter, number, or special character
+A data type that holds a single letter, digit, or special character — what is this? | Character
+What is a string data type? | A data type for storing a sequence of alphanumeric characters or symbols, typically within quotation marks
+A data type that stores a sequence of characters, usually enclosed in quotation marks — what is this? | String
+What is a primitive data type? | A basic built-in data type provided by a programming language
+A basic data type that is built into the programming language rather than user-defined — what term describes this? | Primitive data type
+What is bitwise manipulation? | Operations performed directly on a set of bits
+What are shifts in bitwise manipulation? | A bitwise operation where all bits are moved by one place in a given direction; the end bit may be taken as a carry or appended to the other end depending on the shift method
+What is floating point arithmetic? | Performing arithmetic operations on floating point (decimal) numbers represented in binary
+What is two's complement? | A method of storing negative numbers in binary by flipping all the bits of the positive number's binary representation and then adding 1
+A method for representing negative binary numbers that involves inverting all bits and adding 1 — what is this called? | Two's complement
+How does a real/floating point data type differ from an integer data type? | A real/floating point stores numbers with decimal or fractional parts; an integer stores only whole numbers with no decimal component
+What is an array? | A data structure for storing a finite, ordered set of data of the same data type within a single identifier
+A data structure that holds a fixed-size, ordered collection of elements all of the same type under one identifier — what is this? | Array
+What is a list? | A data structure that stores a sequence of data values, each with a unique index
+A data structure storing an indexed sequence of data values — what is this? | List
+What is a tuple? | A data structure for storing an immutable, ordered set of data that can be of different data types, within a single identifier
+An ordered, immutable data structure that can hold elements of different types under one identifier — what is this? | Tuple
+How does a tuple differ from an array? | A tuple is immutable (cannot be changed after creation) and can hold different data types; an array is mutable and stores elements of the same data type
+What is a linked list? | A data structure storing an ordered sequence of data where each item is stored with a pointer to the next item; items are not stored contiguously in memory
+A data structure where each element contains data and a pointer to the next element, with items not stored in contiguous memory — what is this? | Linked list
+How does a linked list differ from an array? | In a linked list, each item stores a pointer to the next item and items are not contiguous in memory; in an array, items are stored contiguously and accessed by index without pointers
+What is a stack? | A last-in-first-out (LIFO) data structure where the last item pushed on is the first to be popped off
+A LIFO data structure where the most recently added item is removed first — what is this? | Stack
+What is a queue? | A first-in-first-out (FIFO) data structure where the first item pushed on is the first to be popped off
+A FIFO data structure where the earliest added item is removed first — what is this? | Queue
+How does a stack differ from a queue? | A stack uses LIFO (last in, first out) so the most recent item is removed first; a queue uses FIFO (first in, first out) so the earliest item is removed first
+What does LIFO stand for, and which data structure uses it? | Last In, First Out — used by stacks
+What does FIFO stand for, and which data structure uses it? | First In, First Out — used by queues
+What is a record? | A data structure that stores data in elements called fields, organised based on attributes
+A data structure that organises data into named fields based on attributes — what is this? | Record
+What is a graph? | A data structure consisting of a set of vertices (nodes) connected by a set of edges (arcs)
+A data structure made up of vertices/nodes connected by edges/arcs — what is this? | Graph
+What is a directed graph? | A graph where the order of the vertices in an edge matters — edges are one-way
+A graph with one-way edges where the direction between paired vertices matters — what is this called? | Directed graph
+What is an undirected graph? | A graph where the order of the vertices in an edge does not matter — edges are bidirectional
+A graph with bidirectional edges where vertex order does not matter — what is this called? | Undirected graph
+How does a directed graph differ from an undirected graph? | In a directed graph, edges have a specific direction (one-way); in an undirected graph, edges are bidirectional (two-way)
+What is a tree? | A data structure using a set of linked nodes to form a hierarchical structure starting at a root node, where each node is a child of a parent node
+A hierarchical data structure of linked nodes starting from a root, where each node is a child of a parent — what is this? | Tree
+What is a binary search tree? | A tree where each node has at most 2 children; the right child and its descendants always have a greater value than the root node
+A tree where each node has at most two children and the right subtree always contains values greater than the root — what is this? | Binary search tree
+What is a hash table? | A data structure where a hashing algorithm calculates a value to determine where a data item is stored, allowing direct access by recalculation without any search
+A data structure that uses a hashing algorithm to calculate storage locations, enabling direct access without searching — what is this? | Hash table
+Why can data be accessed quickly in a hash table? | The hashing algorithm recalculates the storage location from the key, giving direct access to the data item without needing to search through the structure
+What is breadth first traversal? | A graph traversal method that visits all neighbours of the starting node first, then repeats for each neighbour in the order they were visited
+A graph traversal that explores all neighbours of a node before moving to the next level of neighbours — what method is this? | Breadth first traversal
+What is depth first traversal? | A graph traversal method that travels as far as possible along one route before backtracking and trying alternative unexplored routes
+A graph traversal that goes as deep as possible along a single path before backtracking — what method is this? | Depth first traversal
+How does breadth first traversal differ from depth first traversal? | Breadth first visits all neighbours of the current node before moving deeper (level by level); depth first follows a single path as far as possible before backtracking
+What is a Boolean expression? | A combination of Boolean variables and logical operators that evaluates to either TRUE or FALSE depending on the input
+A combination of Boolean variables and logical operators that evaluates to TRUE or FALSE — what is this called? | Boolean expression
+What is Boolean logic? | A type of algebra using logical operators where all values and expressions ultimately reduce to TRUE or FALSE
+State the commutation law for AND | A ∧ B = B ∧ A
+State the commutation law for OR | A ∨ B = B ∨ A
+What do the commutation laws state? | The order of operands does not matter: A ∧ B = B ∧ A, and A ∨ B = B ∨ A
+State the association law for AND | A ∧ (B ∧ C) = (A ∧ B) ∧ C
+State the association law for OR | A ∨ (B ∨ C) = (A ∨ B) ∨ C
+What do the association laws state? | The grouping of operands does not matter: A ∧ (B ∧ C) = (A ∧ B) ∧ C, and A ∨ (B ∨ C) = (A ∨ B) ∨ C
+State De Morgan's First Law | ¬(A ∨ B) = ¬A ∧ ¬B
+¬(A ∨ B) = ¬A ∧ ¬B — which law is this? | De Morgan's First Law
+State De Morgan's Second Law | ¬(A ∧ B) = ¬A ∨ ¬B
+¬(A ∧ B) = ¬A ∨ ¬B — which law is this? | De Morgan's Second Law
+How does De Morgan's First Law differ from De Morgan's Second Law? | First Law: NOT (A OR B) = (NOT A) AND (NOT B) — it breaks a negated OR into ANDed negations. Second Law: NOT (A AND B) = (NOT A) OR (NOT B) — it breaks a negated AND into ORed negations
+State the distribution law for AND over OR | A ∧ (B ∨ C) = (A ∧ B) ∨ (A ∧ C)
+State the expanded distribution law for two OR expressions ANDed together | (A ∨ B) ∧ (C ∨ D) = (A ∧ C) ∨ (A ∧ D) ∨ (B ∧ C) ∨ (B ∧ D)
+State the double negation law | A = ¬¬A (negating a value twice returns the original value)
+What is a D-type flip flop? | A sequential logic circuit used to store a single bit, with two stable states that can be toggled using an input signal
+A sequential logic circuit that stores a single bit and has two stable states — what is this? | D-type flip flop
+What is a half adder? | A combinational arithmetic circuit that adds two input bits and produces a sum bit (S) and a carry bit (C) as output
+A circuit that takes two single-bit inputs and produces a sum and carry output — what is this called? | Half adder
+What is a full adder? | A combination of two half adders that takes a carry-in bit and two other input bits, and produces their sum and a new carry-out bit
+A circuit that adds three bits (two inputs plus a carry-in) and outputs a sum and carry-out — what is this called? | Full adder
+How does a full adder differ from a half adder? | A half adder takes only two input bits and produces sum + carry. A full adder takes three bits (two inputs plus a carry-in) and produces sum + carry-out, making it suitable for multi-bit addition
+What are Karnaugh maps used for? | Simplifying Boolean expressions by redrawing the truth table and applying visual rules to obtain expressions with the minimum (or close to minimum) logical operators, as a sum of products
+A method of simplifying Boolean expressions by rearranging the truth table and grouping adjacent cells to find a minimal sum-of-products expression — what is this? | Karnaugh map
+What are logic gate diagrams? | A graphical method of representing Boolean expressions using the standard symbols for logic gates
+How many inputs does a half adder take? | Two input bits
+How many inputs does a full adder take? | Three bits (two input bits plus a carry-in bit)
+What output does a half adder produce? | A sum bit (S) and a carry bit (C)
+What output does a full adder produce? | A sum bit and a carry-out bit
+In a binary search tree, where are values greater than the root placed? | In the right subtree (the right node and all its descendants)
+How many characters does hexadecimal use? | 16 characters (0-9 and A-F)
+How many bits does ASCII use per character? | 8 bits

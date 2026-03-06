@@ -1,0 +1,82 @@
+What is the Accumulator (ACC)? | A special register that temporarily stores the results of operations performed by the ALU
+A special register that temporarily stores the results of ALU operations — what is this called? | The Accumulator (ACC)
+What is the Address Bus? | A bus that carries the memory location address of the register the data is being carried to or from
+A bus that carries memory location addresses between registers — what is this called? | The Address Bus
+What is the Arithmetic and Logic Unit (ALU)? | A part of the CPU that performs arithmetic calculations and logical operations on data
+The component of the CPU responsible for arithmetic calculations and logical operations — what is it called? | The Arithmetic and Logic Unit (ALU)
+What are buses in a computer system? | A physical set of parallel wires that connect components and carry groups of bits between them
+A physical set of parallel wires connecting components and carrying groups of bits — what are these called? | Buses
+What is cache memory? | A small, fast, but expensive memory in the CPU used to store frequently accessed instructions and data
+A small, fast, expensive memory inside the CPU for storing frequently accessed data — what is this called? | Cache
+What is clock speed? | The frequency at which the internal clock generates signals (switching between 0 and 1), controlling how often instructions are executed and data is fetched
+The frequency at which a processor's internal clock generates pulses, controlling instruction execution rate — what is this called? | Clock speed
+What is contemporary processor architecture? | A modern architecture that combines elements of both Von Neumann and Harvard architectures
+A processor architecture that combines features of both Von Neumann and Harvard designs — what is this called? | Contemporary processor architecture
+What is the Control Bus? | A bi-directional bus that carries control signals from the CU to synchronise access and use of data
+A bi-directional bus carrying control signals from the CU to synchronise data access — what is this called? | The Control Bus
+What is the Control Unit (CU)? | A part of the CPU that controls and manages the execution of instructions by sending control signals, coordinating fetch-decode-execute cycles and buses
+The CPU component that manages instruction execution, sends control signals, and coordinates fetch-decode-execute cycles — what is it called? | The Control Unit (CU)
+What is the Current Instruction Register (CIR)? | A special register that stores the current instruction being executed and decoded, divided into operand and opcode
+A register that holds the instruction currently being decoded and executed, split into operand and opcode — what is this called? | The Current Instruction Register (CIR)
+What two parts is the instruction in the CIR divided into? | Operand and opcode
+What is the Data Bus? | A bi-directional bus for carrying data and instructions between the processor and memory
+A bi-directional bus that transfers data and instructions between the processor and memory — what is this called? | The Data Bus
+What are the three stages of the Fetch-Decode-Execute cycle? | Fetch (supply address and retrieve instruction from memory), Decode (interpret instruction and retrieve required data), Execute (CPU carries out the required actions)
+Explain the Fetch stage of the FDE cycle | The address of the next instruction is supplied and the instruction is retrieved from memory
+Explain the Decode stage of the FDE cycle | The instruction is interpreted and the required data is read and retrieved from their addresses
+Explain the Execute stage of the FDE cycle | The CPU carries out the required actions specified by the instruction
+What is Harvard Architecture? | A computer architecture that stores data and instructions in separate memories, allowing the next instruction to be read while data is currently being read or written
+A computer architecture with separate memories for data and instructions, enabling simultaneous data and instruction access — what is this called? | Harvard Architecture
+Why does Harvard Architecture allow faster processing than Von Neumann? | Data and instructions are stored in separate memories, so the next instruction can be fetched while data is still being read or written, avoiding the Von Neumann bottleneck
+What is the Memory Address Register (MAR)? | A special register that stores the memory address of the next instruction to load or data to use
+A register that holds the memory address of the next instruction or data location — what is this called? | The Memory Address Register (MAR)
+What is the Memory Data Register (MDR)? | A special register that temporarily stores data to be read from or written to the computer's memory
+A register that temporarily holds data being transferred to or from main memory — what is this called? | The Memory Data Register (MDR)
+What is a core in a processor? | A processing unit that handles instructions with its own fetch-decode-execute cycle
+How do multi-core processors improve performance? | They have multiple cores that can run simultaneously, allowing multiple instructions to be processed at the same time
+What is pipelining? | The simultaneous processing of several instructions by decoding the next instruction and fetching the one after while the current one is being executed
+Why does pipelining improve CPU throughput? | Different stages of the FDE cycle are handled concurrently for different instructions, so the CPU completes more instructions per unit time
+What is the Program Counter (PC)? | A special purpose register that stores the address of the next instruction to execute
+A register that holds the address of the next instruction to be executed — what is this called? | The Program Counter (PC)
+What are registers? | Special memory cells that can be accessed very quickly, used to temporarily store data and control information
+Fast-access memory cells within the CPU that temporarily store data and control information — what are these called? | Registers
+What is Von Neumann Architecture? | A computer architecture where a single control unit manages program control via a linear sequence of fetch-decode-execute cycles
+A computer architecture using a single control unit with a linear sequence of FDE cycles — what is this called? | Von Neumann Architecture
+How does Von Neumann Architecture differ from Harvard Architecture? | Von Neumann stores data and instructions in the same memory (shared bus), causing a bottleneck. Harvard stores them in separate memories, allowing simultaneous access to data and instructions
+How does the Address Bus differ from the Data Bus? | The Address Bus is unidirectional and carries memory addresses. The Data Bus is bi-directional and carries data and instructions
+How does the MAR differ from the MDR? | The MAR stores the memory address of the next instruction or data location. The MDR stores the actual data being read from or written to memory
+How does the Program Counter (PC) differ from the Current Instruction Register (CIR)? | The PC stores the address of the next instruction to execute. The CIR stores the instruction currently being decoded and executed
+What is a Complex Instruction Set Computer (CISC)? | A processor design that can execute a series of tasks in a single complex instruction built into the hardware, using less RAM but preventing pipelining
+A processor design using complex multi-task instructions built into hardware, reducing RAM usage but preventing pipelining — what is this? | CISC (Complex Instruction Set Computer)
+What is a Reduced Instruction Set Computer (RISC)? | A simpler processor design that executes a single simple instruction each clock cycle, using more RAM but allowing pipelining
+A processor design using simple single-cycle instructions that enable pipelining but require more RAM — what is this? | RISC (Reduced Instruction Set Computer)
+How does CISC differ from RISC? | CISC uses complex multi-task instructions (less RAM, no pipelining). RISC uses simple single-cycle instructions (more RAM, supports pipelining)
+Why can RISC processors use pipelining but CISC processors cannot? | RISC instructions each take one clock cycle and have a uniform length, making it easy to overlap stages. CISC instructions vary in length and complexity, making pipeline stages uneven
+What is a Graphic Processing Unit (GPU)? | A specialised processing unit with a huge number of small cores that allow efficient parallel computation for tasks such as graphics, machine learning, and data mining
+A specialised processor with many small cores designed for efficient parallel computation — what is this called? | A GPU (Graphic Processing Unit)
+What are multicore systems? | Systems where several CPU cores are incorporated into a single processor chip to help distribute workload
+What is a parallel processing system? | A system that splits a job into several subtasks which are simultaneously carried out by each core
+The approach of splitting a job into subtasks executed simultaneously across multiple cores — what is this called? | Parallel processing
+What is flash storage? | A solid-state technology that stores data on a collection of memory chips with no moving parts, accessed by software
+A solid-state storage technology using memory chips with no moving parts — what is this called? | Flash storage
+What are input devices? | Peripheral devices that allow the user to pass readable data into a computer, which is decoded and sent to the CPU
+Peripheral devices that allow users to communicate data to a computer for decoding and processing — what are these called? | Input devices
+What is magnetic storage? | A storage method that relies on the polarisation of magnetic particles on a mechanically moved magnetic material, offering high capacity at low cost
+A storage technology using polarised magnetic particles on a mechanically moved surface, with high capacity and low cost — what is this? | Magnetic storage
+What is optical storage? | A storage method where data is stored in the reflectivity (pits and lands) of a surface, read and written by a laser
+A storage method using pits and lands on a reflective surface, read and written by a laser — what is this? | Optical storage
+What are output devices? | Peripheral devices that convert signals from a computer into a human-readable form
+Peripheral devices that convert computer signals into human-readable form — what are these called? | Output devices
+What is Random Access Memory (RAM)? | Volatile memory used to store programs and data currently in use, with quick access times but all data is lost when powered off
+Volatile memory with quick access that stores currently running programs and data — what is this called? | RAM (Random Access Memory)
+What is Read-Only Memory (ROM)? | Non-volatile memory used to store information permanently required to boot up and run the computer, which cannot be written to
+Non-volatile memory that stores permanent boot-up instructions and cannot be written to — what is this called? | ROM (Read-Only Memory)
+How does RAM differ from ROM? | RAM is volatile (data lost when powered off), writable, and stores programs currently in use. ROM is non-volatile (data retained without power), read-only, and stores permanent boot-up instructions
+What is a storage device? | Any medium on which data can be stored even when powered off
+What is virtual storage? | Using the hard disk as though it were an extension of memory to free up more RAM for current programs
+The technique of using hard disk space as an extension of main memory to free up RAM — what is this called? | Virtual storage
+How does flash storage differ from magnetic storage? | Flash storage uses memory chips with no moving parts (solid-state), offering faster access. Magnetic storage uses mechanically moved magnetic material, offering higher capacity at lower cost
+How does optical storage differ from magnetic storage? | Optical storage uses a laser to read pits and lands on a reflective surface. Magnetic storage uses the polarisation of magnetic particles on a mechanically moved material
+The three types of bus in a computer system are the [...], [...], and [...] | Address Bus, Data Bus, and Control Bus
+Which bus type is unidirectional? | The Address Bus (it only sends addresses from the CPU to memory)
+Which two buses are bi-directional? | The Data Bus and the Control Bus

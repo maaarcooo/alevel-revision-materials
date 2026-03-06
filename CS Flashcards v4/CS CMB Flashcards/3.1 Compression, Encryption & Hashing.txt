@@ -1,0 +1,77 @@
+What is compression? | The process of reducing the storage space required by a file
+The process of reducing file size to store more data in the same space — what is this called? | Compression
+Why is compression important for transferring files over networks? | Smaller files transfer faster, reducing transmission time and bandwidth consumption
+What are the two categories of compression? | Lossy and lossless
+What is lossy compression? | A method that reduces file size by permanently removing some data from the file
+A compression method that permanently discards some data to achieve smaller file sizes — what type of compression is this? | Lossy compression
+What is lossless compression? | A method that reduces file size without losing any information, allowing the original file to be fully recovered
+A compression method where the original file can be perfectly reconstructed from the compressed version — what type is this? | Lossless compression
+How does lossy vs lossless compression differ in terms of reversibility? | Lossy compression is irreversible (original data cannot be recovered). Lossless compression is reversible (original data can be fully restored)
+Give an example of how audio files can be compressed using lossy compression | By removing very high or very low frequencies that are least noticeable to the human ear
+Why can't a lossy-compressed file be restored to its original form? | Because the removed data is completely discarded with no record of what was lost
+Name one benefit of lossy compression | Greatly reduced file sizes, suitable for media streaming where some data loss is acceptable
+Name one drawback of lossy compression | Irreversible loss of data quality, making it unsuitable for text or archival storage
+Name one benefit of lossless compression | Maintains original data integrity, best for text and data that must remain exact
+Name one drawback of lossless compression | Larger file sizes than lossy compression, requires higher bandwidth when streaming
+When should you recommend lossy compression? | When a small file size or quick data transfer is prioritised, and some quality loss is acceptable (e.g. social media images, streaming media)
+When should you recommend lossless compression? | When data integrity is imperative and no information can be lost (e.g. text files, professional logos, archival storage)
+What is run length encoding (RLE)? | A lossless compression method where consecutive repeated values are replaced with one occurrence of the data followed by the count of repetitions
+A lossless compression method that replaces consecutive repeated values with a single value and a count — what is this called? | Run length encoding (RLE)
+How would the string AAAAAABBBBBCCC be compressed using RLE? | A6B5C3
+How would the RLE-compressed sequence 3C3M4C be decompressed? | CCCMMMCCCC
+How would the string CCCCOLLLCCCCCMOCCCCC be compressed using RLE? | 4C1O3L5C1M1O5C
+When does RLE work well? | When there are many consecutive repeated values in the data (high repetition)
+When does RLE perform poorly? | When there is little consecutive repetition in the data, as it offers minimal reduction in file size
+RLE is commonly used in [...] images to compress sequences of the same colour | bitmap
+What is dictionary encoding (dictionary coding)? | A lossless compression method where frequently occurring data sequences are replaced with shorter index codes, stored alongside a dictionary that maps codes to original data
+A lossless compression method that replaces recurring sequences with shorter unique codes stored in a lookup table — what is this called? | Dictionary encoding (dictionary coding)
+How does dictionary encoding achieve compression? | Frequently occurring pieces of data are replaced with a shorter index value. The compressed data is stored alongside a dictionary mapping each index to the original data
+Why must data compressed using dictionary encoding be transferred alongside its dictionary? | Without the dictionary, the index values cannot be mapped back to the original data, making the compressed data unusable
+How does RLE differ from dictionary coding in when each is most effective? | RLE is most effective when data has lots of consecutive repetition. Dictionary coding is more versatile, handling non-consecutive repeated patterns, but may require more computational resources
+What is encryption? | The process of converting readable data (plaintext) into an unreadable format (ciphertext) to secure it from unauthorised access during transmission or storage
+The process of scrambling data into an unreadable format to protect it from unauthorised access — what is this called? | Encryption
+What are 'keys' in the context of encryption? | Specialised values/programs used to encrypt (scramble) and decrypt (unscramble) data
+What is symmetric encryption? | An encryption method where the same single private key is used by both the sender and receiver to encrypt and decrypt data
+An encryption method where a single shared key is used for both encryption and decryption — what type of encryption is this? | Symmetric encryption
+What is a key exchange in symmetric encryption? | The process by which the sender and receiver distribute the shared private key to each other
+Why must the private key in symmetric encryption be kept secret? | If the key is intercepted during the key exchange, an attacker can decrypt all intercepted communications
+What is the main vulnerability of symmetric encryption? | The challenge of securely sharing the key between sender and receiver; if intercepted during the key exchange, all communications can be decrypted
+What is asymmetric encryption? | An encryption method that uses two mathematically related keys: a public key for encryption and a private key for decryption
+An encryption method that uses a public key for encryption and a separate private key for decryption — what type is this? | Asymmetric encryption
+In asymmetric encryption, what is a key pair? | The public key and private key together, which are mathematically related to one another and created at the same time
+In asymmetric encryption, which key can be freely shared? | The public key can be published anywhere for anyone to see
+In asymmetric encryption, which key must be kept secret? | The private key, which is stored locally by the owner
+How does someone send you an encrypted message using asymmetric encryption? | They find your public key, encrypt the message with it, and only you can decrypt it using your private key
+How can asymmetric encryption prove a message was sent by you? | You encrypt the message with your private key. Anyone can decrypt it with your public key, proving you sent it since only you have access to the private key
+Encrypting a message with your own private key so recipients can verify you sent it forms the basis of what system? | Digital signatures
+How does symmetric encryption compare to asymmetric in terms of speed? | Symmetric encryption is usually faster, making it ideal for large amounts of data. Asymmetric encryption is typically slower
+How does asymmetric encryption solve the key distribution problem of symmetric encryption? | The public key can be openly shared without compromising security, so there is no need for a secure key exchange of a shared secret
+When is symmetric encryption most suitable? | For encrypting large files or databases within a secure network where key distribution is not an issue, or when the same person encrypts and decrypts (e.g. backups)
+When is asymmetric encryption most suitable? | For secure communications where security is critical, such as passwords, bank details, government communications, and secure key exchange
+What is hashing? | A process where an input (called a key) is passed through a hash function to produce a fixed-size output value (called a hash or digest)
+A process that converts any input into a fixed-size output value using a hash function — what is this called? | Hashing
+What is the fixed-size output of a hash function called? | A hash (or hash digest/digest)
+How does hashing differ from encryption in terms of reversibility? | Hashing is irreversible (the output cannot be reversed to recover the input). Encryption is reversible (ciphertext can be decrypted back to plaintext using a key)
+Does hashing use keys? | No. Unlike encryption, hashing does not use keys for its operation
+The same input always produces the same hash output. What property is this called? | Consistency (determinism)
+Even a minor change in input produces a completely different hash. What property does this demonstrate? | Sensitivity to data changes (avalanche effect)
+Why is hashing useful for storing passwords? | Passwords are stored as hashes, not plaintext. A hacker gaining database access only gets hashes, which cannot be reversed to reveal the actual passwords
+Describe the process of password verification using hashing | When the user signs up, their password is hashed and the hash is stored. At login, the entered password is hashed and compared to the stored hash. If they match, access is granted; if not, access is denied
+What is a hash table? | A data structure that holds key-value pairs, formed from a bucket array and a hash function, enabling data lookup in constant time
+A data structure using a bucket array and hash function to store key-value pairs with constant-time lookup — what is this? | A hash table
+How is data inserted into a hash table? | The data is used as input (key) for the hash function, and the result determines which bucket the data is stored in
+In what situations are hash tables used? | Where large amounts of data need to be stored with constant access times, such as in caches and databases
+What is a collision in the context of hashing? | When two different inputs (keys) produce the same hash value from the hash function
+Two different keys producing the same hash value — what is this called? | A collision
+Name two methods for resolving hash collisions | Storing items together in a list (chaining) under the same hash value, or using a second hash function to generate a new hash (rehashing/open addressing)
+What three properties should a good hash function have? | Low chance of collision, quick to calculate, and output smaller than the input
+Why should a hash function produce an output smaller than its input? | If the hash is not smaller, searching for the hash could take longer than searching for the original key, negating the efficiency benefit
+Why is comparing fixed-size hash digests faster than comparing variable-length strings? | Hash digests have a fixed length, making comparison computationally less intensive than comparing strings of different lengths
+How can hashing verify data integrity during network transfer? | The sender hashes the data before sending. The receiver hashes the received data using the same function. If both hashes match, the data was not altered during transmission
+Name three common hashing algorithms | MD5 (Message Digest 5), SHA-1 (Secure Hash Algorithm 1), SHA-256 (part of the SHA-2 family)
+Why is MD5 considered weak? | It is vulnerable to collision attacks, where different inputs can be made to produce the same hash
+Why is SHA-1 now considered weak? | It has known vulnerabilities, similar to MD5, despite previously being used in SSL certificates and software repositories
+The SHA-256 algorithm belongs to which family of hashing algorithms? | The SHA-2 family
+Which hashing algorithm family is designed to provide the highest levels of security? | SHA-3 (the most recent member of the Secure Hash Algorithm family)
+How do encryption and hashing differ in purpose? | Encryption secures data for transmission/storage and is reversible. Hashing is used for data verification and quick retrieval and is irreversible
+How do encryption and hashing differ in output length? | Encryption output length varies and can be the same or longer than the input. Hashing always produces a fixed-length output

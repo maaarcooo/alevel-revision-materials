@@ -1,0 +1,81 @@
+What is a software development life cycle (SDLC)? | A structured process consisting of stages used to plan, develop, test, and deploy software
+A structured process of stages for planning, developing, testing, and deploying software — what term describes this? | Software development life cycle (SDLC)
+What happens during the Analysis stage of an SDLC? | Stakeholders state their requirements, the problem is clearly defined, and system requirements are documented
+How may requirements be defined during the Analysis stage? | By analysing strengths and weaknesses of the current solution, and considering the types of data involved (inputs, outputs, stored data, volume)
+Name five aspects designed during the Design stage of an SDLC | Inputs (volume, methods, frequency), outputs (volume, methods, frequency), security features, hardware setup, and user interface
+What else may be designed during the Design stage besides the system itself? | A test plan
+What happens during the Development stage of an SDLC? | The design is used to split the project into individual, self-contained modules which are allocated to teams for programming
+What is alpha testing? | Testing carried out in-house by the software development teams within the company to pinpoint and fix bugs
+Testing carried out in-house by the development teams to find and fix bugs — what type of testing is this? | Alpha testing
+What is beta testing? | Testing carried out by end-users after alpha testing, where user feedback informs the next stage of development
+Testing carried out by end-users whose feedback informs further development — what type of testing is this? | Beta testing
+What is white box testing? | Testing carried out by developers where the test plan is based on the internal structure of the program and all possible routes through the code are tested
+Testing based on the internal structure of a program where all possible code paths are tested — what type of testing is this? | White box testing
+What is black box testing? | Testing where the software is tested without the testers knowing the internal structure, tracing through inputs and outputs only
+Testing where testers have no knowledge of the internal code structure and only trace inputs and outputs — what type of testing is this? | Black box testing
+How does white box testing differ from black box testing? | White box testing is based on the internal structure of the program and tests all code paths. Black box testing ignores the internal structure and only tests inputs and outputs
+What happens during the Implementation stage? | The tested software is installed onto the users' systems
+What happens during the Evaluation stage? | The effectiveness of the software is evaluated against the system requirements defined at the Analysis stage
+Name four criteria used to evaluate software during the Evaluation stage | Robustness, reliability, portability, and maintainability
+What happens during the Maintenance stage? | End-users flag errors or improvements, and programmers send out software updates to fix bugs, security issues, or make improvements
+What is the waterfall lifecycle model? | A sequential software development model where stages are completed in a fixed order from start to finish, with each phase completed before the next begins
+A sequential SDLC where each stage must be fully completed before the next begins — what model is this? | The waterfall lifecycle model
+What is a feasibility study? | An evaluation carried out during the Analysis stage of the waterfall model to assess whether the project is viable
+What does the TELOS acronym stand for in a feasibility study? | Technical, Economic, Legal, Operational, Scheduling
+What does the Technical factor in TELOS assess? | Whether the project is possible given the technology available and accessible
+What does the Economic factor in TELOS assess? | Whether the project can be financed in the short-term and the long-term
+What does the Legal factor in TELOS assess? | Whether the project can be completed within the law
+What does the Operational factor in TELOS assess? | Whether the project can be successfully implemented and maintained
+What does the Scheduling factor in TELOS assess? | Whether the project can be completed within the time available
+Why is the waterfall model considered inflexible? | If a change is needed, programmers must revisit all stages between the current stage and the stage where the change is required
+Why do users have limited input in the waterfall model? | Users are only involved at the very beginning (Analysis) and end (Evaluation) of the lifecycle
+What type of projects is the waterfall model suited to? | Static, low-risk projects with well-understood, stable requirements that need little user input
+Name two merits of the waterfall model | Straightforward to manage, and clearly documented
+Name two drawbacks of the waterfall model | Lack of flexibility, and no built-in risk analysis
+What are agile methodologies? | A collection of software development methodologies that aim to improve flexibility and adapt to changes in user requirements faster
+A collection of SDLCs designed to improve flexibility and respond faster to changing user requirements — what term describes these? | Agile methodologies
+How is the problem handled in agile development? | It is broken down into sections which are developed in parallel, with design and analysis often occurring together
+What is delivered early in agile development? | A working prototype, which is then built upon and improved iteratively with regular new prototypes
+In agile development, what is prioritised over documentation? | User satisfaction
+How does agile differ from waterfall in terms of flexibility? | Agile adapts easily to changing requirements through iterative prototyping and parallel development. Waterfall follows a fixed sequence where changes require revisiting all earlier stages
+What is extreme programming (XP)? | An agile model where a pair of programmers works alongside a representative end-user, using user stories to define requirements
+An agile model using pair programming, a representative end-user, and user stories to define requirements — what methodology is this? | Extreme programming (XP)
+What are user stories in extreme programming? | System requirements specified by the end-user that are used when designing the program
+Why does extreme programming use pair programming? | To produce high-quality code — one person writes the code while the other critiques it, so it is improved as it is written
+What working-time limit is set in extreme programming, and why? | Programmers work no longer than forty hours a week to ensure quality is not compromised
+What is a 'working version' in extreme programming? | The output of each iteration through the cycle — a version of the program that could function as the final product
+Name two drawbacks of extreme programming | Hard to produce high-quality documentation due to iterative nature, and the end-user may not always be available to participate
+What type of projects is extreme programming suited to? | Small to medium projects with unclear initial requirements that require excellent usability and high customer involvement
+What is the spiral model? | A software development model focused on managing risk-heavy projects, built on four iterative stages
+A risk-focused iterative SDLC built on four key stages — what model is this? | The spiral model
+Name the four key stages of the spiral model | Planning (analysing requirements), Risk analysis (identifying and mitigating risks), Engineering (development, testing, implementation), Evaluation (informing the next iteration)
+What happens if the project is found to be too risky at any point in the spiral model? | The project is terminated
+Why is the spiral model suited only to very large-scale projects? | Because hiring risk assessors to analyse risks is expensive, making it cost-prohibitive for smaller projects
+The spiral model combines aspects of which two types of development process? | Iterative (agile) and sequential (waterfall) processes
+Name two merits of the spiral model | Thorough risk analysis and mitigation, and it caters to changing user needs through iterative prototyping
+Name two drawbacks of the spiral model | Expensive to hire risk assessors, and lack of focus on code efficiency
+What type of projects is the spiral model suited to? | Large, complex, risk-intensive projects with a high budget where requirements may change
+What is Rapid Application Development (RAD)? | An iterative methodology that uses partially functioning prototypes which are continually built upon with user feedback
+An iterative methodology using partially functioning prototypes refined through continuous user feedback — what is this? | Rapid Application Development (RAD)
+How are user requirements initially gathered in RAD? | Using focus groups
+Describe the RAD development cycle | Requirements are gathered, an incomplete prototype is developed and given to users, user feedback generates the next improved prototype, and this repeats until the prototype meets user requirements and becomes the final product
+Why is RAD commonly used when user requirements are unclear at the start? | Because prototypes are continually refined based on user feedback, so requirements can evolve during development
+What is a drawback of changing requirements over the course of a RAD project? | Additions and changes made to the code may be inefficient
+What type of projects is RAD suited to? | Small to medium, low-budget projects with short time-frames requiring rapid delivery and active user participation
+Name two merits of RAD | Caters to changing user requirements, and focuses on core features to reduce development time
+Name two drawbacks of RAD | Poorer quality documentation, and fast pace may reduce code quality
+How does RAD differ from the spiral model in terms of cost and project scale? | RAD is suited to small/medium low-budget projects with short time-frames. The spiral model is suited to large, high-budget projects requiring extensive risk management
+How do agile methodologies differ from the waterfall model regarding documentation? | Agile prioritises user satisfaction and working software over documentation. The waterfall model produces clear, thorough documentation at each stage
+What is an algorithm? | A set of instructions used to solve a problem
+A set of instructions used to solve a problem — what term describes this? | An algorithm
+Inputs to an algorithm must be [...] defined | clearly (specifying what is valid and what is invalid)
+An algorithm must always produce a valid [...] for any defined input | output
+An algorithm must always reach a [...] condition | stopping
+Why should an algorithm be well-documented? | For reference, so others can understand its purpose and design
+Why should an algorithm be well-commented? | So that modifications can easily be made
+Name two qualities related to how an algorithm handles data | Inputs must be clearly defined, and it must be able to deal with invalid inputs
+How does extreme programming differ from general agile in team structure? | XP specifically requires pair programming (two programmers) alongside a representative end-user. General agile may use various team structures without mandating pairs
+What is a sprint in agile development? | A short time-boxed development period, usually 1-4 weeks, during which a set of features is designed, developed, and tested
+What happens during a Sprint Review? | Working software is demonstrated to stakeholders, and feedback is collected to identify changes or improvements
+What happens during a Sprint Retrospective? | The team reflects on what went well and what needs improving in the next sprint, focusing on team performance and process optimisation
+Why is scope creep a risk in agile and RAD methodologies? | Their flexible, iterative nature may lead to uncontrolled changes in requirements as new feedback continually reshapes the project

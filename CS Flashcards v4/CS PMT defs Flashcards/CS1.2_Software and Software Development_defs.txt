@@ -1,0 +1,136 @@
+What is the BIOS (Basic Input Output System)? | A program that initialises and tests system hardware is functional, then loads the OS from the hard disk into RAM when the computer is turned on
+A program that initialises and tests hardware, then loads the OS from the hard disk into RAM at startup — what is this? | BIOS (Basic Input Output System)
+What are device drivers? | Programs supplied with peripheral devices that allow the OS to control and communicate with the device
+A program that allows the OS to control and communicate with a peripheral device — what is this called? | A device driver
+What is a distributed operating system? | An OS spread over multiple computer servers on a network, acting as a single system to parallel process a job
+An OS spread across multiple network servers that acts as a single system for parallel processing — what type of OS is this? | Distributed operating system
+What is an embedded operating system? | A specialised OS with limited resources and functionality, built in to control a single machine
+A specialised OS with limited resources, built in to control a single machine — what type of OS is this? | Embedded operating system
+What is the First Come First Served (FCFS) scheduling algorithm? | A scheduling algorithm where processes are dealt with in the order they arrive, like a queue
+A scheduling algorithm that processes jobs in arrival order (queue structure) — what is it called? | First Come First Served (FCFS)
+What is intermediate code? | Code partly translated between high-level and machine language, produced by a compiler
+Code that sits between high-level language and machine code, produced during compilation — what is this called? | Intermediate code
+What is an interrupt? | A signal from hardware, software, or the clock to alert the CPU. If higher priority than the current task, the current routine pauses and resumes after the interrupt is executed
+What are the three sources that can generate an interrupt? | Hardware, software, and the clock
+What happens when an interrupt has higher priority than the current task? | The current routine pauses, the interrupt is handled, and then the original routine resumes
+What is an Interrupt Service Routine (ISR)? | When a higher-priority interrupt arrives, register contents are saved to the system stack at the end of the current FDE cycle, then the interrupt is handled
+Where are register contents stored when an ISR is triggered? | On the system stack
+At what point in the FDE cycle are register contents saved when handling an interrupt? | At the end of the current FDE cycle
+What is memory management? | The efficient organisation and allocation of main memory to programs currently in use
+The efficient organisation and allocation of main memory to running programs — what OS function is this? | Memory management
+What is the Multi-level Feedback Queues scheduling algorithm? | A scheduling algorithm that uses multiple queues, each with a different priority, where jobs can be moved between queues
+A scheduling algorithm with multiple priority queues where jobs can move between queues — what is it called? | Multi-level Feedback Queues
+What is a multi-tasking operating system? | An OS capable of running multiple tasks simultaneously
+An OS that can run multiple tasks simultaneously — what type of OS is this? | Multi-tasking operating system
+What is a multi-user operating system? | An OS with one mainframe computer and multiple terminals, allowing multiple users to access the computer's resources. Each user gets a time slice of the mainframe processor
+How does a multi-user OS share processor time between users? | Each user is given a time slice of the mainframe processor
+What is an operating system? | A set of programs that manages the operation of the computer, loaded into RAM every time the computer is turned on. It bridges the user to the hardware
+A set of programs loaded into RAM at startup that bridges the user to the hardware — what is this? | The operating system
+What is paging? | Partitioning memory into fixed-sized physical divisions called pages. Processes are assigned an appropriate number of pages
+How does paging divide memory? | Into fixed-sized physical divisions called pages
+What is a real-time operating system? | An OS where data is processed as it arrives, with responses generated within a guaranteed timeframe
+An OS that processes data as it arrives and guarantees response times — what type of OS is this? | Real-time operating system
+What is the Round-Robin scheduling algorithm? | A scheduling algorithm where each process is given an equal time slice on a FIFO basis. If a process doesn't finish in its time slice, it joins the end of the queue
+What happens to a process that doesn't complete within its Round-Robin time slice? | It joins the end of the queue
+What is scheduling? | Allocating processor time to each application to ensure processor time is used as efficiently as possible when multitasking
+Allocating processor time to applications for efficient multitasking — what OS function is this? | Scheduling
+What is segmentation? | Partitioning memory into variable-sized logical divisions called segments. A large program can be executed by consecutively running its segments
+How does segmentation divide memory? | Into variable-sized logical divisions called segments
+How does paging differ from segmentation? | Paging uses fixed-sized physical divisions (pages), while segmentation uses variable-sized logical divisions (segments)
+What is the Shortest Job First (SJF) scheduling algorithm? | A scheduling algorithm that picks the process with the shortest estimated running time and runs it until it finishes
+A scheduling algorithm that selects the process with the shortest estimated run time and runs it to completion — what is it called? | Shortest Job First (SJF)
+What is the Shortest Remaining Time scheduling algorithm? | A scheduling algorithm that picks the process with the shortest estimated time remaining. If a new process with a shorter time is added, the scheduler switches to it
+How does Shortest Remaining Time differ from Shortest Job First? | SJF runs the shortest job to completion, while SRT is pre-emptive and switches to a new process if it has less time remaining
+What is a virtual machine? | Any instance where software is used to take on the function of a machine, including running intermediate code or an operating system within another OS
+Software used to take on the function of a machine, such as running one OS inside another — what is this? | A virtual machine
+What is virtual memory? | An allocated area of secondary storage where pages of inactive jobs are swapped into, to free up enough RAM for the current job
+An area of secondary storage used to swap out inactive pages to free up RAM — what is this called? | Virtual memory
+Why is virtual memory needed? | To free up enough RAM for the current job by swapping pages of inactive jobs to secondary storage
+What is an application? | A program that can be run on a computer, allowing the user to carry out specific tasks
+A program that allows users to carry out specific tasks on a computer — what is this called? | An application
+What is an assembler? | A translator that converts assembly language into machine code
+A translator that converts assembly language into machine code — what is it called? | An assembler
+What is closed source software? | Proprietary software sold with a licence and restrictions on use. The source code is not available to users
+Software sold with a licence where the source code is not available to users — what is this called? | Closed source (proprietary) software
+What is code generation? | The third and final stage of compilation, where an equivalent machine code program is produced
+Which stage of compilation is code generation? | The third and final stage
+What happens during the code generation stage of compilation? | An equivalent machine code program is produced from the analysed source code
+What is compilation? | The process of analysing high-level language source code and converting it into machine code
+The process of converting high-level language source code into machine code — what is this called? | Compilation
+What is a compiler? | A translator that converts high-level language to machine code
+A translator that converts an entire high-level language program into machine code — what is it called? | A compiler
+What is an interpreter? | A translator that checks a source program for syntax errors line by line, translates each line to machine code, and executes it
+A translator that checks, translates, and executes source code one line at a time — what is it called? | An interpreter
+How does a compiler differ from an interpreter? | A compiler translates the entire source code into machine code before execution. An interpreter translates and executes one line at a time, checking for syntax errors as it goes
+What is lexical analysis? | The first stage of compilation, where extra spaces and comments are removed, the code is checked for simple errors, keywords/constants/variables are replaced by tokens, and variable names are loaded into the symbol table
+Which stage of compilation is lexical analysis? | The first stage
+What are the four main tasks performed during lexical analysis? | Removing spaces/comments, checking for simple errors, replacing keywords/constants/variables with tokens, and loading variable names into the symbol table
+What is a library (in programming)? | A collection of pre-compiled programs that can be loaded into a program and run whenever required
+A collection of pre-compiled programs that can be loaded and run within other programs — what is this called? | A library
+What is a linker? | A program that places appropriate machine addresses in the call and return instructions of a compiled program, so all required object code files and modules are linked together
+A program that connects all required object code files and modules by placing correct machine addresses in call/return instructions — what is this? | A linker
+What is a loader? | A program that loads the executable object program and its associated libraries into memory before it is run
+A program that loads an executable and its libraries into memory before execution — what is this? | A loader
+What is open source software? | Software whose source code is freely available to view, redistribute, or modify
+Software with freely available source code that can be viewed, redistributed, or modified — what is this called? | Open source software
+How does open source differ from closed source software? | Open source has freely available source code that anyone can view, modify, or redistribute. Closed source is proprietary with restricted access and the source code is hidden from users
+What is optimisation (in compilation)? | During code generation, making object code as efficient as possible by removing redundancies while producing the same result
+During which compilation stage does optimisation occur? | Code generation (the third and final stage)
+What is syntax analysis? | The second stage of compilation, where statements, expressions, and tokens are checked for syntax errors using syntax diagrams
+Which stage of compilation is syntax analysis? | The second stage
+What are the three stages of compilation in order? | 1) Lexical analysis, 2) Syntax analysis, 3) Code generation
+What is a translator? | A program that converts code from one computer language to another
+A program that converts code from one language to another — what is this called? | A translator
+Name three types of translator | Compiler, interpreter, and assembler
+What are utilities? | System software with a specific purpose usually related to maintenance, such as optimising performance, diagnosing issues, backing up files, or setting up firewalls
+System software for maintenance tasks like optimising performance, diagnosing issues, and backing up files — what is this called? | Utilities
+What are agile methodologies? | An iterative process that produces incremental prototypes over short, fast-paced sprints. Each prototype is user-tested and feedback is incorporated into future sprints
+An iterative development process using short sprints, user testing, and feedback-driven prototypes — what is this called? | Agile methodologies
+What is extreme programming? | A type of agile methodology with short development cycles, very frequent releases, and checkpoints to change or add new user requirements
+A type of agile methodology with very frequent releases and checkpoints for changing user requirements — what is it called? | Extreme programming
+What is Rapid Application Development (RAD)? | A method that responds quickly to changing requirements through repeated prototyping, continual evaluations, and strict time limits. The user quickly receives a reduced-functionality mock-up
+A development method using repeated prototyping, continual evaluations, and strict time limits to quickly deliver mock-ups — what is this? | Rapid Application Development (RAD)
+What is the spiral model? | An iterative version of the waterfall model where stages are refined and repeated. The first cycle produces an initial prototype, and each successive cycle produces a refined prototype
+An iterative development model where each cycle refines a prototype, building on the waterfall structure — what is this? | The spiral model
+What is the waterfall lifecycle? | A development model where each stage is completed one at a time in linear order. Results from one stage feed into the next. Previous stages can be revisited, but all following stages must be reworked
+A linear development model where stages are completed sequentially and outputs feed into the next stage — what is this? | The waterfall lifecycle
+How does the spiral model differ from the waterfall lifecycle? | The waterfall is linear (each stage done once in sequence), while the spiral model iterates through the stages multiple times, refining prototypes with each cycle
+What happens in the waterfall model if you return to a previous stage? | All the stages that follow must be worked through again
+What is assembly language? | A low-level language closely related to machine code that uses descriptive names and mnemonics for instructions, and is related to the design of the computer
+A low-level language that uses mnemonics and descriptive names for instructions — what is this? | Assembly language
+What are attributes (in OOP)? | Data recorded as variables associated with an object
+Data stored as variables associated with an object — what are these called in OOP? | Attributes
+What is a class (in OOP)? | A template defining the attributes and methods that can be used to create objects
+A template that defines attributes and methods used to create objects — what is this called? | A class
+What is direct addressing? | An addressing mode where the operand stores the memory address of the value to be operated on
+An addressing mode where the operand contains the actual memory address of the data — what is this called? | Direct addressing
+What is encapsulation? | A method of maintaining data integrity by only allowing class methods to access data in an object's attributes
+Restricting access to an object's attributes so only class methods can access them — what OOP concept is this? | Encapsulation
+Why is encapsulation used? | To maintain data integrity by preventing direct external access to an object's attributes
+What is immediate addressing? | An addressing mode where the data in the address field is constant and the operand is the actual value to be operated on
+An addressing mode where the operand itself is the value to be used, not an address — what is this called? | Immediate addressing
+How does immediate addressing differ from direct addressing? | In immediate addressing, the operand IS the value to use. In direct addressing, the operand is the memory address where the value is stored
+What is indexed addressing? | An addressing mode where the operand address is calculated by adding a constant from the index register to the absolute address in the instruction
+An addressing mode that adds an index register value to the instruction's address to find the operand — what is this called? | Indexed addressing
+What is indirect addressing? | An addressing mode where the operand stores the address of a location that holds the memory address of the required data
+An addressing mode where the operand points to an address that itself contains the address of the data — what is this called? | Indirect addressing
+How does indirect addressing differ from direct addressing? | In direct addressing, the operand holds the address of the data. In indirect addressing, the operand holds the address of a location that contains the address of the data (an extra level of indirection)
+What is inheritance (in OOP)? | The concept of subclasses inheriting the methods and attributes of their parent class (superclass)
+Subclasses receiving the methods and attributes of a parent class — what OOP concept is this? | Inheritance
+What are methods (in OOP)? | Program subroutines that represent actions an object can perform
+Subroutines representing actions an object can perform — what are these called in OOP? | Methods
+What are object-oriented languages? | Programming languages where code is made of objects (instances of classes) that have their own attributes and behaviours and can interact with each other
+Programming languages built around objects that are instances of classes, with attributes and behaviours — what paradigm is this? | Object-oriented programming
+What is an object (in OOP)? | An instance of a class, whose behaviour depends on how its attributes were defined
+An instance of a class whose behaviour is determined by its attributes — what is this called? | An object
+What is polymorphism? | The concept where objects of different classes can use the same method to perform an action
+Objects of different classes using the same method name to perform an action — what OOP concept is this? | Polymorphism
+What are procedural languages? | High-level languages where statements are grouped into self-contained blocks called functions and procedures, with built-in data types and data structures
+High-level languages that group statements into functions and procedures with built-in data types — what are these called? | Procedural languages
+What is a programming paradigm? | A style of computation and programming, chosen according to the problem at hand
+A style of computation chosen to suit the problem being solved — what is this called? | A programming paradigm
+Name two types of programming paradigm | Procedural and object-oriented
+How do procedural languages differ from object-oriented languages? | Procedural languages organise code into functions and procedures. Object-oriented languages organise code into objects (instances of classes) that encapsulate attributes and methods
+Name the four addressing modes in assembly language | Direct, immediate, indexed, and indirect addressing
+Name four key concepts of object-oriented programming | Encapsulation, inheritance, polymorphism, and classes/objects
+What is the relationship between a class and an object? | A class is the template (blueprint) that defines attributes and methods. An object is a specific instance created from that class

@@ -1,0 +1,130 @@
+What are ethics in the context of computing? | Values held by a community and how they impact different groups of people in society
+Values held by a community that impact different groups in society — what term describes this? | Ethics
+What are morals in the context of computing? | A personal code of conduct encompassing how we choose to behave, including decisions made at the expense of others
+A personal code of conduct governing how an individual chooses to behave — what term describes this? | Morals
+How do ethics differ from morals? | Ethics concern community values and their societal impact, while morals are about an individual's personal code of conduct and personal choices
+Why is it important to consider moral, ethical, environmental, social, and cultural implications of computing? | Computers are integral to almost every aspect of daily life, so identifying these issues is the first step to resolving them
+Name two advantages of computers in the workforce | They improve efficiency (e.g. reducing delivery times and manufacturing costs) and reduce strain on workers by removing repetitive and tedious tasks
+Give an example of how Amazon uses robots in the workforce | Amazon uses robots in warehouses to package and transfer goods between stations, reducing delivery times and unit labour costs
+What is Effidence's PostBot? | A robot that navigates through neighbourhoods to deliver letters and parcels door-to-door
+What type of unemployment does computerisation of the workforce primarily cause? | Structural unemployment — workers lose jobs because their skills no longer match available roles
+Why might the unemployment caused by computerisation not be permanent? | Higher consumer demand due to cheaper services may create employment in other sections of the business
+What can governments do to reduce the impact of computerisation on workers? | Invest in retraining programmes so displaced workers can change occupation
+Which type of jobs has computerisation hit the hardest? | Middle-income manufacturing jobs, where entire production lines have been replaced by robots
+What shift in job types has resulted from the computerisation of manufacturing? | A shift from middle-income manufacturing jobs toward low-income service jobs
+Give two examples of non-manufacturing jobs that have been replaced by computers | Library assistants and taxi drivers
+What is a major downside of a highly computerised workplace? | High dependence on computers — if something goes wrong, there is a major loss of output
+How has computerisation affected demand for computing-related jobs? | Demand has increased — software developers are needed for embedded systems and network engineers to maintain networks
+What new skill expectation do employers now have due to computerisation? | Workers are expected to be able to confidently and productively use computers
+Give two examples of services now offered exclusively online | Online shopping and online banking
+How have exclusively online services reduced business costs? | Reduced costs of renting physical space and cut labour costs as fewer front-facing retail staff and bank clerks are needed
+What new jobs have grown as a result of online services? | Delivery drivers and web developers
+What is automated decision making? | The process of using algorithms and computer systems to make decisions without direct human intervention, based on data analysis, pattern recognition, and predefined rules
+The process of using algorithms to make decisions without direct human intervention — what is this called? | Automated decision making
+How is automated decision making used in social media? | Algorithms determine what content users see on their feeds, based on their interactions and inferred interests from their connections
+What is the danger of tailoring social media feeds solely to users' existing interests? | It creates a filter bubble where users' beliefs are never challenged, leading to a close-minded society
+A situation where social media algorithms only reinforce a user's existing beliefs, preventing exposure to alternative viewpoints — what is this called? | A filter bubble (or echo chamber)
+Give two examples of application processes where algorithmic decision-making has been used | Determining suitability for mortgages/loans and screening job applicants
+Why might relying entirely on algorithms for decisions about people be unfair? | Algorithms do not consider extenuating circumstances and cannot process information with the same consideration of contextual factors that humans can
+How can algorithmic decision making benefit employers in recruitment? | It screens candidates faster for desired qualities before the interview stage, improving productivity and convenience
+How is automated decision making used in driverless cars? | Algorithms make driving decisions faster than humans can react, potentially saving lives
+How is automated decision making used in stock market trading? | Algorithms analyse past trends to model future changes, allowing traders to make rapid decisions
+Give two examples of systems that use fast automated decision making to respond to real-time changes | Plant automation systems and power distribution systems
+Why must algorithms be thoroughly tested before deployment? | To produce high-quality software that is free of bias against any group of people and works with factually correct data
+Why can algorithms not be assumed to be free of bias? | They are designed by software developers who may introduce their own biases into the system
+What does it mean to say algorithms should not remain a "black box"? | The decisions algorithms make must be justified and transparent, with some level of human input to ensure fairness
+What ethical dilemma does algorithmic decision making raise for driverless cars? | How to decide who should be harmed if a scenario arises where either a pedestrian or the driver must be harmed (the trolley problem)
+In the context of driverless cars, what additional ethical question arises from automated harm decisions? | Who is responsible for the consequences of the decision — the manufacturer, the programmer, or the owner?
+What is the COMPAS AI program used for? | Predicting a defendant's potential for future criminal behaviour in the US judicial system
+What criticism has been made of the COMPAS program? | It uses undisclosed factors, AI cannot fully understand human behaviour nuances, and it may reflect human biases
+What is artificial intelligence (AI)? | The ability of a computer to replicate human intelligence, cognitive ability, and grasp abstract concepts
+The ability of a computer to replicate human intelligence, cognitive ability, and grasp abstract concepts — what is this called? | Artificial intelligence (AI)
+What cognitive functions do AI systems simulate? | Learning, problem-solving, reasoning, perception, and decision-making
+What are expert systems? | Systems (also known as knowledge-based systems) that replicate the knowledge and experience of an expert in a particular subject
+Systems that replicate the knowledge and experience of a human expert in a particular subject — what are these called? | Expert systems (or knowledge-based systems)
+What are the three components of an expert system? | A knowledge base (set of facts and rules), an inference engine (built from the rules), and a user interface to interrogate it
+What is a knowledge base in an expert system? | A set of facts and rules about a particular domain that the expert system uses to make decisions
+What is an inference engine in an expert system? | The component that applies the rules from the knowledge base to given facts to draw conclusions or diagnoses
+How is AI used in medicine? | In expert systems to draw connections between illnesses to form diagnoses
+What are neural networks in AI? | Systems that replicate biological neural networks by learning from a set of training data, then applying that knowledge to new data sets
+Systems that learn from training data and apply that knowledge to new data, replicating how biological neurons work — what are these called? | Neural networks
+Give two applications of neural networks | Pattern detection and detecting financial fraud
+Give two examples of AI voice recognition systems in smart homes | Google Home and Amazon's Alexa
+What privacy concern do smart home voice assistants raise? | They must be constantly switched on to function, meaning they are always listening, which raises questions about privacy
+What accountability question does AI raise? | Who is responsible when things go wrong — the AI system, its developers, or the user?
+Why are artists concerned about AI? | Their work is being used without consent to train AI systems, leading to potential copyright infringements
+What did UNESCO produce regarding AI in 2021? | The first global standard on AI ethics — the "Recommendation on the Ethics of Artificial Intelligence", adopted by all 193 member states
+Why might AI algorithms show bias? | If they are trained on biased datasets, leading to discrimination against certain demographic groups
+How did Amazon's AI recruitment tool demonstrate algorithmic bias? | It was trained on 10 years of mostly male applicant data, so it taught itself that male candidates were preferable and penalised CVs containing the word "women"
+What is censorship? | The act of suppressing or controlling the content that people are able to view, publish, and access
+The act of suppressing the content people are able to view, publish, and access — what is this called? | Censorship
+Why do some countries use censorship? | To block out other political opinions, protect national security, restrict harmful content, preserve cultural norms, or combat disinformation
+What does the UK block through ISPs? | Websites with content associated with terrorism and extremist political beliefs
+What is the danger of censorship being misused? | It could be used to block alternative political beliefs, pushing a particular ideology rather than protecting the country
+What is the concept of a "Free Internet"? | The idea that nothing should be filtered online, in line with the principle of freedom of speech
+Who created the internet and what was the original vision? | Tim Berners-Lee created the internet as a space where people could share and mutually benefit from resources
+Why do most people agree some censorship is necessary online? | For national security purposes and to filter offensive comments and extremist propaganda
+Give an example of censorship at an institutional level | Schools blocking unsuitable material from pupils, or workplaces blocking distracting websites to maintain productivity
+How can censorship exacerbate the digital divide? | By widening the gap in access to information and online resources for marginalised communities with restricted internet access
+What is the digital divide? | The unequal distribution of access to technology and the internet among different communities, regions, and socioeconomic groups
+The unequal distribution of access to technology and the internet among different groups in society — what term describes this? | The digital divide
+How do computers monitor behaviour in the workplace? | Employers track the websites and applications workers are accessing and the time spent on them to monitor productivity
+Give three examples of monitoring technologies | CCTV cameras, GPS tracking, and email/phone call monitoring
+How are CCTV cameras used for security purposes? | To detect crime (from speeding to violence), trace criminal activity, and deter unlawful behaviour
+What are ankle monitors used for? | Tracking the location of people under house arrest
+What is the argument in favour of surveillance like ankle monitors? | It is a necessary measure to deter people from committing crime and ensure public safety
+What is the argument against surveillance like ankle monitors? | It is unethical and contravenes basic human rights
+Why might mass surveillance lead to self-censorship? | People may fear expressing dissenting opinions if they feel constantly watched, stifling open dialogue
+What is big data? | Large amounts of data collected from a number of sources that can be analysed to identify patterns and make inferences
+Large amounts of data from numerous sources that can be analysed for patterns — what is this called? | Big data
+What is data mining? | The process of analysing big data to make inferences about people's behaviour, likes, dislikes, and to identify previously unknown connections between variables
+The process of analysing large datasets to extract patterns and inferences about people's behaviour — what is this called? | Data mining
+Give three uses of data mining | Informing personalised political propaganda, targeted advertising, and identifying previously unknown connections between variables
+Give an example of how data mining could be used against an individual | An insurance company could discover a person is at high risk of developing a disease and deny them insurance or charge a higher premium
+Why is the Data Protection Act 1998 considered insufficient today? | It no longer adequately protects public welfare given the scale of modern data collection, which is why the GDPR was enforced from May 2018
+What is the GDPR? | The General Data Protection Regulation — a data protection law enforced from May 2018 that strengthens individuals' rights over their personal data
+Why is there pressure on large firms regarding data collection? | To be more transparent about what data they collect, how it is used, and to make this clearer to users
+What is piracy in the context of computing? | The unauthorised copying, use, distribution, or reproduction of copyrighted content such as software, music, or films
+The unauthorised copying and distribution of copyrighted content — what is this called? | Piracy
+Why is piracy considered a form of theft? | It involves using someone's creative output without permission, directly infringing on their intellectual property rights
+Give three types of piracy | Software piracy (unauthorised copying/distribution of software), music and film piracy (via peer-to-peer networks), and eBook piracy (unauthorised distribution of digital books)
+How has the internet made piracy easier? | It has made it easier than ever to source copyrighted content such as music, films, and software online
+What economic impact does piracy have? | It inflicts financial losses on creators and industries, which can lead to job losses and slow economic development
+What is offensive communication? | Any form of online harassment, including cyber-bullying or stalking
+What is the Malicious Communications Act (1988)? | A law that makes it a criminal offence to send indecent or offensive messages to anyone online, with offenders traceable by law enforcement
+A law making it a criminal offence to send indecent or offensive messages online — what is this called? | The Malicious Communications Act (1988)
+How did Steve Jobs propose to combat music piracy? | By creating a better legal service (iTunes) that was easy to use and reasonably priced, arguing piracy was a service issue not a pricing issue
+What is the Equality Act 2010 in the context of web design? | A law making it illegal to discriminate against providing a service to a certain group of people, requiring websites to be accessible to all
+Why must website layout consider the target audience's culture? | Different cultures read in different directions (e.g. English left-to-right, Arabic right-to-left), affecting where menus and navigation elements should be placed
+In English-speaking countries, where are website menus typically displayed? | On the left-hand side of the page
+Why would a website for Arabic-speaking users place menus on the right? | Because Arabic is read from right to left, so placing navigation on the right matches the natural reading direction
+Give three ways websites should accommodate users with visual impairments | Provide the ability to enlarge text, alter contrast, include alternative text (alt text) for images, and offer a screen magnifier option
+What should be provided for users with hearing impairments on a website? | Transcripts of audio files
+What is a colour paradigm in web design? | The systematic use of colours in UX design to elicit specific responses from users, taking into account how colours are interpreted in different cultures
+Why must web developers consider colour carefully? | Colours have different meanings in different cultures — e.g. white represents mourning in the Middle East but purity in Western cultures, and red signifies danger in the West but luck in China
+Why is a neutral colour scheme often chosen for international websites? | To avoid negative cultural connotations — green is commonly used as it represents luck and nature in many cultures
+Why is Unicode preferred over ASCII for international websites? | ASCII uses only 7 bits and cannot represent all characters in languages like Chinese, whereas Unicode can represent over a million characters
+ASCII uses 7 bits — why is this insufficient for a global website? | It cannot represent all characters in languages with large character sets (e.g. Chinese), limiting the website's accessibility
+What character encoding standard supports most of the world's writing systems? | Unicode
+What is e-waste? | Discarded electronic or electrical devices that can cause environmental and health problems if improperly disposed of
+Discarded electronic devices containing toxic materials that cause environmental harm if improperly disposed of — what is this called? | E-waste
+Name two toxic substances found in computer components | Mercury and radioactive isotopes
+Why is shipping e-waste to developing countries considered unethical? | These countries often have lower environmental standards, and the toxic materials contaminate local water supplies and harm communities
+How does increased computerisation contribute to global warming? | More electricity is required to power devices, which uses non-renewable fossil fuels that emit greenhouse gases into the atmosphere
+What is the throw-away attitude in relation to technology? | The tendency for people to frequently discard devices due to affordability and the pressure to keep up with trends, increasing e-waste
+Give two examples of environmentally friendly technologies | Smart home systems (using temperature and motion sensors to reduce energy waste) and Sleep/Stand-by features on computers and laptops
+How do smart home systems reduce energy consumption? | They use temperature sensors to determine when heating should be switched on and motion sensors to switch off lights when rooms are empty
+How can new car engine technology reduce environmental impact? | Engines designed to prevent idling reduce unnecessary emissions
+What is environmental equity? | The fair distribution of environmental benefits and burdens among different social groups and communities
+Why do lower-income communities bear a disproportionate burden of e-waste pollution? | They are more likely to live near disposal sites and have less access to energy-efficient technologies and recycling facilities
+How does data mining differ from big data? | Big data refers to the large datasets collected from many sources, while data mining is the process of analysing those datasets to extract patterns and inferences
+How does censorship differ from monitoring behaviour? | Censorship controls or suppresses what content people can access, while monitoring behaviour observes and records people's activities without necessarily restricting them
+How do expert systems differ from neural networks? | Expert systems use predefined rules and facts in a knowledge base to make decisions, while neural networks learn patterns from training data and apply that learning to new data
+How does structural unemployment differ from general unemployment? | Structural unemployment occurs when workers' skills become obsolete due to changes in the economy (like automation), not due to a lack of jobs overall
+How does the Data Protection Act 1998 relate to the GDPR? | The DPA 1998 was the earlier UK data protection law that became insufficient for modern data collection, leading to the GDPR being enforced from May 2018 as a stronger replacement
+What moral dilemma do AI developers face regarding accountability? | They must consider the potential consequences of their creations, including privacy, job displacement, social inequality, and ensuring AI systems avoid biases that lead to discrimination
+Why is informed consent important when analysing personal information? | It respects individuals' autonomy to control information about themselves, which is a fundamental moral principle
+What is algorithmic transparency? | The ethical principle that automated decision-making algorithms should be interpretable and understandable to ensure accountability and prevent hidden biases
+The principle that algorithms should be interpretable and understandable to prevent hidden biases — what is this called? | Algorithmic transparency
+Why is a feedback loop important for automated decision-making systems? | Continuous data collection and evaluation of real-world impact allows iterative improvement of algorithms and correction of errors or biases
+What is localisation in software development? | Adapting an application to different languages and regions without engineering changes, including translation, appropriate symbols, and understanding local norms

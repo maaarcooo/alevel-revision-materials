@@ -1,0 +1,61 @@
+What is the A* algorithm? | A generalisation of Dijkstra's algorithm that approximately finds the shortest path between two nodes by combining a cost function (distance from source to current node) and a heuristic function (estimated distance from next node to destination)
+A pathfinding algorithm that extends Dijkstra's by using both a cost function and a heuristic function to approximately find the shortest path — what is it? | A* algorithm
+What is Big O notation? | A way of classifying algorithms by their complexity, setting an upper bound for the worst-case time or space complexity as a mathematical function of input size
+A classification system that expresses the upper bound of an algorithm's worst-case time or space complexity as a function of input size — what is this called? | Big O notation
+What does Big O notation measure: best case, average case, or worst case? | Worst case
+What is a binary search? | An O(log n) algorithm that searches a sorted list by repeatedly halving the sublist that could contain the target item
+An O(log n) search algorithm that repeatedly halves a sorted list to find a target item — what is it called? | Binary search
+What precondition must be met before binary search can be used? | The list must be sorted
+What is the time complexity of binary search? | O(log n)
+What is breadth-first traversal? | A graph traversal method that uses a queue to visit all neighbours of the current node before moving on to each neighbour's neighbours, until the entire graph is explored
+A graph traversal that uses a queue and visits all neighbours of a node before moving deeper — what is it called? | Breadth-first traversal
+What data structure does breadth-first traversal use? | A queue
+What is bubble sort? | An O(n²) sorting algorithm that iterates through a list, comparing each element to its successor and swapping them if they are in the wrong order, repeating until no more swaps are needed
+An O(n²) sort that repeatedly compares adjacent elements and swaps them if out of order, stopping when a full pass requires no swaps — what is it? | Bubble sort
+What is the time complexity of bubble sort? | O(n²)
+How does bubble sort know when the list is fully sorted? | When a complete pass through the list produces no swaps
+What is depth-first traversal? | A graph traversal method that uses a stack to travel as far along one route as possible, then backtracks and explores remaining routes until the entire graph is visited
+A graph traversal that uses a stack and follows one route as far as possible before backtracking — what is it called? | Depth-first traversal
+What data structure does depth-first traversal use? | A stack
+What is Dijkstra's shortest path algorithm? | An algorithm that finds the shortest path between two nodes on a graph by using a priority queue to track the shortest distance (cost) from the starting node to each other node until the destination is reached
+An algorithm that uses a priority queue to track cumulative shortest distances from a start node, finding the shortest path to a destination — what is it? | Dijkstra's shortest path algorithm
+What data structure does Dijkstra's algorithm use? | A priority queue
+What is insertion sort? | An O(n²) sorting algorithm that divides a list into sorted and unsorted sections, taking elements one by one from the unsorted section and placing them in the correct position within the sorted section
+An O(n²) sort that maintains a sorted section and an unsorted section, inserting each unsorted element into its correct position in the sorted section — what is it? | Insertion sort
+What is the time complexity of insertion sort? | O(n²)
+What is a linear search? | An O(n) algorithm that searches a list by checking each element in turn until the target is found or the end of the list is reached
+An O(n) search that checks each element sequentially until the item is found or the list ends — what is it called? | Linear search
+What is the time complexity of linear search? | O(n)
+What is merge sort? | An O(n log n) divide-and-conquer sorting algorithm that recursively halves the list into sublists of length 1, then merges them back together in sorted order
+An O(n log n) divide-and-conquer sort that splits a list into single-element sublists and then merges them back in sorted order — what is it? | Merge sort
+What is the time complexity of merge sort? | O(n log n)
+What approach does merge sort use? | Divide and conquer — it recursively halves the list, then merges sorted sublists
+What is quick sort? | An O(n log n) sorting algorithm that selects a pivot element, partitions elements into those greater than and those less than or equal to the pivot, and repeats recursively until all sublists have length 1
+An O(n log n) sort that partitions a list around a pivot element, placing greater elements in one sublist and the rest in another, recursively — what is it? | Quick sort
+What is the time complexity of quick sort? | O(n log n) on average
+What is time complexity? | A measure of the amount of time an algorithm needs to solve a problem of a given input size
+A measure of how the execution time of an algorithm scales with input size — what is this called? | Time complexity
+What is space complexity? | A measure of the amount of memory space an algorithm needs to solve a problem of a given input size
+A measure of how the memory usage of an algorithm scales with input size — what is this called? | Space complexity
+What does O(1) mean? | The algorithm takes a constant amount of time or space regardless of input size
+An algorithm whose execution time or memory usage stays the same no matter the input size has what complexity? | O(1) — constant time/space
+What does O(n) mean? | The algorithm's execution time or memory usage is directly proportional to the input size
+An algorithm whose time or space scales in direct proportion to its input size has what complexity? | O(n) — linear time/space
+What does O(log n) mean? | The algorithm's execution time or memory usage grows logarithmically with input size (lower complexity than polynomial)
+An algorithm whose time or space grows logarithmically with input size has what complexity? | O(log n) — logarithmic time/space
+What does O(n^k) mean? | The algorithm's execution time or memory usage is proportional to the input size raised to the power of a constant k (e.g. O(n²), O(n³))
+An algorithm whose time or space is proportional to the input size raised to a fixed power has what complexity class? | O(n^k) — polynomial time/space
+What does O(2^n) mean? | The algorithm's execution time or memory usage grows exponentially with input size (higher complexity than polynomial)
+An algorithm whose time or space doubles (or more) with each unit increase in input size has what complexity? | O(2^n) — exponential time/space
+How does breadth-first traversal differ from depth-first traversal? | BFS uses a queue and explores all neighbours at the current depth before going deeper. DFS uses a stack and follows one path as far as possible before backtracking.
+How does binary search differ from linear search? | Binary search requires a sorted list and halves the search space each step at O(log n). Linear search works on any list and checks elements one by one at O(n).
+How does merge sort differ from quick sort? | Merge sort splits the list in half regardless of values and merges sorted sublists. Quick sort partitions around a chosen pivot element. Both are O(n log n), but quick sort's performance depends on pivot choice.
+How does bubble sort differ from insertion sort? | Bubble sort repeatedly compares and swaps adjacent elements across the whole list. Insertion sort builds a sorted section by inserting one unsorted element at a time into its correct position.
+How does the A* algorithm differ from Dijkstra's algorithm? | Dijkstra's explores nodes based only on the shortest known distance from the source. A* adds a heuristic estimate of distance to the destination, guiding the search more efficiently toward the goal.
+Rank these complexities from fastest to slowest growth: O(n²), O(1), O(n log n), O(2^n), O(log n), O(n) | O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2^n)
+What are the two functions that A* combines to estimate the best path? | The cost function g(n) (actual distance from source to current node) and the heuristic function h(n) (estimated distance from current node to destination)
+The cost function in A* measures [...] | the actual distance travelled from the source to the current node
+The heuristic function in A* estimates [...] | the approximate distance from the current node to the destination
+Why is merge sort described as a divide-and-conquer algorithm? | It divides the problem into smaller subproblems (splitting into sublists of length 1), solves them trivially, then combines (merges) the solutions in sorted order
+Explain why binary search is more efficient than linear search for large sorted datasets | Binary search halves the search space each step, giving O(log n) comparisons, while linear search may check every element, giving O(n). For large n, log n grows far more slowly than n.
+Why does quick sort's performance depend on the choice of pivot? | A poor pivot (e.g. the smallest or largest element) creates highly unbalanced partitions, degrading performance toward O(n²). A good pivot splits the list roughly in half, achieving O(n log n).

@@ -1,0 +1,103 @@
+What is asymmetric encryption? | An encryption technique where a public key (available to everyone) encrypts the data, and the paired private key (known only to the recipient) decrypts it
+An encryption method using a public key to encrypt and a separate private key to decrypt — what is this called? | Asymmetric encryption
+What is symmetric encryption? | An encryption technique where the same key is used to both encrypt and decrypt data, requiring a copy of the key to be shared between both parties
+An encryption method where the same key is used for both encryption and decryption — what is this called? | Symmetric encryption
+How does asymmetric encryption differ from symmetric encryption? | Asymmetric uses two different keys (a public key to encrypt, a private key to decrypt) so no secret key needs to be shared. Symmetric uses one shared key for both encryption and decryption, requiring secure key transfer between parties
+What is dictionary coding? | A type of lossless compression where text is searched for entries matching a dictionary, and those entries are substituted with shorter unique codes that can be translated back
+A lossless compression method that replaces text entries with shorter codes using a lookup table — what is this called? | Dictionary coding
+What is run-length encoding (RLE)? | A type of lossless compression where consecutive repeated data values (e.g. pixels of the same colour) are stored as a single value paired with a count
+A lossless compression technique that stores repeated consecutive values as a single value and a count — what is this called? | Run-length encoding (RLE)
+What is lossless compression? | A compression algorithm that retains all original data by storing only the instructions needed to reconstruct the original file, so no data is lost
+A compression method that preserves all original data and allows perfect reconstruction of the file — what is this called? | Lossless compression
+What is lossy compression? | A compression algorithm that permanently removes non-essential data from a file, causing a noticeable decrease in data accuracy that cannot be recovered
+A compression method that permanently discards some data to achieve smaller file sizes — what is this called? | Lossy compression
+How does lossy compression differ from lossless compression? | Lossy permanently removes non-essential data, reducing quality and giving smaller files. Lossless retains all original data by encoding it more efficiently, so the original file can be perfectly reconstructed
+What is hashing? | A one-way transformation of data into a fixed-length abbreviated form called a hash value, used to validate data (such as passwords) without revealing the original data
+A one-way function that converts data into a fixed-length value used for validation without storing the original — what is this called? | Hashing
+Why is hashing described as "one-way"? | The original data cannot be recovered from the hash value, unlike encryption which is reversible with the correct key
+What is encryption? | The process of converting plaintext into an unreadable form (ciphertext) using an encryption algorithm (cipher), so unauthorised users cannot understand it
+The process of converting plaintext into ciphertext using a cipher — what is this called? | Encryption
+What is a flat file database? | A database that uses a single table to store all data
+A database consisting of only one table — what is this called? | A flat file database
+What is a relational database? | A database where separate tables are created for each entity, and relationships between entities are represented using foreign keys
+A database using multiple linked tables with foreign keys representing relationships — what is this called? | A relational database
+How does a relational database differ from a flat file database? | A flat file stores all data in a single table, leading to redundancy. A relational database splits data into separate entity tables linked by foreign keys, reducing redundancy and improving consistency
+What is a primary key? | A unique identifier that identifies each record in a table
+A unique attribute that distinguishes every record in a database table — what is this called? | A primary key
+What is a foreign key? | A linking attribute that joins two tables in a relational database by being the primary key of one table referenced in another table
+An attribute in one table that references the primary key of another table to create a relationship — what is this called? | A foreign key
+What is a secondary key? | A key used as an alternative index to access or sort records in a table more quickly, but less accurately than the primary key
+An alternative index used to speed up access or sorting of records, though less precise than the primary key — what is this called? | A secondary key
+How does a foreign key differ from a primary key? | A primary key uniquely identifies each record within its own table. A foreign key is an attribute in one table that references the primary key of another table, creating a link between the two tables
+What is indexing in a database? | The process of creating an index of primary keys so that the location of any record can be quickly retrieved given its primary key
+Creating a data structure that maps primary keys to record locations for faster retrieval — what process is this? | Indexing
+What is normalisation? | The formal process of optimally designing database tables by reducing data redundancy and repetition, achieved by converting tables into normal forms
+The process of restructuring database tables into normal forms to minimise redundancy — what is this called? | Normalisation
+What is First Normal Form (1NF)? | A table with no repeating attributes, where the intersection of each record and attribute produces exactly one value
+A database table where every field contains only a single value and there are no repeating groups — what normal form is this? | First Normal Form (1NF)
+What is Second Normal Form (2NF)? | A table in 1NF where data that repeats across multiple records is removed into a new table with appropriate relationships, eliminating partial dependencies
+A table in 1NF with no partial dependencies — what normal form is this? | Second Normal Form (2NF)
+What is Third Normal Form (3NF)? | A table in 2NF where all non-key attributes are fully dependent only on the primary key, with no non-key dependencies
+A table in 2NF where every non-key attribute depends only on the primary key — what normal form is this? | Third Normal Form (3NF)
+How does 2NF differ from 1NF? | 1NF requires only that there are no repeating attributes (each field holds one value). 2NF additionally requires that all non-key attributes depend on the entire primary key, removing partial dependencies
+How does 3NF differ from 2NF? | 2NF removes partial dependencies (non-key attributes depending on part of a composite key). 3NF additionally removes transitive dependencies, where non-key attributes depend on other non-key attributes rather than directly on the primary key
+What is entity-relationship modelling? | A method of abstractly describing data tables and the relationships between them using a visual diagram, used to reduce redundancy and help construct a relational database
+A visual method for representing database tables and their relationships, used to plan relational databases — what is this called? | Entity-relationship modelling
+What is redundancy in a database context? | The unnecessary repetition of a field across multiple tables, which normalisation aims to eliminate
+The unnecessary duplication of data fields across multiple tables in a database — what is this called? | Redundancy
+What is referential integrity? | The principle of keeping a database consistent by ensuring that any changes to data or relationships in one table are correctly reflected in all linked tables
+Ensuring that changes to data in one table are properly accounted for in all related tables to maintain consistency — what concept is this? | Referential integrity
+What is transaction processing? | Ensuring that every logical operation or change of state in a database (a transaction) conforms to the ACID rules for reliable processing
+What does ACID stand for in database transaction processing? | Atomicity, Consistency, Isolation, Durability
+What does atomicity mean in ACID? | All parts of a transaction must either succeed completely or fail completely — a transaction is never partially processed
+What does consistency mean in ACID? | Each transaction must obey the defined validation rules of the database to maintain referential integrity
+What does isolation mean in ACID? | No transaction should overwrite other transactions occurring simultaneously — the same results must be obtained whether transactions run concurrently or sequentially
+What does durability mean in ACID? | Once a transaction has begun, it must be completed under all circumstances (e.g. even if the system fails, the completed transaction persists)
+What is record locking? | A technique that prevents simultaneous access to a database record by locking it while it is being edited or updated, preventing data inconsistencies
+A technique that locks a database record during editing to prevent simultaneous access and inconsistencies — what is this called? | Record locking
+Why is record locking necessary in databases? | Without it, two users could edit the same record simultaneously, causing one update to overwrite the other and leading to data inconsistencies
+What is circuit switching? | A method of sending data between two nodes by establishing a dedicated communication channel first, through which all data follows the same path for the entire duration of communication
+A data transmission method that creates a dedicated communication path between sender and receiver for the entire session — what is this called? | Circuit switching
+What is packet switching? | A method of sending data over a network by breaking data into packets that are sent independently via different routes and reassembled at the destination
+A data transmission method that breaks data into independently routed packets that are reassembled at the destination — what is this called? | Packet switching
+How does packet switching differ from circuit switching? | Circuit switching establishes one dedicated path used for the entire communication. Packet switching splits data into packets that travel independently via potentially different routes and are reassembled at the destination
+What is a client-server network? | A network where client computers connect to one or more powerful central servers that handle service requests and manage shared resources
+A network where devices connect to a central server that manages resources and handles requests — what is this called? | A client-server network
+What is a peer-to-peer network? | A network where all connected computers share resources and workloads equally with each other, without any central server
+A network with no central server where all devices share resources and workloads directly — what is this called? | A peer-to-peer network
+How does a client-server network differ from a peer-to-peer network? | Client-server has a central server managing resources and handling requests from clients. Peer-to-peer has no central server — all devices share resources directly and equally with each other
+What is a Local Area Network (LAN)? | A network connecting computing devices within a single geographical area or site
+A network that covers a single geographical site — what type of network is this? | A Local Area Network (LAN)
+What is a Wide Area Network (WAN)? | A network connecting computing devices over a large geographical area, typically using third-party carriers
+A network spanning a large geographical area, often relying on third-party communication infrastructure — what type of network is this? | A Wide Area Network (WAN)
+How does a WAN differ from a LAN? | A LAN covers a single geographical site and is typically owned by one organisation. A WAN spans a large geographical area and usually relies on third-party carriers for communication links
+What is the Domain Name System (DNS)? | A hierarchical naming system that maps human-readable domain names to IP addresses used to locate and identify resources on a network
+A hierarchical system that translates domain names into IP addresses — what is this called? | The Domain Name System (DNS)
+What is a firewall? | A security application that monitors incoming and outgoing network traffic, designed to prevent unauthorised external access between two networks
+A security system that monitors network traffic and blocks unauthorised access between networks — what is this called? | A firewall
+What is a proxy server? | A server application that intercepts all data packets entering and leaving a network to hide the true network addresses, restrict user access to certain data, and isolate the internal network from external networks
+A server that intercepts network traffic to hide internal addresses and control access between internal and external networks — what is this called? | A proxy server
+What is the TCP/IP stack? | A suite of networking protocols enabling communication between networked computers, consisting of four connected layers through which incoming and outgoing data packets are passed
+A four-layer suite of protocols that governs how data packets are transmitted between networked computers — what is this called? | The TCP/IP stack
+What is protocol layering? | A technique that simplifies network design by dividing the system into functional layers, each with assigned protocols that perform specific tasks and communicate with adjacent layers
+Dividing a network system into functional layers with separate protocols that communicate with adjacent layers — what technique is this? | Protocol layering
+What is CSS? | A style language used to define the layout, design, and presentation of a webpage written in a markup language
+A language that controls the visual layout and presentation of web pages — what is this? | CSS (Cascading Style Sheets)
+What is HTML? | A markup language used to write and structure the content of webpages on the World Wide Web
+A markup language that defines the structure and content of web pages — what is this? | HTML (HyperText Markup Language)
+What is JavaScript? | An interpreted, object-oriented programming language used to create interactive elements within web browsers, adding functionality to dynamic web pages
+An interpreted programming language used to add interactivity and dynamic functionality to web pages — what is this? | JavaScript
+How do HTML, CSS, and JavaScript differ in their roles in web development? | HTML defines the structure and content of a webpage. CSS controls the visual layout and presentation. JavaScript adds interactivity and dynamic functionality
+What is client-side processing? | Data processing performed by the client's browser using the user's local computer resources, typically used for less critical code
+Processing performed by the user's browser using their local resources — what is this called? | Client-side processing
+What is server-side processing? | Data processing performed by the web server, where data is sent from the client's browser to the server for secure processing and the output is returned to the client
+Processing where data is sent to a remote server for secure computation before the result is returned to the client — what is this called? | Server-side processing
+How does server-side processing differ from client-side processing? | Client-side processing runs in the user's browser using local resources, typically for non-critical tasks. Server-side processing sends data to the web server for secure processing, with the result returned to the client
+What is the PageRank algorithm? | An algorithm developed by Google that ranks web pages in search results by their quality and importance, measured by counting the number of links pointing to that page
+An algorithm that ranks web pages based on the number and quality of links pointing to them — what is this called? | The PageRank algorithm
+What is search engine indexing? | The process of collecting, parsing, and storing data from websites so the search engine can retrieve information quickly and accurately using an index of web pages
+The process of collecting and organising website data into an index to enable fast information retrieval — what is this called? | Search engine indexing
+How does a firewall differ from a proxy server? | A firewall monitors and filters network traffic to block unauthorised access. A proxy server intercepts traffic to hide internal IP addresses, restrict user access to certain content, and isolate the network from external networks. Both provide security but through different mechanisms
+How does hashing differ from encryption? | Hashing is a one-way process — the original data cannot be recovered from the hash value. Encryption is a two-way process — ciphertext can be decrypted back to plaintext using the correct key
+In asymmetric encryption, which key encrypts and which key decrypts? | The public key encrypts the data, and the paired private key decrypts it
+Why does symmetric encryption require secure key transfer? | Both parties use the same key for encryption and decryption, so a copy must be sent to the recipient — if intercepted, an attacker could decrypt the data

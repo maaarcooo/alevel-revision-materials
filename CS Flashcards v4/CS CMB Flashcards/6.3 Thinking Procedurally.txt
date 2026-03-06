@@ -1,0 +1,47 @@
+What is thinking procedurally? | Breaking a problem down into smaller parts that are easier to understand and easier to design, making program development simpler
+Breaking a problem into smaller parts to simplify understanding and design in software development — what is this called? | Thinking procedurally
+What is problem decomposition? | The process of continually breaking a large, complex problem down into smaller subproblems that can be solved more easily
+The process of breaking a large, complex problem into smaller, more manageable subproblems — what is this called? | Problem decomposition
+Give two benefits of problem decomposition | 1) The problem becomes more feasible to manage. 2) Work can be divided between a group of people according to their skill sets
+What is abstraction in the context of identifying problem components? | Removing unimportant details from a real problem and focusing only on the details that will form part of the solution
+Removing unimportant details from a problem to focus on what matters for the solution — what is this called? | Abstraction
+Give an example of abstraction in software | Modelling a garden or football field does not require modelling every blade of grass — a green mesh or image is used instead
+Give an example of abstraction from everyday computing (file saving) | Users do not need to know the underlying complex procedures for saving a file to disk or how the OS uses paging and segmentation in RAM
+What is the first stage of thinking procedurally in software development? | Taking the problem defined by the user and breaking it down into its component parts through problem decomposition
+What is top-down design? | A method of decomposing a problem by breaking it into major tasks, then breaking those into smaller sub-tasks, continuing until each sub-task can be solved by a single subroutine or module
+A method that breaks a problem into major tasks, then into smaller sub-tasks until each is solvable by a single subroutine — what is this called? | Top-down design
+What is another name for top-down design? | Stepwise refinement
+Stepwise refinement is another name for which design approach? | Top-down design
+In top-down design, what do higher levels of the hierarchy represent? | An overview of the problem
+In top-down design, what do lower levels of the hierarchy represent? | Detailed components of the problem
+What is the aim of top-down design? | To keep splitting problems into subproblems until each can be represented as a single task and ideally a self-contained module or subroutine
+Why is top-down design the preferred method for very large problems? | It breaks problems into levels, making them manageable, allows tasks to be delegated to different developers, and each subroutine can be tested separately before integration
+Each sub-task in top-down design should have three properties. What are they? | 1) Unable to be broken down further. 2) Easily solved. 3) Clear
+How does top-down design support teamwork? | Each task can be solved and developed as a subroutine by a different person, and tasks can be delegated based on skill sets
+How does top-down design support testing? | Each subroutine can be tested separately (unit testing) before being brought together and integrated
+What are three advantages of decomposing a problem into sub-problems? | 1) Each subroutine is simpler to test and maintain. 2) Easier to find and fix errors in code. 3) Convenient to reuse subroutines rather than rewriting code
+How does decomposition differ from abstraction? | Decomposition breaks a problem into smaller sub-problems. Abstraction removes unnecessary detail to focus on what matters for the solution. Both are used together when identifying problem components
+What does "identifying the components of a solution" involve? | Evaluating each decomposed component of the problem and assessing how it can best be implemented (data types, data structures, libraries, constructs, etc.)
+When identifying solution components, what technical details should be considered? | Input/output data types, data structures required, libraries needed, output format, data transformations/constructs required, and algorithm efficiency
+Why is it useful to identify tasks that could use existing modules, subroutines, or libraries during the solution stage? | It reduces the complexity of development by reusing pre-built components rather than writing everything from scratch
+Reducing development complexity by using pre-built modules, subroutines, or libraries is a benefit of which design approach? | Top-down design
+What is procedural abstraction? | Using a procedure to execute sequences of instructions to achieve some goal, treating the procedure as a unit of computation that performs a single task
+Using a procedure to execute a sequence of instructions to achieve a goal — what is this called? | Procedural abstraction
+In the context of thinking procedurally, what does "procedure" mean? | A unit of computation that performs a single task (not strictly a subroutine that doesn't return a value)
+How does a function differ from a procedure (in the strict subroutine sense)? | A function returns a value, whereas a procedure does not return a value
+Why is the order of steps important when constructing a solution? | Some subroutines depend on inputs or data from other subroutines, so they must execute in the correct sequence to avoid errors or missing data
+Why must inputs be validated before being passed to the next subroutine? | To confirm the validity of data before it is used in processing, preventing errors from propagating through the program
+When can subroutines execute simultaneously within a program? | When they do not require data from each other — they are independent of one another's inputs or outputs
+What must programmers determine when subroutines depend on data from other subroutines? | The order in which subroutines are executed and how they interact with each other
+Give an example of why order of operations matters in a program | A fast food delivery app should not allow users to select food until they have confirmed their location, and should not allow payment before the order is confirmed
+Why must the correct order of operations be explicitly written into software? | Because although logical ordering may seem obvious to humans, computers require explicit instructions to enforce the correct sequence of events
+What is a hierarchy chart? | A diagram used to show problem decomposition, depicting how modules and subroutines relate to each other as a tree structure
+A diagram that shows problem decomposition as a tree structure, depicting how modules and subroutines relate — what is this called? | A hierarchy chart
+How is a hierarchy chart structured? | Each problem is divided into multiple subproblems, which are divided into further subproblems until they cannot be divided any further — depicted as a tree structure
+Why are hierarchy charts preferred over tables and lists for larger problems? | Tables and lists quickly become cumbersome for large problems, whereas diagrams provide a clearer visual representation of the decomposition
+In the book reservation system example, what are the three Level 2 components? | Borrower input, Process request, and Confirm request
+In the book reservation system, why is a drop-down field preferred over a text entry field for collection location? | A text entry field raises the likelihood of erroneous data being entered (e.g., a location where no library exists), whereas a drop-down restricts input to valid options
+Explain why the book details component could return an ISBN rather than a string | An ISBN is easier to handle programmatically and more useful for database queries than a book title string, which may have duplicates or spelling variations
+In the book reservation system, how could the "check book availability" component be implemented? | As a function that queries the database for the selected ISBN and returns True if available or False if on loan
+What is the final step after all solution components have been developed? | The components of the solution are combined to form a full, working solution
+How does top-down design relate to hierarchy charts? | A hierarchy chart is the visual representation of top-down design, showing the tree structure of how a problem is decomposed into levels of sub-problems

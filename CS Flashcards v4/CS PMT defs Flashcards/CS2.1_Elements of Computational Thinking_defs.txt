@@ -1,0 +1,39 @@
+What is abstraction? | Simplifying a problem by only considering the necessary details required to obtain a solution, removing all unnecessary details
+Simplifying a problem by removing unnecessary details and keeping only what is needed for a solution — what term describes this? | Abstraction
+What is the purpose of abstraction? | To create a simplified representation of a problem that contains only the details relevant to finding a solution
+What is data abstraction? | The storage and representation of data in a computer system along with its logical description and interaction with operators
+The storage and representation of data in a computer system along with its logical description and how it interacts with operators — what term describes this? | Data abstraction
+Give three examples of data abstraction | Stacks, queues, integers
+What is graph theory? | A branch of mathematics used to abstractly represent problems using a collection of nodes connected by edges
+A branch of mathematics that represents problems using nodes connected by edges — what is this called? | Graph theory
+What two components make up a graph in graph theory? | Nodes and edges
+How does abstraction differ from data abstraction? | Abstraction is a general problem-solving technique that removes unnecessary detail. Data abstraction specifically concerns how data is stored, represented, and interacted with via operators in a computer system
+What is caching? | The temporary storage of data by the system in cache or memory for faster retrieval if it is needed again in future
+The temporary storage of data in cache or memory so it can be retrieved more quickly if needed again — what term describes this? | Caching
+Why is caching used? | To improve performance by allowing faster retrieval of data that may be needed again, avoiding the need to recompute or re-fetch it
+What are inputs in the context of computational thinking? | Any information relevant to the problem that is required by the system for processing according to an algorithm
+Any information relevant to a problem that a system needs in order to process according to an algorithm — what term describes this? | Inputs
+What are outputs in the context of computational thinking? | The result returned by a system for a given input after running the entire process or part of a process
+The result returned by a system after processing a given input — what term describes this? | Outputs
+What are preconditions? | Prerequisites or states of a system and its surroundings required to run a use case and return a valid solution
+A prerequisite or required state of a system and its environment needed before a use case can run and return a valid solution — what term describes this? | Preconditions
+Why are preconditions important when thinking ahead? | They define what must be true about the system's state before a process can execute correctly, ensuring valid solutions are produced
+What are reusable program components? | Components that have already been written, debugged, and tested that can be transplanted into new systems to save development time
+Components already written, debugged, and tested that can be used in new systems to reduce development time — what term describes these? | Reusable program components
+What is the benefit of using reusable program components? | They save development time because they have already been written, debugged, and tested, so they can be directly transplanted into new systems
+What is procedural abstraction? | Achieving a task by relying on a procedure of sequential steps
+Achieving a task by following a procedure made up of sequential steps — what term describes this? | Procedural abstraction
+What are the components of a problem in procedural thinking? | The smaller, simpler series of tasks and sub-procedures that a problem can be broken down into to be completed modularly
+The smaller, simpler tasks and sub-procedures a problem is broken down into for modular completion — what term describes these? | Components of a problem
+Why is breaking a problem into components useful? | It allows each smaller task or sub-procedure to be completed modularly, making the overall problem simpler to solve and manage
+How does procedural abstraction relate to the components of a problem? | Procedural abstraction defines the approach (following sequential steps), while the components of a problem are the individual smaller tasks and sub-procedures identified through that decomposition
+What is a flowchart? | A diagrammatic representation of the flow of a program that includes all the points where a decision needs to be taken to obtain a solution
+A diagrammatic representation of program flow showing all decision points needed to reach a solution — what term describes this? | Flowchart
+What are logical conditions? | Conditions that may depend on one or more variables, used to determine the next step whenever a system has to make a decision
+Conditions depending on one or more variables that determine a system's next step at a decision point — what term describes these? | Logical conditions
+Logical conditions are typically implemented using which three types of control structure? | Sequences, selections, and iterations
+What is concurrent processing? | Processing where the system appears to perform multiple tasks simultaneously
+Processing where a system appears to carry out multiple tasks at the same time — what term describes this? | Concurrent processing
+Why does the definition of concurrent processing say "appears to" perform tasks simultaneously? | Because the processor may not truly execute tasks at the same instant. Instead, it rapidly switches between tasks (time-slicing), giving the appearance of simultaneous execution
+How does thinking ahead (e.g. caching, preconditions, reusable components) differ from thinking procedurally? | Thinking ahead focuses on anticipating what will be needed before and during execution (inputs, outputs, stored data, prerequisites). Thinking procedurally focuses on breaking a task into a logical sequence of steps and sub-procedures
+How do flowcharts and logical conditions work together in thinking logically? | Flowcharts visually represent program flow, and at each decision point in the flowchart, logical conditions (based on variables) determine which path the program takes next

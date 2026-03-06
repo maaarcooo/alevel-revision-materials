@@ -1,0 +1,120 @@
+What is a data type? | A classification of data into groups according to the kind of data they represent, ensuring the correct operations can be performed on it
+A classification of data into groups according to the kind of data they represent — what is this called? | A data type
+What is an integer? | A whole number that can be positive, negative, or zero, but has no fractional part
+A whole number with no fractional part — what data type is this? | Integer
+What are integers useful for? | Counting things (e.g. number of items, loop counters)
+What is a real (floating point) number? | A positive or negative number that can have a fractional part
+A number that can have a fractional part — what data type is this? | Real (floating point)
+What are real numbers useful for? | Measuring things (e.g. temperature, distance, price)
+Are all integers also real numbers? | Yes, all integers are real numbers (e.g. 15 is both an integer and a real)
+What is a character? | A single symbol used by a computer, such as a letter, digit, or symbol
+A single symbol such as a letter, digit, or symbol — what data type is this? | Character
+What is a string? | A collection (sequence) of characters
+A sequence of characters — what data type is this? | String
+Why would you store a phone number as a string rather than an integer? | Because phone numbers can start with 0, and numeric data types would remove the leading zero
+What is a Boolean? | A data type restricted to the values True and False
+A data type that can only hold True or False — what is this called? | Boolean
+Why is Boolean written with a capital B? | It is named after the mathematician George Boole
+Give an example of data suited to a Boolean | The state of a power button (on/off), whether a user is logged in, or whether a line of code has been executed
+What is casting? | Converting one data type to another data type
+Converting one data type to another — what is this process called? | Casting
+Why is casting often needed for user input? | User input is typically received as a string, so it must be cast to a numerical type (e.g. integer) before arithmetic or numerical comparisons can be performed
+What happens when you cast a real value like 5.7 to an integer in Python? | The fractional part is truncated, giving 5 (not rounded)
+In binary, what base does the number system use? | Base 2 (each place value is a power of 2)
+What base does the denary (decimal) number system use? | Base 10
+What is a bit? | A single binary digit, representing either 0 or 1
+A single binary digit — what is this called? | A bit
+What is a byte? | A group of 8 bits
+A group of 8 bits — what is this called? | A byte
+What is a nybble (nibble)? | Half a byte, which is 4 bits
+Half a byte (4 bits) — what is this called? | A nybble (nibble)
+What is the least significant bit (LSB)? | The bit furthest to the right in a binary number, representing the smallest place value
+The bit furthest to the right in a binary number — what is this called? | The least significant bit (LSB)
+What is the most significant bit (MSB)? | The bit furthest to the left in a binary number, representing the largest place value
+The bit furthest to the left in a binary number — what is this called? | The most significant bit (MSB)
+How do you convert a binary number to denary? | Multiply each bit by its place value (powers of 2) and add all the results together
+How do you convert a denary number to binary? | Find the largest power of 2 that fits, place a 1, subtract it from the total, and repeat for each remaining place value
+Why are leading zeros added to binary numbers? | To represent the number as a whole number of bytes (multiples of 8 bits); this does not change the value
+What does adding leading zeros to a binary number do to its value? | Nothing — the value remains the same
+Why do computers store data in binary? | Computers are made of circuits and switches that are either on (1) or off (0), so binary naturally represents these two states
+What are the four rules of binary addition? | 0+0=0, 0+1=1, 1+1=10 (0 carry 1), 1+1+1=11 (1 carry 1)
+In binary addition, what is the result of 1+1? | 10 (which is 0 in the current column with a carry of 1 to the next column)
+In binary addition, what is the result of 1+1+1? | 11 (which is 1 in the current column with a carry of 1 to the next column)
+After performing binary addition, how should you verify your answer? | Convert both operands and the result to denary and check the arithmetic
+What is an overflow error in binary addition? | When the result of an addition exceeds the number of bits available to store it, causing the extra bit to be lost
+When the sum of two binary numbers exceeds the available bits — what error is this? | An overflow error
+What can overflow do to the sign of a result in signed binary? | It can flip the sign bit, incorrectly changing a positive result to negative or vice versa
+What is sign magnitude representation? | A method of representing negative numbers in binary where a leading bit indicates the sign: 0 for positive, 1 for negative
+A method where the MSB indicates sign (0=positive, 1=negative) and remaining bits represent the magnitude — what is this? | Sign magnitude representation
+In sign magnitude, how do you represent -173 if 173 in binary is 10101101? | Add a leading 1 for negative: 110101101
+How do you convert a sign magnitude number to denary? | Note the MSB for the sign, discard it, convert the remaining bits to denary, then apply the sign
+What is a consequence of using a sign bit in sign magnitude? | The maximum positive value that can be stored is halved, because the MSB is used for the sign instead of a value
+What is two's complement? | A method of representing negative numbers in binary where the MSB has a negative place value, making arithmetic with negative numbers simpler
+A method where the MSB represents a negative place value and the remaining bits count upwards from it — what is this? | Two's complement
+How do you convert a positive binary number to its negative two's complement form? | Flip (invert) all the bits, then add 1
+Why is two's complement preferred over sign magnitude for arithmetic? | Two's complement makes binary arithmetic with negative numbers much simpler, as subtraction can be performed by adding the two's complement
+In an 8-bit two's complement system, what value does the MSB represent? | -128
+What is the range of values in an 8-bit two's complement system? | -128 to +127
+How does binary subtraction work using two's complement? | Convert the number being subtracted to its two's complement (negative form), then add it to the other number
+How do you convert sign magnitude to two's complement? | Sign magnitude simply adds a sign bit to the front, while two's complement inverts all bits and adds 1. They use fundamentally different methods
+How does sign magnitude differ from two's complement for negative numbers? | Sign magnitude uses the MSB purely as a sign flag with the remaining bits showing magnitude. Two's complement makes the MSB a negative place value, and remaining bits add to it. Two's complement simplifies arithmetic
+What is hexadecimal? | A base-16 number system using digits 0-9 and letters A-F (where A=10, B=11, C=12, D=13, E=14, F=15)
+A base-16 number system using 0-9 and A-F — what is this? | Hexadecimal
+In hexadecimal, what denary value does A represent? | 10
+In hexadecimal, what denary value does F represent? | 15
+Why is hexadecimal used instead of binary? | It is more concise (4 binary bits = 1 hex digit), easier for humans to read and write, and less prone to transcription errors
+Give two common uses of hexadecimal | Defining colours (hex colour codes), error codes/debugging, memory addresses, MAC addresses
+How do you convert hexadecimal to binary? | Convert each hex digit to its 4-bit binary nybble, then combine the nybbles
+How do you convert binary to hexadecimal? | Split the binary number into groups of 4 bits (nybbles) from right to left, then convert each nybble to its hex digit
+How do you convert hexadecimal to denary? | Multiply each hex digit by its place value (powers of 16) and sum the results. Alternatively, convert to binary first, then to denary
+What does the subscript 2 in 10₂ indicate? | The number 10 is in binary (base 2)
+What does the subscript 16 in 10₁₆ indicate? | The number 10 is in hexadecimal (base 16), equivalent to 16 in denary
+What is floating point binary? | A method of representing real numbers in binary using a mantissa and an exponent, similar to scientific notation
+How is floating point binary similar to scientific notation? | Both split a number into a significant part (mantissa) and a scaling part (exponent) that determines where the point sits
+What is the mantissa in floating point? | The part that holds the significant digits of the value and determines its precision
+The part of a floating point number that holds the significant digits — what is this called? | The mantissa
+What is the exponent in floating point? | The part that controls how far the binary point moves, scaling the number up or down
+The part of a floating point number that controls the position of the binary point — what is this called? | The exponent
+In floating point, where is the binary point assumed to be in the mantissa? | After the most significant bit (e.g. 0.110010)
+How are the mantissa and exponent stored in floating point binary? | Both are stored in two's complement
+What effect does a larger exponent have on a floating point number? | It moves the binary point to the right, making the number larger
+What effect does a negative exponent have on a floating point number? | It moves the binary point to the left, making the number smaller (closer to zero)
+What is normalisation of a floating point number? | Adjusting the mantissa so it starts with 01 (for positive) or 10 (for negative), to maximise precision in the available bits
+Why are floating point numbers normalised? | To ensure maximum precision by making full use of the mantissa bits
+A normalised positive floating point mantissa must start with which digits? | 01
+A normalised negative floating point mantissa must start with which digits? | 10
+When you shift the mantissa left during normalisation, what must you do to the exponent? | Decrease (reduce) the exponent by the number of places shifted
+When you shift the mantissa right during normalisation, what must you do to the exponent? | Increase the exponent by the number of places shifted
+What is the trade-off of increasing the number of mantissa bits (and decreasing exponent bits)? | Greater precision but a smaller range of representable values
+What is the trade-off of increasing the number of exponent bits (and decreasing mantissa bits)? | A larger range of representable values but less precision
+What is the first step when adding floating point binary numbers? | Make the exponents equal by shifting the mantissa of the number with the smaller exponent
+After equalising exponents and adding mantissas in floating point addition, what must you do? | Normalise the result if required (ensure the mantissa starts with 01 or 10)
+How does floating point subtraction work? | Equalise the exponents, convert the mantissa of the number to subtract into two's complement, add the mantissas, then normalise the result
+What is a logical shift? | An operation that moves all bits in a binary number a specified number of places to the left or right, filling vacated positions with zeros
+An operation that moves bits left or right by a specified number of positions — what is this called? | A logical shift
+What is the effect of a logical shift left by 1 place? | It doubles (multiplies by 2) the original number
+What is the effect of a logical shift right by 1 place? | It halves (divides by 2) the original number
+A logical shift left by n places multiplies the number by what? | 2ⁿ
+A logical shift right by n places divides the number by what? | 2ⁿ
+What is a mask in bitwise manipulation? | A binary number used with a logic gate to isolate, modify, or test specific bits in another binary value
+A binary number used to isolate, modify, or test specific bits — what is this called? | A mask
+What does an AND mask do? | It outputs 1 only where both the original bit and the mask bit are 1; otherwise it outputs 0. It is used to extract or clear specific bits
+What does an OR mask do? | It outputs 1 if either the original bit or the mask bit is 1; it outputs 0 only when both are 0. It is used to set specific bits to 1
+What does an XOR mask do? | It outputs 1 only where exactly one of the two bits is 1; it outputs 0 when both bits are the same. It is used to toggle (flip) specific bits
+How does AND masking differ from OR masking? | AND outputs 1 only when both bits are 1 (used to extract/clear bits). OR outputs 1 when at least one bit is 1 (used to set bits to 1)
+How does XOR masking differ from AND masking? | XOR outputs 1 when the bits are different (used to toggle bits). AND outputs 1 only when both bits are 1 (used to extract bits)
+What is a character set? | A published collection of codes and their corresponding characters, used by computers for representing text
+A published collection of codes and corresponding characters used for representing text — what is this? | A character set
+What does ASCII stand for? | American Standard Code for Information Interchange
+How many bits does standard ASCII use per character? | 7 bits
+How many characters can standard ASCII represent? | 128 (2⁷ = 128)
+In ASCII, what denary codes represent uppercase A-Z? | 65-90
+In ASCII, what denary codes represent lowercase a-z? | 97-122
+What is the main limitation of ASCII? | It can only represent 128 characters, which is insufficient for non-English languages, and it cannot represent modern symbols or emojis
+Why was Unicode created? | To solve ASCII's limitation of only 128 characters, enabling representation of characters from many languages, symbols, and emojis
+How does Unicode differ from ASCII in terms of encoding? | Unicode uses a varying number of bits (up to 32 bits), while ASCII uses only 7 bits. Unicode can represent over 1 million characters compared to ASCII's 128
+The character set that uses a varying number of bits and can represent over 1 million characters — what is this? | Unicode
+What is the storage trade-off between ASCII and Unicode? | ASCII is more storage-efficient (7 bits per character), while Unicode can require up to 32 bits per character, using more storage
+Are the first 128 Unicode characters compatible with ASCII? | Yes, Unicode includes the ASCII character set as its first 128 characters, ensuring backward compatibility
+Why might ASCII still be preferred over Unicode in some situations? | When only English text is needed, ASCII uses significantly less storage per character (7 bits vs up to 32 bits)
+What is extended ASCII? | A version of ASCII that uses 8 bits per character, allowing 256 characters instead of 128

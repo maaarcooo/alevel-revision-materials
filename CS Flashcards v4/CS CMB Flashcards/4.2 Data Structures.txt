@@ -1,0 +1,144 @@
+What is an array? | An ordered, finite (static) set of elements of a single data type
+An ordered, static set of elements that can only store one data type — what data structure is this? | Array
+What does it mean that arrays are zero-indexed? | The first element is at position 0
+How is a 1D array described? | A linear array
+How can a 2D array be visualised? | As a table or spreadsheet
+When navigating a 2D array, which dimension do you traverse first? | You go down the rows first, then across the columns
+How can a 3D array be visualised? | As a multi-page spreadsheet or multiple 2D arrays
+What syntax is used to access an element in a 3D array? | threeDimensionalArray[z, y, x] where z = array number, y = row, x = column
+What is a record? | A row in a file, made up of fields, commonly used in databases
+A row in a file made up of fields, used in databases — what data structure is this? | A record
+How is a record declared in pseudocode? | Using the syntax: recordName = record, followed by field declarations with data types, ending with end record
+How are individual fields in a record accessed? | Using dot notation: recordName.fieldName
+What is a list? | A data structure consisting of a number of ordered items where items can occur more than once
+A data structure of ordered items that can occur more than once, stored non-contiguously — what is this? | A list
+How does a list differ from an array in terms of memory storage? | List values are stored non-contiguously (not next to each other in memory), while array data is stored contiguously
+How does a list differ from an array in terms of data types? | Lists can contain elements of more than one data type, whereas arrays can only store one data type
+What does the isEmpty() operation do on a list? | Checks if the list is empty
+What does append(value) do on a list? | Adds a new value to the end of the list
+What does remove(value) do on a list? | Removes the value the first time it appears in the list
+What does length() do on a list? | Returns the number of items in the list
+What does index(value) do on a list? | Returns the position of the item in the list
+What does insert(position, value) do on a list? | Inserts a value at a given position in the list
+What does pop() do on a list? | Returns and removes the last value in the list
+What does pop(position) do on a list? | Returns and removes the value at the given position in the list
+What is a tuple? | An ordered set of values of any type that is immutable (cannot be changed after creation)
+An ordered, immutable set of values of any type — what data structure is this? | A tuple
+What does immutable mean in the context of tuples? | Elements cannot be added, removed, or changed once the tuple has been created
+How are tuples initialised differently from lists? | Tuples use regular/round brackets (), while lists use square brackets []
+What happens if you try to change a value in a tuple? | A syntax error occurs
+How does a list differ from a tuple? | A list is mutable (elements can be added, removed, changed) while a tuple is immutable (cannot be modified after creation)
+What is a linked list? | A dynamic data structure used to hold an ordered sequence where items do not have to be in contiguous memory locations
+A dynamic data structure holding an ordered sequence using nodes with data and pointer fields — what is this? | A linked list
+What does each item (node) in a linked list contain? | A data field and a pointer (link) field
+What does the data field in a linked list node contain? | The value of the actual data which is part of the list
+What does the pointer field in a linked list node contain? | The address of the next item in the list
+What two additional pointers does a linked list store? | A Start pointer (index of the first item) and a NextFree pointer (index of the next available space)
+How does traversal of a linked list work? | Begin at the index given by the Start pointer, output each node's value, and follow pointers until the pointer field is empty/null
+What signals the end of a linked list during traversal? | The pointer field being empty or null
+How do you add a new node to a linked list? | Add the value at the NextFree position, update NextFree, then update pointers of surrounding nodes to include the new node in the sequence
+How do you remove a node from a linked list? | Update the pointer of the preceding node to bypass the deleted node and point to the next node in sequence
+When a node is removed from a linked list, is the data physically deleted? | No, the node is only ignored (bypassed by pointers), which wastes memory
+Why do linked lists require more memory than arrays? | Because each node stores both data and a pointer, adding overhead compared to arrays which only store data
+Why can items in a linked list not be directly accessed by index? | Because items are stored in a sequence linked by pointers, so you must traverse from the start to reach a specific item
+What is random access? | The ability to access a specific element directly given its index, which is possible in an array but not in a linked list
+How does a linked list differ from an array in terms of access? | Arrays allow direct (random) access by index, while linked lists require sequential traversal from the start
+What is a graph? | A set of vertices/nodes connected by edges/arcs
+A set of vertices connected by edges — what data structure is this? | A graph
+What is a directed graph? | A graph where edges can only be traversed in one direction
+What is an undirected graph? | A graph where edges can be traversed in both directions
+What is a weighted graph? | A graph where a cost/value is attached to each edge
+What two methods can computers use to represent graphs? | An adjacency matrix or an adjacency list
+What is an adjacency matrix? | A matrix (2D array) containing rows and columns used to represent the connections between nodes in a graph
+What is an adjacency list? | A collection of unordered lists used to represent a finite graph, where each node stores a list of its neighbours
+What advantage does an adjacency matrix have over an adjacency list? | Quicker access times and it is easier to add nodes
+What advantage does an adjacency list have over an adjacency matrix? | More space efficient for large, sparse networks
+In an unweighted adjacency matrix, what values represent edges? | 1 indicates an edge exists, 0 indicates no edge
+In a weighted adjacency matrix, what value is used when no edge exists? | Infinity (∞) or a very large number
+Why is the data in an adjacency matrix for an undirected graph symmetric? | Because every edge goes both ways, so if A connects to B, B also connects to A
+What is a stack? | A last in first out (LIFO) data structure where items can only be added to or removed from the top
+A LIFO data structure where items are added and removed from the top only — what is this? | A stack
+What does LIFO stand for? | Last In First Out
+Give two real-world uses of stacks in computing | Reversing actions such as the back button in web browsers, and the undo function in applications
+What pointer does a stack use? | A top pointer that points to the top of the stack where the next piece of data will be inserted
+When is a static stack preferred over a dynamic stack? | When the maximum size required is known in advance, because static stacks are easier to implement and make more efficient use of memory
+What does isEmpty() do on a stack? | Checks if the stack is empty by checking the value of the top pointer
+What does push(value) do on a stack? | Adds a new value to the top of the stack after checking the stack is not full
+What does peek() do on a stack? | Returns the top value from the stack without removing it, after checking the stack is not empty
+What does pop() do on a stack? | Removes and returns the top value of the stack, after checking the stack is not empty
+What does size() do on a stack? | Returns the size (number of elements) of the stack
+What does isFull() do on a stack? | Checks if the stack is full by comparing stack size to the top pointer, returns a Boolean
+What is a stack overflow? | An attempt to push an item onto a full stack
+What is a stack underflow? | An attempt to pop an item from an empty stack
+What is a queue? | A first in first out (FIFO) data structure where items are added to the end and removed from the front
+A FIFO data structure where items are added to the back and removed from the front — what is this? | A queue
+What does FIFO stand for? | First In First Out
+What two pointers does a queue use? | A front (head) pointer and a back (tail/rear) pointer
+Give three common uses of queues | Printers, keyboards, and simulators
+What does enQueue(value) do? | Adds a new item to the end of the queue and increments the back pointer
+What does deQueue() do? | Removes the item from the front of the queue and increments the front pointer
+How does isEmpty() work on a queue? | Checks if the queue is empty by comparing the front and back pointers
+How does isFull() work on a queue? | Checks if the queue is full by comparing the back pointer and queue size
+What is a queue overflow? | An attempt to enqueue an item when the queue is full
+What is a queue underflow? | An attempt to dequeue an item from an empty queue
+What is a linear queue? | A queue implemented as an array where items are added to the next available space and removed from the front
+What is the main drawback of a linear queue? | As items are removed, the freed addresses at the start of the array cannot be reused, wasting memory
+What is a circular queue? | A FIFO queue that can loop the rear pointer back to the front of the array when it reaches the end, reusing empty spaces left by dequeued items
+How does a circular queue improve on a linear queue? | It reuses empty spaces at the front of the array caused by dequeuing, using space more effectively
+What is the disadvantage of a circular queue compared to a linear queue? | Circular queues are harder to implement
+How does the rear pointer wrap around in a circular queue? | When the rear pointer equals the maximum size of the queue, it loops back to position 0 (provided that space is empty)
+How does a stack differ from a queue? | A stack is LIFO (items added and removed from the top only), while a queue is FIFO (items added at the back and removed from the front)
+What is a tree? | A connected, undirected form of a graph with a hierarchical structure of nodes connected by edges/branches
+A connected, undirected graph with a root node and hierarchical parent-child relationships — what data structure is this? | A tree
+What is the root node of a tree? | The single top-level node that does not have any incoming edges (no parent)
+What is a child node? | A node with incoming edges (connected below a parent)
+What is a parent node? | A node with outgoing edges (connected above its children)
+What is a leaf node? | A node with no children
+What is a subtree? | A subsection of a tree consisting of a parent and all of its children
+What is an edge in a tree? | A connection between two nodes, also known as a branch, arc, or pointer
+What is a binary tree? | A type of tree where each node has a maximum of two children
+A tree where each node has at most two children — what is this? | A binary tree
+How is a binary tree commonly represented in a computer? | By storing each node with a left pointer, data value, and right pointer, usually implemented using a 2D array
+What is a binary search tree (BST)? | A rooted binary tree where nodes are ordered so that left children have smaller values and right children have larger values than their parent
+A binary tree ordered so left children are smaller and right children are larger than the parent — what is this? | A binary search tree
+Why are binary search trees useful? | They are ordered to optimise searching, making it easy to search through the data
+How do you insert a value into a binary search tree? | Compare the value with the current node: if smaller go left, if larger go right. Repeat until a vacant spot is found, then insert the new node there
+How do you delete a leaf node from a binary search tree? | Simply remove it, since it has no children
+How do you delete a node with one child from a BST? | Replace the deleted node with its child node
+How do you delete a node with two children from a BST? | Replace it with either the minimum value from its right subtree (in-order successor) or the maximum value from its left subtree
+What are the three methods of depth-first traversal of a binary tree? | Pre-order, In-order, and Post-order
+What order does pre-order traversal follow? | Root node, left subtree, right subtree
+What order does in-order traversal follow? | Left subtree, root node, right subtree
+What order does post-order traversal follow? | Left subtree, right subtree, root node
+What is the outline method for pre-order traversal? | Nodes are traversed in the order you pass them on the left side, starting at the left-hand side of the root node
+What is the outline method for in-order traversal? | Nodes are traversed in the order you pass under them, starting at the first node from the left without two child nodes
+What is the outline method for post-order traversal? | Nodes are traversed in the order you pass them on the right side
+Why is in-order traversal useful? | It outputs the nodes in sequential (sorted) order
+What is pre-order traversal used for? | In programming languages where the operation is written before the values (prefix notation), e.g., a + b becomes + a b
+What is breadth-first traversal of a binary tree? | Visiting nodes level by level, starting at the root, moving left to right across each level before moving to the next
+How does a breadth-first graph traversal work? | Uses a queue: visit the start node, enqueue all unvisited neighbours, dequeue the front node, mark it as visited, and repeat until all nodes are visited
+How does a depth-first graph traversal work? | Uses a stack: visit the start node, push unvisited neighbours onto the stack, pop the top node, mark it as visited, and repeat until all nodes are visited
+How does breadth-first graph traversal differ from depth-first? | Breadth-first uses a queue and explores all neighbours of a node before moving deeper. Depth-first uses a stack and explores as far as possible along each branch before backtracking
+What is a hash table? | An associative array coupled with a hash function that maps keys to indices in the array
+An array coupled with a hash function that maps keys to index positions — what data structure is this? | A hash table
+What does a hash function do? | Takes in data (a key) and produces an output (the hash) that maps the key to an index in the hash table
+What is a collision in a hash table? | When two different inputs produce the same hashed value (same index)
+What is collision resolution? | The process of handling a collision, typically by placing the item in the next available location (linear probing) or using chaining
+What is linear probing? | A collision resolution method where, if a collision occurs, the data is placed in the next free position in the hash table by checking subsequent slots sequentially
+What is chaining? | A collision resolution method where each hash table position stores a pointer to a linked list of all items that hash to that index
+Why are hash tables used for indexing? | They provide fast access to data because keys have a unique, one-to-one relationship with the address where they are stored
+What property should a good hashing algorithm have? | A low probability of collisions occurring
+In the best case, what is the time complexity of retrieving data from a hash table? | Constant time (one operation to find the item)
+How does linear probing degrade hash table performance? | Many collisions cause items to be stored far from their hashed position, requiring sequential checking and reducing search efficiency
+How does retrieving data work with linear probing after a collision? | Hash the key to get the index, check if the key matches, if not check subsequent positions until the matching key is found or an empty bucket is reached
+How does retrieving data work with chaining after a collision? | Hash the key to get the index, follow the linked list at that position, checking each node's key until a match is found or the list ends
+What is rehashing? | Creating a new (often larger) hash table and re-inserting all existing items using the hash function, to improve performance when the table becomes too full or has many misplaced items
+How can character-based keys be hashed? | Convert each character to its ASCII value, sum the values, then apply a MOD function to fit within the table size
+How does a static data structure differ from a dynamic data structure? | A static structure has a fixed size that cannot change at run time, while a dynamic structure can grow or shrink to accommodate changes in data
+Give an example of a static data structure and a dynamic data structure | Array (static), Linked list (dynamic)
+How does a graph differ from a tree? | A graph can have cycles and can be directed or undirected, while a tree has a hierarchy with parent-child relationships and no cycles
+When should an array be used over a list? | When a fixed-size collection is needed with efficient random access by index, and all elements are the same data type
+When should a list be used over an array? | When the collection needs to change in size dynamically, or elements of more than one data type need to be stored
+What are three applications of tree data structures? | Managing folder structures, storing routing tables in routers, and speeding up searching using binary search trees
+What are three applications of graph data structures? | Social networks, transport networks, and operating systems
+What is the null pointer in a tree? | A pointer that shows a node does not point to another node, such as when a node has no children

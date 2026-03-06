@@ -1,0 +1,52 @@
+What does "thinking ahead" mean in computational thinking? | Considering the different components of a problem and how they will be handled before implementation, allowing developers to anticipate difficulties and design strategies to make programs easy and intuitive to use
+Why is thinking ahead important in software design? | It allows developers to consider problems or difficulties that may arise when software is used, so strategies can be designed at an early stage to make programs easy and intuitive to use
+What are inputs in a computational problem? | Any data that is required to solve the problem, entered into the system by the user
+Any data required to solve a problem, entered into the system by the user — what term describes this? | Inputs
+What are outputs in a computational problem? | The results that are passed back once the inputs have been processed and the problem solved
+The results passed back once inputs have been processed and the problem solved — what term describes this? | Outputs
+Besides the data itself, what two additional factors about inputs must designers consider? | The order in which data is input and the method of input
+What three properties must designers decide on when presenting outputs? | A suitable data type, data structure, and method of presentation
+Output data does not necessarily have to appear on a screen. Give two alternative output devices. | Printer and speaker (output can be in visual or audio format)
+When designing a solution, which do designers typically consider first — inputs or outputs? | Outputs, based on the user's requirements. Then inputs and processing are identified to achieve those outputs.
+In an ATM system, name three types of input. | Transaction type selection, card details (via card reader), and PIN (via keypad)
+In an ATM system, name three types of output. | Display on screen (balance or amount), dispensed cash, and printed receipt
+In an ATM system, name two input devices and two output devices. | Input: touch screen, magnetic stripe card reader. Output: monitor, cash dispenser (also printer and speakers)
+When designing an algorithm, why must inputs and outputs be explicitly defined including their type, size, and format? | If not defined explicitly, creating the algorithm becomes much more difficult and can cause errors and problems later when unexpected events occur
+What are preconditions? | Requirements that must be met before a program or subroutine can be executed
+Requirements that must be met before a program or subroutine can be executed — what term describes these? | Preconditions
+What happens if preconditions are not met? | The program will fail to execute or return an invalid answer
+Specifying preconditions means a subroutine can safely expect what about its arguments? | That the arguments passed to it will meet certain criteria, as defined by the preconditions
+What are the two places where preconditions can be specified? | Within the code itself (tested programmatically) or in the documentation accompanying the subroutine/library
+What is the precondition for the pop() operation on a stack? | The stack must not be empty (the top pointer must be greater than 0)
+Explain why the pop() function must check that the stack is not empty before executing. | Popping from an empty stack would produce an error that causes the program to crash, as there is no element to remove
+What is an example of a precondition that is typically specified in documentation rather than in code? | The factorial function requires a non-negative argument. This is stated in documentation rather than checked within the code.
+What is the advantage of including preconditions in documentation rather than in the code? | It reduces the length and complexity of the program, and saves time needed to debug and maintain a longer program
+When preconditions are in documentation rather than code, whose responsibility is it to ensure inputs meet requirements? | The user's (or calling programmer's) responsibility
+How do preconditions make subroutines more reusable? | By explicitly ensuring conditions are met before execution, subroutines can be confidently called in different contexts, knowing they will complete successfully
+What is the precondition for a binary search algorithm? | The input list must be ordered (sorted), must not be empty, and elements must be of a comparable data type
+How do preconditions specified in code differ from preconditions specified in documentation in terms of who performs validation? | In code: the subroutine itself performs the validation checks. In documentation: the developer calling the subroutine is responsible for ensuring inputs meet the requirements before calling it.
+What is caching? | The process of storing instructions or values in cache memory after they have been used, as they may be used again
+The process of storing recently used instructions or values in cache memory because they may be needed again — what is this called? | Caching
+Why does caching save time? | It avoids the time that would be needed to retrieve the same instructions or data from slower secondary storage again
+Give a common real-world example of caching. | Web caching: frequently accessed web pages are cached so content loads without delay on subsequent visits, and images/text do not need to be re-downloaded
+How does web caching benefit network performance? | Images and text do not have to be downloaded again multiple times, freeing up bandwidth for other tasks on the network
+What is prefetching? | An advanced form of caching where algorithms predict which instructions are likely to be needed soon and load them into cache before they are actually fetched
+Algorithms predict which instructions are likely to be needed soon and load them into cache before they are requested — what is this called? | Prefetching
+How does prefetching improve performance? | Less time is spent waiting for instructions to be loaded into RAM from the hard disk, because they are already stored in cache before being needed
+What is the biggest limitation of prefetching? | The accuracy of the prediction algorithms, which can only provide an informed prediction. There is no guarantee the prefetched instructions will actually be needed.
+Why does cache size limit the effectiveness of caching? | Larger caches take longer to search, so there is a trade-off between how much data can be stored and how quickly it can be found
+How does the effectiveness of caching differ from the effectiveness of prefetching? | Caching depends on how well the caching algorithm manages the cache (deciding what to keep/evict). Prefetching additionally depends on the accuracy of prediction algorithms that guess future needs.
+What are reusable program components? | Previously developed and tested program components (such as subroutines, classes, and data structure implementations) that can be used again in new programs or projects
+Give three examples of reusable program components. | Implementations of abstract data structures (e.g. queues, stacks), classes, and subroutines
+What is a library in the context of reusable components? | A collection of commonly used functions or subroutines packaged together for reuse across projects
+Commonly used functions packaged together for reuse across projects — what is this called? | A library
+How does decomposition relate to reusable components? | By breaking a problem into smaller, simpler tasks, developers can identify where previously developed or externally-sourced components can be reused to simplify development
+Explain why reusable components are more reliable than newly-coded components. | They have already been tested and any bugs dealt with, so they have proven correctness through prior use
+Name three resources that reusable components save. | Time, money, and resources (by avoiding re-development and re-testing)
+How can subroutines be reused to produce different results? | They can be called with different arguments to produce a variety of outputs
+Why might it not always be possible to use third-party reusable components? | Compatibility issues with the rest of the software may make integration difficult or impossible
+What is the potential drawback of modifying third-party components to work with existing software? | It can sometimes be more costly and time-consuming than developing the components in-house
+How does producing well-tested, reusable components benefit future projects? | They can be reused in future projects, saving development costs because the testing and debugging has already been done
+Give three examples of subroutines commonly found in standard libraries. | Printing, type casting, and finding the maximum/minimum value of a list (also generating random numbers)
+Give two examples of bespoke reusable components a developer might create. | Implementations of data structures such as stacks and queues, or standard algorithms such as quick sort or merge sort
+How does defining preconditions (including inputs and outputs) help with reusability? | It allows the subroutine to be put into a library and called on at any time, because the caller knows exactly what conditions must be met

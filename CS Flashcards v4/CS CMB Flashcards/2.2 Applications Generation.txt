@@ -1,0 +1,88 @@
+What is application software? | Software designed to be used by the end-user to perform one or more specific tasks
+Software designed to perform specific tasks for end-users, such as word processing or web browsing — what type of software is this? | Application software
+What is systems software? | Low-level software responsible for running the computer system smoothly, interacting with hardware and providing a platform for application software to run
+Low-level software that manages hardware and provides a platform for applications to run — what type of software is this? | Systems software
+Does the user interact directly with systems software? | No, the user does not directly interact with systems software, but it ensures high performance in the background
+Give four examples of application software | Desktop publishing, word processing, spreadsheets, web browsers
+Give four examples of systems software | Library programs, utility programs, operating system, device drivers
+Application software requires [...] software in order to run | systems
+How does application software differ from systems software? | Application software performs specific tasks for end-users (e.g. word processing), while systems software runs in the background to manage hardware and provide a platform for applications to run
+What is a word processor used for? | Creating, editing, formatting and printing text documents
+What is database management software used for? | Storing, retrieving, manipulating and managing data
+What is an IDE used for? | Developing, testing and debugging software code
+What are utility programs? | System software with specific functions linked to the maintenance and consistent, high performance of the operating system
+System software that performs specific maintenance functions to ensure consistent, high performance of the OS — what is this? | Utility software
+What does the compression utility do? | Enables files to be compressed and decompressed, used when transmitting large files across the Internet or compressing scanned files
+What does the disk defragmentation utility do? | Rearranges the contents of the hard drive so that files are stored in contiguous blocks, improving read/write times and overall performance
+Explain why disk defragmentation improves performance | As the hard disk fills, files become fragmented across different parts of memory, slowing read/write times. Defragmentation rearranges files into contiguous blocks so they can be accessed faster
+What does antivirus software do? | Detects potential threats to the computer, alerts the user, and removes those threats
+What does the automatic updating utility do? | Ensures the operating system is kept up to date by automatically installing updates when the computer is restarted
+Why are automatic updates important for security? | Updates tackle bugs and security flaws, making the system less vulnerable to malware and hacking threats
+What does the backup utility do? | Automatically creates routine copies of specific files selected by the user at intervals specified by the user
+Why is backup utility important? | In the event of a power failure, malicious attack or other accident, files can be recovered from the backup copies
+What is source code? | Code written by a programmer before it has been compiled into object code
+What does 'open source' mean in relation to software? | The source code is freely available to the public, can be used without a license, and is distributed with the source code so anyone can view, modify and redistribute it
+The source code is freely available and can be viewed, modified and redistributed by anyone — what type of software is this? | Open source software
+What does 'closed source' mean in relation to software? | The source code is not accessible to the public; users require an appropriate license to use the software, and the company owns the copyright
+Software where the source code is proprietary, requires a license, and cannot be accessed or modified by users — what type of software is this? | Closed source software
+Give two advantages of open source software | Can be modified and improved by anyone; technical support available from the online community; can be modified and sold on (any two)
+Give two advantages of closed source software | Thorough, regular and well-tested updates; expert support and user manuals from the company; high levels of security as developed professionally (any two)
+Give two disadvantages of open source software | Online support may be insufficient or incorrect with no user manuals; lower security as may not be developed in a controlled environment (any two)
+Give two disadvantages of closed source software | License restricts how many people can use the software at once; users cannot modify and improve software themselves (any two)
+How does the security of open source software typically compare to closed source? | Open source may have lower security as it may not be developed in a controlled environment, while closed source typically has higher security as it is developed professionally
+What two factors should a user consider when choosing between open and closed source software? | Costs (implementation, maintenance, training, license) and functionality (features available, ease of use)
+What is a translator? | A program that converts high-level source code into low-level object code that is ready to be executed by a computer
+A program that converts high-level source code into low-level object code — what is this? | A translator
+Name the three types of translator | Compiler, interpreter, assembler
+What does a compiler do? | Translates the entire high-level source code into machine code all at once, after carrying out checks and reporting any errors
+A translator that converts all high-level code into machine code at once before execution — what is this? | A compiler
+What does an interpreter do? | Translates and executes high-level source code one line at a time, stopping and producing an error if a line contains an error
+A translator that translates and executes code line-by-line, stopping at errors — what is this? | An interpreter
+What does an assembler do? | Translates assembly code (low-level language) into machine code
+A translator that converts assembly language into machine code — what is this? | An assembler
+How does a compiler differ from an interpreter? | A compiler translates the entire program at once before execution, producing a standalone executable. An interpreter translates and executes code line-by-line, requiring the interpreter to be present each time the program runs
+Why is the initial compilation process longer than using an interpreter? | The compiler must translate the entire program and carry out a number of checks before producing the executable, whereas an interpreter begins executing immediately line-by-line
+Why is running compiled code faster than running interpreted code? | Compiled code has already been translated into machine code, so it executes directly. Interpreted code must be translated each time it is run, adding overhead at every execution
+If changes are made to compiled code, what must happen? | The entire program must be recompiled
+Why are interpreters useful during the development/testing phase? | They allow testing sections of code and pinpointing errors quickly, as time is not wasted compiling the entire program before debugging
+Compiled code is specific to a particular [...] type and [...] | processor; operating system
+Can compiled code run without the translator being present? | Yes, once compiled, the code can run without the compiler being present
+Does interpreted code require the interpreter to be present at runtime? | Yes, interpreted code requires an interpreter to be present on the device each time it is run
+Why is interpreted code considered more portable than compiled code? | Interpreted code can be executed on any platform that has the appropriate interpreter available, whereas compiled code is specific to a particular processor and operating system
+Why is assembly code considered a low-level language? | It is the next level up from machine code, using mnemonics that closely correspond to machine code instructions
+Why is assembly code platform specific? | The instructions used are dependent on the instruction set of the processor
+Each line of assembly code translates to approximately [...] line(s) of machine code | one (almost one-to-one basis)
+Name the four stages of compilation in order | Lexical analysis, syntax analysis, code generation, optimisation
+What happens during lexical analysis? | Whitespace and comments are removed; the remaining code is analysed for keywords, variable names and constants, which are replaced with tokens; information about each token is stored in a symbol table
+During which stage of compilation are whitespace and comments removed? | Lexical analysis
+What is a token in the context of lexical analysis? | A small meaningful unit in the programming language, such as a keyword, identifier, operator, or separator
+What is a symbol table used for in compilation? | To store information about each token, including details about keywords and identifiers found during lexical analysis (and updated during syntax analysis)
+Give four types of token identified during lexical analysis | Keywords (e.g. var, if, while), identifiers (e.g. variable names), operators (e.g. +, *, =), separators (e.g. brackets, semicolons)
+What happens during syntax analysis? | Tokens are checked against the grammar and rules of the programming language; syntax errors are flagged and added to an error list; an abstract syntax tree (AST) is produced
+During which stage of compilation are tokens checked against the rules of the programming language? | Syntax analysis
+What is an abstract syntax tree (AST)? | A tree-based (graph-based) representation of the source code produced during syntax analysis
+Give two examples of syntax errors | Undeclared variable type, incomplete set of brackets (mismatched parentheses, missing semicolons)
+What is semantic analysis and when does it occur? | The detection of logic mistakes within the program; it is carried out during the syntax analysis stage
+Give two examples of semantic errors | Multiple declaration of a variable, use of undeclared identifiers
+How does a syntax error differ from a semantic error? | A syntax error breaks the grammatical rules of the language (e.g. missing bracket). A semantic error is a logic mistake where the code is grammatically correct but does not do what is intended (e.g. using an undeclared variable)
+What happens during the code generation stage of compilation? | The abstract syntax tree produced in syntax analysis is used to generate machine code (object code)
+What happens during the optimisation stage of compilation? | The code is searched for areas where it can be made more efficient; redundant code is removed and repeated sections may be replaced with more efficient equivalents
+What is the aim of code optimisation? | To make the code faster to execute and reduce memory usage
+What is a risk of excessive optimisation? | It may alter the way in which the program behaves
+The optimisation stage can significantly add to the overall [...] | time taken for compilation
+What is a linker? | A piece of software responsible for linking external modules and libraries included within the code into a single executable
+Software that combines object files and external libraries into a single executable — what is this? | A linker
+What is static linking? | Modules and libraries are added directly into the main executable file at compile time
+What is dynamic linking? | The addresses of modules and libraries are included in the file; the code is retrieved from those addresses at runtime by the loader
+How does static linking differ from dynamic linking? | Static linking adds library code directly into the executable, increasing file size but making it self-contained. Dynamic linking stores only addresses of libraries, keeping files small and allowing external updates to feed through, but requiring the libraries to be present at runtime
+Give one advantage and one disadvantage of static linking | Advantage: a specific version of a library can be guaranteed, and the program is self-contained. Disadvantage: increases the file size
+Give one advantage and one disadvantage of dynamic linking | Advantage: files remain small and external updates automatically feed through. Disadvantage: the required library must be present at runtime
+What is a loader? | A program provided by the operating system that retrieves a program, library or subroutine from a given memory location and loads it into memory for execution
+A program provided by the OS that loads executable files into memory so they can be run — what is this? | A loader
+What are libraries in programming? | Pre-compiled collections of reusable code (functions, classes, procedures) that can be incorporated into other programs using static or dynamic linking
+Pre-compiled, ready-to-use, error-free programs that can be incorporated into other programs — what are these? | Libraries
+Give three advantages of using libraries | They are ready-to-use and error free (saving testing time); they save development time; they can be reused within multiple programs
+Why do libraries save programmers from having to 'reinvent the wheel'? | Libraries provide specialised, pre-written functions (e.g. mathematical or graphical functions) that would otherwise require significant time and effort to develop from scratch, allowing programmers to use others' expertise
+Give two drawbacks of using libraries | Dependency issues if the library is discontinued or unmaintained; compatibility issues with different versions; using a large library for a small task adds unnecessary complexity and size (any two)
+What role does the loader play in dynamic linking? | When the program is run, the loader retrieves the library or subroutine from the specified memory address so it can be executed
+What is parsing in the context of compilation? | The process used to check each line of code is well-formed according to the grammar rules of the programming language (occurs during syntax analysis)

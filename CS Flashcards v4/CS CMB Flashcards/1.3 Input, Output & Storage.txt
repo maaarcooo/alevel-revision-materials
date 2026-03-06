@@ -1,0 +1,98 @@
+What is an input device? | A hardware device used to put data and information into a computer system
+A hardware device that sends data into a computer for processing — what is this called? | An input device
+What is an output device? | A hardware device that receives information from a computer system and presents it to the user
+A hardware device that presents processed information to the user — what is this called? | An output device
+What is a keyboard used for? | Entering text and commands into a computer by pressing keys
+What does a webcam do? | Captures video input, often used for video conferencing or recording videos
+What is a magnetic stripe reader used for? | Reading data from magnetic stripes on cards such as credit and debit cards
+What does a barcode reader do? | Scans barcodes to read information, typically used in retail checkouts and inventory management
+What is a scanner used for? | Digitising physical documents or images into a format the computer can process
+What input device would a graphic designer use for drawing directly onto a computer? | A graphics tablet
+What are biometric devices used for? | Verifying a user's identity using features such as fingerprints or facial recognition
+A device such as a fingerprint scanner used for security authentication — what type of device is this? | A biometric device
+What do speakers do as output devices? | Output audio from a computer, such as music, sound effects, or voice
+What does a printer do? | Produces a hard copy of digital documents or images on paper
+What does a projector do? | Projects the computer's visual display onto a large screen or wall
+What is a Braille display? | A specialised output device that presents information in Braille, allowing visually impaired users to read text from a computer
+What is a plotter used for? | Printing large, high-quality diagrams and designs, often used in engineering or architecture
+Give an example of a device that is both an input and output device | A touchscreen — it outputs visual information like a monitor while also accepting touch input
+What factors should be considered when choosing an input device? | Speed of input, accuracy of input, cost, and relevance to the task
+What four factors should be considered when choosing a storage device? | Storage capacity needed, performance/speed needs, portability, and cost
+What are the three main types of secondary storage? | Magnetic, optical, and flash
+How do optical storage devices read and write data? | Using lasers — binary data is represented by portions of the disc that either reflect or scatter the laser light
+On a CD surface, what are pits? | Recessed portions of the disc that scatter light, representing a binary 0
+On a CD surface, what are lands? | Flat portions of the disc that reflect light, representing a binary 1
+The recessed portions of a CD that scatter laser light are called [...] | pits
+The flat portions of a CD that reflect laser light are called [...] | lands
+What does CD stand for? | Compact disc
+What type of data are CDs most commonly used to store? | Audio files (though they can also store text and digital images)
+Name two disadvantages of CDs | Easily damaged by scratches, and limited storage capacity with relatively slow transfer speeds
+What is the difference between CD-R and CD-RW? | CD-R can only be written to once, while CD-RW can be written to multiple times
+What is a CD-ROM? | A CD that is written to during production and can then only be read from, not rewritten
+What does DVD stand for? | Digital versatile disc (or digital video disc)
+How do DVDs compare to CDs in terms of storage capacity? | DVDs have a higher storage capacity than CDs
+What type of content are DVDs best suited for storing? | Digital videos, which require more storage space than audio files or photos
+How does Blu-ray compare to DVD in terms of storage capacity? | Blu-ray discs have more than five times the storage capacity of traditional DVDs
+What are Blu-ray discs particularly useful for? | Storing high-resolution films
+What is the typical storage capacity of a CD? | 700MB
+What is the typical storage capacity of a DVD? | 4.7GB to 9GB
+What is the typical storage capacity of a Blu-ray disc? | 25GB to 50GB
+How do magnetic storage devices represent binary data? | Using two magnetic states: polarised (magnetic poles aligned, representing 1) and unpolarised (magnetic poles randomly scattered, representing 0)
+A region of magnetic material where all poles are aligned and can be read by a read/write head is in what state? | Polarised
+What is the most common type of magnetic storage? | Hard disk drives (HDDs)
+What does HDD stand for? | Hard disk drive
+What is the typical storage capacity of a consumer-grade HDD? | 500GB to 2TB (some up to 5TB)
+How does a hard disk drive work? | Rotating magnetic platters spin at high speeds under a read/write head on an actuating arm, allowing the head to access any part of the platter
+Why do most HDDs have multiple platters? | To maximise storage capacity by stacking platters on top of each other
+Name two disadvantages of HDDs | Somewhat slow data transfer speeds, and susceptibility to damage from movement due to brittle platters and moving parts
+Explain why HDDs are susceptible to physical damage | HDDs contain brittle spinning platters and moving parts (actuating arm), so sudden movement or shocks can cause the read/write head to scratch or damage the platters
+What was magnetic tape used for? | Recording and storing computer data, popular from the 1950s through to the 1980s
+Why was magnetic tape eventually superseded? | It was bulky, and more modern technologies like ROM cartridges offered better alternatives
+What is a floppy disk? | A thin magnetic disk enclosed in a plastic casing, used for exchanging small amounts of data portably
+What was the typical storage capacity of a floppy disk? | Around 1MB, though some later versions reached up to 200MB
+What two key properties make flash storage advantageous? | It is fast and compact
+What technology does flash storage use to store data? | Silicon semiconductors forming NAND and NOR logic gates that store electrical charge in one of two states (high or low)
+In flash storage, what do the two electrical charge states (high and low) represent? | Binary values True and False (1 and 0)
+How is data organised in flash memory? | In blocks, which are combined to form pages
+Which flash memory logic gate is preferred for storing small quantities of data such as executable code? | NOR
+Which flash memory logic gate is preferred for storing larger files like photos and videos? | NAND
+The preferred logic gate for small data like code in flash memory is [...] | NOR
+The preferred logic gate for large files like photos/videos in flash memory is [...] | NAND
+What does it mean that flash memory is non-volatile? | It retains its stored data even when power is lost
+Flash memory can be erased and reprogrammed [...] | electronically
+How does flash memory differ from RAM in terms of volatility? | Flash memory is non-volatile (retains data without power), while RAM is volatile (loses data when power is lost)
+Why is flash memory more expensive than magnetic and optical storage? | As a general rule, flash memory costs more per gigabyte than other storage methods
+What does SSD stand for? | Solid state drive
+Why are SSDs more resistant to physical damage than HDDs? | SSDs have no moving parts, unlike HDDs which contain spinning platters and actuating arms
+Name two advantages of SSDs over HDDs | Higher data transfer speeds, and greater resistance to damage from movement (no moving parts)
+What is the primary disadvantage of SSDs? | Their higher cost per gigabyte compared to HDDs (though this is decreasing over time)
+Explain why SSDs have a limited lifespan | Every time a page is written to, the voltage required to write to it increases. Over time, this required voltage becomes too high for the page to be written to
+What is the typical storage capacity of a consumer-grade SSD? | 120GB to 4TB
+How does the portability of a USB flash drive compare to other storage devices? | Very high portability due to being small and lightweight
+What is RAM? | Random access memory — a type of fast main memory used to store data and programs the computer is currently using
+A type of fast, volatile main memory used to hold data and programs currently in use — what is this? | RAM (Random Access Memory)
+Why does RAM speed up a computer's execution? | RAM has higher access speeds than even flash memory, allowing the processor to quickly access currently needed data
+Why is RAM volatile? | It loses all stored information when power is lost
+Why is RAM not used to store personal files permanently? | Because RAM is volatile — it loses its contents when the computer is powered off
+Why do computers typically have only 4-8GB of RAM compared to hundreds of GB of secondary storage? | RAM is more expensive per gigabyte than secondary storage devices
+What is ROM? | Read only memory — non-volatile memory that cannot be modified after being programmed, used for storing fixed instructions
+Non-volatile memory that stores fixed instructions and cannot be modified after programming — what is this? | ROM (Read Only Memory)
+What is ROM typically used to store? | Fixed sequences of instructions such as the computer's startup (bootstrap) routine or BIOS/firmware
+What is the bootstrap routine? | The fixed startup sequence stored in ROM that initialises the computer's hardware when it is powered on
+What does BIOS stand for? | Basic Input/Output System
+How does RAM differ from ROM in terms of volatility? | RAM is volatile (loses contents when power is off), while ROM is non-volatile (retains contents without power)
+How does RAM differ from ROM in terms of read/write capability? | RAM can be both read from and written to, while ROM can only be read from (not modified)
+What is the difference between primary and secondary storage? | Primary storage (RAM and ROM) is used by the OS to run the computer and store currently needed instructions/data. Secondary storage (HDDs, SSDs, optical discs) stores user data like files, images, and videos long-term
+What is virtual storage? | Storing information remotely so it can be accessed by any computer with access to the same system, typically over the Internet
+Storing data remotely on servers accessed over the Internet, also known as cloud storage — what is this called? | Virtual storage
+Give two examples of virtual storage services | Google Drive and Microsoft OneDrive
+Virtual storage is often an abstraction of [...] acting like one | multiple drives
+Explain how virtual storage physically works behind the scenes | Data stored "in the cloud" is actually stored across hundreds of hard drives or SSDs in data centres, formatted to appear as a single piece of storage
+Name two advantages of virtual storage | Accessibility from any Internet-connected device, and scalability (easy to increase storage capacity as needs grow)
+Name two disadvantages of virtual storage | Dependence on Internet connection speed, and ongoing/high costs
+What is the difference between virtual storage and virtual memory? | Virtual storage is data stored remotely on the cloud. Virtual memory is when secondary storage is used as an extension of RAM when RAM capacity is exceeded
+Why is virtual storage becoming more popular over time? | As Internet speeds increase, the convenience of accessing files from any Internet-connected device makes cloud storage more practical
+What benefit does data redundancy provide in virtual storage? | It protects against data loss due to hardware failure, since data is backed up across multiple servers
+How does magnetic storage compare to flash storage in terms of cost per gigabyte? | Magnetic storage has a lower cost per gigabyte than flash storage
+How does optical storage compare to flash storage in terms of read/write speed? | Flash storage has much faster read/write speeds than optical storage
+How do HDDs compare to SSDs in terms of durability? | SSDs are more durable because they have no moving parts, while HDDs are susceptible to damage from shocks or falls due to their moving parts

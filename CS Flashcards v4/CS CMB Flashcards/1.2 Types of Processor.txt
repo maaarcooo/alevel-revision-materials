@@ -1,0 +1,52 @@
+What does RISC stand for? | Reduced Instruction Set Computer
+A processor with a smaller instruction set containing simpler instructions — what type of processor is this? | RISC (Reduced Instruction Set Computer)
+What does CISC stand for? | Complex Instruction Set Computer
+A processor with a larger instruction set containing more complex instructions — what type of processor is this? | CISC (Complex Instruction Set Computer)
+How many clock cycles does each RISC instruction take to execute? | One clock cycle
+Why are RISC processors more suited to pipelining than CISC processors? | Each RISC instruction takes exactly one clock cycle, so stages of different instructions can overlap predictably in the pipeline. CISC instructions vary in length, making pipelining harder to schedule.
+How many clock cycles can a single CISC instruction take? | More than one clock cycle (instructions vary in complexity)
+Why does RISC code require more RAM than equivalent CISC code? | RISC uses simpler instructions, so more lines of code are needed to perform the same task, taking up more memory
+Why does CISC code take up less space in memory than RISC code? | CISC has complex instructions that can accomplish a task in fewer lines of assembly code
+How does compiler complexity differ between RISC and CISC? | RISC compilers are more complex because they must translate high-level code into a larger number of simple instructions. CISC compilers are simpler because complex operations map directly to single hardware instructions.
+Which type of processor has more general purpose registers — RISC or CISC? | CISC has more general purpose registers
+Which type of processor has fewer addressing modes — RISC or CISC? | RISC has fewer addressing modes
+Which type of processor has fewer transistors — RISC or CISC? | RISC has fewer transistors
+RISC processors are typically used in which types of device? | Smartphones and tablets
+CISC processors are typically used in which types of device? | Laptops and desktop computers
+How does power consumption differ between RISC and CISC? | RISC requires less power; CISC requires more power
+How does manufacturing cost differ between RISC and CISC? | RISC costs less to manufacture; CISC costs more to manufacture
+Can a program written for a RISC processor run on a CISC processor? | No. Programs written for one type are incompatible with the other because they have different instruction sets.
+Can a program written for one RISC processor necessarily run on another RISC processor? | No. Different RISC processors may have different instruction sets, so compatibility is not guaranteed.
+In RISC, to multiply two numbers X and Y, how many instructions are typically needed? | Four: load X into a register, load Y into a register, multiply the registers, store the result
+In CISC, to multiply two numbers A and B, how many instructions are typically needed? | One (e.g., MULT A, B), because the complex instruction handles memory access and computation in a single step
+What is a GPU? | A Graphics Processing Unit — a processor with many smaller processing cores that work in parallel, designed for tasks involving repetitive calculations such as graphics rendering
+A processor containing hundreds or thousands of smaller cores optimised for parallel processing — what is this? | A GPU (Graphics Processing Unit)
+What is a co-processor? | A secondary processor designed to supplement the activities of the primary processor (CPU)
+Why is a GPU classified as a co-processor? | It supplements the CPU by handling specific tasks (like graphics processing), reducing the workload on the CPU. The CPU assigns tasks to the GPU.
+How does a GPU differ from a CPU in terms of core design? | CPUs have fewer, more powerful cores optimised for serial processing. GPUs have many smaller cores optimised for parallel processing.
+What does SIMD stand for? | Single Instruction Multiple Data
+Computers with multiple processing elements that perform the same operation on multiple data points simultaneously — what processing model is this? | SIMD (Single Instruction Multiple Data)
+Why are GPUs well-suited to SIMD processing? | GPUs were originally designed to perform the same operation on multiple pixels or vertices simultaneously, which is inherently a SIMD workload
+Explain why GPUs can render on-screen graphics faster than CPUs | GPUs can apply the same instruction (e.g., shading or transforming) to many pixels or vertices simultaneously using parallel processing, whereas CPUs process data more sequentially
+Where can a GPU be physically located in a computer system? | Either as part of a dedicated graphics card or embedded within the CPU
+Name three non-graphics uses of GPUs | Any three from: machine learning, data mining, financial modelling, 3D modelling, data modelling, numerical simulations, solving differential equations, complex numerical calculations
+Explain why GPUs are well-suited to machine learning | Machine learning involves training on massive datasets with many matrix multiplications and other computations that can be performed in parallel across the GPU's many cores
+What is data mining? | The process of analysing large amounts of data to find patterns, involving tasks like sorting, searching, pattern recognition, and statistical analysis
+Why are GPUs useful for financial modelling? | Financial modelling (e.g., risk modelling, option pricing) requires running many simulations, which can be executed in parallel on a GPU
+Name three benefits of using a GPU alongside a CPU | Parallel processing (handles many tasks simultaneously), speed (faster completion of data-heavy tasks), and energy efficiency (more calculations per unit of power for parallel tasks)
+What is parallel processing? | When multiple processor cores work simultaneously — either on the same task to complete it faster, or on separate tasks at the same time
+Multiple cores working on the same task to complete it more quickly, or on separate tasks at the same time — what is this called? | Parallel processing
+What is a multicore processor? | A single processor containing more than one processing unit (core), where each core can independently process instructions at the same time
+A single processor with more than one processing unit that can independently execute instructions simultaneously — what is this? | A multicore processor
+Besides using multiple cores in one CPU, how else can parallel processing be achieved? | By utilising more than one processor, such as a CPU and a GPU working together
+Name a benefit of parallel processing related to execution speed | If a task can be divided into subtasks executed simultaneously, the total execution time is reduced
+Name a benefit of parallel processing related to resource utilisation | Multi-core or multiple processors can be used more effectively, rather than leaving cores idle
+Why is writing code for parallel processing more difficult than for serial processing? | Tasks must be synchronised correctly and data must be shared between cores without conflicts
+Why is debugging parallel programs harder than debugging serial programs? | Bugs may depend on the precise timing of events across cores, making them difficult to reproduce and isolate
+What is a key limitation on the maximum speedup achievable through parallel processing? | Even with infinite processors, if any part of the program cannot be parallelised, that serial portion limits the maximum speed improvement (Amdahl's Law)
+How can communication between processors limit the benefits of parallel processing? | Communication between processors takes time and resources, which can outweigh the performance gains from parallelism
+Why is a multicore processor beneficial for multitasking? | Each core can work on a different application simultaneously, so multiple programs run without competing for the same core
+How does a multicore processor help with background tasks like anti-malware scans? | The background task can be assigned to one core while the user's main application runs on another, reducing the impact on the user's work
+How does a multicore processor improve responsiveness when a program becomes unresponsive? | The unresponsive program only blocks the core it is running on — other cores continue executing their tasks normally
+How does parallel processing differ from multicore processing? | Parallel processing is the general concept of executing tasks simultaneously (which can use threading on a single core or multiple cores). Multicore processing specifically refers to having multiple independent cores within one processor. Multicore systems generally perform better for larger projects.
+Why are not all tasks suitable for parallel processing? | Some tasks have sequential dependencies where each step requires the result of the previous step, making them inherently serial and impossible to parallelise

@@ -1,0 +1,52 @@
+What is abstraction? | The process of removing unnecessary details from a problem to focus on only the key features needed to implement a solution
+The process of removing excessive details to arrive at a representation consisting of only key features — what is this called? | Abstraction
+What is representational abstraction? | Analysing what is relevant to a given scenario and simplifying a problem based on that information
+Simplifying a problem by analysing what is relevant and removing irrelevant details — what type of abstraction is this? | Representational abstraction
+What is abstraction by generalisation? | Grouping together similarities within a problem to identify what kind of problem it is, so that a common solution can be applied
+Grouping similarities within problems to categorise them as a particular type so a common solution can be used — what is this called? | Abstraction by generalisation
+Why is abstraction by generalisation useful? | It allows problems to be categorised as a particular type, so a common solution can be reused across similar problems rather than solving each from scratch
+What is data abstraction? | A form of abstraction in which details about how data is being stored are hidden from the programmer
+Details about how data is stored are hidden from the programmer — what type of abstraction is this? | Data abstraction
+Give two examples of abstract data structures that result from data abstraction | Stacks and queues
+What is procedural abstraction? | Modelling what a subroutine does without considering how it is implemented, allowing the procedure to be reused as a black box
+Modelling what a subroutine does without considering how it achieves it — what is this called? | Procedural abstraction
+What does it mean for a coded procedure to be reused as a "black box"? | The procedure can be called and used without any knowledge of the internal code that implements its functionality
+How does data abstraction differ from procedural abstraction? | Data abstraction hides how data is stored and structured. Procedural abstraction hides how a subroutine performs its task, focusing only on what it does
+In a system with multiple levels of abstraction, what are the highest levels responsible for? | Providing an interface for the user to interact with the hardware
+In a system with multiple levels of abstraction, what are the lowest levels responsible for? | Actually performing tasks through the execution of machine code
+Explain why abstraction allows non-experts to use complex systems | Abstraction hides information that is too complex or irrelevant to the system's purpose, so users only interact with a simplified interface without needing to understand the underlying implementation
+How does abstraction improve efficiency during software development? | Programmers can focus on the essential elements that need to be built rather than worrying about unnecessary details, reducing development time and preventing unnecessarily large programs
+Abstraction reduces development time and prevents programs from becoming unnecessarily large. Why? | Programmers focus only on relevant elements, and removing wasteful details early prevents unnecessary complexity from accumulating in the codebase
+Name two areas in computing where layers of abstraction are used | Networking (e.g. TCP/IP model) and programming languages (e.g. high-level vs low-level)
+Why are low-level languages such as assembly code more difficult to write than high-level languages? | Assembly code requires knowledge of processor-specific mnemonics and instruction sets, while machine code requires understanding which binary codes perform which functions
+How do high-level languages provide abstraction? | They abstract the machine code that is actually executed, using syntax that parallels natural language and is considerably easier to learn and use
+Explain why high-level languages have made coding accessible to non-specialists | High-level language syntax resembles natural language and hides the underlying machine code, so programmers do not need to understand processor-specific instructions or binary representations
+How does machine code (1st generation) differ from assembly language (2nd generation)? | Machine code uses raw binary (0s and 1s) to create programs. Assembly language uses mnemonics to represent groups of binary digits, making it easier and less error-prone to write
+What is a disadvantage of assembly language related to portability? | Each processor family has its own instruction set, so assembly programs only run on that specific processor family and must be rewritten for others
+How do third-generation languages (e.g. Python, Java) abstract away complexity compared to assembly language? | They condense long sequences of assembly instructions into shorter, more readable statements (e.g. A = B * C instead of many lines of assembly)
+High-level languages allow developers to ignore how data is stored in memory and how instructions execute on the processor. What benefit does this provide? | Developers can focus on solving the problem and creating more complex programs rather than worrying about low-level technical details
+What are the four layers of the TCP/IP model? | Application, Transport, Internet, and Link
+How does the TCP/IP model demonstrate abstraction? | Each of the four layers deals with a different part of communication and does not need to know how other layers work, with details about other layers being hidden
+Why is compatibility between layers important in the TCP/IP model? | Layers must work together despite being abstracted from each other, so agreed standards (protocols) are needed to ensure data can be correctly passed between layers
+In the TCP/IP model, how is outgoing communication visualised? | As going down the layers (from Application to Link)
+In the TCP/IP model, how is incoming communication visualised? | As going up the layers (from Link to Application)
+What is the relationship between abstraction and reality? | Abstraction is a simplified representation of reality that removes unnecessary complexity while retaining key features relevant to the problem
+Name three computational structures used to represent real-world entities | Tables, databases, and variables
+In object-oriented programming, what are objects an abstraction of? | Real-world entities
+In OOP, what do attributes represent? | The characteristics of a real-world object
+In OOP, what do methods represent? | The actions a real-world object is able to perform
+In OOP, abstraction considers three aspects of entities. What are they? | Functionality, interface, and properties
+What is the relationship between the closeness of an implementation to reality and its level of abstraction? | The closer the implementation is to reality, the less abstract the solution becomes
+Why is Pong considered a highly abstracted game? | It models tennis/badminton but with constant ball momentum and no extraneous factors like friction, gravity, or air resistance — removing most of the real-world physics
+The London Underground map is a classic example of abstraction. What unnecessary detail does it remove? | The geographical layout of the routes — travellers only need to know the sequence of stops and connections, not the physical positions of stations
+Give an example of how a real-world map can be abstracted into a graph for computational use | Remove buildings, greenspace, and other non-essential features. Represent junctions as nodes and roads as edges/arcs, with weights for distances and directed edges for one-way restrictions
+Why must a map be abstracted before a computer can efficiently calculate routes? | Computers need a simplified, structured representation (such as a weighted graph) to apply algorithms like Dijkstra's shortest path or A* search, rather than processing the full complexity of reality
+What algorithms can be applied to a graph-based abstraction of a map to find shortest routes? | Dijkstra's shortest path algorithm and A* search algorithm
+What additional real-world factors can apps like Google Maps incorporate into abstracted route calculations? | Traffic, roadworks, and weather conditions
+What is the data abstraction hierarchy for a queue structure, from highest to lowest level? | Queue → array → variables → bytes → bits → flip-flops
+Explain why a programmer does not need to understand the underlying implementation of a queue | Data abstraction hides how the queue is stored in memory. The programmer only needs to know that they can add to and remove data from the queue
+Overall, what is abstraction fundamentally about in programming? | Separating what a program does from the implementation of how it does it
+When devising an abstract model, what four questions should you consider? | 1) What problem needs solving? 2) How will the model be used? 3) Who will use the model? 4) Which parts of the problem are relevant to the audience and purpose?
+When devising an abstract model, why is it important to consider who will use it? | The audience's level of expertise determines how much detail to include or remove — details that would confuse non-experts should be stripped away
+When devising an abstract model, what should you remove? | Sections not relevant to the problem being solved, and details that would confuse the target audience
+How does abstraction by generalisation differ from representational abstraction? | Representational abstraction simplifies a specific problem by removing irrelevant details. Abstraction by generalisation groups similar problems together to categorise them as a type so a common solution can be reused

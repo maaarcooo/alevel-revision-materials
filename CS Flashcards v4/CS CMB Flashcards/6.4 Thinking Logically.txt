@@ -1,0 +1,50 @@
+What is a decision in the context of problem solving? | A result reached after some consideration
+A result reached after some consideration — what term describes this in problem solving? | A decision
+What are the three structured programming techniques used in most languages? | Sequence, selection, and iteration
+What is sequence in structured programming? | One statement executed after another
+What is selection in structured programming? | Decision making that directs program flow based on a condition (e.g. if/then/else, switch/case)
+What is iteration in structured programming? | Repeating a sequence of instructions using loops (e.g. for, while, do while, do until)
+What is the purpose of structured programming techniques? | To aid the readability, understanding, and maintainability of code
+What is a block-structured language? | A language that uses only sequence, selection, and iteration to control the flow of execution and data in a program
+Give an example of a block-structured language | Python
+Why should each block of code have a single entry and exit point? | To prevent unintended consequences relating to the flow of control, such as entering or leaving a subroutine early or branching unintentionally
+Selection is also known as [...] | branching
+What does selection (branching) involve? | Directing the flow of control of a program dependent on a Boolean condition or set of conditions
+What does iteration involve? | Repeating a sequence of instructions based on a stopping Boolean condition
+Why is it important to identify where decisions need to be made when building a solution? | It allows you to gather enough information about your options, enabling an informed decision to be made
+Name three methods for planning an algorithm before coding | Flowcharts, pseudocode, and structured English
+Why are flowcharts useful for identifying decision points in a solution? | They visually show the flow of control in a program, making decisions clear and easy to follow
+What is a disadvantage of using flowcharts? | They are time consuming to create
+How is a decision represented in a flowchart? | By a diamond-shaped icon with two possible results: yes (true) or no (false)
+Why does pseudocode more accurately mimic programming languages than structured English? | Pseudocode replicates the constructs of programming languages without requiring specific syntax
+Why is any way of expressing an algorithm acceptable in pseudocode? | Because pseudocode has no fixed syntax, as long as the meaning is clear
+How does structured English compare to pseudocode? | Structured English is an alternative to pseudocode but is usually more verbose and imprecise
+How does pseudocode differ from structured English? | Pseudocode more closely mimics programming language constructs and is more precise; structured English is more verbose and less precise
+Why is it challenging to transfer a solution directly from one programming language to another? | Languages have specific syntax, constructs, and idiosyncrasies that differ between them
+What three key factors should you evaluate when making a decision about a solution? | Effectiveness, convenience, and feasibility (reasonableness)
+How do you use the three decision-making factors (effectiveness, convenience, feasibility) to choose the best option? | Evaluate each condition and order them from most important to least important, then prioritise accordingly
+Why might the priority order of decision-making factors vary between projects? | It depends on the purpose of the software and its end-users
+Explain how decisions affect the flow of control through a program | Each decision contains a Boolean condition that evaluates to true or false, directing the program along different routes depending on the outcome
+In which two situations do decisions in programs usually occur? | In if statements/select case structures, and in loops (usually while loops)
+What is a Boolean condition? | A condition that evaluates to either true or false, used to control the flow of a program
+Where do most errors in a program occur? | When evaluating a Boolean condition, whether in a sequence, iteration, or selection
+Why must you be careful when creating Boolean conditions? | Because most program errors occur when evaluating them, especially long, complex conditions involving multiple clauses
+What does the == operator do in a Boolean condition? | Tests whether two values are equal to each other
+What does the != operator do in a Boolean condition? | Tests whether two values are not equal to each other
+What does the AND operator do in a Boolean condition? | Returns true only if both conditions are true
+What does the OR operator do in a Boolean condition? | Returns true if either or both conditions are true
+What does the NOT operator do in a Boolean condition? | Inverts the condition, making true become false and vice versa
+What does the XOR operator do in a Boolean condition? | Returns true only if exactly one of the two conditions is true, but not both
+How does AND differ from OR in Boolean logic? | AND requires both conditions to be true; OR requires at least one condition to be true
+How does OR differ from XOR in Boolean logic? | OR returns true when either or both conditions are true; XOR returns true only when exactly one condition is true (not both)
+What are the six comparison operators used in Boolean conditions? | == (equal to), > (greater than), >= (greater than or equal to), < (less than), <= (less than or equal to), != (not equal to)
+What are the four logical operators used in Boolean conditions? | AND, OR, NOT, XOR
+In the condition "if age >= 15 and money >= 8", what must be true for entry to be granted? | Both conditions must be true: the person must be at least 15 years old AND have at least 8 in money
+What is a switch/case statement used for? | Directing program flow based on the value of a single variable, with a separate case for each possible value and a default case for unmatched values
+How does a switch/case statement differ from an if/then/else chain? | Both are functionally identical in directing flow based on conditions, but switch/case compares one variable against multiple specific values, while if/then/else can evaluate any Boolean condition
+What does the default case in a switch/case statement do? | Executes when none of the specified cases match the variable's value, acting as a catch-all
+What does it mean when iteration and selection statements are nested? | One selection or iteration structure is placed inside another, with each inner decision further affecting the flow of the program
+Why should you be careful when using break instructions? | They are powerful for controlling flow of control but can be misused and cause unintended problems such as exiting loops prematurely
+What does a break instruction do in a loop? | It immediately exits the loop, regardless of whether the loop's stopping condition has been met
+What does thinking logically allow you to do in problem solving? | Plan and prepare for different scenarios by providing foresight of the decisions made throughout the whole program
+Why is thinking logically important when designing a program? | It involves identifying where decisions need to be made by the user within the program and planning out the outcomes of each decision, since the program follows a different route depending on the decision made

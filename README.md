@@ -25,32 +25,32 @@ A comprehensive collection of A-Level revision materials for **Computer Science*
 
 | Subject | Topics | Flashcard Files | Note Files | Anki Decks |
 |---------|--------|-----------------|------------|------------|
-| Computer Science | 12+ | 68 | 67 | 2 |
+| Computer Science | 12+ | 98 | 67 | 2 |
 | Physics | 5 | 88 | 70 | 2 |
 
 ## Subject Coverage
 
 ### Computer Science
 
-| Topic | Flashcards v1 | Flashcards v2 | Notes v1 | Notes v2 | Notes v3 |
-|-------|:-------------:|:-------------:|:--------:|:--------:|:--------:|
-| 1.1 Structure & Function of the Processor | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 1.2 Types of Processor | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 1.3 Input, Output & Storage | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.1 Systems Software | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.2 Applications Generation | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.3 Software Development | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.4 Types of Programming Language | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.5 Object Oriented Languages | ✓ | ✓ | ✓ | ✓ | - |
-| 3.1 Compression, Encryption & Hashing | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3.2 Databases | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3.3 Networks | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3.4 Web Technologies | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.1-4.3 Data Types, Structures & Algorithms | - | - | ✓ | ✓ | ✓ |
-| 5. Legal, Moral, Cultural & Ethical Issues | - | - | ✓ | ✓ | ✓ |
-| 6. Elements of Computational Thinking | - | - | ✓ | ✓ | Partial |
-| 7. Programming Techniques | - | - | - | ✓ | - |
-| 8. Algorithms | - | - | - | ✓ | - |
+| Topic | Flashcards v1 | Flashcards v2 | Flashcards v4 | Notes v1 | Notes v2 | Notes v3 |
+|-------|:-------------:|:-------------:|:-------------:|:--------:|:--------:|:--------:|
+| 1.1 Structure & Function of the Processor | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 1.2 Types of Processor | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 1.3 Input, Output & Storage | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.1 Systems Software | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.2 Applications Generation | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.3 Software Development | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.4 Types of Programming Language | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2.5 Object Oriented Languages | ✓ | ✓ | ✓ | ✓ | ✓ | - |
+| 3.1 Compression, Encryption & Hashing | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3.2 Databases | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3.3 Networks | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3.4 Web Technologies | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4.1-4.3 Data Types, Structures & Algorithms | - | - | ✓ | ✓ | ✓ | ✓ |
+| 5. Legal, Moral, Cultural & Ethical Issues | - | - | ✓ | ✓ | ✓ | ✓ |
+| 6. Elements of Computational Thinking | - | - | ✓ | ✓ | ✓ | Partial |
+| 7. Programming Techniques | - | - | - | - | ✓ | - |
+| 8. Algorithms | - | - | - | - | ✓ | - |
 
 ### Physics
 
@@ -92,40 +92,24 @@ A comprehensive collection of A-Level revision materials for **Computer Science*
 alevel-revision-materials/
 ├── README.md
 ├── LICENSE
-├── CS CMB Notes v1/                    # Computer Science notes (organized by topic)
-│   ├── 1. Processors, Input, Output & Storage/
-│   ├── 2. Software & Software Development/
-│   ├── 3. Exchanging Data/
-│   ├── 4. Data Types, Structures & Algorithms/
-│   ├── 5. Legal, Moral, Cultural & Ethical Issues/
-│   └── 6. Elements of Computational Thinking/
-├── CS CMB Notes v2/                    # Computer Science notes (flat structure)
-│   └── *.md files
-├── CS CMB Notes v3/                    # Computer Science notes (flat, concise)
+├── CS CMB Notes v3/                    # Computer Science notes (latest, flat, concise)
 │   └── *.md files                      # Topics 1-6 (partial coverage)
-├── CS Flashcards v1/
-│   ├── CS CMB Flashcards/              # CMB variant flashcards
-│   ├── CS PMT Flashcards/              # PMT variant flashcards
-│   ├── CS SME Flashcards/              # SME variant flashcards
-│   └── Anki decks APKG/                # Pre-built Anki decks
-├── CS Flashcards v2/
-│   ├── CS CMB Flashcards/              # CMB variant flashcards (expanded)
+├── CS Flashcards v4/                   # Computer Science flashcards (latest)
+│   ├── CS CMB Flashcards/              # CMB variant flashcards (topics 1-6)
 │   └── CS PMT defs Flashcards/         # PMT definition-focused flashcards
-├── Physics Gen Notes v1 (SME)/         # Physics notes (SME variant)
-│   └── *.md files                      # Topics 4 & 5 only
-├── Physics Gen Notes v2 (Mix)/         # Physics notes (comprehensive)
+├── Physics Gen Notes v3 (Mix)/         # Physics notes (latest, comprehensive, concise)
 │   └── *.md files                      # Includes all 5 topic areas
-├── Physics Gen Notes v3 (Mix)/         # Physics notes (comprehensive, concise)
-│   └── *.md files                      # Includes all 5 topic areas
-├── Physics Flashcards v1/
-│   ├── Physics PMT Flashcards/         # PMT variant flashcards
-│   ├── Physics SME Flashcards/         # SME variant flashcards
-│   └── Anki decks APKG/                # Pre-built Anki decks
-├── Physics Flashcards v2/
-│   ├── Physics PMT Flashcards/         # PMT variant flashcards (expanded)
-│   └── Physics SME Flashcards/         # SME variant flashcards (expanded)
-└── Physics Flashcards v3/              # Physics flashcards (flat structure)
-    └── *.txt files                     # PMT, defs, and individual subtopic variants
+├── Physics Flashcards v3/              # Physics flashcards (latest, flat structure)
+│   └── *.txt files                     # PMT, defs, and individual subtopic variants
+└── archive/                            # Older versions of all materials
+    ├── CS CMB Notes v1/
+    ├── CS CMB Notes v2/
+    ├── CS Flashcards v1/
+    ├── CS Flashcards v2/
+    ├── Physics Gen Notes v1 (SME)/
+    ├── Physics Gen Notes v2 (Mix)/
+    ├── Physics Flashcards v1/
+    └── Physics Flashcards v2/
 ```
 
 ### Flashcard Variants
@@ -161,6 +145,12 @@ All materials are AI-generated using different Claude model configurations for q
 | Notes (CompSci) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.3 | Claude Opus 4.5 (Extended thinking) |
 | Flashcards (Physics) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill v3.3 | Claude Opus 4.5 (Extended thinking) |
 
+### Version 4
+
+| Content Type | Generation Method | Model |
+|--------------|-------------------|-------|
+| Flashcards (CompSci) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill v3.4 | Claude Opus 4.6 (Extended thinking) |
+
 **Key Differences Between Versions:**
 - Version 2 uses more advanced prompts and the Opus 4.5 model compared to v1
 - Version 2 notes are generally more detailed and comprehensive
@@ -170,6 +160,8 @@ All materials are AI-generated using different Claude model configurations for q
 - Physics v3 notes are more concise and focused compared to v2 (~27% smaller file size)
 - Version 3 uses a Claude Skill for generation instead of direct prompt templates
 - Physics Flashcards v3 uses a flat structure with aggregate topic files (PMT, defs) plus individual subtopic files
+- Version 4 uses Claude Opus 4.6 with extended thinking and Skill v3.4 for CS flashcard generation
+- CS Flashcards v4 expands coverage to include topics 4-6 (Data Types, Structures & Algorithms, Legal/Moral/Ethical Issues, Computational Thinking)
 
 ## How to Use
 
@@ -220,7 +212,7 @@ Found an error or want to suggest improvements?
 
 ## Credits
 
-- **Content Generation**: Anthropic's Claude AI (Sonnet 4.5 & Opus 4.5)
+- **Content Generation**: Anthropic's Claude AI (Sonnet 4.5, Opus 4.5 & Opus 4.6)
 - **Prompt Engineering**: Repository maintainer
 - **Flashcard Format**: Compatible with [Anki](https://apps.ankiweb.net/) spaced repetition software
 

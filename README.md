@@ -92,43 +92,24 @@ A comprehensive collection of A-Level revision materials for **Computer Science*
 alevel-revision-materials/
 ├── README.md
 ├── LICENSE
-├── CS CMB Notes v1/                    # Computer Science notes (organized by topic)
-│   ├── 1. Processors, Input, Output & Storage/
-│   ├── 2. Software & Software Development/
-│   ├── 3. Exchanging Data/
-│   ├── 4. Data Types, Structures & Algorithms/
-│   ├── 5. Legal, Moral, Cultural & Ethical Issues/
-│   └── 6. Elements of Computational Thinking/
-├── CS CMB Notes v2/                    # Computer Science notes (flat structure)
-│   └── *.md files
-├── CS CMB Notes v3/                    # Computer Science notes (flat, concise)
+├── CS CMB Notes v3/                    # Computer Science notes (latest, flat, concise)
 │   └── *.md files                      # Topics 1-6 (partial coverage)
-├── CS Flashcards v1/
-│   ├── CS CMB Flashcards/              # CMB variant flashcards
-│   ├── CS PMT Flashcards/              # PMT variant flashcards
-│   ├── CS SME Flashcards/              # SME variant flashcards
-│   └── Anki decks APKG/                # Pre-built Anki decks
-├── CS Flashcards v2/
-│   ├── CS CMB Flashcards/              # CMB variant flashcards (expanded)
-│   └── CS PMT defs Flashcards/         # PMT definition-focused flashcards
-├── CS Flashcards v4/
+├── CS Flashcards v4/                   # Computer Science flashcards (latest)
 │   ├── CS CMB Flashcards/              # CMB variant flashcards (topics 1-6)
 │   └── CS PMT defs Flashcards/         # PMT definition-focused flashcards
-├── Physics Gen Notes v1 (SME)/         # Physics notes (SME variant)
-│   └── *.md files                      # Topics 4 & 5 only
-├── Physics Gen Notes v2 (Mix)/         # Physics notes (comprehensive)
+├── Physics Gen Notes v3 (Mix)/         # Physics notes (latest, comprehensive, concise)
 │   └── *.md files                      # Includes all 5 topic areas
-├── Physics Gen Notes v3 (Mix)/         # Physics notes (comprehensive, concise)
-│   └── *.md files                      # Includes all 5 topic areas
-├── Physics Flashcards v1/
-│   ├── Physics PMT Flashcards/         # PMT variant flashcards
-│   ├── Physics SME Flashcards/         # SME variant flashcards
-│   └── Anki decks APKG/                # Pre-built Anki decks
-├── Physics Flashcards v2/
-│   ├── Physics PMT Flashcards/         # PMT variant flashcards (expanded)
-│   └── Physics SME Flashcards/         # SME variant flashcards (expanded)
-└── Physics Flashcards v3/              # Physics flashcards (flat structure)
-    └── *.txt files                     # PMT, defs, and individual subtopic variants
+├── Physics Flashcards v3/              # Physics flashcards (latest, flat structure)
+│   └── *.txt files                     # PMT, defs, and individual subtopic variants
+└── archive/                            # Older versions of all materials
+    ├── CS CMB Notes v1/
+    ├── CS CMB Notes v2/
+    ├── CS Flashcards v1/
+    ├── CS Flashcards v2/
+    ├── Physics Gen Notes v1 (SME)/
+    ├── Physics Gen Notes v2 (Mix)/
+    ├── Physics Flashcards v1/
+    └── Physics Flashcards v2/
 ```
 
 ### Flashcard Variants

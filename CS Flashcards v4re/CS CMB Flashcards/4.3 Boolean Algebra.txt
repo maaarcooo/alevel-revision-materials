@@ -1,0 +1,109 @@
+What is Boolean logic? | A system used in computer science and electronics to make logical decisions using operators that are either TRUE (1) or FALSE (0)
+How are Boolean values typically represented numerically? | TRUE is represented as 1 and FALSE is represented as 0
+What is the difference between Boolean logic and Boolean algebra? | Boolean logic refers to the principles of logic based on binary values; Boolean algebra is a mathematical system used to manipulate and simplify Boolean expressions
+The principles of logic based on binary values — what is this called? | Boolean logic
+A mathematical system used to manipulate Boolean values — what term describes this? | Boolean algebra
+What is the order of precedence for evaluating Boolean expressions? | Brackets first, then NOT, then AND, then OR
+In Boolean expressions, which operator has the highest precedence? | NOT
+In Boolean expressions, which operator has the lowest precedence? | OR
+What is a conjunction in Boolean logic? | The AND operation — returns TRUE only if both inputs are TRUE
+What are the two notation styles for the AND operation? | A ∧ B or A.B
+The AND operation returns TRUE only when [...] | both inputs are TRUE
+What is a disjunction in Boolean logic? | The OR operation — returns TRUE if either input is TRUE
+What are the two notation styles for the OR operation? | A ∨ B or A + B
+The OR operation returns FALSE only when [...] | both inputs are FALSE
+What is negation in Boolean logic? | The NOT operation — inverts the input value (TRUE becomes FALSE, FALSE becomes TRUE)
+What symbol is used for negation in Boolean algebra? | ¬A (or a bar over A)
+What is exclusive disjunction (XOR)? | An operation that outputs TRUE if the inputs are different, and FALSE if they are the same
+An operation that outputs TRUE only when exactly one input is TRUE — what is this called? | Exclusive disjunction (XOR)
+What are the notation styles for the XOR operation? | A ⊕ B or A ⩒ B
+How does XOR differ from OR? | OR outputs TRUE when both inputs are TRUE; XOR outputs FALSE when both inputs are TRUE. They differ only on the (1,1) input case
+What is a truth table? | A table showing every possible permutation of inputs to a Boolean expression and the corresponding outputs
+A table showing all possible inputs and associated outputs for a Boolean expression — what is this called? | A truth table
+For an AND gate, what is the output when A=1 and B=0? | 0 (AND requires both inputs to be TRUE)
+For an OR gate, what is the output when A=0 and B=0? | 0 (OR requires at least one input to be TRUE)
+For a NOT gate, what is the output when A=1? | 0
+For an XOR gate, what is the output when A=1 and B=1? | 0 (XOR outputs FALSE when both inputs are the same)
+How many rows does a truth table need for n inputs? | 2^n rows (e.g. 2 inputs = 4 rows, 3 inputs = 8 rows)
+What is a Karnaugh map (K-map)? | A visual tool used for simplifying Boolean algebra expressions by grouping together expressions with common factors
+A visual method of grouping together Boolean expressions with common factors to eliminate redundant terms — what tool is this? | A Karnaugh map (K-map)
+What is the purpose of a Karnaugh map? | To simplify Boolean expressions by identifying and eliminating redundant terms using visual grouping
+What ordering must Karnaugh map column/row headers use and why? | Gray code ordering, where adjacent columns/rows differ by only one bit (including wraparound), to ensure only one variable changes between adjacent cells
+In a Karnaugh map, what sizes can groups of 1s be? | Powers of 2 only: 1, 2, 4, or 8
+In a Karnaugh map, what shape must groups of 1s form? | Rectangles (including squares)
+Can groups overlap in a Karnaugh map? | Yes — cells containing 1 can be part of multiple groups
+Can groups in a Karnaugh map wrap around the edges? | Yes — the grid wraps around in all directions, so groups can span from the last column to the first (or last row to first)
+When making groups on a Karnaugh map, what should you aim for? | Groups that are as large as possible, to maximise simplification
+How do you derive the simplified expression for a group in a Karnaugh map? | The simplified expression consists of the variables that remain constant across all cells in the group; variables that change within the group are eliminated
+How are simplified group expressions combined to form the final expression from a Karnaugh map? | The simplified expressions from each group are combined using OR (disjunction)
+What is Boolean algebra used for in A Level Computer Science? | Simplifying complex Boolean expressions using mathematical rules, which is more powerful than Karnaugh maps
+Why is Boolean algebra considered more powerful than Karnaugh maps for simplification? | Boolean algebra can simplify expressions that Karnaugh maps cannot, and works with any number of variables
+What is the general AND rule: X AND 0 = ? | 0
+What is the general AND rule: X AND 1 = ? | X
+What is the general AND rule: X AND X = ? | X
+What is the general AND rule: NOT X AND X = ? | 0
+What is the general OR rule: X OR 0 = ? | X
+What is the general OR rule: X OR 1 = ? | 1
+What is the general OR rule: X OR X = ? | X
+What is the general OR rule: NOT X OR X = ? | 1
+What is De Morgan's Law? | A strategy for simplifying expressions that include a negation of a conjunction or disjunction, by breaking the negation and changing the operator
+State the first De Morgan's Law (negation of AND) | NOT(A AND B) is equivalent to (NOT A) OR (NOT B) — i.e. ¬(A ∧ B) ≡ ¬A ∨ ¬B
+State the second De Morgan's Law (negation of OR) | NOT(A OR B) is equivalent to (NOT A) AND (NOT B) — i.e. ¬(A ∨ B) ≡ ¬A ∧ ¬B
+¬(A ∧ B) ≡ ¬A ∨ ¬B — what law is this? | De Morgan's first law (breaking a negated AND into OR of negated terms)
+¬(A ∨ B) ≡ ¬A ∧ ¬B — what law is this? | De Morgan's second law (breaking a negated OR into AND of negated terms)
+When applying De Morgan's Law, what two changes are made? | 1) The operator changes (AND becomes OR, or vice versa). 2) Each individual term is negated
+Why is De Morgan's Law useful for circuit design? | It allows the use of only NAND or NOR gates, which makes building microprocessors (e.g. flash drives) much easier
+What is the distributive law in Boolean algebra? | It describes how AND and OR interact with each other, similar to factorising in normal maths
+State the distributive law: conjunction over disjunction | A ∧ (B ∨ C) ≡ (A ∧ B) ∨ (A ∧ C)
+State the distributive law: disjunction of conjunction | A ∨ (B ∧ C) ≡ (A ∨ B) ∧ (A ∨ C)
+A ∧ (B ∨ C) ≡ (A ∧ B) ∨ (A ∧ C) — what law is this? | Distributive law (conjunction over disjunction)
+A ∨ (B ∧ C) ≡ (A ∨ B) ∧ (A ∨ C) — what law is this? | Distributive law (disjunction of conjunction)
+What is the associative law in Boolean algebra? | It states that brackets can be removed and variables regrouped without changing the result when the same operator is used throughout
+State the associative law for AND | (A ∧ B) ∧ C ≡ A ∧ (B ∧ C) ≡ A ∧ B ∧ C
+State the associative law for OR | (A ∨ B) ∨ C ≡ A ∨ (B ∨ C) ≡ A ∨ B ∨ C
+(A ∧ B) ∧ C ≡ A ∧ (B ∧ C) ≡ A ∧ B ∧ C — what law is this? | Associative law (for AND)
+What is the commutative law in Boolean algebra? | It states that the order of variables does not change the truth value of the expression
+State the commutative law for AND and OR | A ∧ B ≡ B ∧ A, and A ∨ B ≡ B ∨ A
+The order of variables around an operator does not affect the result — what law is this? | Commutative law
+What is the double negation law? | Negating a variable twice returns the original variable: NOT(NOT(A)) = A, i.e. ¬¬A ≡ A
+¬¬A ≡ A — what law is this? | Double negation law
+What is the absorption law in Boolean algebra? | A ∨ (A ∧ B) = A, and A ∧ (A ∨ B) = A — a variable absorbs any conjunction/disjunction with itself
+A ∨ (A ∧ B) ≡ A — what law is this? | Absorption law
+How does the absorption law A ∨ (A ∧ B) = A work logically? | If A is true, the whole expression is true regardless of B. If A is false, (A ∧ B) is also false. So the expression always equals A
+What is a D-type flip flop? | A fundamental digital circuit component that can store the state of 1 bit of data, using two stable states (a bistable circuit)
+A circuit that stores the state of 1 bit of data using two stable states — what type of circuit is this? | A D-type flip flop (a bistable circuit)
+What are the inputs of a D-type flip flop? | Data input (D) and Clock input (CLK)
+What are the outputs of a D-type flip flop? | Q and NOT Q (the complement of Q)
+When does a D-type flip flop change state? | On the rising edge of the clock pulse only (also called positive edge triggered)
+A flip flop that changes state only on the rising edge of the clock pulse is described as [...] | Positive Edge Triggered
+What happens in a D-type flip flop on the rising edge when D is high (1)? | Q goes high (1) and NOT Q goes low (0)
+What happens in a D-type flip flop on the rising edge when D is low (0)? | Q goes low (0) and NOT Q goes high (1)
+What happens to Q in a D-type flip flop between clock rising edges? | Q holds (remembers) its current value until the next rising clock edge
+Name three use cases for D-type flip flops | Shift registers, counters, and memory units
+What type of logic gates are D-type flip flops often built from? | NAND gates (AND gates with their output inverted)
+Why are flip flops important in computer architecture? | They are the basic unit of memory; sets of flip flops can be combined to form registers
+What is a half adder? | A basic digital circuit that adds two single-bit binary numbers, producing a Sum (S) output and a Carry (C_out) output
+A circuit that adds two single-bit numbers and produces a Sum and Carry output — what is this called? | A half adder
+How many inputs and outputs does a half adder have? | Two inputs (A and B) and two outputs (Sum and Carry)
+What logic gates make up a half adder? | An XOR gate (for the Sum output) and an AND gate (for the Carry output)
+In a half adder, which gate produces the Sum output? | XOR gate (A XOR B)
+In a half adder, which gate produces the Carry output? | AND gate (A AND B)
+In a half adder, what are the outputs when A=1 and B=1? | Carry = 1, Sum = 0 (because 1+1 = 10 in binary)
+Why is a half adder called "half"? | Because it cannot handle a carry input from a previous addition — it only adds two single bits
+What is a full adder? | A digital circuit that extends the half adder to add three bits: A, B, and a carry input (C_in), producing a Sum (S) and Carry out (C_out)
+A circuit that adds three single-bit inputs (including a carry in) — what is this called? | A full adder
+How many inputs and outputs does a full adder have? | Three inputs (A, B, and C_in) and two outputs (Sum and C_out)
+What components make up a full adder circuit? | Two half adders and an OR gate (or equivalently: two XOR gates, two AND gates, and one OR gate)
+In a full adder, the Sum output is the [...] of inputs A, B, and C_in | XOR (exclusive disjunction)
+In a full adder, the Carry output is TRUE when [...] | at least two of the three inputs (A, B, C_in) are TRUE
+In a full adder, what are the outputs when A=1, B=1, C_in=1? | C_out = 1, Sum = 1 (because 1+1+1 = 3, which is 11 in binary)
+How can full adders be used to add two 4-bit binary numbers? | Chain four full adders together in a ripple adder, connecting the Carry out of each adder to the Carry in of the next
+What is a ripple adder? | A chain of full adders where the Carry out of one stage feeds into the Carry in of the next, allowing multi-bit binary addition
+How does a half adder differ from a full adder? | A half adder has 2 inputs (A, B) and no carry input; a full adder has 3 inputs (A, B, C_in) and can accept a carry from a previous stage. A half adder uses 2 gates; a full adder uses 5 gates
+How can you quickly fill in a half adder truth table? | For each row, add A and B together and write the result as a 2-bit binary number: the left bit is Carry, the right bit is Sum
+How can you quickly fill in a full adder truth table? | For each row, add A + B + C_in (result ranges from 0 to 3). Write the answer as a 2-bit binary number: left bit is C_out, right bit is Sum
+How does a clock signal relate to a D-type flip flop? | The clock is a regular pulse from the CPU. The flip flop only updates its output Q to match input D on the rising edge (low-to-high transition) of the clock
+What is a rising edge in a clock signal? | The transition from low (0) to high (1) — this is when a D-type flip flop samples its D input and updates Q
+What is a falling edge in a clock signal? | The transition from high (1) to low (0) — D-type flip flops do not change state on falling edges
+How do you approach simplification using a Karnaugh map (step by step)? | 1) Fill cells with 1s/0s from the truth table. 2) Group adjacent 1s into rectangles of size 1, 2, 4, or 8. 3) For each group, identify variables that remain constant. 4) OR the simplified group expressions together
+When simplifying Boolean expressions algebraically, what five laws can be applied? | De Morgan's Laws, Distribution, Association, Commutation, and Double Negation

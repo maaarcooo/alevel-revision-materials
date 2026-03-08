@@ -1,0 +1,101 @@
+What is the waterfall model? | A sequential software development process divided into distinct phases, where each phase must be completed before the next one begins
+A sequential software development methodology where each phase must finish before the next begins — what model is this? | The waterfall model
+What are the six stages of the waterfall lifecycle in order? | Requirements, Design, Implementation (coding), Testing, Deployment, Maintenance
+What happens during the Requirement Gathering and Analysis stage of the waterfall model? | All possible system requirements are captured and documented clearly
+What happens during the System Design stage of the waterfall model? | Requirements are translated into a design; architects define the overall architecture and identify the main components
+What happens during the Implementation stage of the waterfall model? | The actual code is written based on the design documents, turning the system design into a functional program
+What happens during the Integration and Testing stage of the waterfall model? | All components and modules are integrated and tested to ensure the entire system works as expected
+What happens during the Deployment stage of the waterfall model? | The product is released to the market or handed to the client, which may involve installation, customisation, and training
+What happens during the Maintenance stage of the waterfall model? | The system receives regular updates to fix bugs, improve performance, or add new features
+What is the TELOS feasibility study used for in the waterfall model? | To evaluate the feasibility of a project during the analysis stage across five dimensions: Technical, Economic, Legal, Operational, and Scheduling
+What does the T in TELOS stand for? | Technical — is the project possible given the technology available and accessible?
+What does the E in TELOS stand for? | Economic — can the project be financed in the short-term and long-term?
+What does the L in TELOS stand for? | Legal — can the project be completed within the law?
+What does the O in TELOS stand for? | Operational — can the project be successfully implemented and maintained?
+What does the S in TELOS stand for? | Scheduling — can the project be completed given the time available?
+Give one benefit of the waterfall model related to simplicity | It is simple and linear, making it easy to understand and follow, with each stage progressing linearly to the next
+Give one benefit of the waterfall model related to tracking progress | Each phase has specific deliverables and milestones, making progress easy to measure
+Why is the waterfall model considered well-documented? | Because each phase must be completed with clear deliverables before the next begins, encouraging thorough documentation at each stage
+Give one drawback of the waterfall model related to flexibility | It is inflexible — changes are difficult to implement once the project has started, as the model does not easily allow revisiting previous stages
+Explain why fixing problems late in the waterfall model is expensive | If a problem appears in a later stage, programmers must revisit all stages between the current one and the stage where the change is needed, making it costly and time-consuming
+Why do users have limited input in the waterfall model? | Users are only involved at the very beginning (analysis) and end (evaluation) of the lifecycle, with no involvement during intermediate stages
+The waterfall model has no built-in [...] stage | risk analysis
+What type of projects is the waterfall model most suitable for? | Projects where requirements are well understood and unlikely to change, and where high quality and compliance are essential
+What is extreme programming (XP)? | A type of Agile software development methodology that promotes adaptability and high customer involvement
+An Agile methodology that promotes adaptability and high customer involvement — what is this called? | Extreme programming (XP)
+What is Agile development? | A collection of methodologies that aim to improve the flexibility of software development and adapt to changes in user requirements faster
+A collection of methodologies aimed at improving flexibility and adapting to changing user requirements — what term describes this? | Agile development
+What are user stories in Agile development? | System requirements specified by the end-user, typically written in the format "As a user, I want to..." and used when designing the program
+Requirements written as "As a user, I want to..." — what are these called? | User stories
+What is a sprint in Agile development? | A short time-boxed development period, usually lasting 1-4 weeks, during which a set of tasks or features is completed
+A short time-boxed development period of 1-4 weeks in Agile — what is this called? | A sprint
+What happens during Sprint Planning? | Requirements are broken down into tasks, a set of features is chosen for the current sprint, and the sprint goal is defined
+What type of design approach does Agile/XP favour? | Simple and adaptable design, rather than heavy upfront documentation
+What is pair programming in XP? | A development practice where code is written by one programmer and critiqued by the other simultaneously, aiming to produce higher quality code
+Explain why pair programming produces high-quality code | One person writes the code while the other reviews and critiques it in real time, so errors are caught and improvements made as the code is written
+What types of testing are performed during an Agile sprint? | Unit testing, integration testing, and acceptance testing — all performed continuously during the sprint, not saved for the end
+What happens during a Sprint Review? | Working software is demonstrated to stakeholders, and feedback is collected to identify changes or improvements
+What happens during a Sprint Retrospective? | The team reflects on what went well and what needs improving, focusing on team performance and process optimisation
+In XP, programmers work no longer than [...] hours a week | forty (to ensure quality is not compromised)
+What is a 'working version' in XP? | Each iteration through the development cycle generates a version of the program that could function as the final product
+In Agile, what is prioritised over documentation? | User satisfaction
+Give one benefit of Agile/XP related to adaptability | It can quickly respond to changes in requirements, even late in development
+Give one benefit of Agile/XP related to quality | It emphasises technical excellence and good design, with continuous testing throughout the development cycle
+Give one drawback of Agile related to team requirements | It requires experienced and skilled team members and can be challenging to implement without knowledgeable developers
+Give one drawback of Agile related to documentation | The focus on adaptability and immediate coding may result in insufficient documentation
+What is scope creep? | Uncontrolled changes in requirements that can occur due to the flexible nature of methodologies like Agile and RAD
+Uncontrolled expansion of project requirements beyond the original plan — what term describes this? | Scope creep
+What type of projects is XP most suitable for? | Small to medium-sized projects where requirements can change and customer involvement is high
+What is the spiral model? | A software development methodology that combines aspects of both iterative (Agile) and sequential (waterfall) processes, with a focus on risk management
+A software development methodology that combines iterative and sequential approaches with a focus on risk management — what model is this? | The spiral model
+What are the four stages of the spiral model? | Planning, Risk Analysis, Engineering (development/testing/implementation), and Evaluation and feedback
+What happens during the Planning stage of the spiral model? | The objectives, alternatives, and constraints for the current phase of the project are defined
+What happens during the Risk Analysis stage of the spiral model? | Potential risks are identified and assessed, and mitigation strategies are planned
+What happens during the Engineering stage of the spiral model? | The next version of the product is developed, including design, coding, testing, and integration
+What happens during the Evaluation and Feedback stage of the spiral model? | Progress is reviewed with stakeholders, and the next iteration is planned
+How does the spiral model progress through its stages? | The process repeats (spirals) through Planning, Risk Analysis, Engineering, and Evaluation, with each loop representing a development phase until the final product is ready
+What happens if the project is found to be too risky at any point in the spiral model? | The project is terminated
+Give one benefit of the spiral model related to risk | It emphasises risk assessment and mitigation, helping to identify and address issues early in development
+Give one benefit of the spiral model related to customer involvement | It encourages feedback and input from clients throughout the development process
+Give one benefit of the spiral model related to deliverables | It provides early partial working solutions (prototypes), enabling early usage and feedback
+Give one drawback of the spiral model related to complexity | It can be more complex and harder to manage compared to other methodologies
+Give one drawback of the spiral model related to cost | It is expensive because it often requires hiring specialist risk assessors and involves constant prototyping
+Why is the spiral model not suitable for small projects? | The extensive planning and risk management processes are overkill for simple or small-scale projects, adding unnecessary cost and complexity
+What type of projects is the spiral model most suitable for? | Large, complex, risk-intensive projects with a high budget where requirements may change
+What is Rapid Application Development (RAD)? | A software development methodology that emphasises fast and iterative development using partially functioning prototypes
+A methodology that emphasises fast, iterative development with prototypes continually built upon — what is this called? | Rapid Application Development (RAD)
+What are the five stages of RAD? | Requirement Planning, User Design and Prototyping, Construction (iterative development), Cutover (deployment), and Maintenance and Updates
+What happens during the User Design and Prototyping stage of RAD? | Developers collaborate with users to develop prototypes, ensuring alignment with user needs
+How are user requirements initially gathered in RAD? | Using focus groups to gather requirements, which are then used to develop an initial incomplete prototype for the user to trial
+What happens during the Construction stage of RAD? | The system is built incrementally with continuous user feedback and adaptation
+What happens during the Cutover stage of RAD? | The product is transitioned into the live environment, including user training, support, and documentation
+Give one benefit of RAD related to speed | It enables rapid development and delivery of a high-quality system at a relatively low investment cost
+Give one benefit of RAD related to user involvement | Clients are involved throughout the development process, ensuring the system aligns with user needs and expectations
+Give one drawback of RAD related to quality | The focus on speed might lead to skipping rigorous testing or documentation, impacting overall quality
+Give one drawback of RAD related to code efficiency | As requirements change over the course of the project, additions and changes made to the code may be inefficient
+What type of projects is RAD most suitable for? | Small to medium, low-budget projects where rapid delivery is required and requirements can be developed and refined on the go
+How does Agile differ from the waterfall model in terms of structure? | Agile is iterative with repeated cycles of planning, building, testing, and reviewing; waterfall is sequential with each phase completed once before the next begins
+How does the spiral model differ from Agile in terms of primary focus? | The spiral model focuses primarily on risk analysis and mitigation at each iteration; Agile focuses on adaptability and customer collaboration
+How does RAD differ from the spiral model in terms of cost and scale? | RAD is suited to small-to-medium, low-budget projects with short timeframes; the spiral model is suited to large, high-budget, risk-intensive projects
+How does documentation compare between the waterfall model and Agile? | Waterfall produces thorough documentation due to its structured sequential phases; Agile produces poorer documentation because priority is given to user satisfaction and adaptability over documentation
+How does user involvement compare between the waterfall model and Agile/XP? | In waterfall, users are only involved at the beginning (analysis) and end (evaluation); in Agile/XP, users are involved continuously throughout development
+What is alpha testing? | Testing carried out in-house by the software development teams within the company to find and fix bugs
+Testing carried out internally by the development team to find and fix bugs — what type of testing is this? | Alpha testing
+What is beta testing? | Testing carried out by end-users after alpha testing has been completed; feedback from users informs the next stage of development
+Testing carried out by end-users after alpha testing, with feedback used to inform development — what type of testing is this? | Beta testing
+What is white box testing? | A form of testing carried out by development teams where the test plan is based on the internal structure of the program, and all possible routes through the program are tested
+Testing based on the internal structure of the program where all possible routes are tested — what type of testing is this? | White box testing
+What is black box testing? | A form of testing where the software is tested without knowledge of its internal structure, tracing inputs and outputs; can be done internally or by end-users
+Testing without knowledge of the internal structure, focusing on inputs and outputs — what type of testing is this? | Black box testing
+How does white box testing differ from black box testing? | White box testing is based on the program's internal structure and tests all possible routes; black box testing is done without knowledge of internal structure and traces inputs/outputs only
+What is the purpose of the Analysis stage in a software development lifecycle? | Stakeholders state their requirements, and this information is used to clearly define the problem and the system requirements
+What is the purpose of the Evaluation stage in the waterfall lifecycle? | The effectiveness of the software is evaluated against the system requirements defined at analysis, considering criteria such as robustness, reliability, portability, and maintainability
+What four criteria are used to evaluate software after implementation? | Robustness, reliability, portability, and maintainability
+What is an algorithm? | A set of instructions used to solve a problem
+What are the key qualities of a good algorithm? | Clearly defined inputs, always produces valid output for defined input, handles invalid inputs, always reaches a stopping condition, is well-documented, and is well-commented
+In the waterfall model, a [...] study evaluates whether the project should proceed | feasibility
+How does XP differ from general Agile in terms of team structure? | In XP, the development team specifically consists of a pair of programmers working alongside a representative end-user; general Agile does not mandate this specific structure
+Which software development methodology has no built-in risk analysis? | Waterfall
+Which software development methodology is built around managing risk-heavy projects? | The spiral model
+Both Agile and RAD can suffer from [...] due to their flexible nature | scope creep
+In the Development stage of a generic SDLC, how is the project structured? | The design is used to split the project into individual, self-contained modules, which are allocated to teams for programming

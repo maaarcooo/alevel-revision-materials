@@ -1,0 +1,139 @@
+What is a data type? | A classification of data into groups according to the kind of data they represent
+A classification of data into groups according to the kind of data they represent — what is this called? | A data type
+What is the integer data type used to represent? | Whole numbers, either positive or negative (e.g. 10, -5, 0)
+A data type that stores whole numbers (positive or negative, no fractional part) — what is it? | Integer
+What is the real (floating point) data type used to represent? | Numbers with a fractional part, either positive or negative (e.g. 3.14, -2.5)
+A data type that stores numbers which can have a fractional part — what is it? | Real (floating point)
+What is the char data type used to represent? | A single character such as a letter, digit, or symbol (e.g. 'a', 'B', '$')
+A data type that stores a single symbol (letter, digit, or symbol) — what is it? | Char (character)
+What is the string data type used to represent? | A sequence of characters (e.g. "Hello World", "1234")
+A data type that stores a collection of characters — what is it? | String
+What is the Boolean data type used to represent? | True or false values only
+A data type restricted to True and False values — what is it? | Boolean
+Why are strings useful for storing phone numbers? | Phone numbers can start with a 0, which numeric data types like integers would cut off, but strings preserve leading zeros
+Why is it important to choose the correct data type? | To ensure accuracy and efficiency in the program, and to allow the correct operations to be performed on the data
+What is casting? | Converting one data type to another data type
+The process of converting one data type to another — what is this called? | Casting
+Why is casting often necessary when a user enters data? | User input is typically in string format, and it may need to be converted to a numerical format to perform calculations or comparisons
+In Python, how do you cast the string "123" to an integer? | int("123")
+What happens when you cast a real value like 5.7 to an integer in Python? | The fractional part is truncated, giving 5 (not rounded)
+What is binary? | A system of representing information using only two digits: 0 and 1
+A number system that uses only two digits (0 and 1) — what is it called? | Binary (base-2)
+What is a bit? | The smallest unit of digital information, representing either an off (0) or on (1) state
+The smallest unit of digital information — what is it called? | A bit
+How many bits make up a byte? | 8 bits
+A group of 8 bits is called a [...] | byte
+What is a nybble (nibble)? | Half a byte, which is 4 bits
+How many bits are in a nybble? | 4 bits
+What does each column in an 8-bit binary number represent? | A power of 2, from 2^0 (1) on the right to 2^7 (128) on the left
+What are the place values in an 8-bit binary number from left to right? | 128, 64, 32, 16, 8, 4, 2, 1
+What is the denary value of the binary number 01101001? | 105 (64 + 32 + 8 + 1)
+What is denary (decimal)? | A base-10 number system used by humans, consisting of 10 digits (0-9)
+Why do computers store data in binary? | Computers are made up of circuits and switches that are either on (1) or off (0), making binary the natural way to represent data
+What is the least significant bit (LSB)? | The bit furthest to the right in a binary number, representing the smallest place value
+What is the most significant bit (MSB)? | The bit furthest to the left in a binary number, representing the largest place value
+To convert a denary number to binary, what is the first step? | Find the largest power of 2 that is less than or equal to the number and place a 1 in that column
+What is the binary representation of denary 101? | 01100101 (64 + 32 + 4 + 1)
+What is the binary representation of denary 47? | 00101111 (32 + 8 + 4 + 2 + 1)
+What encoding scheme maps binary values to human-readable text characters? | ASCII (and Unicode)
+In ASCII, what letter does the binary value 01001000 represent? | The letter 'H'
+Explain the purpose of abstraction layers in binary representation | Binary at the bottom is not human-readable. Layers of abstraction (encoding formats like ASCII/Unicode) interpret raw binary upwards into meaningful forms like text, images, sound, and video
+How does an unsigned binary number differ from a signed binary number? | Unsigned represents only positive numbers; signed represents both positive and negative numbers
+What are the two methods for representing negative numbers in binary? | Sign and magnitude, and two's complement
+In sign and magnitude representation, what does the MSB indicate? | Whether the number is positive (MSB = 0) or negative (MSB = 1)
+What is the sign in a sign and magnitude binary number? | The MSB, which indicates whether the number is negative (1) or positive (0)
+What is the magnitude in a sign and magnitude binary number? | The remaining bits after the MSB, representing the absolute value of the number
+In sign and magnitude, what does the 8-bit binary 10101101 represent? | -45 (MSB = 1 means negative; magnitude 0101101 = 32 + 8 + 4 + 1 = 45)
+What is a consequence of using a sign bit in sign and magnitude? | The maximum positive value is halved because the MSB is used for the sign instead of a place value
+What is two's complement? | A method for representing negative binary numbers where the MSB represents a negative value and the remaining bits count upwards from it
+How does two's complement differ from sign and magnitude? | In two's complement, the MSB represents a negative place value (e.g. -128 in 8-bit), and the remaining bits are added to it. In sign and magnitude, the MSB is only a sign indicator and the remaining bits represent the absolute value
+Why is two's complement preferred over sign and magnitude? | Calculations on two's complement numbers are less computationally intensive (arithmetic works the same as for positive numbers)
+What are the three steps to convert a positive binary number to its negative two's complement? | 1) Start with the absolute value in binary, 2) Invert all bits (flip 0s to 1s and 1s to 0s), 3) Add 1
+What is denary -24 in 8-bit two's complement? | 11101000 (24 = 00011000, invert = 11100111, add 1 = 11101000)
+What is denary -7 in 8-bit two's complement? | 11111001 (-128 + 64 + 32 + 16 + 8 + 1 = -7)
+In 8-bit two's complement, what is the MSB place value? | -128
+What range of values can an 8-bit unsigned binary number represent? | 0 to 255
+What range of values can an 8-bit two's complement number represent? | -128 to +127
+What are the four rules of binary addition? | 0+0=0, 0+1=1, 1+1=10 (0 carry 1), 1+1+1=11 (1 carry 1)
+In binary addition, what happens when 1 + 1 is calculated? | The result is 0 with a carry of 1 to the next column (binary 10)
+What is an overflow error in binary addition? | When the result of adding two binary numbers exceeds the number of bits available to store it
+Explain why overflow can cause incorrect results in signed binary | The extra bit generated by overflow can flip the sign bit, incorrectly changing a positive result to negative or vice versa
+How is binary subtraction performed using two's complement? | Convert the number being subtracted to its two's complement (invert and add 1), then add the two numbers together. Discard any overflow bit
+When subtracting using two's complement, what do you do with the overflow bit? | Discard it — the overflow bit is a by-product of the method and does not contribute to the actual result
+What is hexadecimal? | A base-16 number system using 10 digits (0-9) and 6 letters (A-F)
+A base-16 number system that uses digits 0-9 and letters A-F — what is it? | Hexadecimal
+What decimal value does hexadecimal A represent? | 10
+What decimal value does hexadecimal F represent? | 15
+Why is hexadecimal used instead of binary? | It is more concise (4 binary bits = 1 hex character), easier for humans to read and write, and less prone to transcription errors
+Give three common uses of hexadecimal | Defining colours (hex colour codes), debugging, configuring hardware devices, and cryptographic algorithms
+How many binary bits does one hexadecimal digit represent? | 4 bits (one nibble)
+What is the hexadecimal representation of the 4-bit binary 1010? | A
+What is the hexadecimal representation of the binary 11010101? | D5 (1101 = D, 0101 = 5)
+What is the binary representation of hexadecimal B2? | 10110010 (B = 1011, 2 = 0010)
+Convert denary 241 to hexadecimal | F1 (241 = 11110001 in binary; 1111 = F, 0001 = 1)
+Convert hexadecimal 1A to denary | 26 (1 x 16 + 10 x 1 = 26)
+What does the subscript 2 in 10₂ indicate? | The number 10 is in binary (base 2)
+What does the subscript 16 in 10₁₆ indicate? | The number 10 is in hexadecimal (base 16), equivalent to 16 in denary
+To convert hexadecimal to binary, what steps do you follow? | Split each hex digit, convert each to its 4-bit binary nibble, then combine the nibbles
+To convert binary to hexadecimal, what steps do you follow? | Split the binary number into groups of 4 bits (nibbles) from right to left, then convert each nibble to its hex equivalent
+What is floating point binary? | A way of representing real numbers (with fractional parts) in binary using a mantissa and exponent, similar to scientific notation
+The method of representing real numbers in binary using a mantissa and exponent — what is this called? | Floating point binary
+What are the two main components of a floating point number? | Mantissa and exponent
+What does the mantissa represent in a floating point number? | The significant digits (precision) of the number
+What does the exponent represent in a floating point number? | How far the binary point moves, effectively scaling the number up or down
+In floating point, what effect does a larger exponent have? | It moves the binary point to the right, making a larger number
+In floating point, what effect does a smaller (or negative) exponent have? | It moves the binary point to the left, making a smaller number
+What is the benefit of floating point binary over fixed point? | Increased precision and the ability to represent both very large and very small numbers
+What is the consequence of floating point binary compared to integers? | A significantly reduced maximum value for the same number of bits
+In floating point, where is the binary point assumed to be in the mantissa? | After the most significant bit (first bit)
+How are negative floating point numbers represented? | Using two's complement for both the mantissa and the exponent
+What does it mean to normalise a floating point number? | Adjusting the mantissa so it starts with 01 (for positive) or 10 (for negative), and adjusting the exponent accordingly
+A normalised positive floating point number must start with which two bits? | 01
+A normalised negative floating point number must start with which two bits? | 10
+Why are floating point numbers normalised? | To maximise precision by making full use of the mantissa bits, and to ensure a consistent format for representation
+When normalising, if you shift the mantissa one place to the left, what happens to the exponent? | The exponent decreases by 1
+When normalising, if you shift the mantissa one place to the right, what happens to the exponent? | The exponent increases by 1
+What is the first step when adding or subtracting floating point numbers? | Ensure both numbers have the same exponent by shifting the mantissa and adjusting the exponent of one number
+After aligning exponents in floating point addition, what is the next step? | Perform binary addition (or subtraction) on the mantissas
+After performing mantissa arithmetic in floating point, what must you check? | Whether the result needs to be normalised (mantissa starts 01 or 10)
+How is floating point subtraction performed? | Align the exponents, convert the number being subtracted to two's complement, then add the mantissas and normalise
+What is a logical shift? | Moving all bits in a binary number to the left or right by a specified number of positions
+The process of moving all bits left or right by a specified number of positions — what is this called? | A logical shift
+What is the effect of a logical shift left by one place? | It doubles the number (multiplies by 2)
+What is the effect of a logical shift right by one place? | It halves the number (divides by 2)
+What is the effect of a logical shift left by n places? | It multiplies the number by 2^n
+What is the effect of a logical shift right by n places? | It divides the number by 2^n
+If 00001110 (14) is shifted left by 2 places, what is the result? | 00111000 (56), because 14 x 4 = 56
+If 11001000 (200) is shifted right by 3 places, what is the result? | 00011001 (25), because 200 / 8 = 25
+What is a mask in bitwise manipulation? | A binary number used in bitwise operations to isolate, modify, or test specific bits in another binary value
+A binary number used to isolate, modify, or test specific bits — what is this called? | A mask
+What are four purposes of using a mask? | To extract certain bits, to set specific bits to 1, to clear specific bits to 0, and to toggle (flip) specific bits
+In a bitwise AND operation, when does the result bit equal 1? | Only when both the binary number bit AND the mask bit are 1
+In a bitwise OR operation, when does the result bit equal 1? | When either the binary number bit OR the mask bit (or both) are 1
+In a bitwise XOR operation, when does the result bit equal 1? | When exactly one of the two bits is 1 (not both)
+How does bitwise AND differ from bitwise OR? | AND outputs 1 only when both inputs are 1; OR outputs 1 when at least one input is 1
+How does bitwise XOR differ from bitwise OR? | XOR outputs 1 when exactly one input is 1; OR outputs 1 when one or both inputs are 1
+Which bitwise operation would you use to extract specific bits from a binary number? | AND (with a mask of 1s in the positions you want to extract)
+Which bitwise operation would you use to set specific bits to 1? | OR (with a mask of 1s in the positions you want to set)
+Which bitwise operation would you use to toggle (flip) specific bits? | XOR (with a mask of 1s in the positions you want to flip)
+How are characters represented by computers? | Using binary codes, where each character is assigned a unique binary value according to a character set
+What is a character set? | A list of all characters and their associated binary codes, standardising how characters are represented
+A standardised list mapping characters to binary codes — what is this called? | A character set
+What are the two common character sets? | ASCII and Unicode
+What does ASCII stand for? | American Standard Code for Information Interchange
+How many bits does standard ASCII use per character? | 7 bits
+How many distinct characters can standard ASCII represent? | 128 characters
+In ASCII, what decimal value represents the letter 'A'? | 65
+In ASCII, what range of decimal values represents uppercase A-Z? | 65-90
+In ASCII, what range of decimal values represents lowercase a-z? | 97-122
+How many bits does extended ASCII use per character? | 8 bits, allowing 256 characters
+Give three limitations of ASCII | 1) Limited to 128 characters, 2) Cannot represent characters from non-English languages, 3) No provision for modern symbols like emojis
+Why was Unicode created? | To overcome the limitations of ASCII by supporting characters from many different languages, scripts, and modern symbols like emojis
+How many bits can Unicode use per character? | Up to 32 bits (depending on the encoding method)
+How many characters can 16-bit Unicode represent? | 65,536 characters
+How does Unicode impact storage compared to ASCII? | Unicode characters can require up to 32 bits per character, using significantly more storage than ASCII's 7 bits per character
+How does ASCII compare to Unicode in terms of storage efficiency? | ASCII is more storage-efficient (7 bits per character) compared to Unicode (up to 32 bits per character)
+How does ASCII compare to Unicode in terms of character coverage? | ASCII supports only 128 characters (English-focused); Unicode supports over a million characters across many languages and includes emojis
+How is a Unicode character typically written? | With the prefix U+ followed by a hexadecimal code (e.g. U+03BB for the Greek letter lambda)
+What is the relationship between the exponent size and the range in floating point? | A larger exponent allows a greater range of values (larger and smaller numbers), while a larger mantissa increases precision
+Explain why sign and magnitude has the problem of two representations of zero | Both 00000000 (+0) and 10000000 (-0) represent zero, wasting one bit pattern. Two's complement avoids this by having only one representation of zero

@@ -1,0 +1,96 @@
+What is application software? | Software designed to perform a specific task or tasks for the end-user
+Software designed to perform a specific task for the end-user — what type of software is this? | Application software
+What is systems software? | Low-level software responsible for running the computer system smoothly, interacting with hardware, and providing a platform for applications software to run
+Low-level software responsible for running the computer smoothly and providing a platform for applications to run — what is this called? | Systems software
+How does application software differ from systems software? | Application software performs specific user tasks (e.g. word processing), while systems software manages the computer system itself (e.g. OS, drivers). Application software requires systems software to run.
+Give four examples of application software | Word processors, web browsers, spreadsheets, database management software
+Give four examples of systems software | Operating system, device drivers, utility programs, library programs
+What is the purpose of a word processor? | Creating, editing, formatting, and printing text documents
+What is the purpose of database management software? | Storing, retrieving, manipulating, and managing data
+What is the purpose of a web browser? | Browsing the web and accessing information online
+What is the purpose of an Integrated Development Environment (IDE)? | Developing, testing, and debugging software code
+What is the purpose of virtualisation software? | Creating and running virtual machines on a single physical machine
+What is utility software? | System software designed to help analyse, configure, optimise, or maintain a computer
+Software designed to analyse, configure, optimise, or maintain a computer — what type of software is this? | Utility software
+How does utility software differ from application software? | Utility software supports the operating system and maintains the computer, while application software performs tasks that directly benefit end-users
+What is the purpose of disk defragmentation? | To rearrange files on a hard drive into contiguous blocks, minimising empty spaces, which speeds up file access and improves system performance
+Why do modern SSDs generally not require defragmentation? | SSDs have no moving read/write heads, so access times are the same regardless of where data is stored physically. Defragmentation would cause unnecessary write operations that reduce SSD lifespan.
+What does file management utility software do? | Organises, searches, renames, creates, deletes, moves, and relocates files and folders stored on the system
+What is a device driver? | Software that provides an interface between hardware and the operating system, allowing them to communicate without needing to know each other's precise details
+A program that allows the OS and applications to communicate with hardware without knowing the hardware's precise details — what is this? | A device driver
+What does system cleanup utility software do? | Frees up space by removing temporary files, system cache, unused applications, and other unnecessary data that can slow down the system
+What does security utility software do? | Monitors the system and controls activities to protect the computer from threats like viruses, malware, and spyware
+What does the compression utility do? | Enables files to be compressed and decompressed, used when transmitting large files across the Internet or compressing scanned files
+What does the automatic updating utility do? | Ensures the operating system is kept up to date by automatically installing updates when the computer restarts, addressing bugs and security flaws
+What does the backup utility do? | Automatically creates routine copies of user-specified files at user-specified intervals, allowing recovery after power failure, malicious attacks, or accidents
+What is open source software (OSS)? | Software where the source code is freely available and can be viewed, modified, and distributed by anyone
+Software where the source code is freely available for anyone to view, modify, and redistribute — what is this called? | Open source software
+What is closed source software (CSS)? | Software where the source code is hidden and proprietary, requiring an appropriate license to use. Users cannot access or modify the source code.
+Software where the source code is hidden, proprietary, and requires a license to use — what is this called? | Closed source software
+Give two examples of open source software | Linux, Apache HTTP Server
+Give two examples of closed source software | Microsoft Windows, Adobe Photoshop
+State two benefits of open source software for the user | Often free to use, and can be customised/modified to suit specific needs
+State two drawbacks of open source software for the user | May be less user-friendly, and may have compatibility issues or contain bugs due to less controlled development
+State two benefits of closed source software for the user | More polished and consistent products, with professional support and user manuals
+State two drawbacks of closed source software for the user | Costly to purchase/license, and less customisable since the source code cannot be modified
+State two benefits of open source software for the creator | Community collaboration and engagement drive faster innovation
+State two drawbacks of open source software for the creator | Less control over the product and may be burdened with requests from users
+State two benefits of closed source software for the creator | Greater control over the product, revenue through sales, and intellectual property protection
+State two drawbacks of closed source software for the creator | Slower innovation due to smaller development team, and full responsibility for updates and fixing flaws
+What two factors should a user consider when choosing between open and closed source software? | Costs (implementation, maintenance, training, license) and functionality (features available, ease of use)
+What is a translator in computing? | A program that converts source code from one programming language into another, typically from high-level to low-level language
+Name the three main types of translator | Interpreter, compiler, assembler
+What is an interpreter? | A translator that translates and executes source code line-by-line at runtime
+A translator that translates and executes code line-by-line — what is it called? | An interpreter
+What is a compiler? | A translator that translates the entire source code into machine code all at once before execution
+A translator that converts the entire source code into machine code in one go — what is it called? | A compiler
+What is an assembler? | A translator that converts assembly language into machine code
+A translator that converts assembly language into machine code — what is it called? | An assembler
+How does an interpreter differ from a compiler? | An interpreter translates and executes code line-by-line at runtime and must be present during execution. A compiler translates the entire program into machine code before execution, producing a standalone executable that runs without the compiler.
+State two advantages of using an interpreter | Easier to debug (stops at the line with the error), and faster to start execution since no full compilation step is needed
+State two disadvantages of using an interpreter | Slower overall execution time (code re-translated every run), and the interpreter must be present during execution
+State two advantages of using a compiler | Faster execution time once compiled, and no need for the compiler to be present during execution
+State two disadvantages of using a compiler | Longer initial compilation time, and the whole program must be recompiled after any changes
+Why is interpreted code considered more portable than compiled code? | Interpreted code can run on any platform that has the appropriate interpreter, whereas compiled code is specific to a particular processor type and operating system
+Why is compiled code platform-specific? | The compiler generates machine code targeted at a specific processor type and operating system, so it cannot run on different platforms without recompilation
+Why are interpreters useful during development and testing? | They execute code line-by-line and stop at errors, making it easy to pinpoint bugs without waiting for the entire program to compile
+How does assembly language relate to machine code? | Assembly language is one level of abstraction above machine code. Each line of assembly is equivalent to almost one line of machine code, so translation is on an almost one-to-one basis.
+Why is assembly language considered a low-level language? | It is closely tied to the processor's instruction set, with each instruction mapping almost directly to a single machine code instruction
+What are the four stages of compilation in order? | Lexical analysis, syntax analysis, code generation, optimisation
+What happens during lexical analysis? | Whitespace and comments are removed, and the code is broken into tokens (keywords, identifiers, operators, separators). A token table is produced.
+The stage of compilation where code is broken into tokens and a token table is produced — what is this called? | Lexical analysis
+What is a token in compilation? | A small, meaningful unit in the code such as a keyword, identifier, operator, or separator
+Name the four types of token identified during lexical analysis | Keywords (e.g. if, return), identifiers (e.g. variable names), operators (e.g. +, *), and separators (e.g. brackets, semicolons)
+What is removed from source code during lexical analysis? | Whitespace and comments
+What is a symbol table in the context of compilation? | A data structure that stores information about each token/identifier found during lexical analysis, such as its type and attributes
+What happens during syntax analysis? | Tokens are checked against the grammar and rules of the programming language. Syntax errors are flagged, and an abstract syntax tree (AST) is produced.
+The stage of compilation where tokens are checked against language rules and an AST is produced — what is this called? | Syntax analysis
+What is an Abstract Syntax Tree (AST)? | A tree-based representation of the source code's structure, produced during syntax analysis and used for code generation
+A tree-based representation of source code structure used during compilation — what is this? | An Abstract Syntax Tree (AST)
+Give two examples of syntax errors that would be detected during syntax analysis | Mismatched parentheses and missing semicolons (also: undeclared variable types, incomplete brackets)
+What is semantic analysis and when does it occur? | Semantic analysis detects logic mistakes within the program (e.g. multiple declarations, undeclared identifiers). It is carried out during the syntax analysis stage.
+How does semantic analysis differ from syntax analysis? | Syntax analysis checks whether code follows the grammatical rules of the language. Semantic analysis checks for logical errors such as using undeclared variables or type mismatches.
+What happens during code generation? | The AST is traversed to generate object code (machine code) that can be executed by the computer
+What happens during the optimisation stage of compilation? | The code is modified to be more efficient (e.g. removing duplicate/redundant code) without changing its functionality, reducing memory usage and improving execution speed
+Why is optimisation important in compilation? | It reduces the memory required and makes code faster to execute, improving overall program performance
+Give one example of an optimisation action a compiler might perform | Removing duplicate code, such as including a function that appears twice in the source code only once in the object code
+What risk is associated with excessive optimisation? | It may alter the way in which the program behaves, introducing unintended changes to functionality
+What is a code library? | A collection of pre-written, pre-compiled code (functions, classes, procedures) packaged together to allow developers to perform common tasks without writing code from scratch
+A collection of pre-written, pre-compiled functions that developers can incorporate into their programs — what is this? | A code library
+What is the difference between standard libraries and third-party libraries? | Standard libraries come bundled with the programming language and offer basic functionalities. Third-party libraries are created by external developers and shared through package managers.
+State three benefits of using code libraries | Saves development time (efficiency), often well-tested and reliable (reducing errors), and reusable across different projects
+State three drawbacks of using code libraries | Dependency issues if the library is discontinued, compatibility issues between versions, and overhead if a large library is used for a small task
+What is a linker? | Software that combines different object files and libraries into a single executable file, resolving references between them
+Software that combines object files and libraries into a single executable — what is this? | A linker
+What is a loader? | A system tool provided by the operating system that loads executable files into memory so they can be run
+A program provided by the OS that loads executables into memory for execution — what is this? | A loader
+What is static linking? | Libraries and modules are added directly into the main executable file at compile time, creating a larger file. External updates to the library will not affect the program.
+What is dynamic linking? | Only the addresses of libraries and modules are included in the file. The loader retrieves them from memory at runtime. Files remain smaller and external updates feed through automatically.
+How does static linking differ from dynamic linking? | Static linking copies library code directly into the executable (larger file, independent of external library updates). Dynamic linking stores only addresses to external libraries (smaller file, requires libraries at runtime, benefits from external updates).
+State one advantage of static linking | A specific version of a library can be used, and the program is self-contained without needing external library files at runtime
+State one advantage of dynamic linking | Executable files remain small, and external updates to libraries automatically feed through without needing to recompile
+Why are libraries described as saving programmers from having to 'reinvent the wheel'? | Libraries provide specialised, pre-written functions (e.g. mathematical or graphical operations) that would otherwise require significant time and effort to develop and test from scratch
+In which type of languages do interpreters and compilers work? | High-level languages
+In which type of language does an assembler work? | Low-level language (assembly language)
+Name three programming languages that typically use a compiler | C, C++, Swift (also Java)
+Name three programming languages that typically use an interpreter | Python, JavaScript, Ruby (also PHP)

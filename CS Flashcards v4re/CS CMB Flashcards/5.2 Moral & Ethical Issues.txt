@@ -1,0 +1,137 @@
+What is Artificial Intelligence (AI)? | A field of computer science that aims to create intelligent machines that can perform tasks typically requiring human intelligence
+A field of computer science that creates machines capable of performing tasks that typically require human intelligence — what is this called? | Artificial Intelligence (AI)
+What cognitive functions do AI systems simulate? | Learning, problem-solving, reasoning, perception, and decision-making
+What moral dilemmas do AI developers face regarding their creations? | Issues of accountability, privacy, job displacement, and social inequality
+What must AI developers ensure their systems are designed to do? | Prioritise ethical values, uphold human rights, and avoid biases that could lead to discrimination or harm
+What moral concerns may end users of AI encounter? | Concerns regarding personal data privacy, security, and informed consent
+Why is informed consent difficult to achieve with AI technologies? | The technical complexities and uncertainties of AI make it hard to provide clear, comprehensible information about how data will be used
+How might AI adoption affect the workforce? | It may lead to changes in employment structures, with some jobs being automated, causing unemployment or a shift in job roles
+What initiatives are necessary to prepare the workforce for AI-driven changes? | Reskilling and upskilling initiatives
+How can AI create a digital divide? | The accessibility of AI technologies may favour individuals with more resources and access to technology, creating inequality
+What ethical concerns does AI raise in healthcare? | Patient data privacy, the role of AI in decision-making in critical medical situations, reliability of diagnoses, and determining liability for adverse outcomes
+Why is the reliability of AI systems in healthcare a significant ethical concern? | An incorrect diagnosis or treatment recommendation in a critical situation can have severe consequences
+In healthcare AI, who might be held responsible for an adverse outcome? | It is unclear whether the AI system, its developers, or the treating physician is responsible — clear guidelines are needed
+Why might AI algorithms show bias? | If trained on biased datasets, they can inadvertently learn and perpetuate discrimination against certain demographic groups
+The tendency of AI to perpetuate discrimination when trained on unrepresentative data — what is this called? | Algorithmic bias
+What ethical dilemma do autonomous vehicles face in unavoidable accident scenarios? | They must decide between two undesirable outcomes, often compared to the trolley problem
+The ethical thought experiment about choosing between two harmful outcomes, often applied to self-driving cars — what is it called? | The trolley problem
+How can AI language models unintentionally affect cultural identity? | By upholding cultural biases or inaccurately representing specific languages and dialects
+What debate does the use of AI in art and creativity spark? | Whether AI-generated works have authenticity and originality, and whether artistic merit should be given to AI systems
+How can AI help with cultural preservation? | By digitising and restoring historical artefacts, though cultural sensitivity and respect for indigenous knowledge must be considered
+What was UNESCO's contribution to AI ethics in November 2021? | It produced the first-ever global standard on AI ethics — the 'Recommendation on the Ethics of Artificial Intelligence', adopted by all 193 Member States
+Why are artists concerned about AI training data? | Their work is being used without consent to train AI systems, leading to potential copyright infringements
+What is the COMPAS AI program used for? | Predicting a defendant's potential for future criminal behaviour in the judicial system
+What criticism is made of the COMPAS program? | It uses undisclosed factors to generate a risk score, may reflect human biases, and cannot fully understand human behaviour nuances
+What approach do critics suggest for AI in the judicial system? | A joint decision-making approach, where AI passes uncertain cases to humans
+What is censorship on the internet? | The control or suppression of information, ideas, or content available online
+The control or suppression of information, ideas, or content available online — what is this called? | Internet censorship
+Who carries out internet censorship? | Governments, organisations, or internet service providers
+Give four reasons for internet censorship | Protecting national security, restricting harmful content, preserving cultural norms, and combating disinformation
+Why might governments censor online content for national security? | To prevent the spread of sensitive information that could threaten national security
+Why is freedom of expression important in the context of censorship? | It is a fundamental human right that allows individuals to voice opinions without fear, enables free flow of ideas, promotes diversity, and empowers participation in public life
+Why must freedom of expression have some boundaries? | To prevent harm and protect the values that underpin free speech, such as shielding vulnerable groups from content that incites violence or discrimination
+Why is transparency important in content censorship? | To ensure censorship measures are fair, objective, and respectful of freedom of expression, and to prevent abuses of power
+How can censorship affect access to information? | It can hinder public discourse, stifle freedom of expression, and obstruct societal progress by controlling or suppressing information
+How can censorship exacerbate the digital divide? | By further widening the gap in access to information and online resources for marginalised communities with restricted internet access
+What ethical concern arises when censorship relies on surveillance? | It can challenge individuals' fundamental right to privacy through invasive monitoring of online activities
+How can censorship hinder cross-cultural dialogue? | By limiting opportunities for intercultural understanding and impeding the enrichment from the free flow of ideas and perspectives
+Why was the UAE identified as the most censored country in a Proxyrack study? | It scored 8.03 out of 10, with restrictions on pornography, VPN usage, torrent culture, and overall internet usage
+What did a Citizen Lab report reveal about censorship in China? | Over 66,000 rules govern content on China's search engines, with Microsoft's Bing being the most diligent censor
+What is censorship at a smaller level used for? | Within schools to block unsuitable material, and within workplaces to maintain productivity and prevent distractions
+What does monitoring behaviour involve? | The systematic observation and recording of individuals' activities, interactions, and communications using technologies like CCTV, phone call tracking, GPS, and email monitoring
+Name four technologies used to monitor behaviour | CCTV surveillance, tracking phone calls, GPS monitoring, and email monitoring
+How can CCTV act as a deterrent? | Its visible presence may discourage individuals from engaging in unlawful behaviour in public spaces
+How is GPS monitoring useful in emergencies? | It enables the swift location of individuals needing assistance, such as in missing person cases or during disasters
+Why might employers monitor emails and phone calls? | To assess employee productivity, adherence to company policies, and communication within the organisation
+What moral concern does monitoring raise about privacy? | It can infringe upon individuals' right to privacy, creating tension between security needs and personal freedoms
+How can mass surveillance affect social norms? | It may lead to self-censorship and a fear of expressing dissenting opinions, stifling open dialogue
+How might monitoring disproportionately affect marginalised communities? | They may face more discrimination and mistrust as a result of monitoring practices
+What ethical principle should guide data collection in monitoring? | Minimisation and purpose limitation — collect only necessary data and use it only for intended purposes
+What happened in the Karlee Besse employee monitoring case? | Tracking software (TimeCamp) found she had falsely reported work hours, and she was ordered to repay £1,506.66 to her former employer
+How is personal information analysed using computers? | Through data gathering, storage, and analysis using technologies like data mining, machine learning, and artificial intelligence
+What is data mining? | Extracting patterns from large data sets, such as predicting disease trends or identifying at-risk demographics
+Extracting patterns from large data sets to find trends — what is this called? | Data mining
+How can machine learning be used with personal information? | To predict patient outcomes, assess risks, and personalise treatment plans based on past data
+Why is informed consent morally important when analysing personal information? | It respects the autonomy of individuals to control information about themselves
+What is the digital divide in the context of personal data? | The disparity between those with access to technology and those without, which may exclude some from the benefits of computerised health data management
+Why might certain cultural groups be at risk of biased outcomes from data analysis? | They may be underrepresented in data sets, leading to skewed or unfair results
+What did a Swedish study find about AI screening breast cancer images? | AI could detect cancer at a rate similar to two radiologists, identifying cancer in 244 women compared to 203 through standard screening, without increasing false positives
+What is piracy in the context of computing? | The unauthorised use, distribution, or reproduction of copyrighted material
+The unauthorised use, distribution, or reproduction of copyrighted material — what is this called? | Piracy
+Name three types of piracy | Software piracy, music and film piracy, and eBook piracy
+What is software piracy? | The unauthorised copying, distribution, or use of copyrighted software, including counterfeiting, internet piracy, and end-user piracy
+How is piracy a direct moral issue? | It infringes intellectual property rights by using someone's creative output without permission
+How can piracy have severe social impacts? | By inflicting financial losses on creators and industries, leading to job losses and slowing economic development
+How might piracy highlight market limitations? | Its existence can reveal gaps in legal access to media, prompting discussion on more affordable and accessible distribution models
+How can piracy disproportionately affect marginalised cultures? | Creators who rely on sales for survival are more harmed, endangering the preservation and proliferation of those cultures
+What was the Napster lawsuit about? | In 2000, Metallica sued Napster for copyright infringement after their single "I Disappear" was leaked on the platform
+How did Steve Jobs view piracy? | He believed it was a service issue, not a pricing issue — people pirated because it was the only way to get music digitally, leading him to create iTunes as a legal alternative
+What is offensive communication? | Any sort of online harassment, including cyber-bullying or stalking
+What does the Malicious Communications Act (1988) make illegal? | Sending indecent or offensive messages to anyone online — it is a criminal offence
+What is User Experience (UX) design? | The process of creating products that provide meaningful and relevant experiences to users
+The process of creating products that provide meaningful and relevant experiences to users — what is this? | User Experience (UX) design
+What three key elements of UX design affect how users interact with products? | Layout, colour paradigms, and character sets
+What are colour paradigms in UX design? | The systematic use of colours to elicit specific responses from users, considering emotional responses, visual contrast, accessibility, and branding
+Why must developers consider colour interpretation across cultures? | Colours hold different meanings in different cultures — e.g. red signifies danger in Western cultures but luck in Chinese culture
+Why must programs support various character sets? | Different languages use unique characters, and programs must cater to users worldwide
+What is Unicode and why is it preferred? | A widely used encoding standard that supports most of the world's writing systems, able to represent over a million characters
+Why is ASCII insufficient for global use? | It only uses 7 bits, so it cannot represent all characters in languages like Chinese
+How does reading direction affect UX design? | Languages read left-to-right (e.g. English) need left-aligned menus, while right-to-left languages (e.g. Arabic, Hebrew) need right-aligned menus and reversed element placement
+What must computer programs support to accommodate different reading directions? | Bi-directional text
+What does the Equality Act 2010 require regarding website design? | It is illegal to discriminate against providing a service to any group, so websites must be accessible to all people
+How should websites accommodate users with visual impairments? | By providing alternative text (alt text) for images, screen magnifier options, and the ability to enlarge text or alter contrast
+What is localisation in the context of software development? | Adapting applications to different languages and regions without engineering changes
+How does the digital divide relate to computers in the workforce? | Increasing reliance on computers creates inequality between those with and without access to technology, hindering education, employment, and economic advancement
+How can computer-mediated communication affect social interactions? | It can reduce face-to-face interactions, leading to decreased interpersonal skills and potential isolation
+How can remote work affect work-life balance? | Computers in remote settings may blur boundaries between work and personal life, impacting well-being
+What ethical concern does automation raise about employment? | Job displacement and potential loss of livelihood for workers, particularly in middle-income manufacturing roles
+What is algorithmic bias? | When algorithms in decision-making processes perpetuate biases present in their training data, leading to discrimination in areas like hiring, lending, and criminal justice
+How does digital piracy affect creators financially? | It leads to significant revenue loss as consumers access pirated content instead of purchasing legally, depriving creators of deserved revenues
+What cultural issue arises from global online content dissemination? | Content can unintentionally reinforce cultural stereotypes, leading to misunderstandings or biases
+What is automated decision making? | The process of using algorithms and computer systems to make decisions without direct human intervention, based on data analysis, pattern recognition, and predefined rules
+The process of using algorithms to make decisions without direct human intervention — what is this? | Automated decision making
+How is automated decision making used in credit scoring? | Algorithms analyse credit history, income, and other data to assess the risk of non-payment and determine whether to grant a loan
+How is automated decision making used in fraud detection? | Advanced algorithms analyse transaction patterns and user behaviour to flag suspicious activities in real-time
+How do recommendation systems use automated decision making? | They analyse user behaviour, preferences, and past interactions to suggest products, movies, or content tailored to individual tastes
+How is automated decision making used in recruitment? | To screen job applicants, assess their skills, and rank candidates based on qualifications and job compatibility
+What is high-frequency trading? | Rapid automated trading that uses algorithms to execute buy and sell orders based on predefined strategies, capitalising on market fluctuations
+How is predictive maintenance used in manufacturing? | Automated systems analyse sensor data from machines to predict potential failures and schedule maintenance proactively
+What moral concern does automated decision making raise about fairness? | Algorithms can maintain biases from training data, leading to discriminatory outcomes for specific individuals or groups
+Why does automated decision making create accountability challenges? | The use of AI may blur the lines of accountability, making it difficult to determine responsibility when errors occur
+How can lack of transparency in automated decisions affect public trust? | People may be reluctant to accept algorithmic decisions without understanding the underlying rationale, eroding trust
+What is algorithmic transparency? | The ethical principle of making automated decision-making algorithms interpretable and understandable to ensure accountability and prevent hidden biases
+What happened with Amazon's AI recruitment tool? | It was abandoned because it was biased against women — trained on 10 years of male-dominated data, it taught itself male candidates were preferable and penalised CVs containing the word "women"
+Why is additional data collection needed for automated decision making? | To improve data quality, mitigate biases in training datasets, and validate the accuracy and reliability of decisions
+What is a feedback loop in automated decision making? | Continuous data collection and evaluation of real-world impact to iteratively improve algorithm performance
+How might automated decisions clash with cultural values? | They may not adequately account for cultural nuances and preferences, potentially producing decisions that conflict with cultural norms
+What is e-waste? | Discarded electronic or electrical devices
+Discarded electronic or electrical devices — what term describes this? | E-waste
+Why is improper e-waste disposal dangerous? | Electronic devices contain toxic elements such as lead, mercury, and cadmium that can cause serious environmental and health problems
+What are the steps for proper e-waste disposal? | Reduce and reuse devices, recycle components, use e-waste recycling programs, dispose at designated facilities, follow local regulations, and erase personal data before disposal
+What is environmental equity? | The fair distribution of environmental benefits and burdens among different social groups and communities, regardless of socioeconomic status, race, or cultural background
+The fair distribution of environmental benefits and burdens among different social groups — what concept is this? | Environmental equity
+How are lower-income communities disproportionately affected by computer-related environmental issues? | They may bear a greater burden of e-waste pollution and energy-related environmental problems
+Why does increased computerisation raise environmental concerns about energy? | More devices require more electricity, which often relies on non-renewable fossil fuels that emit greenhouse gases contributing to global warming
+How can technology help offset its own environmental impact? | Through smart home systems using sensors to control heating and lighting, sleep/standby features on computers, and anti-idling car engines
+Why is it considered immoral to ship e-waste to developing countries? | These countries often have lower environmental standards, so the toxic waste harms their populations and environments disproportionately
+How does ethics differ from morals? | Ethics are concerned with community values and how they impact different groups in society, while morals are a personal code of conduct about how we choose to behave
+Community values and how they impact different groups in society — is this ethics or morals? | Ethics
+A personal code of conduct about how an individual chooses to behave — is this ethics or morals? | Morals
+How has computerisation affected middle-income jobs? | It has hit manufacturing jobs hardest, replacing entire production lines with robots, causing a shift toward low-income service jobs
+What is a major risk of a highly computerised workplace? | High dependence on computers — if something goes wrong, there is a major loss of output
+What new jobs have been created by increased computerisation? | Software developers, network engineers, delivery drivers, web developers, and other computing-related occupations
+How has the rise of online services affected physical businesses? | It has reduced costs of renting physical space and cut labour costs, as fewer front-facing retail staff and bank clerks are needed
+Why is it dangerous for social media algorithms to only show content matching user interests? | It creates a filter bubble where beliefs are never challenged, potentially leading to a close-minded society
+A situation where algorithms only reinforce a user's existing beliefs by showing tailored content — what is this called? | A filter bubble (or echo chamber)
+Why can't algorithms fully replace human judgment in decision making? | They do not consider extenuating circumstances and cannot process information with the same consideration of contextual factors humans provide
+Why must algorithmic decisions be justified rather than remaining a black box? | To ensure fairness, prevent hidden biases, and allow some level of human input in the process
+What is an expert system in AI? | A knowledge-based system that replicates the knowledge and experience of an expert, made up of a knowledge base of facts and rules used to build an inference engine
+What are neural networks in AI? | Systems that replicate biological neural networks, learning from data and applying that knowledge to new data sets, used in pattern detection and fraud identification
+What privacy concern do smart home AI systems like Alexa raise? | They must be constantly switched on to function, raising questions about continuous audio monitoring
+How does the Data Protection Act 1998 relate to modern data concerns? | It is no longer sufficient for protecting public welfare, which is why the GDPR was enforced from May 2018
+What is the GDPR? | The General Data Protection Regulation, enforced from May 2018, providing stronger data protection requirements than the previous Data Protection Act
+How can data mining be misused by insurance companies? | By uncovering that an individual is at high risk of disease, then denying them insurance or charging higher premiums based on that analysis
+How does automated decision making in social media feeds work? | Algorithms determine what users see based on their interactions, connections, and inferred interests
+How does automated decision making benefit driverless cars? | Decisions are made faster than humans can react, potentially saving lives
+In what areas has algorithmic decision-making been used for application processes? | Mortgages, loans, jobs, and assessing criminal recidivism likelihood
+How can renewable energy counteract the environmental effects of increased computing? | It reduces reliance on fossil fuels for the electricity needed to power devices, offsetting greenhouse gas emissions

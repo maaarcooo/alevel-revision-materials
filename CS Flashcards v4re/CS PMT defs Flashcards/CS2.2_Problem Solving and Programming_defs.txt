@@ -1,0 +1,64 @@
+What is branching? | A programming control structure where the code selects one or more alternative paths depending on the evaluation of a boolean expression
+A control structure that selects alternative paths based on a boolean expression — what is this called? | Branching
+What is a function in programming? | A subroutine that performs a task or calculation and always returns a value. It can be called in an expression or assigned to a variable
+A subroutine that always returns a value and can be used in expressions — what is this called? | A function
+What is a global variable? | A variable declared in the main program, outside any subroutine, that can be accessed and used anywhere in the program
+A variable declared outside all subroutines that is accessible anywhere in the program — what is this called? | A global variable
+What is an Integrated Development Environment (IDE)? | A software package that helps users develop and implement code, with features for editing, debugging, version control, testing, and compilation
+A software package providing editing, debugging, version control, testing, and compilation features for code development — what is this? | An Integrated Development Environment (IDE)
+What is iteration in programming? | A programming control structure where a set of statements is repeated either a fixed number of times or until a condition is met
+A control structure that repeats statements a fixed number of times or until a condition is met — what is this called? | Iteration
+What is a local variable? | A variable declared within a subroutine that only exists and can be used within that subroutine
+A variable that only exists within the subroutine where it was declared — what is this called? | A local variable
+How do global variables differ from local variables? | Global variables are declared in the main program and accessible anywhere. Local variables are declared inside a subroutine and only exist within that subroutine
+What is modularity? | The technique of breaking down a complex problem into simpler, self-contained components called modules, where each module implements a specific subtask
+Breaking a complex problem into simpler, self-contained modules that each implement a specific subtask — what technique is this? | Modularity
+What is Object Oriented Programming (OOP)? | A programming paradigm where the system is modelled as a set of objects, each with their own attributes (data) and methods (procedures), that interact with each other. All processing is done by objects
+A paradigm where a system is modelled as interacting objects, each with attributes and methods — what is this? | Object Oriented Programming (OOP)
+What is parameter passing by reference? | Passing the address or pointer of a variable into a subroutine, so the subroutine works directly on the original data
+When the address or pointer of a variable is passed into a subroutine — what type of parameter passing is this? | Parameter passing by reference
+What is parameter passing by value? | Creating a temporary local copy of the actual value of a variable and passing that copy into the subroutine
+When a temporary local copy of a variable's value is passed into a subroutine — what type of parameter passing is this? | Parameter passing by value
+How does parameter passing by reference differ from passing by value? | By reference passes the address of the original variable, so changes inside the subroutine affect the original. By value passes a copy, so the original variable is not changed
+What are parameters in programming? | The data items required to be passed into a subroutine for it to operate
+What is a procedure? | A subroutine that is called by writing its name in the code. Procedures do not have to return a value
+A subroutine that does not have to return a value and is called by its name — what is this? | A procedure
+How do functions differ from procedures? | Functions always return a value and can be used in expressions or assigned to variables. Procedures do not have to return a value and are called as standalone statements
+What is recursion? | A programming technique where a subroutine calls itself repeatedly until a base case is met
+A subroutine that calls itself until a base case is reached — what technique is this? | Recursion
+Why must a recursive subroutine have a base case? | To provide a terminating condition that stops the recursion, preventing an infinite loop and eventual stack overflow
+How does recursion differ from iteration? | Recursion solves a problem by a subroutine calling itself with a simpler version of the problem until a base case is met. Iteration repeats a block of code using a loop construct (for/while) until a condition is met
+What is a sequence in programming? | A programming control structure in which statements are executed one after another in the order they appear in the code
+A control structure where statements execute one after another in written order — what is this called? | Sequence
+What is a subroutine? | A uniquely named section of code written to perform a specific task within a program
+A named section of code that performs a specific task within a program — what is this called? | A subroutine
+What are the three main programming control structures? | Sequence, branching (selection), and iteration
+How are procedures and functions both related to subroutines? | Procedures and functions are both types of subroutine. The difference is that functions must return a value, while procedures do not have to
+What is backtracking? | An algorithm that incrementally builds a solution by trying different sequences and abandoning a path as soon as it determines it cannot lead to a valid solution
+An algorithm that tries different paths and abandons a path when it cannot lead to a valid solution — what is this called? | Backtracking
+What is a computable problem? | A problem for which every instance can be solved in a finite number of steps by means of an algorithm
+A problem that can be solved in a finite number of steps using an algorithm — what is this called? | A computable problem
+What are computational methods? | Methods of solving a problem by some form of computation, involving the design and implementation of an algorithm
+What is data mining? | An algorithmic process that analyses large data sets to uncover trends and relationships between variables
+An algorithm that analyses large data sets to find trends and relationships — what is this called? | Data mining
+What is divide and conquer? | An algorithm design technique that decomposes a problem by reducing its size with each iteration until the sub-problems become small enough to solve directly
+An algorithm design technique that repeatedly reduces a problem's size until sub-problems are directly solvable — what is this called? | Divide and conquer
+How does problem decomposition differ from divide and conquer? | Problem decomposition is the general process of splitting a problem into smaller, distinct sub-problems. Divide and conquer is a specific algorithmic technique that repeatedly halves/reduces the same problem until sub-problems become trivially solvable
+What are heuristics? | Rule-of-thumb algorithms that produce a valid but sub-optimal (approximate) solution for hard (intractable) problems in a reasonable time
+A rule-of-thumb algorithm that gives a valid but possibly sub-optimal solution for an intractable problem — what is this called? | A heuristic
+Why are heuristics used instead of exact algorithms for some problems? | Because some problems are intractable (cannot be solved optimally in a reasonable time), so a heuristic provides an acceptable approximate solution much faster
+What is performance modelling? | The process of simulating a model's behaviour under different virtual user and system loads using mathematical approximation
+Simulating a system's behaviour under different loads using mathematical approximation — what is this called? | Performance modelling
+What is pipelining? | The process of splitting a task into parts and overlapping the processing of subtasks that can run simultaneously
+Splitting a task into parts and overlapping the execution of subtasks that can run at the same time — what is this called? | Pipelining
+What is problem decomposition? | The process of splitting a given problem into smaller, solvable sub-problems that are easier to conceive, understand, maintain, and program
+Splitting a problem into smaller, more manageable sub-problems — what is this called? | Problem decomposition
+What is problem recognition? | The ability to identify the most effective strategy or approach to solve a given problem
+Identifying the most effective strategy to solve a problem — what ability is this? | Problem recognition
+What is visualisation in the context of computational methods? | Using a visual representation of an algorithm or data structure to translate a problem and its solution into a more human-readable form
+Using visual representations to make algorithms or data structures easier for humans to understand — what computational method is this? | Visualisation
+How does backtracking differ from divide and conquer? | Backtracking explores paths incrementally and abandons invalid ones to find a valid solution. Divide and conquer breaks a problem into smaller sub-problems, solves each, and combines the results
+In OOP, what are attributes and methods? | Attributes are the data (properties) belonging to an object. Methods are the procedures (actions) that an object can perform
+The [...] of an IDE include editing, debugging, version control, testing, and compilation | key features
+A variable passed by reference can be [...] by the subroutine, affecting the original value | modified (changed)
+A variable passed by value cannot be permanently changed by the subroutine because the subroutine works on a [...] | copy (temporary local copy)

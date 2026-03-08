@@ -1,0 +1,84 @@
+What is the Data Protection Act (DPA)? | A law that protects personal data from being misused
+A law that protects personal data from being misused — what is it called? | The Data Protection Act (DPA)
+Give three examples of personal data under the DPA | Name, address, date of birth (also race, religion)
+What does "personal data" mean under Data Protection legislation? | Any data that can be used to identify a living person, including data that can be combined with other data to identify someone
+The DPA applies to data stored on computers and in [...] | organised paper filing systems
+An individual who can be identified by personal data is called a [...] | data subject
+What term describes the individual identifiable by personal data? | Data subject
+Name the three exemptions from the Data Protection Principles | Domestic purposes, law enforcement, intelligence services processing
+Why is domestic use of personal data exempt from the DPA? | If personal data is only used for things like writing to friends and family or taking pictures for personal enjoyment, it does not fall under the DPA
+Why is law enforcement exempt from the DPA? | Police investigating a crime are not subject to the DPA, so suspects cannot request to see the evidence held about them
+Why are intelligence services exempt from the DPA? | Personal data processed by services such as MI5 is not covered by the DPA, to protect national security operations
+What does DPA Principle 1 require? | Personal data must be processed fairly and lawfully, meaning companies must be clear about what data they collect and what they use it for
+What does DPA Principle 2 require? | Personal data must be collected for specified and lawful purposes, and cannot be used for any other purpose or passed on without permission
+What does DPA Principle 3 require? | Personal data must be adequate, relevant and not excessive for its stated purpose
+Give an example of a breach of DPA Principle 2 | A company asks for a phone number to call about delivery but then uses it to market new products
+Give an example of a breach of DPA Principle 3 | A bank asking for a customer's previous holiday trips when opening an account
+What does DPA Principle 4 require? | Personal data must be kept accurate and up to date. If data is wrong or out of date, the data subject has the right to have it corrected or deleted
+What does DPA Principle 5 require? | Personal data must not be kept for longer than is necessary. Once the purpose is fulfilled, the data must be deleted
+What does DPA Principle 6 require? | Personal data must be processed in line with the data subject's rights. If requested, a company must provide all personal data it holds on the individual
+What does DPA Principle 7 require? | Personal data must be held securely using appropriate technical measures (e.g. usernames, passwords, backups) to prevent unauthorised access or accidental loss
+What does DPA Principle 8 require? | Personal data must not be transferred to countries outside the European Economic Area unless those countries have been deemed by the European Commission to have adequate data protection
+Why can a company not send personal data to China under DPA Principle 8? | China is not deemed by the European Commission to have adequate data protection laws
+What is a Data Controller? | A member of staff appointed by a company who is responsible for ensuring the Data Protection Principles are followed and for communicating with the Information Commissioner
+A company must appoint a [...] to ensure compliance with the DPA | Data Controller
+Who does the Data Controller communicate with regarding data protection? | The Information Commissioner
+What is a Subject Access Request (SAR)? | A formal request from a data subject to a company for a copy of all personal data held about them
+A formal request from a data subject for a copy of their personal data — what is this called? | A Subject Access Request (SAR)
+What must a company do when it receives a Subject Access Request? | Verify the identity of the data subject, then send a copy of their data securely
+Name three rights of individuals under the DPA | Right to be informed about data collection, right to access their personal data, right to have inaccurate data corrected
+What is the right to be forgotten? | The right of a data subject to have their personal data erased in certain circumstances
+What is the right to data portability? | The right for data subjects to obtain and reuse their personal data across different services
+What consequence can companies face for breaching the Data Protection Act? | Extremely large fines
+What security measures should companies implement to comply with the DPA? | Physical or digital security measures to prevent data being accessed without consent, plus staff training on DPA principles
+As of 2018, the Data Protection Act 1998 has been replaced by what? | The General Data Protection Regulation (GDPR) and the Data Protection Act 2018
+How much was British Airways fined for its GDPR breach? | £20 million
+What caused the British Airways GDPR breach? | Data security failings that allowed unauthorised access to personal and payment card information of over 400,000 customers
+Name two measures British Airways could have used to prevent its data breach | Multi-factor authentication on employee log-ins, and role-based access controls with different permissions for different users
+What is the Computer Misuse Act (CMA)? | A law that concerns the malicious use of computers
+A law concerning the malicious use of computers — what is it called? | The Computer Misuse Act (CMA)
+Why was the Computer Misuse Act originally created? | To ensure that computer hacking was covered within the law
+How many primary offences does the Computer Misuse Act define? | Three
+What is Offence 1 under the Computer Misuse Act? | Unauthorised access to computer materials (e.g. finding a teacher's password and opening their files)
+What is Offence 2 under the Computer Misuse Act? | Unauthorised access with intent to commit further offences (e.g. accessing a teacher's computer intending to change test marks)
+What is Offence 3 under the Computer Misuse Act? | Unauthorised modification of computer files (e.g. actually changing test marks on a teacher's computer)
+How does CMA Offence 1 differ from CMA Offence 2? | Offence 1 is simply accessing materials without permission. Offence 2 involves accessing with the specific intent to commit further crimes (e.g. fraud). Offence 2 carries harsher penalties
+How does CMA Offence 2 differ from CMA Offence 3? | Offence 2 is unauthorised access with intent to commit further offences but without necessarily carrying them out. Offence 3 is actually making unauthorised modifications to computer files
+What punishment can offences under the CMA lead to? | Imprisonment, with severity increasing from Offence 1 to Offence 3
+What security features can minimise threats from unauthorised access? | Digital signatures or certificates
+How can firewalls help prevent breaches of the CMA? | Firewalls prevent external users from accessing the system and are key in preventing DoS or DDoS attacks
+What is a DoS attack? | Denial of Service attack, where a system is flooded with traffic to prevent legitimate users from accessing it
+What is a DDoS attack? | Distributed Denial of Service attack, a DoS attack launched from multiple sources simultaneously
+How do digital signatures help protect against unauthorised access? | They verify the identity and authenticity of the sender, helping ensure only authorised users can access systems
+In the CMA case study, what did Kim Doyle do that breached the Act? | As a RAC employee, she transferred personal data (accident data, names, phone numbers, registration numbers) to an accident claims firm without permission
+What is the Copyright, Designs and Patents Act 1988? | A law that protects the intellectual property of individuals and companies, making it illegal to copy, modify or distribute software or other IP without permission
+A law protecting intellectual property and making it illegal to copy, modify or distribute work without permission — what is it called? | The Copyright, Designs and Patents Act 1988
+What does "intellectual property" mean in the context of the Copyright, Designs and Patents Act? | Original creative work belonging to an individual or company, such as software, music, logos, and videos
+When does copyright apply to an original work? | Automatically from the moment of creation, with no registration required
+How long does copyright last? | 25 to 70 years from the death of the creator, depending on the type of work
+In 1992, the Copyright, Designs and Patents Act was extended to include [...] as a type of literary work | Computer programs
+Why was the 1992 extension to the Copyright, Designs and Patents Act significant? | It meant copyright automatically applies to computer code, protecting software as a form of literary work
+Whose responsibility is it to take action if their copyrighted work has been copied? | The individual copyright holder's responsibility
+Name three primary breaches of the Copyright, Designs and Patents Act | Copying an original work, issuing copies to the public, making an adaptation of the original work
+Name three secondary breaches of the Copyright, Designs and Patents Act | Importing a copy of original work, possessing or dealing with a copy, providing means to make copies
+How do primary and secondary breaches of the Copyright, Designs and Patents Act differ? | Primary breaches involve directly infringing copyright (copying, distributing, adapting). Secondary breaches involve facilitating or profiting from infringement (importing copies, providing copying equipment, permitting use of premises)
+How does peer-to-peer streaming breach the Copyright, Designs and Patents Act? | It prevents the copyright owner from receiving income from their work by allowing users to share copyrighted videos and audio without permission
+Give an example of breaching the Copyright, Designs and Patents Act with digital content | Downloading videos from Netflix and sharing them with others
+What is the Regulation of Investigatory Powers Act 2000 (RIPA)? | A law that governs how organisations can monitor electronic communications, covering investigation, surveillance and interception of communication by public bodies
+A law governing how public bodies can carry out investigation, surveillance and interception of electronic communications — what is it called? | The Regulation of Investigatory Powers Act 2000 (RIPA)
+What three activities does RIPA regulate? | Investigation, surveillance and interception of communication by public bodies
+Under RIPA, what must be obtained before intelligence services can wiretap online conversations? | A warrant must be issued
+What does RIPA require of internet service providers (ISPs)? | ISPs must give up customer information on request from an authorised authority and must have sufficient hardware installed to facilitate surveillance
+What does RIPA require of mobile phone companies? | They must provide information when requested by authorised authorities and ensure their networks can facilitate surveillance
+Why is RIPA considered controversial? | Its powers extend to small agencies like local councils, some view it as an invasion of privacy, and it has been used for reasons beyond criminal or terrorist monitoring
+Give an example of RIPA being used for non-criminal surveillance | Local councils used it to monitor people walking dogs, feeding pigeons, fly-tipping, and to check whether a family lived in a school catchment area
+What did a 2016 investigation reveal about councils using RIPA? | Councils were given permission to carry out over 55,000 days of covert surveillance over 5 years, with 186 local authorities (two-thirds of respondents) using RIPA to gather evidence via listening devices, cameras and private detectives
+Under RIPA, which organisation has the most surveillance freedom? | GCHQ
+What does RIPA prevent from being revealed in court? | The existence of interception activities
+How does RIPA impact businesses? | Businesses must provide access to digital communications or data when asked, and must implement hardware and software that facilitates storage of digital communications
+How does the CMA differ from the DPA in its focus? | The CMA focuses on preventing unauthorised access and modification of computer systems (malicious use). The DPA focuses on protecting personal data from being misused by those who hold it
+How does RIPA create a tension with the DPA? | RIPA grants public bodies power to access and intercept personal communications, while the DPA protects individuals' personal data from misuse. RIPA provides legal exemptions for surveillance that would otherwise breach data protection principles
+What technical term must you use when describing RIPA's scope regarding gathering information on people? | Surveillance (the use of technology to gather information on people)
+What technical term must you use when describing what RIPA covers regarding data exchange? | Communication (done electronically)
+When answering exam questions about the DPA principles, what must you do beyond stating them? | Explain what each principle means in practice for companies, not just state the principle name
+When referring to the Copyright, Designs and Patents Act in exams, why should you use its full name? | Using shortened versions like "the Copyright Act" may cost marks. The correct full title is "The Copyright, Designs and Patents Act"

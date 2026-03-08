@@ -1,0 +1,164 @@
+What is a search engine? | A program that searches through a database of internet addresses looking for resources based on criteria set by the user
+What are the three stages of how a search engine works? | Crawling (discovering pages), indexing (storing structured information), and ranking (ordering results by relevance)
+What are web crawlers? | Software programs (also called spiders, bots, or robots) used by search engines to discover web pages by following links from one page to another
+Software programs that follow links between web pages to discover content for search engines — what are these called? | Web crawlers (also known as spiders, bots, or robots)
+How do web crawlers discover new web pages? | They start from a set of seed URLs and follow links on those pages to visit other pages, systematically traversing the web
+What is the robots.txt file used for? | It establishes rules and guidelines from website owners that direct crawlers on which areas of a website to explore or avoid
+A file that directs search engine crawlers on which parts of a website to explore or avoid — what is this called? | The robots.txt file
+What does a web crawler do when it reaches a webpage? | It fetches the HTML content, examines the structure, and retrieves information such as text content, headings, links, and metadata
+What is metadata in the context of web crawling? | Information specified by the website owner that describes the page content, collected by crawlers alongside keywords and text
+What happens to the HTML retrieved by a crawler? | It is broken down into individual components by identifying elements, tags, and attributes that hold valuable information like titles and headings
+What is search engine indexing? | The process of storing collected information from web pages in a structured manner within a search engine's database for quick retrieval
+The process of storing web page data in a structured database for quick retrieval — what is this? | Search engine indexing
+What information is stored for each word in a search engine's index? | Each word is included as an entry along with its position on the page
+How does the index help with search queries? | It allows for quick retrieval and ranking of relevant web pages in response to user queries, without scanning the entire web each time
+Give one benefit of search engine indexing related to search results quality | Indexing enables search engines to provide users with relevant and up-to-date search results by matching user searches with appropriate content
+Why does indexing enable efficient retrieval of information? | Search engines don't need to scan the entire web for every query — they only need to search their indexed data to produce results quickly
+How do ranking algorithms determine search result order? | They analyse indexed data considering factors such as keyword relevance, backlinks, and user engagement
+Why do search engine crawlers periodically revisit indexed web pages? | To detect updates and changes, ensuring search results display the latest content currently accessible on the Internet
+What is the PageRank algorithm? | An algorithm that evaluates and ranks web pages based on their perceived relevance and importance, originally developed by Larry Page and Sergey Brin
+An algorithm that ranks web pages based on perceived relevance and importance using link analysis — what is it called? | The PageRank algorithm
+Who originally developed the PageRank algorithm? | Larry Page and Sergey Brin, the founders of Google
+What are the four key elements of the PageRank algorithm? | Link analysis, link weight distribution, iterative calculation, and the damping factor
+How does link analysis work in PageRank? | Each link to a page acts as a "vote" for that page, with the voting weight determined by the importance of the linking page
+In PageRank, what determines the weight of a "vote" from one page to another? | The importance (PageRank) of the page that contains the link
+How does PageRank distribute link weight? | A page shares a portion of its importance equally among all its outgoing links
+How does PageRank's iterative calculation process work? | Initially every page gets the same value, then each page's significance is re-evaluated in subsequent iterations based on weighted inbound links, continuing until rankings stabilise
+What is the damping factor in PageRank? | A value between 0 and 1 (usually 0.85) that represents the probability a user will not follow a link and will instead jump to a random new page
+The probability that a user will stop following links and jump to a random page — what PageRank element is this? | The damping factor
+What is the typical value of the damping factor in PageRank? | 0.85
+Why is the damping factor needed in PageRank? | It prevents the algorithm from getting stuck in infinite loops and makes the model more realistic
+State the PageRank formula | PageRank(x) = (1-d) + d[(PageRank(T1) / Count(T1)) + ... + (PageRank(Tn) / Count(Tn))], where d is the damping factor and Count(Tn) is the number of outbound links from page Tn
+In the PageRank formula, what does Count(Tn) represent? | The total count of outbound links from webpage n
+What data structure is used to represent web pages and links for PageRank? | A directed graph, where nodes represent web pages and arcs (edges) represent links between pages
+Name five factors that modern search engines consider beyond basic link analysis | Relevance, user engagement, authority and trust, content freshness, and mobile-friendliness
+How does content relevance affect search ranking? | The keywords used, quality of content, and how relevant it is to the search query all influence a page's ranking
+What user engagement metrics can influence search rankings? | Click-through rates, time spent on a page (dwell time), and bounce rates
+What factors enhance a website's authority and trust for search ranking? | Age of the domain, quality backlinks from reputable sources (e.g. government websites), and trustworthy content
+Why does content freshness matter for search rankings? | Search engines value up-to-date content and may prioritise pages that are frequently updated or contain current information
+How does mobile-friendliness affect search rankings? | Search engines factor in the mobile compatibility of web pages, and Google primarily uses the mobile version of a site's content to rank pages
+Explain why PageRank alone does not determine search rankings | Modern search engines use multiple different algorithms and factors (relevance, engagement, trust, freshness, mobile-friendliness) to provide varied, relevant, and high-quality search outcomes
+What is server side processing? | Running code and carrying out operations on the server instead of on the client's device or browser
+Running code and performing operations on a remote server rather than on the user's device — what type of processing is this? | Server side processing
+Name four server side programming languages | PHP, Python, Ruby, and Java
+What is PHP? | A server side scripting language (Hypertext Pre-processor) specifically designed for web development
+What are three examples of server side processing tasks PHP can perform? | Data retrieval and manipulation (interacting with databases), server operations not accessible to the client, and form processing with validation
+Give two benefits of server side processing | Improved security for sensitive data handling, and consistent behaviour across different devices and browsers
+Give two drawbacks of server side processing | Increased server load when handling multiple requests, and latency from server communication leading to slower response times compared to client side
+Explain why server side processing provides better security than client side | Processing logic and sensitive data stay on the server, so they are not exposed to or accessible by the client, allowing implementation of access control and protection against web vulnerabilities
+Why might server side processing limit real-time interactivity? | It typically requires a roundtrip to the server for each user action, adding latency before the response reaches the user
+What is client side processing? | Carrying out code or processing tasks on the user's device, usually within the web browser, instead of on the server
+Executing code on the user's local device rather than on a remote server — what type of processing is this? | Client side processing
+What is the primary language used for client side processing? | JavaScript
+Name three examples of client side processing tasks JavaScript can perform | Form validation (real-time input checking), DOM manipulation (dynamically changing page content/structure), and AJAX requests (asynchronous server communication)
+What is DOM manipulation? | Using JavaScript to modify the Document Object Model to make dynamic changes to a web page's content and structure, such as adding/removing elements, updating text, or modifying styles
+What is the Document Object Model (DOM)? | A programming interface that represents the structure of an HTML document as a tree of objects, allowing JavaScript to access and modify page content and structure
+What are AJAX requests? | Asynchronous communication with the server that retrieves data in the background, allowing dynamic content updates without requiring a full-page reload
+Asynchronous server communication that updates content without a full page reload — what is this called? | AJAX (Asynchronous JavaScript and XML) requests
+Give two benefits of client side processing | Enhanced user experience through interactive/dynamic content without frequent server requests, and reduced server load by offloading processing to the client
+Give two drawbacks of client side processing | Potential security risk as client side code can be viewed and tampered with, and heavy dependence on JavaScript which may be disabled in some browsers
+How does client side vs server side processing differ in terms of where code is executed? | Client side processing runs code on the user's device/browser, while server side processing runs code on the server
+When should you choose client side processing over server side? | For tasks requiring immediate user feedback, real-time interactions, dynamic user interfaces, or data manipulation within the browser
+When should you choose server side processing over client side? | For tasks involving accessing databases, handling sensitive data, complex business logic, or server-specific operations
+Explain why both client side and server side validation are important for form checking | Client side (JavaScript) validation provides instant feedback and reduces unnecessary server load, but it can be amended or bypassed, so server side validation is needed as a security backup to ensure data integrity
+What is HTML? | Hypertext Markup Language — the foundational language used to structure content on the web using a series of elements (tags)
+Hypertext Markup Language, used to structure content on the web — what is this? | HTML
+What is the purpose of the <html> tag? | It is the root element of an HTML page that includes all other HTML elements used on the page
+How do most HTML tags work? | Most tags are opened and closed (e.g. <html> and </html>), while some self-closing tags are only opened (e.g. <img> and <link>)
+What does the <head> section of an HTML document contain? | Information about the web page that is not displayed on the page itself, such as the title and links to stylesheets
+What does the <title> element do? | Sets the page title that shows in the browser tab, placed inside the <head> section
+How is an external CSS stylesheet linked to an HTML document? | Using a <link> element in the <head> section with rel="stylesheet" and href pointing to the CSS file path, e.g. <link rel="stylesheet" type="text/css" href="styles.css">
+What does the <body> section of an HTML document contain? | The main content of the web page such as text, images, videos, hyperlinks, and tables — displayed in the browser window
+What are HTML heading tags used for? | To define headings that help users understand how a page is organised and structured, ranging from <h1> (most prominent) to <h6> (least prominent)
+Why are HTML headings important for accessibility? | Screen reader software uses headings to help visually-impaired users navigate around the page, such as providing a list of headings and allowing users to jump to specific sections
+Why are headings important for SEO? | They help search engines understand the content and structure of the page (Search Engine Optimisation)
+What does the <img> tag do and what are its key attributes? | Embeds an image into an HTML document. Key attributes: src (image URL), alt (alternative text for screen readers), height, and width
+What is the purpose of the alt attribute on an <img> tag? | Provides alternative text for screen readers or when the image cannot be displayed, and helps search engines understand the image content
+What does the <a> tag do? | Creates a hyperlink, with the href attribute specifying the URL the link points to
+Write HTML to create a hyperlink with the text "Click here" pointing to "page.htm" | <a href="page.htm">Click here</a>
+How can an image be made into a hyperlink in HTML? | By wrapping the <img> tag inside an <a> tag, e.g. <a href="page.htm"><img src="image.png"></a>
+What does the <div> tag do? | Acts as a generic container used to group other HTML elements together, often used with CSS to style sections of a webpage
+What does the <form> tag do? | Creates a form for user input on a web page
+What does the <input> tag do? | Creates interactive controls within a form — the type attribute sets the control type (e.g. "text" for textbox, "submit" for submit button, "email" for email input)
+What does the <p> tag do? | Defines a paragraph of text, separated with line spacing above and below
+How do you create an unordered list in HTML? | Use the <ul> tag with <li> tags nested inside for each list item — renders as bullet points
+How do you create an ordered list in HTML? | Use the <ol> tag with <li> tags nested inside for each list item — renders as numbered items
+How does <ol> differ from <ul> in HTML? | <ol> creates an ordered (numbered) list, while <ul> creates an unordered (bullet point) list. Both use <li> tags for individual items
+What does the <script> tag do? | Embeds or references JavaScript code within an HTML document, e.g. <script src="script.js"></script>
+What is a class in HTML/CSS? | An attribute that can be applied to multiple HTML elements to apply the same styling across a webpage
+What is an ID (identifier) in HTML/CSS? | A unique attribute for a single HTML element — only one element on a page can have a particular ID
+How does a class differ from an ID in HTML? | A class can be applied to many HTML elements on a page, while an ID specifies a unique element — only one element can have that ID
+How are classes referenced in CSS? | Using a full stop (.) followed by the class name, e.g. .subject { }
+How are IDs referenced in CSS? | Using a hash (#) followed by the ID name, e.g. #header { }
+What is CSS? | Cascading Style Sheets — a language that defines the style or appearance of a webpage
+Cascading Style Sheets, used to define the style and appearance of web page elements — what is this? | CSS
+What are the two ways CSS can be applied? | Internally/embedded (within the HTML using style tags) or externally (in a separate .css file linked to the HTML)
+When both inline CSS and external CSS target the same element, which takes priority? | Inline CSS (within the HTML) overrides external CSS styling
+What CSS property sets the background colour of an element? | background-color (e.g. background-color: lightblue;)
+What CSS property sets the text/font colour? | color (spelt the American way — "colour" will not work)
+What CSS property sets the font type? | font-family (e.g. font-family: Arial;)
+What CSS property sets the text size? | font-size (e.g. font-size: 14px;)
+What CSS property sets the border colour? | border-color (e.g. border-color: black;)
+What CSS property sets the border line style? | border-style (e.g. border-style: solid;)
+What CSS property sets the border thickness? | border-width (e.g. border-width: 2px;)
+How can colours be specified in CSS? | By name (e.g. "orange") or by hex code (e.g. #FF0000 for red)
+In a CSS hex colour code like #FF0000, what do the three pairs of characters represent? | Red, green, and blue (RGB) values — each pair ranges from 00 to FF
+What is the hex code for red in CSS? | #FF0000
+What is the hex code for green in CSS? | #00FF00
+What is the hex code for blue in CSS? | #0000FF
+What is JavaScript? | A programming language that adds interactivity and dynamic functionality to webpages, primarily used for client-side scripting
+A scripting language that adds interactivity to websites and runs in the web browser — what is this? | JavaScript
+Why is JavaScript described as interpreted rather than compiled? | Web pages are interpreted by the browser each time they are loaded, independently of the processor architecture
+Name four purposes of JavaScript on webpages | Enabling interactive features (e.g. drop-down menus), dynamic content (e.g. infinite scrolling), form validation, and data manipulation (e.g. filtering/sorting)
+What are the five basic data types in JavaScript? | Integer (whole numbers), Real/Float (decimal numbers), Char (single character), String (sequence of characters), and Boolean (true/false)
+How do you declare a variable in JavaScript? | Using the let keyword, e.g. let score = 10;
+How do you declare a constant in JavaScript? | Using the const keyword, e.g. const PI = 3.14;
+How does a variable differ from a constant in JavaScript? | A variable (let) can be changed during program execution, while a constant (const) remains the same once assigned
+Why is using var to declare variables considered bad practice? | var creates global variables, which can lead to unintended side effects. let (introduced in 2015) provides block-scoped variables instead
+Name three ways to produce output in JavaScript | Changing HTML element content (innerHTML), writing directly to the document (document.write()), and displaying an alert box (alert())
+How do you change the content of an HTML element using JavaScript? | Use document.getElementById("id") to select the element, then set its innerHTML property, e.g. element.innerHTML = "Hello World";
+What does document.getElementById() do? | Retrieves the HTML element with the specified ID from the document's DOM
+What does the innerHTML property do? | Allows direct access to the HTML content within an element, enabling you to read or change that content
+What are the three programming constructs? | Sequence (executing code in order), selection (choosing code based on a condition), and iteration (repeating code)
+What is selection in programming? | Selecting lines of code to run depending on whether a condition evaluates to true or false
+What are the two types of selection statements in JavaScript? | If statements and switch case statements
+What does the == operator do in JavaScript? | Compares two values for equality with type coercion (e.g. 5 == "5" returns true)
+What does the === operator do in JavaScript? | Compares two values for equality in both value and type without type coercion (e.g. 5 === "5" returns false)
+How does == differ from === in JavaScript? | == performs type coercion before comparing (so 5 == "5" is true), while === checks both value and type without coercion (so 5 === "5" is false)
+What does the !== operator do in JavaScript? | Compares two values and returns true if they are not equal in either value or type, without type coercion
+Write the syntax for an if-else statement in JavaScript | if (condition) { // code if true } else { // code if false }
+Write the syntax for an if-else if-else statement in JavaScript | if (condition1) { // code } else if (condition2) { // code } else { // default code }
+What is a switch case statement used for? | Performing multiple comparisons based on the value of a single expression, as an alternative to multiple if-else if statements
+What does the break keyword do in a switch case? | Stops execution from falling through to the next case — without it, code continues executing subsequent cases until a break is encountered
+What is fall-through behaviour in switch case? | If a matching case has no break statement, execution continues to the next case block until a break is encountered, allowing multiple cases to share the same code
+What is a for loop in JavaScript? | A control flow statement that repeatedly executes a block of code for a specified number of iterations
+What are the three parts of a for loop in JavaScript? | Initialisation (sets counter), condition (checked before each iteration), and increment/decrement (updates counter after each iteration)
+Write a for loop that counts from 1 to 5 in JavaScript | for (let i = 1; i <= 5; i++) { console.log(i); }
+What does i++ mean in JavaScript? | Increment i by 1 — equivalent to i = i + 1 or i += 1
+What does the for...in loop do in JavaScript? | Iterates through the indices of items in a data structure like an array
+What is a while loop in JavaScript? | A control flow statement that repeatedly executes a block of code as long as a specified condition remains true
+How does a while loop differ from a for loop? | A while loop is used when the number of iterations is unknown in advance (condition-controlled), while a for loop runs for a specified number of iterations (count-controlled)
+What is a do...while loop in JavaScript? | A loop that executes the code block at least once before checking the condition, then continues while the condition is true
+How does a do...while loop differ from a while loop? | A do...while loop always executes the code block at least once before evaluating the condition, while a while loop checks the condition first and may never execute
+What is a string in JavaScript? | A sequence of characters enclosed in single quotes (') or double quotes (")
+How do you find the length of a string in JavaScript? | Use the .length property, e.g. "Hello".length returns 5
+What does the substring() method do in JavaScript? | Extracts a portion of a string — takes a starting index and an optional ending index (exclusive), e.g. "Hello".substring(0, 3) returns "Hel"
+What happens when you call substring() with only one parameter? | It extracts characters from the starting index to the end of the string, e.g. "Hello, world!".substring(7) returns "world!"
+What does the + operator do when used with strings in JavaScript? | Concatenates (joins) the strings together, e.g. "John" + " " + "Doe" returns "John Doe"
+What does the % (modulus) operator do in JavaScript? | Returns the remainder when one number is divided by another, e.g. 10 % 3 returns 1
+What does the ** (exponentiation) operator do in JavaScript? | Raises a number to the power of another, e.g. 3 ** 3 returns 27
+What does the -- (decrement) operator do? | Decreases the value of a numerical variable by one
+What is operator precedence in JavaScript? | The rules that determine the order in which operators are evaluated (following BIDMAS/BODMAS), which can be controlled using parentheses
+How does 2 + 3 * 4 differ from (2 + 3) * 4 in JavaScript? | 2 + 3 * 4 = 14 (multiplication first), while (2 + 3) * 4 = 20 (parentheses force addition first)
+What does the && (AND) operator do in JavaScript? | Returns true only if both operands are true, otherwise returns false
+What does the || (OR) operator do in JavaScript? | Returns true if at least one operand is true, and false only if both operands are false
+What does the ! (NOT) operator do in JavaScript? | Negates a Boolean value — returns true if the operand is false, and false if the operand is true
+What is nesting in programming? | Putting one block of code (such as an if statement or loop) within another block of code
+What are nested if statements used for? | Creating more complex decision-making logic by evaluating multiple conditions within other conditional blocks
+How do you calculate the total iterations of nested loops? | Multiply the number of outer loop iterations by the number of inner loop iterations, e.g. outer runs 3 times and inner runs 5 times = 15 total inner iterations
+What is a function in JavaScript? | A reusable block of code that performs a specific task, can take input parameters (arguments), and returns a value
+A reusable block of code that takes parameters and returns a value — what is this called in JavaScript? | A function
+How does a procedure differ from a function in JavaScript? | A procedure performs actions but does not return a value (no return statement), while a function returns a value using a return statement
+Write the syntax for defining a function in JavaScript | function functionName(parameter1, parameter2) { // code block; return value; }
+What keyword is used to send a value back from a function in JavaScript? | return
+What are four best practices when writing functions and procedures? | Use descriptive names indicating purpose, use clear parameter names, keep functions short and focused, and include explicit return values for functions

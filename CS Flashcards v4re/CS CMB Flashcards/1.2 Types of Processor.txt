@@ -1,0 +1,58 @@
+What does RISC stand for? | Reduced Instruction Set Computer
+A processor with a smaller instruction set containing simpler instructions — what type of processor is this? | RISC (Reduced Instruction Set Computer)
+What does CISC stand for? | Complex Instruction Set Computer
+A processor with a larger instruction set containing more complex instructions — what type of processor is this? | CISC (Complex Instruction Set Computer)
+What is an instruction set? | The set of instructions a processor can use to execute programs
+How many clock cycles does each RISC instruction take to execute? | One clock cycle
+Why can CISC instructions take more than one clock cycle to execute? | Because CISC instructions are more complex and may carry out multiple low-level operations within a single instruction
+Why is RISC more suited to pipelining than CISC? | Each RISC instruction takes exactly one clock cycle, so stages of different instructions can overlap predictably in the pipeline without stalling
+What is the aim of the CISC design approach? | To accomplish tasks in as few lines of assembly code as possible by using complex, multi-operation instructions
+Why do RISC compilers generate more instructions than CISC compilers? | RISC instructions are simpler, so the compiler must break down high-level operations into a larger number of simple machine code instructions
+Why do CISC compilers have less work to do when translating high-level code? | Because CISC has complex instructions that map more directly to high-level operations, requiring fewer lines of assembly code
+How does RISC compare to CISC in terms of memory usage for programs? | RISC programs take up more space in memory because more instructions are needed; CISC programs take up less space because fewer, more complex instructions are used
+How does RISC compare to CISC in terms of transistor count? | RISC has fewer transistors; CISC has more transistors
+How does RISC compare to CISC in terms of general purpose registers? | RISC has fewer general purpose registers; CISC has more general purpose registers
+How does RISC compare to CISC in terms of addressing modes? | RISC has fewer addressing modes; CISC has more addressing modes
+How does RISC compare to CISC in terms of power consumption? | RISC requires less power; CISC requires more power
+How does RISC compare to CISC in terms of manufacturing cost? | RISC costs less to manufacture; CISC costs more to manufacture
+What type of devices typically use RISC processors? | Smartphones and tablets
+What type of devices typically use CISC processors? | Laptops and desktop computers
+Can a program written for a RISC processor run on a CISC processor? | No, a RISC program will not work on a CISC processor and vice versa
+Can a program written for one RISC processor always run on another RISC processor? | No, different RISC processors may have different instruction sets, so the program may not be compatible
+In the RISC example of multiplying X and Y, why are four instructions needed (LDA, LDA, MULT, STO) compared to one CISC instruction (MULT A, B)? | RISC uses simple single-operation instructions, so each step (load, load, multiply, store) must be a separate instruction. CISC combines the memory access and arithmetic into one complex instruction
+What is a GPU? | A Graphics Processing Unit — a processor designed specifically for processing graphics, with many smaller cores that work in parallel
+A co-processor with many independent cores designed to process graphics and perform parallel computations — what is this? | A GPU (Graphics Processing Unit)
+What is the primary purpose of a GPU in a computer? | To process graphics, reducing the load on the CPU
+How do CPUs and GPUs differ in terms of design purpose? | CPUs are general purpose processors; GPUs are designed specifically for graphics and parallel processing
+What does SIMD stand for? | Single Instruction Multiple Data
+A processing approach where the same operation is performed on multiple data points simultaneously — what is this called? | SIMD (Single Instruction Multiple Data) processing
+Why can GPUs perform graphics transformations faster than CPUs? | GPUs can apply the same instruction to multiple pieces of data at once (SIMD), which is ideal for operations like transforming polygon vertices or shading pixels
+Where can a GPU be located in a computer system? | Either as part of a separate graphics card or embedded within the CPU
+Why do modern GPUs contain hundreds or thousands of smaller cores? | To allow them to perform many operations in parallel, which is essential for graphics processing and other parallelisable tasks
+How do GPU cores differ from CPU cores? | CPU cores are fewer in number but optimised for serial processing; GPU cores are smaller and more numerous, optimised for parallel processing
+Why is a GPU described as a type of co-processor? | Because it is a secondary processor designed to supplement the activities of the primary processor (CPU) — the CPU assigns tasks to the GPU
+Give three non-graphics uses of GPUs | Any three of: 3D modelling, data modelling, financial modelling, data mining, complex numerical calculations, numerical simulations, solving differential equations, machine learning, simultaneous calculations on multiple datasets
+Why are GPUs suited to machine learning? | Machine learning involves training on massive datasets with many matrix multiplications and computations that can be performed in parallel across the GPU's many cores
+What is data mining? | The process of analysing large amounts of data to find patterns, using tasks such as sorting, searching, pattern recognition, statistical analysis, and graph algorithms
+Why are GPUs suited to financial modelling? | Financial modelling (e.g. risk modelling, option pricing) involves running many simulations, which can be executed in parallel on a GPU
+Why are GPUs more energy efficient than CPUs for parallel tasks? | GPUs can perform more calculations per unit of power consumed compared to CPUs when running parallel workloads
+Name three types of GPU specialist instructions used in graphics rendering | Operations on matrices, vectors, and geometric transformations
+Why have GPUs become useful for tasks beyond graphics processing? | GPU specialist instruction capabilities have been expanded and generalised over time, making them suitable for a wide range of complex parallel calculations
+Why are GPUs suited to SIMD processing? | GPUs were originally designed to perform the same operation on multiple pixels or vertices simultaneously, which naturally maps to the SIMD processing model
+What is parallel processing? | When a computer uses multiple cores (or processors) to work on tasks simultaneously, either dividing one task across cores or running separate tasks at the same time
+What is a multicore system? | A system with more than one processing unit in a single processor, where each core can independently process instructions at the same time
+How can parallel processing be achieved in two different ways? | Either by using multiple cores within a single processor (multicore), or by using more than one processor (e.g. a CPU and a GPU working together)
+How do parallel systems differ from multicore systems? | Parallel systems can complete tasks using a single core by using threading, whereas multicore systems use multiple independent cores. Generally, multicore systems perform better for larger projects
+What is threading in the context of parallel processing? | A technique that allows a single core to handle multiple execution threads, achieving a form of parallel processing without requiring multiple physical cores
+Give one benefit of parallel processing related to speed | If a task can be divided into subtasks that execute simultaneously, the total execution time can be reduced
+Explain why there is a limit on the speed improvement from parallel processing | Even with infinite processors, if part of a program cannot be parallelised and must run serially, that serial portion limits the maximum possible speedup (related to Amdahl's Law)
+Why is it harder to write code for parallel processing than serial processing? | Tasks must be synchronised correctly and data must be shared between cores/threads without conflicts, adding significant programming complexity
+Why is debugging parallel programs more difficult than debugging serial programs? | Because bugs may depend on the precise timing of specific events across multiple cores/threads, making them non-deterministic and hard to reproduce
+What is a limitation of parallel processing related to communication? | Communication between processors can take significant time and resources, potentially outweighing the performance benefits of parallelisation
+How does a multicore processor benefit multitasking? | Each core can work on a different task, so multiple applications can run simultaneously without competing for the same core
+How does a multicore processor handle background tasks more effectively than a single-core processor? | A background task (e.g. anti-malware scan) can be assigned to one core, reducing its impact on the user's foreground task running on another core
+How does a multicore processor improve system responsiveness? | If one program becomes unresponsive, other cores continue running their tasks, so the entire system does not slow down
+How does parallel processing benefit improved performance in fields like machine learning? | Simultaneous computation can take place on different data subsets, allowing tasks like training models, data mining, and scientific computing to complete faster
+Why are real-time applications better suited to parallel processing? | Tasks like graphics rendering require many calculations to complete within strict time deadlines, which is more feasible when computations run in parallel across multiple cores
+Name one limitation of parallel processing related to task suitability | Not all tasks can be parallelised — some must be executed serially, limiting the applicability of parallel processing
+How does RISC vs CISC relate to the GPU discussion? | GPUs use a SIMD approach with many simple cores performing the same operation in parallel, which aligns more with the RISC philosophy of simpler, uniform instructions executed efficiently

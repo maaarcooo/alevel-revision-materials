@@ -1,0 +1,59 @@
+What is the A* algorithm? | A generalisation of Dijkstra's algorithm that approximately finds the shortest path between two nodes by combining the distance already travelled from the source (cost function) with an estimate of the remaining distance to the destination (heuristic function)
+A pathfinding algorithm that extends Dijkstra's by combining actual distance travelled (cost) with an estimated distance to the destination (heuristic) to approximately find the shortest path — what is this? | A* algorithm
+What two functions does the A* algorithm use to guide its search? | The cost function (distance from source to current node) and the heuristic function (estimated distance from next node to destination)
+What is Big O notation? | A method of classifying algorithms by their complexity, expressing an upper bound on the worst-case time or space requirement as a mathematical function of input size
+A classification system that sets an upper bound on the worst-case time or space complexity of an algorithm as a function of input size — what is this called? | Big O notation
+Does Big O notation describe the best case, average case, or worst case? | The worst case
+What is a binary search? | An algorithm that searches a sorted list by repeatedly halving the sublist that could contain the target item
+An O(log n) search that works by repeatedly dividing a sorted list in half to locate an item — what algorithm is this? | Binary search
+What is the time complexity of binary search? | O(log n)
+What precondition must the data satisfy before binary search can be used? | The list must be sorted
+What is breadth-first traversal? | A graph traversal method that uses a queue to visit all neighbours of the current node before moving on to their neighbours, continuing until the entire graph is explored
+A graph traversal that uses a queue and visits all neighbours of each node before progressing deeper — what is this called? | Breadth-first traversal
+What data structure does breadth-first traversal use? | A queue
+What is bubble sort? | A sorting algorithm that iterates through a list, comparing each element to its neighbour and swapping them if they are in the wrong order, repeating until no swaps are made
+An O(n²) sort that repeatedly compares adjacent elements and swaps them if out of order, stopping when a full pass requires no swaps — what algorithm is this? | Bubble sort
+What is the time complexity of bubble sort? | O(n²)
+How does bubble sort know that the list is fully sorted? | When a complete pass through the list produces no swaps
+What is depth-first traversal? | A graph traversal method that uses a stack to follow one route as far as possible, then backtracks to explore remaining routes until the entire graph is visited
+A graph traversal that uses a stack to go as deep as possible along one path before backtracking — what is this called? | Depth-first traversal
+What data structure does depth-first traversal use? | A stack
+How does breadth-first traversal differ from depth-first traversal? | Breadth-first uses a queue and explores all neighbours at the current level before going deeper. Depth-first uses a stack and follows one path as far as possible before backtracking to explore other paths
+What is Dijkstra's shortest path algorithm? | An algorithm that finds the shortest path between two nodes in a graph by using a priority queue to track the shortest known distance (cost) from the starting node to every other node, until the destination is reached
+An algorithm that uses a priority queue to repeatedly select the unvisited node with the smallest cumulative distance from the source, building up shortest paths until the destination is found — what is this? | Dijkstra's shortest path algorithm
+What data structure does Dijkstra's algorithm use? | A priority queue
+How does A* differ from Dijkstra's algorithm? | A* adds a heuristic function that estimates the remaining distance to the destination, allowing it to prioritise more promising paths. Dijkstra's considers only the actual distance from the source with no heuristic
+What is insertion sort? | A sorting algorithm that maintains a sorted and an unsorted section, taking each element from the unsorted section and placing it in the correct position within the sorted section, one at a time
+An O(n²) sort that builds a sorted section by inserting one unsorted element at a time into its correct position — what algorithm is this? | Insertion sort
+What is the time complexity of insertion sort? | O(n²)
+What is a linear search? | An algorithm that searches a list by checking each element in order until the target item is found or the end of the list is reached
+An O(n) search that examines every element sequentially until the item is found or the list is exhausted — what algorithm is this? | Linear search
+What is the time complexity of linear search? | O(n)
+How does linear search differ from binary search? | Linear search checks elements one by one and works on unsorted lists with O(n) complexity. Binary search halves the search space each step but requires a sorted list and has O(log n) complexity
+What is merge sort? | A divide-and-conquer sorting algorithm that recursively splits a list into sublists of length 1, then merges them back together in sorted order until the full sorted list is obtained
+An O(n log n) sort that recursively halves a list into single-element sublists, then merges them back in order — what algorithm is this? | Merge sort
+What is the time complexity of merge sort? | O(n log n)
+What does O(1) mean? | The algorithm takes a constant amount of time or memory regardless of input size
+An algorithm whose execution time or memory usage does not change as input size grows has what Big O complexity? | O(1) — constant time/space
+What does O(n) mean? | The algorithm's execution time or memory usage is directly proportional to the input size
+An algorithm whose resource usage grows in direct proportion to input size has what Big O complexity? | O(n) — linear time/space
+What does O(log n) mean? | The algorithm's execution time or memory usage grows logarithmically with input size
+An algorithm whose resource usage grows logarithmically (slower than linearly) as input increases has what Big O complexity? | O(log n) — logarithmic time/space
+What does O(n^k) mean? | The algorithm's execution time or memory usage is proportional to the input size raised to a constant power k (e.g. O(n²), O(n³))
+An algorithm whose resource usage is proportional to the input size raised to some constant power has what Big O complexity? | O(n^k) — polynomial time/space
+What does O(2^n) mean? | The algorithm's execution time or memory usage grows exponentially with input size, which is worse than any polynomial complexity
+An algorithm whose resource usage doubles (or grows by a constant factor) with each additional input element has what Big O complexity? | O(2^n) — exponential time/space
+Place these complexities in order from most efficient to least efficient: O(n²), O(1), O(n log n), O(2^n), O(log n), O(n) | O(1), O(log n), O(n), O(n log n), O(n²), O(2^n)
+What is quick sort? | A sorting algorithm that selects a pivot element, partitions the list so elements greater than the pivot go into one sublist and the rest into another, and recursively repeats until all sublists have length 1
+An O(n log n) sort that partitions a list around a chosen pivot element, placing larger elements in one sublist and smaller in another — what algorithm is this? | Quick sort
+What is the time complexity of quick sort? | O(n log n)
+How does quick sort differ from merge sort? | Quick sort splits the list by choosing a pivot and partitioning elements around it (the sorting work happens during splitting). Merge sort splits the list in half regardless of values, and the sorting work happens during the merging step
+What is space complexity? | A measure of how much memory an algorithm requires to solve a problem of a given input size
+A measure of the memory an algorithm needs as a function of input size — what is this called? | Space complexity
+What is time complexity? | A measure of how much time an algorithm requires to solve a problem of a given input size
+A measure of the execution time an algorithm needs as a function of input size — what is this called? | Time complexity
+How does time complexity differ from space complexity? | Time complexity measures the execution time an algorithm needs for a given input size, while space complexity measures the memory it requires. An algorithm can be fast but memory-intensive, or slow but memory-efficient
+How does bubble sort differ from insertion sort? | Bubble sort repeatedly compares and swaps adjacent elements across full passes until no swaps occur. Insertion sort maintains a growing sorted section and inserts each new element into its correct position within that section
+Which searching algorithm can be used on an unsorted list: linear search or binary search? | Linear search (binary search requires the list to be sorted)
+Which sorting algorithms have O(n²) time complexity? | Bubble sort and insertion sort
+Which sorting algorithms have O(n log n) time complexity? | Merge sort and quick sort

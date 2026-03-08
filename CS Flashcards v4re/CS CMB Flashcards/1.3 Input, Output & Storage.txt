@@ -1,0 +1,82 @@
+What is an input device? | A hardware component that allows users to put data and information into a computer system
+A hardware component used to put data and information into a computer — what is this called? | An input device
+What is an output device? | A hardware component that receives information from a computer and presents it to the user in a comprehensible form
+A hardware component that presents processed data from a computer to the user — what is this called? | An output device
+Give an example of a device that acts as both an input and output device | A touchscreen — it outputs visual information like a monitor while also accepting touch input
+Why is a touchscreen classified as both an input and output device? | It outputs visual information (like a monitor) and simultaneously accepts touch input from the user
+What is a keyboard used for? | Entering text and commands into a computer by pressing keys
+What is a barcode reader used for? | Scanning barcodes to read information, typically used in retail checkouts and inventory management
+What is a magnetic stripe reader used for? | Reading data from magnetic stripes on cards like credit and debit cards
+What is a graphics tablet used for? | Allowing artists and designers to draw or sketch directly onto a computer, useful for graphic design and 3D modelling
+What are biometric devices used for? | Verifying a user's identity for security purposes, using methods such as fingerprint scanning or facial recognition
+What is a scanner used for? | Digitising physical documents or images, converting them into a format the computer can process
+What does a projector do? | Projects the computer's display onto a large screen or wall, useful for presentations
+What is a plotter used for? | Printing large, high-quality diagrams and designs, often used in engineering or architecture
+What does a Braille display do? | Outputs information in Braille, allowing visually impaired users to read text from the computer
+What two important factors should be considered regarding the speed and detail of an input device? | Speed of input (data transfer rate) and accuracy of input (level of detail recorded)
+Name the four key factors to consider when choosing an input or output device for a specific situation | User needs, user skills, environment, and cost
+Why might a wired mouse be preferred over a wireless mouse in a public computer lab? | To prevent theft, since a wired mouse is physically tethered to the computer
+What are storage devices? | Hardware components that retain digital data within a computer system, providing a means of storing, accessing, and retrieving data
+What are the three main types of secondary storage? | Magnetic, optical, and flash
+A type of storage that uses magnetised particles on a disk or tape to store data — what is this? | Magnetic storage
+A type of storage that uses a laser to burn pits into the surface of a disc — what is this? | Optical storage
+A type of storage that stores data in flash memory cells using silicon semiconductors — what is this? | Flash storage
+How do optical storage devices represent binary data? | Using a laser to read portions of a disc's surface — recessed areas called pits scatter light (representing 0) and flat areas called lands reflect light (representing 1)
+On a CD surface, what are pits and lands? | Pits are recessed portions that scatter laser light (representing 0), and lands are flat portions that reflect laser light (representing 1)
+How do magnetic storage devices represent binary data? | Using two magnetic states: polarised (magnetic poles aligned, representing one binary value) and unpolarised (poles randomly scattered, representing the other)
+How does flash storage represent binary data? | Using silicon semiconductor logic gates (NAND and NOR) that store electrical charge in one of two states (high or low), representing binary True and False
+In flash storage, which logic gate type is preferred for storing small quantities of data such as executable code? | NOR
+In flash storage, which logic gate type is preferred for storing larger files like photos and videos? | NAND
+In flash storage, data is organised into [...] which are combined to form [...] | blocks; pages
+What does HDD stand for? | Hard Disk Drive
+How does a hard disk drive work? | Rotating magnetic platters spin at high speeds under a read/write head on an actuating arm, allowing the head to access any part of the platter
+What is the typical storage capacity of a consumer-grade HDD? | 500 GB to 5 TB
+Name two disadvantages of hard disk drives | Slow data transfer speeds compared to flash storage, and susceptibility to physical damage due to moving parts (brittle platters)
+How do HDDs maximise their storage capacity? | By stacking multiple magnetic platters on top of each other
+What does SSD stand for? | Solid State Drive
+What is the typical storage capacity of a consumer-grade SSD? | 120 GB to 4 TB
+Name two advantages of SSDs over HDDs | Faster data transfer speeds and greater resistance to physical damage (no moving parts)
+What is the primary disadvantage of SSDs? | Higher cost per gigabyte compared to HDDs and other storage types
+Explain why SSDs have a limited lifespan | Every time a page in flash memory is written to, the voltage required for the next write increases. Eventually, the required voltage becomes too high for the page to be written to
+Why are SSDs more resistant to physical damage than HDDs? | SSDs have no moving parts, so they are not susceptible to damage from shocks or falls unlike HDDs which contain brittle spinning platters and a moving actuating arm
+What is the typical storage capacity of a USB flash drive? | 8 GB to 256 GB (common sizes)
+What is the main advantage of USB flash drives regarding portability? | They are very small and lightweight, making them highly portable for transferring data between computers
+What is the storage capacity of a CD? | 700 MB
+What does CD stand for? | Compact Disc
+What does DVD stand for? | Digital Versatile Disc (or Digital Video Disc)
+What is the storage capacity of a DVD? | 4.7 GB to 9 GB
+What is the storage capacity of a Blu-ray disc? | 25 GB to 50 GB
+How does a Blu-ray disc compare to a DVD in terms of storage? | A Blu-ray disc has more than five times the storage capacity of a traditional DVD
+Name two disadvantages of optical storage devices | Low durability (easily scratched or damaged), and relatively slow read/write speeds
+What are the three varieties of CD and how do they differ? | CD-R (write once only), CD-RW (can be written to multiple times), and CD-ROM (written during production, then read-only)
+How does magnetic storage compare to flash storage in terms of cost per gigabyte? | Magnetic storage has a lower cost per gigabyte than flash storage
+How does flash memory differ from RAM, despite both being semiconductor-based? | Flash memory is non-volatile (retains data when power is lost), while RAM is volatile (loses data when power is lost)
+Name the four key factors to consider when choosing a storage device | Storage needs (capacity), performance needs (speed), portability, and cost
+What is virtual storage (in the context of A-level Computer Science)? | A model of data storage where digital data is stored remotely across multiple servers and locations, typically hosted by third parties, and accessed over the Internet (also known as cloud storage)
+Data stored remotely on third-party servers and accessed over the Internet — what is this called? | Virtual storage (or cloud storage)
+Give two examples of virtual storage services | Google Drive and Microsoft OneDrive
+Why is there a growing need for virtual storage? | The amount of data generated is growing exponentially, and storing it all on local devices is impractical due to limited storage capacity and risk of data loss
+How does virtual storage physically work behind the scenes? | Data is transmitted over the Internet to a data centre, where it is stored on hundreds of hard drives or SSDs formatted to act as a single piece of storage (an abstraction of multiple drives)
+Name two benefits of virtual storage | Scalability (easy to increase capacity) and accessibility (data available from anywhere with an Internet connection)
+Name two drawbacks of virtual storage | Dependence on Internet connection (slow or no access with poor connectivity) and security concerns (sensitive data stored off-site on third-party servers)
+How does virtual storage provide data protection? | Through data redundancy — data is replicated across multiple servers, protecting against loss from hardware failure
+How does the cost model of virtual storage work? | Pay only for the storage used (ongoing subscription), which is often more affordable than maintaining your own storage infrastructure, but costs accumulate over time
+How does virtual storage differ from virtual memory? | Virtual storage stores data remotely on cloud servers. Virtual memory uses secondary storage (e.g. hard drive) as an extension of RAM when RAM is full
+What is RAM? | Random Access Memory — a type of fast, volatile primary storage used to store data and programs the computer is currently using
+Random Access Memory — a fast, volatile primary storage that holds data and programs currently in use — what is this? | RAM
+What is ROM? | Read-Only Memory — a type of non-volatile primary storage that stores fixed data such as the BIOS/bootstrap routine, which cannot be modified after programming
+Non-volatile primary storage that holds fixed instructions like the BIOS and cannot be modified — what is this? | ROM
+What does RAM store? | Data and programs that the computer is currently using, such as open applications and files
+What does ROM store? | The BIOS (Basic Input/Output System) or firmware used to start up the computer and initialise hardware components
+Is RAM volatile or non-volatile? | Volatile — it loses its contents when the computer is turned off or power is lost
+Is ROM volatile or non-volatile? | Non-volatile — it retains its contents even when the computer is turned off
+Why is RAM described as "random access"? | Because the processor can access any part of RAM equally fast, regardless of the data's location in memory
+Why is RAM important for system performance? | The more RAM a system has, the more data it can process simultaneously, leading to faster performance
+Why is RAM not used for permanent file storage? | Because it is volatile — all data is lost when power is removed, so it only serves as temporary storage while the computer is running
+Why is ROM useful for storing the bootstrap routine? | Because ROM is non-volatile (retains data without power) and read-only (prevents accidental modification), ensuring the startup instructions are always available and intact
+What is the bootstrap routine? | A fixed sequence of instructions stored in ROM that starts up the computer and loads the operating system
+Why do computers typically have much less RAM than secondary storage (e.g. 8 GB RAM vs 1 TB HDD)? | RAM is significantly more expensive per gigabyte than secondary storage
+How does RAM differ from ROM in terms of read/write capability? | RAM can be both read from and written to by the processor. ROM can only be read from and cannot be modified
+How do RAM and ROM differ from secondary storage in their role? | RAM and ROM are primary storage used by the operating system to run the computer (storing instructions and currently needed files). Secondary storage holds user data like images and documents long-term
+What is the key difference between flash memory and magnetic storage in terms of moving parts? | Flash storage has no moving parts (data stored electronically in semiconductor cells). Magnetic storage typically has moving parts (spinning platters and actuating arms in HDDs)
+How does optical storage compare to magnetic storage in terms of portability and capacity? | Optical discs are highly portable (thin and lightweight) but have lower storage capacity. Magnetic drives (HDDs) have high capacity but are less portable, especially internal drives

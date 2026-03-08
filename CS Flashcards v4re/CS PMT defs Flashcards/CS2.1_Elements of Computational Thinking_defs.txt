@@ -1,0 +1,41 @@
+What is abstraction? | Simplifying a problem by only considering the necessary details required to obtain a solution, removing all unnecessary information
+Simplifying a problem by removing unnecessary details and keeping only what is needed to solve it — what concept is this? | Abstraction
+What is the purpose of abstraction? | To reduce complexity by focusing only on the relevant details needed to solve a problem, producing a simplified representation
+What is data abstraction? | The storage and representation of data in a computer system along with its logical description and how it interacts with operators (e.g. stacks, queues, integers)
+The representation of data in a computer system along with its logical description and interaction with operators — what term describes this? | Data abstraction
+Give three examples of data abstraction | Stacks, queues, integers
+How does data abstraction differ from general abstraction? | General abstraction simplifies any problem by removing unnecessary detail. Data abstraction specifically concerns how data is stored, represented, and interacted with through operators in a computer system
+What is graph theory? | A branch of mathematics used to abstractly represent problems using a collection of nodes connected by edges
+A branch of mathematics that represents problems using nodes connected by edges — what is this called? | Graph theory
+What two components make up a graph in graph theory? | Nodes and edges
+Why is graph theory useful in computational thinking? | It provides an abstract way to model and represent problems involving relationships or connections, without unnecessary real-world detail
+What is caching? | The temporary storage of data by the system in cache or memory so it can be retrieved faster if needed again in the future
+Temporarily storing data so it can be retrieved more quickly if needed again — what is this called? | Caching
+What is the main benefit of caching? | Faster retrieval of data that may be needed again, reducing the time required to access frequently used information
+What are inputs in the context of computational thinking? | Any information relevant to the problem that is required by the system for processing according to an algorithm
+What are outputs in the context of computational thinking? | The result returned by a system for a given input after running the entire process or part of a process
+The result returned by a system after processing a given input — what term describes this? | Output
+How do inputs and outputs relate to each other? | Inputs are the data fed into a system for processing by an algorithm, and outputs are the results the system returns after that processing
+What are preconditions? | Prerequisites or states of a system and its surroundings that must be met before a use case can run and return a valid solution
+A required state of a system that must be satisfied before a process can execute correctly — what term describes this? | Precondition
+Why are preconditions important in thinking ahead? | They ensure the system is in a valid state before execution begins, preventing errors or invalid results from running a process under incorrect conditions
+What are reusable program components? | Components that have already been written, debugged, and tested, which can be transplanted into new systems to save development time
+Pre-written, debugged, and tested components that can be used in new systems to reduce development time — what are these called? | Reusable program components
+What is the main advantage of using reusable program components? | They save development time because they have already been written, debugged, and tested, so they do not need to be created from scratch
+What is procedural abstraction? | Achieving a task by relying on a procedure of sequential steps
+Achieving a task by following a defined sequence of steps — what concept is this? | Procedural abstraction
+How does procedural abstraction differ from general abstraction? | General abstraction removes unnecessary detail from a problem. Procedural abstraction specifically focuses on breaking a task into a sequence of ordered steps to achieve it
+What are the components of a problem? | The smaller, simpler series of tasks and sub-procedures that a problem can be broken down into, to be completed modularly
+Breaking a problem into smaller, simpler tasks and sub-procedures that can be solved modularly — what does this describe? | The components of a problem
+Why is decomposing a problem into components useful? | It makes complex problems more manageable by breaking them into smaller, simpler sub-tasks that can be solved independently and modularly
+What is a flowchart? | A diagrammatic representation of the flow of a program that shows all points where decisions need to be taken to obtain a solution
+A diagram showing program flow including all decision points — what is this called? | A flowchart
+What are logical conditions? | Conditions that may depend on one or more variables, used to determine the next step whenever a system has to make a decision
+Conditions depending on one or more variables that determine the next step when a system makes a decision — what term describes these? | Logical conditions
+Logical conditions are typically implemented using which three control structures? | Sequences, selections, and iterations
+What is concurrent processing? | Processing where the system appears to perform multiple tasks simultaneously
+Processing where a system appears to carry out multiple tasks at the same time — what is this called? | Concurrent processing
+In concurrent processing, are tasks truly executed at the same instant? | Not necessarily — the system appears to perform tasks simultaneously, but they may be interleaved on a single processor rather than truly parallel
+How does thinking abstractly differ from thinking procedurally? | Thinking abstractly focuses on removing unnecessary detail to simplify a problem. Thinking procedurally focuses on breaking a task into an ordered sequence of steps to solve it
+How does thinking logically differ from thinking procedurally? | Thinking logically focuses on identifying decision points and the conditions that determine which path to follow. Thinking procedurally focuses on defining the ordered sequence of steps needed to complete a task
+How does caching relate to the concept of thinking ahead? | Caching anticipates that data may be needed again in the future, so it stores it temporarily for faster access — this is forward planning to improve future system performance

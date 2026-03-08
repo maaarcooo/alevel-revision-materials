@@ -1,0 +1,65 @@
+What is a class in OOP? | A blueprint or template used to create objects, defining their attributes and methods
+A blueprint or template that defines the attributes and methods used to create objects — what OOP concept is this? | A class
+What is an object in OOP? | A specific instance of a class that has its own state and behaviours
+A specific instance of a class with its own unique values for properties — what is this called? | An object
+What is instantiation? | The process of creating an object from a class
+The process of creating an object from a class — what term describes this? | Instantiation
+What is a method in OOP? | A function or procedure that belongs to a class, defining actions or behaviours that objects can perform
+A function or procedure associated with a class that defines the actions objects can perform — what OOP concept is this? | A method
+What is an attribute in OOP? | A data member or property associated with an object or class that defines its state
+A data member or property that defines the state of an object — what OOP term is this? | An attribute
+What is inheritance in OOP? | A mechanism that allows a derived class to inherit the methods and attributes of a base class
+A mechanism where a child class takes on the methods and attributes of a parent class — what OOP concept is this? | Inheritance
+What is encapsulation in OOP? | The practice of grouping data (attributes) and methods within a class, and controlling access to them using access modifiers
+The practice of bundling data and methods within a class and restricting access through access modifiers — what OOP concept is this? | Encapsulation
+What is polymorphism in OOP? | A concept that allows objects of different classes to share the same method name but execute different code
+A concept where different objects share the same method name but behave differently — what OOP term describes this? | Polymorphism
+What is a constructor in OOP? | A special method within a class that is automatically called when an object of that class is instantiated
+A special method that is automatically called when an object is created, setting initial values — what is this called? | A constructor
+What do constructors typically do? | Define the initial values of instance variables and perform any necessary setup to prepare the object for use
+What is the difference between a function and a procedure in OOP? | A function performs a task and must return a value; a procedure performs a task but does not return a value
+What is an identifier in OOP? | The name used to refer to an object
+The name used to refer to an object — what is this called? | An identifier
+What are class variables? | Attributes defined within a class that act as a template for the data each object will hold
+What are instance variables? | Attributes that belong to a specific object created from a class, holding that object's unique values
+How do class variables differ from instance variables? | Class variables are defined in the class template and shared across all instances; instance variables hold unique values specific to each individual object
+What are prebuilt classes? | Classes already included in a programming language that provide common functionality (e.g., String, Random, Date in Java)
+What are custom classes? | Classes created by the programmer to define new data types not already provided by the language
+How do you call a method on an object? | Using dot notation: objectName.methodName() (e.g., jumboJet.Takeoff())
+What is a public method? | A method that is accessible and can be invoked by any code within the same class or from external classes
+What is a private method? | A method that is only accessible within the same class and cannot be invoked by external code or other classes
+How do public methods differ from private methods? | Public methods can be called from any class (internal or external); private methods can only be called from within the class where they are defined
+Why should changes to public methods be made carefully? | Because public methods can be accessed from other parts of the codebase, so changes may have a widespread impact and should be backward compatible
+Why are private methods useful for code maintenance? | Changes to private methods have only a localized impact within the class, providing flexibility to modify or refactor without affecting other parts of the program
+If a method does not specify public or private, what is its default access? | Public
+What is an instance method? | A method associated with a specific object (instance) of a class that operates on that object's data and properties
+What is a static method? | A method associated with the class itself that can be called without creating an instance of the class
+How do instance methods differ from static methods? | Instance methods operate on a specific object's data and require an object to be created; static methods belong to the class itself and can be called without creating an object
+What data types can attributes hold? | Various types including integers, strings, Booleans, or even other objects
+What are access modifiers in OOP? | Keywords (e.g., public, private) that control whether attributes and methods can be accessed from within or outside the class
+Can local variables declared within a method have access modifiers? | No, because they are local to the method with limited scope and are not part of the class's state
+What is the scope of a local variable? | It is only accessible within the block or method in which it is declared
+What relationship does inheritance establish between classes? | An "IS-A" relationship (e.g., a Car IS-A Vehicle)
+Inheritance establishes what type of relationship between a base class and a derived class? | An IS-A relationship
+What is a base class (in the context of inheritance)? | The parent class or superclass that serves as the blueprint from which derived classes inherit attributes and methods
+A parent class that defines common properties and behaviours shared among multiple child classes — what is this called? | A base class (also called superclass or parent class)
+What is a derived class (in the context of inheritance)? | A child class or subclass that inherits the attributes and methods of a base class, and can add its own additional attributes and methods
+A child class that inherits from a parent class and can add its own attributes and methods — what is this called? | A derived class (also called subclass or child class)
+How does inheritance promote code reuse? | Derived classes can inherit and utilise existing code from the base class, avoiding the need to duplicate code
+Can a derived class add new attributes and methods beyond those inherited? | Yes, a derived class can add additional attributes and methods on top of those inherited from the base class
+What is the super keyword used for in inheritance? | To refer to the superclass (base class) and access its methods, attributes, or constructors from within the subclass
+How does encapsulation protect data? | By making attributes private so they cannot be accessed directly from outside the class, and providing public methods to interact with them in a controlled way
+What is abstraction in the context of encapsulation? | Hiding the internal implementation details of a class from external code, reducing complexity and making it easier to use
+How does encapsulation relate to abstraction? | Encapsulation uses abstraction to hide implementation details — programmers can use methods and classes without understanding how they work internally
+How does encapsulation promote code reusability? | The same object or class can be used in different parts of a program without rewriting the code, because its internal details are hidden behind a public interface
+Give an example of encapsulation using a private attribute | A private attribute (e.g., distance) cannot be accessed directly from outside the class; instead, a public method (e.g., updateDistance()) is used to modify it
+What is method overriding in polymorphism? | When a derived class provides a new implementation for a method that is already defined in the base class, replacing the inherited behaviour
+The override keyword is used to provide a new implementation for a method already defined in the parent class — what concept does this demonstrate? | Method overriding (a form of polymorphism)
+How does method overriding work with inheritance? | A derived class redefines a method inherited from the base class; when the method is called on a derived class object, the overridden version executes instead of the base class version
+In polymorphism, what happens when a derived class object calls an overridden method? | The version of the method defined in the derived class executes, not the base class version
+How does polymorphism allow objects of different classes to be treated as a common group? | Objects of derived classes can be stored in variables or arrays of the base class type (e.g., Vehicle v = new Car()), and calling methods on them will still execute the derived class's overridden version
+What is the benefit of storing different derived class objects in a base class array? | It allows different object types (e.g., Car and Motorcycle) to be managed in a single data structure while each still executing its own overridden methods when called
+Why does polymorphism make code more maintainable? | It allows new derived classes to be added without modifying existing code that works with the base class type, making the program more flexible and adaptable
+How do encapsulation, inheritance, and polymorphism work together in OOP? | Encapsulation protects data within classes; inheritance allows classes to share common code; polymorphism allows different classes to respond differently to the same method call — together they enable modular, reusable, and flexible code
+How does overriding differ from overloading? | Overriding replaces an inherited method's implementation in a derived class; overloading defines multiple methods with the same name but different parameters within the same class
+What are getters and setters an example of in OOP? | Encapsulation — they are public methods that provide controlled access to private attributes

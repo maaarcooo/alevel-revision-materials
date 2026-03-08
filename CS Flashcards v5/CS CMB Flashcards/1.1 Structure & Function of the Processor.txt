@@ -1,0 +1,107 @@
+What is the role of the CPU? | To process all data and execute instructions within the computer
+What are the three main components of the CPU? | The Arithmetic and Logic Unit (ALU), the Control Unit (CU), and registers
+What is the ALU (Arithmetic and Logic Unit)? | The CPU component that performs arithmetic calculations (e.g. addition, subtraction) and logic operations (e.g. AND, OR, NOT, XOR)
+The CPU component that performs arithmetic calculations and logic comparisons — what is it called? | The Arithmetic and Logic Unit (ALU)
+What is the Control Unit (CU)? | The CPU component that decodes instructions, controls the flow of data within the CPU, and coordinates activities between components
+The component that decodes instructions and controls data flow within the CPU — what is it called? | The Control Unit (CU)
+Name five jobs of the Control Unit | Controlling and coordinating CPU activities, managing data flow between CPU and other devices, accepting the next instruction, decoding instructions, storing resulting data back in memory
+What are registers? | Small, high-speed temporary storage locations inside the CPU, each used for a single specific purpose
+Temporary storage locations inside the CPU that operate at very high speed — what are these called? | Registers
+Why are registers faster than RAM? | They are located inside the CPU, so data does not need to travel across buses to be accessed
+What does the Program Counter (PC) hold? | The address of the next instruction to be executed
+The register that holds the address of the next instruction to be executed — what is it called? | The Program Counter (PC)
+What does the Accumulator (ACC) store? | The results of calculations, or values that have been inputted or loaded
+The register that temporarily stores results from ALU calculations — what is it called? | The Accumulator (ACC)
+What does the Memory Address Register (MAR) hold? | The address of a memory location that is to be read from or written to
+The register that holds the address of a memory location being read from or written to — what is it called? | The Memory Address Register (MAR)
+What does the Memory Data Register (MDR) hold? | Data or instructions that have been fetched from memory, or data that is about to be sent to memory
+The register that temporarily holds data that has been read from or is about to be written to memory — what is it called? | The Memory Data Register (MDR)
+What does the Current Instruction Register (CIR) hold? | The current instruction being executed, split into opcode and operand
+The register where the fetched instruction is split into opcode and operand — what is it called? | The Current Instruction Register (CIR)
+What are the four components within the ALU? | Arithmetic circuit, logic circuit, registers, and status flags
+What does the arithmetic circuit in the ALU do? | Carries out addition, subtraction, multiplication, and division
+What does the logic circuit in the ALU do? | Carries out Boolean logic operations such as AND, OR, NOT, and XOR
+What are status flags in the ALU? | Indicators such as the overflow flag (value too large for the register) and zero flag (result is zero)
+What is a bus in the context of a CPU? | A set of parallel wires that connect two or more components, used to transfer data between them
+A set of parallel wires connecting components inside the CPU — what is this called? | A bus
+What are the three buses that connect the CPU to main memory (RAM), and what is their collective name? | Data bus, address bus, and control bus, collectively called the system bus
+What does the data bus do? | Carries data and instructions being sent to and from the CPU and RAM
+What does the address bus do? | Carries memory addresses specifying where data is to be sent to or retrieved from
+What does the control bus do? | Sends control signals to determine whether other buses are in read or write mode, and coordinates activities between components
+How does the data bus differ from the control bus? | The data bus carries data and instructions between components; the control bus carries control signals that coordinate operations and determine read/write mode
+Is the data bus unidirectional or bidirectional? | Bidirectional — bits can be carried in both directions
+What is bus width? | The number of parallel wires in a bus, which determines how many bits can be transferred simultaneously
+How does bus width affect data transfer? | The wider the bus, the more bits can be transferred simultaneously, increasing data throughput
+What are typical bus widths? | 8, 16, 32, or 64 wires
+How is the width of the address bus related to addressable memory? | The width of the address bus is directly proportional to the number of addressable memory locations
+Name four control signals carried by the control bus | Bus request, bus grant, memory write, memory read, interrupt request, clock (any four)
+What does the bus request control signal indicate? | That a device is requesting the use of the data bus
+What does the bus grant control signal indicate? | That the CPU has granted access to the data bus
+What does the interrupt request control signal indicate? | That a device is requesting access to the CPU
+What does the clock signal on the control bus do? | Synchronises operations within the CPU
+What is assembly language? | A low-level programming language that uses mnemonics to represent machine code instructions (e.g. ADD for addition)
+What is an opcode? | The part of a machine code instruction that specifies the type of operation to be performed
+What is an operand? | The part of a machine code instruction that contains the data or the address of the data to be operated on
+How does an instruction split in the CIR? | It is divided into the opcode (the operation) and the operand (the data or address)
+What is the fetch-decode-execute (FDE) cycle? | The continuous process the CPU goes through to fetch an instruction from memory, decode it, and execute it
+What are the three stages of the FDE cycle? | Fetch (retrieve instruction from memory), Decode (interpret the instruction), Execute (carry out the required action)
+In the fetch stage, what is the first step? | The address in the Program Counter (PC) is copied to the Memory Address Register (MAR)
+In the fetch stage, what happens after the MAR receives the address? | The address is sent across the address bus, and a read signal is sent via the control bus; the data at that memory location is sent down the data bus to the MDR
+What happens to the PC during the fetch stage? | It is incremented by 1 to point to the next instruction
+What happens during the decode stage of the FDE cycle? | The instruction is copied from the MDR to the CIR, where it is split into opcode and operand, then sent to the CU for decoding
+During an STA (store) instruction, which registers are involved? | The ACC (holds the value to store), the MDR (value is copied here from ACC), and the MAR (holds the destination memory address)
+During an LDA (load) instruction, where does the data travel? | From RAM at the address in the MAR, across the data bus, to the MDR, and then to the ACC
+During an ADD or SUB instruction, what happens? | Values are passed to the ALU, the arithmetic operation is carried out, and the result is stored in the ACC
+During a branch instruction (BRA/BRZ/BRP), where does the comparison take place? | In the ALU
+What happens to the PC when a branch instruction is executed? | The PC is updated with the address specified in the branch operand, instead of being incremented by 1
+What are the three main factors that affect CPU performance? | Clock speed, number of cores, and cache
+What is clock speed? | A measure of how many state changes (clock cycles) the CPU performs per second, measured in Hertz (Hz)
+The number of state changes a CPU performs per second — what is this a measure of? | Clock speed
+What is a state change in the CPU clock? | One transition from 0 to 1 (or 1 to 0); each change can represent a step in the fetch-decode-execute cycle
+A typical computer might have a clock speed of 2.3 GHz. How many cycles per second is this? | 2,300,000,000 (approximately 2 billion) cycles per second
+How does a higher clock speed improve CPU performance? | The CPU can execute more instructions per second, so tasks are completed more quickly
+What is a core in the context of a CPU? | An independent processing unit within the CPU, capable of running its own fetch-decode-execute cycle
+A processing unit within the CPU that can run its own FDE cycle independently — what is this called? | A core
+What is parallel processing? | Multiple cores carrying out different tasks simultaneously
+Why is a dual-core processor not exactly twice as fast as a single-core processor? | Some time is spent organising and coordinating tasks between the cores, and some tasks cannot be split between cores
+Why can some tasks not benefit from having more cores? | Some tasks are sequential and cannot be split between cores, so additional cores provide no speed improvement
+What is cache memory? | A small amount of high-speed memory inside or very close to the CPU that stores frequently used data and instructions
+High-speed memory close to the CPU that stores frequently used data and instructions — what is this called? | Cache memory
+Why is cache faster to access than RAM? | It is physically closer to the CPU and uses faster memory technology
+How does more cache improve CPU performance? | More frequently used data can be stored closer to the CPU, reducing the number of slower accesses to RAM
+What are the three levels of cache, from fastest to slowest? | Level 1 (L1), Level 2 (L2), Level 3 (L3)
+How does Level 1 cache differ from Level 3 cache? | L1 is the smallest and fastest, located within each core; L3 is the largest and slowest, typically on the motherboard
+What is the typical capacity range of Level 1 cache? | 2-64 KB
+What is the typical capacity range of Level 2 cache? | 256 KB - 2 MB
+Where is Level 1 cache located relative to the cores? | Each core has its own dedicated Level 1 cache
+Where is Level 2 cache located relative to the cores? | Shared between cores, slower and bigger than L1
+What is pipelining? | The process of carrying out multiple instructions concurrently, with each at a different stage of the FDE cycle
+The process where one instruction is fetched while the previous one is decoded and another is executed — what is this called? | Pipelining
+In pipelining, what stages can occur simultaneously? | Fetching one instruction, decoding the previous instruction, and executing the one before that
+How does pipelining improve processor performance? | It reduces latency by ensuring the CPU is not idle while waiting for the next instruction; all parts of the processor are utilised at any given time
+What happens to the pipeline when a branch instruction occurs? | The pipeline is flushed (cleared), as the pre-fetched instructions may no longer be valid
+What is instruction pipelining? | Separating the fetch, decode, and execute stages of an instruction so they can overlap with stages of other instructions
+What is arithmetic pipelining? | Breaking down arithmetic operations and overlapping them as they are performed
+What does computer architecture describe? | How a computer uses its components, instructions, buses, and memory to function
+What are the two main types of computer architecture? | Von Neumann architecture and Harvard architecture
+What is Von Neumann architecture? | An architecture using a single shared memory and a single set of buses for both data and instructions, with a single control unit
+A computer architecture that uses shared memory and a single bus for both data and instructions — what is it called? | Von Neumann architecture
+What is the stored program concept? | The idea that both program instructions and data are stored together in the same memory, which Von Neumann architecture is built upon
+What is Harvard architecture? | An architecture with physically separate memory and separate buses for instructions and data
+A computer architecture with separate memory stores and separate buses for data and instructions — what is it called? | Harvard architecture
+How does Von Neumann architecture differ from Harvard architecture in terms of memory? | Von Neumann uses a single shared memory for both data and instructions; Harvard uses separate memory stores for data and instructions
+How does Von Neumann architecture differ from Harvard architecture in terms of buses? | Von Neumann uses a single set of buses for both data and instructions; Harvard uses separate buses for each
+Why can Harvard architecture fetch data and instructions simultaneously? | Because it has separate memory stores and separate buses for data and instructions, so one does not interfere with the other
+What type of systems commonly use Harvard architecture? | Specialised embedded systems
+What type of systems commonly use Von Neumann architecture? | Most modern general-purpose computers and microcontrollers
+Name one advantage of Von Neumann architecture over Harvard | Cheaper to develop because the control unit is simpler to design; also programs can be optimised in size since data and instructions share memory
+Name one advantage of Harvard architecture over Von Neumann | Faster execution because data and instructions can be fetched in parallel; also memories can be different sizes for more efficient use of space
+Why is Harvard architecture useful when memories have different characteristics? | Instructions may be read-only while data may be read-write, and memory cell sizes and bus widths can be optimised independently for each type
+What is contemporary processor architecture? | A combination of Harvard and Von Neumann: Von Neumann is used for main memory (shared data and instructions), while Harvard architecture divides cache into separate instruction cache and data cache
+How do contemporary processors combine Von Neumann and Harvard architecture? | They use Von Neumann architecture for main memory (unified) but Harvard architecture at the cache level, with separate instruction and data caches
+What is hyperthreading (virtual cores)? | A technique where a single physical core can act as two virtual cores, allowing it to process two threads simultaneously
+What is out-of-order execution? | A technique where instructions can be executed before earlier ones if they are ready, rather than strictly in program order
+What is superscalar processing? | A technique where multiple instructions can be executed simultaneously within a single clock cycle
+What is a performance boosting mode? | A feature where the clock speed can be temporarily increased above its base frequency for a short-term performance boost
+How does the MAR interact with the address bus? | The MAR holds the memory address, which is then sent across the address bus to locate data in RAM
+How does the MDR interact with the data bus? | The MDR holds data that has arrived from or is about to be sent to RAM via the data bus

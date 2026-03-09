@@ -1,0 +1,162 @@
+What is a data type? | A classification of data into groups according to the kind of data they represent
+A classification of data into groups according to the kind of data they represent — what is this called? | A data type
+What data type is used to represent whole numbers (positive or negative)? | Integer
+Give examples of the integer data type | 10, -5, 0
+What data type is used to represent numbers with a fractional part? | Real (also called float or double)
+Give examples of the real data type | 3.14, -2.5, 0.0
+What data type represents a single character such as a letter, digit, or symbol? | Char
+A sequence of characters is represented by which data type? | String
+What data type represents true or false values? | Boolean
+What is casting in programming? | Converting one data type to another data type
+Converting one data type to another data type — what term describes this? | Casting (also called type conversion)
+Why is casting often necessary when a user enters data into a program? | User input is typically received as a string, so it must be cast to a numerical type before performing calculations or numerical comparisons
+What is the Python syntax to cast the string "123" to an integer? | int("123")
+What happens when a real value (e.g. 5.7) is cast to an integer in Python? | The fractional part is truncated (removed), giving 5 — it does not round
+How does casting from integer to real change the value 5? | It becomes 5.0 — the value is unchanged but stored with a fractional component
+What are arithmetic operators? | Symbols or keywords used to perform mathematical calculations and operations on numerical values
+What does the addition operator (+) do when applied to strings? | It concatenates (joins) the strings together
+What does the modulus operator (MOD) return? | The remainder when one numerical value is divided by another
+The remainder when one value is divided by another — which operator returns this? | The modulus operator (MOD)
+What is the result of 10 MOD 3? | 1 (because 10 ÷ 3 = 3 remainder 1)
+What does the exponentiation operator (^) do? | Raises a number to the power of another number (e.g. 3 ^ 3 = 27)
+What is operator precedence? | The rules that determine the order in which operators are evaluated in an expression
+What mnemonic is used to remember operator precedence? | BIDMAS / BODMAS (Brackets, Indices/Orders, Division, Multiplication, Addition, Subtraction)
+What is the result of 2 + 3 * 4 without parentheses? | 14 (multiplication is performed before addition)
+What is the result of (2 + 3) * 4 with parentheses? | 20 (parentheses force addition first, then multiplication)
+What are logical (comparison) operators? | Symbols or keywords used to compare values and return a boolean result
+What does the equal to operator (==) do? | Compares two values and returns true if they are equal, false otherwise
+What does the not equal to operator (!=) do? | Compares two values and returns true if they are not equal, false if they are equal
+How does the greater than or equal to (>=) operator differ from the greater than (>) operator? | >= returns true when the left operand is greater than OR equal to the right operand, while > only returns true when strictly greater
+What are Boolean operators? | Symbols or keywords used to combine and manipulate boolean values (e.g. AND, OR, NOT)
+Symbols or keywords used to combine and manipulate boolean values — what are these called? | Boolean operators
+When does the AND operator return true? | Only when both operands are true
+When does the OR operator return true? | When at least one of the operands is true
+What does the NOT operator do? | Negates a boolean value — returns true if the operand is false, and false if the operand is true
+What is a programming construct? | A structure that determines the order in which lines of code are executed
+What are the three programming constructs? | Sequence, iteration, and branching (selection)
+What is sequence in programming? | Lines of code executed one at a time, in the order they are written, from top to bottom
+Code executed line-by-line from top to bottom — which programming construct is this? | Sequence
+What is branching (selection) in programming? | When the flow of a program is interrupted, a condition is tested, and the outcome determines which block of code runs next
+The flow of a program is interrupted to test a condition and determine which block of code runs next — which construct is this? | Branching (selection)
+What are the two ways to write selection statements? | if...elseif...else statements (test conditions sequentially) and switch...case statements (test an expression against multiple constant values)
+What is iteration in programming? | Repeating a line or block of code using a loop
+Repeating a line or block of code using a loop — which programming construct is this? | Iteration
+What is count-controlled iteration? | When code is repeated a fixed number of times (e.g. using a for loop)
+What is condition-controlled iteration? | When code is repeated until a condition is met (e.g. using a while or do while loop)
+How does count-controlled iteration differ from condition-controlled iteration? | Count-controlled repeats a fixed number of times (for loop), while condition-controlled repeats until a condition is met (while/do while loop), where the number of iterations may not be known in advance
+Which keywords indicate that the construct being used is selection? | if, elseif, else, endif, switch, case
+Which keywords indicate that the construct being used is iteration? | for, while, do
+How do you identify the sequence construct in code? | If no selection or iteration keywords are present, the code is sequence
+What does an if...else statement do? | Executes one block of code if a condition is true, and an alternative block if the condition is false
+What does the elseif clause allow? | It specifies additional conditions to check if the initial if condition is false, handling multiple scenarios
+What is a switch/case statement? | A conditional statement that compares a single expression against multiple possible constant values (cases) and executes the corresponding block of code
+A conditional statement that compares a single expression against multiple possible constant values — what is this? | A switch/case statement
+What is the purpose of the default keyword in a switch/case statement? | It specifies a block of code to execute if none of the case labels match the expression
+When might a switch/case statement be preferable to multiple elseif statements? | When you have a single expression to compare against multiple constant values — switch/case is clearer and more structured
+What is a for loop? | A count-controlled loop that repeats a fixed number of times using a counter variable
+What are the three main parts of a for loop? | Initialisation (set counter variable), range (values to increment through), and increment/decrement (how the counter changes each iteration)
+What is a while loop? | A condition-controlled loop that evaluates a condition before each iteration and repeats as long as the condition is true
+When does a while loop evaluate its condition? | Before each iteration — if the condition is false initially, the code block never executes
+What is a do while loop? | A condition-controlled loop that executes the code block first and then evaluates the condition — it always runs at least once
+How does a do while loop differ from a while loop? | A do while loop executes its code block at least once before checking the condition, while a while loop checks the condition first and may never execute
+A condition-controlled loop that always executes at least once — which loop type is this? | Do while loop
+What is modularity in programming? | A concept where problems are broken down into smaller, more manageable pieces, each handled by a single subroutine
+Problems broken down into smaller, more manageable pieces handled by individual subroutines — what concept is this? | Modularity
+What is a subroutine? | A standalone, named block of code that performs a specific task when called
+What are the two types of subroutines? | Functions and procedures
+How does a function differ from a procedure? | A function returns a value, while a procedure does not return a value (it just performs actions)
+A subroutine that always returns a value — is this a function or a procedure? | A function
+A subroutine that performs actions but does not return a value — is this a function or a procedure? | A procedure
+What are the benefits of modularity? | Code reusability, easier team collaboration, simpler testing and maintenance, and improved organisation
+What is the top-down approach in modular design? | Continually breaking a problem down into sub-problems until each can be represented as an individual, self-contained module — also called stepwise refinement
+Continually breaking a problem into sub-problems until each is a self-contained module — what is this approach called? | Top-down approach (stepwise refinement)
+What is a parameter in programming? | A piece of data that is input into a function or procedure so it can complete its task
+What are the two methods of parameter passing? | Passing by value (byVal) and passing by reference (byRef)
+What happens when a parameter is passed by value? | A copy of the value is made and passed to the subroutine — changes inside the subroutine do not affect the original variable
+A copy of the value is passed to the subroutine and changes do not affect the original — which parameter passing method is this? | Passing by value (byVal)
+What happens when a parameter is passed by reference? | The memory address of the variable is passed — changes inside the subroutine directly affect the original variable
+The memory address is passed so changes directly affect the original variable — which parameter passing method is this? | Passing by reference (byRef)
+How does passing by value differ from passing by reference? | By value: a copy is made, original is protected, copy is destroyed when the subroutine ends. By reference: the memory address is shared, changes affect the original, more memory efficient for large data structures
+When is passing by value preferred? | When you want to protect the original data from being modified within the subroutine
+When is passing by reference preferred? | When the function needs to directly modify the original data, or for large data structures where copying would be inefficient
+What is the drawback of passing by value with large data structures? | Performance overhead from creating a copy, which also increases memory consumption
+What is the drawback of passing by reference? | It can cause unexpected side effects if changes within the function unintentionally affect other parts of the program
+What is recursion? | A programming technique where a function calls itself to solve a problem, breaking it into smaller sub-problems until a base case is reached
+A function that calls itself during its execution — what technique is this? | Recursion
+What three features must a recursive algorithm have? | 1) The function must call itself, 2) A base case that returns a value without further recursive calls, 3) The stopping condition must be reachable after a finite number of calls
+What is the base case in recursion? | The condition that stops the recursion and provides a final result without further recursive calls
+The condition that stops recursion and provides a result without further recursive calls — what is this called? | The base case (stopping condition)
+Why is a proper stopping condition essential in recursion? | Without one, the function calls itself indefinitely, using excessive memory and causing a stack overflow error that crashes the program
+What is a stack overflow? | When the call stack runs out of memory due to too many recursive function calls
+What happens in the call stack during recursion? | Each recursive call creates a new stack frame storing parameters, local variables, and return addresses — these are popped off when the function unwinds
+What does "unwinding" mean in the context of recursion? | The process of popping information from the call stack as each recursive call returns its result back to the calling function
+Give two benefits of recursion over iteration | 1) Can be expressed in fewer, more concise lines of code for naturally recursive problems, 2) Simpler to express what needs to be done without focusing on how
+Give two drawbacks of recursion compared to iteration | 1) Less efficient — repeated function calls are CPU and memory intensive, 2) Harder to debug and trace the program state
+Give two benefits of iteration over recursion | 1) More efficient with less memory usage, 2) Easier to understand and debug
+How can a recursive algorithm be converted to an iterative one? | Replace the recursive function call with a loop (e.g. while loop) and update variables directly instead of making new function calls
+What is a global variable? | A variable declared at the outermost level of a program, accessible from any part of the program
+A variable accessible from any part of the program — what type of variable is this? | A global variable
+What is a local variable? | A variable declared within a specific scope (e.g. a function), accessible only within that block, destroyed when the block ends
+A variable accessible only within the block in which it was defined — what type of variable is this? | A local variable
+How does the scope of a local variable differ from a global variable? | A local variable can only be accessed within the block where it is defined, while a global variable can be accessed anywhere in the program
+What happens when a local variable has the same name as a global variable? | The local variable takes precedence within its scope
+Why is using local variables considered good programming practice? | They keep subroutines self-contained, prevent unintended modification from other parts of the program, and are memory efficient (destroyed when the block ends)
+Why is using global variables generally discouraged? | They can be unintentionally overwritten, make programs difficult to maintain, remain in memory throughout program execution, and make individual modules harder to test
+When might global variables be appropriate? | For configuration settings, constants, or values that genuinely need to be shared across multiple parts of the program
+What is an IDE? | An Integrated Development Environment — a software tool providing a comprehensive platform to write, edit, compile, debug, and manage code
+An Integrated Development Environment that provides tools to write, compile, and debug code — what is this? | An IDE
+What is syntax highlighting (pretty printing) in an IDE? | A feature that visually distinguishes different code elements (keywords, strings, comments, variables) using distinct colours or styles
+What is autocomplete in an IDE? | A feature that suggests code completions as programmers type, including variable/function names and automatic bracket closure
+What is auto-indent in an IDE? | A feature that automatically indents code when starting a new line within a code block (e.g. inside loops or conditions)
+What are breakpoints in an IDE? | Markers set at specific lines of code that halt program execution during runtime, allowing developers to inspect the program state
+Markers that halt program execution at specific lines during runtime — what IDE feature is this? | Breakpoints
+What is the variable watch window in an IDE? | A debugging tool that allows developers to monitor the values of specific variables during runtime as the program executes
+What is stepping mode in an IDE? | A debugging mode that executes the program one line at a time, allowing examination of function calls and control flow
+What is a crash dump / post-mortem report? | A report generated when a program crashes that captures the program's state and memory contents at the time of the crash
+What does the stack contents tool in an IDE show? | The order in which functions were called and the parameters and local variables of each function on the call stack
+Name three IDE features useful for writing code | Syntax highlighting, autocomplete, and auto-indent
+Name three IDE features useful for debugging code | Breakpoints, variable watch window, and stepping mode
+What is a class in OOP? | A template for an object that defines the state (attributes) and behaviour (methods) of an object
+A template that defines the state and behaviour of an object — what is this in OOP? | A class
+What is an object in OOP? | A particular instance of a class, created through instantiation, with its own set of attribute values
+A particular instance of a class — what is this called? | An object
+What is instantiation? | The process of creating an object from a class
+The process of creating an object from a class — what is this called? | Instantiation
+What are attributes in OOP? | Properties that define the state (data) of an object, typically declared as private
+Properties that define the state of an object — what are these called in OOP? | Attributes
+What are methods in OOP? | Functions defined within a class that describe the actions or behaviour an object can perform
+Functions that describe the actions an object can perform — what are these called in OOP? | Methods
+What is a constructor in OOP? | A special method (procedure) that is called when an object is instantiated, used to initialise the object's attribute values
+A special method called when an object is instantiated to initialise its attributes — what is this? | A constructor
+What does the keyword 'new' do in OOP pseudocode/Java? | It creates a new instance (object) of a class by calling the constructor
+What is inheritance in OOP? | When a subclass (derived class) acquires the attributes and methods of a superclass (base class), extending or modifying them as needed
+A subclass acquiring attributes and methods from a superclass — what OOP concept is this? | Inheritance
+What is the purpose of the 'super' keyword in inheritance? | It calls the constructor of the parent (base) class to inherit its attributes
+In Java, what keyword is used for a class to inherit from another class? | extends (e.g. class Car extends Vehicle)
+In Python, how is inheritance indicated? | By placing the parent class name in parentheses after the child class name (e.g. class Car(Vehicle))
+What is encapsulation in OOP? | A technique where attributes are declared as private and can only be accessed or modified through public methods (getters and setters)
+Attributes declared as private, accessed only through public methods — what OOP concept is this? | Encapsulation
+Why is encapsulation important? | It implements information hiding — protecting data from being accidentally edited by other parts of the program, reducing complexity
+What is a getter (get method) in encapsulation? | A public method that retrieves and returns the value of a private attribute
+What is a setter (set method) in encapsulation? | A public method that sets or updates the value of a private attribute, often with validation
+How does a getter differ from a setter? | A getter retrieves and returns a private attribute's value (read access), while a setter modifies a private attribute's value (write access), often with validation
+What is polymorphism in OOP? | When objects of different classes can be treated as objects of a common superclass, with each subclass providing its own implementation of a method
+Objects of different subclasses responding differently to the same method call — what OOP concept is this? | Polymorphism
+What is run-time polymorphism? | When a subclass overrides a method defined in a superclass, and the correct version of the method is determined at run-time based on the actual object type
+What is method overriding? | When a subclass provides its own implementation of a method that is already defined in its superclass
+A subclass providing its own implementation of a method already defined in the superclass — what is this called? | Method overriding
+In the Animal/Dog/Cat polymorphism example, why does make_sound(myDog) output "Woof"? | Because myDog is a Dog object, and Dog overrides the speak() method from Animal with its own version that outputs "Woof" — the method call is resolved at run-time based on the actual object type
+What does the @Override annotation indicate in Java? | That the method is overriding a method from the superclass
+How does information hiding relate to encapsulation? | Encapsulation implements information hiding by making attributes private and controlling access through public methods, preventing other parts of the program from accidentally modifying data
+What is the difference between public and private access modifiers? | Public members can be accessed by any class or object, while private members can only be accessed within the class they are defined in
+In Python, how are private attributes conventionally indicated? | By prefixing the attribute name with double underscores (e.g. self.__number)
+How do the four OOP concepts (classes, inheritance, encapsulation, polymorphism) work together? | Classes define templates with attributes and methods. Inheritance allows subclasses to reuse and extend parent class features. Encapsulation hides internal data behind public methods. Polymorphism allows different subclasses to respond differently to the same method call.
+How does a switch/case statement differ from an if...elseif...else statement? | Switch/case compares one expression against multiple constant values (good for many fixed options). If/elseif/else tests conditions sequentially (more flexible, supports ranges and complex conditions).
+How does a for loop differ from a while loop? | A for loop is count-controlled (repeats a known number of times using a counter), while a while loop is condition-controlled (repeats until a condition becomes false, number of iterations may be unknown)
+How does a function differ from a procedure in terms of return values? | A function must always return a value. A procedure performs actions but does not return a value back to the calling code.
+How do global and local variables differ in terms of memory usage? | Global variables remain in memory for the entire program execution. Local variables are destroyed when their block of code ends, freeing memory.
+How does passing by value differ from passing by reference in terms of memory efficiency? | By value creates a copy (higher memory usage, especially for large data). By reference passes the memory address (no copy needed, more memory efficient).
+How does recursion differ from iteration in terms of memory usage? | Recursion creates a new stack frame for each call (higher memory usage, risk of stack overflow). Iteration reuses the same memory space within a loop (more memory efficient).
+What is the call stack? | A last-in-first-out data structure that stores details about the order in which subroutines have been called, including parameters, local variables, and return addresses
+A last-in-first-out data structure storing details about subroutine calls — what is this? | The call stack
+What is tail recursion? | A form of recursion implemented more efficiently where less stack space is required, because the recursive call is the last operation in the function

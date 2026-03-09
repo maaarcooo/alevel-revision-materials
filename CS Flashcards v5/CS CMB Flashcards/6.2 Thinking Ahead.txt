@@ -1,0 +1,45 @@
+What is an input in the context of computational thinking? | Any data that an algorithm requires in order to run, usually passed as a parameter to a subroutine
+Any data required by an algorithm to run, typically passed as a parameter — what is this called? | An input
+What is an output in the context of computational thinking? | Any data returned to the calling subroutine, or data provided to an output device such as a monitor or speaker
+Data returned to the calling subroutine or sent to an output device after processing — what is this called? | An output
+Why must inputs and outputs be explicitly defined when designing an algorithm? | So the algorithm's type, size and format requirements are clear, preventing errors and unexpected behaviour during execution
+When designing a solution, what three properties of inputs and outputs should be specified? | Their data type, size and format
+In addition to the data itself, what two aspects of input must designers consider? | The order in which data is input and the method of input (i.e. the input device)
+Designers typically begin by considering what outputs are required and then work backwards. Why is this approach useful? | It ensures the solution meets the user's requirements first, then identifies what inputs and processing are needed to achieve those outputs
+What is a precondition in computational thinking? | A condition that must be true before an algorithm or subroutine can execute successfully, without errors or crashing
+A requirement that must be met before a program can be executed, otherwise it will fail or return an invalid answer — what term describes this? | A precondition
+Give an example of a precondition for a binary search algorithm | The input list must be sorted in order
+Why does a binary search require the list to be sorted as a precondition? | Binary search repeatedly halves the search space by comparing the middle element, which only works correctly if elements are in order
+Give two examples of preconditions for a search algorithm operating on a list | The list must not be empty (to avoid index out of bounds errors) and all elements must be the same data type (to allow valid comparisons)
+Why might a bubble sort algorithm require a precondition limiting input size? | Bubble sort has O(n²) time complexity, so a very large input list could cause the program to take an impractically long time to complete
+What are the two places preconditions can be specified? | Within the code itself (as validation checks) or in the documentation accompanying the subroutine
+How does specifying preconditions in documentation differ from specifying them in code? | In documentation, the developer calling the subroutine is responsible for ensuring inputs meet the requirements. In code, the subroutine itself performs the validation checks
+What is an advantage of specifying preconditions in documentation rather than in code? | It reduces the length and complexity of the subroutine and saves time needed to debug and maintain a longer program
+What is an advantage of specifying preconditions in code rather than in documentation? | The program itself carries out validation checks, so the developer calling the subroutine does not need to write additional checking code
+Explain how defining preconditions, inputs and outputs makes a subroutine more reusable | Clear preconditions, inputs and outputs create a well-defined interface, so any developer can call the subroutine correctly in different contexts without needing to understand its internal workings
+In the formal definition of BinarySearch, what preconditions are stated? | length of my_list > 0 and type(my_list) = int (the list must not be empty and must contain integers)
+Consider the pop() function for a stack. What precondition must be checked and why? | The top pointer must be greater than 0 (the stack must not be empty), otherwise popping from an empty stack would produce an error and crash the program
+The factorial function requires its argument to be non-negative. Where is this precondition typically specified? | In the documentation accompanying the function, rather than checked within the code
+What is caching? | The process of storing instructions or values in cache memory after they have been used, as they may be needed again, to avoid retrieving them from slower storage
+The process of storing recently used data or instructions in fast-access memory so they can be retrieved quickly if needed again — what is this called? | Caching
+What is cache memory? | A small, fast storage area on or near the processor used to temporarily store frequently accessed data and instructions while a program is running
+Explain how web caching improves performance | Previously accessed web pages, images and text are stored locally, so when revisited they load without delay and do not need to be re-downloaded, also freeing up network bandwidth
+What is prefetching? | An advanced form of caching where algorithms predict which instructions or data are likely to be needed soon and load them into cache before they are actually requested
+Algorithms predict which instructions are likely to be needed and load them into cache before they are fetched — what is this technique called? | Prefetching
+How does prefetching relate to the concept of thinking ahead? | By predicting what data will be needed next and loading it in advance, less time is spent waiting for instructions to be transferred from slower secondary storage to RAM
+What is a limitation of prefetching? | The prediction algorithms can only make informed guesses about which instructions will be needed, and there is no guarantee the prediction will be correct
+State two drawbacks of caching | Cache has a limited size restricting how much data can be stored, and larger caches take longer to search, reducing the speed advantage
+How does caching differ from prefetching? | Caching stores data after it has been used (reactive), while prefetching loads data before it is requested based on predictions (proactive)
+What are reusable program components? | Pre-written, tested subroutines, classes, or data structure implementations that are packaged into libraries and can be used across multiple programs or projects
+Commonly used functions packaged into collections for use across multiple programs — what are these collections called? | Libraries
+Give three examples of subroutines commonly found in standard libraries | Printing, type casting, finding the maximum/minimum value of a list, and generating random numbers
+Give three examples of reusable components a developer might create for their own library | Implementations of abstract data structures (e.g. stacks, queues, linked lists) and standard algorithms (e.g. quick sort, merge sort)
+Explain why reusable components are more reliable than newly written code | They have already been thoroughly tested and any bugs have been identified and fixed, so they are less likely to contain errors
+State three benefits of using reusable program components | They save development time, reduce costs, and are more reliable because they have already been tested and debugged
+How does decomposition relate to identifying reusable components? | When a problem is broken down into smaller, simpler tasks through decomposition, developers can identify which tasks can be solved using existing pre-tested components rather than writing new code
+What is a potential drawback of using third-party reusable components? | Compatibility issues may arise when integrating them with existing software, and modifying them to work can sometimes be more costly and time-consuming than developing the component in-house
+How do reusable components save time in future projects? | Well-tested and documented components created for one project can be reused in later projects without needing to be rewritten or re-tested
+How does defining clear inputs, outputs and preconditions support the reuse of subroutines? | It creates a well-documented interface that any developer can use correctly, allowing the subroutine to be placed in a library and called from any project without modification
+In the ATM example, name three inputs and the devices used to capture them | Transaction type (touch screen), card details (magnetic stripe card reader), and PIN (keypad)
+In the ATM example, name three outputs and the devices used to present them | Account balance or transaction confirmation (monitor/screen), dispensed cash (cash dispenser), printed receipt (printer), and verbal feedback (speaker)
+Why is it important that output data is not limited to screen display? | Output can take many forms including visual display, audio, printed material, or physical actions (e.g. dispensing cash), so designers must consider the appropriate output device for each type of data

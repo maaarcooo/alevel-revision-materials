@@ -1,0 +1,45 @@
+What are the three structured programming techniques? | Sequence, selection, and iteration
+What is sequence in structured programming? | Executing one statement after another in order
+What is selection in structured programming? | Decision making that directs flow of control based on a condition (e.g. if/then/else, switch/case)
+Decision making that directs program flow based on a Boolean condition, using constructs like if/then/else — what structured programming technique is this? | Selection
+What is iteration in structured programming? | Repeating a sequence of instructions based on a stopping Boolean condition (e.g. for, while, do until loops)
+Repeating a block of code until a stopping condition is met — what structured programming technique is this? | Iteration
+What is the purpose of using structured programming techniques? | To aid the readability, understanding, and maintainability of code
+What is a block-structured language? | A language that uses only sequence, selection, and iteration to control the flow of execution and data in a program (e.g. Python)
+Give an example of a block-structured language | Python
+Why should each block of code have a single entry and exit point? | To prevent unintended consequences relating to flow of control, such as entering or leaving a subroutine early or branching unintentionally
+What is another name for selection in programming? | Branching
+The process of directing program flow depending on a Boolean condition or set of conditions — what is this also known as? | Selection (or branching)
+Name three methods for planning an algorithm before coding | Flowcharts, pseudocode, and structured English
+Why is it recommended to plan algorithms before coding? | Languages have specific syntax, constructs, and idiosyncrasies that differ between them, making it challenging to create a solution that can immediately be implemented in another language
+What is the advantage of using flowcharts to identify decision points? | They visually show the flow of control, making decisions clear and easy to follow
+What is the disadvantage of using flowcharts? | They are time-consuming to create
+How does pseudocode differ from flowcharts for representing algorithms? | Pseudocode more accurately mimics the constructs of programming languages without the problem of syntax
+Why is pseudocode flexible in how algorithms are expressed? | Because it has no formal syntax, so any way of expressing an algorithm is acceptable as long as the meaning is clear
+What is structured English as an algorithm design tool? | An alternative to pseudocode that uses natural language to express an algorithm, but is usually more verbose and imprecise
+How does structured English compare to pseudocode? | Structured English is more verbose and imprecise, while pseudocode more accurately mimics programming language constructs
+What is a decision in the context of problem solving? | A result reached after some consideration
+Where do most errors in a program occur? | When evaluating a Boolean condition, whether in a statement, iteration, or selection
+Why must special care be taken with complex Boolean conditions? | Long, complex conditions involving multiple clauses are more prone to errors
+In which two programming situations do decisions usually occur? | In an if statement/select case, or in a loop (usually a while loop)
+What is the difference between an if/then/else chain and a switch/case statement? | Both direct program flow through multiple decision points based on a value, but switch/case compares one variable against multiple fixed values, while if/else can evaluate different Boolean conditions at each branch
+What does it mean for iteration and selection to be nested? | A selection or iteration structure is placed inside another selection or iteration structure, creating multiple layers of decision points that affect program flow
+What are the six comparison operators used in Boolean conditions? | == (equal to), > (greater than), >= (greater than or equal to), < (less than), <= (less than or equal to), != (not equal to)
+What are the four logical operators used to combine Boolean conditions? | AND, OR, NOT, XOR
+What does the AND operator require for a combined condition to be true? | Both conditions must be true
+What does the OR operator require for a combined condition to be true? | Either one or both conditions must be true
+What does the NOT operator do to a Boolean condition? | It inverts/negates the condition so true becomes false and false becomes true
+What does the XOR operator require for a combined condition to be true? | Only one or the other condition must be true (not both)
+How does AND differ from OR in a Boolean expression? | AND requires both conditions to be true for the overall expression to be true, while OR requires only one (or both) to be true
+How does OR differ from XOR in a Boolean expression? | OR is true when one or both conditions are true, while XOR is true only when exactly one condition is true (not both)
+In a flowchart, what shape represents a decision? | A diamond shape
+What are the two possible outcomes of a decision in a flowchart? | Yes (true) or No (false)
+Explain why decisions affect the flow of control of a program | Each decision evaluates a Boolean condition and directs execution down a different path depending on whether the condition is true or false, so different code is executed based on the outcome
+Why is the "break" instruction both powerful and potentially problematic? | It helps control flow by exiting a loop early, but it can be misused and cause unintended problems such as skipping necessary code
+What three key factors should be considered when making a decision in a software solution? | Effectiveness (what is most effective), convenience (what is most convenient), and feasibility (is the option reasonable)
+Explain how prioritising decision factors helps in problem solving | By evaluating conditions like effectiveness, convenience, and feasibility and ordering them by importance, it becomes easier to pick the best option for the solution, and the approach will vary depending on purpose and end-users
+Why is it important to identify where decisions will need to be made when building a solution? | It allows you to gather enough information about your options in advance, enabling an informed decision to be made
+Explain the relationship between thinking logically and program planning | Thinking logically allows you to plan and prepare for different scenarios by providing foresight of the decisions made throughout the program, and it involves identifying where user decisions occur and planning outcomes for each path
+How does a decision within a program affect the route taken through the code? | The program follows a different route depending on the decision made — different Boolean condition outcomes cause different blocks of code to execute
+What is an example of a real-world Boolean condition using AND? | Checking if a teenager can see a 15-rated film: age >= 15 AND money >= 8 — both conditions must be true for entry to be allowed
+In a nested if/else structure that assigns grades based on scores, what determines which grade is assigned? | Each nested if statement checks whether the score meets a threshold, and the first condition that evaluates to true determines the grade — the order of conditions matters because each check is only reached if all previous checks were false

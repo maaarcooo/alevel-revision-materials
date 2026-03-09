@@ -1,0 +1,132 @@
+What is time complexity? | A measure of how many operations or steps an algorithm requires to complete, expressed as a function of the input size n
+A measure of the number of operations an algorithm performs relative to input size — what is this called? | Time complexity
+What is space complexity? | A measure of how much memory an algorithm requires to complete its task
+A measure of the memory an algorithm needs to run — what is this called? | Space complexity
+Why is time complexity measured in operations/steps rather than seconds? | Because time complexity must be independent of hardware — a faster CPU completes instructions quicker but still executes the same number of steps
+Generally, which two properties make an algorithm preferred over alternatives? | It finishes quicker (lower time complexity) and uses less memory (lower space complexity)
+What is Big O Notation used for? | To express the worst-case time or space complexity of an algorithm as a function of input size n
+A notation that describes the scalability of an algorithm by its order (O) — what is it called? | Big O Notation
+What are the two rules for simplifying an expression into Big O Notation? | 1) Remove all terms except the one with the largest factor or exponent. 2) Remove any constants/coefficients
+What is O(1) complexity? | Constant time — the algorithm requires the same number of operations regardless of input size
+An algorithm that takes the same number of steps regardless of input size has what Big O complexity? | O(1) — constant time
+Give an example of an O(1) operation | Calculating the length of a string using len(s), or accessing an array element by index
+What is O(n) complexity? | Linear time — the number of operations grows proportionally to the input size n
+An algorithm whose operation count grows proportionally with input size has what Big O complexity? | O(n) — linear time
+What programming construct typically produces O(n) time complexity? | A single for loop or while loop that iterates n times
+What is O(n²) complexity? | Polynomial time (quadratic) — the number of operations is proportional to the square of the input size
+An algorithm whose operation count is proportional to n squared has what Big O complexity? | O(n²) — polynomial (quadratic) time
+What programming construct typically produces O(n²) time complexity? | Two nested loops, each iterating n times
+How does the Big O change as more loops are nested? | Each additional nested loop increases the polynomial power: 2 nested = O(n²), 3 nested = O(n³), 4 nested = O(n⁴), etc.
+If an algorithm has 3 nested loops each running n times plus 4 single loops and 5 statements, what is its Big O? | O(n³) — only the dominant term (the 3 nested loops) is kept; coefficients and lower-order terms are removed
+What is O(2ⁿ) complexity? | Exponential time — the number of operations doubles for each additional input value
+An algorithm whose execution time doubles with every additional data item has what Big O complexity? | O(2ⁿ) — exponential time
+Why are exponential time algorithms rarely used in practice? | Because the number of instructions becomes extremely large very quickly, making them impractical for all but very small inputs
+What is O(log n) complexity? | Logarithmic time — the number of operations increases very slowly as input size grows, because the problem is halved with each step
+An algorithm that halves the search space with each iteration has what Big O complexity? | O(log n) — logarithmic time
+In computer science, what base is typically used for logarithms in Big O analysis? | Base 2
+What does log₂(1024) equal, and why is this relevant to algorithms? | 10, because 2¹⁰ = 1024 — this means a binary search on 1024 items takes at most 10 comparisons
+What is O(n log n) complexity? | Linear-logarithmic time — sits between O(n) and O(n²); characteristic of efficient divide-and-conquer sorting algorithms like merge sort
+An algorithm with time complexity between linear and quadratic, characteristic of efficient sorting, has what Big O? | O(n log n) — linear-logarithmic time
+Rank these Big O complexities from most efficient to least efficient: O(n²), O(1), O(log n), O(2ⁿ), O(n), O(n log n) | O(1) → O(log n) → O(n) → O(n log n) → O(n²) → O(2ⁿ)
+What are best case, average case, and worst case complexity? | Best case: the fewest operations (most efficient scenario). Average case: typical performance. Worst case: the most operations (least efficient scenario)
+Big O Notation almost always measures which case of algorithm performance, and why? | Worst case — this gives a guaranteed minimum performance level, allowing programmers to make reliable algorithm selections
+Explain the simplest method for deriving the Big O of an algorithm | Count the number of loops and nested loops: no loops = O(1), one loop = O(n), two nested loops = O(n²), and so on. Keep only the dominant term and remove coefficients
+Why are coefficients removed in Big O Notation? | For very large inputs, multiplying by a constant has negligible impact on growth rate compared to the dominant term — e.g. 3n² and n² grow at essentially the same rate as n becomes very large
+Why are lower-order terms removed in Big O Notation? | As input grows, lower-order terms contribute proportionally less — e.g. in n² + n + 5, the n and 5 become insignificant compared to n²
+What is a searching algorithm? | A method to find a specific value or element within a data structure
+What is a linear search? | An algorithm that searches sequentially through a list from start to end, comparing each element to the target value one at a time
+What type of list does a linear search require? | It works on any list — it does not require the list to be sorted
+What is the worst-case time complexity of a linear search? | O(n) — the item is at the last position or not in the list
+What is the best-case time complexity of a linear search? | O(1) — the item is found at the first position
+What is the space complexity of a linear search? | O(1) — it uses only a fixed number of extra variables (counter, index, found flag) regardless of input size
+What does a linear search return if the item is not found? | A default value indicating "not found", typically -1
+What is a binary search? | A search algorithm that repeatedly compares the middle element to the target, discarding half the list each iteration until the item is found or the list is exhausted
+What precondition must be met for a binary search to work correctly? | The list must be sorted
+What happens in a binary search if the target is less than the middle value? | The top half (elements above the midpoint) is ignored and the search continues in the lower half
+What happens in a binary search if the target is greater than the middle value? | The bottom half (elements below the midpoint) is ignored and the search continues in the upper half
+What is the worst-case time complexity of a binary search? | O(log n) — the search space halves with each iteration
+What is the best-case time complexity of a binary search? | O(1) — the target is found at the first midpoint comparison
+What is the space complexity of an iterative binary search? | O(1) — it uses only a fixed number of variables (start, end, mid)
+What is the space complexity of a recursive binary search? | O(log n) — each recursive call adds a frame to the call stack, and maximum recursion depth is log n
+What approach does the binary search use to achieve O(log n)? | Divide and conquer — the problem is progressively halved until the item is found or the subproblem is of size 1
+Does the binary search actually delete or remove elements from the list? | No — it only adjusts the start, end, and mid pointers, giving the appearance that items have been discarded
+How does a binary search differ from a linear search in terms of list requirements? | Binary search requires a sorted list; linear search works on unsorted lists
+How does a binary search differ from a linear search in terms of time complexity? | Binary search is O(log n) worst case; linear search is O(n) worst case — binary search is much faster for large sorted datasets
+In what situation would a linear search be preferred over a binary search? | When the data is unsorted, the dataset is very small, or the cost of sorting exceeds the benefit of faster searching
+Explain why the binary search has O(log n) time complexity | Starting with n items, each iteration halves the search space: n → n/2 → n/4 → ... → 1. After i iterations, n/2ⁱ = 1, so i = log₂(n). The maximum iterations is therefore log₂(n)
+What is a bubble sort? | A sorting algorithm that repeatedly compares adjacent pairs of elements and swaps them if they are out of order, making multiple passes until the list is sorted
+How does a single pass of bubble sort work? | Compare each adjacent pair from start to end; swap if out of order. After one pass, the largest unsorted value has "bubbled" to its correct position at the end
+How does bubble sort know the list is fully sorted? | A final pass is made with no swaps occurring, indicating all elements are in order
+What is the worst-case time complexity of bubble sort? | O(n²) — occurs when the list is in reverse order, requiring maximum comparisons and swaps
+What is the best-case time complexity of bubble sort? | O(n) — occurs when the list is already sorted; one pass with no swaps confirms this
+What is the space complexity of bubble sort? | O(1) — it sorts in-place using only a fixed amount of extra memory (loop counters, temp variable)
+Why does an efficient bubble sort reduce comparisons with each pass? | After each pass, the last element is guaranteed to be sorted, so it does not need to be re-checked — reducing comparisons by one per pass
+Why is a while loop preferred over a for loop in an efficient bubble sort? | A while loop can terminate early if no swaps occur during a pass (list is sorted), whereas a for loop would continue making unnecessary comparisons
+What is an insertion sort? | A sorting algorithm that builds a sorted section one element at a time by inserting each element into its correct position within the already-sorted portion of the list
+How does insertion sort decide where to place the current element? | The current element is compared to each preceding element in the sorted portion; preceding elements that are larger are shifted right until the correct insertion position is found
+What is the worst-case time complexity of insertion sort? | O(n²) — occurs when the list is in reverse order, requiring maximum comparisons and shifts
+What is the best-case time complexity of insertion sort? | O(n) — occurs when the list is already sorted; each element only needs one comparison
+What is the space complexity of insertion sort? | O(1) — it sorts in-place with no additional data structures
+How does insertion sort differ from bubble sort in the way it builds the sorted output? | Insertion sort maintains a growing sorted section at the front and inserts each new element into its correct position. Bubble sort repeatedly passes through the entire unsorted portion, swapping adjacent pairs to push the largest to the end
+What is merge sort? | A divide-and-conquer sorting algorithm that recursively splits the list into single-element sublists, then repeatedly merges pairs of sublists in sorted order until one sorted list remains
+What are the two main phases of merge sort? | 1) Divide: split the list in half repeatedly until each sublist has one element. 2) Merge: repeatedly merge pairs of sublists in sorted order
+How are two sublists merged in merge sort? | Two pointers track the current position in each sublist. The smaller element from either pointer is placed into the new list and its pointer is incremented. When one sublist is empty, the remaining elements of the other are appended
+What is the worst-case time complexity of merge sort? | O(n log n) — the list is halved log n times (divide), and each level requires n comparisons (merge)
+What is the best-case time complexity of merge sort? | O(n log n) — regardless of input order, the list must still be divided and merged the same number of times
+What is the space complexity of merge sort? | O(n) — it requires additional space to hold copies of the left and right sublists during merging
+Merge sort uses recursion. What is the base case? | A sublist containing only one element (a single element is already sorted)
+How does merge sort differ from bubble sort in terms of time complexity? | Merge sort is O(n log n) in all cases; bubble sort is O(n²) worst/average case. Merge sort is significantly faster for large datasets
+How does merge sort differ from bubble sort and insertion sort in terms of space complexity? | Merge sort requires O(n) additional space for sublist copies; bubble sort and insertion sort both sort in-place with O(1) space
+What is quick sort? | A divide-and-conquer sorting algorithm that selects a pivot element, partitions the list into elements less than and greater than the pivot, then recursively sorts both partitions
+In quick sort, what is a pivot? | The element chosen as a reference point for partitioning — elements smaller go to one side, elements larger go to the other side
+How does quick sort partition the list around a pivot? | A left pointer moves right to find elements greater than the pivot; a right pointer moves left to find elements less than the pivot. When both stop, their values are swapped. When pointers cross, the pivot is swapped with the right pointer's value
+What is the best and average case time complexity of quick sort? | O(n log n) — when the pivot divides the list roughly in the middle
+What is the worst-case time complexity of quick sort? | O(n²) — when the pivot is consistently the smallest or largest value, causing one empty partition each time
+What causes worst-case performance in quick sort? | Poor pivot selection — e.g. always picking the first element when the list is already sorted or reverse sorted, leading to maximally unbalanced partitions
+How can worst-case quick sort performance be avoided in practice? | Use randomised pivot selection or median-of-three pivot selection to avoid consistently unbalanced partitions
+What is the space complexity of quick sort? | O(n) — copies of sublists are stored on the call stack during recursion
+How does quick sort differ from merge sort in terms of where the sorting work happens? | Quick sort does its work during partitioning (before recursion) — elements are rearranged around the pivot. Merge sort does its work during merging (after recursion) — sorted sublists are combined
+How does quick sort differ from merge sort in terms of worst-case time complexity? | Quick sort has O(n²) worst case (poor pivot selection); merge sort is always O(n log n). Merge sort has more consistent performance
+What risk does deep recursion pose in quick sort? | A stack overflow can occur if recursion depth becomes too large due to many unbalanced partitions
+What is a divide-and-conquer algorithm? | An algorithm that breaks a problem into smaller subproblems, solves each subproblem (often recursively), then combines the results — used by binary search, merge sort, and quick sort
+Name three algorithms that use the divide-and-conquer approach | Binary search, merge sort, and quick sort
+What is Dijkstra's shortest path algorithm? | An optimisation algorithm that calculates the shortest path from a starting node to all other nodes in a weighted graph by greedily selecting the unvisited node with the smallest known distance
+What type of graph does Dijkstra's algorithm operate on? | A weighted graph where edges carry values representing distance, time, or cost
+What is an optimisation problem? | A problem that requires maximising efficiency of a solution, such as finding the shortest route, minimising resource usage, or scheduling tasks optimally
+How is Dijkstra's algorithm initialised? | The start node distance is set to 0; all other node distances are set to infinity. All nodes are added to an unvisited set
+Describe the main loop of Dijkstra's algorithm | 1) Select the unvisited node with the lowest distance. 2) Visit it and add to visited list. 3) For each unvisited neighbour, calculate new distance (current node distance + edge weight). 4) If new distance < existing distance, update the neighbour's distance and previous node. 5) Repeat until all nodes visited
+When is a node's distance updated in Dijkstra's algorithm? | Only when the newly calculated distance (current distance + edge weight) is less than the node's current recorded distance
+How is the final shortest path reconstructed in Dijkstra's algorithm? | By backtracking through the "previous node" records from the goal node back to the start node
+Why does Dijkstra's algorithm always find the optimal shortest path? | Because it is exhaustive — it explores every reachable node and always expands the node with the currently smallest known distance, ensuring no shorter path is missed
+What data structure can be used to efficiently select the next node to visit in Dijkstra's? | A priority queue, sorted by current distance from the start node
+What is the A* search algorithm? | A pathfinding algorithm that extends Dijkstra's by adding a heuristic function to estimate distance to the goal, guiding the search more efficiently toward the target
+What is a heuristic in the context of A* search? | A rule of thumb, best guess, or estimate that approximates the straight-line (Euclidean) distance from the current node to the goal node
+What is the cost function used by A* search? | f(x) = g(x) + h(x), where g(x) is the actual distance from start to current node, and h(x) is the heuristic estimate from current node to goal
+In A* search, what does g(x) represent? | The actual (real) distance/cost accumulated from the start node to the current node x
+In A* search, what does h(x) represent? | The heuristic estimate of the distance from node x to the goal node
+In A* search, what does f(x) represent? | The total estimated cost of the path through node x: f(x) = g(x) + h(x)
+What key assumption must the heuristic function satisfy in A* search? | The heuristic must never overestimate the real cost — the actual cost must always be greater than or equal to h(x) (this property is called admissibility)
+An admissible heuristic is one that never [...] the true cost to the goal | overestimates
+How does A* search differ from Dijkstra's in terms of when it terminates? | A* stops as soon as the goal node is reached; Dijkstra's continues until all nodes have been visited
+How does A* search differ from Dijkstra's in terms of node selection? | A* selects the next node based on f(x) = g(x) + h(x) (actual cost plus heuristic estimate); Dijkstra's selects based on g(x) alone (actual cost only)
+Why is A* generally more efficient than Dijkstra's? | The heuristic guides the search toward the goal, avoiding exploration of nodes that lead away from the destination — reducing the total nodes visited
+If h(x) increases compared to the previous node in A* search, what does this indicate? | The algorithm is travelling further away from the goal node
+What happens if the heuristic h(x) is set to 0 for all nodes in A* search? | A* degenerates into Dijkstra's algorithm, since f(x) = g(x) + 0 = g(x)
+What is the Big O time complexity of each: linear search, binary search, bubble sort, insertion sort, merge sort, quick sort? | Linear search: O(n). Binary search: O(log n). Bubble sort: O(n²). Insertion sort: O(n²). Merge sort: O(n log n). Quick sort: O(n log n) average, O(n²) worst
+What is the space complexity of each: linear search, binary search (iterative), bubble sort, insertion sort, merge sort, quick sort? | Linear search: O(1). Binary search: O(1). Bubble sort: O(1). Insertion sort: O(1). Merge sort: O(n). Quick sort: O(n)
+Which sorting algorithms are in-place (O(1) space), and which require additional space? | In-place: bubble sort, insertion sort. Additional space: merge sort (O(n)), quick sort (O(n) due to call stack)
+Which sorting algorithms have O(n) best-case time complexity, and under what conditions? | Bubble sort (already sorted list, one pass with no swaps) and insertion sort (already sorted list, each element needs only one comparison)
+How do bubble sort and insertion sort compare when the list is nearly sorted? | Both achieve close to O(n) performance. Insertion sort is generally faster because it makes fewer comparisons and no unnecessary swaps — it simply places each element in its correct position
+For the expression 3x² + 4x + 5, what is the Big O notation and why? | O(n²) — the x² term dominates as input grows; the coefficient 3, the linear term 4x, and the constant 5 all become negligible
+The constant term in an algorithm's instruction count 3x + 5 contributes less as x increases. Which term dominates and what is the Big O? | 3x dominates; removing the coefficient gives O(n) — linear time
+An algorithm has a nested loop O(n²), a single loop O(n), and a statement O(1). What is its overall Big O? | O(n²) — polynomial time dominates linear and constant time
+What is the difference between time complexity and actual execution time? | Time complexity counts operations/steps and is hardware-independent. Execution time is measured in seconds/minutes and depends on CPU speed, clock rate, and hardware
+Explain why bubble sort has O(n²) worst-case time complexity | It uses nested iteration: an outer loop runs up to n times (passes), and an inner loop makes up to n comparisons per pass. In the worst case (reversed list), this gives approximately n × n = n² operations
+Explain why merge sort achieves O(n log n) time complexity | The list is halved recursively, creating log n levels of division. At each level, all n elements must be compared and merged. Total work: n comparisons × log n levels = O(n log n)
+What is the role of a temporary variable (temp) in a bubble sort swap? | It temporarily holds one value during the swap so neither value is lost: temp = list[j], list[j] = list[j+1], list[j+1] = temp
+In insertion sort, what does the "position" pointer track? | The current position being evaluated in the sorted portion — it decrements backward through the sorted section to find where the current item should be inserted
+What is slicing in the context of merge sort? | A technique for splitting a list: list[:mid] gives all elements up to (not including) mid, and list[mid:] gives all elements from mid to the end
+Why does merge sort rely on recursion? | To repeatedly divide the list into smaller sublists until reaching the base case (single elements), then merge them back in sorted order as the recursive calls return
+In quick sort, what happens when the left and right pointers cross each other? | The partitioning phase is complete. The pivot is swapped with the value at the right pointer's position, placing the pivot in its final sorted position
+What is factorial time complexity O(n!)? | A time complexity worse than exponential where operations grow proportional to the factorial of n — even more impractical than O(2ⁿ) for large inputs
+How does O(n!) compare to O(2ⁿ)? | O(n!) grows even faster than O(2ⁿ) and is the least efficient common complexity class

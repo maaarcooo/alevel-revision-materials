@@ -1,0 +1,26 @@
+What is the Computer Misuse Act 1990? | UK legislation to prevent unauthorised access to data by recognising and defining electronic vandalism, unauthorised access or modification to computer systems, and information theft
+UK legislation that defines electronic vandalism, unauthorised access/modification to computer systems, and information theft — what act is this? | The Computer Misuse Act 1990
+What is the Copyright Design and Patents Act 1988? | UK legislation that prevents the illegal copying or redistribution of literary, dramatic, musical or artistic works by establishing copyright protection
+UK legislation preventing illegal copying or redistribution of literary, dramatic, musical or artistic works — what act is this? | The Copyright Design and Patents Act 1988
+Under the Copyright Design and Patents Act 1988, how long does copyright last after the creator's death? | 70 years
+Under the Copyright Design and Patents Act 1988, how long does copyright last if the creator is unknown? | 70 years after the creation of the work
+What is the Data Protection Act 1998? | UK legislation requiring secure, accurate and concise storage of personal data (on both computer and paper systems) to protect individuals from unreasonable use of their data
+UK legislation requiring secure, accurate and concise storage of personal data to protect individuals from unreasonable use of their data — what act is this? | The Data Protection Act 1998
+Does the Data Protection Act 1998 apply only to digital data? | No, it covers both computer and paper-based systems
+What is the Regulation of Investigatory Powers Act 2000? | UK legislation to regulate the power of public bodies to carry out surveillance and investigation, including the interception of communications
+UK legislation regulating the power of public bodies to carry out surveillance, investigation, and interception of communications — what act is this? | The Regulation of Investigatory Powers Act 2000
+What does the Regulation of Investigatory Powers Act 2000 regulate? | The power of public bodies to carry out surveillance and investigation, and the interception of communications
+What three offences does the Computer Misuse Act 1990 address? | Electronic vandalism, unauthorised access or modification to computer systems, and information theft
+How does the Computer Misuse Act 1990 differ from the Data Protection Act 1998 in focus? | The Computer Misuse Act focuses on preventing unauthorised access and modification of computer systems. The Data Protection Act focuses on ensuring personal data is stored securely and used reasonably.
+How does the Copyright Design and Patents Act 1988 differ from the Computer Misuse Act 1990? | The Copyright Act protects intellectual property (literary, dramatic, musical, artistic works) from illegal copying/redistribution. The Computer Misuse Act protects computer systems from unauthorised access, modification, and electronic vandalism.
+What is artificial intelligence? | The capability of a machine to perceive its environment and take the appropriate steps to maximise the success of its programmed goals
+The capability of a machine to perceive its environment and take appropriate steps to maximise success of its programmed goals — what term describes this? | Artificial intelligence
+What is internet censorship? | The suppression or control of content that can be accessed, viewed or published on the internet
+The suppression or control of content that can be accessed, viewed or published on the internet — what term describes this? | Internet censorship
+What is piracy in a computing context? | The illegal access or use of copyrighted work without the permission of the copyright holder
+The illegal access or use of copyrighted work without the permission of the copyright holder — what term describes this? | Piracy
+Which piece of legislation would most directly apply to someone illegally downloading copyrighted music? | The Copyright Design and Patents Act 1988
+Which piece of legislation would apply to a hacker gaining unauthorised access to a company's database? | The Computer Misuse Act 1990
+Which piece of legislation regulates government agencies tapping phone calls? | The Regulation of Investigatory Powers Act 2000
+Which piece of legislation would apply if a company stored customer data carelessly, leading to a breach? | The Data Protection Act 1998
+How does piracy relate to the Copyright Design and Patents Act 1988? | Piracy is the illegal access or use of copyrighted work, which is exactly the type of activity the Copyright Design and Patents Act 1988 was created to prevent

@@ -1,0 +1,139 @@
+What is a network? | A set of two or more interconnected devices (such as computers, printers, and servers) that can share resources, exchange data, and communicate with each other
+A set of interconnected devices designed to share resources, exchange data, and communicate — what is this called? | A network
+What are the three main purposes of a network? | Data and resource sharing, communication, and collaboration
+What is a network protocol? | A set of rules and formats that define how devices communicate with each other over a network
+A set of rules defining how two computers communicate with each other — what term describes this? | A protocol
+Why are protocols important on a network? | They ensure all devices follow the same rules and standards so that data and signals are interpreted in the same way, enabling successful and secure communication
+What is a standard in a networking context? | A set of guidelines or frameworks that govern how a task should be performed or how a product should function, ensuring compatibility and interoperability across different devices and software
+Why are standards needed in a network? | They enable devices from different manufacturers to work together seamlessly, ensure data is correctly interpreted by receiving devices, support network expansion, and foster innovation by providing common ground
+What does HTTP stand for and what is it used for? | HyperText Transfer Protocol — the primary protocol for transferring web content (text, images, video) using a request-response model
+What does HTTPS provide that HTTP does not? | Encryption for security, used for secure transactions like online banking and shopping
+What does SMTP stand for and what is its function? | Simple Mail Transfer Protocol — the standard protocol for sending email messages between servers
+What does FTP stand for and what is it used for? | File Transfer Protocol — used for transferring files from one host to another over a network, with authentication and directory management
+What does ARP stand for and what does it do? | Address Resolution Protocol — translates IP addresses into MAC (Media Access Control) addresses to ensure packets reach the correct device on a network
+A protocol that translates IP addresses into MAC addresses — what is this? | ARP (Address Resolution Protocol)
+What does TCP stand for and what does it provide? | Transmission Control Protocol — provides reliable, ordered, and error-checked delivery of a stream of packets
+What does UDP stand for and how does it differ from TCP? | User Datagram Protocol — a simpler, connectionless protocol that does not guarantee delivery or order, making it faster than TCP but less reliable
+How does TCP differ from UDP? | TCP provides reliable, ordered, error-checked delivery and establishes a connection before sending data. UDP is connectionless, does not guarantee delivery or order, and is faster because it skips error-checking
+What does IP stand for and what is its primary function? | Internet Protocol — addresses and routes packets of data from the source to the target device
+What is protocol layering? | The division of network protocols into layers, each performing specific functions, allowing modular design, simpler troubleshooting, and interoperability
+Dividing network protocols into layers that each perform specific functions — what is this called? | Protocol layering
+Give four benefits of protocol layering | Modularity (easier to design and troubleshoot), interoperability (different technologies work together), ease of updates (change one layer without affecting others), specialisation (each layer focuses on its own functions)
+Explain why layering allows ease of updates | Changes can be made to one layer without affecting other layers, so updates and improvements can be implemented independently
+What are the four layers of the TCP/IP model, from top to bottom? | Application, Transport, Internet (Network), Link
+What does TCP/IP stand for? | Transmission Control Protocol / Internet Protocol
+What is the role of the application layer in the TCP/IP model? | It interacts directly with software applications (e.g. web browsers, email clients), selects the appropriate protocol (HTTP, FTP, SMTP), and prepares data for transmission through encapsulation
+What is the role of the transport layer in the TCP/IP model? | It establishes an end-to-end connection, splits data into packets, labels each packet with a sequence number and port number, and requests retransmission of any lost packets
+What is the role of the internet (network) layer in the TCP/IP model? | It adds source and destination IP addresses to each packet and routes packets across the network using those addresses
+What is the role of the link layer in the TCP/IP model? | It adds MAC addresses of source and destination devices, prepares packets for physical transmission, and converts digital data into electrical, optical, or wireless signals
+The link layer is also known as what? | The network interface layer
+What happens to data at each layer of the TCP/IP model during transmission? | Each layer adds its own header (encapsulation) before passing the data down to the next layer
+What happens at the receiving end in the TCP/IP model? | Each layer removes its specific header (de-encapsulation) and performs its tasks, from link layer up to application layer, to reconstruct the original data
+What is encapsulation in the context of the TCP/IP model? | The process where each layer adds its own header to the data before passing it to the layer below
+What is a socket address? | The combination of an IP address and a port number, used to specify which device and which application on that device should receive the data
+What is a packet? | A small unit of data that contains a payload (the actual data), a header (with metadata like source and destination IP addresses), and a footer/trailer (for error-checking)
+What three components does a packet contain? | A header (metadata such as IP addresses and sequence number), a payload (the actual data), and a footer/trailer (checksum for error-checking)
+What is an IP address? | A unique numerical identifier assigned to a device on a network, used to deliver packets to the correct destination
+What are the two versions of IP addresses currently in use? | IPv4 (e.g. 104.22.74.202) and IPv6 (e.g. 0000:0000:0000:0000:0000:ffff:6816:4aca)
+What is the Domain Name System (DNS)? | A distributed system that translates human-readable domain names into numeric IP addresses that computers use to identify each other on a network
+A system that translates human-readable domain names into IP addresses — what is this? | The Domain Name System (DNS)
+Why is DNS needed? | Without DNS, users would have to remember the IP address of every website they want to visit. DNS allows the use of easily remembered domain names instead
+What is a DNS resolver? | The first stop in a DNS lookup, usually provided by your ISP or a third-party service, which checks its cache before querying further DNS servers
+What is the role of a root DNS server? | It directs the DNS resolver to the appropriate Top-Level Domain (TLD) server based on the domain extension (e.g. .com, .org, .uk)
+What is a TLD server? | A Top-Level Domain server that stores information about domains within its TLD and directs the resolver to the authoritative DNS server for a specific domain
+What is an authoritative DNS server? | The DNS server that holds the definitive IP address record for a specific domain and provides this to the resolver
+Describe the DNS lookup process when you type a URL into a browser | The browser checks local cache, then queries the DNS resolver, which checks its cache. If not cached, the resolver queries a root server, then a TLD server, then the authoritative DNS server, which returns the IP address. The browser then sends an HTTP/HTTPS request to that IP
+What is DNS propagation? | The process of updating DNS records across DNS servers when a domain is newly registered or a server changes its IP address
+What is a LAN? | A Local Area Network — a network contained within a small geographical area, typically with all hardware owned by a single entity
+A network contained within a small geographical area where the hardware is owned by a single entity — what is this? | A LAN (Local Area Network)
+What is a WAN? | A Wide Area Network — connects multiple LANs over a large geographical area, typically using third-party connections
+A network that connects multiple LANs over a large geographical area — what is this? | A WAN (Wide Area Network)
+How does a LAN differ from a WAN? | A LAN covers a small geographical area with hardware owned by one entity, making it more secure. A WAN spans large geographical areas using third-party connections (leased lines, fibre, satellite), making it less secure but enabling remote communication
+Why is a LAN typically more secure than a WAN? | All the hardware and connections in a LAN are owned by the organisation, whereas WANs use third-party infrastructure where data travels across public networks
+Give two advantages of a LAN | Centralised management of updates, backups and software installations; ability to share resources such as printers and files across the network
+Give two disadvantages of a LAN | If hardware fails the network may not function; networks are more prone to attacks than standalone computers
+Give two advantages of a WAN | Enables communication and data sharing between offices in different locations; allows access to central servers and shared databases from anywhere
+Give two disadvantages of a WAN | Typically slower than LANs due to greater distances; more expensive to set up and maintain because of leased lines or ISP costs
+What is the largest example of a WAN? | The Internet, which is made up of a series of smaller interconnected networks
+What is packetising? | The process of dividing a large message into smaller, manageable units called packets, each of which can be sent individually over the network
+What is packet switching? | A networking communication method that breaks data into smaller packets, sends them separately along potentially different routes, and reassembles them at the destination
+A method of data transmission where a message is broken into parts sent independently over different routes and reassembled at the destination — what is this? | Packet switching
+What is circuit switching? | A communication method where a dedicated communication path is established between two devices for the entire duration of their conversation, with all data sent along the same route
+A method of data transmission where a dedicated path is maintained between two devices for the entire conversation — what is this? | Circuit switching
+Give two advantages of packet switching | Efficient use of network resources (packets use different paths, maximising bandwidth); more reliable (only lost packets need resending, not the entire data stream)
+Give two disadvantages of packet switching | Not ideal for real-time services (video calls, VoIP) which need steady data streams; packets can arrive out of order, requiring reassembly and error-checking
+Give two advantages of circuit switching | Ideal for real-time services with constant, steady data transmission; no delays since a dedicated path is established; data arrives in order
+Give two disadvantages of circuit switching | Less efficient as resources remain allocated even when no data is being sent; more costly due to dedicated line requirements; less scalable
+Why is packet switching not ideal for real-time services like video calling? | Packets may take different routes and arrive out of order or with variable delays, causing disruption to services that require a steady, continuous stream of data
+Why is circuit switching less efficient than packet switching? | The dedicated path remains allocated for the entire duration of communication even during periods when no data is being transmitted, wasting bandwidth
+What information is typically found in a packet header? | Source IP address, destination IP address, sequence number, protocol, packet length, and checksum
+What is the purpose of the sequence number in a packet header? | It helps reassemble the packets back into the correct order at the receiving end
+What is the purpose of the checksum in a packet? | It is a value used for error-checking to detect whether errors occurred during transmission
+What is Time To Live (TTL) in a packet header? | A value that limits how long a packet can travel across the network, preventing it from circulating indefinitely
+What is hacking? | Gaining unauthorised access to a system or network to steal or manipulate data, disrupt services, or cause damage
+What is a computer virus? | Malicious software that attaches itself to a legitimate program or file and replicates itself to spread to other programs or files, potentially deleting data or damaging hardware
+How does a worm differ from a virus? | A worm is a standalone program that can spread and replicate itself over networks without needing to attach to a host file, whereas a virus must attach to a legitimate program
+What is a Trojan horse (in computing)? | A program that disguises itself as a legitimate program or file, but when installed can delete data or damage hardware
+What is spyware? | Software that records all key presses and transmits them to a third party without the user's knowledge
+What is ransomware? | Malware that encrypts the user's files and demands a ransom payment to decrypt them, causing data loss and financial damage
+What is adware? | Software that displays unwanted advertisements on a computer without the user's consent, sometimes containing spyware or linking to viruses
+What is a Denial of Service (DoS) attack? | An attack where a computer floods a server with many requests simultaneously, overwhelming it so it crashes or becomes unavailable to legitimate users
+How does a DDoS attack differ from a DoS attack? | A DDoS (Distributed Denial of Service) attack uses multiple computers (bots) to flood the server with requests, whereas a DoS attack comes from a single source
+What is SQL injection? | An attack technique where malicious SQL statements are inserted into an entry field on a website for execution, potentially exposing the database to hackers
+What is phishing? | An attack where the user receives a legitimate-looking email containing a link to a fake website, where they are encouraged to enter sensitive personal details
+What is pharming? | A cyber attack where malware redirects a user from a legitimate website to a fake website (without their knowledge) to steal personal details
+How does pharming differ from phishing? | Phishing uses fake emails with links to trick users into visiting bogus sites. Pharming uses malware to automatically redirect users from legitimate sites to fake ones without requiring them to click a link
+What is social engineering in cybersecurity? | Manipulating individuals through psychological techniques to gain access to confidential information or to make them perform actions that benefit the attacker
+Give three examples of social engineering techniques | Posing as someone else (e.g. IT support) to gain trust and access, enticing victims with desirable items to extract information, leaving infected USB drives in public places with tempting labels
+What is a firewall? | A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules (packet filters)
+How does a firewall work? | It sits between the user and the Internet with two NICs, examines packets against preconfigured rules (packet filters) checking source IP, destination IP, protocols, and ports, then allows, drops, or rejects packets accordingly
+What is the difference between a dropped and rejected packet in a firewall? | A rejected packet sends an alert to the sender notifying them of the error, whereas a dropped packet is silently discarded without notification
+What is packet filtering (static filtering)? | A firewall technique that limits network access by examining the source IP, destination IP, protocols, and ports of packets against administrator-defined rules
+What is two-factor authentication (2FA)? | An additional security layer requiring users to provide two forms of identification, usually a password plus a code sent to their phone or email
+What is a proxy server? | An intermediary server that collects and sends data on behalf of the user, providing anonymity, caching frequently used data, reducing web traffic, and enabling content filtering
+Give three benefits of using a proxy server | User privacy is protected (anonymity), frequently accessed website data can be cached for faster loading, administrators can block access to certain sites
+What is the role of encryption in network security? | Encryption makes data unreadable if intercepted during transmission over the Internet, protecting data security using encryption and decryption keys
+What is a modem? | A modulator-demodulator device that converts digital signals to analogue for transmission over telephone or cable lines, and converts incoming analogue signals back to digital
+A device that converts digital signals to analogue and vice versa for data transmission over telephone or cable lines — what is this? | A modem
+What is a router? | A network hardware device that routes data between networks (e.g. connecting a LAN to the Internet) by analysing data packet headers and determining the best path to the destination
+How does a router forward packets? | It reads the destination IP address in the packet header, looks it up in its routing table, and forwards the packet to the appropriate network or next router
+What is a hop in networking? | Each pass of a data packet from one router to the next on its way to its destination
+What additional functions can a router perform beyond routing? | Assigning IP addresses to devices within the LAN (DHCP), filtering incoming traffic based on IP address/port/protocol, wireless networking, and built-in firewall security
+What is a Network Interface Card (NIC)? | A hardware component (usually built into the motherboard) that enables a device to connect to a network, with a built-in ethernet port and a unique MAC address
+Every NIC has a unique identifier — what is it called? | A MAC address (Media Access Control address)
+What is a MAC address? | A unique hardware identifier assigned to a network interface card during manufacturing, used to identify a device on a local network
+How is a MAC address represented? | As a 48-bit value, typically written as a twelve-digit hexadecimal number
+What is a Wireless Access Point (WAP)? | A device that acts as a central transmitter and receiver of Wi-Fi signals, connecting to the wired network via Ethernet or fibre optic cable and projecting Wi-Fi to a designated area
+What is a hub in networking? | A networking device that connects multiple devices by broadcasting all received data to every connected device, without intelligence about where data should go
+Why is a hub considered a "dumb" device? | It broadcasts every received data packet to all connected devices rather than directing it only to the intended recipient, causing unnecessary traffic and security concerns
+What is a network switch? | A networking device that connects devices on a network and uses a lookup table of MAC addresses to forward data only to the specific device it is intended for
+How does a switch differ from a hub? | A switch uses a MAC address lookup table to send data only to the intended recipient device, whereas a hub broadcasts data to all connected devices. This makes switches more efficient and secure
+How does a switch forward data to the correct device? | When it receives a data packet, it examines the destination MAC address, looks it up in its lookup table (mapping MAC addresses to ports), and forwards the packet only to the corresponding port
+What is a gateway in networking? | A device used when protocols differ between networks — it translates protocols by removing the header from packets and re-adding data using the new protocol
+A device that translates between different network protocols by stripping and re-adding headers — what is this? | A gateway
+What is a client-server network? | A network where powerful server computers control the network and provide services (files, email, web access) to client computers that connect to them
+In a client-server network, what role does the server play? | It hosts, delivers, and manages most resources and services consumed by client devices, with greater processing power than the terminals
+Give two advantages of a client-server network | Easier central management (updates, backups, security); higher reliability as resources are managed centrally; scalability (new clients can be added easily)
+Give two disadvantages of a client-server network | Single point of failure if the server goes down; expensive to set up and maintain, often needing dedicated maintenance staff
+What is a peer-to-peer network? | A network where all computers share equal responsibility with no central server — each device can act as both a server and a client, sharing resources directly
+In a peer-to-peer network, all computers share equal responsibility — what does this mean? | There is no central server. Each machine acts as both client and server, and each user is responsible for their own machine's security, backups, and data
+Give two advantages of a peer-to-peer network | Easy and inexpensive to set up (no dedicated server or admin staff needed); no dependency on a central server so no single point of failure
+Give two disadvantages of a peer-to-peer network | Lack of central control leads to security vulnerabilities; not suitable for large networks due to performance issues; difficult to locate resources; backups must be performed separately
+How does a client-server network differ from a peer-to-peer network? | In client-server, a central server controls resources and all clients depend on it (more secure, more expensive, single point of failure). In peer-to-peer, all devices are equal with no central server (cheaper, less secure, no single point of failure, harder to manage at scale)
+When would a client-server network be more appropriate than peer-to-peer? | For larger organisations where centralised control, security, reliability, and scalability are needed
+When would a peer-to-peer network be more appropriate than client-server? | For home networks, small businesses, or specific applications like file sharing where cost and simplicity are priorities
+What protocols does the application layer of TCP/IP commonly use? | HTTP, HTTPS, FTP, SMTP, POP3, IMAP — depending on the type of application
+What does the transport layer add to each packet? | A port number (so data can be reassembled correctly), the packet number, the total number of packets, and a header with control information
+What does the internet (network) layer add to each packet? | The source and destination IP addresses
+What does the link layer add to each packet? | The MAC addresses of the source and destination network interface cards
+For devices on the same network, what MAC address does the link layer use as the destination? | The MAC address of the recipient computer
+For devices on different networks, what MAC address does the link layer use as the destination? | The MAC address of the router (which will then forward the packet toward its final destination)
+What is the purpose of a port number in networking? | It identifies which application or service on a device should handle the incoming data, allowing multiple services to run on the same device
+What are Ethernet cables used for? | They are the physical cables (e.g. Cat5, Cat5e, Cat6) used to connect devices in a wired network, capable of transferring data at speeds from 10 Mbps to 10 Gbps
+How do fibre-optic cables differ from Ethernet cables? | Fibre-optic cables use light to transmit data, offering much higher speeds and greater data capacity compared to copper-based Ethernet cables
+What does TLD stand for in the context of DNS? | Top-Level Domain — the highest level in the DNS hierarchy (e.g. .com, .org, .uk)
+In the domain name 'leeds.gov.uk', identify the TLD and 2LD | TLD is .uk, 2LD is .gov
+Why might network congestion be a problem with packet switching? | If many packets from different sources compete for the same network paths, congestion can occur, leading to delays and potential packet loss
+Explain why packet switching is more robust against network failures than circuit switching | If one route fails, individual packets can be rerouted along alternative paths. In circuit switching, if the dedicated path breaks, the entire connection fails and must be re-established
+Why does circuit switching waste bandwidth? | The dedicated path remains allocated for the entire duration of communication, even during silent periods when no data is being transmitted
+What is the examiner tip regarding packet and circuit switching questions? | Avoid discussing the "speed" of data transmission. Instead, discuss bandwidth (bits per second), bitrates, or the efficiency of the transmission

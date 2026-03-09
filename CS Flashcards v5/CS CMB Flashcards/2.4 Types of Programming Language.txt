@@ -1,0 +1,138 @@
+What is a programming paradigm? | An established approach to using a programming language to solve a problem, dictating how programs are structured and developed
+An established approach to using a programming language to solve a problem — what is this called? | A programming paradigm
+Why do different programming paradigms exist? | Different paradigms are suited to different types of problems, e.g. procedural for simple sequential tasks, OOP for complex systems with reusable components
+What are the two broad categories of programming paradigm? | Imperative and declarative
+What is the imperative programming paradigm? | A paradigm where code clearly specifies the sequence of actions to be performed
+A paradigm where code clearly specifies the sequence of actions to be performed — what category is this? | Imperative programming
+Which two paradigms fall under the imperative category? | Procedural and object-oriented
+Which two paradigms fall under the declarative category? | Functional and logic
+What is the declarative programming paradigm? | A paradigm that focuses on stating the desired result rather than the exact series of instructions needed to achieve it
+A paradigm that focuses on stating the desired result rather than the steps to achieve it — what is this called? | Declarative programming
+How does imperative programming differ from declarative programming? | Imperative specifies the exact sequence of actions to perform (how). Declarative states the desired result and lets the language determine how to achieve it (what)
+What is procedural programming? | A subtype of imperative programming that uses a sequence of instructions, which may be contained within procedures, executed in a step-by-step manner
+A subtype of imperative programming where instructions are executed step-by-step and grouped into procedures — what paradigm is this? | Procedural programming
+Give three example languages that support procedural programming | C, Pascal, Python
+Why is procedural programming widely used? | It can be applied to a wide range of problems and is relatively easy to write and interpret
+What types of problem is procedural programming suited to? | Problems that can easily be expressed as a series of instructions using sequence, selection, iteration, and recursion
+Give two strengths of procedural programming | Efficient execution of straightforward tasks, and a clear top-to-bottom flow of control
+Give two weaknesses of procedural programming | Can become unwieldy for large programs, and lack of modularity can lead to code redundancy
+Why is procedural programming not ideal for all applications? | It struggles with applications that have complex states or behaviours, and becomes difficult to manage and scale as the system grows
+What is object-oriented programming (OOP)? | A paradigm that organises code around objects (which combine data and functionality via attributes and methods) rather than just functions
+A paradigm that organises code around objects combining data and functionality, rather than functions — what is this? | Object-oriented programming (OOP)
+Give three example languages that support OOP | Java, C#, Python
+What four key concepts underpin OOP? | Classes, inheritance, polymorphism, encapsulation
+Give two strengths of OOP | Enhances modularity through encapsulation, and enables code reuse through inheritance
+Give two weaknesses of OOP | Can lead to unnecessary complexity, and has overhead inefficiency (e.g. memory for objects)
+What is functional programming? | A declarative paradigm where programs are made up of function calls, often combined within each other, and closely linked to mathematics
+A declarative paradigm built on reusing a set of functions, closely linked to mathematics — what paradigm is this? | Functional programming
+Give two example languages that support functional programming | Haskell, C#
+What is logic programming? | A declarative paradigm that defines a set of facts and rules based on the problem, using queries to find answers
+A declarative paradigm that defines facts and rules, then uses queries to derive answers — what paradigm is this? | Logic programming
+Give an example language used for logic programming | Prolog
+Where are declarative programming paradigms commonly used? | Expert systems and artificial intelligence
+How does OOP differ from procedural programming in terms of code organisation? | Procedural organises code around procedures/functions executed sequentially. OOP organises code around objects that combine data (attributes) and behaviour (methods) together
+What are the four main programming structures used in structured programming? | Sequence, selection, iteration, and recursion
+What is sequence in structured programming? | Code is executed line-by-line, from top to bottom
+What is selection in structured programming? | A certain block of code is run if a specific condition is met, using IF statements
+What is iteration in structured programming? | A block of code is executed a certain number of times or while a condition is met, using FOR, WHILE, or REPEAT UNTIL loops
+What is recursion in structured programming? | A function that calls itself repeatedly until a stopping condition (base case) is met
+What is a base case in recursion? | The condition that stops the recursive function from calling itself, preventing infinite recursion
+What is a variable in programming? | A named storage location that holds a data value which can change during program execution
+What is a constant in programming? | A named storage location that holds a value which remains unchanged during program execution
+How does a variable differ from a constant? | A variable's value can change during execution, while a constant's value is fixed once assigned
+What is a subroutine? | A named block of reusable code that performs a specific task, which can be called from elsewhere in the program
+What is string handling? | Operations performed on character strings, such as converting case, slicing, or concatenating
+What is file handling in programming? | Reading data from and writing data to external files
+What is the purpose of assembly language? | To allow developers to write more efficient code with direct access to hardware, sitting between high-level languages and machine code
+Where does assembly language sit in the levels of programming language abstraction? | Between high-level languages (like Python, Java) and machine code (binary)
+Why is assembly language specific to each type of CPU? | Because it directly interacts with the CPU's registers and instruction set, which vary between architectures
+What converts assembly language into machine code? | An assembler
+A program that converts assembly language into machine code is called a [...] | assembler
+How does assembly language relate to machine code in terms of instructions? | Each assembly language instruction is typically equivalent to almost one line of machine code
+Why is assembly language easier to use than machine code? | It uses human-readable mnemonics instead of binary, making instructions easier to understand
+Give two strengths of assembly language | Direct control over hardware, and potential for very efficient optimised code
+Give two weaknesses of assembly language | Hardware-specific so not portable, and difficult to write, debug, and maintain large programs
+What is the Little Man Computer (LMC)? | A hypothetical simplified computer model used for understanding the fundamental operations and mechanics of a computer
+What are the key elements of the LMC model? | Memory, a calculator, an accumulator, and an instruction set
+What does the LMC instruction ADD do? | Adds the value at the given memory address to the value in the accumulator
+What does the LMC instruction SUB do? | Subtracts the value at the given memory address from the value in the accumulator
+What does the LMC instruction STA do? | Stores the value in the accumulator at the given memory address
+What does the LMC instruction LDA do? | Loads the value at the given memory address into the accumulator
+What does the LMC instruction INP do? | Allows the user to input a value, which is placed into the accumulator
+What does the LMC instruction OUT do? | Outputs (prints) the value currently held in the accumulator
+What does the LMC instruction HLT do? | Stops (halts) the program, preventing the rest of the code from executing
+What does the LMC instruction DAT do? | Creates a labelled memory location where data can be stored
+What does the LMC instruction BRA do? | Branches unconditionally to a given address, regardless of the accumulator value
+What does the LMC instruction BRZ do? | Branches to a given address only if the value in the accumulator is zero (conditional branch)
+What does the LMC instruction BRP do? | Branches to a given address only if the value in the accumulator is zero or positive (conditional branch)
+How does BRA differ from BRZ and BRP? | BRA is an unconditional branch (always jumps). BRZ and BRP are conditional branches (only jump if the accumulator is zero or positive/zero respectively)
+How does BRZ differ from BRP? | BRZ branches only when the accumulator equals zero. BRP branches when the accumulator is zero or positive (i.e. non-negative)
+What alternative mnemonics exist for STA in LMC? | STO
+What alternative mnemonics exist for LDA in LMC? | LOAD
+What alternative mnemonics exist for BRA in LMC? | BR
+What alternative mnemonics exist for HLT in LMC? | COB, END
+How are comparisons performed in LMC (e.g. checking if A >= B)? | Subtract B from A using SUB, then use BRP to branch if the result is positive or zero (meaning A >= B)
+In an LMC program, what technique is used to implement a loop? | Use a label to mark the start of the loop body, then use BRP or BRZ to branch back to that label conditionally
+What is an addressing mode? | The way in which an instruction in assembly language or machine code specifies how to access the data (operand) it needs
+The method by which an instruction specifies how to locate its data in memory — what is this called? | An addressing mode
+What are the four main addressing modes? | Immediate, direct, indirect, and indexed
+What is immediate addressing? | The operand in the instruction is the actual data value to be used, not a memory address
+An addressing mode where the operand is the actual data value itself — what mode is this? | Immediate addressing
+What is direct addressing? | The operand gives the memory address where the required data value is stored
+An addressing mode where the operand specifies the memory address holding the data — what mode is this? | Direct addressing
+Which addressing mode does the LMC use? | Direct addressing
+What is indirect addressing? | The operand gives the address of a register or memory location that contains another address, where the actual data is stored
+An addressing mode where the operand points to a location holding another address, which in turn holds the data — what mode is this? | Indirect addressing
+What do square brackets around a register (e.g. [BX]) mean in assembly language? | Treat the value inside the register as a memory address, and use the data found at that memory address
+What is indexed addressing? | An addressing mode where the effective address is calculated by adding the operand value to the value held in an index register
+An addressing mode that combines a base address with an index register value to compute an effective address — what mode is this? | Indexed addressing
+Why is indexed addressing useful? | It allows efficient access to data stored contiguously in memory, such as elements of an array, by adding an offset to a base address
+How does immediate addressing differ from direct addressing? | In immediate addressing, the operand IS the data value. In direct addressing, the operand is the memory address WHERE the data is stored
+How does direct addressing differ from indirect addressing? | In direct addressing, the operand is the address of the data. In indirect addressing, the operand is the address of a location that contains the address of the data (an extra level of indirection)
+Why do addressing modes exist? | They allow a greater number of memory locations to be accessed than the operand size alone would permit, and provide flexibility in how data is located
+What are the two parts of a machine code instruction? | The opcode and the operand
+What does the opcode specify? | The instruction (operation) to be performed
+What does the operand hold? | A value related to the data on which the instruction is to be performed (could be the data itself, an address, or a reference depending on addressing mode)
+Where is the addressing mode encoded within a machine code instruction? | It is part of the opcode
+What is a class in OOP? | A template (blueprint) for creating objects, which defines the attributes (state) and methods (behaviour) that objects of that type will have
+A template that defines the attributes and methods for a type of object — what is this called? | A class
+What is an object in OOP? | A particular instance of a class, created through instantiation, with its own set of attribute values
+A particular instance of a class with its own attribute values — what is this called? | An object
+What is instantiation in OOP? | The process of creating a new object from a class
+The process of creating a new object from a class — what is this called? | Instantiation
+What are attributes in OOP? | Properties that define the state (data) of an object
+What are methods in OOP? | Functions defined within a class that describe the actions (behaviour) an object can perform
+How do attributes differ from methods in OOP? | Attributes store data about the object's state. Methods define the actions/behaviours the object can perform
+What is a constructor method in OOP? | A special method (often called 'new' or '__init__') that is called when a new object is created, setting its initial attribute values
+What is encapsulation in OOP? | The principle of restricting direct access to an object's attributes by making them private, so they can only be accessed or modified through public methods (getters and setters)
+The OOP principle where attributes are declared private and accessed only through public methods — what is this called? | Encapsulation
+Why is encapsulation important? | It protects attributes from being directly accessed or incorrectly modified, making the code more reliable. It also allows classes to be developed independently
+What is a getter in OOP? | A public method that retrieves the value of a private attribute
+What is a setter in OOP? | A public method that sets or modifies the value of a private attribute
+Why are getters and setters used instead of directly accessing attributes? | To enforce encapsulation, ensuring attributes cannot be directly accessed or edited by external code, which improves data integrity and reliability
+What is inheritance in OOP? | A mechanism where a subclass (derived class) acquires all the attributes and methods of a superclass (parent class) and can add its own additional properties
+A mechanism where one class acquires the attributes and methods of another class — what OOP concept is this? | Inheritance
+What is a superclass (parent class) in OOP? | The class from which another class inherits attributes and methods
+What is a subclass (derived class) in OOP? | A class that inherits from a superclass and may have additional attributes and methods of its own
+How is inheritance expressed in pseudocode? | class SubclassName inherits SuperclassName
+Why is inheritance useful? | It allows programmers to reuse existing code from a parent class while adding or modifying features in the subclass, reducing code duplication
+What is polymorphism in OOP? | The ability for objects of different classes to respond differently to the same method call, depending on their class
+The OOP property where the same method produces different outputs depending on the object's class — what is this called? | Polymorphism
+What are the two categories of polymorphism? | Overriding and overloading
+What is method overriding in OOP? | Redefining a method inherited from a superclass within a subclass so that it functions differently and produces a different output
+What is method overloading in OOP? | Defining the same method name with different parameters, so it behaves differently depending on the arguments passed
+How does overriding differ from overloading? | Overriding redefines an inherited method in a subclass to change its behaviour. Overloading defines the same method name with different parameter lists so it can handle different inputs
+Give two advantages of OOP | High level of reusability through inheritance and polymorphism, and encapsulation makes code more reliable by protecting attributes
+Give two disadvantages of OOP | Requires an alternative style of thinking that can be difficult for procedural programmers, and is not suited to all problems (can be overkill for small or simple programs)
+Why does OOP require advance planning? | The problem must be broken down into classes with defined relationships before coding, but a thorough design produces higher-quality software with fewer vulnerabilities
+What is meant by saying OOP uses a high level of abstraction? | Programmers do not need to know the internal implementation details of a class. Once created and tested, classes can be reused as black boxes
+A tested class that can be reused without knowing its internal implementation — what concept is this an example of? | Abstraction (black box approach)
+Why might OOP be unsuitable for smaller problems? | The overhead of designing classes, inheritance hierarchies, and encapsulation adds unnecessary complexity when few components are reused
+How does assembly language differ from high-level languages? | Assembly uses low-level mnemonics mapped almost 1:1 to machine instructions and is processor-specific. High-level languages use abstract syntax independent of hardware and require compilation or interpretation
+Where is assembly language particularly useful? | In embedded systems and situations requiring direct hardware interaction, where performance and control over specific hardware components are critical
+What is structured programming? | A popular subset of procedural programming where control flow is managed using sequence, selection, iteration, and recursion — avoiding unstructured jumps
+A subset of procedural programming that restricts control flow to sequence, selection, iteration, and recursion — what is this called? | Structured programming
+What data types do procedural languages typically provide? | Traditional built-in types such as integers, strings, floats, and booleans, along with data structures like arrays and dictionaries
+Can a single programming language support more than one paradigm? | Yes, most languages like Python support multiple paradigms (e.g. procedural, OOP, and functional)
+What is a mnemonic in the context of assembly language? | An abbreviation for a machine code instruction, used in assembly code to represent an operation (e.g. ADD, SUB, LDA)
+An abbreviation representing a machine code instruction in assembly language — what is this called? | A mnemonic

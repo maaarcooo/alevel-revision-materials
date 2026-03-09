@@ -1,0 +1,38 @@
+What is abstraction in computational thinking? | The act of removing unimportant details from a real problem and focusing only on the details that will form part of the solution
+Removing unimportant details from a problem to focus on the relevant components of the solution — what term describes this? | Abstraction
+What is decomposition? | The act of breaking a problem down into smaller, more understandable, and more easily solved sub-problems
+Breaking a large complex problem into smaller, more manageable sub-problems — what term describes this? | Decomposition
+What is problem decomposition in the context of thinking procedurally? | Taking the problem defined by the user and continually breaking it down into smaller subproblems which can each be solved more easily
+What is procedural abstraction? | Using a procedure to execute sequences of instructions to achieve some goal, where the procedure acts as a unit of computation that performs a single task
+Using a procedure to execute a sequence of instructions to achieve a goal — what term describes this? | Procedural abstraction
+In the context of thinking procedurally, what does the term "procedure" mean? | A unit of computation that performs a single task (not strictly a subroutine that does not return a value)
+How does a function differ from a procedure (in the strict subroutine sense)? | A function is a subroutine that returns a value, whereas a procedure is a subroutine that does not return a value
+What is top-down design? | A method of decomposing a problem by breaking it into major tasks, then breaking those into smaller sub-tasks, continuing until each sub-task can be solved by a single subroutine or module
+Breaking a problem into major tasks, then into smaller sub-tasks until each is solvable by a single subroutine — what design method is this? | Top-down design
+What is another name for top-down design? | Stepwise refinement
+The method of breaking problems into levels, where higher levels give an overview and lower levels specify detailed components — what is this called? | Top-down design (stepwise refinement)
+What three criteria should each sub-task meet at the end of top-down design? | It should be unable to be broken down further, easily solved, and clear
+What is the goal of top-down design? | To structure a program into small, manageable tasks that can each be represented as a single, self-contained subroutine or module
+Why is top-down design the preferred method for approaching very large problems? | It breaks problems into levels of complexity, making them feasible to manage and allowing work to be divided between people according to their skill sets
+What is a hierarchy chart? | A diagram used to show problem decomposition, depicted as a tree structure, where each problem is divided into subproblems until they cannot be divided further
+A tree-structured diagram that shows how modules and subroutines relate to each other through problem decomposition — what is this called? | A hierarchy chart
+Why are hierarchy charts preferred over tables and lists for decomposing larger problems? | Tables and lists quickly become cumbersome for larger problems, whereas diagrams like hierarchy charts visually show the relationships between modules more clearly
+Give two advantages of decomposing a problem into sub-problems | Each subroutine is simpler to test and maintain (especially with unit testing), and subroutines can be reused rather than rewriting code
+Why does decomposition make testing easier? | Each subroutine is self-contained and well-documented, making it easier to find errors using unit testing on individual components
+Why does decomposition support team-based development? | Each task can be allocated to a different developer based on their skill set, with sub-tasks being developed, tested, and then integrated
+What are the two stages of identifying components in thinking procedurally? | First, identify the components of the problem (through abstraction and decomposition), then identify the matching components of the solution
+What should be considered when identifying the components of a solution? | Input/output data types, data structures needed, libraries required, output format, data transformations and constructs, and algorithm efficiency
+Give an example of abstraction in everyday computing | Saving a file: the user does not need to know the underlying procedures for writing data to disk or how the OS represents data using paging and segmentation in RAM
+Give another example of abstraction in everyday computing | Sending an email: the user does not need to know which protocols are used, how data is formatted, or what protocol handshaking occurs
+Why is the order of steps important when constructing a solution from sub-procedures? | Some subroutines require data from other subroutines before they can execute, so operations must be performed in the correct sequence to avoid errors
+Explain why inputs may need to be validated before being passed to other subroutines | Invalid data passed between subroutines could produce incorrect results or cause errors, so inputs must be checked for validity before processing continues
+Why might some subroutines be unable to execute simultaneously? | Because they require data or output from other subroutines, creating a dependency that forces sequential execution
+Give an example of why the order of operations matters in a program | In a fast food delivery app, users must confirm their location before selecting food, and must confirm their order before paying — these constraints must be explicitly coded
+Why must the ordering of operations be explicitly written into software? | Because although the correct order may seem obvious to humans, computers have no inherent understanding of logical sequencing and will execute code in whatever order it is written
+How does identifying the components of a problem differ from identifying the components of a solution? | Identifying problem components involves understanding what needs to be solved (the requirements), while identifying solution components involves deciding how each part will be implemented (data types, structures, algorithms)
+What is the benefit of identifying tasks that can use existing modules, subroutines, or libraries during top-down design? | It reduces the complexity of the development stage by allowing reusable components to be used instead of writing new code from scratch
+Explain why higher levels of a top-down design provide an overview while lower levels provide detail | Higher levels represent the main problem and its major sub-tasks in general terms, while lower levels specify the precise implementation details of each individual component
+In a hierarchy chart, when should you stop breaking sub-problems down further? | When each sub-problem can be represented as a single task that is solvable by a self-contained subroutine or module
+What does it mean for a subroutine to be "self-contained" in the context of modular design? | The subroutine performs a specific, well-defined task with clear inputs and outputs, and can be tested, maintained, and understood independently of other parts of the program
+How does abstraction differ from decomposition? | Abstraction removes unnecessary details to focus on the relevant aspects of a problem, while decomposition breaks the problem into smaller, manageable sub-problems. Abstraction simplifies what is considered; decomposition divides the workload
+Why is it important that each sub-task in top-down design is clear and easily solved? | So that each sub-task can be implemented as a single subroutine, making the code easier to develop, test, debug, and maintain

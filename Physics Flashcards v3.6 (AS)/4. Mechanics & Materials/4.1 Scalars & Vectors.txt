@@ -1,0 +1,39 @@
+Define scalar quantity | A quantity that has magnitude but no direction
+A quantity that has magnitude but no direction — what term is this? | Scalar quantity
+Define vector quantity | A quantity that has both magnitude and direction
+A quantity that has both magnitude and direction — what term is this? | Vector quantity
+What is distance? | The total length of the path taken by an object, regardless of direction. It is a scalar quantity
+What is displacement? | The straight-line distance and direction from the starting point to the finishing point. It is a vector quantity
+The straight-line distance and direction from a starting point to a finishing point — what quantity is this? | Displacement
+How does displacement differ from distance? | Distance is the total path length regardless of direction (scalar). Displacement is the straight line from start to finish with direction (vector)
+What is speed? | The distance travelled by an object per unit time, regardless of direction. It is a scalar quantity
+What is velocity? | The displacement of an object per unit time, including direction. It is a vector quantity
+The displacement of an object per unit time, including direction — what quantity is this? | Velocity
+Explain how an object can have constant speed but changing velocity | The object is changing direction, so its velocity changes even though the magnitude of its speed remains constant
+Is energy a scalar or vector quantity? | Scalar (magnitude but no direction)
+Is momentum a scalar or vector quantity? | Vector (magnitude and direction)
+Is acceleration a scalar or vector quantity? | Vector (magnitude and direction)
+Is pressure a scalar or vector quantity? | Scalar (magnitude but no direction)
+Is electric charge a scalar or vector quantity? | Scalar
+Is density a scalar or vector quantity? | Scalar
+How are vectors represented in diagrams? | By arrows, where the length represents magnitude and the arrowhead indicates direction
+What is the resultant vector? | The single vector produced by adding two or more vectors, also known as the net vector
+What two methods can be used to combine vectors? | Calculation using Pythagoras' theorem (for perpendicular vectors) and scale drawing (for non-perpendicular vectors)
+How is the magnitude of the resultant of two perpendicular vectors found? | Using Pythagoras' theorem: R = sqrt(a squared + b squared)
+How is the direction of the resultant of two perpendicular vectors found? | Using trigonometry, e.g. tan theta = opposite / adjacent
+Describe the triangle method for vector addition | Link the vectors head-to-tail, then draw the resultant from the tail of the first vector to the head of the second
+Describe the parallelogram method for vector addition | Link the vectors tail-to-tail, complete the parallelogram, and the diagonal from the shared tails is the resultant
+How do you subtract vector b from vector a using the triangle method? | Reverse the direction of b to make -b, then add a and -b head-to-tail
+In a scale drawing, how are the magnitude and direction of the resultant vector determined? | Magnitude by measuring the resultant's length with a ruler and converting using the scale, direction by measuring the angle with a protractor
+What is meant by resolving a vector? | Splitting a single vector into two perpendicular components that together have the same effect as the original vector
+A single vector is split into two perpendicular parts that together have the same effect — what is this process called? | Resolving a vector
+When a single vector is broken down into its parts, what are those parts called? | Components
+For a force F at angle theta to the horizontal, what is the horizontal component? | F cos theta
+For a force F at angle theta to the horizontal, what is the vertical component? | F sin theta
+For an object of weight W on a slope at angle theta, what is the component of weight parallel to the slope? | W sin theta
+For an object of weight W on a slope at angle theta, what is the component of weight perpendicular to the slope? | W cos theta
+On a frictionless inclined plane, what force causes the object to accelerate down the slope? | The component of weight parallel to the slope, W sin theta
+On an inclined plane with no motion perpendicular to the surface, what does the normal reaction force R equal? | R = W cos theta
+Under what conditions are the forces on an object in equilibrium? | The object is either at rest or moving at constant velocity
+How are coplanar forces in equilibrium represented in a vector diagram? | As a closed vector triangle where the vectors join head-to-tail to form a closed path
+What does it mean for a vector triangle to be closed? | The vectors, when arranged head-to-tail, form a complete loop with no gap, indicating the net force is zero and the forces are in equilibrium

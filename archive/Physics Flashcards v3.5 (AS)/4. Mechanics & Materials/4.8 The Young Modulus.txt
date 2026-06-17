@@ -1,0 +1,58 @@
+What is the Young modulus? | A measure of the ability of a material to withstand changes in length with an added load
+A measure of a material's ability to resist changes in length when a load is applied — what quantity is this? | The Young modulus
+What property of a material does the Young modulus give information about? | Stiffness
+Why is the Young modulus useful for engineers? | It tells them whether the materials they are using can withstand sufficient forces without deforming excessively
+How is the Young modulus defined in terms of stress and strain? | The ratio of tensile stress to tensile strain
+The Young modulus is the ratio of tensile stress to tensile strain — write this as an equation | Young modulus = tensile stress / tensile strain = FL / (A x deltaL)
+What is the equation for the Young modulus in terms of F, L, A, and deltaL? | E = FL / (A x deltaL)
+In the Young modulus equation E = FL / (A x deltaL), what does F represent? | Force applied (N)
+In the Young modulus equation E = FL / (A x deltaL), what does L represent? | Original length of the material (m)
+In the Young modulus equation E = FL / (A x deltaL), what does A represent? | Cross-sectional area (m^2)
+In the Young modulus equation E = FL / (A x deltaL), what does deltaL represent? | Extension (m)
+What are the units of the Young modulus? | Pascals (Pa)
+Why are the units of the Young modulus the same as those of stress? | Because strain is dimensionless (it has no units), so the units of stress/strain are just the units of stress, which are Pa
+The Young modulus of a material is typically a very large number — what order of magnitude is common? | Gigapascals (GPa)
+What is the Young modulus of aluminium? | 70 GPa
+What is the Young modulus of copper? | 117 GPa
+What is the Young modulus of brass? | 120 GPa
+What is the Young modulus of iron? | 170 GPa
+What is the Young modulus of nickel? | 210 GPa
+What is the Young modulus of steel? | 110 GPa
+Which has a higher Young modulus: copper or steel? | Copper (117 GPa vs 110 GPa)
+Which material in the common metals table has the highest Young modulus? | Nickel (210 GPa)
+How is the Young modulus found from a stress-strain graph? | It equals the gradient of the linear (straight-line) region of the graph
+On a stress-strain graph, in which region does the gradient equal the Young modulus? | The linear region where Hooke's law is obeyed
+What does the area under the linear region of a stress-strain graph represent? | The energy stored per unit volume of the material
+The energy stored per unit volume of a material can be found from what feature of a stress-strain graph? | The area under the graph in the linear (Hooke's law) region
+How does the Young modulus differ from the spring constant (stiffness constant k)? | The Young modulus is a material property (independent of dimensions), while the spring constant depends on the object's length and cross-sectional area
+Explain why a longer wire of the same material has a smaller spring constant but the same Young modulus | A longer wire extends more for the same force (lower k), but the Young modulus accounts for original length and cross-sectional area, so it depends only on the material, not dimensions
+What is a useful mnemonic for remembering whether stress or strain is on top in the Young modulus equation? | "When you're stressed, you show the strain" — stress divided by strain
+What is the aim of the Young modulus required practical? | To measure the Young modulus of a metal in the form of a wire
+What is the independent variable in the Young modulus experiment? | Force (or load) applied to the wire (N)
+What is the dependent variable in the Young modulus experiment? | Extension of the wire (m)
+Name three control variables in the Young modulus experiment | Original length of wire, thickness of wire, and the metal used for the wire
+What is used to measure the diameter of the wire in the Young modulus experiment? | A micrometer screw gauge (or digital callipers)
+Why must you take at least 3 readings of the wire diameter and average them? | To reduce uncertainty on the cross-sectional area, since the wire may not be perfectly uniform
+What is the resolution of a metre ruler? | 1 mm
+What is the resolution of a micrometer? | 0.001 mm
+What is the purpose of the pulley in the Young modulus experiment? | To allow the mass to hang vertically and to reduce friction compared to having the wire run over the edge of the table
+What is the purpose of the tape marker on the wire? | To accurately measure the extension of the wire with the applied load — it should touch the ruler
+Why are wooden blocks used in the Young modulus experiment? | To clamp the wire and keep it taut and straight
+What mass increments are typically added in the Young modulus experiment? | 100 g masses, added one at a time (at least 5 to 10 times)
+In the Young modulus experiment, how do you convert mass (in grams) to load (in newtons)? | Multiply the mass in kg by g (9.81 N/kg)
+What equation is used to calculate the cross-sectional area of the wire from its diameter? | A = pi x d^2 / 4
+What graph is plotted in the Young modulus experiment? | Load (force) on the y-axis against extension on the x-axis
+How do you obtain the Young modulus from a force-extension graph? | Young modulus = gradient of the graph x (L / A), where L is the original length and A is the cross-sectional area
+In the rearranged equation F = (Young modulus x A / L) x deltaL, what does the gradient of a force-extension graph represent? | (Young modulus x A) / L
+After finding the gradient of a force-extension graph, how do you calculate the Young modulus? | Young modulus = gradient x (L / A)
+Name a systematic error in the Young modulus experiment and how to reduce it | Reading extension without a vernier scale — use a vernier scale for more precise readings
+What happens if the wire is extended past its elastic limit during the experiment? | The wire is permanently deformed and will not return to its original length, invalidating subsequent measurements
+How can you check that the wire has not been permanently deformed during the experiment? | Remove the load and check that the wire returns to its original length before taking new readings
+Name a source of random error in the Young modulus experiment | Parallax error from reading the marker position on the ruler
+How are random errors reduced in the Young modulus experiment? | By repeating the experiment for all loads and finding an average extension
+Why should the diameter of the wire be measured in several places? | To reduce uncertainty on the cross-sectional area, since the wire may vary in thickness along its length
+State two safety precautions for the Young modulus experiment | Wear safety goggles in case the wire snaps, and place a cushion or soft surface below the mass hanger in case it falls
+Why should safety goggles be worn during the Young modulus experiment? | The wire is under tension and could snap, posing a risk to the eyes
+Why is a cushion placed below the mass hanger? | To prevent damage or injury if the masses fall off during the experiment
+How does a stress-strain graph differ from a force-extension graph in what it tells you? | A stress-strain graph gives material properties (gradient = Young modulus, independent of dimensions), while a force-extension graph gives object properties (gradient = spring constant, depends on length and area)
+Why is a long wire preferred in the Young modulus experiment? | A longer wire produces a larger extension for the same stress, making the extension easier to measure accurately and reducing percentage uncertainty

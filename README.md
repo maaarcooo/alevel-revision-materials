@@ -1,230 +1,149 @@
 # A-Level Revision Materials
 
-A comprehensive collection of A-Level revision materials for **Computer Science** and **Physics**. This repository includes Anki flashcards, detailed markdown notes, and pre-built Anki deck packages to support effective exam preparation.
+A collection of A-Level revision materials for **Computer Science** (OCR H446) and
+**Physics** (AQA, AS topics). It contains Anki-ready flashcards, Markdown revision
+notes, and pre-built Anki decks.
 
-## Table of Contents
+All content is AI-generated. The exact model and generator skill behind every set is
+recorded in [VERSIONS.md](VERSIONS.md).
 
-- [Content Overview](#content-overview)
-- [Subject Coverage](#subject-coverage)
-- [Directory Structure](#directory-structure)
-- [Content Versions](#content-versions)
-- [How to Use](#how-to-use)
-- [Syllabus Alignment](#syllabus-alignment)
-- [Contributing](#contributing)
-- [Credits](#credits)
+## Current materials
 
-## Content Overview
+The newest set of each type lives at the repository root. Older sets are kept in
+`archive/`.
 
-| Content Type | Description | Format |
-|--------------|-------------|--------|
-| **Flashcards** | Question-answer pairs for active recall | `.txt` (pipe-delimited) |
-| **Anki Decks** | Pre-built spaced repetition decks | `.apkg` |
-| **Revision Notes** | Detailed topic explanations with examples | `.md` (Markdown) |
+| Subject | Flashcards | Notes |
+|---------|-----------|-------|
+| Computer Science | `CS Flashcards v3.5` (Skill v3.5, Opus 4.6) | `CS Notes v3.3` (Skill v3.3, Opus 4.5) |
+| Physics (AS) | `Physics Flashcards v3.6 (AS)` (Skill v3.6) | `Physics Notes v3.7 (AS)` (Skill v3.7) |
 
-### Summary Statistics
+| Content type | Format | Import |
+|--------------|--------|--------|
+| Flashcards | `.txt`, pipe-delimited (`Question \| Answer`) | Anki: Fields separated by `\|` |
+| Notes | `.md` (Markdown) | Any editor, Obsidian, VS Code |
+| Anki decks | `.apkg` | Anki: File > Import |
 
-| Subject | Topics | Flashcard Files | Note Files | Anki Decks |
-|---------|--------|-----------------|------------|------------|
-| Computer Science | 12+ | 98 | 67 | 2 |
-| Physics | 5 | 88 | 70 | 2 |
-
-## Subject Coverage
+## Topic coverage (current sets)
 
 ### Computer Science
 
-| Topic | Flashcards v1 | Flashcards v2 | Flashcards v4 | Flashcards v5 | Notes v1 | Notes v2 | Notes v3 |
-|-------|:-------------:|:-------------:|:-------------:|:-------------:|:--------:|:--------:|:--------:|
-| 1.1 Structure & Function of the Processor | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 1.2 Types of Processor | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 1.3 Input, Output & Storage | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.1 Systems Software | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.2 Applications Generation | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.3 Software Development | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.4 Types of Programming Language | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2.5 Object Oriented Languages | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | - |
-| 3.1 Compression, Encryption & Hashing | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3.2 Databases | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3.3 Networks | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3.4 Web Technologies | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.1-4.3 Data Types, Structures & Algorithms | - | - | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 5. Legal, Moral, Cultural & Ethical Issues | - | - | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 6. Elements of Computational Thinking | - | - | ✓ | - | ✓ | ✓ | Partial |
-| 7. Programming Techniques | - | - | - | - | - | ✓ | - |
-| 8. Algorithms | - | - | - | - | - | ✓ | - |
+| Topic area | Flashcards v3.5 | Notes v3.3 |
+|------------|:---------------:|:----------:|
+| 1. Processors, Input, Output & Storage | ✓ | ✓ |
+| 2. Software & Software Development | ✓ | ✓ |
+| 3. Exchanging Data (compression, databases, networks, web) | ✓ | ✓ |
+| 4. Data Types, Structures & Boolean Algebra | ✓ | ✓ |
+| 5. Legal, Moral, Cultural & Ethical Issues | ✓ | ✓ |
+| 6. Elements of Computational Thinking | ✓ | ✓ |
+| 7. Programming Techniques & Computational Methods | ✓ | — |
+| 8. Algorithms | ✓ | — |
 
-### Physics
+Both current CS sets are organised into per-topic folders (groups 1 to 8 for
+flashcards, 1 to 6 for notes), with simplified numbering. Programming and algorithms
+notes (topics 7 and 8) are not yet covered.
 
-| Topic | Flashcards v1 | Flashcards v2 | Flashcards v3 | Notes v1 | Notes v2 | Notes v3 |
-|-------|:-------------:|:-------------:|:-------------:|:--------:|:--------:|:--------:|
-| **1. Measurements & Their Errors** | | | | | | |
-| 1.1 Use of SI Units & Their Prefixes | - | ✓ | ✓ | - | ✓ | ✓ |
-| 1.2 Limitation of Physical Measurements | - | ✓ | ✓ | - | ✓ | ✓ |
-| **2. Particles & Radiation** | | | | | | |
-| 2.1 Atomic Structure & Decay Equations | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| 2.2 Classification of Particles | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| 2.3 Conservation Laws & Particle Interactions | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| 2.4 The Photoelectric Effect | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| 2.5 Energy Levels & Photon Emission | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| **3. Waves** | | | | | | |
-| 3.1 Longitudinal & Transverse Waves | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| 3.2 Stationary Waves | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| 3.3 Interference | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| 3.4 Diffraction | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| 3.5 Refraction | ✓ | ✓ | ✓ | - | ✓ | ✓ |
-| **4. Mechanics & Materials** | | | | | | |
-| 4.1 Scalars & Vectors | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.2 Moments | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.3 Equations of Motion | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.4 Newton's Laws of Motion | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.5 Linear Momentum & Conservation | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.6 Work, Energy & Power | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.7 Bulk Properties of Solids | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4.8 The Young Modulus | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| **5. Electricity** | | | | | | |
-| 5.1 Current-Voltage Characteristics | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 5.2 Resistance & Resistivity | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 5.3 Circuits & The Potential Divider | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 5.4 Electromotive Force & Internal Resistance | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+### Physics (AS, topics 1-5)
 
-## Directory Structure
+| Topic | Flashcards v3.6 | Notes v3.7 |
+|-------|:---------------:|:----------:|
+| 1. Measurements & Their Errors | ✓ | ✓ |
+| 2. Particles & Radiation | ✓ | ✓ |
+| 3. Waves | ✓ | ✓ |
+| 4. Mechanics & Materials | ✓ | ✓ |
+| 5. Electricity | ✓ | ✓ |
+
+Pre-built Anki decks are available for Waves and Mechanics & Materials in `Anki decks/`.
+
+## Versioning
+
+Versions follow a single rule. Legacy sets generated from hand-written prompt
+templates keep their original **v1** and **v2** labels. Every set generated by a
+**skill** is named after that skill's minor version, so a set built with Skill v3.6 is
+named **v3.6**. Because the generator skills sit at major version 3, all skill-era sets
+read as `v3.x`, and a shared skill version gives a matching label across subjects and
+content types.
+
+Physics sets are tagged `(AS)` because they cover only the AS topics (1-5).
+
+Full per-set detail (model, source blend, date) is in [VERSIONS.md](VERSIONS.md).
+
+## Directory structure
 
 ```
 alevel-revision-materials/
 ├── README.md
+├── VERSIONS.md
 ├── LICENSE
-├── CS CMB Notes v3/                    # Computer Science notes (latest, flat, concise)
-│   └── *.md files                      # Topics 1-6 (partial coverage)
-├── CS Flashcards v5/                   # Computer Science flashcards (latest)
-│   ├── CS CMB Flashcards/              # CMB variant flashcards (topics 1-5)
-│   └── CS PMT defs Flashcards/         # PMT definition-focused flashcards
-├── Physics Gen Notes v3 (Mix)/         # Physics notes (latest, comprehensive, concise)
-│   └── *.md files                      # Includes all 5 topic areas
-├── Physics Flashcards v3/              # Physics flashcards (latest, flat structure)
-│   └── *.txt files                     # PMT, defs, and individual subtopic variants
-└── archive/                            # Older versions of all materials
-    ├── CS CMB Notes v1/
-    ├── CS CMB Notes v2/
-    ├── CS Flashcards v1/
-    ├── CS Flashcards v2/
-    ├── CS Flashcards v4/
-    ├── CS Flashcards v4re/
-    ├── Physics Gen Notes v1 (SME)/
-    ├── Physics Gen Notes v2 (Mix)/
-    ├── Physics Flashcards v1/
-    └── Physics Flashcards v2/
+├── CS Flashcards v3.5/             # current CS flashcards (topics 1-8)
+│   └── 1..8 <topic>/               # subtopic cards + a "<n>. <topic> DEFS" file
+├── CS Notes v3.3/                  # current CS notes (topics 1-6)
+│   └── 1..6 <topic>/               # subtopic notes
+├── Physics Flashcards v3.6 (AS)/   # current Physics flashcards (topics 1-5)
+│   ├── 1..5 <topic>/               # subtopic cards
+│   └── PMT Definitions/            # one DEFS aggregate per topic
+├── Physics Notes v3.7 (AS)/        # current Physics notes (topics 1-5)
+│   ├── 1..5 <topic>/               # subtopic notes
+│   └── PMT Notes/                  # one NOTES aggregate per topic
+├── Anki decks/                     # pre-built .apkg files
+└── archive/                        # superseded versions, same topic-folder layout
+    ├── CS Flashcards v1, v2, v3.4
+    ├── CS Notes v1, v2
+    ├── Physics Flashcards v1 (AS), v2 (AS), v3.3 (AS), v3.5 (AS)
+    └── Physics Notes v1 (AS), v2 (AS), v3.2 (AS)
 ```
 
-### Flashcard Variants
+Every set is organised into per-topic folders. CS flashcards keep each topic's
+definitions aggregate (`DEFS`) inside the topic folder; Physics flashcards keep the
+definition and note aggregates in separate `PMT Definitions` and `PMT Notes` folders.
+The oldest set, `CS Flashcards v1`, keeps its three card sources (`CMB`, `PMT`, `SME`)
+as separate subfolders, since each covers the same subtopics.
 
-- **CMB**: Combine - Flashcards or notes created by combining content sourced from both PMT and SME
-- **PMT**: Physics and Maths Tutor - Content sourced from [Physics & Maths Tutor](https://www.physicsandmathstutor.com/)
-- **SME**: Save My Exams - Content sourced from [Save My Exams](https://www.savemyexams.com/)
-- **defs**: Definitions - Focused on key term definitions and concise explanations
+### Source variants and aggregates
 
-## Content Versions
+- **CMB** Combine: content merged from both PMT and SME.
+- **PMT** [Physics & Maths Tutor](https://www.physicsandmathstutor.com/).
+- **SME** [Save My Exams](https://www.savemyexams.com/).
+- **DEFS** A per-topic definitions aggregate (sourced from PMT).
+- **NOTES** A per-topic note-style aggregate (sourced from PMT).
 
-All materials are AI-generated using different Claude model configurations for quality comparison.
+## How to use
 
-### Version 1
+### Anki decks
 
-| Content Type | Prompt Template | Model |
-|--------------|-----------------|-------|
-| Flashcards | `ankiFlashcardPrompt_v3` | Claude Sonnet 4.5 |
-| Notes | `revisionNotesPrompt_v1` | Claude Sonnet 4.5 (Extended thinking) |
+Install [Anki](https://apps.ankiweb.net/), then double-click an `.apkg` file in
+`Anki decks/` or use File > Import.
 
-### Version 2
+### Text flashcards
 
-| Content Type | Prompt Template | Model |
-|--------------|-----------------|-------|
-| Flashcards | `ankiFlashcardPrompt_v4` | Claude Opus 4.5 |
-| Notes | `revisionNotesPrompt_v2` | Claude Opus 4.5 (Extended thinking) |
+The `.txt` files are pipe-delimited (`Question | Answer`). Import into Anki with File >
+Import and set "Fields separated by: `|`", or use any flashcard app that accepts
+CSV/text.
 
-### Version 3
+### Markdown notes
 
-| Content Type | Generation Method | Model |
-|--------------|-------------------|-------|
-| Notes (Physics) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.2 | Claude Opus 4.5 (Extended thinking) |
-| Notes (CompSci) | [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) Skill v3.3 | Claude Opus 4.5 (Extended thinking) |
-| Flashcards (Physics) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill v3.3 | Claude Opus 4.5 (Extended thinking) |
+Open the `.md` files in any text editor, a Markdown viewer (VS Code, Obsidian, Typora),
+or GitHub, or convert to PDF with pandoc.
 
-### Version 4
-
-| Content Type | Generation Method | Model |
-|--------------|-------------------|-------|
-| Flashcards (CompSci) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill v3.4 | Claude Opus 4.6 (Extended thinking) |
-
-### Version 5
-
-| Content Type | Generation Method | Model |
-|--------------|-------------------|-------|
-| Flashcards (CompSci) | [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) Skill v3.5 | Claude Opus 4.6 (Extended thinking) |
-
-**Key Differences Between Versions:**
-- Version 2 uses more advanced prompts and the Opus 4.5 model compared to v1
-- Version 2 notes are generally more detailed and comprehensive
-- All versions now use flat file structure with individual .md files
-- Physics v2 & v3 include 3 additional topic areas (Measurements, Particles & Radiation, Waves) compared to v1
-- Version 2 flashcards have significantly expanded coverage
-- Physics v3 notes are more concise and focused compared to v2 (~27% smaller file size)
-- Version 3 uses a Claude Skill for generation instead of direct prompt templates
-- Physics Flashcards v3 uses a flat structure with aggregate topic files (PMT, defs) plus individual subtopic files
-- Version 4 uses Claude Opus 4.6 with extended thinking and Skill v3.4 for CS flashcard generation
-- CS Flashcards v4 expands coverage to include topics 4-6 (Data Types, Structures & Algorithms, Legal/Moral/Ethical Issues, Computational Thinking)
-- Version 5 uses Claude Opus 4.6 with extended thinking and Skill v3.5 for CS flashcard generation
-
-## How to Use
-
-### Anki Flashcards
-
-1. Download and install [Anki](https://apps.ankiweb.net/)
-2. Navigate to the `Anki decks APKG/` folder for your subject
-3. Double-click the `.apkg` file or use File > Import in Anki
-4. The deck will appear in your Anki library ready for study
-
-### Text Flashcards
-
-The `.txt` flashcard files use a pipe-delimited format:
-
-```
-Question | Answer
-```
-
-You can:
-- Import directly into Anki (File > Import, select "Fields separated by: |")
-- Use with other flashcard apps that support CSV/text import
-- Review manually or create your own study tools
-
-### Markdown Notes
-
-The `.md` files can be viewed with:
-- Any text editor
-- Markdown viewers (VS Code, Obsidian, Typora)
-- GitHub's web interface
-- Converted to PDF using pandoc or similar tools
-
-## Syllabus Alignment
-
-These materials are primarily aligned with:
+## Syllabus alignment
 
 - **OCR A-Level Computer Science** (H446)
-- **OCR A-Level Physics A** (H556)
+- **AQA A-Level Physics** (AS topics 1-5)
 
-Content may also be useful for AQA and other exam boards covering similar topics.
+Content may also help with other boards covering similar topics. Always verify against
+the official specification.
 
 ## Contributing
 
-Found an error or want to suggest improvements?
-
-1. Open an issue describing the problem or suggestion
-2. Reference the specific file and line/question if applicable
-3. For corrections, provide the accurate information with sources
+Found an error? Open an issue identifying the file and the specific card or section,
+and provide the correction with a source where possible.
 
 ## Credits
 
-- **Content Generation**: Anthropic's Claude AI (Sonnet 4.5, Opus 4.5 & Opus 4.6)
-- **Prompt Engineering**: Repository maintainer
-- **Flashcard Format**: Compatible with [Anki](https://apps.ankiweb.net/) spaced repetition software
+- **Content generation**: Anthropic's Claude (Sonnet 4.5, Opus 4.5, Opus 4.6)
+- **Generators**: the [revision-notes-generator](https://github.com/maaarcooo/claude-skills#revision-notes-generator) and [anki-flashcard-generator](https://github.com/maaarcooo/claude-skills#anki-flashcard-generator) skills
+- **Flashcard format**: compatible with [Anki](https://apps.ankiweb.net/)
 
 ---
 
-*This repository is intended for educational purposes. Always verify information against official exam board specifications and approved textbooks.*
+*For educational use. Always verify information against official exam board
+specifications and approved textbooks.*

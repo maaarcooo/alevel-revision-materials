@@ -1,0 +1,29 @@
+What is the Young Modulus? | The ratio of tensile stress to tensile strain for a material. It indicates the stiffness of the material
+The ratio of tensile stress to tensile strain — what quantity is this? | The Young Modulus
+State the equation for the Young Modulus in terms of F, L, A, and ΔL | E = FL / (AΔL)
+What are the units of the Young Modulus? | Pascals (Pa)
+Explain why the Young Modulus has the same units as stress | Strain is dimensionless (a ratio of two lengths), so dividing stress by strain gives units of Pa
+What is the typical order of magnitude of the Young Modulus for metals? | Gigapascals (GPa)
+How is the Young Modulus determined from a stress-strain graph? | It equals the gradient of the linear region (where Hooke's Law is obeyed)
+What does the area under the linear region of a stress-strain graph represent? | Energy stored per unit volume of the material
+What is the aim of the Young Modulus required practical? | To measure the Young Modulus of a metal in the form of a wire
+In the Young Modulus required practical, what is the independent variable? | Force (load) applied to the wire
+In the Young Modulus required practical, what is the dependent variable? | Extension of the wire
+State the control variables in the Young Modulus required practical | Original length of wire, thickness of wire, and the metal used
+How is the diameter of the wire measured in the Young Modulus practical? | Using a micrometer screw gauge (or digital callipers), taking at least 3 readings at different positions and averaging
+What is the resolution of a micrometer screw gauge? | 0.001 mm
+What is the resolution of a metre ruler? | 1 mm
+What is the purpose of the tape marker in the Young Modulus practical? | To mark a reference point on the wire so extension can be measured against the ruler
+What is the purpose of the pulley in the Young Modulus practical? | To allow the mass to hang vertically, with less friction than the edge of the table
+What equation gives the cross-sectional area of the wire from its diameter? | A = πd² / 4
+What graph is plotted to determine the Young Modulus in the required practical? | Force (load) on the y-axis against extension on the x-axis
+How is the Young Modulus calculated from the force-extension graph? | Young Modulus = gradient of the graph multiplied by L / A, where L is original length and A is cross-sectional area
+What does the gradient of the force-extension graph equal in the Young Modulus practical? | (Young Modulus multiplied by A) / L
+Explain how extending the wire past its elastic limit affects the Young Modulus experiment | The wire becomes permanently deformed, so it no longer returns to its original length and subsequent readings are invalid
+How is permanent deformation of the wire avoided during the Young Modulus practical? | Remove the load after each reading and check the wire returns to its original length before adding the next load
+What is a source of random error in the Young Modulus practical? | Parallax error from reading the position of the marker on the ruler
+How are random errors reduced in the Young Modulus practical? | Repeat the experiment for all loads and calculate an average extension
+Why should the diameter be measured at several positions along the wire? | To reduce the uncertainty in the cross-sectional area, since the wire may not be perfectly uniform
+How can the precision of extension measurements be improved in the Young Modulus practical? | Use a vernier scale instead of a standard metre ruler
+State the safety precautions for the Young Modulus practical | Wear safety goggles in case the wire snaps. Place a cushion or soft surface below the mass hanger in case it falls
+Why does using a longer wire improve the Young Modulus experiment? | A longer wire produces a larger extension for the same load, reducing the percentage uncertainty in extension measurements

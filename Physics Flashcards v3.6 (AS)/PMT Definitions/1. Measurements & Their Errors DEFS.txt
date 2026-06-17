@@ -1,0 +1,21 @@
+Define accuracy in the context of measurement | A measure of how close a measurement is to the true value
+A measure of how close a measurement is to the true value — what term is this? | Accuracy
+Define precision in the context of measurement | A measure of how close a measurement is to the mean value. It indicates the magnitude of random errors, not proximity to the true value
+A measure of how close a measurement is to the mean value — what term is this? | Precision
+What is a random error? | Unpredictable variation between measurements that leads to a spread of values about the true value
+Unpredictable variation between measurements that leads to a spread of values about the true value — what term is this? | Random error
+How can random error be reduced? | By taking repeat measurements
+What is a systematic error? | An error that causes all readings to differ from the true value by a fixed amount
+An error that causes all readings to differ from the true value by a fixed amount — what term is this? | Systematic error
+How can systematic error be corrected? | By using a different technique or apparatus (repeat readings do not remove it)
+What does it mean for a measurement to be repeatable? | The same experimenter can obtain the same value when repeating the measurement using the same method and equipment
+The same experimenter obtains the same value when repeating a measurement using the same method and equipment — what term describes this? | Repeatable
+What does it mean for an experiment to be reproducible? | A different experimenter can obtain the same results using a different method and different apparatus
+A different experimenter obtains the same results using a different method and different apparatus — what term describes this? | Reproducible
+What is the resolution of a measuring instrument? | The smallest change in a quantity that causes a visible change in the reading the instrument records
+The smallest change in a quantity that causes a visible change in the reading a measuring instrument records — what term is this? | Resolution
+What is uncertainty in the context of measurement? | The interval within which a value is said to lie, with a given level of confidence
+The interval within which a value is said to lie, with a given level of confidence — what term is this? | Uncertainty
+How does accuracy differ from precision? | Accuracy: closeness to the true value. Precision: closeness to the mean value
+How does random error differ from systematic error? | Random error causes unpredictable spread about the true value. Systematic error shifts all readings by a fixed amount
+How does repeatable differ from reproducible? | Repeatable: same experimenter, same method, same equipment. Reproducible: different experimenter, different method, different apparatus

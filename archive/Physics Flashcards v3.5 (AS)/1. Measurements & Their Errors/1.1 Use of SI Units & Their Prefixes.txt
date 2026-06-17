@@ -1,0 +1,91 @@
+What are SI Base Units? | The internationally standardised system of measurement units from which all other units can be derived, used officially in almost every country
+The internationally standardised system of units from which all other units are derived — what is this called? | SI Base Units
+How many SI base units are there in total? | Seven (six are required for AQA A-Level Physics)
+What is the SI base unit of mass? | Kilogram (kg)
+What is the SI base unit of length? | Metre (m)
+What is the SI base unit of time? | Second (s)
+What is the SI base unit of electric current? | Ampere (A)
+What is the SI base unit of temperature? | Kelvin (K)
+What is the SI base unit of amount of substance? | Mole (mol)
+The kilogram (kg) is the SI base unit of which quantity? | Mass
+The metre (m) is the SI base unit of which quantity? | Length
+The second (s) is the SI base unit of which quantity? | Time
+The ampere (A) is the SI base unit of which quantity? | Electric current
+The kelvin (K) is the SI base unit of which quantity? | Temperature
+The mole (mol) is the SI base unit of which quantity? | Amount of substance
+What are derived units? | Units that are constructed from combinations of the seven SI base units
+Units constructed from combinations of SI base units are called what? | Derived units
+How do you deduce the SI base units of a derived unit? | Use the definition (equation) of the quantity and substitute in base units
+What is the Newton (N) in SI base units? | kg m s⁻²
+The SI base units kg m s⁻² correspond to which derived unit? | Newton (N)
+Which equation is used to derive the base units of the Newton? | Force = mass × acceleration (F = ma)
+What is the Joule (J) in SI base units? | kg m² s⁻²
+The SI base units kg m² s⁻² correspond to which derived unit? | Joule (J)
+Which equation is used to derive the base units of the Joule? | Energy = ½ × mass × velocity² (Ek = ½mv²)
+What is the Pascal (Pa) in SI base units? | kg m⁻¹ s⁻²
+The SI base units kg m⁻¹ s⁻² correspond to which derived unit? | Pascal (Pa)
+Which equation is used to derive the base units of the Pascal? | Pressure = force ÷ area (P = F/A)
+How does the derivation of the Pascal build on the Newton? | Pa = N ÷ m² = (kg m s⁻²) ÷ m² = kg m⁻¹ s⁻²
+What are powers of ten? | Numbers achieved by multiplying 10 by itself repeatedly, used to express very large or very small quantities
+What does the prefix tera (T) represent? | 10¹²
+What does the prefix giga (G) represent? | 10⁹
+What does the prefix mega (M) represent? | 10⁶
+What does the prefix kilo (k) represent? | 10³
+What does the prefix centi (c) represent? | 10⁻²
+What does the prefix milli (m) represent? | 10⁻³
+What does the prefix micro (μ) represent? | 10⁻⁶
+What does the prefix nano (n) represent? | 10⁻⁹
+What does the prefix pico (p) represent? | 10⁻¹²
+What does the prefix femto (f) represent? | 10⁻¹⁵
+The power of ten 10¹² corresponds to which SI prefix? | Tera (T)
+The power of ten 10⁹ corresponds to which SI prefix? | Giga (G)
+The power of ten 10⁶ corresponds to which SI prefix? | Mega (M)
+The power of ten 10³ corresponds to which SI prefix? | Kilo (k)
+The power of ten 10⁻² corresponds to which SI prefix? | Centi (c)
+The power of ten 10⁻³ corresponds to which SI prefix? | Milli (m)
+The power of ten 10⁻⁶ corresponds to which SI prefix? | Micro (μ)
+The power of ten 10⁻⁹ corresponds to which SI prefix? | Nano (n)
+The power of ten 10⁻¹² corresponds to which SI prefix? | Pico (p)
+The power of ten 10⁻¹⁵ corresponds to which SI prefix? | Femto (f)
+Express 5 kN in Newtons | 5 × 10³ N = 5000 N
+Express 7 nC in Coulombs | 7 × 10⁻⁹ C = 0.000000007 C
+What is an electronvolt (eV)? | The energy transferred when one electron moves through a potential difference of 1 V, equal to 1.6 × 10⁻¹⁹ J
+A unit of energy equal to 1.6 × 10⁻¹⁹ J is called what? | One electronvolt (1 eV)
+From which equation is the electronvolt derived? | W = qV (work done = charge × potential difference)
+How is 1 eV calculated in Joules? | 1 eV = 1.6 × 10⁻¹⁹ C × 1 V = 1.6 × 10⁻¹⁹ J
+How do you convert from Joules to electronvolts? | Divide by 1.6 × 10⁻¹⁹
+How do you convert from electronvolts to Joules? | Multiply by 1.6 × 10⁻¹⁹
+How many Joules is 1 kW h equal to? | 3.6 × 10⁶ J (3.6 MJ)
+How do you convert from Joules to kilowatt-hours? | Divide by 3.6 × 10⁶
+How do you convert from kilowatt-hours to Joules? | Multiply by 3.6 × 10⁶
+Explain the steps to derive that 1 kW h = 3.6 × 10⁶ J | 1 kW h = 1000 W × 3600 s = 3 600 000 W s = 3 600 000 J, since 1 W = 1 J s⁻¹
+What is an order of magnitude? | The power of ten of a number when expressed in scientific notation, used to describe the approximate scale of a quantity
+The power of ten that describes the approximate scale of a quantity is called what? | An order of magnitude
+What is the order of magnitude of 3 × 10⁸? | 10⁸
+What is the order of magnitude of 6 × 10⁸? | 10⁹ (rounded up because 6 > 5)
+Explain how rounding rules apply to orders of magnitude | If the coefficient is less than 5 (e.g. 3 × 10⁸), the order of magnitude is the power itself (10⁸). If the coefficient is 5 or greater (e.g. 6 × 10⁸), the order of magnitude rounds up to the next power (10⁹)
+A quantity is described as "one order of magnitude larger" than another. What does this mean? | It is approximately 10 times larger
+A quantity is described as "two orders of magnitude larger" than another. What does this mean? | It is approximately 100 times (10²) larger
+Why is scientific notation useful in physics? | Physical quantities span a huge range of values, so scientific notation avoids writing many zeros and makes comparison of scales easier
+What is the approximate diameter of an atom? | 10⁻¹⁰ m
+What is the approximate wavelength of UV light? | 10 nm (10⁻⁸ m)
+What is the approximate height of an adult human? | 2 m (order of magnitude 10⁰ m)
+What is the approximate distance between the Earth and the Sun (1 AU)? | 1.5 × 10¹¹ m
+What is the approximate mass of a hydrogen atom? | 10⁻²⁷ kg
+What is the approximate mass of an adult human? | 70 kg
+What is the approximate mass of a car? | 1000 kg
+Approximately how many seconds are there in a day? | 90 000 s (approximately 10⁵ s)
+Approximately how many seconds are there in a year? | 3 × 10⁷ s
+What is the approximate speed of sound in air? | 300 m s⁻¹ (340 m s⁻¹ more precisely)
+What is the approximate power of a standard lightbulb? | 60 W (order of magnitude 10² W)
+What is the approximate value of atmospheric pressure? | 1 × 10⁵ Pa
+What is the approximate length of an ant? | 9 × 10⁻⁴ m (order of magnitude 10⁻³ m)
+What is the approximate length of a bacterium? | 2 × 10⁻⁶ m (order of magnitude 10⁻⁶ m)
+What is the approximate distance to the edge of the observable universe? | 4.40 × 10²⁶ m
+What is the approximate distance from Earth to Neptune? | 4.5 × 10¹² m
+Estimate the energy required for a 70 kg person to walk up a 3 m flight of stairs | Energy = mgh = 70 × 10 × 3 = 2100 J (order of magnitude 10³ J)
+What equation is used to estimate the energy needed to climb stairs? | E = mgh (gravitational potential energy)
+How does the order of magnitude of the diameter of an atom (~10⁻¹⁰ m) compare to the width of a galaxy (~10²¹ m)? | They differ by approximately 31 orders of magnitude, meaning a galaxy is roughly 10³¹ times wider than an atom
+How does the Newton differ from the Pascal in SI base units? | The Newton is kg m s⁻² (force), while the Pascal is kg m⁻¹ s⁻² (pressure). They differ because Pa = N/m², so dividing by m² changes m to m⁻¹
+How does the Joule differ from the Newton in SI base units? | The Joule is kg m² s⁻² (energy) while the Newton is kg m s⁻² (force). The Joule has an extra factor of metres because energy = force × distance
+How do electronvolts (eV) and kilowatt-hours (kW h) compare as energy units? | Both are non-SI energy units. 1 eV = 1.6 × 10⁻¹⁹ J (used at atomic/particle scale), while 1 kW h = 3.6 × 10⁶ J (used for domestic/industrial energy consumption). They differ by about 25 orders of magnitude

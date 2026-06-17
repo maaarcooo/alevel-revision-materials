@@ -1,0 +1,51 @@
+What do Newton's laws of motion describe? | The relationship between the forces acting on objects and the motion of those objects
+State Newton's First Law of motion | An object will remain at rest or move with constant velocity unless acted on by a resultant force
+An object will remain at rest or move with constant velocity unless acted on by a resultant force — which law is this? | Newton's First Law of motion
+What is a resultant force? | The vector sum of all the forces acting on a body
+The vector sum of all the forces acting on a body — what is this called? | The resultant force
+What three changes to motion require a resultant force? | Speeding up, slowing down, or changing direction
+If the forces on a body are balanced (resultant force = 0), what are the two possible states of the body? | At rest, or moving at a constant velocity
+When forces are balanced, the forces acting to the left equal [...] | the forces acting to the right
+When forces are balanced, the forces acting upward equal [...] | the forces acting downward
+Why is it useful to split forces into horizontal and vertical components? | Because force is a vector, splitting into components makes it easier to determine if forces are balanced and to calculate the resultant
+A car moves at constant velocity with a driving force of 6 kN. What is the frictional force? | 6 kN (constant velocity means zero resultant force, so driving force equals frictional force)
+Explain why an object moving at constant velocity has zero resultant force acting on it | By Newton's first law, constant velocity means no change in motion, which requires zero resultant force. The forward and backward forces must be balanced.
+What common misconception does Newton's first law address? | The belief that a moving object will naturally slow down to a stop. In fact, an object in motion with no resultant force will continue at constant velocity.
+State Newton's Second Law of motion | The resultant force acting on an object with a constant mass is directly proportional to its acceleration
+The resultant force on an object of constant mass is directly proportional to its acceleration — which law is this? | Newton's Second Law
+What is the equation for Newton's Second Law? | F = ma
+In the equation F = ma, what does F represent and what is its unit? | F = resultant force, measured in newtons (N)
+In the equation F = ma, what does m represent and what is its unit? | m = mass of the object, measured in kilograms (kg)
+In the equation F = ma, what does a represent and what is its unit? | a = acceleration, measured in metres per second squared (m s⁻²)
+In what direction does the acceleration always act relative to the resultant force? | In the same direction as the resultant force
+If the resultant force acts along the direction of an object's motion, what happens to the object? | It speeds up (accelerates) or slows down (decelerates)
+If the resultant force acts at an angle to an object's direction of motion, what happens? | The object changes direction
+When assigning positive and negative directions to forces, what is the general convention for a moving object? | The direction of motion is taken as positive
+Resultant forces on a body can be positive or negative depending on [...] | their direction
+If the resultant force acts in the direction of an object's motion, the acceleration is [...] | positive
+If the resultant force opposes the direction of an object's motion, the acceleration is [...] | negative
+Explain why a resultant force opposing an object's motion causes deceleration, not sudden reversal | The opposing force produces a negative acceleration (deceleration), which gradually reduces the object's velocity. The object slows down progressively rather than instantly changing direction.
+If no drag forces are present, how does the acceleration of a falling object relate to its mass? | The acceleration is independent of mass — all objects fall at the same rate in the absence of air resistance
+A rocket has thrust 15 MN, weight 8 MN, and air resistance 500 kN. What is the resultant force? | 15 MN − 8 MN − 0.5 MN = 6.5 MN upwards
+What is the general convention for positive direction in force calculations? | Forward, upwards, and to the right are positive. Backward, downwards, and to the left are negative.
+State Newton's Second Law in terms of momentum | The resultant force on an object is equal to its rate of change of momentum
+The resultant force on an object equals its rate of change of momentum — which law is this? | Newton's Second Law (momentum form)
+What is the equation for momentum? | p = mv
+What is the equation for force in terms of rate of change of momentum? | F = Δp/Δt
+How is F = ma derived from the momentum form of Newton's second law? | Starting from F = Δp/Δt, since p = mv and mass is constant: F = m(Δv/Δt). Since a = Δv/Δt, this gives F = ma.
+In what direction does the change in momentum act relative to the resultant force? | In the same direction as the resultant force
+How does Newton's First Law differ from Newton's Second Law in terms of what each describes? | The first law describes what happens when there is no resultant force (object stays at rest or constant velocity). The second law describes what happens when there is a resultant force (object accelerates proportionally).
+State Newton's Third Law of motion | If Object A exerts a force on Object B, then Object B will exert a force on Object A which is equal in magnitude but opposite in direction
+If Object A exerts a force on Object B, then Object B exerts an equal and opposite force on Object A — which law is this? | Newton's Third Law
+Newton's first and second laws deal with forces on [...] object(s), while Newton's third law deals with forces between [...] object(s) | a single; two (interacting)
+What four conditions must a Newton's third law force pair satisfy? | Same type of force, same magnitude, opposite in direction, acting on different objects
+Forces that arise in pairs when two objects interact are called [...] | third-law pairs (Newton's third law force pairs)
+In the walking example, what is the third-law pair of forces? | The foot pushes the ground backwards (normal contact force), and the ground pushes the foot forwards (normal contact force)
+What type of force is involved in the walking third-law pair? | Normal contact force (also called support force or normal reaction force)
+Explain why the weight of a book and the normal contact force of a table on the book are NOT a Newton's third law pair | They are different types of force (weight is gravitational, reaction is a contact force), and both act on the same object (the book). Third-law pairs must be the same type and act on different objects.
+A book rests on a table. Identify one correct Newton's third law pair involving the book | The book pushes down on the table (contact force) and the table pushes up on the book (contact force) — same type, same magnitude, opposite direction, different objects
+A book rests on a table. Identify the gravitational third-law pair involving the book | The Earth pulls the book downward (gravitational force) and the book pulls the Earth upward (gravitational force) — same type, same magnitude, opposite direction, different objects
+A book at rest on a table has balanced forces. Is this an example of Newton's first law or Newton's third law? | Newton's first law — the forces (weight and normal contact force) are different types acting on the same object, so they are not a third-law pair. The zero resultant force means the book remains at rest.
+Why is it a mistake to identify any two equal and opposite forces as a third-law pair? | A third-law pair must meet all four criteria: same type of force, same magnitude, opposite direction, and acting on different objects. Two balanced forces on one object fail the different-objects criterion.
+How does a free-body force diagram relate to Newton's laws? | A free-body diagram shows multiple forces acting on a single object, so it relates to Newton's first or second law. Newton's third law requires considering forces on two different objects.
+What is the key distinction between balanced forces (Newton's first law) and a third-law pair (Newton's third law)? | Balanced forces are different types of force acting on the same object with zero resultant. A third-law pair is the same type of force acting on two different objects as a result of their interaction.

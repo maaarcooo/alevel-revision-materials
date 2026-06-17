@@ -1,2 +1,13 @@
-archive/.DS_Store
+# OS cruft
 .DS_Store
+**/.DS_Store
+
+# Copyrighted source material must never be committed to this public repo.
+# Textbooks (Anna's Archive), PMT/SME source PDFs, etc.
+*.pdf
+
+# Local-only source note sets (kept on disk, not published)
+CS PMT Notes/
+CS SME Notes/
+Physics PMT Notes*/
+Physics SME Notes*/

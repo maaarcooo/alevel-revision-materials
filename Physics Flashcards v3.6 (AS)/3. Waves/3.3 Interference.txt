@@ -1,0 +1,72 @@
+What is superposition? | When two or more waves overlap at a point, the displacement at that point equals the sum of the displacements of the individual waves
+When two or more waves overlap, the resultant displacement equals the sum of the individual displacements — what principle is this? | The principle of superposition
+What is interference? | The effect of superposition — the combination of two or more waves producing regions of reinforcement and cancellation
+What is constructive interference? | When two waves superpose so their amplitudes add together, producing a resultant wave with larger amplitude
+What is destructive interference? | When two waves superpose so their amplitudes cancel out, producing a resultant wave with zero amplitude
+What phase relationship between two waves causes constructive interference? | The waves are in phase (peaks align with peaks, troughs with troughs)
+What phase relationship between two waves causes destructive interference? | The waves are in antiphase (peaks of one wave align with troughs of the other)
+When two waves of equal amplitude A interfere constructively, what is the resultant amplitude? | 2A
+When two waves of equal amplitude A interfere destructively, what is the resultant amplitude? | Zero
+What happens when two overlapping waves are neither fully in phase nor in antiphase? | The resultant amplitude is between the constructive maximum and the destructive minimum
+What two conditions must waves satisfy to be coherent? | Same frequency and a constant phase difference
+Same frequency and a constant phase difference — what property of waves do these conditions define? | Coherence
+Why do non-coherent waves not produce a stable interference pattern? | They have different frequencies or a randomly varying phase difference, so the pattern of constructive and destructive interference changes over time
+What is path difference? | The difference in distance travelled by two waves from their sources to the point where they meet
+The difference in distance travelled by two waves from their sources to the point where they meet — what quantity is this? | Path difference
+How does path difference differ from phase difference? | Path difference compares the distances travelled along two paths; phase difference compares the relative positions in the wave cycle at a given point
+What is the path difference condition for constructive interference? | Path difference = n lambda (where n = 0, 1, 2, 3...)
+What is the path difference condition for destructive interference? | Path difference = (n + 1/2) lambda (where n = 0, 1, 2, 3...)
+A two-source experiment gives a path difference of 3.5 lambda at a point. What type of interference occurs? | Destructive, because 3.5 lambda = (3 + 1/2) lambda, an odd number of half wavelengths
+On a wavefront diagram, where does constructive interference occur? | Where a peak meets a peak, or a trough meets a trough (along lines of maximum displacement)
+On a wavefront diagram, where does destructive interference occur? | Where a peak meets a trough
+Why are lasers ideal for analysing diffraction and interference patterns? | Laser light is coherent (constant phase difference, same frequency) and monochromatic (same wavelength)
+What produces bright fringes in a laser diffraction pattern? | Constructive interference
+What produces dark fringes in a laser diffraction pattern? | Destructive interference
+Why are filament bulbs and sodium lamps unsuitable for producing clear interference patterns? | They are non-coherent, so they do not maintain a constant phase relationship needed for a stable pattern
+State three safety precautions when using lasers in an experiment | Never look directly at the beam or its reflection; wear laser safety goggles; place a 'laser on' warning sign outside the room
+What class of laser should be used in school experiments and what is its maximum output? | Class 2, maximum output 1 mW
+How can two-source interference be demonstrated with sound waves? | Two speakers connected to the same signal generator, emitting coherent sound of the same frequency
+What is heard at points of constructive interference between two coherent speakers? | A louder sound (compressions and rarefactions from each wave line up)
+What is heard at points of destructive interference between two coherent speakers? | Zero sound (a compression from one wave meets a rarefaction from the other, and they cancel)
+What technology uses destructive interference of sound waves? | Noise-cancelling headphones
+How can two-source interference be detected for microwaves? | Using a moveable microwave detector that registers maximum signal at constructive interference and zero signal at destructive interference
+What is the relationship between intensity and amplitude of a wave? | I is proportional to A squared (intensity is proportional to the square of the amplitude)
+Describe the interference pattern produced by Young's double-slit experiment with monochromatic light | Equally spaced bright fringes (maxima) of equal width and intensity, separated by dark fringes (minima) of zero intensity
+Describe the setup of Young's double-slit experiment | A coherent monochromatic light source (e.g. laser) passes through a double slit; the two diffracted beams overlap and produce an interference pattern of bright and dark fringes on a distant screen
+In Young's double-slit experiment, what causes the bright fringes (maxima)? | Constructive interference, where the path difference from the two slits is a whole number of wavelengths (n lambda)
+In Young's double-slit experiment, what causes the dark fringes (minima)? | Destructive interference, where the path difference from the two slits is an odd number of half wavelengths ((n + 1/2) lambda)
+What does n represent in the double-slit interference pattern? | The order of the maximum; n = 0 is the central maximum, n = 1 is the first maximum on either side, and so on
+What is the fringe spacing equation for Young's double-slit experiment? | w = lambda D / s
+In the equation w = lambda D / s, what does each variable represent? | w = fringe width (m), lambda = wavelength (m), D = slit-to-screen distance (m), s = slit separation (m)
+How does fringe spacing w change if the wavelength lambda increases? | w increases (w is directly proportional to lambda)
+How does fringe spacing w change if the slit-to-screen distance D increases? | w increases (w is directly proportional to D)
+How does fringe spacing w change if the slit separation s decreases? | w increases (w is inversely proportional to s)
+What colour is the central maximum when white light passes through a double slit? | White, because all wavelengths interfere constructively at that point (path difference = 0)
+In a white-light double-slit pattern, what do the non-central maxima look like? | Each is a spectrum, with violet/blue nearest the central maximum and red furthest away
+Explain why violet/blue light appears nearest the central maximum in a white-light double-slit pattern | Shorter wavelengths are diffracted less, so their fringes form closer to the centre
+What happens to the white-light double-slit fringes far from the central maximum? | The spectra from adjacent orders overlap and merge, appearing increasingly blurred
+What was Newton's (1672) model of light? | Light is a stream of microscopic particles called corpuscles
+What limitation of Newton's corpuscle model led to the wave theory being adopted? | Corpuscles could not explain interference or diffraction effects
+What did Huygens (1678) propose about light? | The Wave Theory of Light, which explains diffraction and refraction using Huygens' wavelets
+What are Huygens' wavelets? | Secondary waves emitted from every point on a wavefront, all travelling at the same speed as the source wave
+What did Young's double-slit experiment (1801) provide? | The first experimental proof that light is a wave, through its ability to undergo constructive and destructive interference
+What did Maxwell (1862) demonstrate about light? | That light consists of oscillating electric and magnetic fields perpendicular to each other, obeying the wave equation — electromagnetic waves
+What did Einstein (1905) discover about light through the photoelectric effect? | That light also behaves as a particle, consisting of packets of energy called photons
+What is wave-particle duality? | The understanding that light behaves both as a wave and as a particle
+Light behaves both as a wave and as a particle — what is this called? | Wave-particle duality
+In the Young's double-slit required practical, what is the aim? | To investigate the relationship between slit-to-screen distance D and fringe width w
+In the Young's double-slit required practical, what is the independent variable? | Distance between the slits and the screen, D
+In the Young's double-slit required practical, what is the dependent variable? | Fringe width, w
+In the Young's double-slit required practical, what are the control variables? | Wavelength of laser light (lambda) and slit separation (s)
+How is fringe width w measured accurately in the Young's double-slit experiment? | Measure the total distance across several fringes using vernier callipers, then divide by the number of fringe widths
+In the Young's double-slit required practical, what graph is plotted and how is wavelength determined from it? | w against D; gradient = lambda/s, so lambda = gradient multiplied by s
+In the diffraction grating required practical, what is the aim? | To calculate the wavelength of laser light using a diffraction grating
+What equation is used to analyse diffraction grating results? | n lambda = d sin theta
+In the equation n lambda = d sin theta, what does each variable represent? | n = order of diffraction, lambda = wavelength (m), d = slit spacing (m), theta = angle between the normal and the nth-order maximum
+How is slit spacing d calculated from the number of slits per metre N? | d = 1/N
+In the diffraction grating practical, how is the angle theta determined from measurements? | theta = arctan(h/D), where h is the distance from the central maximum to the nth-order maximum and D is the grating-to-screen distance
+State two methods to reduce random error in the Young's double-slit or diffraction grating experiment | Measure across all visible fringes and divide by the number of fringes; take 3 to 8 repeat readings and calculate the mean
+How does increasing the grating-to-screen distance D reduce uncertainty in the diffraction grating experiment? | It increases the fringe separation h, reducing its percentage uncertainty
+How does using a diffraction grating with more lines per mm affect measurement precision? | It produces larger fringe separations h, reducing the percentage uncertainty in h
+Why should interference experiments be conducted in a darkened room? | So the fringes are clearly visible against the screen
+State one systematic error precaution in interference experiments using slits or gratings | Use a set square to ensure the beam passes through the slit or grating at normal incidence, avoiding parallax error in fringe width measurements

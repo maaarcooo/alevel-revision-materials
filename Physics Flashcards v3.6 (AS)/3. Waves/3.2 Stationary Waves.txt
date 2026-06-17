@@ -1,0 +1,56 @@
+What is a stationary (standing) wave? | A wave pattern formed by the superposition of two waves travelling in opposite directions, in which the positions of nodes and antinodes are fixed
+A wave pattern formed by the superposition of two waves travelling in opposite directions, in which the positions of nodes and antinodes are fixed — what type of wave is this? | Stationary (standing) wave
+How is a stationary wave usually produced in practice? | By a travelling wave and its reflection
+What conditions must two waves satisfy to form a stationary wave? | Same frequency (and hence wavelength), similar amplitude, travelling in opposite directions along the same line
+How do stationary waves handle energy compared to progressive waves? | Stationary waves store energy, whereas progressive waves transfer energy
+What is a node on a stationary wave? | A point of no vibration (zero displacement at all times)
+A point of no vibration on a stationary wave — what is this called? | A node
+What is an antinode on a stationary wave? | A point of maximum amplitude
+A point of maximum amplitude on a stationary wave — what is this called? | An antinode
+How do nodes and antinodes move on a stationary wave? | Nodes are fixed in position; antinodes oscillate vertically but do not travel along the string
+What is the phase relationship between two points that lie between adjacent nodes on a stationary wave? | They are in phase (0 degree phase difference)
+How can you determine the phase relationship between two points on a stationary wave from the number of nodes between them? | An odd number of nodes between them means they are in anti-phase (180 degrees); an even number means they are in phase (0 degrees)
+What is the distance between two adjacent nodes on a stationary wave? | Half a wavelength (lambda / 2)
+How does the amplitude of points vary along a stationary wave compared to a progressive wave? | On a stationary wave each point has a different amplitude depending on its position; on a progressive wave all points have the same amplitude (in turn)
+How does phase vary along a progressive wave compared to a stationary wave? | Progressive: the phase changes continuously from 0 to 360 degrees within one wavelength. Stationary: points are either in phase or exactly in anti-phase, with no values in between
+State the principle of superposition | When two or more waves with the same frequency arrive at a point, the resultant displacement is the sum of the displacements of each wave
+When two or more waves with the same frequency arrive at a point, the resultant displacement is the sum of the displacements of each wave — what principle is this? | The principle of superposition
+To which types of waves does the principle of superposition apply? | All types: transverse and longitudinal, progressive and stationary
+What happens when two waves of equal frequency and amplitude superpose in phase? | Constructive interference: the resultant wave has double the amplitude
+What happens when two waves of equal frequency and amplitude superpose in anti-phase? | Destructive interference: the resultant wave has zero amplitude
+What type of interference produces nodes on a stationary wave? | Destructive interference (the two waves are in anti-phase at nodes, cancelling out)
+What type of interference produces antinodes on a stationary wave? | Constructive interference (the two waves are in phase at antinodes, adding together)
+How do stationary waves on a stretched string produce sound? | The string vibrates at resonant frequencies, creating stationary wave patterns that produce sound waves in the surrounding air
+What are resonant frequencies in the context of stationary waves on a string? | Specific frequencies at which a whole number of half wavelengths fits exactly on the length of the string, producing stationary waves
+A specific frequency at which a whole number of half wavelengths fits on a string, producing a stationary wave — what term describes this? | Resonant frequency
+How can stationary microwaves be demonstrated? | Place a microwave source in line with a metal reflecting plate and move a small probe detector between them to locate nodes (minima) and antinodes (maxima)
+How can stationary sound waves in an air column be demonstrated? | Place fine powder inside a tube with a loudspeaker at the open end; at certain frequencies the powder collects in evenly spaced heaps at the nodes
+In a stationary sound wave in an air column closed at one end, what must be present at each end? | A node at the closed end and an antinode at the open (loudspeaker) end
+What is the first harmonic (fundamental frequency) on a string fixed at both ends? | The simplest stationary wave pattern: one loop with two nodes (at each end) and one antinode in the centre
+The simplest stationary wave pattern on a string fixed at both ends, consisting of one loop with two nodes and one antinode — what is this called? | The first harmonic (or fundamental frequency)
+What is the wavelength of the first harmonic on a string of length L fixed at both ends? | lambda = 2L
+What is the frequency of the first harmonic on a string of length L? | f1 = v / (2L)
+How many nodes and antinodes does the second harmonic have on a string fixed at both ends? | Three nodes and two antinodes
+What is the wavelength of the second harmonic on a string of length L fixed at both ends? | lambda = L
+What is the frequency of the second harmonic in terms of the first harmonic? | f2 = 2f1
+How many nodes and antinodes does the third harmonic have on a string fixed at both ends? | Four nodes and three antinodes
+What is the wavelength of the third harmonic on a string of length L fixed at both ends? | lambda = 2L / 3
+What is the frequency of the third harmonic in terms of the first harmonic? | f3 = 3f1
+For the nth harmonic on a string fixed at both ends, how many antinodes and nodes are there? | n antinodes and n + 1 nodes
+What is the frequency of the nth harmonic in terms of the first harmonic? | fn = n times f1
+What equation gives the speed of a wave on a stretched string? | v = sqrt(T / mu), where T is the tension in newtons and mu is the mass per unit length in kg per metre
+What equation gives the frequency of the first harmonic of a stretched string? | f = (1 / 2L) times sqrt(T / mu)
+What is the aim of the required practical on stationary waves? | To measure how the frequency of the first harmonic is affected by changing the length, tension, or mass per unit length of the string
+In the stationary waves practical, what are the three possible independent variables? | Length of the string, tension in the string, or mass per unit length of the string
+In the stationary waves practical (varying length), what is the dependent variable? | The frequency of the first harmonic
+When varying length in the stationary waves practical, what must be kept constant? | The tension (same hanging masses) and the mass per unit length (same string)
+How is the first harmonic identified in the stationary waves practical? | Increase the frequency of the vibration generator until the string shows a single loop with maximum vibration amplitude
+In the stationary waves practical (varying length), what graph is plotted and what does the gradient represent? | Plot f against 1/L; the gradient equals v/2, so wave speed v = 2 times the gradient
+How is the tension in the string determined in the stationary waves practical? | T = mg, where m is the total hanging mass and g = 9.81 N/kg
+How is mass per unit length (mu) measured in the stationary waves practical? | Measure a known length of string (e.g. 1 m) and weigh it on a top-pan balance; mu = mass / length
+How can the wave speed found from the f vs 1/L graph be verified? | Compare it with the value calculated from v = sqrt(T / mu) using the measured tension and mass per unit length
+What systematic error should be checked in the stationary waves practical, and how? | The signal generator's frequency readings may drift; verify them with an oscilloscope and allow the generator about 20 minutes to stabilise before taking measurements
+What is the main source of random error in the stationary waves practical? | The sharpness of resonance makes it difficult to judge the exact frequency at which the first harmonic occurs
+How can the random error from sharpness of resonance be reduced in the stationary waves practical? | Adjust the frequency while watching a node (not the antinode), and take repeat readings by finding resonance from both increasing and decreasing frequency
+Why should length measurements span a large range in the stationary waves practical? | Greater resolution is achieved with larger lengths and more half-wavelengths; measurements should span a suitable range such as 20 cm intervals over at least 1.0 m
+State two safety precautions for the stationary waves practical | Use a rubber string instead of metal wire in case it snaps under tension (or wear goggles if using metal wire), and place a crash mat under the hanging masses

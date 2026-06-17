@@ -1,0 +1,43 @@
+What is diffraction? | The spreading out of waves after they pass through a narrow gap or around an obstruction
+The spreading out of waves after they pass through a narrow gap or around an obstruction — what term is this? | Diffraction
+When are diffraction effects most noticeable? | When the wavelength of the wave and the width of the gap are similar in size
+What causes the bright fringes in a single-slit diffraction pattern? | Constructive interference of each part of the wavefront as it passes through the slit
+What causes the dark fringes in a single-slit diffraction pattern? | Destructive interference of each part of the wavefront as it passes through the slit
+How does the central maximum in a single-slit pattern compare to the other bright fringes? | It is much wider and much brighter
+How does the width of the central maximum in a single-slit pattern compare to that of a double-slit pattern? | The single-slit central maximum is much wider
+What happens to the intensity of successive bright fringes moving away from the central maximum in a single-slit pattern? | The intensity decreases with each successive fringe
+What is the intensity at the dark fringes in a single-slit diffraction pattern? | Zero
+Why is the central maximum bright white when white light is diffracted through a single slit? | Constructive interference from all wavelengths (colours) occurs at the central maximum
+What do the non-central maxima look like when white light passes through a single slit? | Each maximum is composed of a spectrum of colours
+In white-light single-slit diffraction, which colour appears nearest the central maximum? | Violet/blue
+Explain why violet/blue appears nearest the central maximum in white-light single-slit diffraction | Shorter wavelengths are diffracted less, so they appear at smaller angles from the centre
+In white-light single-slit diffraction, which colour appears furthest from the central maximum? | Red
+Explain why red appears furthest from the central maximum in white-light single-slit diffraction | Longer wavelengths are diffracted more, so they appear at larger angles from the centre
+As maxima move further from the central maximum in white-light diffraction, how do the observed wavelengths change? | The amount of blue wavelength decreases and the amount of red wavelength increases
+What happens to the spectra far from the central maximum in white-light single-slit diffraction? | The fringe spacing becomes so small that the spectra merge without any space between them
+How does the central maximum intensity in white-light single-slit diffraction compare to monochromatic light? | They are equal in intensity
+How do the non-central maxima in white-light single-slit diffraction compare to those in monochromatic light? | They are wider and less intense
+How does the combined double-slit interference pattern appear when single-slit diffraction is also present? | Equally spaced bright fringes modulated by a single-slit diffraction envelope, with fringe intensity decreasing away from the centre
+What is meant by the 'envelope' of a double-slit interference pattern? | The overall single-slit diffraction intensity profile within which the equally spaced double-slit fringes appear
+What happens to a single-slit diffraction pattern when the wavelength of light is increased? | The angle of diffraction increases and the bright maxima become wider
+Which colour of visible light produces the widest fringes in single-slit diffraction? | Red
+What effect does narrowing the slit have on the angle of diffraction? | The angle of diffraction increases
+When the slit is made narrower, what happens to the intensity of the maxima? | It decreases
+When the slit is made narrower, what happens to the width of the central maximum? | It increases (becomes wider)
+When the slit is made narrower, what happens to the fringe spacing? | It increases (fringes are more widely spaced)
+When a wave is diffracted, what property stays constant and what property changes? | The wavelength stays constant; only the amplitude changes
+What is a diffraction grating? | A piece of optical equipment consisting of a large number of very thin, equally spaced parallel slits carved into a glass plate
+A large number of very thin, equally spaced parallel slits carved into a glass plate — what piece of equipment is this? | A diffraction grating
+How does a diffraction grating pattern compare to a double-slit pattern? | The bright fringes are narrower and brighter, and the dark regions are wider and darker
+State the diffraction grating equation | d sin(theta) = n(lambda), where d = slit spacing (m), theta = angle of diffraction from normal, n = order of maxima, lambda = wavelength (m)
+In the diffraction grating equation, from where is the angle theta measured? | From the normal (the centre/zero order), not between two orders of maxima
+How is slit spacing d calculated from the number of lines per unit length N? | d = 1/N
+A diffraction grating has 500 lines per mm. What is the slit spacing in metres? | d = 1/N = 1/(500 x 10^3) = 2.0 x 10^-6 m
+What is the equation for the maximum order of maxima visible from a diffraction grating? | n = d/lambda (setting theta = 90 degrees so sin(theta) = 1)
+If n = d/lambda gives a decimal value, how is the highest visible order determined? | Round down to the nearest integer, since n must be a whole number
+What is the path difference at the nth order maximum of a diffraction grating? | n(lambda)
+How is the angular separation between the first-order and second-order maxima found? | Calculate theta_1 and theta_2 separately using d sin(theta) = n(lambda), then subtract: angular separation = theta_2 - theta_1
+Give two specific uses of diffraction gratings in spectrometers | Measuring the wavelength or frequency of light from a star, and analysing the composition of a star from its absorption/emission spectra
+How are diffraction gratings used in X-ray crystallography? | X-rays are directed at a thin crystal which acts as a diffraction grating, producing a pattern that reveals the atomic spacing in the material
+Why can a crystalline solid act as a diffraction grating for X-rays? | The gaps between atoms in the crystal are similar in size to the wavelength of X-rays
+Give two applications of diffraction gratings beyond spectrometers and X-ray crystallography | Monochromators (selecting specific wavelengths for sample analysis) and selecting the optimum wavelength of light for use in optical fibres

@@ -1,0 +1,55 @@
+Define density | Mass per unit volume of an object
+Mass per unit volume of an object — what quantity is this? | Density
+What is the equation for density? | ρ = m/V
+What is the SI unit of density? | kg m⁻³
+What is the volume of a sphere? | V = (4/3)πr³
+What is the volume of a cylinder? | V = πr²l
+How many m³ is 1 mm³? | 1 × 10⁻⁹ m³ (divide by 1000³)
+How many m³ is 1 cm³? | 1 × 10⁻⁶ m³ (divide by 100³)
+State Hooke's Law | The extension of a material is directly proportional to the applied force (load) up to the limit of proportionality
+What is the equation for Hooke's Law? | F = kΔL
+What is the spring constant? | A measure of the stiffness of a material (units: N m⁻¹)
+A measure of the stiffness of a material (N m⁻¹) — what quantity is this? | Spring constant (k)
+How is extension calculated? | Extension = stretched length − unstretched length
+How is the Hooke's law region shown on a force-extension graph? | A straight line through the origin
+What does the gradient of a force-extension graph represent in the Hooke's law region? | The spring constant, k
+What does the gradient of an extension-force graph represent in the Hooke's law region? | 1/k (the reciprocal of the spring constant)
+What is the limit of proportionality? | The point beyond which extension is no longer proportional to the applied force
+What is the elastic limit? | The point beyond which the material will no longer return to its original length when the load is removed
+How does the elastic limit differ from the limit of proportionality? | Limit of proportionality: extension ceases to be proportional to force. Elastic limit: material no longer returns to its original shape. The limit of proportionality is reached first
+Define tensile stress | The force exerted per unit cross-sectional area of a material
+The force exerted per unit cross-sectional area of a material — what quantity is this? | Tensile stress (σ)
+What is the equation for tensile stress? | σ = F/A
+What is the unit of tensile stress? | Pascal (Pa), the same unit as pressure
+Define tensile strain | The extension per unit length of a material
+The extension per unit length of a material — what quantity is this? | Tensile strain
+What is the equation for tensile strain? | Strain = ΔL/L
+Why is strain a dimensionless quantity? | It is the ratio of two lengths (extension divided by original length), so units cancel
+What unit constraint applies when calculating strain from ΔL and L? | Both must be in the same units, but they do not need to be in metres
+Define ultimate tensile stress | The maximum force per original cross-sectional area a wire can support until it breaks
+The maximum force per original cross-sectional area a wire can support before breaking — what quantity is this? | Ultimate tensile stress (UTS)
+What is yield stress? | The force per unit area at which the material extends plastically for no or a small increase in stress
+What does the area under the straight-line region of a stress-strain graph represent? | Elastic strain energy stored per unit volume
+What is the breaking point on a stress-strain graph? | The point at which the material fractures
+What does the area under a force-extension graph represent? | The work done on the material (or elastic strain energy stored)
+What is the equation for elastic strain energy when Hooke's law is obeyed? | E = ½FΔL
+What is the alternative equation for elastic strain energy using the spring constant? | E = ½k(ΔL)²
+What three forms of energy does a vertical mass-spring system convert between? | Elastic potential energy (EPE), kinetic energy (KE), and gravitational potential energy (GPE)
+At which position in a vertical mass-spring system is KE at a maximum? | At the equilibrium position, where the mass passes through at maximum speed
+At which position in a vertical mass-spring system is EPE at a maximum? | At maximum extension (the lowest point)
+At which position in a vertical mass-spring system is GPE at a maximum? | At maximum compression (the highest point)
+In a horizontal mass-spring system, what energy conversion occurs? | Only between kinetic energy and elastic potential energy (no GPE)
+Define elastic deformation | Deformation where the object returns to its original shape when the load is removed
+Deformation where the object returns to its original shape when the load is removed — what type of deformation is this? | Elastic deformation
+Define plastic deformation | Permanent deformation where the object does not return to its original shape when the load is removed
+Permanent deformation where the material does not return to its original shape when the load is removed — what type of deformation is this? | Plastic deformation
+What characterises a brittle material? | It fractures with little elastic deformation and negligible plastic deformation (e.g. glass, concrete)
+What characterises a ductile material? | It has a large plastic region and stretches significantly before breaking (e.g. copper)
+How does a brittle material appear on a stress-strain graph? | A straight line through the origin with no or negligible curved region before fracture
+How does a ductile material appear on a stress-strain graph? | A straight line through the origin followed by a significant curve towards the x-axis before fracture
+Why is copper suitable for making wires? | It is a good electrical conductor and is ductile, so it can be drawn into thin wires without breaking
+When a metal wire undergoes plastic deformation and is then unloaded, how does the unloading line relate to the loading line on a force-extension graph? | The unloading line is parallel to the loading line (same gradient) but does not pass through the origin, due to permanent extension
+What does the area between the loading and unloading lines on a force-extension graph represent? | The work done in permanently deforming the material
+On a rubber band's loading-unloading force-extension graph, what does the area between the two curves represent? | Energy converted to thermal energy (heating the rubber band)
+Why does a rubber band become warm when repeatedly stretched and released? | Some elastic strain energy is converted to thermal energy during each loading-unloading cycle
+What is the function of shock absorbers in a vehicle suspension system? | They dampen the compression and rebound of suspension springs by converting kinetic energy into thermal energy

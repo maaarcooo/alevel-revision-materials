@@ -1,0 +1,78 @@
+What is breaking stress? | The maximum stress a material can withstand before failure occurs
+The maximum stress a material can withstand before it fails — what is this called? | Breaking stress
+What does it mean for a material to be brittle? | It shows very little strain before reaching its breaking stress
+A material that shows very little strain before fracturing — what term describes this behaviour? | Brittle
+What is the centre of mass? | The single point through which all the mass of an object can be said to act
+The single point through which all the mass of an object is considered to act — what is this called? | Centre of mass
+State the principle of conservation of energy | Energy cannot be created or destroyed — it can only be transferred into different forms
+State the principle of conservation of momentum | The total momentum of a system before an event equals the total momentum after the event, provided no external forces act
+What condition must be met for conservation of momentum to apply? | No external forces act on the system
+What is a couple? | Two equal and opposite parallel forces acting on an object through different lines of action
+Two equal and opposite parallel forces acting through different lines of action — what is this called? | A couple
+What is the effect of a couple on an object? | It causes rotation without translation
+Define density | Mass per unit volume of a material
+Mass per unit volume of a material — what quantity is this? | Density
+Define efficiency | The ratio of useful output to total input for a given system
+The ratio of useful output to total input — what is this called? | Efficiency
+What is elastic behaviour? | When a material returns to its original shape after the deforming forces are removed, with no permanent deformation
+A material returns to its original shape when the deforming force is removed — what type of behaviour is this? | Elastic behaviour
+What is an elastic collision? | A collision in which the total kinetic energy of the system is the same before and after the collision
+A collision where total kinetic energy is conserved — what type of collision is this? | Elastic collision
+What is the elastic limit? | The force beyond which an object will no longer deform elastically but instead deforms plastically
+The force beyond which a material begins to deform permanently — what is this called? | Elastic limit
+What happens to an object stretched beyond its elastic limit when the force is removed? | It does not return to its original shape — it is permanently deformed
+What is elastic strain energy? | The energy stored in an object when it is stretched
+How can elastic strain energy be determined from a graph? | From the area under a force-extension graph
+The area under a force-extension graph represents what quantity? | Elastic strain energy (equal to the work done to stretch the object)
+What two conditions must be met for an object to be in equilibrium? | The resultant force must be zero AND the resultant moment must be zero
+State Hooke's Law | The extension of an elastic object is directly proportional to the force applied, up to the limit of proportionality
+What is the limit of proportionality in the context of Hooke's Law? | The point up to which extension is directly proportional to the applied force — beyond this, Hooke's Law no longer applies
+What is impulse? | The change of momentum of an object when a force acts on it
+How is impulse calculated? | Impulse = force × time (the product of force and the duration over which it acts)
+The product of force and time of application — what quantity does this give? | Impulse (equal to the change in momentum)
+What is an inelastic collision? | A collision in which the total kinetic energy of the system before the collision is not equal to the total kinetic energy after the collision
+A collision where total kinetic energy is not conserved — what type of collision is this? | Inelastic collision
+How does an elastic collision differ from an inelastic collision? | In an elastic collision, total kinetic energy is conserved. In an inelastic collision, total kinetic energy is not conserved. Both types conserve total momentum (if no external forces act)
+Define moment of a force | The product of a force and the perpendicular distance from the line of action of the force to the pivot
+The product of force and perpendicular distance to the pivot — what quantity is this? | Moment
+Define momentum | The product of an object's mass and velocity
+The product of mass and velocity — what quantity is this? | Momentum
+State Newton's First Law | An object remains in its current state of motion unless acted on by a resultant force
+What does Newton's First Law tell us about acceleration? | An object requires a resultant force to accelerate
+State Newton's Second Law | The sum of the forces acting on an object equals the rate of change of momentum of the object
+The rate of change of momentum of an object equals what? | The sum of the forces (resultant force) acting on it — Newton's Second Law
+State Newton's Third Law | If an object exerts a force on another object, the second object exerts a force back that is equal in magnitude and opposite in direction
+What three properties must a Newton's Third Law force pair share? | Equal magnitude, opposite direction, and they act on different objects
+What is plastic behaviour? | When a material does not return to its original shape after the deforming forces are removed — it is permanently deformed
+A material that remains permanently deformed after the force is removed is showing what type of behaviour? | Plastic behaviour
+How does elastic behaviour differ from plastic behaviour? | In elastic behaviour, the material returns to its original shape when the force is removed. In plastic behaviour, the material is permanently deformed
+State the Principle of Moments | For an object in equilibrium, the sum of clockwise moments about a point equals the sum of anticlockwise moments about that point
+The sum of clockwise moments equals the sum of anticlockwise moments about a point — what principle is this? | Principle of Moments
+What is a scalar quantity? | A quantity that has magnitude only (e.g. mass, length, temperature)
+A quantity with only magnitude and no direction — what type of quantity is this? | Scalar
+What is a vector quantity? | A quantity that has both magnitude and direction (e.g. velocity, displacement, acceleration)
+A quantity with both magnitude and direction — what type of quantity is this? | Vector
+How does a scalar differ from a vector? | A scalar has magnitude only (e.g. mass, temperature). A vector has both magnitude and direction (e.g. velocity, acceleration)
+What is the spring constant? | The constant of proportionality for the extension of a spring under a force
+What does a high spring constant indicate about a spring? | A greater force is needed to achieve a given extension — the spring is stiffer
+The constant of proportionality linking force and extension for a spring — what is this called? | Spring constant
+What is stiffness? | A measure of how difficult it is to stretch a given object
+A measure of how difficult it is to stretch an object — what property is this? | Stiffness
+Define tensile strain | The ratio of an object's extension to its original length
+The ratio of extension to original length — what quantity is this? | Tensile strain
+Why does tensile strain have no unit? | Because it is a ratio of two lengths, so the units cancel
+Define tensile stress | The force acting per unit cross-sectional area
+The force per unit area applied to a material — what quantity is this? | Tensile stress
+What is the unit of tensile stress? | Pascal (Pa)
+How does tensile stress differ from tensile strain? | Stress is force per unit area (measured in Pa). Strain is the ratio of extension to original length (dimensionless, no unit)
+What is terminal speed? | The maximum speed reached when the resistive forces acting on an object equal the driving forces
+The speed at which resistive and driving forces on an object are equal — what is this called? | Terminal speed
+Explain why an object reaches terminal speed | As speed increases, resistive forces (e.g. drag) increase until they equal the driving force. The resultant force becomes zero, so by Newton's First Law, the object stops accelerating
+What is the Young Modulus? | The ratio of stress to strain for a given material
+The ratio of tensile stress to tensile strain — what material property is this? | Young Modulus
+What is the unit of the Young Modulus? | Pascal (Pa)
+Why does the Young Modulus have units of Pa despite strain being dimensionless? | Because Young Modulus = stress / strain, and strain has no units, so the units come entirely from stress (Pa)
+How does stiffness differ from the Young Modulus? | Stiffness describes how hard it is to stretch a specific object (depends on dimensions). The Young Modulus is a material property — the ratio of stress to strain — independent of the object's dimensions
+How does the elastic limit differ from the limit of proportionality? | The limit of proportionality is where extension stops being proportional to force (Hooke's Law ceases to apply). The elastic limit is where the material stops returning to its original shape. The limit of proportionality is reached first
+What is conserved in all collisions (assuming no external forces)? | Total momentum
+What quantity is conserved in elastic collisions but not in inelastic collisions? | Total kinetic energy

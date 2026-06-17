@@ -1,0 +1,57 @@
+Name the four fundamental interactions | Gravity, electromagnetism, strong nuclear (strong interaction), weak nuclear
+Which is the strongest fundamental interaction? | Strong nuclear (strong interaction)
+Which is the weakest fundamental interaction? | Gravity
+What is the range of the electromagnetic and gravitational interactions? | Infinite
+What is the approximate range of the weak force? | Up to 10^-18 m
+What is the approximate range of the strong force? | Approximately 10^-15 m
+Which particles does the gravitational interaction affect? | Particles with mass
+Which particles does the electromagnetic interaction affect? | Particles with charge
+Which particles does the weak interaction affect? | All particles
+Which particles does the strong interaction affect? | Hadrons (particles made of quarks)
+What are exchange (virtual) particles? | Short-lived particles created when two particles interact, carrying the fundamental force between them
+Short-lived particles that carry a fundamental force between interacting particles — what term is this? | Exchange particles (or virtual particles)
+What is another name for exchange particles? | Gauge bosons
+What is the exchange particle of the strong interaction between nucleons? | Pion (pi+, pi-, pi0)
+What is the exchange particle of the strong interaction between quarks? | Gluon
+What is the exchange particle of the weak interaction? | W boson (W+, W-) or Z boson (Z0)
+What is the exchange particle of the electromagnetic interaction? | Virtual photon (gamma)
+What type of interaction does the pion mediate? | Strong interaction (between nucleons)
+What type of interaction does the W or Z boson mediate? | Weak interaction
+What type of interaction does the virtual photon mediate? | Electromagnetic interaction
+What is the theorised exchange particle for the gravitational force? | Graviton (not yet discovered)
+Why does gravity not play a part in particle interactions? | It is so weak it only has a noticeable effect on large masses
+State three properties of the virtual photon | No mass, no charge, and it is its own antiparticle
+Why is the electromagnetic force responsible for binding electrons to atoms? | It carries the attractive force between the negative electrons and the positive nucleus via virtual photons
+Why can leptons not interact via the strong force? | They are not made up of quarks
+What is the weak interaction responsible for? | The radioactive decay of atoms
+What happens during beta-minus decay? | A neutron turns into a proton, emitting an electron and an anti-electron neutrino: n → p + e- + anti-v_e
+Which exchange particle mediates beta-minus decay? | W- boson
+What happens during beta-plus decay? | A proton turns into a neutron, emitting a positron and an electron neutrino: p → n + e+ + v_e
+Which exchange particle mediates beta-plus decay? | W+ boson
+How does the sign of the W boson relate to the type of beta decay? | The sign matches: W- is exchanged in beta-minus decay, W+ in beta-plus decay
+What is electron capture? | A proton in the nucleus absorbs an atomic electron, producing a neutron and an electron neutrino: p + e- → n + v_e
+A proton in the nucleus absorbs an atomic electron, producing a neutron and an electron neutrino — what process is this? | Electron capture
+Which exchange particle mediates electron capture? | W+ boson (the proton acts on the electron)
+Which exchange particle mediates an electron-proton collision? | W- boson (the electron acts on the proton)
+How do electron capture and an electron-proton collision differ despite having the same equation? | The W boson sign differs: W+ for electron capture (proton emits the boson) and W- for electron-proton collision (electron emits the boson)
+On a Feynman diagram, what do the y-axis and x-axis represent? | y-axis represents time, x-axis represents space
+What is a vertex on a Feynman diagram? | A point where particles and exchange particles meet, representing a point of interaction
+A point where particles and exchange particles meet on a Feynman diagram — what is this called? | A vertex
+How are particles represented on a Feynman diagram? | Straight lines with arrows pointing forward in time
+How are exchange particles represented on a Feynman diagram? | Wavy lines with no arrows (except charged W bosons, which may have a directional arrow)
+Where do incoming and outgoing particles appear on a Feynman diagram? | Incoming particles enter at the bottom, outgoing particles leave at the top
+On a Feynman diagram, where are hadrons/quarks positioned relative to leptons? | Hadrons/quarks on the left, leptons on the right; they must never meet at a vertex
+What quantities must be conserved at each vertex of a Feynman diagram? | Charge, baryon number, and lepton number
+In which direction are exchange particles transferred on a Feynman diagram by default? | Left to right, unless an arrow above the wavy line indicates otherwise
+State the rule about crossing lines on a Feynman diagram | Lines must not cross over
+In beta-minus decay, which quark transformation occurs? | A down quark changes to an up quark: d → u
+In beta-plus decay, which quark transformation occurs? | An up quark changes to a down quark: u → d
+Explain how the W- boson carries charge during beta-minus decay at the quark level | The W- boson carries away the negative charge as the down quark (charge -1/3) becomes an up quark (charge +2/3), then decays into the electron and anti-electron neutrino
+Explain how the W+ boson carries charge during beta-plus decay at the quark level | The W+ boson carries away the positive charge as the up quark (charge +2/3) becomes a down quark (charge -1/3), then decays into the positron and electron neutrino
+Name the four quantum numbers checked to determine if a particle interaction is permitted | Charge (Q), baryon number (B), lepton number (L), strangeness (S)
+Besides Q, B, L, and S, what other quantities are conserved in particle interactions? | Energy (mass-energy) and momentum
+In which type of interaction can strangeness change? | Weak interactions only
+By how much can strangeness change in a weak interaction? | 0, +1, or -1
+How do you determine whether a particle interaction is permitted using conservation laws? | Check that Q, B, L, and S are each equal on both sides of the equation; if any is not conserved (except S in weak interactions), the interaction cannot occur
+If strangeness is not conserved but Q, B, and L are all conserved, what can you conclude about the interaction? | It must occur via the weak interaction
+What values can quantum numbers such as Q, B, L, and S take? | Discrete values only (e.g. 0, +1, -1, +1/2, -1/2)

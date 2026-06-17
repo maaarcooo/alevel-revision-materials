@@ -1,0 +1,58 @@
+What is an ammeter? | A device that measures the current in the loop of the circuit it is connected in series with
+A device connected in series to measure current in a circuit loop — what is this called? | An ammeter
+What resistance does an ideal ammeter have? | Zero resistance
+Why must an ammeter be connected in series? | So that all the current flowing through the circuit component also flows through the ammeter, giving an accurate reading
+What is current? | The rate of flow of charge in a circuit
+The rate of flow of charge in a circuit — what quantity is this? | Current
+What is electromotive force (emf)? | The amount of energy transferred by a source to each unit of charge that passes through it
+The energy transferred by a source per unit charge passing through it — what quantity is this? | Electromotive force (emf)
+How does emf differ from potential difference? | Emf is the energy transferred per unit charge by a source, while potential difference is the energy transferred per unit charge by a component
+What is internal resistance? | The resistance to the flow of charge within a source
+The resistance to charge flow within a source — what term describes this? | Internal resistance
+What is the consequence of internal resistance? | Energy is dissipated within the source (as heat), reducing the terminal potential difference
+What is a light dependent resistor (LDR)? | A light sensitive semiconductor whose resistance increases when light intensity decreases
+A light sensitive semiconductor whose resistance increases as light intensity decreases — what component is this? | A light dependent resistor (LDR)
+How does light intensity affect the resistance of an LDR? | As light intensity decreases, resistance increases (and vice versa)
+What is an ohmic conductor? | A conductor for which the current is directly proportional to the potential difference across it, under constant physical conditions
+A conductor where current is directly proportional to potential difference under constant physical conditions — what is this called? | An ohmic conductor
+What condition must be maintained for a conductor to behave ohmically? | Constant physical conditions (e.g. constant temperature)
+State Ohm's law | The current through an ohmic conductor under constant physical conditions is directly proportional to the potential difference across it, with the constant of proportionality being resistance
+In Ohm's law, what is the constant of proportionality between current and potential difference? | Resistance
+State Ohm's law in equation form | V = IR
+What are parallel circuits? | Circuits where components are connected across each other in separate loops
+Components connected across each other in separate loops are said to be connected in [...] | parallel
+What is a potential divider? | A method of splitting a potential difference by connecting two resistors in series, where the total p.d. is split in the ratio of their resistances
+A method of splitting a potential difference using two resistors in series — what is this called? | A potential divider
+In a potential divider, how is the total potential difference shared between the two resistors? | It is split in the ratio of their resistances
+What is resistance? | A measure of how difficult it is for current to flow through a material
+A measure of how difficult it is for current to flow through a material — what quantity is this? | Resistance
+What is resistivity? | A quantity proportional to an object's resistance and cross-sectional area, and inversely proportional to its length
+A quantity proportional to resistance and cross-sectional area, and inversely proportional to length — what is this? | Resistivity
+State the equation for resistivity | ρ = RA / L (where R = resistance, A = cross-sectional area, L = length)
+What happens to the potential difference across resistors connected in parallel? | The potential difference is identical across each resistor
+What happens to the current in a parallel circuit? | The current is split between the resistors
+How do you calculate total resistance for resistors in parallel? | 1/R_total = 1/R₁ + 1/R₂ + ... (inverse of the sum of inverses)
+What happens to the current through resistors connected in series? | The current is identical through each resistor
+How is the potential difference shared across resistors in series? | It is split in the ratio of their resistances
+How do you calculate total resistance for resistors in series? | R_total = R₁ + R₂ + ... (sum of individual resistances)
+What are series circuits? | Circuits where components are connected end to end in one loop
+Components connected end to end in one loop are said to be connected in [...] | series
+What is a superconductor? | A material that has zero resistivity when its temperature is decreased to or below its critical temperature
+A material with zero resistivity at or below its critical temperature — what is this called? | A superconductor
+What is the critical temperature of a superconductor? | The temperature at or below which the material's resistivity drops to zero
+State two applications of superconductors | Producing strong magnetic fields and reducing energy loss when transmitting electric power
+Explain why superconductors reduce energy loss in power transmission | They have zero resistivity, so no energy is dissipated as heat in the conductor when current flows through it
+What is terminal potential difference? | The potential difference across the terminals of a power source, equal to the source's emf minus the voltage drop across its internal resistance
+The p.d. across a source's terminals, equal to emf minus the voltage lost to internal resistance — what is this called? | Terminal potential difference
+State the equation relating emf, terminal p.d., and internal resistance | V = ε - Ir (terminal p.d. = emf minus current times internal resistance)
+What is a thermistor? | A temperature sensitive semiconductor whose resistance increases when temperature decreases
+A temperature sensitive semiconductor whose resistance increases as temperature decreases — what component is this? | A thermistor
+How does temperature affect the resistance of a thermistor? | As temperature decreases, resistance increases (and vice versa)
+What is a voltmeter? | A device used to measure the potential difference across components
+A device used to measure potential difference across components — what is this called? | A voltmeter
+What resistance does an ideal voltmeter have? | Infinite resistance
+Why must a voltmeter have very high resistance? | So that negligible current flows through it, avoiding significantly altering the current in the circuit and ensuring an accurate p.d. reading
+How does an LDR differ from a thermistor? | An LDR's resistance changes with light intensity, while a thermistor's resistance changes with temperature. Both are semiconductors with resistance that increases as the stimulus (light/temperature) decreases
+How does an ammeter differ from a voltmeter in terms of connection and ideal resistance? | An ammeter is connected in series with ideal resistance of zero. A voltmeter is connected in parallel with ideal resistance of infinity
+How do series and parallel circuits differ in terms of current and potential difference? | In series: current is the same through all components, p.d. is split in the ratio of resistances. In parallel: p.d. is the same across all components, current is split between branches
+How does the total resistance formula differ for series and parallel combinations? | Series: R_total = R₁ + R₂ (resistances add). Parallel: 1/R_total = 1/R₁ + 1/R₂ (reciprocals add). Total parallel resistance is always less than the smallest individual resistance

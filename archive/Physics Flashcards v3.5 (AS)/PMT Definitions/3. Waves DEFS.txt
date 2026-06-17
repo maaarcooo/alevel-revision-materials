@@ -1,0 +1,79 @@
+What is amplitude? | A wave's maximum displacement from its equilibrium position
+A wave's maximum displacement from its equilibrium position is called what? | Amplitude
+What is an antinode? | A position of maximum displacement in a stationary wave
+A position of maximum displacement in a stationary wave is called what? | An antinode
+What is cladding on an optical fibre? | A protective layer that improves tensile strength, prevents scratching, and prevents signal transfer between adjacent fibres
+A protective layer on an optical fibre that improves tensile strength, prevents scratching, and stops signal transfer between fibres is called what? | Cladding
+State the three functions of cladding on an optical fibre | Improves tensile strength, prevents scratching, and prevents signal transfer between adjacent fibres
+What does it mean for waves to be coherent? | They have the same wavelength and frequency, with a fixed phase difference between them
+Waves with the same wavelength and frequency, and a fixed phase difference between them, are described as what? | Coherent
+What three conditions are required for coherence? | Same wavelength, same frequency, and a fixed phase difference
+What is a diffraction grating? | A grating with hundreds of slits per millimetre that produces sharper interference patterns
+A grating with hundreds of slits per millimetre that produces sharper interference patterns is called what? | A diffraction grating
+State two uses of diffraction gratings | Calculating atomic spacing and analysing elements
+What is diffraction? | The spreading of waves as they pass through a gap of a similar magnitude to their wavelength
+The spreading of waves as they pass through a gap of similar size to their wavelength is called what? | Diffraction
+For significant diffraction to occur, how must the gap size compare to the wavelength? | The gap must be of a similar magnitude to the wavelength
+What are electromagnetic waves? | Waves consisting of perpendicular electric and magnetic oscillations
+Waves consisting of perpendicular electric and magnetic oscillations are called what? | Electromagnetic waves
+What is frequency? | The number of waves that pass a point in a unit time period
+The number of waves passing a point per unit time is called what? | Frequency
+How is frequency related to the time period? | Frequency is the inverse of the time period (f = 1/T)
+What is fringe spacing? | The distance between two adjacent bright fringes or two adjacent dark fringes
+The distance between two adjacent bright (or dark) fringes is called what? | Fringe spacing
+What is interference? | The superposition of waves that occurs when two waves meet
+The superposition of waves when two waves meet is called what? | Interference
+What type of interference occurs when two waves meet in phase? | Constructive interference
+What type of interference occurs when two waves meet out of phase? | Destructive interference
+What is a laser? | A light source that produces a collimated and coherent beam
+A light source that produces a collimated and coherent beam is called what? | A laser
+What is a longitudinal wave? | A wave with oscillations parallel to the direction of energy propagation
+A wave with oscillations parallel to the direction of energy propagation is called what? | A longitudinal wave
+Give an example of a longitudinal wave | Sound waves
+What is material dispersion? | Waves of different wavelengths travel at slightly different speeds through an optical fibre, reaching the end at slightly different times, causing pulse broadening
+Explain why material dispersion causes pulse broadening | Different wavelengths travel at slightly different speeds through the fibre, so they arrive at the end at slightly different times, stretching the pulse
+How can material dispersion be reduced? | By using monochromatic light (single wavelength), so all light travels at the same speed through the fibre
+What is modal dispersion? | Waves enter an optical fibre at slightly different angles, travelling slightly different distances, reaching the end at different times, causing pulse broadening
+Explain why modal dispersion causes pulse broadening | Waves enter the fibre at slightly different angles, so each beam travels a slightly different distance, meaning they arrive at the end at different times
+How does modal dispersion differ from material dispersion? | Modal dispersion is caused by waves entering at different angles (different path lengths), while material dispersion is caused by different wavelengths travelling at different speeds
+What is a node? | A position of minimum displacement in a stationary wave
+A position of minimum displacement in a stationary wave is called what? | A node
+How does a node differ from an antinode? | A node is a position of minimum displacement in a stationary wave, while an antinode is a position of maximum displacement
+What is an optical fibre? | A thin glass fibre through which signals are passed, usually surrounded by cladding
+A thin glass fibre used to transmit signals, usually surrounded by cladding, is called what? | An optical fibre
+What is path difference? | A measure of how far ahead one wave is compared to another, usually expressed in terms of wavelength
+A measure of how far ahead one wave is compared to another, usually expressed in terms of wavelength, is called what? | Path difference
+What is phase difference? | The difference in phase between two points on a wave, usually expressed in radians
+The difference in phase between two points on a wave, usually expressed in radians, is called what? | Phase difference
+What is phase? | A measure of how far through a wave's cycle a given point on the wave is
+A measure of how far through a wave's cycle a given point is describes what quantity? | Phase
+What is polarisation? | The restriction of a wave so that it can only oscillate in a single plane
+The restriction of a wave so it oscillates in only a single plane is called what? | Polarisation
+Why can only transverse waves be polarised? | Only transverse waves have oscillations perpendicular to the direction of propagation, meaning they can be restricted to a single plane. Longitudinal waves oscillate parallel to propagation and cannot be restricted in this way.
+What is pulse broadening? | The elongation of a signal passed down an optical fibre, commonly due to modal or material dispersion
+The elongation of a signal in an optical fibre, caused by modal or material dispersion, is called what? | Pulse broadening
+What two types of dispersion commonly cause pulse broadening? | Modal dispersion and material dispersion
+What is the refractive index of a material? | The ratio between the speed of light in a vacuum and the speed of light in that material (n = c/v)
+The ratio of the speed of light in a vacuum to the speed of light in a material defines what quantity? | The refractive index of the material
+What is Snell's Law? | A law linking a wave's angle of incidence to its angle of refraction using the refractive indices of the media involved (n1 sin θ1 = n2 sin θ2)
+A law that relates the angle of incidence to the angle of refraction using the refractive indices of the two media is called what? | Snell's Law
+What is the equation for wave speed? | v = f × λ (speed = frequency × wavelength)
+The product of a wave's frequency and wavelength gives what quantity? | Wave speed (v = fλ)
+What is a stationary wave? | A wave that stores energy but does not transfer it
+A wave that stores energy but does not transfer it is called what? | A stationary wave
+What is total internal reflection? | Full reflection occurring at the inside boundary of an optical fibre, meaning no radiation passes out
+Full reflection at the inside boundary of a fibre so that no radiation passes out is called what? | Total internal reflection
+What is a transverse wave? | A wave with oscillations perpendicular to the direction of energy propagation
+A wave with oscillations perpendicular to the direction of energy propagation is called what? | A transverse wave
+Give an example of a transverse wave | Electromagnetic waves
+How does a transverse wave differ from a longitudinal wave? | In a transverse wave, oscillations are perpendicular to the direction of energy propagation. In a longitudinal wave, oscillations are parallel to it.
+What is wavelength? | The distance between two identical positions on two adjacent waves (e.g. peak to peak or trough to trough)
+The distance between two identical positions on adjacent waves is called what? | Wavelength
+What is Young's double-slit experiment? | An experiment demonstrating the diffraction of light by passing monochromatic light through two narrow slits and observing the resulting pattern of bright and dark fringes
+An experiment using monochromatic light and two narrow slits to produce a pattern of bright and dark fringes demonstrates what? | Young's double-slit experiment
+What type of light source is used in Young's double-slit experiment? | Monochromatic light (single wavelength)
+In a stationary wave, where are the positions of zero displacement found? | At the nodes
+In a stationary wave, where are the positions of maximum displacement found? | At the antinodes
+In what units is phase difference usually expressed? | Radians
+In what units is path difference usually expressed? | In terms of wavelength (e.g. nλ or fractions of λ)
+What property of a laser makes it suitable for interference experiments? | It produces coherent light (same wavelength and frequency with a fixed phase difference)

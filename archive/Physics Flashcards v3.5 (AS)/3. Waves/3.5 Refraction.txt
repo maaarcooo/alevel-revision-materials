@@ -1,0 +1,74 @@
+What is the refractive index of a material? | The ratio of the speed of light in a vacuum to the speed of light in that material
+The ratio of the speed of light in a vacuum to the speed of light in a substance — what quantity is this? | Refractive index (n)
+What is refraction? | The change in direction of a wave when it passes through a boundary between mediums of different density
+The change in direction of a wave at a boundary between mediums of different density — what is this called? | Refraction
+What causes refraction at a boundary? | A change in speed of different parts of the wavefront as they hit the boundary — one side changes speed before the other, causing the wave to change direction
+In optics, what does the term "medium" refer to? | A transparent material through which light can travel
+What is the equation for refractive index? | n = c / c_s, where c = speed of light in a vacuum and c_s = speed of light in the substance
+What do the variables represent in n = c / c_s? | n = refractive index, c = speed of light in a vacuum (m s⁻¹), c_s = speed of light in the substance (m s⁻¹)
+Why is the refractive index a dimensionless quantity? | Because it is a ratio of two speeds (same units), so the units cancel
+Why is the refractive index of a material always greater than 1? | Because light always travels slower in a substance than in a vacuum, so c / c_s is always greater than 1
+What value is assumed for the refractive index of air in calculations? | n = 1, because light does not slow down significantly in air compared to a vacuum
+What does it mean for a material to be "optically dense"? | It has a high refractive index, causing light to travel slower through it
+When light enters a more optically dense medium, what happens to its direction? | It bends towards the normal
+When light enters a less optically dense medium, what happens to its direction? | It bends away from the normal
+What is the angle of incidence? | The angle between the incident ray and the normal at the boundary
+What is the angle of refraction? | The angle between the refracted ray and the normal at the boundary
+The angle between the incident ray and the normal — what is this called? | The angle of incidence
+The angle between the refracted ray and the normal — what is this called? | The angle of refraction
+What is the normal line drawn at a boundary? | A line drawn at 90° to the boundary between the two media
+When light passes from a less dense to a more dense medium, what happens to its speed and wavelength? | Speed decreases and wavelength shortens
+When light passes from a more dense to a less dense medium, what happens to its speed and wavelength? | Speed increases and wavelength becomes longer
+When a wave refracts, which property remains unchanged? | Frequency (which is why the colour does not change)
+How can you tell that frequency is unchanged during refraction? | The colour of the light does not change
+What happens when a light ray hits a boundary at exactly 90° (along the normal)? | It passes straight through without changing direction, because the whole wavefront enters the boundary at the same time
+Explain why a wavefront changes direction at a boundary | One side of the wavefront hits the boundary and changes speed before the other side. The side still in the original medium continues at the original speed, causing the wavefront to pivot and change direction
+What is Snell's law? | n₁ sin θ₁ = n₂ sin θ₂, relating the angle of incidence to the angle of refraction at a boundary between two media
+State the equation for Snell's law | n₁ sin θ₁ = n₂ sin θ₂
+What do the variables in Snell's law represent? | n₁ = refractive index of material 1, n₂ = refractive index of material 2, θ₁ = angle of incidence in material 1, θ₂ = angle of refraction in material 2
+From which line are the angles θ₁ and θ₂ in Snell's law always measured? | From the normal
+If light enters glass (n = 1.5) from air at an angle of incidence of 39°, what is the angle of refraction? | sin(39°) / 1.5 = sin θ₂, so θ₂ = sin⁻¹(0.4195) ≈ 25°
+If you are given the angle between the light ray and the boundary (not the normal), how do you find the correct angle for Snell's law? | Subtract from 90°: angle from normal = 90° − angle from boundary
+What is the critical angle? | The angle of incidence in the denser medium at which the angle of refraction is exactly 90° (the refracted ray travels along the boundary)
+The angle of incidence at which the refracted ray travels along the boundary — what is this called? | The critical angle
+What is the equation for the critical angle? | sin θ_c = n₂ / n₁, where n₁ is the refractive index of the denser medium and n₂ is the refractive index of the less dense medium
+What do the variables represent in sin θ_c = n₂ / n₁? | θ_c = critical angle, n₁ = refractive index of the denser medium, n₂ = refractive index of the less dense medium
+How does the critical angle relate to refractive index? | The larger the refractive index of a material, the smaller the critical angle
+What happens when the angle of incidence is less than the critical angle? | The ray is refracted and exits the material
+What happens when the angle of incidence equals the critical angle? | The angle of refraction is 90° — the refracted ray travels along the boundary between the two materials
+What happens when the angle of incidence exceeds the critical angle? | The ray undergoes total internal reflection
+What is total internal reflection? | A special case of refraction where all light is reflected back into the denser medium, with none passing through the boundary
+What two conditions must be met for total internal reflection to occur? | 1) The angle of incidence must be greater than the critical angle. 2) Light must be travelling from a denser medium to a less dense medium (n₁ > n₂)
+During total internal reflection, what law does the reflected ray follow? | The law of reflection: angle of incidence = angle of reflection
+What principle does optical fibre communication rely on? | Total internal reflection — light undergoes repeated TIR against the sides of the fibre to travel long distances
+What type of light is normally used in optical fibres? | Monochromatic light (a single wavelength)
+Name two important uses of optical fibres | Communications (telephone and internet transmission) and medical imaging (endoscopes)
+What are the three main components of a step-index optical fibre? | An optically dense core, a lower optically dense cladding surrounding the core, and an outer sheath
+An optically dense core tube surrounded by lower optically dense cladding — what type of optical fibre is this? | A step-index fibre
+Why is it called a "step-index" fibre? | Because the refractive index increases in a step from the cladding to the core (it is not a gradual change)
+For TIR to occur in an optical fibre, what condition must the refractive indices satisfy? | n_cladding < n_core (the cladding must have a lower refractive index than the core)
+State the role of cladding in an optical fibre (protection) | It protects the thin core from damage and scratching
+State the role of cladding in an optical fibre (signal quality) | It prevents signal degradation by stopping light escaping the core, which would cause information loss
+State the role of cladding in an optical fibre (security and separation) | It keeps signals secure, maintains original signal quality, and keeps the core separate from adjacent fibres to prevent information crossover
+What is pulse broadening? | The effect where pulses emerging from an optical fibre are longer (wider) than those entering it
+What two types of dispersion cause pulse broadening? | Material dispersion and modal dispersion
+What is material dispersion in an optical fibre? | When white light (instead of monochromatic) is used, different wavelengths travel at different speeds in the medium, causing the pulse to spread out
+Explain why violet light takes longer to travel through an optical fibre than red light | Violet light has the shortest wavelength, so it travels slowest in the fibre. Its angle of incidence at the boundary is smallest, meaning its angle of reflection is also smaller. This causes it to undergo more reflections, taking a longer path
+What is modal dispersion in an optical fibre? | The spreading of monochromatic light pulses because different parts of the wavefront have different angles of incidence, undergo TIR different numbers of times, and arrive at the end of the fibre at slightly different times
+How does core width affect modal dispersion? | A wider core increases modal dispersion because light rays can take more varied paths with different numbers of reflections
+How does material dispersion differ from modal dispersion? | Material dispersion is caused by different wavelengths travelling at different speeds (a white light problem). Modal dispersion is caused by different parts of the wavefront taking different path lengths due to different angles of incidence (occurs even with monochromatic light)
+What is signal absorption in an optical fibre? | The fibre absorbs part of the signal's energy, reducing the amplitude and potentially causing information loss
+How does pulse broadening lead to information loss? | Broadened pulses can merge together, distorting the information and decreasing the signal amplitude
+Name two methods to reduce absorption in optical fibres | Use an extremely transparent core, and use optical fibre repeaters to regenerate the pulse before significant absorption occurs
+Name four methods to reduce pulse broadening in optical fibres | Use a narrow core, use monochromatic light, use optical fibre repeaters, and use single-mode fibre
+Why does using a narrow core reduce pulse broadening? | It reduces the possible differences in path length of the signal, so all parts of the wavefront arrive at more similar times
+Why does using monochromatic light reduce pulse broadening? | It eliminates material dispersion because all light travels at the same speed when it is a single wavelength
+What is a single-mode fibre? | An optical fibre where only a single wavelength of light passes through the core, reducing multipath modal dispersion
+What do optical fibre repeaters do? | They regenerate the pulse before significant absorption or pulse broadening has taken place, restoring the signal
+How is the critical angle related to Snell's law? | Setting θ₂ = 90° in Snell's law gives n₁ sin θ_c = n₂ sin 90° = n₂, so sin θ_c = n₂ / n₁
+In the worked example, if a glass cube (n = 1.489) is in contact with a liquid and TIR first occurs at 65°, what is the refractive index of the liquid? | n₂ = n₁ × sin θ_c = 1.489 × sin 65° = 1.35
+Why does a wider optical fibre core lead to greater modal dispersion? | A wider core allows light to enter at a greater range of angles, so different rays undergo TIR different numbers of times, creating larger path length differences and more pulse broadening
+How do you calculate the critical angle from the speeds of light in the core and cladding? | sin θ_c = c_core / c_cladding (ratio of speed in core to speed in cladding), since sin θ_c = n₂/n₁ = (c/c_cladding)⁻¹ / (c/c_core)⁻¹ = c_core / c_cladding
+Each wavelength of light travels at the same speed in a [...] but at different speeds in a medium | vacuum
+The [...] the refractive index of a material, the smaller its critical angle | larger
+Pulse broadening can result in the [...] of pulses, distorting the transmitted information | merging

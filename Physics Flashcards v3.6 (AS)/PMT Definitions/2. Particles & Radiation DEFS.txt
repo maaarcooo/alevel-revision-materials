@@ -1,0 +1,70 @@
+What is alpha decay? | An unstable nucleus emits an alpha particle (two protons and two neutrons) to become more stable
+An unstable nucleus emitting an alpha particle to become more stable — what process is this? | Alpha decay
+What is annihilation? | A particle and its antiparticle collide and convert into two photons, conserving momentum
+A particle and its antiparticle colliding and converting into two photons — what process is this? | Annihilation
+What is an antiparticle? | A particle with the same mass as its corresponding particle but opposite charge and quantum numbers
+A particle with the same mass but opposite charge and quantum numbers — what is this called? | Antiparticle
+What is baryon number? | A quantum number conserved in all particle interactions. Baryons have +1, non-baryons have 0
+A conserved quantum number where baryons have +1 and non-baryons have 0 — what quantity is this? | Baryon number
+What is a baryon? | A hadron made up of three quarks. The proton is the only stable baryon
+A hadron made up of three quarks — what class of particle is this? | Baryon
+What is beta-minus decay? | A neutron in a nucleus transforms into a proton, emitting an electron and an antineutrino
+A neutron transforming into a proton with emission of an electron and antineutrino — what process is this? | Beta-minus decay
+What is beta-plus decay? | A proton in a nucleus transforms into a neutron, emitting a positron and a neutrino
+A proton transforming into a neutron with emission of a positron and neutrino — what process is this? | Beta-plus decay
+What is electron diffraction? | The spreading of electrons as they pass through a gap comparable to their de Broglie wavelength, providing evidence for wave-like behaviour of particles
+The spreading of electrons through a gap comparable to their de Broglie wavelength — what phenomenon is this? | Electron diffraction
+What is an electron-volt (eV)? | The energy gained by an electron accelerated through a potential difference of 1 V, equal to 1.6 x 10^-19 J (from E = qV)
+The energy gained by an electron accelerated through a p.d. of 1 V — what unit is this? | Electron-volt (eV)
+What are energy levels? | Discrete energies at which electrons can exist in an atom. Electrons cannot exist between energy levels
+Discrete energies at which electrons can exist in an atom — what are these called? | Energy levels
+What is excitation? | An electron absorbs exactly the right amount of energy to move to a higher energy level
+An electron absorbing exactly the right amount of energy to move to a higher energy level — what process is this? | Excitation
+What is a gauge boson? | An exchange particle that mediates one of the four fundamental interactions between particles
+An exchange particle that mediates a fundamental interaction — what is the general name for these? | Gauge boson
+What is the ground state? | The lowest energy level an electron can occupy in an atom
+The lowest energy level an electron can occupy — what is this called? | Ground state
+What is a hadron? | A subatomic particle that experiences the strong nuclear interaction
+A subatomic particle that experiences the strong nuclear interaction — what class of particle is this? | Hadron
+What is ionisation? | An atom loses an orbital electron and becomes charged
+An atom losing an orbital electron and becoming charged — what process is this? | Ionisation
+What is an isotope? | Atoms with the same number of protons but different numbers of neutrons
+Atoms with the same proton number but different neutron numbers — what are these called? | Isotopes
+What is isotopic data? | Data from isotopes used for purposes such as carbon dating
+What is a kaon? | A type of meson that decays into pions
+A meson that decays into pions — what particle is this? | Kaon
+What is lepton number? | A quantum number conserved in all interactions. Both electron lepton number and muon lepton number must be separately conserved
+A conserved quantum number with separate electron and muon types — what quantity is this? | Lepton number
+What is a lepton? | An elementary subatomic particle. The three types are electrons, muons, and neutrinos
+An elementary particle class including electrons, muons, and neutrinos — what is this called? | Lepton
+What is a meson? | A hadron made up of a quark-antiquark pair
+A hadron made up of a quark-antiquark pair — what class of particle is this? | Meson
+What is a muon? | A type of lepton that decays into electrons
+A lepton that decays into electrons — what particle is this? | Muon
+What is a neutrino? | A subatomic particle whose existence was hypothesised to conserve energy in beta decay
+A particle hypothesised to exist in order to conserve energy in beta decay — what is it? | Neutrino
+What is nucleon number (A)? | The total number of protons and neutrons in a nucleus
+The total number of protons and neutrons in a nucleus — what quantity is this? | Nucleon number (A)
+What is a nucleon? | A proton or neutron
+A proton or neutron — what is the general term? | Nucleon
+What is pair production? | A sufficiently high-energy photon converts into a particle and its corresponding antiparticle, usually near a nucleus to conserve momentum
+A high-energy photon converting into a particle-antiparticle pair near a nucleus — what process is this? | Pair production
+What is a photon? | A discrete packet (quantum) of electromagnetic energy
+What is a pion? | A type of meson that is the exchange particle for the strong nuclear force
+A meson that acts as the exchange particle for the strong nuclear force — what particle is this? | Pion
+What is a positron? | The antiparticle of the electron, with the same mass but positive charge
+The antiparticle of the electron — what is it called? | Positron
+What is proton number (Z)? | The number of protons in the nucleus of an atom
+The number of protons in the nucleus — what quantity is this? | Proton number (Z)
+What is stopping potential? | The minimum potential difference needed to stop the most energetic photoelectrons from leaving the metal surface in the photoelectric effect
+The minimum p.d. needed to prevent the most energetic photoelectrons from leaving a metal surface — what is this called? | Stopping potential
+What are strange particles? | Particles produced through the strong interaction but that decay through the weak interaction
+Particles produced via the strong interaction but decaying via the weak interaction — what are these called? | Strange particles
+What is strangeness? | A quantum number conserved in strong interactions but not in weak interactions, reflecting that strange particles are always produced in pairs
+A quantum number conserved in strong but not weak interactions — what property is this? | Strangeness
+What is the strong nuclear force? | A force between nucleons that holds the nucleus together. Attractive up to about 3 fm, repulsive below about 0.5 fm
+A force between nucleons, attractive up to 3 fm and repulsive below 0.5 fm — what force is this? | Strong nuclear force
+What is threshold frequency? | The minimum photon frequency needed for photoelectron emission from a metal surface, equal to the work function divided by Planck's constant (f0 = phi/h)
+The minimum photon frequency for photoelectron emission — what is this called? | Threshold frequency
+What is the work function? | The minimum energy required to release an electron from a metal's surface
+The minimum energy required to release an electron from a metal surface — what quantity is this? | Work function

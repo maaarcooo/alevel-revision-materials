@@ -1,0 +1,94 @@
+What is alpha decay? | The process of an unstable nucleus emitting an alpha particle (two protons and two neutrons) to become more stable
+An unstable nucleus emits a particle containing two protons and two neutrons to become more stable — what is this process called? | Alpha decay
+What does an alpha particle consist of? | Two protons and two neutrons (a helium-4 nucleus)
+What is annihilation? | The process of a particle and its antiparticle colliding and being converted into energy, released as two photons
+A particle and its antiparticle collide and are converted into energy released as two photons — what is this process called? | Annihilation
+Why are two photons produced during annihilation rather than one? | To conserve momentum
+What is an antiparticle? | A particle with the same mass as its corresponding particle but with opposite charge and opposite quantum numbers (e.g. baryon number, lepton number)
+A particle has the same mass as another particle but opposite charge and conservation numbers — what is it called? | An antiparticle
+What is baryon number? | A quantum number conserved in all particle interactions. Baryons have baryon number +1, antibaryons have -1, and non-baryons have 0
+What baryon number does a baryon have? | +1
+What baryon number does a non-baryon (e.g. a lepton or meson) have? | 0
+What is a baryon? | A class of hadron made up of three quarks
+A hadron made up of three quarks is classified as a [...] | baryon
+Which is the only stable baryon? | The proton
+Why is the proton the only stable baryon? | All other baryons eventually decay into a proton (the lowest-energy baryon state)
+What is beta-minus decay? | A neutron inside a nucleus turns into a proton, emitting an electron (beta-minus particle) and an antineutrino
+In beta-minus decay, what particle changes and what does it become? | A neutron changes into a proton
+What two particles are emitted during beta-minus decay? | An electron (beta-minus particle) and an antineutrino
+What is beta-plus decay? | A proton inside a nucleus turns into a neutron, emitting a positron (beta-plus particle) and a neutrino
+In beta-plus decay, what particle changes and what does it become? | A proton changes into a neutron
+What two particles are emitted during beta-plus decay? | A positron (beta-plus particle) and a neutrino
+How does beta-minus decay differ from beta-plus decay? | In beta-minus decay, a neutron becomes a proton and emits an electron and antineutrino. In beta-plus decay, a proton becomes a neutron and emits a positron and neutrino
+What is electron diffraction? | The spreading of electrons as they pass through a gap similar in size to their de Broglie wavelength
+Why is electron diffraction significant? | It provides evidence of the wave-like properties of particles (wave-particle duality)
+The spreading of electrons as they pass through a gap comparable to their de Broglie wavelength — what is this called? | Electron diffraction
+What condition must be met for electron diffraction to be observed? | The gap size must be similar in magnitude to the de Broglie wavelength of the electrons
+What is an electron-volt (eV)? | The work done (energy transferred) when an electron is accelerated through a potential difference of 1 V
+The energy transferred when an electron moves through a potential difference of 1 V — what unit is this? | One electron-volt (1 eV)
+How is the energy in electron-volts related to charge and voltage? | E = qV, so 1 eV equals the charge of an electron multiplied by 1 V
+What are energy levels? | Defined, discrete energies at which electrons can exist within an atom
+Why can't an electron exist between energy levels? | Energy levels are discrete (quantised), so electrons can only occupy specific allowed energy values
+Electrons in an atom can only exist at defined, discrete energies — what are these called? | Energy levels
+What is excitation? | The process of an electron absorbing exactly the right amount of energy to move to a higher energy level
+An electron absorbs a specific quantity of energy and moves to a higher energy level — what is this process called? | Excitation
+Why must the energy absorbed during excitation be an exact amount? | Because energy levels are discrete, so only specific energy transitions are allowed
+What is a gauge boson? | An exchange particle that mediates (transmits) one of the four fundamental interactions between particles
+The exchange particles responsible for transmitting the four fundamental forces — what are these called? | Gauge bosons
+What is the ground state? | The lowest energy level that an electron can occupy in an atom
+The lowest energy level an electron can exist in — what is this called? | The ground state
+What is a hadron? | A class of subatomic particle that experiences the strong nuclear interaction
+A subatomic particle that experiences the strong nuclear interaction is classified as a [...] | hadron
+What are the two subclasses of hadron? | Baryons (three quarks) and mesons (quark-antiquark pair)
+What is ionisation? | The process of an atom losing an orbital electron and becoming charged (forming an ion)
+An atom loses an orbital electron and becomes positively charged — what is this process called? | Ionisation
+How does ionisation differ from excitation? | In excitation, the electron moves to a higher energy level but stays bound to the atom. In ionisation, the electron is completely removed from the atom
+What is an isotope? | An atom with the same number of protons but a different number of neutrons (same element, different mass number)
+Atoms of the same element with different numbers of neutrons — what are these called? | Isotopes
+What is isotopic data? | Data obtained from isotopes that can be used for a specific purpose, such as carbon dating
+What is a kaon? | A type of meson that decays into pions
+A meson that decays into pions is called a [...] | kaon
+What is lepton number? | A quantum number conserved in all particle interactions. Both electron lepton number and muon lepton number must be individually conserved
+Why must both electron lepton number and muon lepton number be conserved separately? | They are independent conservation laws — each lepton generation has its own conserved lepton number
+What is a lepton? | A fundamental (elementary) subatomic particle. The group includes electrons, muons, and their associated neutrinos
+A fundamental particle from the group that includes electrons, muons, and neutrinos — what class of particle is this? | A lepton
+What is a meson? | A class of hadron made up of a quark-antiquark pair
+A hadron composed of a quark and an antiquark is classified as a [...] | meson
+How does a meson differ from a baryon in terms of quark composition? | A meson is made of a quark-antiquark pair, whereas a baryon is made of three quarks
+What is a muon? | A type of lepton that is heavier than an electron and decays into electrons
+A lepton that decays into electrons is called a [...] | muon
+What is a neutrino? | A nearly massless, neutral subatomic lepton whose existence was hypothesised to conserve energy and momentum in beta decay
+Why was the neutrino originally hypothesised to exist? | To account for the conservation of energy (and momentum) in beta decay, where the emitted electron did not carry the full expected energy
+A subatomic particle proposed to explain the missing energy in beta decay — what is it? | The neutrino
+What is nucleon number (A)? | The total number of protons and neutrons in a given nucleus
+The sum of protons and neutrons in a nucleus is called the [...] | nucleon number (A)
+What is a nucleon? | A proton or neutron (a particle found in the nucleus)
+What is pair production? | The process of a sufficiently high-energy photon converting into a particle and its corresponding antiparticle
+A high-energy photon converts into a particle-antiparticle pair — what is this process called? | Pair production
+Why does pair production usually occur near a nucleus? | To conserve momentum — the nearby nucleus absorbs the recoil momentum
+How does pair production differ from annihilation? | In pair production, a photon creates a particle-antiparticle pair (energy to mass). In annihilation, a particle-antiparticle pair produces photons (mass to energy)
+What is a photon? | A discrete packet (quantum) of electromagnetic energy
+What is a pion? | A type of meson that acts as the exchange particle for the strong nuclear force
+A meson that mediates the strong nuclear force between nucleons is called a [...] | pion
+What is a positron? | A positively charged particle that is the antiparticle of an electron (same mass, opposite charge)
+The antiparticle of the electron is called the [...] | positron
+What is proton number (Z)? | The number of protons in the nucleus of a given atom, which defines the element
+The number of protons in a nucleus, which determines the element — what is this quantity called? | Proton number (Z)
+What is stopping potential? | The minimum potential difference required to stop the most energetic photoelectrons from leaving the metal surface in the photoelectric effect
+The minimum p.d. needed to prevent the fastest photoelectrons from escaping the metal surface — what is this called? | Stopping potential
+What are strange particles? | Particles that are produced via the strong interaction but decay via the weak interaction
+Particles produced through the strong interaction but decaying through the weak interaction are called [...] | strange particles
+What is strangeness? | A quantum number that is conserved in strong interactions but not conserved in weak interactions
+In which type of interaction is strangeness conserved? | The strong interaction (it is not conserved in weak interactions)
+Why are strange particles always produced in pairs? | So that overall strangeness is conserved in the strong interaction that produces them (associated production)
+How does conservation of strangeness differ from conservation of baryon number? | Baryon number is conserved in all interactions. Strangeness is conserved only in strong interactions, not in weak interactions
+What is the strong nuclear force? | A short-range force that acts between nucleons to hold the nucleus together
+At what range is the strong nuclear force attractive? | At separations up to about 3 fm
+At what range does the strong nuclear force become repulsive? | At separations less than about 0.5 fm
+The strong nuclear force is attractive up to ~3 fm and repulsive below ~0.5 fm — why is the repulsive component important? | It prevents nucleons from being crushed into each other, maintaining a minimum separation
+What is threshold frequency? | The minimum frequency of incident photons required for photoelectrons to be emitted from a metal surface in the photoelectric effect
+The minimum photon frequency needed to cause photoemission from a metal — what is this called? | Threshold frequency
+How is threshold frequency related to work function? | Threshold frequency = work function / Planck's constant (f₀ = φ / h)
+What is work function? | The minimum energy required to release an electron from the surface of a metal
+The minimum energy needed to free an electron from a metal's surface — what quantity is this? | Work function
+How are work function, threshold frequency, and Planck's constant related? | φ = hf₀, where φ is work function, h is Planck's constant, and f₀ is threshold frequency

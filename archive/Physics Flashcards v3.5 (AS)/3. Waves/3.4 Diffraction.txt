@@ -1,0 +1,71 @@
+What is diffraction? | The spreading out of waves after they pass through a narrow gap or around an obstruction
+The spreading out of waves after passing through a narrow gap or around an obstruction is called what? | Diffraction
+When are diffraction effects most noticeable? | When the wavelength of the wave and the width of the gap are similar in size
+Explain why light diffraction requires very narrow slits | The wavelength of visible light is very small (order of 10⁻⁷ m), so the slit width must be similarly small for significant diffraction to occur
+What produces the bright fringes in a single slit diffraction pattern? | Constructive interference of each part of the wavefront as it passes through the slit
+What produces the dark fringes in a single slit diffraction pattern? | Destructive interference of each part of the wavefront as it passes through the slit
+In a single slit diffraction pattern, the bright fringes are areas of [...] intensity | maximum
+In a single slit diffraction pattern, the dark fringes are areas of [...] intensity | zero or minimum
+What is the central maximum in a single slit diffraction pattern? | The central bright fringe, which has the greatest intensity of any fringe
+Describe the central maximum of a single slit pattern compared to the other bright fringes | It is much wider and brighter than the other bright fringes
+How does the central maximum of a single slit pattern compare to that of a double slit pattern? | The single slit central maximum is much wider than that of the double slit diffraction pattern
+What happens to the intensity of the bright fringes as you move away from the central maximum in a single slit pattern? | The intensity of each successive bright fringe gets less (they get dimmer)
+What happens to the width of the maxima as the order increases in a single slit pattern? | The maxima become narrower and less bright
+In a single slit intensity pattern, what is the intensity at the dark fringes? | Zero
+Why is the central maximum of a white light single slit pattern bright white? | Because constructive interference from all colours (wavelengths) happens at this point
+In a white light single slit pattern, what are the non-central maxima composed of? | A spectrum of colours
+In a white light single slit diffraction pattern, which colour appears nearest to the central maximum? | Violet/blue, because it has the shortest wavelength and is diffracted less
+In a white light single slit diffraction pattern, which colour appears furthest from the central maximum? | Red, because it has the longest wavelength and is diffracted more
+Explain why blue light appears closest to the central maximum in white light single slit diffraction | Blue has the shortest wavelength of visible light, so it is diffracted through a smaller angle, placing its maxima closer to the centre
+Explain why red light appears furthest from the central maximum in white light single slit diffraction | Red has the longest wavelength of visible light, so it is diffracted through a larger angle, placing its maxima further from the centre
+Why do the colours in a white light single slit pattern look blurry further from the centre? | The fringe spacing gets so small that the spectra eventually merge without any space between them
+How does the amount of red and blue wavelengths change with increasing order in white light single slit diffraction? | The amount of red wavelengths increases and the amount of blue wavelengths decreases
+How does the intensity of the central maximum for white light compare to monochromatic light in single slit diffraction? | They are equal in intensity
+How do the non-central maxima of white light single slit diffraction compare to those of monochromatic light? | They are wider and less intense
+What happens to the fringe spacing between maxima in a white light single slit pattern as order increases? | The fringe spacing gets smaller
+How does the double slit interference pattern differ from the single slit pattern in terms of intensity? | The double slit pattern has equally spaced intensity peaks with maxima of equal intensity, while the single slit has a dominant central maximum with subsequent maxima at lower intensity
+What is the single slit 'envelope' in a double slit experiment? | The combined intensity pattern where equally spaced double slit bright fringes are modulated within the intensity profile of a single slit diffraction pattern
+How does increasing the gap size (relative to wavelength) affect diffraction? | The waves spread out less after passing through the gap
+Explain the effect on the diffraction pattern when the wavelength of light is increased | The wave diffracts more, increasing the angle of diffraction, so the width of the bright maxima increases
+Red light has the [...] wavelength of visible light and produces a diffraction pattern with [...] fringes | longest; wide
+Blue light has the [...] wavelength of visible light and produces a diffraction pattern with [...] fringes | shortest (much shorter); narrow
+How does red light compare to blue light in terms of diffraction through the same single slit? | Red light diffracts more than blue light because it has a longer wavelength, producing wider fringes
+What three things happen to the intensity pattern when the single slit is made narrower? | The intensity of the maxima decreases, the width of the central maximum increases, and the spacing between fringes is wider
+Explain why making a single slit narrower causes the central maximum to become wider | A narrower slit means the gap is closer in size to the wavelength, increasing the angle of diffraction, so waves spread out more
+When the slit is made narrower, the angle of diffraction is [...] | greater
+When diffraction occurs, what property of the wave changes and what stays the same? | The amplitude changes (decreases), but the wavelength remains constant
+Why do X-rays diffract when passing through a crystalline solid? | The wavelength of X-rays (10⁻⁸ to 4 × 10⁻¹³ m) is roughly the same as the gap between atoms in a crystalline solid
+What is a diffraction grating? | A piece of optical equipment consisting of a large number of very thin, equally spaced parallel slits carved into a glass plate
+A piece of optical equipment with many thin, equally spaced parallel slits carved into a glass plate is called what? | A diffraction grating
+What does a diffraction grating do to monochromatic light? | Diffracts it into bright and dark fringes
+What does a diffraction grating do to white light? | Separates it into its different wavelength components (spectra)
+Why do diffraction gratings produce a sharper pattern than a double slit? | The bright fringes are narrower and brighter, while the dark regions are wider and darker
+How do diffraction grating fringes compare to double slit fringes? | Diffraction grating fringes are narrower and brighter; dark regions are wider and darker
+What is the diffraction grating equation? | d sin θ = nλ
+In the equation d sin θ = nλ, what does n represent? | The order of the maxima (the number of the maxima away from the central, where n = 0)
+In the equation d sin θ = nλ, what does d represent? | The distance between adjacent slits on the grating (in metres)
+In the equation d sin θ = nλ, what does θ represent? | The angle of diffraction of the light of order n from the normal
+In the equation d sin θ = nλ, what does λ represent? | The wavelength of the light from the source (in metres)
+What determines the size of a diffraction grating? | The number of lines per millimetre (lines/mm) or lines per metre
+How do you calculate the slit spacing d from the number of lines per unit length N? | d = 1/N
+What is the symbol N in diffraction grating calculations? | The number of lines per millimetre (or per metre) on the diffraction grating
+If a diffraction grating has 300 lines per mm, what is the slit spacing in mm? | d = 1/300 = 3.33 × 10⁻³ mm (or 3.33 × 10⁻⁶ m)
+How is the angular separation of each maximum calculated? | By rearranging the grating equation to make θ the subject: sin θ = nλ/d
+What happens to the angular separation as the order of maxima increases? | Angular separation increases
+How do you find the angular separation between two adjacent orders of maxima? | Subtract the smaller angle from the larger one (e.g., θ₂ − θ₁)
+What is the maximum angle of diffraction at which maxima can be observed? | θ = 90°, where sin θ = 1
+What equation gives the highest order of maxima visible from a diffraction grating? | n = d/λ (with n rounded down to the nearest integer)
+If n = d/λ gives a decimal value, how do you determine the highest visible order? | Round down to the nearest integer (e.g., if n = 2.7, the highest order visible is n = 2)
+At the zeroth-order maximum of a diffraction grating, what is the path difference? | Zero
+At the first-order maximum of a diffraction grating, what is the path difference? | One wavelength (λ)
+At the nth-order maximum of a diffraction grating, what is the path difference? | nλ
+How is the diffraction grating equation derived from the path difference? | The path difference at the nth maximum is nλ. Using trigonometry, sin θ = nλ/d, which rearranges to d sin θ = nλ
+Regions of maximum intensity in a diffraction grating pattern correspond to what type of interference? | Constructive interference
+Why are diffraction gratings useful for analysing light? | They separate light of different wavelengths with high resolution
+Give three uses of diffraction gratings in spectrometers | Analyse the composition of a star, measure red shift/rotation of stars, measure the wavelength/frequency of light from a star
+What is X-ray crystallography and how does it relate to diffraction? | X-rays are directed at a thin crystal sheet which acts as a diffraction grating, producing a diffraction pattern that can be used to measure atomic spacing in materials
+Why do crystals act as diffraction gratings for X-rays? | Because the wavelength of X-rays is similar in size to the gaps between atoms in the crystal
+What is a monochromator used for? | To specifically select and analyse a particular wavelength of light, such as one emitted by molecules in diseased cells from a biopsy sample
+How do diffraction gratings differ from single slits in the pattern they produce? | Diffraction gratings produce much narrower, brighter maxima and wider, darker minima compared to the broad central maximum and dim subsidiary maxima of a single slit
+How does a single slit pattern differ from a double slit pattern? | Single slit: wide central maximum with dimmer subsidiary maxima of decreasing intensity. Double slit: equally spaced fringes of equal intensity
+Compare the effect of increasing wavelength vs decreasing slit width on a single slit diffraction pattern | Both produce wider fringes and a broader central maximum. Increasing wavelength increases diffraction angle; decreasing slit width also increases diffraction angle because the gap becomes closer to the wavelength

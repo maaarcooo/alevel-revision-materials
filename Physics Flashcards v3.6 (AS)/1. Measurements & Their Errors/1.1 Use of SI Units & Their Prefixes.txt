@@ -1,0 +1,63 @@
+How many SI base units are there? | Seven (six required for AQA A-Level)
+What is the SI base unit of mass? | Kilogram (kg)
+What is the SI base unit of length? | Metre (m)
+What is the SI base unit of time? | Second (s)
+What is the SI base unit of electric current? | Ampere (A)
+What is the SI base unit of temperature? | Kelvin (K)
+What is the SI base unit of amount of substance? | Mole (mol)
+What are derived units? | Units formed by combining SI base units, deduced from the defining equation of the quantity
+Units formed by combining SI base units using the defining equation of a quantity — what are these called? | Derived units
+How do you find the SI base units of a derived unit? | Substitute the base units into the defining equation of that quantity
+What is the newton (N) in SI base units? | kg m s⁻²
+Which defining equation is used to derive the base units of the newton? | F = ma
+What is the joule (J) in SI base units? | kg m² s⁻²
+Which defining equation is used to derive the base units of the joule? | E = ½mv²
+What is the pascal (Pa) in SI base units? | kg m⁻¹ s⁻²
+Which defining equation is used to derive the base units of the pascal? | P = F / A
+What power of ten does the prefix tera (T) represent? | 10¹²
+What power of ten does the prefix giga (G) represent? | 10⁹
+What power of ten does the prefix mega (M) represent? | 10⁶
+What power of ten does the prefix kilo (k) represent? | 10³
+What power of ten does the prefix centi (c) represent? | 10⁻²
+What power of ten does the prefix milli (m) represent? | 10⁻³
+What power of ten does the prefix micro (μ) represent? | 10⁻⁶
+What power of ten does the prefix nano (n) represent? | 10⁻⁹
+What power of ten does the prefix pico (p) represent? | 10⁻¹²
+What power of ten does the prefix femto (f) represent? | 10⁻¹⁵
+Which SI prefix and abbreviation represent 10⁶? | Mega (M)
+Which SI prefix and abbreviation represent 10⁻³? | Milli (m)
+Which SI prefix and abbreviation represent 10⁻⁶? | Micro (μ)
+Which SI prefix and abbreviation represent 10⁻⁹? | Nano (n)
+Which SI prefix and abbreviation represent 10⁻¹²? | Pico (p)
+What is an electronvolt (eV)? | The energy gained by an electron accelerated through a p.d. of 1 V, equal to 1.6 × 10⁻¹⁹ J
+The energy gained by an electron accelerated through a p.d. of 1 V — what unit is this? | Electronvolt (eV)
+From which equation is the electronvolt derived? | W = qV (work done = charge × potential difference)
+How do you convert from joules to electronvolts? | Divide by 1.6 × 10⁻¹⁹
+How do you convert from electronvolts to joules? | Multiply by 1.6 × 10⁻¹⁹
+The ionisation energy of hydrogen is 2.176 × 10⁻¹⁸ J. What is this in eV? | 2.176 × 10⁻¹⁸ / 1.6 × 10⁻¹⁹ = 13.6 eV
+What is 1 kWh in joules? | 3.6 × 10⁶ J (3.6 MJ)
+How do you convert from joules to kilowatt-hours? | Divide by 3.6 × 10⁶
+How do you convert from kilowatt-hours to joules? | Multiply by 3.6 × 10⁶
+What is an order of magnitude? | The power of ten of a number when expressed in scientific notation, following standard rounding rules
+The power of ten of a number in scientific notation — what is this called? | Order of magnitude
+What is the order of magnitude of 3 × 10⁸? | 10⁸
+What is the order of magnitude of 6 × 10⁸? | 10⁹ (the coefficient 6 rounds up, increasing the power by 1)
+A quantity is one order of magnitude larger than another. How many times larger is it? | 10 times
+A quantity is two orders of magnitude larger than another. How many times larger is it? | 100 times (10²)
+What is the approximate diameter of an atom? | 10⁻¹⁰ m
+What is the approximate wavelength of UV light? | 10 nm
+What is the approximate height of an adult human? | 2 m (order of magnitude 10⁰ m)
+What is the approximate distance from the Earth to the Sun (1 AU)? | 1.5 × 10¹¹ m
+What is the approximate mass of a hydrogen atom? | 10⁻²⁷ kg
+What is the approximate mass of an adult human? | 70 kg
+What is the approximate mass of a car? | 1000 kg
+What is the approximate number of seconds in a day? | 86 400 s (order of magnitude 10⁵ s)
+What is the approximate number of seconds in a year? | 3 × 10⁷ s
+What is the approximate speed of sound in air? | 300 m s⁻¹
+What is the approximate power of a standard lightbulb? | 60 W
+What is the approximate value of atmospheric pressure? | 1 × 10⁵ Pa
+What is the approximate length of an ant? | 10⁻³ m (about 1 mm)
+What is the approximate length of a bacterium? | 10⁻⁶ m (about 1 μm)
+What is the approximate distance to the edge of the observable universe? | ~10²⁶ m
+What is the approximate distance from Earth to Neptune? | ~10¹² m
+Estimate the energy required for an adult to walk up a flight of stairs | Use E = mgh: m ~ 70 kg, g ~ 10 N kg⁻¹, h ~ 3 m, giving E ~ 2100 J

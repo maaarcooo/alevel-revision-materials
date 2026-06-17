@@ -1,0 +1,52 @@
+What is electromotive force (e.m.f)? | The amount of chemical energy converted to electrical energy per coulomb of charge passing through a power supply
+The amount of chemical energy converted to electrical energy per coulomb of charge passing through a power supply — what quantity is this? | Electromotive force (e.m.f)
+What is the equation for e.m.f in terms of energy and charge? | ε = E / Q, where ε = e.m.f (V), E = energy (J), Q = charge (C)
+What symbol is used to represent e.m.f? | ε (Greek letter epsilon)
+What is the unit of e.m.f? | Volts (V)
+Despite its name, e.m.f is not actually a [...] | force
+E.m.f is equal to the potential difference across the cell when [...] | no current is flowing
+How can e.m.f be measured in practice? | By connecting a high-resistance voltmeter in parallel across the terminals of the cell in an open circuit
+What is the terminal potential difference (p.d)? | The potential difference across the terminals of a cell
+The potential difference measured across the terminals of a cell — what is this called? | Terminal potential difference (terminal p.d)
+What is the equation for terminal p.d? | V = IR, where V = terminal p.d (V), I = current (A), R = load resistance (Ω)
+Why is the terminal p.d always lower than the e.m.f when current flows? | Because the cell has internal resistance, which causes some voltage to be lost within the cell itself
+What are lost volts? | The work done per unit charge to overcome the internal resistance inside the battery when current flows
+The work done per coulomb to overcome resistance inside the battery when current flows — what is this called? | Lost volts (v)
+What symbol is used to represent lost volts? | Little v
+What is the equation for lost volts? | v = Ir, where v = lost volts (V), I = current (A), r = internal resistance (Ω)
+How are lost volts related to e.m.f and terminal p.d? | v = ε − V (lost volts equals e.m.f minus terminal p.d)
+What is the full e.m.f equation relating terminal p.d, lost volts, and total resistance? | ε = IR + Ir = I(R + r), where R = load resistance and r = internal resistance
+E.m.f can be defined as the [...] voltage available to the circuit | total (or maximum)
+What is internal resistance? | The resistance of the materials within the battery
+The resistance of the materials within the battery — what is this called? | Internal resistance (r)
+What symbol represents internal resistance? | r
+Explain why a cell becomes warm after being used for a period of time | Internal resistance causes charge flowing through the cell to dissipate electrical energy as thermal energy within the power supply itself
+Explain why internal resistance causes a loss of voltage in a circuit | Internal resistance opposes the flow of current inside the cell, so some of the energy per unit charge (voltage) is used to overcome this resistance rather than being delivered to the external circuit
+How is a cell modelled in a circuit diagram to account for internal resistance? | As a source of e.m.f (ε) connected in series with an internal resistor (r)
+In the circuit model of a cell with internal resistance, what does V_R represent? | The p.d across the load resistor, which equals the terminal p.d
+In the circuit model of a cell with internal resistance, what does V_r represent? | The lost volts (voltage dropped across the internal resistance)
+How does the e.m.f equation ε = I(R + r) rearrange to find current? | I = ε / (R + r)
+A battery has e.m.f 7.3 V and internal resistance 0.3 Ω, connected to a 9.5 Ω resistor. What is the current? | I = ε / (R + r) = 7.3 / (9.5 + 0.3) = 0.74 A (2 s.f.)
+If an exam question states a battery has "negligible internal resistance," what does this mean for calculations? | The e.m.f equals the terminal p.d (V = ε), and internal resistance calculations are not needed
+How does terminal p.d differ from e.m.f? | E.m.f is the total energy per coulomb provided by the cell (measured in open circuit). Terminal p.d is the energy per coulomb delivered to the external circuit, which is lower than e.m.f by the lost volts when current flows
+What is the aim of the required practical investigating e.m.f and internal resistance? | To investigate the relationship between e.m.f and internal resistance by measuring how current and voltage vary using a variable resistor
+In the e.m.f and internal resistance practical, what is the independent variable? | Resistance, R (Ω), varied using a variable resistor
+In the e.m.f and internal resistance practical, what are the dependent variables? | Voltage, V (V) and current, I (A)
+In the e.m.f and internal resistance practical, what are the control variables? | The e.m.f and internal resistance of the cell
+Why is a switch included in the e.m.f and internal resistance practical circuit? | To open the circuit between readings, preventing the battery from running down and its internal resistance from changing
+How many pairs of V and I readings should be taken in the e.m.f and internal resistance practical? | A minimum of 8–10 readings across the whole range of the variable resistor
+How is the e.m.f equation rearranged into the form y = mx + c for graphical analysis? | V = −rI + ε, where V is on the y-axis, I is on the x-axis, gradient = −r, and y-intercept = ε
+In a V against I graph for the e.m.f practical, what does the y-intercept represent? | The e.m.f (ε) of the cell
+In a V against I graph for the e.m.f practical, what does the gradient represent? | The negative of the internal resistance (−r)
+In a V against I graph for the e.m.f practical, what shape is the graph? | A straight line with a negative gradient
+Why should the switch only be closed briefly when taking readings in the e.m.f practical? | To prevent the internal resistance of the battery from changing during the experiment (systematic error), since prolonged current flow heats the cell
+Why should fairly new cells be used in the e.m.f and internal resistance practical? | Run-down batteries have e.m.f and internal resistance values that can vary during the experiment (random error)
+How are random errors reduced in the e.m.f and internal resistance practical? | By taking at least 3 repeat readings for each voltage and current value and calculating a mean
+What safety precautions should be taken during the e.m.f and internal resistance practical? | Electrical components can overheat if used for long periods — switch off immediately if burning is smelled, and keep liquids away from the equipment
+When calculating the gradient of the V-I graph, why should the largest possible triangle be drawn? | To minimise the uncertainty in the gradient calculation by using values spread across the full range of data
+What equipment is used to measure voltage in the e.m.f practical, and what is its resolution? | A voltmeter with 0–2 V range and 1 mV resolution
+What equipment is used to measure current in the e.m.f practical, and what is its resolution? | An ammeter with 0–200 mA range and 0.1 mA resolution
+Why is the voltmeter connected in parallel with the variable resistor (not the cell) during the practical? | To measure the terminal p.d across the external load, which changes as the variable resistor is adjusted
+How does increasing the external resistance R affect the terminal p.d? | Terminal p.d increases (because current decreases, so lost volts Ir decrease, meaning more voltage is available to the external circuit)
+How does increasing the external resistance R affect the lost volts? | Lost volts decrease (because current decreases, so v = Ir becomes smaller)
+If current in a circuit is zero, what is the terminal p.d equal to? | The e.m.f (ε), because lost volts v = Ir = 0

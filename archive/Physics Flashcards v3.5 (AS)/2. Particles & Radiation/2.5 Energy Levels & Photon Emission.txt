@@ -1,0 +1,104 @@
+What are energy levels? | Discrete energy states that electrons in an atom can occupy
+The discrete energy states that electrons occupy in an atom are called what? | Energy levels
+Why do electrons occupy the lowest possible energy level? | Because this is the most stable configuration for the atom
+What is excitation? | When an electron absorbs enough energy to move up to a higher energy level
+When an electron absorbs energy and moves to a higher energy level, this process is called what? | Excitation
+What must an electron absorb to be excited to a higher energy level? | A photon
+When an electron moves to a higher energy level, the atom is said to be in what state? | An excited state
+What is de-excitation? | When an electron moves back down to a lower energy level by emitting a photon
+When an electron drops to a lower energy level by emitting a photon, this process is called what? | De-excitation
+What is ionisation? | When an atom gains or loses an orbital electron and becomes charged
+When an atom gains or loses an orbital electron and becomes charged, this is called what? | Ionisation
+What happens to an atom when an electron is removed from it? | The atom becomes ionised (positively charged)
+What is the ionisation energy of an atom? | The minimum energy required to remove an electron from the ground state of an atom
+The minimum energy required to remove an electron from the ground state — what quantity is this? | Ionisation energy
+From which energy level is the ionisation energy defined? | The ground state (lowest energy level)
+How does excitation differ from ionisation? | In excitation, an electron moves to a higher energy level but remains bound to the atom. In ionisation, an electron is completely removed from the atom, leaving it charged
+What is fluorescence? | When an electron in an atomic orbital absorbs energy from a photon interaction or electron collision, then re-emits photons as it de-excites
+What are fluorescent tubes filled with? | Low-pressure mercury vapour, inside a partially evacuated glass tube with a phosphor coating
+Explain how a fluorescent tube produces visible light (first stage) | A high voltage accelerates electrons from cathode to anode. These beam electrons collide with mercury atom electrons, transferring kinetic energy and causing ionisation
+Explain how a fluorescent tube produces visible light (second stage) | Mercury electrons de-excite back to the ground state and emit UV photons
+Explain how a fluorescent tube produces visible light (final stage) | UV photons collide with electrons in the phosphor coating, exciting them. These phosphor electrons de-excite in stages, emitting photons in the visible light range
+Why do phosphor electrons emit visible light rather than UV? | They de-excite in stages (multiple smaller energy transitions), so each emitted photon has less energy and therefore a longer wavelength, falling in the visible range
+What type of radiation do mercury atoms emit when their electrons de-excite? | Ultraviolet (UV) photons
+What is the role of the phosphor coating in a fluorescent tube? | It absorbs UV photons and re-emits the energy as visible light through staged de-excitation of its electrons
+How are energy levels represented in an energy level diagram? | As a series of horizontal lines, with the ground state at the bottom (most negative energy) and the ionisation level at the top (0 eV)
+What does the bottom line in an energy level diagram represent? | The ground state — the lowest energy level with the greatest negative energy value
+What do the lines above the ground state in an energy level diagram represent? | Excited states, with decreasing negative energy values as you go higher
+What does the top line (0 eV or infinity) in an energy level diagram represent? | The ionisation energy level
+What is the ground state energy of a hydrogen atom? | -13.6 eV
+What is the energy of the n = 2 level in hydrogen? | -3.40 eV
+What is the energy of the n = 3 level in hydrogen? | -1.51 eV
+When is a photon emitted by an atom? | When an electron transitions from a higher energy level to a lower energy level
+The energy of an emitted photon equals what? | The difference in energy between the two energy levels involved in the transition
+What are line spectra? | Spectra produced when excited atoms emit light of certain discrete wavelengths, corresponding to different colours
+Discrete spectra produced when excited atoms emit light at specific wavelengths are called what? | Line spectra (or atomic spectra)
+Why does each element produce a unique set of spectral lines? | Because each element has a unique set of energy levels, so the energy differences (and therefore photon wavelengths) are unique to that element
+How can elements be identified using light? | By their unique line spectrum — no two elements produce the same set of spectral lines
+What are the two types of line spectra? | Emission spectra and absorption spectra
+What is an emission spectrum? | A set of discrete coloured lines on a black background, produced when electrons transition from higher to lower energy levels and emit photons
+A set of coloured lines on a black background, each corresponding to a specific wavelength — what type of spectrum is this? | An emission spectrum
+What is the equation relating photon energy to the change in energy level? | ΔE = hf = hc/λ
+In the equation ΔE = hf, what does ΔE represent? | The change in energy level (J)
+In the equation ΔE = hf, what does h represent? | Planck's constant (J s)
+In the equation ΔE = hf, what does f represent? | Frequency of the photon (Hz)
+What evidence do line spectra provide about atomic structure? | That electrons in atoms can only transition between discrete energy levels (energy is quantised)
+What is an absorption spectrum? | A continuous spectrum (all colours) with dark lines at certain wavelengths, produced when white light passes through a cool, low-pressure gas
+A continuous spectrum with dark lines at specific wavelengths — what type of spectrum is this? | An absorption spectrum
+What conditions are needed to produce an absorption spectrum? | White light passing through a cool, low-pressure gas
+Why do dark lines appear in an absorption spectrum? | Electrons in the gas absorb photons of specific wavelengths to become excited. When they de-excite, photons are re-emitted in all directions rather than the original direction, so those wavelengths appear missing
+What is the relationship between an element's absorption and emission spectra? | The dark lines in the absorption spectrum correspond to exactly the same wavelengths as the coloured lines in the emission spectrum
+What is the equation for the energy difference between two discrete energy levels? | ΔE = hf = E₂ - E₁
+In the equation ΔE = E₂ - E₁, what do E₁ and E₂ represent? | E₁ = energy of the higher level (J), E₂ = energy of the lower level (J). The assignment does not matter as long as you calculate the difference
+What is the equation relating wavelength to the energy difference between two levels? | λ = hc / (E₂ - E₁)
+How does the energy difference between two levels affect the wavelength of the emitted photon? | The larger the energy difference ΔE, the shorter the wavelength λ (they are inversely proportional)
+A large energy level transition produces a photon with what kind of wavelength? | A short wavelength (high frequency, high energy)
+A small energy level transition produces a photon with what kind of wavelength? | A long wavelength (low frequency, low energy)
+How do you convert energy from eV to joules? | Multiply by 1.6 × 10⁻¹⁹
+How do you convert energy from joules to eV? | Divide by 1.6 × 10⁻¹⁹
+How does emission spectra differ from absorption spectra in appearance? | Emission spectra show coloured lines on a black background. Absorption spectra show dark lines on a continuous coloured background
+What is wave-particle duality? | The phenomenon where light (and matter) can behave both as a wave and as a particle
+The phenomenon where light exhibits both wave and particle behaviour is called what? | Wave-particle duality
+What evidence supports light behaving as a particle? | The photoelectric effect
+What evidence supports light behaving as a wave? | Diffraction and interference of light, demonstrated by Young's Double-Slit Experiment
+What is diffraction? | When waves pass through a gap or around an obstacle and spread out
+How does the photon model explain the photoelectric effect? | Each electron absorbs only a single photon. Only photons with frequency above the threshold frequency have enough energy to release a photoelectron, which happens instantaneously
+Why does the wave theory of light fail to explain the photoelectric effect? | Wave theory predicts that any frequency should cause emission given enough time, that energy absorption is gradual, and that kinetic energy should increase with intensity — none of which are observed
+What does the wave theory of light incorrectly predict about the threshold frequency? | That any frequency of light can cause photoelectric emission if the exposure time is long enough
+What does the wave theory incorrectly predict about the kinetic energy of photoelectrons? | That kinetic energy should increase with radiation intensity. In reality, increasing intensity only increases the number of photoelectrons per second, not their kinetic energy
+What happens when light intensity is increased above the threshold frequency in the photoelectric effect? | More photoelectrons are emitted per second, but the maximum kinetic energy of each photoelectron stays the same
+What is the equation for photon energy? | E = hf
+Who discovered that matter can behave as a wave? | Louis de Broglie
+What experimental evidence shows that electrons have wave properties? | A diffraction pattern (concentric rings) is produced when a beam of electrons is directed at a thin graphite film
+Why is graphite film used in electron diffraction experiments? | Its crystalline structure has gaps between neighbouring atomic planes that are similar in size to the de Broglie wavelength of electrons, acting as a diffraction grating
+What pattern is observed on the screen in an electron diffraction experiment? | A series of concentric rings (a diffraction pattern)
+What would be observed if electrons behaved only as particles (not waves) when fired at graphite? | A uniform distribution across the screen, with no diffraction pattern
+What happens to the diffraction ring diameter when the accelerating voltage is increased in an electron diffraction experiment? | The diameter decreases (rings get closer together)
+Explain why increasing the accelerating voltage decreases the diffraction ring diameter | Higher voltage gives electrons more kinetic energy and speed, increasing their momentum and decreasing their de Broglie wavelength. A shorter wavelength produces less diffraction, so the rings are smaller
+What is the relationship between the kinetic energy of an accelerated electron and the potential difference? | Ek = ½mv² = eV
+What is the de Broglie equation? | λ = h/p, where λ is the de Broglie wavelength, h is Planck's constant, and p is momentum
+The equation λ = h/p is known as what? | The de Broglie equation
+What does the de Broglie equation relate? | Wavelength (a wave property) to momentum (a particle property)
+Write the de Broglie wavelength in terms of mass and speed | λ = h/(mv)
+Write the de Broglie wavelength in terms of kinetic energy | λ = h/√(2mE)
+How can momentum be expressed in terms of kinetic energy and mass? | p = √(2mE)
+How does the de Broglie wavelength change as a particle's momentum increases? | It decreases — greater momentum means a smaller de Broglie wavelength
+How does the de Broglie wavelength change as a particle's momentum decreases? | It increases — smaller momentum means a larger de Broglie wavelength
+Why does a proton have a shorter de Broglie wavelength than an electron at the same kinetic energy? | The proton has a much greater mass, so it has greater momentum (p = √(2mE)), and since λ = h/p, greater momentum means a shorter wavelength
+In the equation λ = h/(mv), what does m represent? | Mass of the particle (kg)
+In the equation λ = h/(mv), what does v represent? | Speed of the particle (m s⁻¹)
+What must be true about the gap size for electron diffraction to be observed? | The gap must be similar in size to the de Broglie wavelength of the electrons (such as the spacing in an atomic lattice)
+What happens to the electron diffraction pattern when electron speed is increased? | The diffraction rings get closer together (smaller diameter) because the de Broglie wavelength decreases
+How does the radius of a diffraction pattern relate to wavelength? | Longer wavelength produces a larger radius (more spreading). Shorter wavelength produces a smaller radius
+Electrons with smaller momentum produce what kind of diffraction pattern? | A more diffuse pattern with larger ring diameter (because smaller momentum means longer wavelength and more diffraction)
+Why can high-energy electrons be used to investigate the size of an atomic nucleus? | High-energy electrons have a very short de Broglie wavelength, comparable to nuclear dimensions, allowing them to diffract from the nucleus
+What is the regular spacing of atoms in a crystalline solid analogous to in optics? | A diffraction grating — it scatters electrons in a predictable pattern that can reveal the crystal structure
+What can the observed electron diffraction pattern be used to determine? | The structure of the crystal producing the pattern
+Who are considered the pioneers of quantum theory? | Max Planck, Niels Bohr, and Albert Einstein
+Why did scientists need to develop quantum theory around 1900? | Discoveries such as the electron and gamma photon conflicted with existing classical models of the nature of matter
+Explain why scientific models sometimes need to change | When experimental results do not match predictions from the existing model (e.g. the photoelectric effect contradicting wave theory), the model must be revised to explain the new evidence
+What is peer review? | The process where scientific claims from published research are evaluated by other expert scientists in that field
+What three things must peer reviewers check? | Validity (is the method appropriate?), originality (are results new?), and significance (are findings important?)
+Why should non-peer-reviewed scientific claims be questioned? | There could be problems with the method, accuracy of results, or conclusions drawn that have not been independently checked
+What is the difference between repeatable and reproducible results? | Repeatable means the same scientists can achieve the same results again. Reproducible means other independent teams of scientists can achieve the same results
+What must happen before a new scientific theory like de Broglie's is accepted? | It must be evaluated through peer review, and enough experimental evidence must be found to support and validate it

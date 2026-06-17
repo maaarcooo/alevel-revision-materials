@@ -1,0 +1,42 @@
+What is refraction? | The change in direction of a wave when it passes through a boundary between mediums of different density
+The change in direction of a wave when it passes through a boundary between mediums of different density — what term is this? | Refraction
+What causes refraction at a boundary? | Different parts of the wavefront change speed at different times as they cross the boundary
+What does "medium" mean in optics? | A transparent material
+In which direction does light bend when entering a more optically dense medium? | Towards the normal
+In which direction does light bend when entering a less optically dense medium? | Away from the normal
+What is the refractive index of a material? | The ratio of the speed of light in a vacuum to the speed of light in that material. It is dimensionless (no units)
+The ratio of the speed of light in a vacuum to the speed of light in a material — what quantity is this? | Refractive index (n)
+What is the equation for refractive index? | n = c / c_s, where c is the speed of light in a vacuum and c_s is the speed of light in the substance
+Why is the refractive index of any material always greater than 1? | Because light always travels slower in a substance than in a vacuum, so c / c_s is always greater than 1
+What value is used for the refractive index of air in calculations? | n_air = 1 (approximately)
+What is meant by "optically dense"? | A material with a high refractive index, which causes light to travel slower through it
+When light passes from a less dense to a more dense medium, what happens to its speed and wavelength? | Speed decreases and wavelength decreases
+When light passes from a more dense to a less dense medium, what happens to its speed and wavelength? | Speed increases and wavelength increases
+Which property of a wave does not change during refraction? | Frequency (observable because the colour of light does not change)
+What happens when a light ray is incident on a boundary along the normal (at 90° to the surface)? | It passes straight through without changing direction, because the whole wavefront enters the boundary at the same time
+State Snell's law | n_1 sin theta_1 = n_2 sin theta_2, where n and theta are the refractive index and angle from the normal for each medium
+From which line are angles of incidence and refraction always measured? | The normal (drawn at 90° to the boundary between the two media)
+What is the critical angle? | The angle of incidence in the denser medium at which the angle of refraction is exactly 90°, so the refracted ray travels along the boundary
+The angle of incidence at which the angle of refraction equals 90° — what is this called? | The critical angle
+What is the equation for the critical angle? | sin theta_c = n_2 / n_1, where n_1 is the denser medium and n_2 is the less dense medium (n_1 > n_2)
+How does the critical angle change as the refractive index of a material increases? | It decreases (a larger refractive index gives a smaller critical angle)
+What happens when the angle of incidence is less than the critical angle? | The ray is refracted and exits the material
+What is total internal reflection? | Complete reflection of light back into a denser medium when it hits the boundary with a less dense medium at an angle greater than the critical angle
+Complete reflection of light back into a denser medium at a boundary where the angle of incidence exceeds the critical angle — what term is this? | Total internal reflection (TIR)
+What two conditions must be met for total internal reflection to occur? | The angle of incidence must exceed the critical angle, and the light must be travelling from a more optically dense medium to a less optically dense medium (n_1 > n_2)
+What law does total internal reflection obey? | The law of reflection: angle of incidence equals angle of reflection
+How does light travel along an optical fibre? | It refracts into the core, undergoes repeated total internal reflection at the core-cladding boundary, then refracts out at the other end
+Name two uses of optical fibres | Communications (telephone and internet transmission) and medical imaging (endoscopes)
+What are the three main components of a step-index optical fibre? | An optically dense core (plastic or glass), a less optically dense cladding surrounding the core, and an outer sheath
+Why is this type of optical fibre called "step-index"? | Because the refractive index increases in a discrete step from the cladding to the core
+What is the purpose of cladding in an optical fibre? | It protects the core from damage, prevents signal degradation by stopping light escaping the core, and keeps adjacent fibres separate to prevent information crossover
+For TIR to occur in an optical fibre, what must be true about the core and cladding refractive indices? | The refractive index of the cladding must be less than the refractive index of the core (n_cladding < n_core)
+What is material dispersion in an optical fibre? | The spreading of a light pulse caused by white light separating into its component wavelengths, which travel at different speeds in the core
+What is modal dispersion in an optical fibre? | The spreading of a light pulse caused by different parts of the wavefront taking different paths through the fibre due to different angles of incidence
+How does material dispersion differ from modal dispersion? | Material dispersion is caused by using non-monochromatic light (different wavelengths travel at different speeds). Modal dispersion is caused by different path lengths through the fibre (different angles of incidence)
+What effect do material and modal dispersion both cause? | Pulse broadening, where output pulses are longer than input pulses, potentially causing pulses to merge and distort the signal
+In material dispersion, which colour of visible light travels slowest through the fibre? | Violet, because it has the shortest wavelength and therefore the lowest speed in the medium
+What is absorption in the context of optical fibres? | The fibre absorbs part of the signal's energy, reducing amplitude and causing loss of transmitted information
+Why does a wider core increase modal dispersion? | Greater differences in path length are possible, so different parts of the wavefront undergo different numbers of reflections and arrive at different times
+State two methods to reduce absorption in optical fibres | Use an extremely transparent core, and use optical fibre repeaters to regenerate the signal before significant absorption occurs
+State three methods to reduce pulse broadening in optical fibres | Use a very narrow core to limit path-length differences, use a monochromatic light source so pulse speed is constant, and use single-mode fibre where only one wavelength passes through the core

@@ -1,0 +1,38 @@
+What is an ammeter? | A device that measures current, connected in series with the circuit. An ideal ammeter has zero resistance
+A device that measures current in series with a circuit, ideally with zero resistance — what device is this? | Ammeter
+What is current? | The rate of flow of charge in a circuit
+The rate of flow of charge in a circuit — what quantity is this? | Current
+What is electromotive force (emf)? | The energy transferred by a source to each unit of charge that passes through it
+The energy transferred by a source to each unit of charge that passes through it — what quantity is this? | Electromotive force (emf)
+What is internal resistance? | The resistance to the flow of charge within a source, causing energy to be dissipated inside the source
+The resistance to the flow of charge within a source — what term is this? | Internal resistance
+What is a light dependent resistor (LDR)? | A semiconductor whose resistance increases as light intensity decreases
+A semiconductor whose resistance increases as light intensity decreases — what component is this? | Light dependent resistor (LDR)
+What is an ohmic conductor? | A conductor for which current is directly proportional to the potential difference across it, under constant physical conditions
+A conductor for which current is directly proportional to the potential difference across it under constant physical conditions — what type of conductor is this? | Ohmic conductor
+State Ohm's Law | The current through an ohmic conductor under constant physical conditions is directly proportional to the potential difference across it, with the constant of proportionality being resistance
+What is a parallel circuit? | A circuit where components are connected across each other in separate loops
+Components connected across each other in separate loops — what type of circuit is this? | Parallel circuit
+What is a potential divider? | Two resistors connected in series that split the total potential difference in the ratio of their resistances
+Two resistors in series used to split a potential difference in the ratio of their resistances — what is this arrangement called? | Potential divider
+What is resistance? | A measure of how difficult it is for current to flow through a material
+A measure of how difficult it is for current to flow through a material — what quantity is this? | Resistance
+What is resistivity? | A quantity proportional to resistance and cross-sectional area, and inversely proportional to length (ρ = RA/L)
+A quantity proportional to resistance and cross-sectional area, and inversely proportional to length — what is this? | Resistivity (ρ)
+How is potential difference distributed across resistors in parallel? | The potential difference across each resistor is identical
+How is current distributed between resistors in parallel? | The current is split between the resistors
+What is the total resistance of resistors connected in parallel? | The inverse of the sum of the inverses of the individual resistances (1/R_total = 1/R1 + 1/R2 + ...)
+How is current distributed through resistors in series? | The current through each resistor is identical
+How is potential difference distributed across resistors in series? | The potential difference is split in the ratio of their resistances
+What is the total resistance of resistors connected in series? | The sum of the individual resistances (R_total = R1 + R2 + ...)
+What is a series circuit? | A circuit where components are connected end to end in one loop
+Components connected end to end in one loop — what type of circuit is this? | Series circuit
+What is a superconductor? | A material with zero resistivity when its temperature is at or below its critical temperature
+A material with zero resistivity at or below a critical temperature — what is this called? | Superconductor
+State two uses of superconductors | Producing strong magnetic fields and reducing energy loss when transmitting electric power
+What is terminal potential difference? | The potential difference across the terminals of a power source, equal to the emf minus the voltage drop over the internal resistance
+The potential difference across the terminals of a power source — what term is this? | Terminal potential difference
+What is a thermistor? | A semiconductor whose resistance increases as temperature decreases
+A semiconductor whose resistance increases as temperature decreases — what component is this? | Thermistor
+What is a voltmeter? | A device that measures the potential difference across components. An ideal voltmeter has infinite resistance
+A device that measures potential difference across components, ideally with infinite resistance — what device is this? | Voltmeter

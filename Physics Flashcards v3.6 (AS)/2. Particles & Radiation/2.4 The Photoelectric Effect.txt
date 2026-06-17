@@ -1,0 +1,40 @@
+Define the electronvolt | The energy gained by an electron travelling through a potential difference of one volt (1 eV = 1.60 x 10^-19 J)
+The energy gained by an electron travelling through a potential difference of one volt — what unit is this? | The electronvolt (eV)
+How do you convert energy from eV to joules? | Multiply by 1.6 x 10^-19
+How do you convert energy from joules to eV? | Divide by 1.6 x 10^-19
+What is 2.4 eV in joules? | 2.4 x 1.6 x 10^-19 = 3.84 x 10^-19 J
+What is 4.9 x 10^-19 J in electronvolts? | (4.9 x 10^-19) / (1.6 x 10^-19) = 3.1 eV
+What equation relates the kinetic energy gained by an electron accelerated from rest to the potential difference? | eV = 1/2 mv^2
+What is the speed of an electron accelerated from rest through a potential difference V? | v = sqrt(2eV / m)
+What is the photoelectric effect? | The emission of electrons from the surface of a metal upon absorption of electromagnetic radiation
+The emission of electrons from the surface of a metal upon absorption of electromagnetic radiation — what phenomenon is this? | The photoelectric effect
+What are electrons emitted from a metal by the photoelectric effect called? | Photoelectrons
+What does the photoelectric effect demonstrate about the nature of light? | That light is quantised, meaning it is carried in discrete packets called photons
+How does the photoelectric effect demonstrate that light is quantised? | Each electron can absorb only a single photon, so only photon frequencies above a threshold cause emission, regardless of intensity
+Define threshold frequency | The minimum frequency of incident electromagnetic radiation required to remove a photoelectron from the surface of a metal
+The minimum frequency of incident electromagnetic radiation required to remove a photoelectron from the surface of a metal — what term is this? | Threshold frequency (f_0)
+Define threshold wavelength | The longest wavelength of incident electromagnetic radiation that would remove a photoelectron from the surface of a metal
+The longest wavelength of incident electromagnetic radiation that would remove a photoelectron from the surface of a metal — what term is this? | Threshold wavelength (lambda_0)
+How are threshold frequency and threshold wavelength related? | By the wave equation: c = f_0 x lambda_0
+In which region of the EM spectrum do alkali metals (e.g. sodium, potassium) have their threshold frequencies? | The visible light region
+In which region of the EM spectrum do transition metals (e.g. zinc, iron) have their threshold frequencies? | The ultraviolet region
+Explain why transition metals have higher threshold frequencies than alkali metals | Transition metals have stronger attractive forces between surface electrons and positive metal ions, so more photon energy (higher frequency) is needed to release an electron
+Define the work function (phi) | The minimum energy required to release a photoelectron from the surface of a metal
+The minimum energy required to release a photoelectron from the surface of a metal — what quantity is this? | The work function (phi)
+What happens when incident photons have frequency below the threshold frequency? | No photoelectrons are emitted, regardless of the radiation's intensity
+Define stopping potential (V_s) | The potential difference required to stop photoelectron emission from occurring
+The potential difference required to stop photoelectron emission from occurring — what term is this? | Stopping potential (V_s)
+What is the equation for maximum kinetic energy of photoelectrons in terms of stopping potential? | E_k(max) = eV_s
+What is the equation for the energy of a photon? | E = hf = hc / lambda
+What is the photoelectric equation? | hf = phi + E_k(max), which can be written as hf = phi + 1/2 mv^2(max)
+At the threshold frequency, what is the relationship between photon energy and work function? | hf_0 = phi (photon energy equals the work function, with no kinetic energy remaining)
+On a graph of E_k(max) against frequency f, what does the gradient represent? | Planck's constant (h)
+On a graph of E_k(max) against frequency f, what does the y-intercept represent? | Negative work function (-phi)
+On a graph of E_k(max) against frequency f, what does the x-intercept represent? | The threshold frequency (f_0)
+How does increasing the intensity of incident radiation affect the photoelectric current (for f > f_0)? | The photoelectric current increases
+Explain why increasing intensity increases the photoelectric current | Higher intensity means more photons strike the metal per second, so more photoelectrons are emitted per second
+How does increasing the intensity of incident radiation affect E_k(max) of photoelectrons? | No effect. E_k(max) depends only on the frequency of incident photons and the work function of the metal
+Explain why the maximum kinetic energy of photoelectrons is independent of intensity | Each electron absorbs only one photon, so kinetic energy depends on the energy per photon (determined by frequency), not the number of photons (determined by intensity)
+Explain why increasing the frequency of incident radiation at constant intensity decreases the photoelectric current | Higher frequency means each photon has more energy; to keep intensity constant, fewer photons are emitted per second, so fewer photoelectrons are released
+Why do most photoelectrons have kinetic energies less than E_k(max)? | Only surface electrons escape with E_k(max). Electrons deeper in the metal lose some absorbed energy reaching the surface, so they have less kinetic energy after escaping
+What equation relates radiation intensity to the number of photons? | I = nhf / (tA), where n is the number of photons, f is frequency, t is time, and A is area

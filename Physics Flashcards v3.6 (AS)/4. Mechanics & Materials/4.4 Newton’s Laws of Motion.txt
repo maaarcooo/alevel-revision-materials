@@ -1,0 +1,28 @@
+State Newton's first law of motion | An object will remain at rest or move with constant velocity unless acted on by a resultant force
+An object will remain at rest or move with constant velocity unless acted on by a resultant force — which law is this? | Newton's first law of motion
+What three changes to an object's motion require a resultant force? | Speeding up, slowing down, changing direction
+If the resultant force on a body is zero, what are the two possible states of motion? | At rest, or moving at a constant velocity
+What is the resultant force on a body? | The vector sum of all the forces acting on the body
+When forces on a body are balanced, what is true about the horizontal and vertical force components? | Forces acting left equal forces acting right, and forces acting upward equal forces acting downward
+State Newton's second law of motion | The resultant force on an object with constant mass is directly proportional to its acceleration: F = ma
+The resultant force on an object with constant mass is directly proportional to its acceleration — which law is this? | Newton's second law of motion
+In F = ma, what are the SI units of F, m, and a? | F: newtons (N), m: kilograms (kg), a: metres per second squared (m s⁻²)
+In what direction does the acceleration of an object always act? | In the same direction as the resultant force
+If the resultant force acts along the direction of an object's motion, what two outcomes are possible? | The object accelerates (speeds up) or decelerates (slows down)
+If the resultant force on an object acts at an angle to its direction of motion, what happens? | The object changes direction
+What sign convention is used for forces and acceleration when an object is in motion? | The direction of motion is taken as positive; opposing vectors are negative
+For a stationary object, what is the standard sign convention for forces? | Forward, upward, and to the right are positive; backward, downward, and to the left are negative
+A resultant force opposes the motion of a moving object. What effect does this have? | The object decelerates — it does not suddenly reverse direction
+In the absence of drag forces, how does the mass of a falling object affect its acceleration due to gravity? | It does not — acceleration is independent of mass when no drag acts
+State Newton's second law in terms of momentum | The resultant force on an object equals its rate of change of momentum: F = Δp/Δt
+In what direction does the change in momentum of an object act? | In the same direction as the resultant force
+How is F = ma derived from the momentum form of Newton's second law? | p = mv, so Δp/Δt = m(Δv/Δt) = ma (for constant mass)
+State Newton's third law of motion | If Object A exerts a force on Object B, then Object B exerts a force on Object A which is equal in magnitude but opposite in direction
+If Object A exerts a force on Object B, then Object B exerts a force on Object A, equal in magnitude but opposite in direction — which law is this? | Newton's third law of motion
+What four conditions must a Newton's third law force pair satisfy? | Same type of force, same magnitude, opposite in direction, acting on different objects
+When a person walks, what third-law pair of forces acts between the foot and the ground? | The foot exerts a normal contact force backward on the ground, and the ground exerts a normal contact force forward on the foot
+A book rests on a table. Why are the weight and normal contact force on the book NOT a Newton's third law pair? | They are different types of force (gravitational vs contact) and both act on the same object
+A book rests on a table. What is the third-law partner of the gravitational pull of the Earth on the book? | The gravitational pull of the book on the Earth
+A book rests on a table. What is the third-law partner of the normal contact force of the table on the book? | The normal contact force of the book pushing down on the table
+How do Newton's first and second laws differ from Newton's third law in terms of objects involved? | First and second laws: multiple forces acting on a single object. Third law: forces between two interacting objects
+A car moves at constant velocity with a driving force of 6 kN and friction as the only other horizontal force. What is the frictional force? | 6 kN

@@ -1,0 +1,60 @@
+Define excitation | When an electron absorbs enough energy to move up to a higher energy level
+When an electron absorbs enough energy to move to a higher energy level — what term is this? | Excitation
+What happens when an electron de-excites? | It moves to a lower energy level and emits a photon
+Define ionisation | When an atom gains or loses an orbital electron and becomes charged
+When an atom gains or loses an orbital electron and becomes charged — what term is this? | Ionisation
+What is the ionisation energy of an atom? | The minimum energy required to remove an electron from the ground state of the atom
+The minimum energy required to remove an electron from the ground state of an atom — what quantity is this? | Ionisation energy
+How does excitation differ from ionisation? | In excitation the electron moves to a higher energy level but remains in the atom; in ionisation the electron is completely removed from the atom
+What is the ground state of an atom? | The lowest energy level that electrons can occupy, the most stable configuration
+In what two ways can an electron in an atom gain energy? | By absorbing a photon or through collision with another electron
+What fills a fluorescent tube? | Low-pressure mercury vapour inside a partially evacuated glass tube with a phosphor coating on the inside
+What creates the electron beam in a fluorescent tube? | A high voltage applied across the tube causes electrons to flow from the cathode to the anode
+In a fluorescent tube, what happens when beam electrons collide with mercury atom electrons? | Kinetic energy is transferred, exciting the mercury atom electrons to higher energy levels
+What type of radiation do mercury atoms emit when their excited electrons de-excite? | Ultraviolet (UV) photons
+How does the phosphor coating in a fluorescent tube produce visible light? | UV photons excite electrons in the phosphor atoms; these electrons de-excite in stages, emitting lower-energy photons in the visible light range
+On an energy level diagram, what does the lowest line with the most negative energy represent? | The ground state
+On an energy level diagram, what does the line at 0 eV (or infinity) represent? | The ionisation level
+What is the ground state energy of the hydrogen atom? | -13.6 eV
+What equation gives the energy of a photon? | E = hf
+What equation relates the energy change in an electron transition to the wavelength of the photon? | Delta-E = hc / lambda
+What equation relates the wavelength of an emitted photon to two energy levels? | lambda = hc / (E2 - E1)
+How does the size of an energy level transition relate to the wavelength of the emitted photon? | Larger energy difference produces shorter wavelength; smaller energy difference produces longer wavelength
+How do you convert energy from electronvolts to joules? | Multiply by 1.6 x 10^-19
+What are line spectra? | Spectra produced when excited atoms emit or absorb light at specific wavelengths, observed as discrete lines
+Why can elements be identified by their line spectra? | Each element has a unique set of energy levels, producing a unique pattern of spectral lines
+Name the two types of line spectra | Emission spectra and absorption spectra
+What does an emission spectrum look like? | Discrete coloured lines on a black background
+What does an absorption spectrum look like? | A continuous spectrum with dark lines at certain wavelengths
+How is an absorption spectrum produced? | White light passes through a cool, low-pressure gas; atoms absorb photons at wavelengths that match their energy level differences
+Why do some wavelengths appear to be missing in an absorption spectrum? | Absorbed photons are re-emitted in all directions rather than the original direction, reducing intensity at those wavelengths
+What is the relationship between the dark lines of an absorption spectrum and the emission spectrum of the same element? | They occur at the same wavelengths
+What evidence do line spectra provide about electrons in atoms? | Electrons can only transition between discrete energy levels
+Define wave-particle duality | The phenomenon where light and matter can exhibit both wave and particle behaviour
+The phenomenon where light and matter can exhibit both wave and particle behaviour — what term is this? | Wave-particle duality
+What experimental evidence supports the particle nature of light? | The photoelectric effect
+What experimental evidence supports the wave nature of light? | Diffraction and interference in Young's double-slit experiment
+In the photoelectric effect, how many photons can each surface electron absorb? | Exactly one
+Why does the wave theory of light fail to explain the threshold frequency? | Wave theory predicts energy is absorbed gradually, so any frequency should eventually cause emission; in reality only frequencies above the threshold cause instantaneous emission
+In the photoelectric effect, what happens when light intensity (above threshold frequency) is increased? | More photoelectrons are emitted per second, but the maximum kinetic energy is unchanged
+Who discovered that matter can behave as a wave? | Louis de Broglie
+What is observed when a beam of electrons passes through thin graphite film? | A diffraction pattern of concentric rings on the screen
+Why is graphite suitable for demonstrating electron diffraction? | Its crystalline structure has atomic plane spacings similar in size to the de Broglie wavelength of electrons
+What pattern would appear on the screen if electrons passing through graphite behaved only as particles? | A uniform distribution with no diffraction pattern
+How does increasing the accelerating voltage affect the electron diffraction ring diameter? | The diameter decreases (rings become closer together)
+Explain why increasing the accelerating voltage decreases the de Broglie wavelength of electrons | Higher voltage increases electron kinetic energy and speed, giving them greater momentum; since wavelength is inversely proportional to momentum, the wavelength decreases
+What equation relates the kinetic energy of an accelerated electron to the potential difference? | Ek = half mv squared = eV
+What is the de Broglie equation? | lambda = h / p
+What is the de Broglie wavelength in terms of particle speed? | lambda = h / (mv)
+What is the de Broglie wavelength in terms of kinetic energy? | lambda = h / sqrt(2mE)
+What equation relates momentum to kinetic energy? | p = sqrt(2mE)
+How does the de Broglie wavelength change as momentum increases? | It decreases (wavelength is inversely proportional to momentum)
+For a proton and electron accelerated through the same potential difference, which has the longer de Broglie wavelength and why? | The electron, because it has smaller mass and therefore smaller momentum at the same kinetic energy
+How can electron diffraction patterns be used to study materials? | The pattern reveals the crystal structure and atomic spacing of the material
+Why can high-energy electrons probe the size of atomic nuclei? | They have very short de Broglie wavelengths, comparable to nuclear dimensions
+How does the de Broglie wavelength affect the radius of an electron diffraction pattern? | Longer wavelength produces a larger radius; shorter wavelength produces a smaller radius
+Name three pioneers of quantum theory | Max Planck, Niels Bohr, and Albert Einstein
+What is peer review? | The process by which scientific claims are evaluated by other expert scientists in that field before acceptance
+What three aspects do scientists check during peer review? | Validity, originality, and significance
+What is the difference between repeatable and reproducible results? | Repeatable: same scientists obtain the same results. Reproducible: different teams of scientists obtain the same results
+How did the failure of wave theory to explain the photoelectric effect change scientific models? | Scientists developed the photon model and wave-particle duality to account for the new evidence, replacing the purely wave-based model

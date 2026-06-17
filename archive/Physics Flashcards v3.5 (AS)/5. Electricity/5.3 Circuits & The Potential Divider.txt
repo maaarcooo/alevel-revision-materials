@@ -1,0 +1,79 @@
+What is the equation for combined resistance of resistors in series? | R = R₁ + R₂ + R₃ ...
+When resistors are connected in series, how is the total resistance calculated? | By adding the individual resistances: R = R₁ + R₂ + R₃ ...
+The total resistance equals the sum of individual resistances — what type of connection is this? | Series
+What is the equation for combined resistance of resistors in parallel? | 1/R = 1/R₁ + 1/R₂ + 1/R₃ ...
+When resistors are connected in parallel, how is the total resistance calculated? | The reciprocal of the total resistance equals the sum of the reciprocals of the individual resistances: 1/R = 1/R₁ + 1/R₂ + 1/R₃ ...
+The reciprocal of the total resistance equals the sum of the reciprocals of the individual resistances — what type of connection is this? | Parallel
+Explain why adding more resistors in parallel decreases the total resistance | Each new parallel branch provides an additional path for current to flow, reducing the overall opposition to current, so the combined resistance decreases
+If two resistors of equal resistance R are connected in parallel, what is the combined resistance? | R/2 (the combined resistance halves)
+How does combined resistance in parallel compare to each individual component's resistance? | The combined resistance is always less than the resistance of any individual component
+What is the most common mistake when calculating parallel resistance? | Forgetting to find the reciprocal of 1/R_T to get R_T (students leave the answer as 1/R_T instead of R_T)
+What is the reciprocal of a value? | 1 divided by that value (1/value)
+How do you obtain R_T from 1/R_T when solving parallel resistance problems? | Calculate 1 ÷ (your answer for 1/R_T), or use the x⁻¹ or 1/x button on your calculator
+In a series circuit, what happens to the current at each point? | The current is the same at every point in the circuit
+In a parallel circuit, what happens to the current at a junction? | The current splits across the different branches; the total current into a junction equals the total current out
+What determines how much current flows through each branch of a parallel circuit? | The total resistance of the components within that branch
+How does current behave in a series circuit compared to a parallel circuit? | In series, current is the same through all components; in parallel, current divides at junctions with different values in each branch
+In a series circuit, how is the e.m.f of the power supply distributed? | It is shared amongst all the components in different amounts, depending on their resistance
+In a parallel circuit, what is the voltage across each branch? | The voltage across all components in each branch is equal to the e.m.f of the power supply
+How does voltage distribution differ between series and parallel circuits? | In series, the supply e.m.f is shared between components proportionally to their resistance; in parallel, each branch has the same voltage equal to the supply e.m.f
+If cells are connected in series, what is the total voltage? | The sum of the potential differences across each cell
+If cells are connected in parallel, what is the total voltage? | The same voltage as a single cell
+Three 2V cells are connected in series. What is the total voltage? | 6 V (2 + 2 + 2)
+Three 2V cells are connected in parallel. What is the total voltage? | 2 V (same as one cell)
+What is conservation of charge in a circuit? | Charge is never used up or lost in a circuit
+What is Kirchhoff's First Law? | The sum of the currents entering a junction always equals the sum of the currents leaving the junction
+The sum of the currents entering a junction equals the sum of the currents leaving the junction — which law is this? | Kirchhoff's First Law
+What principle underlies Kirchhoff's First Law? | Conservation of charge
+What is a junction in a circuit? | A point where at least three circuit paths meet
+What is a branch in a circuit? | A path connecting two junctions
+What is conservation of energy in a circuit? | Energy is never used up or lost in a circuit
+What is Kirchhoff's Second Law? | The total e.m.f in a closed circuit equals the sum of the potential differences across each component
+The total e.m.f in a closed circuit equals the sum of the p.d.s across each component — which law is this? | Kirchhoff's Second Law
+What principle underlies Kirchhoff's Second Law? | Conservation of energy
+How can each closed loop in a parallel circuit be treated? | As its own independent series circuit
+Why are parallel circuits used in home wiring systems? | A single power source supplies all lights and appliances with the same voltage, and if one component breaks, current can still flow through the rest
+How does Kirchhoff's First Law relate to conservation of charge? | Because charge is conserved, the total current flowing into any junction must equal the total current flowing out — no charge is lost or gained
+How does Kirchhoff's Second Law relate to conservation of energy? | Because energy is conserved, the total energy supplied by the e.m.f sources around a closed loop must equal the total energy dissipated across the components
+What is electrical power defined as? | The rate of change of work done (or the rate of energy transfer)
+The rate of doing work in an electrical circuit is called what? | Power
+What is the equation for electrical power in terms of energy and time? | P = E/t = W/t
+What are the units of power? | Watts (W)
+What is the equation for electrical power in terms of current and voltage? | P = IV
+State the power equation that uses current and resistance | P = I²R
+State the power equation that uses voltage and resistance | P = V²/R
+For a given resistor, if the current doubles, what happens to the power dissipated? | The power quadruples (since P = I²R, power is proportional to I²)
+For a given resistor, if the voltage doubles, what happens to the power dissipated? | The power quadruples (since P = V²/R, power is proportional to V²)
+Why does doubling the current through a fixed resistor quadruple the power? | Because P = I²R, so power depends on the square of the current; doubling I gives (2I)² = 4I², hence four times the power
+What is the equation for energy transferred in a circuit? | E = VIt
+What does each variable represent in E = VIt? | E = energy transferred (J), V = voltage (V), I = current (A), t = time (s)
+When using P = E/t, what unit must time be in? | Seconds (s)
+How are P = I²R and P = V²/R derived? | By substituting V = IR (Ohm's Law) into P = IV; replacing V gives P = I²R, replacing I gives P = V²/R
+What is a potential divider? | A circuit that produces an output voltage as a fraction of its input voltage using two resistors in series
+A circuit that produces an output voltage as a fraction of its input voltage — what is this called? | A potential divider
+State the potential divider equation | V_out = (R₂ / (R₁ + R₂)) × V_in
+In the potential divider equation V_out = R₂/(R₁+R₂) × V_in, what must R₂ represent? | The resistance of the component across which V_out is measured
+What are the three main purposes of a potential divider? | To provide a variable p.d., to enable a specific p.d. to be chosen, and to split the p.d. of a power source between two or more components
+Give two practical applications of potential dividers | Volume controls, and sensory circuits using LDRs and thermistors
+In a potential divider, what happens to V_out if R₂ is increased while R₁ stays the same? | V_out increases, because R₂ takes a greater share of the total p.d.
+Explain why the p.d. across a component in a potential divider is proportional to its resistance | From V = IR, since both resistors carry the same current (series circuit), the component with the larger resistance must have the larger voltage drop
+In a potential divider, what determines how the input voltage is shared between the two resistors? | The ratio of their resistances
+How does the resistance of an LDR vary with light intensity? | The higher the light intensity, the lower the resistance (and vice versa)
+The higher the light intensity, the lower the resistance — which component behaves this way? | A Light Dependent Resistor (LDR)
+How does the resistance of a thermistor (NTC) vary with temperature? | The hotter the thermistor, the lower the resistance (and vice versa)
+The hotter it gets, the lower its resistance — which component behaves this way? | A thermistor (NTC type)
+Give a practical application of an LDR in a potential divider | Street lights or security lights that switch on automatically when it gets dark
+Give a practical application of a thermistor in a potential divider | Fire alarms, ovens, or digital thermometers
+In a potential divider with a thermistor and fixed resistor R, what happens to V_out across the thermistor when temperature decreases? | V_out across the thermistor increases (because its resistance increases as temperature falls)
+In a potential divider with a thermistor and fixed resistor R, what happens to V_out across R when the thermistor's temperature decreases? | V_out across R decreases (because the thermistor's increased resistance takes a greater share of V_in)
+Explain why a decrease in temperature causes V_out across a thermistor to increase in a potential divider | Lower temperature raises the thermistor's resistance; since both components carry the same current (series), V = IR means a higher resistance produces a higher p.d. across the thermistor
+If the p.d. across one resistor in a potential divider increases, what must happen to the p.d. across the other resistor? | It must decrease, because the sum of p.d.s must equal V_in (Kirchhoff's Second Law)
+In a potential divider with an LDR and fixed resistor R, what happens to V_out across R when light intensity increases? | V_out across R increases (because the LDR's resistance decreases, so R takes a greater share of V_in)
+How does a series circuit differ from a parallel circuit in terms of resistance equations? | Series: R_total = R₁ + R₂ + R₃; Parallel: 1/R_total = 1/R₁ + 1/R₂ + 1/R₃
+How does Kirchhoff's First Law differ from Kirchhoff's Second Law? | First Law concerns current at junctions (conservation of charge): currents in = currents out. Second Law concerns voltage around closed loops (conservation of energy): total e.m.f = sum of p.d.s
+In a series circuit, how are the voltage, current, and resistance rules summarised? | Voltage: V_in = V₁ + V₂ + V₃; Current: I_in = I₁ = I₂ = I₃; Resistance: R_total = R₁ + R₂ + R₃
+In a parallel circuit, how are the voltage, current, and resistance rules summarised? | Voltage: V_in = V₁ = V₂ = V₃; Current: I_in = I₁ + I₂ + I₃; Resistance: 1/R_total = 1/R₁ + 1/R₂ + 1/R₃
+The power dissipated by an electrical component is the energy transferred per [...] | second
+In the equation P = IV, what does P represent and in what unit? | Power, measured in watts (W)
+In the equation P = IV, what does I represent and in what unit? | Current, measured in amperes (A)
+In the equation P = IV, what does V represent and in what unit? | Potential difference / voltage, measured in volts (V)

@@ -1,0 +1,51 @@
+What is the amplitude of a wave? | The maximum displacement from its equilibrium position
+The maximum displacement of a wave from its equilibrium position — what term is this? | Amplitude
+What is an antinode? | A position of maximum displacement in a stationary wave
+A position of maximum displacement in a stationary wave — what term is this? | Antinode
+What is cladding on an optical fibre? | A protective layer that improves tensile strength, prevents scratching, and prevents signal transfer between adjacent fibres
+What does it mean for waves to be coherent? | They have the same wavelength and frequency, with a fixed phase difference between them
+Waves with the same wavelength and frequency and a fixed phase difference between them — what property is this? | Coherence
+What is a diffraction grating? | A grating with hundreds of slits per millimetre, producing sharper interference patterns than a double slit
+What are diffraction gratings used for? | Calculating atomic spacing and analysing elements
+What is diffraction? | The spreading of waves as they pass through a gap of a similar size to their wavelength
+The spreading of waves as they pass through a gap of a similar size to their wavelength — what term is this? | Diffraction
+What are electromagnetic waves? | Waves consisting of perpendicular electric and magnetic oscillations
+Waves consisting of perpendicular electric and magnetic oscillations — what type of wave is this? | Electromagnetic waves
+What is frequency? | The number of waves passing a point per unit time (f = 1/T)
+What is fringe spacing? | The distance between two adjacent bright fringes (or two adjacent dark fringes)
+What is interference? | The superposition of waves that occurs when two waves meet
+When does constructive interference occur? | When two waves meet in phase
+When does destructive interference occur? | When two waves meet out of phase (in antiphase)
+What is a laser? | A light source that produces a collimated and coherent beam
+A light source that produces a collimated and coherent beam — what is this? | A laser
+What is a longitudinal wave? | A wave with oscillations parallel to the direction of energy propagation (e.g. sound waves)
+A wave with oscillations parallel to the direction of energy propagation — what type of wave is this? | Longitudinal wave
+What is material dispersion in optical fibres? | Waves of different wavelengths travel at slightly different speeds, arriving at different times and causing pulse broadening
+How is material dispersion reduced in optical fibres? | By using monochromatic light, so all light travels at the same speed through the fibre
+What is modal dispersion in optical fibres? | Waves enter the fibre at slightly different angles, travelling different distances and arriving at different times, causing pulse broadening
+What is a node? | A position of zero displacement in a stationary wave
+A position of zero displacement in a stationary wave — what term is this? | Node
+How do nodes and antinodes differ in a stationary wave? | Nodes are positions of zero displacement; antinodes are positions of maximum displacement
+What is an optical fibre? | A thin glass fibre through which signals are transmitted, usually surrounded by cladding
+What is path difference? | A measure of how far ahead one wave is compared to another, usually expressed in terms of wavelength
+A measure of how far ahead one wave is compared to another, expressed in wavelengths — what term is this? | Path difference
+What is phase difference? | The difference in phase between two points on a wave, usually expressed in radians
+What is phase? | A measure of how far through its cycle a given point on a wave is
+What is polarisation? | The restriction of a wave's oscillations to a single plane. Only transverse waves can be polarised
+The restriction of a wave's oscillations to a single plane — what term is this? | Polarisation
+What is pulse broadening? | The elongation of a signal in an optical fibre, commonly caused by modal or material dispersion
+The elongation of a signal in an optical fibre — what term is this? | Pulse broadening
+What is the refractive index of a material? | The ratio of the speed of light in a vacuum to the speed of light in that material (n = c/v)
+The ratio of the speed of light in a vacuum to the speed of light in a material — what quantity is this? | Refractive index
+What is Snell's law? | A law relating angle of incidence to angle of refraction using the refractive indices of the two media (n1 sin theta1 = n2 sin theta2)
+What is the wave speed equation? | v = f times lambda (speed = frequency times wavelength)
+What is a stationary wave? | A wave that stores energy but does not transfer it
+A wave that stores energy but does not transfer it — what type of wave is this? | Stationary (standing) wave
+What is total internal reflection? | Complete reflection at the inside boundary of a medium (e.g. an optical fibre), so no radiation passes out
+What is a transverse wave? | A wave with oscillations perpendicular to the direction of energy propagation (e.g. electromagnetic waves)
+A wave with oscillations perpendicular to the direction of energy propagation — what type of wave is this? | Transverse wave
+How do longitudinal and transverse waves differ? | Longitudinal: oscillations parallel to the direction of energy propagation. Transverse: oscillations perpendicular to it
+What is wavelength? | The distance between two identical positions on adjacent waves (e.g. peak to peak or trough to trough)
+The distance between two identical positions on adjacent waves — what term is this? | Wavelength
+What is Young's double-slit experiment? | An experiment demonstrating interference of light by passing monochromatic light through two narrow slits, producing a pattern of bright and dark fringes
+How do material dispersion and modal dispersion differ? | Material dispersion: different wavelengths travel at different speeds. Modal dispersion: waves enter at different angles and travel different distances. Both cause pulse broadening

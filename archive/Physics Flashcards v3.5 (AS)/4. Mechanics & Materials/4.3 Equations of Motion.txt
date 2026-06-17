@@ -1,0 +1,132 @@
+What is distance? | The total length between two points (scalar quantity)
+The total length between two points is called what? | Distance
+What is speed? | The total distance travelled per unit of time (scalar quantity)
+The total distance travelled per unit of time is called what? | Speed
+What is displacement? | The distance of an object from a fixed point in a specified direction (vector quantity)
+The distance of an object from a fixed point in a specified direction is called what? | Displacement
+What is velocity? | The rate of change of displacement of an object (vector quantity)
+The rate of change of displacement of an object is called what? | Velocity
+What is acceleration? | The rate of change of velocity of an object (vector quantity)
+The rate of change of velocity of an object is called what? | Acceleration
+How does distance differ from displacement? | Distance is a scalar (total path length, always positive). Displacement is a vector (straight-line distance from a fixed point in a specified direction, can be positive or negative)
+How does speed differ from velocity? | Speed is a scalar (total distance per unit time, always positive). Velocity is a vector (rate of change of displacement, has direction, can be positive or negative)
+What is the equation for velocity? | v = Δs / Δt
+What do the symbols represent in v = Δs / Δt? | v = velocity (m s⁻¹), Δs = change in displacement (m), Δt = change in time (s)
+What is the equation for acceleration? | a = Δv / Δt
+What do the symbols represent in a = Δv / Δt? | a = acceleration (m s⁻²), Δv = change in velocity (m s⁻¹), Δt = change in time (s)
+What is the SI unit of velocity? | m s⁻¹ (metres per second)
+What is the SI unit of acceleration? | m s⁻² (metres per second squared)
+What does the symbol Δ mean in physics? | Change in (a quantity)
+What is instantaneous velocity? | The velocity of an object at any given point in time
+How do you find instantaneous velocity on a displacement-time graph? | Draw a tangent at the required time, then calculate the gradient of that tangent
+How do you find average velocity? | Divide the total displacement by the total time
+How does average speed differ from instantaneous speed? | Average speed uses total distance divided by total time over the whole journey. Instantaneous speed is the speed at one specific moment in time
+On a displacement-time graph, what does the gradient represent? | Velocity
+On a displacement-time graph, what does the y-intercept represent? | The initial displacement
+On a displacement-time graph, what does a diagonal straight line represent? | Constant velocity
+On a displacement-time graph, what does a curved line represent? | An acceleration (changing velocity)
+On a displacement-time graph, what does a horizontal line represent? | The object is at rest (zero velocity)
+On a displacement-time graph, what does a positive slope represent? | Motion in the positive direction
+On a displacement-time graph, what does a negative slope represent? | Motion in the negative direction
+Does the area under a displacement-time graph have physical meaning? | No, the area under a displacement-time graph is meaningless
+On a velocity-time graph, what does the gradient represent? | Acceleration
+On a velocity-time graph, what does the y-intercept represent? | The initial velocity
+On a velocity-time graph, what does a straight line represent? | Uniform (constant) acceleration
+On a velocity-time graph, what does a curved line represent? | Non-uniform (changing) acceleration
+On a velocity-time graph, what does a horizontal line represent? | Motion with constant velocity (zero acceleration)
+On a velocity-time graph, what does the area under the curve represent? | Displacement (or distance travelled)
+How does a velocity-time graph differ from a speed-time graph? | A velocity-time graph can have positive or negative values (direction matters). A speed-time graph only has positive values
+On an acceleration-time graph, what does the y-intercept represent? | The initial acceleration
+On an acceleration-time graph, what does the area under the curve represent? | The change in velocity
+On an acceleration-time graph, what does a horizontal line represent? | Constant acceleration
+Does the gradient of an acceleration-time graph have physical meaning? | No, the slope of an acceleration-time graph is meaningless
+The gradient of a displacement-time graph gives [...] | velocity
+The gradient of a velocity-time graph gives [...] | acceleration
+The area under a velocity-time graph gives [...] | displacement
+The area under an acceleration-time graph gives [...] | change in velocity
+For a bouncing ball (ignoring air resistance), what happens to acceleration due to gravity throughout the motion? | It remains constant in magnitude and direction (always 9.81 m s⁻² downwards), regardless of whether the ball is rising or falling
+At the highest point of a bouncing ball's trajectory, what is the velocity? | Zero momentarily, as the ball changes direction from positive (upward) to negative (downward)
+At the lowest point (ground) of a bouncing ball's trajectory, what happens to velocity? | The velocity changes instantaneously from negative to positive, but the speed (magnitude) remains the same
+Explain why a bouncing ball (no air resistance) reaches the same height each bounce | The only force acting is gravity (constant). No energy is lost to resistive forces, so the ball returns to the same height by conservation of energy
+What does SUVAT stand for? | s = displacement, u = initial velocity, v = final velocity, a = acceleration, t = time
+What are the four SUVAT equations? | v = u + at, s = ut + ½at², s = ((v + u)/2)t, v² = u² + 2as
+State the SUVAT equation that does not contain displacement (s) | v = u + at
+State the SUVAT equation that does not contain final velocity (v) | s = ut + ½at²
+State the SUVAT equation that does not contain acceleration (a) | s = ((v + u)/2)t
+State the SUVAT equation that does not contain time (t) | v² = u² + 2as
+When can you use the SUVAT equations? | Only for motion with constant (uniform) acceleration in a straight line
+In SUVAT problems, what does "starts from rest" mean? | u = 0 (initial velocity is zero)
+In SUVAT problems, if an object is falling freely under gravity, what is a? | a = g = 9.81 m s⁻² (downwards)
+Why must you be consistent with signs in SUVAT problems? | Because s, u, v, and a are vectors. If upwards is positive, then displacement upward is positive and acceleration due to gravity is negative (and vice versa)
+Which SUVAT variable is not a vector quantity? | Time (t). All others (s, u, v, a) are vectors
+If you know u, v, and t, which SUVAT equation do you use to find s? | s = ((v + u)/2)t
+If you know u, a, and t, which SUVAT equation do you use to find s? | s = ut + ½at²
+If you know u, v, and a, which SUVAT equation do you use to find s? | v² = u² + 2as, rearranged for s
+What is a projectile? | A particle moving freely (non-powered) under gravity in a two-dimensional plane
+Give three examples of projectile motion | Throwing a ball, jumping off a diving board, hitting a baseball with a bat
+In projectile motion, how do you find the vertical component of initial velocity? | Vertical component = u sin θ, where u is the resultant velocity and θ is the angle to the horizontal
+In projectile motion, how do you find the horizontal component of initial velocity? | Horizontal component = u cos θ, where u is the resultant velocity and θ is the angle to the horizontal
+Why are the horizontal and vertical components of projectile motion analysed separately? | They are independent of each other and require separate SUVAT calculations with different values for displacement, velocity, and acceleration
+In projectile motion, what is the horizontal acceleration (ignoring air resistance)? | Zero, because no horizontal force acts on the projectile
+In projectile motion, what is the vertical acceleration (ignoring air resistance)? | g = 9.81 m s⁻² directed downward (acceleration due to gravity)
+In projectile motion, what happens to horizontal velocity throughout the flight (ignoring air resistance)? | It remains constant, since there is no horizontal acceleration
+Explain why vertical velocity changes during projectile motion | Gravity acts as a constant downward force, producing a constant vertical acceleration of 9.81 m s⁻² that continuously changes the vertical velocity
+What is the vertical velocity at maximum height in projectile motion? | Zero, because the projectile momentarily stops moving upward before falling back down
+What is the time of flight in projectile motion? | The total time the projectile is in the air. For a symmetric trajectory, this is 2t where t is the time to reach maximum height
+How do you calculate the time to maximum height for a projectile launched at angle θ? | Using v = u + at with v = 0, u = u sin θ, a = -g: t = (u sin θ)/g
+How do you calculate the maximum height of a projectile launched at angle θ? | Using v² = u² + 2as with v = 0, u = u sin θ, a = -g: H = (u sin θ)² / (2g)
+What is the range of a projectile? | The horizontal distance travelled by the projectile
+How do you calculate the range of a projectile launched at angle θ? | R = (u cos θ) × total time = u² sin 2θ / g (using the trig identity 2 sin θ cos θ = sin 2θ)
+For a projectile launched and landing at the same height, at what point is horizontal displacement half the range? | At maximum height, when half the total time has elapsed
+How does air resistance affect the trajectory of a projectile? | It reduces horizontal velocity (decreasing range), reduces maximum height, and causes a steeper descent, making the trajectory asymmetric
+What are drag forces? | Forces that oppose the motion of an object moving through a fluid (gas or liquid)
+Forces that oppose motion through a fluid are called what? | Drag forces
+Give two examples of drag forces | Friction and air resistance
+State four properties of drag forces | They act opposite to the direction of motion, never speed up or start an object moving, slow an object down or keep it at constant speed, and convert kinetic energy into heat and sound
+Explain why drag forces increase with speed | As an object moves faster through a fluid, it collides with more fluid particles per unit time and each collision involves greater relative velocity, producing a larger opposing force
+What is lift? | An upward force on an object moving through a fluid, perpendicular to the fluid flow
+How is lift generated on an aeroplane wing? | As the wing moves through the air, it pushes air downward, changing its direction. By Newton's third law, the air exerts an equal and opposite upward force (lift) on the wing
+When a car is accelerating, how do the driving force and frictional force compare? | Driving force is greater than frictional force, producing a net forward force
+When a car travels at constant velocity, how do the driving force and frictional force compare? | Driving force equals frictional force, so the resultant force is zero
+When a car is decelerating, how do the driving force and frictional force compare? | Frictional force is greater than driving force, producing a net backward force
+Name five factors that affect air resistance on a vehicle | Cross-sectional area, shape, speed, altitude, and temperature (also humidity)
+Why do aeroplanes fly at high altitudes to reduce air resistance? | Air density is lower at high altitude, so there are fewer air molecules to collide with, resulting in less drag
+Why do racing cars have a streamlined design? | A curved, angled front reduces the cross-sectional area meeting the airflow, decreasing air resistance and allowing higher speeds
+What is terminal velocity? | The maximum constant velocity reached by a falling object when the drag force equals the gravitational force (weight), so the resultant force and acceleration are both zero
+The maximum velocity of a falling object, reached when drag equals weight, is called what? | Terminal velocity
+Explain the sequence of events as a skydiver reaches terminal velocity | Initially, weight exceeds drag so the skydiver accelerates. As speed increases, drag increases. The resultant force and acceleration decrease. Eventually drag equals weight, resultant force is zero, and the skydiver falls at constant terminal velocity
+Why does acceleration decrease as a falling object approaches terminal velocity? | As speed increases, drag force increases, reducing the resultant force (weight minus drag). Since F = ma, a smaller resultant force means smaller acceleration
+At terminal velocity, what is the resultant force on the object? | Zero (drag force equals weight)
+At terminal velocity, what is the acceleration of the object? | Zero
+How does the velocity-time graph of a skydiver reaching terminal velocity look? | The curve starts steep (high acceleration), then the gradient decreases (decreasing acceleration), and the curve levels off to a horizontal line at terminal velocity
+If skydivers A (heavier) and B (lighter) want to meet in freefall, who should jump first? | B should jump first, because B has a lower terminal velocity (less weight requires less drag to balance). A, being heavier, has a higher terminal velocity and will catch up
+Explain why a heavier skydiver has a higher terminal velocity than a lighter one | A heavier skydiver has a greater weight. Terminal velocity is reached when drag equals weight. A greater weight requires a greater drag force, which only occurs at a higher speed. Therefore the heavier skydiver reaches a higher terminal velocity
+What is a common misconception about skydivers deploying parachutes? | That they move upward. In reality, they decelerate to a lower terminal velocity because the parachute greatly increases drag force
+What happens to terminal velocity when a parachute is deployed? | Drag force suddenly exceeds weight (due to increased surface area), causing deceleration. The skydiver slows until a new, much lower terminal velocity is reached where drag again equals weight
+What is the aim of the required practical for determination of g? | To measure the acceleration due to gravity by timing how long a ball-bearing takes to fall a known distance, then using SUVAT equations to calculate g
+In the determination of g experiment, what is the independent variable? | Height (h) the ball-bearing falls
+In the determination of g experiment, what is the dependent variable? | Time (t) taken to fall
+Name three control variables in the determination of g experiment | Same steel ball-bearing, same electromagnet, same distance between ball-bearing and top of the glass tube
+What equipment is used to release the ball-bearing consistently in the determination of g? | An electromagnet, which releases the ball when the current is switched off
+What equipment is used to measure the fall time in the determination of g? | Two light gates connected to an electronic timer. The timer starts when the ball passes the first gate and stops at the second
+Which SUVAT equation is used to analyse the determination of g experiment? | s = ut + ½at², rearranged to 2h/t = gt + 2u (a straight-line equation)
+In the determination of g experiment, what graph is plotted? | 2h/t (y-axis) against t (x-axis)
+In the graph of 2h/t against t, what does the gradient represent? | The acceleration due to gravity, g
+In the graph of 2h/t against t, what does the y-intercept represent? | 2u, where u is the initial velocity of the ball-bearing
+Name a systematic error in the determination of g experiment | Residual magnetism after the electromagnet is switched off may delay the release of the ball, causing t to be recorded as longer than it should be
+Name three random errors in the determination of g experiment | Large uncertainty in h from using a metre ruler (precision 1 mm), parallax error when reading h, and the ball not falling accurately through the centre of each light gate
+How are random errors reduced in the determination of g experiment? | By repeating the experiment at least 3-5 times for each value of h and calculating an average time
+How is the uncertainty in g calculated from the graph? | Find the difference in gradient between the line of best fit and the line of worst fit, then divide by the gradient of the line of best fit
+What is the line of worst fit? | The steepest (or shallowest) straight line that still passes through all the error bars on the graph
+How do you calculate the error bars for 2h/t? | Add the percentage uncertainty in h (half the resolution of the metre ruler) and the percentage uncertainty in t (half the range of repeated values)
+Name two safety precautions in the determination of g experiment | Use a cushion beneath the glass tube to catch the ball-bearing, and only switch on the electromagnet current after the apparatus is fully set up (to reduce electrocution risk)
+Why is a glass tube used in the determination of g experiment? | To guide the ball-bearing vertically downwards, ensuring it falls through both light gates
+How does a displacement-time graph for constant velocity differ from one for increasing velocity? | Constant velocity produces a straight diagonal line (constant gradient). Increasing velocity produces a curved line with an increasing gradient
+How does a displacement-time graph for increasing velocity differ from one for increasing acceleration? | Increasing velocity at constant acceleration gives a curve that gets steadily steeper. Increasing acceleration gives a curve that gets steeper at an increasing rate (more sharply curved)
+For a horizontal projection problem, what is the initial vertical velocity? | Zero, because the object is launched horizontally
+In a horizontal projection, how do you find the time of flight? | Use vertical motion only: s = ½gt² (since u = 0 vertically), rearranged to t = √(2s/g), where s is the vertical drop height
+In a horizontal projection, how do you find the launch speed? | First find the time of flight from vertical motion. Then use horizontal motion: speed = horizontal distance / time (since horizontal acceleration is zero)
+How do you convert km h⁻¹ to m s⁻¹? | Divide by 3.6, or equivalently multiply by 1000 and divide by 3600
+How does the displacement-time graph of a bouncing ball look (ignoring air resistance)? | A series of identical inverted parabolas, each reaching the same maximum height and returning to zero displacement
+How does the velocity-time graph of a bouncing ball look (ignoring air resistance)? | A series of straight lines with constant negative gradient (-g). Velocity decreases linearly from positive (upward) to negative (downward), with instantaneous sign changes at each bounce
+How does the acceleration-time graph of a bouncing ball look (ignoring air resistance)? | A horizontal line at -9.81 m s⁻² (constant downward acceleration due to gravity), with brief spikes at each bounce point where the velocity changes direction instantaneously

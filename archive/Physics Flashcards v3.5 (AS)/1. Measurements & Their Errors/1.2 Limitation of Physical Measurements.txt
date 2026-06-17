@@ -1,0 +1,68 @@
+What is the purpose of measuring physical quantities? | To find the true value of that quantity
+Why is it impossible to obtain the true value of any quantity? | There will always be a degree of uncertainty in any measurement
+What is uncertainty in a measurement? | An estimate of the difference between a measurement reading and the true value
+An estimate of the difference between a measurement reading and the true value is called what? | Uncertainty
+What are the two types of measurement error that lead to uncertainty? | Random errors and systematic errors
+What are random errors? | Unpredictable fluctuations in an instrument's readings caused by uncontrollable factors, such as environmental conditions
+Unpredictable fluctuations in readings caused by uncontrollable factors such as environmental conditions are called what? | Random errors
+What aspect of measurements do random errors affect? | Precision, causing a wider spread of results about the mean value
+How can random errors be reduced? | By repeating measurements several times and calculating an average
+What are systematic errors? | Errors arising from the use of faulty instruments or flaws in the experimental method
+Errors that arise from faulty instruments or flaws in experimental method, repeated consistently every time, are called what? | Systematic errors
+What aspect of measurements do systematic errors affect? | Accuracy, affecting all readings obtained in the same way
+How can systematic errors be reduced? | By recalibrating instruments, using different instruments, or making corrections to the technique
+How do random errors differ from systematic errors? | Random errors cause unpredictable fluctuations affecting precision and are reduced by averaging repeats. Systematic errors shift all readings by the same amount, affecting accuracy, and are reduced by recalibrating or changing the method
+What is a zero error? | A type of systematic error where an instrument gives a non-zero reading when the true reading is zero
+A systematic error where an instrument gives a reading when the true value is zero is called what? | A zero error
+Why must a zero error be accounted for when recording results? | Because it introduces a fixed error into all readings taken with that instrument
+What does precision mean in the context of measurements? | How close the measured values are to each other, i.e. very little spread about the mean value
+Measurements with very little spread about the mean value are described as what? | Precise
+How is the precision of a measurement reflected in recorded values? | Measurements to a greater number of decimal places are said to be more precise than those to a whole number
+What does accuracy mean in the context of measurements? | How close a measurement is to the true value
+A measurement that is close to the true value is described as what? | Accurate
+How can accuracy be increased? | By repeating measurements and finding a mean of the results
+Can measurements be precise but not accurate? | Yes, if each measurement has the same systematic error, they can be close to each other (precise) but all shifted away from the true value (not accurate)
+Explain how repeating measurements helps identify anomalies | When measurements are repeated, any value that differs significantly from the others can be identified as an anomaly and omitted from final results, improving reliability
+What is repeatability? | A measurement is repeatable if the original experimenter repeats the investigation using the same method and equipment and obtains the same results
+The original experimenter using the same method and equipment obtains the same results. This describes which property? | Repeatability
+What is reproducibility? | A measurement is reproducible if the investigation is repeated by another person, or using different equipment or techniques, and the same results are obtained
+A measurement that gives the same results when repeated by a different person or with different equipment is described as what? | Reproducible
+How does reproducibility differ from repeatability? | Repeatability involves the same experimenter, method, and equipment getting the same results. Reproducibility involves a different person or different equipment/techniques getting the same results
+What is the resolution of a measuring instrument? | The smallest change in the quantity being measured that gives a perceptible change in the reading
+The smallest change in a measured quantity that gives a perceptible change in reading is called what? | Resolution
+What is the resolution of a typical wristwatch? | 1 s
+What is the resolution of a typical digital stopclock? | 10 ms (0.01 s)
+How does the distinction between uncertainty and error work? | Errors are issues with equipment or methodology causing readings to differ from the true value. Uncertainty is the range of values around a measurement within which the true value is expected to lie, and is an estimate
+The range of values around a measurement within which the true value is expected to lie is called what? | Uncertainty
+What is absolute uncertainty? | Uncertainty given as a fixed quantity with the same units as the measurement
+Uncertainty given as a fixed quantity (e.g. ±0.1 mA) is called what type of uncertainty? | Absolute uncertainty
+What is fractional uncertainty? | Uncertainty given as a fraction of the measurement
+Uncertainty expressed as a fraction of the measured value is called what? | Fractional uncertainty
+What is percentage uncertainty? | Uncertainty given as a percentage of the measurement
+Uncertainty expressed as a percentage of the measured value is called what? | Percentage uncertainty
+What is the formula for percentage uncertainty? | Percentage uncertainty = (uncertainty / measured value) x 100%
+What is the uncertainty in a single reading from an analogue scale? | ± half the smallest division
+What is the uncertainty in a measurement (difference between two readings)? | At least ±1 smallest division
+What is the uncertainty in repeated data? | Half the range, i.e. ± ½(largest value - smallest value)
+What is the uncertainty in a digital reading? | ± the last significant digit, unless otherwise quoted
+To how many significant figures should absolute uncertainties be quoted? | One significant figure
+To how many significant figures should fractional and percentage uncertainties be quoted? | No more than two significant figures
+After calculating absolute uncertainty, how should the final result be rounded? | The number of significant figures in the final result must match the precision of the absolute uncertainty
+When adding or subtracting data, how are uncertainties combined? | Add together the absolute uncertainties
+When multiplying or dividing data, how are uncertainties combined? | Add the percentage or fractional uncertainties
+When raising data to a power, how is the uncertainty combined? | Multiply the percentage uncertainty by the power
+How do you combine uncertainties differently for addition vs multiplication? | For addition/subtraction, add absolute uncertainties. For multiplication/division, add percentage (or fractional) uncertainties
+In the formula V = (4/3)πr³, if the percentage uncertainty in r is 0.8%, what is the percentage uncertainty in V? | 3 × 0.8% = 2.4%, because V depends on r³ so the percentage uncertainty is multiplied by the power (3)
+Do absolute uncertainties have units? | Yes, they have the same units as the quantity being measured
+Do percentage uncertainties have units? | No, percentage uncertainties have no units
+What is the uncertainty in constants such as π? | Zero
+What is the uncertainty in a reading of 1.6 mA from a milliammeter with smallest division 0.2 mA? | ±0.1 mA (half the smallest division)
+How is the percentage uncertainty in the mean of repeated data calculated? | (Half the range / mean value) × 100%
+What is an error bar on a graph? | A bar drawn above and below a plotted point (or side to side) showing the absolute uncertainty in that measurement
+Error bars on a graph represent which type of uncertainty? | Absolute uncertainty
+How do you determine the uncertainty in the gradient of a graph? | Draw a best line of best fit and a worst line of best fit, then calculate: percentage uncertainty = [(best gradient - worst gradient) / best gradient] × 100%
+What is the 'worst' line of best fit? | The steepest possible or shallowest possible straight line that still fits within all the error bars
+What is the formula for percentage uncertainty in the gradient from a graph? | Percentage uncertainty = [(best gradient - worst gradient) / best gradient] × 100%
+What is the formula for percentage uncertainty in the y-intercept from a graph? | Percentage uncertainty = [(best y-intercept - worst y-intercept) / best y-intercept] × 100%
+Why are two lines of best fit drawn when determining uncertainty from a graph? | The difference between the best and worst gradients (or y-intercepts) gives the uncertainty in those values
+When drawing a graph for uncertainty analysis, what must the line of best fit do? | Pass as close to all the plotted points as possible, leaving roughly equal numbers of points above and below it

@@ -1,0 +1,85 @@
+What is a hadron? | A subatomic particle made up of quarks that can feel the strong nuclear force
+A subatomic particle made up of quarks that can feel the strong nuclear force — what term is this? | Hadron
+What are the two classes of hadrons? | Baryons (3 quarks) and mesons (quark-antiquark pair)
+How many quarks make up a baryon? | Three quarks
+What is a meson composed of? | A quark and an anti-quark pair
+Name the two most common baryons | Protons and neutrons
+Name the two most common types of mesons | Pions and kaons
+What is an anti-baryon composed of? | Three anti-quarks
+In what combinations are quarks always found? | In pairs (mesons) or groups of three (baryons), never in isolation
+Why must a baryon contain either all quarks or all anti-quarks? | A mixture would give a non-integer baryon number, which is not observed
+How is the antiparticle of a meson related to the original meson's quark composition? | The quark becomes the anti-quark and the anti-quark becomes the quark
+What type of charge do all hadrons (baryons and mesons) have? | Integer (whole number) charges, e.g. +1e, -1e, 0
+What is the baryon number, B? | A quantum number representing the number of baryons in an interaction
+A quantum number representing the number of baryons in an interaction — what quantity is this? | Baryon number (B)
+In which interactions is baryon number conserved? | All interactions
+What baryon number does a baryon have? | B = +1
+What baryon number does an anti-baryon have? | B = -1
+What baryon number does a non-baryon particle (e.g. meson or lepton) have? | B = 0
+What is the baryon number of each quark (u, d, s)? | +1/3
+What is the baryon number of each anti-quark? | -1/3
+Why is the proton the most stable baryon? | It is the lightest baryon, so it cannot decay into a lighter baryon without violating baryon number conservation
+What is the theoretical half-life of the proton? | Approximately 10^32 years
+What is the equation for beta-minus decay? | n → p + e- + anti-ve
+What are the three charge states of pions? | Positive (π+), negative (π-), and neutral (π0)
+Which quarks do pions contain? | Only up and down quarks (and their anti-quarks), giving them zero strangeness
+What is the antiparticle of the positive pion (π+)? | The negative pion (π-)
+Which meson is its own antiparticle? | The neutral pion (π0)
+Why are pions more stable than other mesons? | They are the lightest mesons
+Where were pions originally discovered? | In cosmic rays
+What is the quark composition of π+? | Up and anti-down (u, anti-d)
+What is the quark composition of π-? | Down and anti-up (d, anti-u)
+What is the quark composition of π0? | Up and anti-up (u, anti-u) or down and anti-down (d, anti-d)
+What is the exchange particle of the strong nuclear force between baryons? | The pion
+How does the role of gluons differ from that of pions in the strong force? | Gluons bind quarks together (strong interaction), while pions bind nucleons together (strong nuclear force)
+What are the three charge states of kaons? | Positive (K+), negative (K-), and neutral (K0)
+What is the quark composition of K+? | Up and anti-strange (u, anti-s)
+What is the quark composition of K-? | Strange and anti-up (s, anti-u)
+What is the quark composition of K0? | Down and anti-strange (d, anti-s)
+What is the quark composition of anti-K0? | Strange and anti-down (s, anti-d)
+Into which particles do kaons typically decay? | Pions
+How does the neutral kaon differ from the neutral pion regarding antiparticles? | The neutral pion is its own antiparticle, but the neutral kaon is not — K0 and anti-K0 are distinct particles
+Give an example of kaon pair production via the strong interaction | p + p → p + p + K+ + K-
+Give an example of kaon decay via the weak interaction | K0 → π+ + π-
+What is a lepton? | A fundamental (elementary) particle not made up of quarks
+A fundamental particle not made up of quarks — what term is this? | Lepton
+Through which three interactions do leptons interact? | Weak, gravitational, and electromagnetic (not the strong nuclear force)
+Name the four most common leptons | Electron (e-), electron neutrino (ve), muon (μ-), and muon neutrino (vμ)
+How does the muon compare to the electron in mass and charge? | Same charge (-1e) but approximately 200 times heavier (mass ~0.1u vs ~0.0005u for the electron)
+What charge and mass do neutrinos have? | No charge and negligible mass (approximately zero)
+Explain why quarks are not classified as leptons despite both being fundamental particles | Quarks interact via the strong force, while leptons do not
+What is the lepton number, L? | A quantum number representing the number of leptons in an interaction
+A quantum number representing the number of leptons in an interaction — what quantity is this? | Lepton number (L)
+In which interactions is lepton number conserved? | All interactions
+What lepton number does a lepton have? | L = +1
+What lepton number does an anti-lepton have? | L = -1
+What lepton number does a non-lepton particle have? | L = 0
+Which two lepton numbers are separately conserved in all interactions? | Electron lepton number (Le) and muon lepton number (Lμ)
+Into what particle does an anti-muon (μ+) typically decay? | A positron (e+)
+What is the equation for muon decay? | μ- → e- + anti-ve + vμ
+Through which interaction does muon decay occur, and what mediates it? | The weak interaction, mediated by the W- boson
+Name the three most common flavours of quarks | Up (u), down (d), and strange (s)
+What are the charge, baryon number, and strangeness of the up quark? | Charge = +2/3e, B = +1/3, S = 0
+What are the charge, baryon number, and strangeness of the down quark? | Charge = -1/3e, B = +1/3, S = 0
+What are the charge, baryon number, and strangeness of the strange quark? | Charge = -1/3e, B = +1/3, S = -1
+How do the properties of anti-quarks compare to their corresponding quarks? | Anti-quarks have opposite charge, baryon number, and strangeness
+What is the quark structure of a proton? | uud (two up quarks and one down quark)
+What is the quark structure of a neutron? | udd (one up quark and two down quarks)
+What are strange particles? | Particles that contain a strange or anti-strange quark (e.g. kaons)
+Through which interaction are strange particles always produced? | The strong interaction, always in quark-antiquark pairs
+Through which interaction do strange particles always decay? | The weak interaction
+What is strangeness, S? | A quantum number associated with the presence of strange quarks in a particle
+In which interactions is strangeness conserved? | All interactions except the weak interaction
+What strangeness value does a particle with an anti-strange quark have? | S = +1
+What strangeness value does a particle with a strange quark have? | S = -1
+What strangeness value does a particle with no strange quarks have? | S = 0
+By how much can strangeness change in a weak interaction? | By 0, +1, or -1
+What are particle accelerators used for? | Producing new particles and revealing the inner structure of particles
+What two types of particle accelerator exist? | Linear and circular
+What do circular particle accelerators require to keep high-speed particles in orbit? | Extremely powerful superconducting magnets
+Why does particle physics research require international collaboration? | The complex and expensive equipment demands large groups of scientists and engineers worldwide to provide funding and expertise
+Where is the Large Hadron Collider (LHC) located? | At CERN in Geneva, on the France-Switzerland border
+Name the four main detectors at the LHC | ATLAS, CMS, ALICE, and LHCb
+Which two LHC detectors confirmed the existence of the Higgs Boson? | ATLAS and CMS
+Why was the detection of the Higgs Boson by two separate detectors important? | It demonstrated that a theory is only validated when confirmed by independent repeat experiments
+Why was the neutrino originally hypothesised? | To account for energy conservation in beta decay

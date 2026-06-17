@@ -1,0 +1,65 @@
+What is a scalar quantity? | A quantity that has magnitude but not direction
+A quantity that has magnitude but no direction is called what? | A scalar quantity
+What is a vector quantity? | A quantity that has both magnitude and direction
+A quantity that has both magnitude and direction is called what? | A vector quantity
+How do scalar and vector quantities differ? | Scalars have magnitude only, while vectors have both magnitude and direction
+Is mass a scalar or vector quantity? | Scalar, because it has magnitude but no direction
+Is weight a scalar or vector quantity? | Vector, because it is a force with both magnitude and direction
+What is distance? | A measure of how far an object has travelled, regardless of direction (the total length of the path taken)
+A measure of the total path length travelled regardless of direction is called what? | Distance
+Is distance a scalar or vector quantity? | Scalar, because it has magnitude but no direction
+What is displacement? | A measure of how far it is between two points in space, including the direction (the length and direction of a straight line from start to finish)
+The length and direction of a straight line drawn from starting point to finishing point describes what quantity? | Displacement
+Is displacement a scalar or vector quantity? | Vector, because it has both magnitude and direction
+How does distance differ from displacement? | Distance is the total path length travelled (scalar), while displacement is the straight-line distance and direction from start to finish (vector)
+What is speed? | A measure of the distance travelled by an object per unit time, regardless of direction
+A measure of the distance travelled per unit time, regardless of direction, is called what? | Speed
+Is speed a scalar or vector quantity? | Scalar, because it has magnitude but no direction
+What is velocity? | A measure of the displacement of an object per unit time, including the direction
+A measure of displacement per unit time, including direction, is called what? | Velocity
+Is velocity a scalar or vector quantity? | Vector, because it has both magnitude and direction
+How does speed differ from velocity? | Speed is distance per unit time with no direction (scalar), while velocity is displacement per unit time with direction (vector)
+Can an object have constant speed but changing velocity? Explain why. | Yes, if the object is changing direction. Speed (magnitude) stays the same but the direction changes, so velocity changes
+Give five examples of scalar quantities | Distance, speed, mass, time, energy
+Give five examples of vector quantities | Displacement, velocity, acceleration, force, momentum
+Is acceleration a scalar or vector? | Vector
+Is force a scalar or vector? | Vector
+Is momentum a scalar or vector? | Vector
+Is energy a scalar or vector? | Scalar
+Is pressure a scalar or vector? | Scalar
+Is electric charge a scalar or vector? | Scalar
+Is temperature a scalar or vector? | Scalar
+How are vectors represented in diagrams? | By arrows, where the arrowhead indicates direction and the length represents magnitude
+What does the arrowhead of a vector arrow indicate? | The direction of the vector
+What does the length of a vector arrow represent? | The magnitude of the vector
+What is a resultant vector? | The single vector produced by combining (adding) two or more vectors, sometimes called the 'net' vector
+The single vector produced by adding two or more vectors together is called what? | The resultant vector (or net vector)
+What two methods can be used to add vectors? | Calculation (for perpendicular vectors) and scale drawing (for non-perpendicular vectors)
+When adding two perpendicular vectors, how do you find the magnitude of the resultant? | Using Pythagoras' theorem: R = sqrt(a² + b²)
+When adding two perpendicular vectors, how do you find the direction of the resultant? | Using trigonometry (sine, cosine, or tangent) to calculate the angle from the horizontal or vertical
+In vector addition of two perpendicular vectors, the equation R = sqrt(a² + b²) uses which mathematical theorem? | Pythagoras' theorem
+Describe the triangle method for combining vectors | Step 1: Link the vectors head-to-tail. Step 2: The resultant vector is formed by connecting the tail of the first vector to the head of the second vector
+Describe the parallelogram method for combining vectors | Step 1: Link the vectors tail-to-tail. Step 2: Complete the resulting parallelogram. Step 3: The resultant vector is the diagonal of the parallelogram
+How does the triangle method differ from the parallelogram method for vector addition? | In the triangle method, vectors are linked head-to-tail and the resultant joins the free tail to the free head. In the parallelogram method, vectors are linked tail-to-tail, a parallelogram is completed, and the resultant is the diagonal
+When using a scale drawing to find a resultant vector, what four steps should you follow? | 1) Link vectors head-to-tail, 2) Draw the resultant using triangle or parallelogram method, 3) Measure its length with a ruler, 4) Measure its angle with a protractor
+In a scale drawing for vector addition, why must you convert the measured length back using the scale? | Because the drawing uses a reduced scale (e.g. 1 cm = 1 km), so the measured length in cm must be multiplied by the scale factor to get the actual magnitude
+How do you subtract vectors graphically (e.g. c = a - b)? | Reverse the direction of vector b to get -b, then add a and -b using the triangle or parallelogram method
+What is meant by resolving a vector? | Breaking a single resultant vector down into two perpendicular components that, in combination, have the same effect as the original vector
+When a single vector is broken into its perpendicular parts, what are those parts called? | Components
+For a vector F at angle θ to the horizontal, what is the horizontal component? | F_x = F cos θ
+For a vector F at angle θ to the horizontal, what is the vertical component? | F_y = F sin θ
+The component F cos θ is always adjacent to the angle θ. What memory aid helps remember this? | The 'cos sandwich': cos θ is always on the side adjacent to the angle
+Resolving vectors is the opposite of which process? | Adding (combining) vectors
+On an inclined plane at angle θ, what are the two components of the weight W? | W cos θ perpendicular to the slope, and W sin θ parallel to the slope
+On a frictionless inclined plane, which component of weight causes the object to accelerate down the slope? | W sin θ (the component parallel to the slope)
+On an inclined plane, why does the normal reaction force R equal W cos θ? | Because the object does not accelerate perpendicular to the slope, so the net force in that direction is zero, meaning R balances the perpendicular component of weight
+What is meant by equilibrium of forces? | Forces are in equilibrium when an object is either at rest or moving at constant velocity (zero resultant force)
+An object at rest or moving at constant velocity has forces that are described as being in what state? | Equilibrium
+How are coplanar forces in equilibrium represented using vectors? | As a closed vector triangle, where all the vectors joined together form a closed path
+What does it mean if a vector triangle for coplanar forces is closed? | The forces are in equilibrium (the resultant force is zero)
+Name four common forces that act on objects | Weight, normal reaction force, tension, and friction
+A hiker walks 6 km east and 10 km north. What is the magnitude of their displacement? | R = sqrt(6² + 10²) = sqrt(136) = 11.7 km
+A hiker walks 6 km east and 10 km north. What is the direction of their displacement from the horizontal? | θ = tan⁻¹(10/6) = 59° from the horizontal (north of east)
+A helicopter provides a lift of 250 kN at 15° from the vertical. What is the vertical component? | 250 × cos(15) = 242 kN
+A helicopter provides a lift of 250 kN at 15° from the vertical. What is the horizontal component? | 250 × sin(15) = 64.7 kN
+Why is the vertical component of the helicopter's lift force F cos θ (not F sin θ) when the angle is measured from the vertical? | Because cos θ gives the component adjacent to the angle. Since the angle is from the vertical, the adjacent side is the vertical component

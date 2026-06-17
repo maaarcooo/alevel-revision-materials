@@ -1,0 +1,82 @@
+What is linear momentum? | The product of mass and velocity of an object moving in one dimension
+The product of an object's mass and velocity is called what? | Linear momentum
+What is the equation for momentum? | p = mv
+In the equation p = mv, what does p represent? | Momentum, measured in kg m s⁻¹
+In the equation p = mv, what does m represent? | Mass, measured in kg
+In the equation p = mv, what does v represent? | Velocity, measured in m s⁻¹
+What are the SI units of momentum? | kg m s⁻¹
+Is momentum a scalar or vector quantity? | Vector — it has both magnitude and direction
+When does the linear momentum of an object remain constant? | When no external resultant force acts on the system
+If an object reverses direction, what happens to the sign of its momentum? | It becomes negative (opposite sign to the initial direction)
+Why does a ball travelling in the opposite direction to its initial motion have negative momentum? | Velocity is negative when opposite to the chosen positive direction, and since p = mv, the momentum is also negative
+A 60 g ball travels at 75 m s⁻¹ and a 3 kg brick travels at 1.5 m s⁻¹. Which has greater momentum? | They have equal momentum (both 4.5 kg m s⁻¹), showing that a light fast object can have the same momentum as a heavy slow object
+State the principle of conservation of linear momentum | The total momentum before a collision equals the total momentum after a collision, provided no external force acts
+What condition must be met for momentum to be conserved in a collision? | No external resultant force must act on the system
+What is the conservation of momentum equation for two objects A and B colliding? | p_Ai + p_Bi = p_Af + p_Bf
+Explain why opposing momentum vectors can result in a net momentum of zero | Momentum is a vector, so equal momenta in opposite directions cancel out, giving a total of zero
+What happens to the momentum of an object that rebounds after a collision? | Its velocity (and momentum) changes sign — positive before the collision and negative after (or vice versa)
+What is the momentum of a stationary object? | Zero, because its velocity is zero (p = mv = m × 0 = 0)
+What are external forces? | Forces that act on a system from outside, e.g. friction and weight
+What are internal forces? | Forces exchanged by particles within the system, e.g. tension in a string
+Forces that act on a system from outside (e.g. friction, weight) are called what? | External forces
+Forces exchanged between particles within a system (e.g. tension in a string) are called what? | Internal forces
+What does it mean for a system to be 'closed' or 'isolated'? | The system has no external forces acting on it
+Why does a boat move backwards when a swimmer dives forward from it? | The initial total momentum is zero. To conserve momentum with no external horizontal forces, the boat must gain equal and opposite momentum to the diver
+A 0.80 kg trolley at 3.0 m s⁻¹ collides with a stationary 1.60 kg trolley and they stick together. What is their common velocity? | v = (0.80 × 3.0) / (0.80 + 1.60) = 2.4 / 2.4 = 1.0 m s⁻¹
+How can force be defined in terms of momentum? | Force is the rate of change of momentum: F = Δp/Δt
+What is the equation relating force to rate of change of momentum? | F = Δp/Δt
+In the equation F = Δp/Δt, what does Δp represent? | Change in momentum, measured in kg m s⁻¹
+In the equation F = Δp/Δt, what does Δt represent? | Change in time over which the force acts, measured in seconds (s)
+How is change in momentum calculated? | Δp = p_final − p_initial = mv − mu
+The rate of change of momentum equals what? | The resultant force acting on the object (Newton's second law in terms of momentum)
+If a force opposes an object's initial velocity, what sign does the force have? | Negative (taking the initial direction of motion as positive)
+Explain how Newton's third law applies to the forces during a collision | The force exerted by object A on B is equal in magnitude but opposite in direction to the force exerted by B on A
+What is impulse? | The product of force and the time for which it acts: Impulse = FΔt
+The product of force and the time for which it acts is called what? | Impulse
+What are the units of impulse? | Newton seconds (N s)
+What is the equation for impulse? | Impulse = FΔt
+How is impulse related to change in momentum? | Impulse equals the change in momentum: Impulse = Δp = mv − mu
+Why is it difficult to directly measure force during a short-duration impact? | The force acts for a very short time, making it hard to measure both the magnitude and duration directly
+How can impulse be measured indirectly? | By calculating the change in momentum (Δp = mv − mu), since impulse equals change in momentum
+The impulse equations (FΔt = Δp) are only valid when what condition is met? | The force F must be constant
+Is impulse a scalar or vector quantity? | Vector — it has both magnitude and direction
+In what direction does the impulse always act? | In the direction of the resultant force
+Explain why a small force over a long time can have the same effect as a large force over a short time | Both can produce the same impulse (FΔt), meaning the same change in momentum
+Why does the base unit analysis show that FΔt = Δp is consistent? | 1 N = 1 kg m s⁻², so N × s = kg m s⁻² × s = kg m s⁻¹, which matches the units of momentum
+A 58 g tennis ball at 30 m s⁻¹ is hit back at 20 m s⁻¹. What is the impulse? | Impulse = m(v − u) = 0.058 × (−20 − 30) = −2.9 N s (negative indicates direction opposite to initial motion)
+Why is the impulse on a rebounding object larger than if the object simply stopped? | Because the velocity changes sign, giving a larger total change in velocity (v − u) and therefore a larger change in momentum
+Explain why hailstones exert a greater impulse on an umbrella than raindrops | Hailstones have larger mass and bounce back (rebound), so their change in momentum is greater than raindrops which splatter and barely change direction
+Why does more force need to be applied to hold an umbrella upright in hail compared to rain? | Hailstones produce a greater impulse (larger change in momentum due to rebounding), requiring a greater force from the umbrella over the same contact time
+Explain why a cricket fielder moves their hands backwards when catching a ball | Moving hands back increases the time over which the ball's momentum changes to zero, reducing the force experienced by the fielder's hands (since F = Δp/Δt)
+How does increasing the contact time during a collision reduce the force experienced? | For the same change in momentum (Δp), increasing Δt in F = Δp/Δt gives a smaller force
+If the force on a body is not constant, how is the impulse found from a force-time graph? | Impulse equals the area under the force-time graph
+What does the area under a force-time graph represent? | Impulse (change in momentum)
+If a force-time graph is a curve, how do you find the impulse? | Count the squares under the curve and multiply by the value of each square
+If a force-time graph is made of straight lines, how do you find the impulse? | Split the area into geometric shapes (triangles, rectangles, trapeziums) and sum their areas
+On a force-time graph, explain why a wider curve with a lower peak can represent the same impulse as a narrow curve with a high peak | Both have the same area under the graph, meaning the same change in momentum, but the wider curve has a lower maximum force
+How are impact forces reduced to prevent injury? | By increasing the contact time over which the change in momentum occurs, which reduces the force (F = Δp/Δt)
+How do seat belts reduce injury in a collision? | They stretch slightly, increasing the contact time over which the passenger's momentum reaches zero, thereby reducing the force exerted on them
+How do airbags reduce injury in a collision? | They act as a soft cushion that increases the contact time over which the passenger's momentum changes, reducing the force exerted on them
+How do crumple zones reduce injury in a collision? | They crush in a controlled way, increasing the time over which the vehicle's momentum reaches zero, which reduces the force on the passengers
+Where are crumple zones located on a vehicle? | At the front and back of the vehicle
+Explain why vehicles appear heavily damaged even after relatively small collisions | The crumple zones are designed to deform on purpose to absorb energy and increase contact time, reducing force on passengers
+How does the follow-through action in kicking a football increase the ball's velocity? | It increases the contact time between foot and ball, transferring more momentum (larger impulse) to the ball
+How does packaging such as bubble wrap protect fragile items? | It increases the time over which impact forces act on the item, reducing the peak force and the risk of damage
+On a force-time graph, what does a lower peak and wider base indicate compared to a higher peak and narrower base? | A longer contact time and lower maximum force for the same impulse — this is the effect of safety features
+What is an elastic collision? | A collision in which kinetic energy is conserved
+What is an inelastic collision? | A collision in which kinetic energy is not conserved
+A collision where kinetic energy is conserved is called what? | An elastic collision
+A collision where kinetic energy is not conserved is called what? | An inelastic collision
+How does an elastic collision differ from an inelastic collision? | In an elastic collision, kinetic energy is conserved and objects typically bounce apart. In an inelastic collision, kinetic energy is not conserved and objects often stick together
+Is momentum conserved in both elastic and inelastic collisions? | Yes — momentum is always conserved in all collisions and explosions (provided no external forces act)
+How do you determine whether a collision is elastic or inelastic? | Compare the total kinetic energy before and after the collision. If they are equal, it is elastic. If kinetic energy is lost, it is inelastic
+What is the equation for kinetic energy? | KE = ½mv²
+In elastic collisions, what typically happens to the colliding objects after the collision? | They bounce apart and move in opposite directions
+In inelastic collisions, what typically happens to the colliding objects after the collision? | They stick together and move as a single combined object
+What is an explosion in the context of momentum? | A situation where objects move apart from rest, such as a gun recoiling after firing or a nucleus emitting a particle — total momentum is conserved
+When two objects stick together after a collision, what mass is used to calculate their combined momentum? | The sum of the two individual masses (m_A + m_B)
+A 0.80 kg trolley at 3.0 m s⁻¹ hits a stationary 1.60 kg trolley and they stick together at 1.0 m s⁻¹. Is this elastic or inelastic? | Inelastic. KE before = ½(0.80)(3.0²) = 3.6 J. KE after = ½(2.4)(1.0²) = 1.2 J. Kinetic energy is not conserved.
+Name three vehicle safety features designed to reduce impact force on passengers | Seat belts, airbags, and crumple zones
+Explain why all vehicle safety features work on the same physical principle | They all increase the contact time over which the passenger's momentum changes to zero, reducing the force (F = Δp/Δt) and therefore reducing injury risk
+If mass is given in grams, how do you convert to SI units for momentum calculations? | Divide by 1000 to convert to kilograms
+Why must you assign a positive direction and keep signs consistent throughout a momentum problem? | Momentum is a vector quantity, so direction matters. Inconsistent signs lead to incorrect results, especially when objects change direction

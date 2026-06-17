@@ -1,0 +1,32 @@
+Define electromotive force (e.m.f.) | The amount of chemical energy converted to electrical energy per coulomb of charge passing through a power supply
+The amount of chemical energy converted to electrical energy per coulomb of charge passing through a power supply — what term is this? | Electromotive force (e.m.f.)
+What symbol represents e.m.f.? | ε (Greek letter epsilon)
+What is the unit of e.m.f.? | Volts (V)
+What is the equation for e.m.f. in terms of energy and charge? | ε = E/Q, where E is energy transformed from other forms to electrical and Q is charge
+When is the e.m.f. of a cell equal to the potential difference across its terminals? | When no current is flowing (open circuit)
+How can e.m.f. be measured experimentally? | Connect a high-resistance voltmeter in parallel with the cell in an open circuit
+What is terminal potential difference? | The potential difference across the terminals of a cell
+Why is the terminal p.d. always lower than the e.m.f. when current flows? | Some energy per unit charge is dissipated overcoming the internal resistance of the cell
+Define lost volts | The work done per unit charge to overcome the internal resistance inside the battery when current flows
+The work done per unit charge to overcome the internal resistance inside the battery when current flows — what term is this? | Lost volts
+What is the equation for lost volts? | v = Ir, where I is current and r is internal resistance
+How are e.m.f., terminal p.d., and lost volts related by conservation of energy? | ε = V + v (e.m.f. equals terminal p.d. plus lost volts)
+Define internal resistance | The resistance of the materials within the battery
+The resistance of the materials within the battery — what term is this? | Internal resistance
+Why does a cell become warm when current flows through it for a period of time? | Internal resistance causes circulating charge to dissipate electrical energy as heat within the power supply
+What is the e.m.f. equation in terms of current, load resistance, and internal resistance? | ε = I(R + r), where I is current, R is load resistance, and r is internal resistance
+How is a real cell modelled in circuit analysis? | As a source of e.m.f. with an internal resistance connected in series
+Besides energy transferred per unit charge, how else can e.m.f. be described? | The total or maximum voltage available to the circuit
+If a current of 0.5 A flows through a cell with internal resistance 2 Ω, what are the lost volts? | v = Ir = 0.5 x 2 = 1 V
+If an exam question states a battery has "negligible internal resistance", what does this mean for calculations? | The e.m.f. equals the terminal p.d., and no internal resistance calculations are needed
+What is the aim of the required practical for investigating e.m.f. and internal resistance? | To investigate the relationship between e.m.f. and internal resistance by measuring the variation of current and voltage using a variable resistor
+In the e.m.f. and internal resistance practical, what is the independent variable? | Resistance of the variable resistor, R
+In the e.m.f. and internal resistance practical, what are the dependent variables? | Voltage, V (V) and current, I (A)
+In the e.m.f. and internal resistance practical, what are the control variables? | E.m.f. of the cell and internal resistance of the cell
+What equation is used for the straight-line graph in the e.m.f. and internal resistance practical? | V = -rI + ε, which has the form y = mx + c
+On a V against I graph for the e.m.f. and internal resistance practical, what does the gradient represent? | The negative of the internal resistance (-r)
+On a V against I graph for the e.m.f. and internal resistance practical, what does the y-intercept represent? | The e.m.f. (ε)
+Why must the switch be opened between readings in the e.m.f. and internal resistance practical? | To prevent the internal resistance of the battery from changing during the experiment (avoids systematic error from the cell running down)
+How are random errors reduced in the e.m.f. and internal resistance practical? | Use fairly new cells, wait for readings to stabilise before recording, and take at least 3 repeat readings to calculate a mean
+How many sets of V and I readings should be taken in the e.m.f. and internal resistance practical? | At least 8 to 10 readings across the whole range of the variable resistor
+State two safety precautions for the e.m.f. and internal resistance practical | Switch off the power supply immediately if burning is smelled, and keep liquids away from the electrical equipment

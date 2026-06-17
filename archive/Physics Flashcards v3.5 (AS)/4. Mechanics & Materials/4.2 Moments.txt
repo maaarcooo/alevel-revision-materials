@@ -1,0 +1,35 @@
+What is a moment? | The turning effect of a force
+The turning effect of a force is called what? | A moment
+What is the equation for the moment of a force? | Moment = Force x perpendicular distance from the pivot
+What are the SI units of a moment? | Newton metres (N m)
+The SI unit of a moment is the [...] | Newton metre (N m)
+In the moment equation, what must be true about the distance used? | It must be the perpendicular distance from the pivot to the line of action of the force
+If a force is not perpendicular to the distance from the pivot, how is the moment calculated? | Moment = F x d cos(theta), where theta is the angle between the force and the perpendicular distance
+Why is a door handle placed far from the hinge? | To maximise the perpendicular distance from the pivot, which produces a greater moment for a given force, making the door easier to open
+What does the principle of moments state? | For a system to be in equilibrium, the sum of clockwise moments about a point must equal the sum of anticlockwise moments about the same point
+For a balanced beam, sum of clockwise moments equals sum of [...] about the same point | anticlockwise moments
+What condition must be met for a system to be in equilibrium according to the principle of moments? | The sum of clockwise moments about any point must equal the sum of anticlockwise moments about that same point
+Where does the weight of a uniform beam act? | At its centre of mass, which is at the geometric centre (midpoint) of the beam
+A uniform 5 m beam weighing 40 N is pivoted 2 m from one end. How far is the centre of mass from the pivot? | 0.5 m (centre of mass is at 2.5 m from either end, pivot is at 2 m from one end)
+What is a couple? | A pair of equal and opposite coplanar forces that acts to produce rotation only
+A pair of equal and opposite coplanar forces that produces rotation only is called what? | A couple
+What three conditions must a pair of forces satisfy to form a couple? | They must be equal in magnitude, opposite in direction, and perpendicular to the distance between them
+What is the resultant force produced by a couple? | Zero
+Explain why a couple produces zero resultant force but still causes rotation | The two forces are equal and opposite so they cancel out (net force = 0, so no linear acceleration by F = ma), but because they act at different points, they create a net turning effect
+How does the moment of a couple differ from the moment of a single force regarding the pivot? | The moment of a couple does not depend on a pivot, unlike the moment of a single force
+What is the equation for the moment of a couple? | Moment = Force x perpendicular distance between the lines of action of the forces
+How does the moment of a couple differ from the moment of a single force? | A single force's moment is calculated about a specific pivot point. A couple's moment equals force x perpendicular distance between the two lines of action and is the same about any point
+Why can two equal and opposite forces sharing the same line of action not form a couple? | They would have zero perpendicular distance between them, producing zero moment and no rotation
+What is the centre of mass of an object? | The point at which the weight of the object may be considered to act
+The point at which the weight of an object may be considered to act is called what? | The centre of mass
+Where is the centre of mass of a uniform regular solid located? | At its geometric centre
+For symmetrical objects with uniform density, the centre of mass is located at the [...] | point of symmetry
+When is an object stable? | When its centre of mass lies above its base
+The wider the base of an object, the [...] its centre of mass and the [...] stable it is | lower, more
+What two features make an object most stable? | A wide base and a low centre of mass
+When does an object topple over? | When its centre of mass is no longer above (over) its base
+How does the centre of gravity relate to the centre of mass in a uniform gravitational field? | They are identical
+How does centre of mass differ from centre of gravity? | Centre of mass does not depend on the gravitational field. Centre of gravity does depend on the gravitational field (since weight = mass x g)
+In a non-uniform gravitational field, where does the centre of gravity of an object shift? | Towards the region of stronger gravitational field
+Can the centre of mass lie outside the physical body of an object? | Yes, the centre of mass is a hypothetical point and can lie inside or outside the body
+Why does a person's centre of mass shift when they lean forward? | Their mass distribution changes shape, moving the point at which the total weight effectively acts to a lower and more forward position

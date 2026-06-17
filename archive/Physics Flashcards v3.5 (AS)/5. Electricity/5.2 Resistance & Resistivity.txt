@@ -1,0 +1,74 @@
+What is resistivity? | A property that describes the extent to which a material opposes the flow of electric current through it
+A material property describing how strongly it opposes electric current flow — what is this called? | Resistivity
+What is the SI unit of resistivity? | Ohm metre (Ω m)
+What is the equation relating resistance, resistivity, length and cross-sectional area? | R = ρL / A
+In the equation R = ρL / A, what does ρ represent? | Resistivity (Ω m)
+In the equation R = ρL / A, what does L represent? | Length of the wire (m)
+In the equation R = ρL / A, what does A represent? | Cross-sectional area of the wire (m²)
+When calculating the resistance of a wire using R = ρL / A, which equation is used to find the cross-sectional area? | A = πd² / 4 (where d is the diameter of the wire)
+What happens to resistance when the length of a wire is doubled (all else constant)? | Resistance doubles (R is directly proportional to L)
+What happens to resistance when the cross-sectional area of a wire is doubled (all else constant)? | Resistance halves (R is inversely proportional to A)
+What happens to resistance when the diameter of a wire is doubled (all else constant)? | Resistance drops to one quarter (area is proportional to diameter squared, so doubling diameter quadruples area)
+Explain why resistance increases with the length of a wire | A longer wire means free electrons must travel further, making more collisions with metal ions, so more energy is transferred and resistance is greater
+Explain why resistance decreases with greater cross-sectional area | A wider wire provides more pathways for free electrons to flow through, reducing the number of collisions per unit length, so resistance decreases
+Explain the microscopic origin of electrical resistance in a metal wire | Free electrons moving through the wire collide with metal ions in the lattice. These collisions transfer kinetic energy to the ions as thermal energy, impeding the flow of charge
+What causes electrical heating in a metal wire? | Free electrons collide with metal ions and transfer kinetic energy to them, which increases the thermal energy of the wire
+Is resistivity a property of the material or the component? | It is a property of the material itself
+Does resistivity depend on temperature? | Yes, resistivity is dependent on temperature
+The resistivity of copper at room temperature is approximately [...] Ω m | 1.7 × 10⁻⁸
+Why is copper used for electrical wiring? | Copper has very low resistivity at room temperature, so current flows through it very easily with minimal energy loss
+How does the resistivity of metals compare to that of insulators? | Metals have very low resistivity (order of 10⁻⁸ Ω m), while insulators have extremely high resistivity (order of 10¹² to 10¹⁵ Ω m)
+Explain why virtually no current flows through an insulator | Insulators have extremely high resistivity, so even with a potential difference applied, the resistance is so large that negligible current can flow
+How does the resistivity of semiconductors compare to metals and insulators? | Semiconductors have resistivity values between metals and insulators (e.g. germanium ≈ 0.6 Ω m, silicon ≈ 2.3 × 10³ Ω m)
+Higher resistivity means [...] resistance for a given shape of component | higher
+Explain why resistance increases with temperature in a metallic conductor | At higher temperatures, metal ions vibrate with greater amplitude. Free electrons collide more frequently with these vibrating ions, impeding the flow of charge, so resistance increases
+For a metallic conductor obeying Ohm's law, what happens to resistance when temperature increases? | Resistance increases
+For a metallic conductor obeying Ohm's law, what happens to resistance when temperature decreases? | Resistance decreases
+What is a thermistor? | A non-ohmic conductor and sensory resistor whose resistance varies with temperature
+A non-ohmic component whose resistance changes with temperature — what is this? | A thermistor
+What does NTC stand for in the context of thermistors? | Negative temperature coefficient
+What does "negative temperature coefficient" mean for a thermistor? | As temperature increases, the resistance of the thermistor decreases (and vice versa)
+How does an NTC thermistor's response to temperature differ from that of a metal? | In a metal, resistance increases with temperature. In an NTC thermistor, resistance decreases with temperature
+Explain why resistance decreases with temperature in an NTC thermistor | As temperature increases, more charge carriers are released from atoms in the semiconductor material, greatly increasing the number available for conduction, which more than compensates for increased lattice vibrations
+What happens to the resistance of a thermistor when it gets hotter? | Its resistance decreases
+What happens to the resistance of a thermistor when it gets cooler? | Its resistance increases
+Name three applications of thermistors | Temperature sensors in ovens, fire alarms, and digital thermometers
+Describe the shape of the temperature-resistance graph for an NTC thermistor | A curve that starts high at low temperatures and decreases steeply, then levels off at higher temperatures (exponential decay shape)
+A thermistor is in series with resistor R and a battery. If the temperature of the thermistor decreases, what happens to the p.d. across the thermistor? | The p.d. across the thermistor increases (its resistance increases, so it takes a greater share of the total voltage)
+A thermistor is in series with resistor R and a battery. If the temperature of the thermistor decreases, what happens to the current in the circuit? | The current decreases (the thermistor's resistance increases, increasing total resistance, so current falls)
+What is a superconductor? | A material with zero resistance below a critical temperature
+A material that has zero electrical resistance below a specific temperature — what is this called? | A superconductor
+What is the critical temperature (in the context of superconductivity)? | The temperature at which a material becomes superconducting (i.e. its resistance drops to zero)
+The temperature at which a material's resistance drops to zero — what is this called? | The critical temperature (also called the transition temperature)
+What is an alternative name for the critical temperature of a superconductor? | The transition temperature
+What is the critical temperature of mercury? | 4.2 K
+Name a common example of a superconducting material and its critical temperature | Mercury, with a critical temperature of 4.2 K
+What happens to the resistivity of a superconductor at its critical temperature? | The resistivity drops to exactly zero (not just very low — truly zero)
+How does the resistivity-temperature graph of a superconductor differ from that of a normal metal? | A normal metal's resistivity decreases gradually towards zero as temperature falls. A superconductor's resistivity drops sharply to exactly zero at the critical temperature
+Why are superconductors useful for applications requiring large electric currents? | Because they have zero resistance, no electrical energy is wasted as thermal energy, so very large currents can flow without power loss or heating
+Name two general uses of superconductors | Production of strong magnetic fields and reduction of energy loss in the transmission of electric power
+Name three specific applications of superconductors | Any three from: MRI scanners, particle accelerators, maglev trains, power cables, electromagnets, transformers, generators, motors, fusion reactors, microchips
+Why are superconductors used in MRI scanners? | MRI scanners need extremely strong magnetic fields, which require very large currents flowing through electromagnets. Superconductors carry these currents with zero resistance and no energy loss
+Why are superconductors used in particle accelerators? | Particle accelerators need very large magnetic fields to bend and accelerate particles. Superconducting electromagnets can carry the enormous currents required without energy loss
+What is a maglev train? | A magnetic levitation train that uses powerful superconducting electromagnets on the train and rails to levitate the train above the track, eliminating friction
+How does the resistivity of a material change as its temperature is lowered (before reaching any critical temperature)? | The resistivity decreases as temperature is lowered
+What is the aim of the required practical on investigating resistivity? | To determine the resistivity of a constantan wire by measuring how resistance varies with length
+In the resistivity practical, what is the independent variable? | The length L of the wire (m)
+In the resistivity practical, what is the dependent variable? | The current I through the wire (A)
+Name two control variables in the resistivity practical | The voltage across the wire and the material the wire is made from
+Why is a micrometer screw gauge used rather than a ruler to measure the wire's diameter? | A micrometer has a much higher resolution (0.01 mm) than a ruler (1 mm), which is necessary because the wire diameter is very small
+Why should the diameter of the wire be measured 5-10 times at random positions along the wire? | To reduce random error by calculating a mean diameter, and to check the wire has a uniform cross-section
+In the resistivity practical, how is the ammeter connected? | In series with the wire
+In the resistivity practical, how is the voltmeter connected? | In parallel with the wire
+Why should the current be switched off between readings in the resistivity practical? | To prevent the wire from heating up, which would change its temperature, altering its resistivity and resistance, and introducing error
+Why must only small currents flow through the wire in the resistivity practical? | Larger currents cause greater heating of the wire, which changes the wire's temperature and therefore its resistivity, introducing a systematic error
+In the resistivity practical, what graph is plotted? | Length of wire (L) on the x-axis against average resistance (R) on the y-axis
+In the resistivity practical, what does the gradient of the R vs L graph represent? | ρ / A (resistivity divided by cross-sectional area)
+How is resistivity calculated from the R vs L graph in the practical? | ρ = gradient × A (multiply the gradient of the graph by the cross-sectional area of the wire)
+What systematic error should be checked for in the resistivity practical? | The fixed end of the wire must start at 0 on the ruler, otherwise a zero error is introduced in length measurements
+In the equation R = ρL / A, comparing to y = mx, which variable corresponds to y? | R (resistance)
+In the equation R = ρL / A, comparing to y = mx, which variable corresponds to x? | L (length)
+The equation for the cross-sectional area of a circular wire is A = [...] | πd² / 4
+A wire has resistivity 1.7 × 10⁻⁸ Ω m, length 2.0 m, and cross-sectional area 5.0 × 10⁻⁶ m². What is its resistance? | R = ρL / A = (1.7 × 10⁻⁸ × 2.0) / 5.0 × 10⁻⁶ = 6.8 × 10⁻³ Ω
+How does the relationship between resistance and temperature differ for a metallic conductor versus an NTC thermistor? | In a metal, resistance increases with temperature (more ion vibrations impede electrons). In an NTC thermistor, resistance decreases with temperature (more charge carriers are released at higher temperatures)
+What is the key distinction between resistance and resistivity? | Resistance depends on the material, its dimensions (length and area), and temperature. Resistivity depends only on the material and its temperature, not the component's shape or size

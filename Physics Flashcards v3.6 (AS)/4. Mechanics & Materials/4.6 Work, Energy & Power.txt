@@ -1,0 +1,45 @@
+Define work done | The amount of energy transferred when an external force causes an object to move over a certain distance
+The amount of energy transferred when an external force causes an object to move over a certain distance — what term is this? | Work done
+What is the unit of work done? | The joule (J). 1 N m = 1 J
+What is the equation for work done by a constant force parallel to the displacement? | W = Fs, where W = work done (J), F = force (N), s = displacement (m)
+What is the equation for work done when the force acts at an angle to the displacement? | W = Fs cos θ, where θ is the angle between the direction of the force and the direction of motion
+In work done calculations, which component of the force must be used? | The component that is parallel to the displacement
+For horizontal motion with a force at angle θ to the horizontal, which trigonometric function resolves the force component? | cos θ
+For vertical motion with a force at angle θ to the horizontal, which trigonometric function resolves the force component? | sin θ
+When an object moves along a slope at angle θ to the horizontal, which component of the weight acts parallel to the slope? | W sin θ, where W is the weight of the object
+What does the work done by a resultant force on a system equal? | The change in energy of that system
+Define power | The rate of doing work, or equivalently the rate of energy transfer
+The rate of doing work or the rate of energy transfer — what quantity is this? | Power
+What is the equation for power in terms of work done? | P = ΔW / Δt, where P = power (W), ΔW = work done (J), Δt = time (s)
+What is the equation for power when a constant force moves an object at constant velocity? | P = Fv, where F = force (N) and v = velocity (m/s)
+What condition must the force satisfy for P = Fv to be used directly? | The force must act in the direction of the velocity. Otherwise the component of force in the direction of velocity must be used
+How is work done found from a force-displacement graph? | It equals the area under the force-displacement graph
+What is a variable force? | A force whose magnitude is not constant over the displacement
+Why can W = Fs not be used when a force is varying? | W = Fs requires a constant force. For a variable force, work done must be found from the area under the force-displacement graph
+Define efficiency | The ratio of useful power output from a system to its total power input
+The ratio of useful power output from a system to its total power input — what quantity is this? | Efficiency
+What is the equation for efficiency as a percentage using power? | Efficiency = (useful power output / total power input) x 100%
+What is the equation for efficiency as a percentage using energy? | Efficiency = (useful energy output / total energy input) x 100%
+In what two formats can efficiency be expressed, and what are their ranges? | As a percentage (0% to 100%) or as a decimal ratio (0 to 1)
+Why does efficiency have no units? | It is a ratio of two quantities with the same units, so the units cancel
+State the Principle of Conservation of Energy | Energy cannot be created or destroyed; it can only be transferred from one form to another
+What is energy dissipation? | The spreading of energy to the surroundings in forms that are not useful, commonly as thermal energy, light, or sound
+What forms does dissipated (wasted) energy commonly take? | Thermal (heat), light, or sound energy
+What energy transfer occurs for a falling object in a vacuum? | Gravitational potential energy is transferred to kinetic energy
+What energy transfer occurs in a battery? | Chemical energy is transferred to electrical energy
+What energy transfer occurs for a horizontal mass oscillating on a spring? | Elastic potential energy is transferred to kinetic energy and back again
+For an object moving up a rough inclined surface, state the energy conservation equation | Loss in kinetic energy = gain in gravitational potential energy + work done against friction
+What is kinetic energy? | The energy an object has due to its motion (or velocity)
+The energy an object has due to its motion — what term is this? | Kinetic energy
+What is the equation for kinetic energy? | Ek = ½mv², where m = mass (kg) and v = velocity (m/s)
+In the equation Ek = ½mv², which quantity is squared? | Only the velocity (v), not the mass or the ½
+What is gravitational potential energy? | Energy stored in a mass due to its position in a gravitational field
+Energy stored in a mass due to its position in a gravitational field — what term is this? | Gravitational potential energy
+What is the equation for the change in gravitational potential energy in a uniform gravitational field? | ΔEp = mgΔh, where m = mass (kg), g = gravitational field strength (9.81 N/kg), Δh = change in height (m)
+What is the relationship between gravitational potential energy and height in a uniform field? | Linear — the graph of ΔEp against Δh is a straight line through the origin
+Under what condition is the equation ΔEp = mgΔh valid? | Only in a uniform gravitational field, such as near the Earth's surface
+What is the equation for elastic potential energy? | E = ½k(ΔL)², where k = spring constant (N/m) and ΔL = extension (m)
+What is internal energy? | The energy a substance has due to its temperature or state (sometimes referred to as thermal or heat energy)
+What is elastic potential energy? | The energy stored in a stretched spring or elastic band (sometimes called strain energy)
+What is nuclear energy? | The energy contained within the nucleus of an atom
+What is chemical energy? | The energy contained in a chemical substance

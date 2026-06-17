@@ -1,0 +1,89 @@
+What are the four fundamental interactions (forces)? | Gravity, electromagnetism, strong nuclear (strong interaction), and weak nuclear
+Which fundamental interaction is the weakest? | Gravity
+Which fundamental interaction is the strongest? | The strong nuclear force (strong interaction)
+What is the range of the electromagnetic and gravitational interactions? | Infinite
+What is the range of the weak force? | Up to 10^-18 m
+What is the range of the strong force? | Approximately 10^-15 m
+The gravitational interaction only affects particles with what property? | Mass
+The electromagnetic interaction only affects particles with what property? | Charge
+Which fundamental interaction affects all particles? | The weak interaction
+The strong interaction only affects which type of particle? | Hadrons
+What are exchange particles? | Virtual particles created when two particles exert a force on each other, carrying the fundamental force between them
+A virtual particle that carries the fundamental force between interacting particles is called what? | An exchange particle (or virtual particle)
+What is another name for exchange particles? | Gauge bosons
+What is the exchange particle for the strong interaction? | The pion (pi+, pi-, pi0)
+What is the exchange particle for the weak interaction? | W-boson (W+, W-) or Z-boson (Z0)
+What is the exchange particle for the electromagnetic interaction? | The virtual photon (gamma)
+The pion (pi+, pi-, pi0) is the exchange particle for which fundamental interaction? | The strong interaction
+The W-boson and Z-boson are the exchange particles for which fundamental interaction? | The weak interaction
+The virtual photon is the exchange particle for which fundamental interaction? | The electromagnetic interaction
+Why does gravity not play a part in particle interactions? | Gravity is so weak that it only has a noticeable effect on very large masses, not individual particles
+What is the theorised exchange particle for the gravitational force? | The graviton (not yet discovered)
+The electromagnetic force acts only between what type of particles? | Charged particles
+What are three properties of the photon? | It has no mass, no charge, and is its own antiparticle
+A particle that has no mass, no charge, and is its own antiparticle — what particle is this? | The photon
+Why is the electromagnetic force responsible for binding electrons to atoms? | The attractive electromagnetic force between negative electrons and the positive nucleus holds electrons in the atom
+What are hadrons? | Particles that are made up of quarks
+Why are hadrons subject to the strong interaction? | Because they are made up of quarks, and the strong interaction acts on quarks
+What is the exchange particle of the strong interaction between nucleons? | The pion
+What is the exchange particle of the strong interaction between quarks? | The gluon
+How do the exchange particles differ for the strong force between nucleons vs between quarks? | Between nucleons: pion. Between quarks: gluon
+Why can leptons not interact via the strong force? | Leptons are not made up of quarks, and the strong force only acts on particles composed of quarks
+The weak interaction is responsible for what type of atomic process? | Radioactive decay (specifically beta decay)
+What are the exchange particles of the weak interaction? | W- boson, W+ boson, or Z0 boson
+What determines whether a W+, W-, or Z0 boson is exchanged in a weak interaction? | The type of interaction occurring
+What happens during beta-minus decay? | A neutron turns into a proton, emitting an electron and an anti-electron neutrino: n → p + e- + anti-v_e
+A neutron decaying into a proton while emitting an electron and anti-electron neutrino describes which process? | Beta-minus (beta-) decay
+What is the exchange particle in beta-minus decay? | The W- boson
+Why is the W- boson (not W+) exchanged in beta-minus decay? | The sign of the W boson matches the beta particle emitted — the electron has negative charge, so the W- boson is exchanged
+What happens during beta-plus decay? | A proton turns into a neutron, emitting a positron and an electron neutrino: p → n + e+ + v_e
+A proton decaying into a neutron while emitting a positron and electron neutrino describes which process? | Beta-plus (beta+) decay
+What is the exchange particle in beta-plus decay? | The W+ boson
+Why is the W+ boson (not W-) exchanged in beta-plus decay? | The sign of the W boson matches the beta particle emitted — the positron has positive charge, so the W+ boson is exchanged
+How does the sign of the W boson relate to the type of beta decay? | W- is exchanged in beta-minus decay, W+ is exchanged in beta-plus decay — the sign matches the emitted beta particle
+What is electron capture? | When an atomic electron is absorbed by a proton in the nucleus, producing a neutron and an electron neutrino
+What is the decay equation for electron capture? | p + e- → n + v_e
+What is the exchange particle in electron capture? | The W+ boson
+What is the decay equation for an electron-proton collision? | p + e- → n + v_e (same as electron capture)
+What is the exchange particle in an electron-proton collision? | The W- boson
+How do electron capture and electron-proton collisions differ in terms of exchange particle? | Electron capture uses W+ (proton acts on electron). Electron-proton collision uses W- (electron acts on proton). The equations are otherwise identical.
+In electron capture, which particle acts on which? | The proton acts on the electron (hence W+ is exchanged from left to right on a Feynman diagram)
+In an electron-proton collision, which particle acts on which? | The electron acts on the proton (hence W- is exchanged from right to left on a Feynman diagram)
+What do Feynman diagrams represent? | Particle interactions and decays, showing the particles involved and the exchange particles
+In a Feynman diagram, what does the y-axis represent? | Time
+In a Feynman diagram, what does the x-axis represent? | Space
+What is a vertex on a Feynman diagram? | A point where particles and exchange particles meet, representing a point of interaction
+Where do incoming particles appear on a Feynman diagram? | At the bottom
+Where do outgoing particles appear on a Feynman diagram? | At the top
+How are particles represented on a Feynman diagram? | By straight lines with arrows pointing forward in time
+How are exchange particles represented on a Feynman diagram? | By wavy lines (no arrows on the line itself, though charged W bosons may have a directional arrow above)
+In a Feynman diagram, which side are hadrons/quarks drawn on and which side are leptons drawn on? | Hadrons/quarks on the left, leptons on the right — they must never meet at a vertex
+What quantities must be conserved at each vertex of a Feynman diagram? | Charge, baryon number, and lepton number
+In a Feynman diagram for electromagnetic repulsion between two electrons, what is the exchange particle? | A virtual photon (gamma)
+In a Feynman diagram for beta-minus decay, what happens at the first vertex? | A neutron decays into a proton and a W- boson
+In a Feynman diagram for beta-minus decay, what happens at the second vertex? | The W- boson decays into an electron and an anti-electron neutrino
+In a Feynman diagram for beta-plus decay, what happens at the first vertex? | A proton decays into a neutron and a W+ boson
+In a Feynman diagram for beta-plus decay, what happens at the second vertex? | The W+ boson decays into a positron and an electron neutrino
+What quark transformation occurs during beta-minus decay? | A down quark turns into an up quark (d → u)
+A down quark changing into an up quark via the weak interaction describes the quark-level process in which decay? | Beta-minus decay
+What quark transformation occurs during beta-plus decay? | An up quark turns into a down quark (u → d)
+An up quark changing into a down quark via the weak interaction describes the quark-level process in which decay? | Beta-plus decay
+In beta-minus decay, what role does the W- boson play regarding charge at the quark level? | The W- boson carries away the negative charge of the down quark, providing the negative charge for the electron and anti-neutrino produced
+In beta-plus decay, what role does the W+ boson play regarding charge at the quark level? | The W+ boson carries away the positive charge of the up quark, providing the positive charge for the positron and neutrino produced
+What six quantities must be conserved in particle interactions? | Charge (Q), baryon number (B), lepton number (L), strangeness (S), energy (mass-energy), and momentum
+Which conservation law has an exception in weak interactions? | Strangeness — it does not need to be conserved in weak interactions (can change by 0, +1, or -1)
+By how much can strangeness change in a weak interaction? | By 0, +1, or -1
+What are the possible discrete values that quantum numbers (Q, B, L, S) can take? | 0, +1, -1, +1/2, -1/2 (and other simple fractions for quarks)
+How do you determine whether a particle interaction can occur? | Check whether each quantum number (Q, B, L, S) is equal on both sides of the equation. If any quantity (except strangeness in weak interactions) is not conserved, the interaction cannot occur.
+If strangeness is not conserved but all other quantum numbers are conserved, what can you conclude about the interaction? | It must occur via the weak interaction (since only weak interactions can change strangeness)
+How does the conservation of strangeness help identify the type of interaction? | If strangeness is conserved, the interaction could be strong or electromagnetic. If strangeness changes by +/-1, it must be a weak interaction.
+How do beta-minus and beta-plus decay differ at the quark level? | Beta-minus: down quark → up quark (d → u + e- + anti-v_e). Beta-plus: up quark → down quark (u → d + e+ + v_e)
+How do electron capture and electron-proton collision differ despite having the same equation? | They differ in which particle acts on which: in electron capture the proton absorbs the electron (W+ exchanged, proton side to electron side). In the collision, the electron acts on the proton (W- exchanged, electron side to proton side).
+How does the electromagnetic interaction differ from the strong interaction in terms of which particles are affected? | Electromagnetic acts on all charged particles. Strong acts only on hadrons (particles made of quarks).
+How does the weak interaction differ from the strong interaction in terms of which particles are affected? | Weak affects all particles. Strong only affects hadrons (particles made of quarks).
+What is the quark composition of a neutron? | udd (up, down, down)
+What is the quark composition of a proton? | uud (up, up, down)
+In the quark model of beta-minus decay, what is the total charge of the neutron's quarks (udd)? | +2/3 - 1/3 - 1/3 = 0
+In the quark model of beta-minus decay, what is the total charge of the proton's quarks (uud)? | +2/3 + 2/3 - 1/3 = +1
+The lambda nought particle (Lambda-0) has quark composition uds. What is its strangeness? | -1 (due to the strange quark)
+The lambda nought particle (Lambda-0) has quark composition uds. What is its baryon number? | +1 (it contains 3 quarks, making it a baryon)

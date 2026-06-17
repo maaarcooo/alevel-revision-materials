@@ -1,0 +1,83 @@
+What three particles make up an atom? | Protons, neutrons, and electrons
+Where in an atom are protons and neutrons located? | In the nucleus
+Where in an atom are electrons located? | Orbiting the nucleus
+What is the charge of a proton in SI units? | +1.60 × 10^-19 C
+What is the charge of an electron in SI units? | -1.60 × 10^-19 C
+What is the charge of a neutron? | 0 (no charge)
+What is the mass of a proton in kg? | 1.67(3) × 10^-27 kg
+What is the mass of a neutron in kg? | 1.67(5) × 10^-27 kg
+What is the mass of an electron in kg? | 9.11 × 10^-31 kg
+What is the relative charge of a proton? | +1
+What is the relative charge of an electron? | -1
+What is the relative mass of an electron compared to a nucleon? | 1/2000 (negligible)
+Why is a stable atom electrically neutral? | It has equal numbers of protons and electrons, whose charges cancel
+How does an atom differ from a nucleus? | An atom consists of the nucleus plus orbiting electrons; a nucleus contains only protons and neutrons
+What is specific charge? | The ratio of the total charge of a particle to its mass (Q/m), measured in C kg^-1
+The ratio of the total charge of a particle to its mass — what quantity is this? | Specific charge
+What is the specific charge of the electron? | 1.76 × 10^11 C kg^-1
+What is the specific charge of the proton? | 9.58 × 10^7 C kg^-1
+How is the charge of an ion calculated for a specific-charge problem? | Number of electrons gained or lost × 1.60 × 10^-19 C (negative if electrons gained, positive if lost)
+How is the charge of a nucleus calculated for a specific-charge problem? | Number of protons × 1.60 × 10^-19 C
+How is the mass calculated in a specific-charge problem for an ion or nucleus? | Nucleon number × 1.67 × 10^-27 kg
+What does the nucleon number A represent in AZX notation? | The total number of protons and neutrons in the nucleus
+What does the proton number Z represent in AZX notation? | The total number of protons in the nucleus
+What defines a chemical element? | A fixed number of protons in its atoms
+What is an isotope? | Nuclei with the same number of protons but different numbers of neutrons
+Nuclei with the same number of protons but different numbers of neutrons — what are these called? | Isotopes
+How does an isotope of an element differ in AZX notation? | Same proton number Z, different nucleon number A
+Why are some isotopes unstable? | They have an imbalance of neutrons and protons, causing them to decay and emit radiation to reach a more stable form
+What is isotopic data? | The relative amounts of different isotopes of an element present within a substance
+The relative amounts of different isotopes of an element present within a substance — what term describes this? | Isotopic data
+How is the relative atomic mass of an element calculated from isotopic data? | Multiply each isotope's mass number by its fractional abundance, then sum the results
+What instrument is used to obtain the percentage abundance of different isotopes in a sample? | A mass spectrometer
+What does carbon dating involve? | Comparing the ratio of stable carbon-12 to unstable carbon-14 in dead tissue with the ratio in living tissue
+Why must there be a strong nuclear force in the nucleus? | Electrostatic repulsion between protons would push the nucleus apart, and gravitational attraction is far too weak to hold it together
+Between which fundamental particles does the strong nuclear force act? | Quarks (which make up protons and neutrons)
+What is the behaviour of the strong nuclear force below 0.5 fm separation? | Highly repulsive
+Over what range of separations is the strong nuclear force attractive? | 0.5 fm to 3.0 fm
+At what nucleon separation does the strong nuclear force reach its maximum attractive value? | About 1.0 fm (typical nucleon separation)
+At what separation is the equilibrium position of the strong nuclear force where the resultant force is zero? | About 0.5 fm
+What happens to the strong nuclear force beyond a separation of 3.0 fm? | It becomes zero (has no effect)
+How does the strength of the strong nuclear force compare between proton-proton, neutron-neutron, and proton-neutron pairs? | Roughly the same for all pairs, because the strong force is not influenced by charge (within its 0.5 to 3.0 fm range)
+How does the range of the electrostatic force between protons compare to the strong nuclear force? | The electrostatic force has a much larger range, but only becomes significant when proton separation exceeds about 2.5 fm
+At what separation is the equilibrium position for two protons where electrostatic repulsion and strong attraction balance? | About 0.7 fm
+What is 1 fm (femtometre) in metres? | 1 × 10^-15 m
+What types of nuclei commonly undergo alpha decay? | Large, unstable nuclei with too many nucleons
+What is an alpha particle? | 2 protons and 2 neutrons, equivalent to a helium-4 nucleus
+How do the nucleon number and proton number change during alpha decay? | Nucleon number decreases by 4; proton number decreases by 2
+Write the general decay equation for alpha decay using AZX notation | (A,Z)X → (A-4,Z-2)Y + (4,2)alpha
+What happens at the nucleon level during beta-minus decay? | A neutron turns into a proton, emitting an electron and an anti-electron neutrino
+How do the nucleon number and proton number change during beta-minus decay? | Nucleon number stays the same; proton number increases by 1
+Write the general decay equation for beta-minus decay using AZX notation | (A,Z)X → (A,Z+1)Y + (0,-1)beta + (0,0)anti-nu_e
+What happens at the nucleon level during beta-plus decay? | A proton turns into a neutron, emitting a positron and an electron neutrino
+How do the nucleon number and proton number change during beta-plus decay? | Nucleon number stays the same; proton number decreases by 1
+Write the general decay equation for beta-plus decay using AZX notation | (A,Z)X → (A,Z-1)Y + (0,+1)beta + (0,0)nu_e
+Which type of neutrino is produced in beta-minus decay? | Anti-electron neutrino
+Which type of neutrino is produced in beta-plus decay? | Electron neutrino
+What are the charge and mass of an electron neutrino? | Charge: 0; mass: negligible (approximately zero)
+Why was the neutrino hypothesised to exist? | To account for the conservation of energy in beta decay, since beta particles were observed with a continuous range of energies rather than a single value
+How does the energy spectrum of alpha particles differ from that of beta particles? | Alpha particles have discrete (fixed) energies; beta particles have a continuous range of energies
+Explain why beta particles have a continuous range of energies | The energy released in beta decay is shared between the beta particle and the neutrino (or anti-neutrino) in varying proportions
+What properties do a particle and its corresponding antiparticle share, and how do they differ? | Same mass and same rest mass-energy, but opposite charges
+What is the antiparticle of the electron? | The positron (relative charge +1)
+What is the antiparticle of the proton? | The antiproton (relative charge -1)
+How are antiparticles named and symbolised (apart from the positron)? | Named with the prefix "anti-" and symbolised with a bar above the particle symbol
+What is meant by the rest mass-energy of a particle? | The energy equivalent to the mass of the particle when it is at rest
+What is the rest mass-energy of the proton or antiproton? | 938.257 MeV
+What is the rest mass-energy of the neutron or antineutron? | 939.551 MeV
+What is the rest mass-energy of the electron or positron? | 0.511 MeV
+What is the rest mass-energy of the neutrino or antineutrino? | 0
+What is a photon? | A massless packet (quantum) of electromagnetic energy
+A massless packet or quantum of electromagnetic energy — what is this called? | A photon
+What is the equation for photon energy in terms of frequency? | E = hf
+What is the equation for photon energy in terms of wavelength? | E = hc/lambda
+How does photon energy relate to wavelength? | Photon energy is inversely proportional to wavelength
+What is annihilation? | The destruction of a particle-antiparticle pair when they collide, converting their mass into two gamma-ray photons emitted in opposite directions
+The destruction of a particle-antiparticle pair on collision, converting mass into two gamma-ray photons — what process is this? | Annihilation
+What is the minimum energy of one photon produced in annihilation? | The rest mass-energy of one of the particles: E_min = hf_min = E_rest
+Why are two photons produced in annihilation rather than one? | To conserve momentum — the two photons travel in opposite directions
+What is pair production? | The creation of a particle-antiparticle pair from a high-energy photon that interacts with a nucleus and spontaneously converts its energy into mass
+The creation of a particle-antiparticle pair from a high-energy photon interacting with a nucleus — what process is this? | Pair production
+What is the minimum photon energy required for pair production? | Twice the rest mass-energy of one of the particles produced: E_min = hf_min = 2E_rest
+How do annihilation and pair production compare in terms of energy-mass conversion? | Annihilation converts particle mass into photon energy (minimum energy per photon = E_rest); pair production converts photon energy into particle mass (minimum photon energy = 2E_rest)
+What is the conversion factor from MeV to joules? | 1 MeV = 1.60 × 10^-13 J

@@ -1,0 +1,41 @@
+Define linear momentum | The product of mass and velocity (p = mv)
+The product of mass and velocity — what quantity is this? | Linear momentum
+What are the SI units of momentum? | kg m s⁻¹
+What type of physical quantity is momentum? | A vector, with both magnitude and direction
+In momentum problems, what sign is conventionally assigned to the initial direction of motion? | Positive
+If an object reverses direction after a collision, what happens to the sign of its velocity and momentum? | They become negative (opposite to the chosen positive direction)
+State the principle of conservation of linear momentum | The total momentum before a collision equals the total momentum after, provided no external resultant force acts
+The total momentum before a collision equals the total momentum after, provided no external resultant force acts — what principle is this? | The principle of conservation of linear momentum
+What is the conservation of momentum equation for two objects A and B? | p_Ai + p_Bi = p_Af + p_Bf
+What are external forces in a momentum system? | Forces that act on the system from outside, e.g. friction and weight
+What are internal forces in a momentum system? | Forces exchanged by particles within the system, e.g. tension in a string
+What terms describe a system with no external forces acting? | Closed or isolated
+Express Newton's second law in terms of momentum | F = Δp/Δt (force equals the rate of change of momentum)
+What is the equation for change in momentum? | Δp = p_final − p_initial = mv − mu
+Define impulse | The change in momentum of an object caused by a force acting over a short time (Impulse = FΔt)
+The change in momentum of an object caused by a force acting over a short time — what quantity is this? | Impulse
+What are the units of impulse? | Newton seconds (N s)
+What type of physical quantity is impulse? | A vector, in the direction of the resultant force
+The impulse equations (FΔt = Δp) apply only when what condition is met regarding force? | The force F must be constant
+On a force-time graph, what does the area under the curve represent? | Impulse (change in momentum)
+How is impulse found from a curved force-time graph? | By counting the squares under the curve
+How is impulse found from a force-time graph made of straight lines? | Split into sections (triangles, rectangles, trapeziums) and sum their areas
+For a given change in momentum, what happens to the impact force if the contact time is increased? | The force decreases, since F = Δp/Δt
+Explain why a cricket fielder moves their hands backwards when catching a ball | Increases the time over which the ball's momentum changes, reducing the force on their hands
+Explain why following through when kicking a football gives the ball a higher velocity | Longer contact time increases the impulse transferred to the ball, giving it greater momentum
+Explain why hailstones exert more force on an umbrella than raindrops | Hailstones bounce back (larger change in momentum), while raindrops splatter (smaller change), so hailstones deliver greater impulse
+How does packaging (e.g. bubble wrap) reduce damage to fragile items in transit? | It cushions items by increasing the time over which forces act, reducing the impact force
+What defines an elastic collision? | Kinetic energy is conserved (as well as momentum)
+What defines an inelastic collision? | Kinetic energy is not conserved (though momentum is still conserved)
+How do elastic and inelastic collisions differ? | Both conserve momentum, but only elastic collisions also conserve kinetic energy
+How do you determine whether a collision is elastic or inelastic? | Calculate total kinetic energy before and after using Ek = ½mv² and compare
+What is the equation for kinetic energy? | Ek = ½mv²
+When two objects stick together after a collision, how is the combined mass treated in calculations? | As a single object with mass equal to m_A + m_B
+In the context of momentum, what is an explosion? | An event where objects move apart from rest (e.g. gun recoil, nuclear decay), with total momentum conserved at zero
+A swimmer dives forward from a stationary boat. Explain why the boat moves backwards | Total initial momentum is zero, so by conservation of momentum the boat gains momentum equal and opposite to the swimmer's
+How do vehicle safety features (crumple zones, seat belts, airbags) reduce injury? | They increase the contact time over which the passenger's momentum changes, reducing the force experienced (F = Δp/Δt)
+What specific mechanism allows seat belts to increase deceleration time? | They are designed to stretch slightly on impact
+Where are crumple zones located on a vehicle, and how do they deform? | At the front and rear, designed to crush in a controlled way during a collision
+On a force-time graph, how does wearing a seat belt change the curve for the same impulse? | Lower peak force and wider time base, with the same area under the graph
+According to Newton's Third Law, how do the forces between two colliding objects compare? | Equal in magnitude and opposite in direction
+What are the base SI units of the newton? | kg m s⁻²

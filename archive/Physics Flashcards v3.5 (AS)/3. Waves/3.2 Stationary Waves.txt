@@ -1,0 +1,81 @@
+What are stationary (standing) waves? | Waves produced by the superposition of two waves of the same frequency and amplitude travelling in opposite directions
+Waves produced by the superposition of two waves of the same frequency and amplitude travelling in opposite directions are called what? | Stationary (standing) waves
+How are stationary waves usually formed? | By a travelling wave and its reflection
+What happens to the peaks and troughs in a stationary wave pattern? | They do not move — the wave pattern is fixed in position
+How do stationary waves differ from progressive waves in terms of energy? | Stationary waves store energy, whereas progressive waves transfer energy
+How does amplitude vary across a stationary wave compared to a progressive wave? | In a stationary wave, each point has a different amplitude depending on superposition. In a progressive wave, all points have the same amplitude (in turn)
+How does the phase relationship between points differ in stationary vs progressive waves? | In a stationary wave, points between nodes are in phase and points on either side of a node are in antiphase. In a progressive wave, the phase difference between points within one wavelength varies continuously from 0 to 360 degrees
+In a progressive wave, the wave speed is the speed at which the wave moves through a medium. What happens in a stationary wave? | Each point oscillates at a different speed, but the overall wave pattern does not move
+Do progressive waves have nodes and antinodes? | No — only stationary waves have nodes and antinodes
+What is a node on a stationary wave? | A point of no vibration (zero displacement at all times)
+A point of no vibration on a stationary wave is called what? | A node
+What is an antinode on a stationary wave? | A point of maximum amplitude of vibration
+A point of maximum amplitude on a stationary wave is called what? | An antinode
+Do nodes and antinodes move along the string in a stationary wave? | No — nodes are fixed in position and antinodes only oscillate in the vertical direction
+What are the only two possible phase relationships between two points on a stationary wave? | In phase (0 degrees) or in antiphase (180 degrees)
+How can you determine whether two points on a stationary wave are in phase or in antiphase? | Points with an even number of nodes between them are in phase; points with an odd number of nodes between them are in antiphase
+Points between adjacent nodes on a stationary wave are [...] with each other | in phase
+Points separated by an odd number of nodes on a stationary wave are [...] | in antiphase (out of phase by 180 degrees)
+What is the distance between two adjacent nodes on a stationary wave? | Half a wavelength (lambda/2)
+What is the principle of superposition? | When two or more waves with the same frequency arrive at a point, the resultant displacement is the sum of the displacements of each wave
+When two or more waves with the same frequency arrive at a point and the resultant displacement equals the sum of the individual displacements — what principle is this? | The principle of superposition
+Does the principle of superposition apply only to transverse waves? | No — it applies to all types of waves: transverse and longitudinal, progressive and stationary
+What happens when two waves of the same frequency and amplitude superpose in phase? | Constructive interference occurs — peaks and troughs align, and the resultant wave has double the amplitude
+What happens when two waves of the same frequency and amplitude superpose in antiphase? | Destructive interference occurs — peaks of one wave align with troughs of the other, and the resultant wave has zero amplitude
+Constructive interference produces a resultant amplitude of [...] when two identical waves superpose in phase | 2A (double the individual amplitude)
+Destructive interference produces a resultant amplitude of [...] when two identical waves superpose in antiphase | Zero
+What three conditions are required for the formation of a stationary wave? | Two waves travelling in opposite directions along the same line, with the same frequency, the same wavelength, and a similar amplitude
+What causes nodes in a stationary wave? | Destructive interference — the two waves are in antiphase at these points, so they cancel each other out
+What causes antinodes in a stationary wave? | Constructive interference — the two waves are in phase at these points, so they add together
+How do nodes and antinodes relate to constructive and destructive interference? | Nodes form at points of destructive interference; antinodes form at points of constructive interference
+Why does each point on a stationary wave have a different amplitude? | Because the amount of superposition (constructive or destructive) varies continuously along the wave
+What are resonant frequencies? | The specific frequencies at which a whole number of half wavelengths fit on the length of the string, producing stationary waves
+At resonant frequencies on a stretched string, what determines how many nodes and antinodes form? | The frequency of the oscillator — as frequency increases, more nodes and antinodes appear
+How can stationary waves be demonstrated on a stretched string? | By fixing a string under tension at one end, attaching the other to an oscillator, and adjusting the oscillator frequency until standing waves form
+In the stretched string experiment, what is the purpose of the hanging mass? | To keep the string taut by providing tension
+How can stationary waves be demonstrated using microwaves? | Place a microwave source in line with a metal reflector, and move a small detector between them to detect nodes (minima) and antinodes (maxima)
+How can stationary waves be demonstrated using sound in an air column? | Place a loudspeaker at the open end of a tube containing fine powder; at certain frequencies, the powder forms evenly spaced heaps at the nodes
+In a stationary wave in an air column, what must be present at the closed end and at the open (loudspeaker) end? | A node at the closed end and an antinode at the open (loudspeaker) end
+Explain why fine powder collects at the nodes in the sound wave air column experiment | At the nodes there is zero displacement of air (destructive interference), so the powder is not disturbed and accumulates there. At antinodes the air vibrates with maximum amplitude, pushing the powder away
+What are harmonics? | The different stationary wave patterns that form on a string at specific resonant frequencies
+What is the first harmonic (fundamental frequency) on a string fixed at both ends? | The simplest wave pattern: one loop (one antinode) between two nodes at the fixed ends
+For a string of length L fixed at both ends, what is the wavelength of the first harmonic? | lambda = 2L
+Why is the first harmonic wavelength equal to 2L for a string of length L? | Because the first harmonic consists of one loop, which is half a wavelength, so L = lambda/2, giving lambda = 2L
+What is the equation for the frequency of the first harmonic on a string? | f1 = v / (2L)
+How many nodes and antinodes does the first harmonic have on a string fixed at both ends? | 2 nodes and 1 antinode
+How many nodes and antinodes does the second harmonic have on a string fixed at both ends? | 3 nodes and 2 antinodes
+What is the wavelength of the second harmonic on a string of length L? | lambda = L
+What is the frequency of the second harmonic in terms of the first harmonic? | f2 = 2f1
+How many nodes and antinodes does the third harmonic have on a string fixed at both ends? | 4 nodes and 3 antinodes
+What is the wavelength of the third harmonic on a string of length L? | lambda = 2L/3
+What is the frequency of the third harmonic in terms of the first harmonic? | f3 = 3f1
+For the nth harmonic on a string fixed at both ends, how many antinodes and nodes are there? | n antinodes and (n + 1) nodes
+What is the frequency of the nth harmonic in terms of the first harmonic? | fn = n × f1
+What is the equation for the speed of a wave on a stretched string? | v = sqrt(T / mu)
+In the equation v = sqrt(T / mu), what does T represent? | Tension in the string (N)
+In the equation v = sqrt(T / mu), what does mu represent? | Mass per unit length of the string (kg m^-1)
+What is the equation for the frequency of the first harmonic in terms of tension, length, and mass per unit length? | f = (1 / 2L) × sqrt(T / mu)
+In the equation f = (1/2L) × sqrt(T/mu), what does L represent? | The length of the vibrating string (m)
+How does increasing the tension in a string affect the frequency of the first harmonic? | Increasing tension increases the first harmonic frequency (f is proportional to sqrt(T))
+How does increasing the length of a string affect the frequency of the first harmonic? | Increasing length decreases the first harmonic frequency (f is inversely proportional to L)
+How does increasing the mass per unit length of a string affect the frequency of the first harmonic? | Increasing mass per unit length decreases the first harmonic frequency (f is proportional to 1/sqrt(mu))
+How is mass per unit length (mu) calculated? | mu = mass of string / length of string
+In the required practical for investigating stationary waves on a string, what is the dependent variable? | The frequency of the first harmonic
+In the required practical, name three possible independent variables (one tested at a time) | Length of the string, tension in the string, or mass per unit length (using different strings)
+In the required practical, how is the tension in the string determined? | T = mg, where m is the mass attached to the string and g = 9.81 N kg^-1
+Describe the experimental setup for investigating stationary waves on a string | Attach one end of the string to a vibration generator (connected to a signal generator), pass the other end over a pulley and attach a mass hanger. Use a movable bridge to set the vibrating length L
+In the required practical, how is the first harmonic identified? | Increase the signal generator frequency until the string shows a single loop with maximum amplitude — one antinode between two nodes
+For the required practical, what graph should be plotted to find the wave speed? | Plot mean frequency (f) on the y-axis against 1/L on the x-axis
+In a graph of f against 1/L from the stationary wave experiment, how is the wave speed obtained? | v = 2 × gradient of the line
+Why is the wave speed equal to twice the gradient of f vs 1/L? | Because f = (v/2)(1/L), so comparing with y = mx, the gradient equals v/2
+How can the wave speed found from the f vs 1/L graph be verified? | By comparing it with v = sqrt(T / mu) calculated from the measured tension and mass per unit length
+Name one systematic error and how to reduce it in the stationary waves practical | The signal generator may give inaccurate frequency readings — use an oscilloscope to verify, and leave the generator for ~20 minutes to stabilise before taking measurements
+What is the main source of random error in the stationary waves practical? | Difficulty in judging exactly when the first harmonic is achieved (the sharpness of resonance)
+How can the random error in identifying the first harmonic frequency be reduced? | Adjust the frequency while looking closely at a node (not the antinode), as it is easier to identify zero displacement than maximum amplitude
+Describe a good procedure for taking repeat frequency readings in the stationary waves practical | Find the first harmonic, note the frequency. Increase the frequency past resonance, then slowly decrease until the first harmonic reappears and note the new frequency. Repeat and average
+Name two safety precautions for the stationary waves string experiment | Use a rubber string rather than a metal wire (or wear goggles if metal wire is used), and place a crash mat under the hanging masses in case they fall
+Why should measurements span a range of at least 1.0 m in the stationary waves experiment? | To achieve greater resolution and reduce the percentage uncertainty in the length measurements
+What is the percentage uncertainty in the length measurement if L = 0.4 m and the error is 0.01 m? | (0.01 / 0.4) × 100% = 2.5%
+How are percentage uncertainties in T and mu combined to find the percentage uncertainty in f? | Since f = (1/2L) × sqrt(T/mu), the percentage uncertainty in f equals the sum of: the percentage uncertainty in L, plus half the percentage uncertainty in T, plus half the percentage uncertainty in mu
+How do stationary waves on a stretched string produce sound? | The vibrating string causes surrounding air molecules to vibrate, producing sound waves — this is how stringed instruments like guitars and violins work
+How do musical instruments like clarinets and organs produce sound? | Through the formation of stationary sound waves inside an air column

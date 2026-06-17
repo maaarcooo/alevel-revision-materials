@@ -1,0 +1,42 @@
+What is the formula for total resistance of resistors in series? | R_total = R₁ + R₂ + R₃ ...
+What is the formula for total resistance of resistors in parallel? | 1/R_total = 1/R₁ + 1/R₂ + 1/R₃ ...
+What happens to the total resistance as more resistors are added in parallel? | It decreases and is always less than the smallest individual resistance
+What is the total resistance of two identical resistors of resistance R connected in parallel? | R/2
+How does current behave in a series circuit? | It is the same through all components
+How does current behave at a junction in a parallel circuit? | It splits between branches, with the current in each branch depending on the total resistance of that branch
+How is the e.m.f of a power supply distributed in a series circuit? | Shared among the components in proportion to their resistance
+What is the voltage across each branch in a parallel circuit? | Equal to the e.m.f of the power supply
+What is the total voltage of cells connected in series? | The sum of the individual cell voltages
+What is the total voltage of identical cells connected in parallel? | The same as the voltage of one cell
+State Kirchhoff's First Law | The sum of the currents entering a junction equals the sum of the currents leaving the junction
+The sum of the currents entering a junction equals the sum of the currents leaving the junction — what law is this? | Kirchhoff's First Law
+What physical principle underlies Kirchhoff's First Law? | Conservation of charge
+What is a junction in a circuit? | A point where at least three circuit paths meet
+What is a branch in a circuit? | A path connecting two junctions
+State Kirchhoff's Second Law | The total e.m.f in a closed circuit equals the sum of the potential differences across each component
+The total e.m.f in a closed circuit equals the sum of the potential differences across each component — what law is this? | Kirchhoff's Second Law
+What physical principle underlies Kirchhoff's Second Law? | Conservation of energy
+How can each closed loop in a parallel circuit be treated when applying Kirchhoff's Second Law? | As its own independent series circuit
+Why are parallel circuits used in home wiring systems? | A single source supplies all appliances with the same voltage, and if one component fails the others continue to work
+Define electrical power | The rate of energy transfer in a component, measured in watts (W)
+The rate of energy transfer in a component — what quantity is this? | Electrical power
+What is the equation linking power, energy, and time? | P = E/t
+What is the equation linking power, current, and voltage? | P = IV
+What is the equation for power in terms of current and resistance? | P = I²R
+What is the equation for power in terms of voltage and resistance? | P = V²/R
+What is the equation for energy transferred in an electrical component? | E = VIt
+For a fixed resistance, by what factor does power change if the current doubles? | Four times (P is proportional to I²)
+For a fixed resistance, by what factor does power change if the voltage doubles? | Four times (P is proportional to V²)
+What is a potential divider? | A circuit that produces an output voltage as a fraction of its input voltage
+A circuit that produces an output voltage as a fraction of its input voltage — what is this called? | A potential divider
+State three purposes of a potential divider | Provide a variable p.d., select a specific p.d., and split the p.d. of a source between two or more components
+What is the potential divider equation? | V_out = (R₂ / (R₁ + R₂)) x V_in, where R₂ is the resistance of the component across which V_out is measured
+In the potential divider equation, which resistance must be in the numerator? | The resistance of the component across which V_out is measured
+Explain why the component with the largest resistance in a potential divider has the greatest p.d. across it | From V = IR, the series current is the same through both components, so the larger resistance produces the larger voltage drop
+How does the resistance of an LDR change with light intensity? | Resistance decreases as light intensity increases
+How does the resistance of a thermistor change with temperature? | Resistance decreases as temperature increases (NTC thermistor)
+Give two applications of an LDR in a potential divider | Street lights and security lights
+Give three applications of a thermistor in a potential divider | Fire alarms, ovens, digital thermometers
+In a potential divider with a fixed resistor and an LDR, what happens to V_out across the LDR when light intensity increases? | V_out decreases
+In a potential divider with a fixed resistor and a thermistor, what happens to V_out across the thermistor when temperature decreases? | V_out increases
+In a potential divider with a fixed resistor R and a thermistor, what happens to V_out across R when temperature decreases? | V_out decreases

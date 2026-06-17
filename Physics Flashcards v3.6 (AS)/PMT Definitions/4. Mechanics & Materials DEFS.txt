@@ -1,0 +1,66 @@
+Define breaking stress | The maximum stress a material can withstand before failure occurs
+The maximum stress a material can withstand before failure — what term is this? | Breaking stress
+What does it mean for a material to be brittle? | It shows very little strain before reaching its breaking stress
+A material that shows very little strain before reaching its breaking stress is described as [...] | brittle
+Define centre of mass | The single point through which all the mass of an object can be said to act
+The single point through which all the mass of an object is said to act — what term is this? | Centre of mass
+State the principle of conservation of energy | Energy cannot be created or destroyed, only transferred into different forms
+Energy cannot be created or destroyed, only transferred — what principle is this? | Conservation of energy
+State the principle of conservation of momentum | The total momentum of a system before an event equals the total momentum after the event, provided no external forces act
+The total momentum of a system is conserved provided no external forces act — what principle is this? | Conservation of momentum
+Define a couple | Two equal and opposite parallel forces acting through different lines of action, causing rotation without translation
+Two equal and opposite parallel forces acting through different lines of action — what is this called? | A couple
+Define density | Mass per unit volume of a material
+Mass per unit volume — what quantity is this? | Density
+Define efficiency | The ratio of useful output to total input for a given system
+The ratio of useful output to total input — what quantity is this? | Efficiency
+What is elastic behaviour? | The material returns to its original shape when the deforming forces are removed, with no permanent deformation
+A material that returns to its original shape after the deforming forces are removed exhibits [...] behaviour | elastic
+What is plastic behaviour? | The material does not return to its original shape when the deforming forces are removed, resulting in permanent deformation
+A material that is permanently deformed after the deforming forces are removed exhibits [...] behaviour | plastic
+How does elastic behaviour differ from plastic behaviour? | Elastic: object returns to original shape when force is removed. Plastic: object is permanently deformed
+Define elastic collision | A collision in which the total kinetic energy of the system is conserved
+A collision in which total kinetic energy is conserved — what type of collision is this? | Elastic collision
+Define inelastic collision | A collision in which the total kinetic energy of the system is not conserved
+A collision in which total kinetic energy is not conserved — what type of collision is this? | Inelastic collision
+How do elastic and inelastic collisions differ? | Elastic: total kinetic energy is conserved. Inelastic: total kinetic energy is not conserved. Both conserve momentum
+Define elastic limit | The force beyond which a material no longer deforms elastically and instead deforms plastically
+The force beyond which a material deforms plastically rather than elastically — what is this called? | The elastic limit
+Define elastic strain energy | The energy stored in an object when it is stretched, equal to the area under a force-extension graph
+The energy stored in a stretched object, found from the area under a force-extension graph — what term is this? | Elastic strain energy
+What two conditions must be met for an object to be in equilibrium? | The resultant force and the resultant moment must both equal zero
+When both the resultant force and resultant moment on an object are zero, the object is in [...] | equilibrium
+State Hooke's Law | The extension of an elastic object is directly proportional to the force applied, up to the limit of proportionality
+The extension of an elastic object is directly proportional to the applied force up to a limiting point — what law is this? | Hooke's Law
+How does the elastic limit differ from the limit of proportionality? | Limit of proportionality: extension stops being proportional to force. Elastic limit: material stops returning to original shape. The limit of proportionality is reached first
+Define impulse | The change in momentum of an object, equal to force x time (Ft = Δp)
+The change in momentum of an object — what quantity is this? | Impulse
+Define moment | The product of a force and the perpendicular distance from the line of action of the force to the pivot
+The product of a force and the perpendicular distance to the pivot — what quantity is this? | Moment
+Define momentum | The product of an object's mass and velocity (p = mv)
+The product of mass and velocity — what quantity is this? | Momentum
+State Newton's first law | An object remains in its current state of motion unless acted on by a resultant force
+Which of Newton's laws states that an object remains in its current state of motion unless acted on by a resultant force? | Newton's first law
+State Newton's second law | The resultant force acting on an object equals the rate of change of momentum of the object
+Which of Newton's laws states that resultant force equals the rate of change of momentum? | Newton's second law
+State Newton's third law | If object A exerts a force on object B, then B exerts a force on A that is equal in magnitude and opposite in direction
+Which of Newton's laws states that forces between two interacting objects are equal in magnitude and opposite in direction? | Newton's third law
+State the principle of moments | For an object in equilibrium, the sum of clockwise moments about any point equals the sum of anticlockwise moments about that point
+When the sum of clockwise moments about a point equals the sum of anticlockwise moments — what principle is this? | The principle of moments
+What is a scalar quantity? | A quantity that has magnitude only (e.g. mass, length, temperature)
+A quantity with magnitude only — what type of quantity is this? | Scalar
+What is a vector quantity? | A quantity that has both magnitude and direction (e.g. velocity, displacement, acceleration)
+A quantity with both magnitude and direction — what type of quantity is this? | Vector
+How do scalar and vector quantities differ? | Scalars have magnitude only; vectors have both magnitude and direction
+Define spring constant | The constant of proportionality relating the force applied to the extension of a spring
+The constant of proportionality relating force to extension of a spring — what quantity is this? | Spring constant
+What is stiffness? | A measure of how difficult it is to stretch a given object
+A measure of how difficult it is to stretch a given object — what property is this? | Stiffness
+Define tensile strain | The ratio of extension to original length. It is dimensionless (no unit)
+The ratio of extension to original length — what quantity is this? | Tensile strain
+Define tensile stress | The force per unit cross-sectional area, measured in pascals (Pa)
+Force per unit cross-sectional area — what quantity is this? | Tensile stress
+Define terminal speed | The maximum speed of an object, reached when the resistive forces equal the driving forces
+The maximum speed reached when resistive and driving forces are equal — what term is this? | Terminal speed
+Define the Young modulus | The ratio of tensile stress to tensile strain for a material, measured in pascals (Pa)
+The ratio of stress to strain for a material — what quantity is this? | Young modulus

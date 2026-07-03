@@ -1,0 +1,98 @@
+What is the AND logical operator? | A logical operator that returns TRUE (1) only if all inputs are TRUE (1)
+A logical operator that returns TRUE only if all inputs are TRUE — what operator is this? | AND (∧)
+What is ASCII? | A character set that represents alphanumeric characters or symbols using 8 bits per character
+A character set encoding characters or symbols using 8 bits — what is this? | ASCII
+What is binary? | A base-2 number system using only ones and zeros to represent numbers
+A base-2 number system using only 1s and 0s — what is this called? | Binary
+What is bitwise manipulation? | Operations performed on a set of bits
+Operations performed on a set of bits — what is this called? | Bitwise manipulation
+What is the Boolean data type? | A data type that can store only one of two possible values, such as TRUE/FALSE or 1/0
+A data type that stores only one of two possible values such as TRUE or FALSE — what data type is this? | Boolean
+What is the Character data type? | A data type for storing a single letter, number, or special character
+A data type for storing a single letter, number, or special character — what data type is this? | Character
+What is denary? | A base-10 number system using the digits 0 to 9
+A base-10 number system using digits 0 to 9 — what is this called? | Denary
+What is floating point arithmetic? | Performing arithmetic operations on floating point numbers in binary
+Performing arithmetic on floating point numbers in binary — what is this called? | Floating point arithmetic
+What is hexadecimal? | A base-16 number system using characters 0 to 9 and A to F
+A base-16 number system using characters 0-9 and A-F — what is this called? | Hexadecimal
+What is the Integer data type? | A data type for storing whole number values (positive or negative) with no decimal parts
+A data type for storing whole numbers with no decimal parts — what data type is this? | Integer
+What is the OR logical operator? | A logical operator that returns TRUE (1) if any one of the inputs is TRUE (1)
+A logical operator that returns TRUE if any one input is TRUE — what operator is this? | OR (∨)
+What is a primitive data type? | A basic built-in data type provided by a programming language
+A basic built-in data type provided by a programming language — what is this called? | Primitive data type
+What is the Real/Floating Point data type? | A data type for storing numbers with decimal or fractional parts
+A data type for storing numbers with decimal or fractional parts — what data type is this? | Real/Floating Point
+What are shifts in bitwise manipulation? | A bitwise operation where all bits move one place in a given direction, with the end bit taken as a carry or appended to the other end depending on the shift method
+A bitwise operation where bits move one place in a direction, with the end bit handled as a carry or wrapped — what is this? | Shift
+What is the String data type? | A data type for storing a sequence of alphanumeric characters or symbols, typically within quotation marks
+A data type storing a sequence of characters or symbols, typically in quotation marks — what data type is this? | String
+What is two's complement? | A method of storing negative numbers in binary by flipping all the bits of the positive number's binary representation and adding 1
+A method of representing negative numbers in binary by flipping all bits and adding 1 — what is this? | Two's complement
+What is UNICODE? | A character set that is a superset of ASCII, representing characters as integer code points that match their ASCII codes for shared characters
+A character set that is a superset of ASCII and uses integer code points — what is this? | UNICODE
+What is the XOR logical operator? | A logical operator that returns TRUE (1) only if exactly one of the inputs is TRUE (1)
+A logical operator that returns TRUE only if exactly one input is TRUE — what operator is this? | XOR
+What is an array? | A data structure for storing a finite, ordered set of data of the same data type within a single identifier
+A data structure storing a finite, ordered set of same-type data under one identifier — what is this? | Array
+What is a binary search tree? | A tree where each node has at most 2 children, with the right node and its descendants always having a greater value than the root node
+A tree with at most 2 children per node, where right descendants have greater values — what is this? | Binary search tree
+What is breadth first traversal? | A graph traversal that visits all neighbours of the starting node before repeating for each neighbour in the order they were visited
+A graph traversal visiting all neighbours of a node before moving to the next level — what is this? | Breadth first traversal
+What is depth first traversal? | A graph traversal that travels as far as possible along one route before backtracking to try alternative unexplored routes
+A graph traversal going as far as possible along one route before backtracking — what is this? | Depth first traversal
+What is a directed graph? | A graph where the order of vertices paired in an edge matters, making edges one-way
+A graph with one-way edges where vertex order matters — what is this? | Directed graph
+What is a graph (data structure)? | A data structure consisting of a set of vertices/nodes connected by a set of edges/arcs
+A data structure of vertices/nodes connected by edges/arcs — what is this? | Graph
+What is a hash table? | A data structure where a hashing algorithm calculates a value to determine storage location, allowing direct access by recalculation without any search
+A data structure using a hashing algorithm to determine storage location, enabling direct access without search — what is this? | Hash table
+What is a linked list? | A data structure storing an ordered sequence where each item has a pointer to the next item, and items are not stored contiguously in memory
+An ordered data structure where each item has a pointer to the next and items are not stored contiguously — what is this? | Linked list
+What is a list (data structure)? | A data structure that stores a sequence of data values, each with a unique index
+A data structure storing a sequence of values each with a unique index — what is this? | List
+What is a queue? | A first-in-first-out (FIFO) data structure where the first item added is the first to be removed
+A FIFO data structure where the first item added is the first removed — what is this? | Queue
+What is a record? | A data structure that stores data in elements called fields, organised by attributes
+A data structure storing data in fields organised by attributes — what is this? | Record
+What is a stack? | A last-in-first-out (LIFO) data structure where the last item added is the first to be removed
+A LIFO data structure where the last item added is the first removed — what is this? | Stack
+What is a tree (data structure)? | A data structure using linked nodes to form a hierarchical structure starting at a root node, where each node is a child of a parent node
+A hierarchical data structure of linked nodes starting at a root, with each node being a child of a parent — what is this? | Tree
+What is a tuple? | A data structure for storing an immutable, ordered set of data which can be of different data types, within a single identifier
+An immutable, ordered data structure that can hold different data types under one identifier — what is this? | Tuple
+What is an undirected graph? | A graph where the order of vertices paired in an edge does not matter, making edges bidirectional
+A graph with bidirectional edges where vertex order does not matter — what is this? | Undirected graph
+State the association laws in Boolean algebra | A AND (B AND C) = (A AND B) AND C, and A OR (B OR C) = (A OR B) OR C
+A AND (B AND C) = (A AND B) AND C, and the same pattern for OR — which Boolean laws are these? | Association laws
+What is a Boolean expression? | A combination of Boolean variables and logical operators that evaluates to TRUE or FALSE depending on the input
+A combination of Boolean variables and logical operators evaluating to TRUE or FALSE — what is this? | Boolean expression
+What is Boolean logic? | A type of algebra using logical operators where all values and expressions ultimately reduce to TRUE or FALSE
+A type of algebra using logical operators where all values reduce to TRUE or FALSE — what is this? | Boolean logic
+State the commutation laws in Boolean algebra | A AND B = B AND A, and A OR B = B OR A
+A AND B = B AND A, and A OR B = B OR A — which Boolean laws are these? | Commutation laws
+State De Morgan's first law | NOT(A OR B) = NOT A AND NOT B
+NOT(A OR B) = NOT A AND NOT B — which law is this? | De Morgan's first law
+State De Morgan's second law | NOT(A AND B) = NOT A OR NOT B
+NOT(A AND B) = NOT A OR NOT B — which law is this? | De Morgan's second law
+State the distribution laws in Boolean algebra | A AND (B OR C) = (A AND B) OR (A AND C). Extended form: (A OR B) AND (C OR D) = (A AND C) OR (A AND D) OR (B AND C) OR (B AND D)
+A AND (B OR C) = (A AND B) OR (A AND C) — which Boolean law is this? | Distribution law
+State the double negation law | NOT NOT A = A
+NOT NOT A = A — which Boolean law is this? | Double negation law
+What is a D-type flip flop? | A sequential logic circuit used to store a single bit, with two stable states that can be flipped between using an input signal
+A sequential logic circuit storing a single bit with two stable states — what is this? | D-type flip flop
+What is a full adder? | A combination of two half adders that takes a carry bit and two input bits, producing a sum and a new carry as two output bits
+A circuit combining two half adders that takes a carry-in and two inputs, outputting a sum and carry — what is this? | Full adder
+What is a half adder? | A combinational arithmetic circuit that adds two single bits and produces a sum bit (S) and carry bit (C)
+A combinational circuit that adds two single bits and outputs a sum bit and carry bit — what is this? | Half adder
+What is a Karnaugh map? | A method of simplifying Boolean expressions by redrawing the truth table and applying visual rules to obtain expressions with minimal logical operators, as a sum of products
+A method of simplifying Boolean expressions using a redrawn truth table and visual rules to get a minimal sum of products — what is this? | Karnaugh map
+What is a logic gate diagram? | A graphical method of representing Boolean expressions using the standard symbols for logic gates
+A graphical representation of Boolean expressions using standard gate symbols — what is this called? | Logic gate diagram
+How does ASCII differ from UNICODE? | ASCII encodes characters using 8 bits with a limited character set. UNICODE is a superset of ASCII using integer code points, supporting a far larger range of characters
+How does a directed graph differ from an undirected graph? | In a directed graph, edges are one-way and vertex order matters. In an undirected graph, edges are bidirectional and vertex order does not matter
+How does a stack differ from a queue? | A stack is LIFO (last in, first out) while a queue is FIFO (first in, first out)
+How does breadth first traversal differ from depth first traversal? | Breadth first visits all neighbours of a node before moving to the next level. Depth first travels as far as possible along one route before backtracking
+How does a full adder differ from a half adder? | A half adder adds two single bits. A full adder combines two half adders and also accepts a carry-in bit, handling three inputs total
+How does an array differ from a tuple? | An array stores data of the same type and can be modified. A tuple can store different data types but is immutable (cannot be changed once created)

@@ -1,0 +1,24 @@
+What is abstraction? | Simplifying a problem by considering only the necessary details, leaving a representation without unnecessary information
+Simplifying a problem by considering only the necessary details, leaving a representation without unnecessary information — what term is this? | Abstraction
+What is data abstraction? | The representation of data in a computer system along with its logical description and interaction with operators (e.g. stacks, queues, integers)
+The representation of data in a computer system along with its logical description and interaction with operators — what term is this? | Data abstraction
+What is graph theory? | A branch of mathematics used to abstractly represent problems using nodes connected by edges
+A branch of mathematics used to abstractly represent problems using nodes connected by edges — what term is this? | Graph theory
+What is caching? | The temporary storage of data in cache or memory so it can be retrieved faster if needed again
+The temporary storage of data in cache or memory for faster retrieval if needed again — what term is this? | Caching
+In the context of thinking ahead, what are inputs? | Any information relevant to the problem that is required by the system for processing according to an algorithm
+In the context of thinking ahead, what are outputs? | The result returned by a system for a given input after running all or part of a process
+What are preconditions? | Prerequisites or states of a system and its surroundings required to run a use case and return a valid solution
+Prerequisites or states of a system and its surroundings required to run a use case and return a valid solution — what term is this? | Preconditions
+What are reusable program components? | Pre-written, debugged, and tested components that can be transplanted into new systems to save development time
+Pre-written, debugged, and tested components that can be transplanted into new systems to save development time — what term is this? | Reusable program components
+What is procedural abstraction? | Achieving a task by relying on a procedure of sequential steps
+Achieving a task by relying on a procedure of sequential steps — what term is this? | Procedural abstraction
+What are the components of a problem? | The smaller, simpler tasks and sub-procedures a problem can be broken down into to be completed modularly
+The smaller, simpler tasks and sub-procedures a problem can be broken down into to be completed modularly — what term is this? | Components of a problem
+What is a flowchart? | A diagrammatic representation of program flow that includes all the decision points needed to obtain a solution
+A diagrammatic representation of program flow including all decision points — what term is this? | Flowchart
+What are logical conditions? | Conditions depending on one or more variables, used to determine the next step when a system must make a decision. Typically implemented using sequences, selections, and iterations
+Conditions depending on one or more variables that determine the next step at a decision point, typically implemented using sequences, selections, and iterations — what term is this? | Logical conditions
+What is concurrent processing? | Processing where the system appears to perform multiple tasks simultaneously
+Processing where the system appears to perform multiple tasks simultaneously — what term is this? | Concurrent processing

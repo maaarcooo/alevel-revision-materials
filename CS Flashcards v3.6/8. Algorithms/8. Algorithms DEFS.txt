@@ -1,0 +1,37 @@
+What is the A* algorithm? | A generalisation of Dijkstra's algorithm that approximately finds the shortest path between two nodes using a cost function (distance from source to current node) and a heuristic function (estimated distance from next node to destination)
+A generalisation of Dijkstra's algorithm that uses a cost function and a heuristic function to approximately find the shortest path — what algorithm is this? | A* algorithm
+What is Big O notation? | A way of classifying algorithms by setting an upper bound for the worst-case time or space complexity as a mathematical function of input size
+A classification that sets an upper bound for worst-case time or space complexity as a function of input size — what notation is this? | Big O notation
+What is binary search? | An algorithm that searches a sorted list by repeatedly halving the sublist that could contain the target item
+An algorithm that searches a sorted list by repeatedly halving the sublist that could contain the target item — what search algorithm is this? | Binary search
+What is breadth-first traversal? | A graph traversal that uses a queue to visit all neighbours of the current node before visiting the next level of neighbours, until the entire graph is explored
+A graph traversal that uses a queue to visit all neighbours of the current node before moving to the next level — what traversal is this? | Breadth-first traversal
+What is bubble sort? | A sorting algorithm that iterates through a list, comparing each element to its successor and swapping them if out of order, repeating until no swaps are needed in a pass
+A sorting algorithm that repeatedly compares adjacent elements and swaps them if out of order, finishing when no swaps occur in a pass — what sort is this? | Bubble sort
+What is depth-first traversal? | A graph traversal that uses a stack to travel as far along one route as possible, then backtracks and repeats for remaining routes until the entire graph is explored
+A graph traversal that uses a stack to go as far along one route as possible before backtracking — what traversal is this? | Depth-first traversal
+What is Dijkstra's shortest path algorithm? | An algorithm that finds the shortest path between two nodes on a graph by using a priority queue to track the shortest distance from the starting node to each other node
+An algorithm that uses a priority queue to track the shortest distance from a start node to all other nodes on a graph — what algorithm is this? | Dijkstra's shortest path algorithm
+What is insertion sort? | A sorting algorithm that divides a list into sorted and unsorted sections, placing each unsorted element into its correct position in the sorted section one at a time
+A sorting algorithm that maintains sorted and unsorted sections, inserting each unsorted element into its correct position in the sorted section — what sort is this? | Insertion sort
+What is linear search? | An algorithm that searches a list by checking each element in sequence until the target is found or the end of the list is reached
+An algorithm that checks each element in a list from start to end until the target is found — what search algorithm is this? | Linear search
+What is merge sort? | A divide-and-conquer sorting algorithm that recursively halves a list into sublists of length 1, then merges them back together in sorted order
+A divide-and-conquer sorting algorithm that recursively splits a list into single-element sublists then merges them back in sorted order — what sort is this? | Merge sort
+What is quick sort? | A sorting algorithm that selects a pivot element, places elements greater than the pivot into one sublist and the rest into another, then recursively sorts each sublist
+A sorting algorithm that partitions a list around a chosen pivot and recursively sorts the resulting sublists — what sort is this? | Quick sort
+What is time complexity? | A measure of the amount of time needed by an algorithm to solve a problem of a given input size
+A measure of the time an algorithm needs to solve a problem as a function of input size — what concept is this? | Time complexity
+What is space complexity? | A measure of the amount of memory space needed by an algorithm to solve a problem of a given input size
+A measure of the memory an algorithm needs as a function of input size — what concept is this? | Space complexity
+What does O(1) mean? | Constant time/space — the algorithm takes the same amount of time or memory regardless of input size
+What does O(log n) mean? | Logarithmic time/space — execution time or memory grows logarithmically with input size (lower complexity than polynomial)
+What does O(n) mean? | Linear time/space — execution time or memory is directly proportional to input size
+What does O(n^k) mean? | Polynomial time/space — execution time or memory is proportional to input size raised to a constant power k (e.g. O(n^2), O(n^3))
+What does O(2^n) mean? | Exponential time/space — execution time or memory grows exponentially with input size (higher complexity than polynomial)
+What is the time complexity of binary search? | O(log n)
+What is the time complexity of linear search? | O(n)
+What is the time complexity of bubble sort? | O(n^2)
+What is the time complexity of insertion sort? | O(n^2)
+What is the time complexity of merge sort? | O(n log n)
+What is the time complexity of quick sort? | O(n log n)

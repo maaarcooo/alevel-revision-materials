@@ -1,0 +1,91 @@
+What is time complexity? | A measure of how many operations or steps an algorithm requires relative to its input size
+A measure of how many operations an algorithm requires relative to input size — what term is this? | Time complexity
+What is space complexity? | A measure of how much memory an algorithm requires to complete
+A measure of how much memory an algorithm requires to complete — what term is this? | Space complexity
+Why is time complexity measured in operations rather than seconds? | It must be independent of hardware — different CPUs execute the same number of steps at different speeds
+What is Big O notation? | A notation expressing the worst-case complexity of an algorithm as an upper bound on operations relative to input size
+A notation expressing the worst-case upper bound on operations relative to input size — what is this called? | Big O notation
+What does O(1) represent? | Constant time — the number of operations is the same regardless of input size
+What does O(n) represent? | Linear time — operations grow in direct proportion to input size
+What does O(n²) represent? | Polynomial (quadratic) time — operations are proportional to the square of the input size
+What does O(2^n) represent? | Exponential time — the number of operations doubles with each additional input item
+What does O(log n) represent? | Logarithmic time — operations increase very slowly as input size grows
+What does O(n log n) represent? | Linear-logarithmic time — between linear O(n) and polynomial O(n²) in efficiency
+What are the two most efficient common time complexities? | O(1) constant time and O(log n) logarithmic time
+Where does O(n log n) sit relative to O(n) and O(n²) in efficiency? | Between them — less efficient than O(n) but more efficient than O(n²)
+Which common time complexity is the least efficient? | O(2^n) exponential time. O(n!) factorial time is even worse but rarely encountered
+What are the two rules for simplifying a Big O expression? | Keep only the term with the largest exponent, and remove any coefficients
+What Big O notation describes an algorithm with instruction count 3n² + 4n + 5? | O(n²) — n² is the dominant term and coefficients are dropped
+What type of code structure produces O(1) time complexity? | A fixed number of statements with no loops dependent on input size
+What type of code structure produces O(n) time complexity? | A single loop iterating n times
+What type of code structure produces O(n²) time complexity? | Two nested loops, each iterating n times
+What is the simplest way to derive an algorithm's Big O time complexity? | Count the number of loops and levels of nesting — each additional nested loop multiplies the power of n
+Why are coefficients removed from Big O notation? | As input grows very large, a multiplicative constant contributes proportionally less to the overall number of operations
+What type of algorithm commonly has O(2^n) time complexity? | Recursive algorithms that solve a problem of size n by recursively solving two smaller problems of size n-1
+What is a logarithm in the context of computing? | The inverse of an exponential — it gives the power to which a base (usually 2) must be raised to produce a given number
+What base are logarithms usually measured in for computer science? | Base 2
+What is best case complexity? | The minimum number of operations an algorithm requires on the most favourable input
+What is worst case complexity? | The maximum number of operations an algorithm requires on the least favourable input
+What is average case complexity? | The expected number of operations when the algorithm performs on typical data, neither best nor worst
+Big O notation almost always expresses which case? | The worst case, providing a guaranteed upper bound on performance
+When two algorithms have the same time complexity, how is the more suitable one determined? | By comparing their space complexities — the algorithm requiring less memory is preferred
+How can space complexity be reduced? | By performing changes in-place on the original data rather than making copies
+How can time complexity be reduced? | By reducing nested loops and the number of items to process, for example using divide and conquer
+What is a divide and conquer algorithm? | An algorithm that recursively breaks a problem into smaller sub-problems, solves each at its simplest, then combines the results
+An algorithm that recursively breaks a problem into smaller sub-problems, solves each, then combines the results — what is this approach called? | Divide and conquer
+What is a linear search? | An algorithm that checks each element in a list sequentially from start to end, comparing each to the target value
+What is the worst-case time complexity of linear search? | O(n)
+What is the best-case time complexity of linear search? | O(1)
+What is the space complexity of linear search? | O(1)
+What advantage does linear search have over binary search regarding input data? | Linear search works on unsorted data, whereas binary search requires the data to be sorted
+What is a binary search? | A divide and conquer algorithm that compares the middle element of a sorted list to the target, halving the search space with each comparison
+What is the worst-case time complexity of binary search? | O(log n)
+What is the best-case time complexity of binary search? | O(1)
+What is the space complexity of an iterative binary search? | O(1) — it uses only a fixed number of variables (start, end, mid)
+What is the space complexity of a recursive binary search? | O(log n) — the call stack grows with each recursive call to a maximum depth of log n
+What precondition must be met before performing a binary search? | The data must be sorted
+In binary search, how is the search space adjusted if the target is less than the midpoint value? | The end pointer moves to midpoint - 1, ignoring the upper half
+In binary search, how is the search space adjusted if the target is greater than the midpoint value? | The start pointer moves to midpoint + 1, ignoring the lower half
+Explain why binary search has O(log n) time complexity | The search space halves with each iteration, so doubling the input adds only one more comparison
+What value do search algorithms typically return if the target is not found? | -1, a sentinel value indicating the item is not in the list
+What is a bubble sort? | A sorting algorithm that repeatedly compares adjacent pairs and swaps them if out of order, continuing passes until a complete pass produces no swaps
+What is the worst-case time complexity of bubble sort? | O(n²)
+What is the best-case time complexity of bubble sort? | O(n)
+Explain why bubble sort's best-case time complexity is O(n) not O(1) | Even on an already sorted list, one complete pass through all n elements must be made to verify no swaps are needed
+What is the space complexity of bubble sort? | O(1) — it sorts in-place using only a temporary swap variable
+After one complete pass of bubble sort, what is guaranteed? | The largest unsorted value has moved to its correct position at the end of the unsorted portion
+How does bubble sort determine that sorting is complete? | When a full pass completes with no swaps occurring
+Why does each successive pass of an optimised bubble sort make fewer comparisons? | The last element of each pass is already in its correct sorted position, so it does not need to be rechecked
+What is an insertion sort? | A sorting algorithm that takes each item in turn and inserts it into its correct position within the already-sorted portion by shifting larger elements to the right
+What is the worst-case time complexity of insertion sort? | O(n²)
+What is the best-case time complexity of insertion sort? | O(n)
+What is the space complexity of insertion sort? | O(1) — it sorts in-place
+What is a merge sort? | A divide and conquer algorithm that recursively halves a list into single-element sub-lists, then repeatedly merges pairs of sub-lists in sorted order until one sorted list remains
+What is the time complexity of merge sort? | O(n log n) in all cases (best, average, and worst)
+What is the space complexity of merge sort? | O(n) — additional space is needed to store copies of the sub-lists during merging
+Explain why merge sort has O(n log n) time complexity | The list is halved log n times during splitting, and at each level all n elements must be compared and merged
+How are two sorted sub-lists merged in merge sort? | A pointer for each sub-list tracks the next element to compare. The smaller value is placed into the new list and its pointer incremented, continuing until all elements are merged
+What is the base case for recursion in merge sort? | A sub-list containing only one element
+What is a quick sort? | A divide and conquer algorithm that selects a pivot, partitions elements into those less than and greater than the pivot, then recursively sorts both partitions
+What is the best and average-case time complexity of quick sort? | O(n log n)
+What is the worst-case time complexity of quick sort? | O(n²)
+What causes quick sort's worst-case O(n²) performance? | Consistently poor pivot selection, such as always choosing the smallest or largest value, or sorting already-sorted data
+What is the space complexity of quick sort? | O(n) — sub-lists and recursive call frames consume additional memory on the stack
+What is the role of the pivot in quick sort? | It partitions the list into two groups (less than and greater than the pivot). After partitioning, the pivot occupies its final sorted position
+What can happen if quick sort's recursion depth becomes too large? | A stack overflow, caused by too many recursive calls from deeply unbalanced partitions
+What is Dijkstra's shortest path algorithm? | An optimisation algorithm that finds the shortest path from a starting node to all other nodes in a weighted graph
+An optimisation algorithm that finds the shortest path from a starting node to all other nodes in a weighted graph — what is it? | Dijkstra's shortest path algorithm
+What is an optimisation problem? | A problem requiring the maximisation of a solution's efficiency, such as finding the shortest route or minimising resource usage
+What type of graph does Dijkstra's algorithm operate on? | A weighted graph, where edges carry values representing a measurement such as distance, time, or cost
+What initial distance values are assigned in Dijkstra's algorithm? | The start node is set to 0 and all other nodes are set to infinity
+When is a neighbour's distance updated in Dijkstra's algorithm? | When the current node's distance plus the edge weight to the neighbour is less than the neighbour's existing stored distance
+Which node does Dijkstra's algorithm visit next? | The unvisited node with the lowest current distance value
+How is the shortest path reconstructed after Dijkstra's completes? | By backtracking through each node's recorded previous node, from the destination to the start
+What is the A* search algorithm? | A path-finding algorithm that extends Dijkstra's by adding a heuristic estimate of remaining distance to the goal, directing the search toward the destination
+A path-finding algorithm that extends Dijkstra's with a heuristic to focus the search on a specific goal — what is it? | A* search algorithm
+What is a heuristic in the context of the A* algorithm? | An estimate that approximates the straight-line (Euclidean) distance from the current node to the goal node
+An estimate that approximates the straight-line distance from a node to the goal — what term is this? | Heuristic
+What is the formula for the total cost of a node in A*? | f(x) = g(x) + h(x), where g(x) is the actual distance from the start and h(x) is the heuristic estimate to the goal
+What constraint must the A* heuristic satisfy to guarantee an optimal path? | It must never overestimate the actual cost to the goal (the real cost must always be greater than or equal to h(x))
+How does A* differ from Dijkstra's in when it terminates? | A* stops when the goal node is reached, whereas Dijkstra's continues until shortest paths to all nodes are calculated
+In A*, what does an increase in h(x) from one node to the next indicate? | The algorithm is moving further away from the goal node

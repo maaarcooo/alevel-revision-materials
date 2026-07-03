@@ -1,0 +1,119 @@
+What is a network? | Two or more computers connected together with the ability to transmit data between each other
+Two or more computers connected together with the ability to transmit data between each other — what term is this? | Network
+What is a LAN? | A network spread over a small geographical area or a single site (e.g. a school)
+A network spread over a small geographical area or a single site — what term is this? | Local Area Network (LAN)
+What is a WAN? | A network spread over a large geographical area, connecting multiple sites
+A network spread over a large geographical area, connecting multiple sites — what term is this? | Wide Area Network (WAN)
+What is the largest WAN? | The Internet
+Who typically owns the infrastructure used in a WAN? | Third-party companies such as ISPs or telecommunications providers
+Who typically owns the hardware used to create a LAN? | A single organisation or entity
+Why is a LAN generally considered more secure than a WAN? | All the hardware and connections in a LAN are owned by the organisation, whereas a WAN relies on third-party infrastructure
+What is the Internet? | A network of networks that allows computers across the globe to communicate, connected by large international backbone cables (many running underwater between continents)
+What is a protocol in networking? | A set of rules defining how two computers communicate with each other
+A set of rules defining how two computers communicate with each other — what term is this? | Protocol
+Why are networking protocols standardised? | So that all devices have a designated method of communicating regardless of manufacturer
+What is a standard in networking? | A set of guidelines or frameworks governing how a task should be performed, ensuring compatibility, interoperability, and consistency across different devices and software
+Why are standards needed in a network? | They enable devices from different manufacturers to work together seamlessly and support network expansion without disrupting existing operations
+What does HTTP stand for and what is it used for? | HyperText Transfer Protocol, used for transferring web content (text, images, video)
+What does HTTPS provide over HTTP? | Encryption for security during data transfer (e.g. online banking and shopping)
+What does FTP stand for and what is it used for? | File Transfer Protocol, used for transferring files between hosts over a network
+What are POP3 and IMAP used for? | Email access (mailing protocols for retrieving email from a server)
+What does SMTP stand for and what is it used for? | Simple Mail Transfer Protocol, used for sending email messages between servers
+What does TCP provide? | Reliable, ordered, and error-checked delivery of a stream of packets
+How does UDP differ from TCP? | UDP is connectionless, does not guarantee delivery or ordering, and skips error-checking, making it faster than TCP
+What does ARP do? | Translates IP addresses into MAC addresses so data packets reach the correct device on a local network
+What does IP do? | Addresses and routes packets of data from the source to the destination device
+What does TCP/IP stand for? | Transmission Control Protocol / Internet Protocol
+What is protocol layering? | Dividing network protocols into layers, each performing specific functions, allowing modular design, simpler troubleshooting, and interoperability
+Dividing network protocols into layers, each performing specific functions — what concept is this? | Protocol layering
+Name the four layers of the TCP/IP stack from top to bottom | Application, Transport, Internet (Network), Link
+What is the role of the Application layer in the TCP/IP stack? | Selects the appropriate protocol based on the application being used (e.g. HTTP for a browser, SMTP for email)
+What is the role of the Transport layer in the TCP/IP stack? | Establishes an end-to-end connection, splits data into packets, labels each with a packet number and port number, and requests retransmission of lost packets
+What is the role of the Internet (Network) layer in the TCP/IP stack? | Adds source and destination IP addresses to packets and routes them across the network
+What is the role of the Link layer in the TCP/IP stack? | Adds MAC addresses of source and destination NICs and handles the physical connection between network devices
+What is encapsulation in the context of the TCP/IP stack? | The process where each layer adds its own header (and sometimes trailer) to data before passing it to the layer below
+In what order are the TCP/IP layers processed at the receiving end? | Bottom to top: Link layer removes MAC address, Internet layer removes IP addresses, Transport layer removes port number and reassembles packets, Application layer presents the data
+In the TCP/IP stack, which layer adds the MAC address? | Link layer
+In the TCP/IP stack, which layer adds the IP addresses? | Internet (Network) layer
+In the TCP/IP stack, which layer splits data into packets? | Transport layer
+How does layering help with software updates in a network? | Changes can be made to one layer without affecting others, making updates easier to implement
+How does layering support interoperability? | Different technologies can work together because each layer operates independently of the others
+What is a socket address? | The combination of an IP address and a port number
+The combination of an IP address and a port number — what term is this? | Socket address
+What is the purpose of a port number in the transport layer? | Identifies which application on the destination device should receive the data
+What is an IP address? | A unique numerical identifier assigned to a device on a network, used to deliver packets to the correct destination
+What are the two versions of IP address in use? | IPv4 (e.g. 104.22.74.202) and IPv6 (e.g. 0000:0000:0000:0000:ffff:6816:4aca)
+For devices on the same network, whose MAC address is used as the destination in the link layer? | The MAC address of the recipient computer
+For devices on different networks, whose MAC address is used as the destination in the link layer? | The MAC address of the router
+What is the Domain Name System (DNS)? | A hierarchical system used to translate human-readable domain names into IP addresses
+A hierarchical system that translates domain names into IP addresses — what is this? | Domain Name System (DNS)
+How are levels of the DNS hierarchy separated in a domain name? | By full stops (e.g. in "leeds.gov.uk", "uk" is the TLD and "gov" is the 2LD)
+What does TLD stand for in DNS? | Top Level Domain (e.g. .com, .org, .uk)
+What does 2LD stand for? | 2nd Level Domain (the part directly below the TLD, e.g. "gov" in leeds.gov.uk)
+What is the role of a DNS resolver? | The first stop in a DNS lookup; it checks its cache for the IP address and, if not found, queries root servers
+What is the role of a DNS root server? | Directs the DNS resolver to the appropriate TLD server based on the domain extension
+What is the role of an authoritative DNS server? | Holds the definitive IP address for a domain and returns it to the resolver
+Why are domain names used instead of IP addresses? | Domain names are much easier for humans to remember than numeric IP addresses
+What is DNS propagation? | The process of updating DNS records across all DNS servers when a domain is newly registered or a server changes its IP address
+What is the first thing a computer does when a URL is typed into a browser? | Checks its local cache to see if it already has the IP address for that URL
+What is a data packet? | A segment of data prepared for transmission across a network, containing a header, payload, and trailer
+Name four items found in a packet header | Source IP address, destination IP address, protocol being used, and packet sequence number
+What is the purpose of the Time To Live (TTL) field in a packet header? | Tells the packet when to expire so it does not circulate the network forever
+What does the payload of a packet contain? | The actual raw data being transmitted
+What does the trailer of a packet contain? | A checksum or cyclic redundancy check (CRC) value used to detect transmission errors
+What is the purpose of the sequence number in a packet header? | Allows packets to be reassembled in the correct order at the destination
+What is packet switching? | A communication method where data is split into packets, each sent independently across the most efficient route, then reassembled at the destination
+Data is split into packets, each sent independently across the most efficient route, then reassembled at the destination — what method is this? | Packet switching
+Give one advantage of packet switching related to reliability | If one route fails, packets can be rerouted via alternative paths across the network
+Give one advantage of packet switching related to efficiency | Network resources are shared because packets can follow different paths, using more of the available bandwidth
+Give one disadvantage of packet switching | Packets can arrive out of order, requiring reassembly and error-checking at the destination
+What type of data transmission is packet switching best suited for? | Data that can tolerate some delay, such as emails and web pages
+What is circuit switching? | A communication method where a dedicated direct link is established between two devices for the entire duration of their conversation
+A dedicated direct link established between two devices for the entire duration of their conversation — what method is this? | Circuit switching
+Give one advantage of circuit switching related to data order | Data arrives in the correct order since it all follows the same dedicated path, enabling quicker reconstruction
+Give one disadvantage of circuit switching related to bandwidth | Bandwidth is wasted during periods when no data is being sent, as the dedicated path remains allocated
+Give one disadvantage of circuit switching related to network usage | It ties up sections of the network which cannot be used by other devices until transmission is complete
+What type of service is circuit switching ideal for? | Real-time services such as voice calls or video conferencing that require a constant, steady data stream
+How does packet switching differ from circuit switching in terms of the path data takes? | In packet switching, each packet can take a different route. In circuit switching, all data follows a single dedicated path for the entire conversation
+What is a firewall? | A device that prevents unauthorised access to a network by comparing packets against a set of preconfigured rules (packet filters)
+A device that prevents unauthorised access to a network by comparing packets against preconfigured rules — what is this? | Firewall
+What is packet filtering (static filtering)? | Examining the source IP, destination IP, protocols, and ports of packets and allowing or blocking them based on administrator-defined rules
+What is the difference between a dropped packet and a rejected packet at a firewall? | A rejected packet sends an alert to the sender notifying them of the error; a dropped packet is silently discarded with no notification
+What is a proxy server? | An intermediary that collects and sends data on behalf of the user, protecting their privacy and potentially caching frequently accessed data
+Give two benefits of using a proxy server | Protects user privacy by keeping them anonymous, and can cache frequently used website data for faster loading
+How can a proxy server be used by network administrators? | To block access to sensitive or irrelevant websites at work or school
+What is encryption in the context of network security? | Making data unreadable if intercepted during transmission, using a set of keys to encrypt and decrypt the data
+What is a virus in computing? | Malicious software that attaches itself to legitimate programs and replicates to spread to other files, potentially deleting data or damaging hardware
+How does a worm differ from a virus? | A worm is a standalone program that can spread and replicate itself over networks without needing to attach to another program
+What is a Trojan horse in computing? | A program that disguises itself as legitimate software but, once installed, can delete data or damage hardware
+What is spyware? | Software that records key presses and transmits them to a third party
+What is ransomware? | Malware that encrypts the user's files and demands a ransom payment to decrypt them
+What is adware? | Software that displays unwanted advertisements without the user's consent, which may contain spyware or link to viruses
+What is a Denial of Service (DoS) attack? | A single computer floods a server with so many requests that it crashes or becomes unavailable to legitimate users
+How does a DDoS attack differ from a DoS attack? | A DDoS uses multiple computers (bots) to send the requests, rather than just one
+What is an SQL injection attack? | Inserting malicious SQL statements into a website's input field to exploit vulnerabilities and potentially expose the underlying database
+What is phishing? | Sending a fraudulent email that appears legitimate, containing a link to a fake website where the user is tricked into entering sensitive information
+How does pharming differ from phishing? | Pharming uses malware to silently redirect a user's web traffic to a fake website, rather than relying on the user clicking a link in an email
+What is social engineering in the context of cyber security? | Manipulating individuals into divulging confidential information or performing actions that benefit the attacker (e.g. impersonating IT support)
+What is two-factor authentication (2FA)? | Requiring two forms of identification to access a system, usually a password plus a code sent to the user's phone or email
+What is a Network Interface Card (NIC)? | Hardware built into a device that connects it to a network and assigns a unique MAC address to the device
+What is a MAC address? | A unique 48-bit identifier coded into a NIC during manufacture, usually written as a twelve-digit hexadecimal number
+A unique 48-bit identifier coded into a NIC during manufacture — what is this? | MAC address
+What is the function of a network switch? | Directs data to only the intended recipient device on a network by using a lookup table that maps MAC addresses to ports
+How does a hub differ from a switch? | A hub broadcasts all received data to every connected device; a switch forwards data only to the intended recipient using its MAC address lookup table
+What is a Wireless Access Point (WAP)? | A device that allows wireless devices to connect to a wired network, often combined with a router to enable internet access
+What is the function of a router? | Connects two or more networks together and routes data packets between them using IP addresses and a routing table
+What does a router use to determine where to forward a packet? | It reads the destination IP address in the packet header and looks it up in its routing table
+What is a hop in networking? | Each pass of a data packet from one router to the next on its journey to the destination
+What is a gateway used for in networking? | Translating protocols between networks that use different protocols, by removing headers and repackaging data with the new protocol's headers
+What is a modem? | A device that converts digital signals to analogue (modulates) and analogue to digital (demodulates) to enable data transmission over telephone or cable lines
+What is a client-server network? | A network where a powerful central server holds resources and data, and less powerful client terminals connect to it to request services
+Give one advantage of a client-server network related to data security | More secure because data is stored centrally in one location
+Give one advantage of a client-server network related to backups | Central backups are carried out automatically, removing the need for individual backups
+Give one disadvantage of a client-server network related to the server | If the server fails, all clients lose access to resources and services (single point of failure)
+Give one disadvantage of a client-server network related to cost | Relatively expensive to set up and requires trained specialist staff to maintain
+What is a peer-to-peer network? | A network where all computers have equal status and can both provide and request resources, with no central server
+Give one advantage of a peer-to-peer network over client-server | Cheaper and easier to set up, does not require a central server or specialist staff
+Give one disadvantage of a peer-to-peer network related to security | Poorer security due to no central control, and it is almost impossible to trace the origin of files
+Give one disadvantage of a peer-to-peer network related to backups | Each user must perform their own backups separately, as there is no central backup system
+How does a client-server network differ from a peer-to-peer network in terms of resource management? | In client-server, a central server manages all resources and data. In peer-to-peer, resources are distributed across all devices with each user managing their own

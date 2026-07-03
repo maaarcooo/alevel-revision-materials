@@ -1,0 +1,68 @@
+What is a computable problem? | A problem that can be solved using an algorithm within a finite, realistic amount of time
+A problem that can be solved using an algorithm within a finite, realistic amount of time — what term describes this? | Computable
+What three components do computationally solvable problems typically consist of? | Inputs, outputs, and calculations
+What practical factors constrain whether a computable problem can actually be solved? | Processing power, speed, and memory
+Give an example of a type of problem that is not computational and explain why | Employee morale or marketing strategy — these require human-centric or creative solutions that algorithms cannot adequately address
+What is problem recognition? | Determining whether a problem exists, whether it can be solved computationally, and clearly identifying what the problem is
+Who provides the requirements that help define a problem during problem recognition? | Stakeholders
+Name two ways requirements may be defined during problem recognition | Analysing strengths and weaknesses of the current solution, and considering the types of data involved (inputs, outputs, stored data)
+What is problem decomposition? | Continually breaking a problem down into smaller sub-problems until each can be represented as a self-contained subroutine
+Continually breaking a problem down into smaller sub-problems until each can be represented as a self-contained subroutine — what technique is this? | Problem decomposition
+What is the main aim of problem decomposition? | To reduce the complexity of a problem by splitting it into smaller, more manageable sections that are easier to understand
+How can decomposition save development time? | Sub-problems may be solvable using pre-coded modules or libraries, avoiding coding and testing from scratch
+How does decomposition benefit project management? | Different teams can work on separate modules according to their specialisms, and multiple parts can be developed in parallel
+How does decomposition simplify debugging? | Errors are easier to identify, locate, and fix in individual modules rather than in a complete monolithic application
+What is top-down design an example of? | Problem decomposition
+What are the three stages of divide and conquer? | Divide, Conquer, and Merge (Combine)
+What happens during the Divide stage of divide and conquer? | The size of the problem is halved with every iteration
+What happens during the Conquer stage of divide and conquer? | Each sub-problem is solved, often recursively
+What happens during the Merge stage of divide and conquer? | The solutions to the sub-problems are recombined to form the final solution
+Name three algorithms that use divide and conquer | Binary search, merge sort, and quick sort
+What is the typical time complexity of divide and conquer algorithms such as binary search? | O(log n)
+Why do divide and conquer algorithms achieve O(log n) time complexity? | The problem is halved with each iteration, so the number of recursive calls is log2(n)
+What is Decrease and Conquer? | A variant of divide and conquer where the problem is reduced by less than half in every iteration
+Name two drawbacks of using divide and conquer | Risk of stack overflow due to recursion, and large recursive programs are difficult to trace
+What is task parallelism? | Carrying out several tasks or sub-tasks concurrently to speed up the overall completion time
+What is representational abstraction? | Removing excessive or unnecessary details from a problem to simplify it
+Removing excessive or unnecessary details from a problem to simplify it — what technique is this? | Representational abstraction
+What is abstraction by generalisation? | Grouping together different sections of a problem with similar underlying functionality so they can be coded together and reused
+Grouping together different sections of a problem with similar underlying functionality so they can be coded together and reused — what technique is this? | Abstraction by generalisation
+How do levels of abstraction help manage large projects? | The project is split into simpler component parts handled by different teams, with details about other layers hidden
+What type of thinking is required to represent real-world entities computationally after abstraction? | Abstract thinking, to map real-world entities to computational elements such as tables and variables
+How does abstraction benefit programmers when solving a problem? | It allows them to focus on the core aspects of the solution rather than worrying about unnecessary details
+What is backtracking? | A problem-solving technique that methodically explores each path, building a solution incrementally, and returns to the previous decision point to try an alternate path when a dead end is found
+A problem-solving technique that builds a solution incrementally by exploring paths and returning to the previous decision point when a dead end is reached — what is this called? | Backtracking
+How is backtracking typically implemented? | Recursively
+Give one example of an algorithm that uses backtracking | Depth-first graph traversal
+What type of problems is backtracking ideal for solving? | Logic problems (not strategic problems)
+Name one advantage of backtracking | It is guaranteed to find a solution if one exists
+Name two disadvantages of backtracking | It can have a high time complexity, and the solution found may not be the most optimal one available
+What is data mining? | A technique that uses algorithms and statistical methods to identify patterns or outliers in large sets of data (big data)
+A technique that uses algorithms and statistical methods to identify patterns or outliers in large data sets — what is this called? | Data mining
+What is big data typically collected from? | A variety of sources
+How can insights from data mining be used by businesses? | To make predictions about the future based on previous trends, informing business and marketing decisions
+Give one example of how data mining is used in retail | Analysing purchase history to identify which products are bought at certain times of the year, helping shops prepare stock in advance
+What legislation must organisations follow when data mining involves personal data in the UK/EU? | The GDPR (General Data Protection Regulation)
+Name two drawbacks of data mining | It requires very powerful computers with significant processing power, and inaccurate data can produce inaccurate results
+Data mining can identify patterns and trends, but what can it not do? | Explain the reasons why those patterns or trends exist
+What is a heuristic approach to problem-solving? | A non-optimal, 'rule-of-thumb' approach used to find an approximate solution quickly when the optimal solution is unreasonably time-consuming or resource-intensive to find
+A non-optimal, 'rule-of-thumb' approach that finds an approximate solution quickly when the optimal solution is too time-consuming — what is this called? | A heuristic approach
+What is an intractable problem? | A problem for which finding the optimal solution takes an unreasonably long time
+A problem for which finding the optimal solution takes an unreasonably long time — what term describes this? | Intractable
+Name two problems or algorithms that use heuristics | The Travelling Salesman Problem and the A* algorithm
+What trade-off is involved when using heuristics? | Speed versus accuracy — a faster solution is found but it may not be the optimal one
+What is a local optimum in the context of heuristic algorithms? | A point that appears to be the best solution in its immediate area but is not the overall best solution
+What is performance modelling? | Using mathematical methods to simulate and test a system's behaviour under various conditions before it is deployed in the real world
+Using mathematical methods to simulate a system's behaviour under various conditions before real-world deployment — what technique is this? | Performance modelling
+Why is performance modelling useful for safety-critical systems? | It provides a cheaper, less time-consuming, and safer method of testing (e.g. airplane systems where real testing could be dangerous)
+Name one drawback of performance modelling | The results are only as useful as the accuracy of the data and rules fed into the model
+What can the results of performance modelling help companies assess? | The capabilities of a system, how it will cope in different environments, and whether it is safe to implement
+What is pipelining as a computational method? | Carrying out multiple tasks or stages concurrently to improve efficiency, where the output of one stage becomes the input of the next
+A process where multiple tasks or stages are carried out concurrently, with the output of one becoming the input of the next, resembling a production line — what is this called? | Pipelining
+What three steps are involved in applying pipelining? | Break the task into individual stages, arrange them in sequential order, and allow multiple stages to operate concurrently
+What is visualisation in the context of problem-solving? | Presenting data or concepts in a graphical or visual form that is easier for humans to understand, making it possible to identify trends not otherwise obvious
+Name four forms that data visualisation can take | Graphs, trees, charts, and tables
+Name three types of diagram used for visualisation in software development | Flowcharts, UML diagrams, and wireframes
+Name one drawback of visualisation | It can present data visually but cannot explain why the patterns exist, and different people may interpret the same visualisation differently
+How does problem decomposition differ from divide and conquer? | Decomposition breaks a problem into independent sub-problems of varying size. Divide and conquer specifically halves the problem with each iteration and recombines solutions, typically using recursion
+How does representational abstraction differ from abstraction by generalisation? | Representational abstraction removes unnecessary details to simplify a problem. Abstraction by generalisation groups sections with similar functionality so they can be coded together and reused

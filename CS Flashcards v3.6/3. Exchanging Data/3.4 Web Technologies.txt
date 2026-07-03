@@ -1,0 +1,114 @@
+What is HTML? | A markup language used to describe the structure and content of web pages using tags written in angle brackets
+A markup language used to describe the structure and content of web pages using tags — what is this? | HTML (Hypertext Markup Language)
+What are the two main sections of an HTML document? | The head and the body
+What does the head section of an HTML document contain? | Information not displayed on the page itself, such as the title and links to external stylesheets
+What does the body section of an HTML document contain? | The main visible content of the web page, such as text, images, links, and forms
+What does the <html> tag indicate? | That all code within it should be interpreted as HTML; it is the root element of the page
+What does the <title> tag do? | Sets the page title displayed in the browser tab; placed inside the <head> section
+What does the <body> tag define? | The main content area of the webpage that is displayed in the browser window
+What do the <h1> to <h6> tags define? | Heading styles in decreasing sizes; <h1> is the largest and most prominent
+Why are heading tags important for accessibility? | Screen readers use headings to help users navigate the page, e.g. by listing all headings and allowing jumps to each one
+What does the <p> tag define? | A paragraph of text, separated with a line space above and below
+What does the <img> tag do? | Embeds an image; it is self-closing and uses the src attribute for the image source, plus optional height, width, and alt attributes
+What does the alt attribute on an <img> tag provide? | Alternative text for screen readers or when the image cannot be displayed; it also helps search engines understand the image
+What does the <a> tag do? | Creates a hyperlink; the href attribute specifies the destination URL
+What is the syntax for a hyperlink in HTML? | <a href="URL">link text</a>
+How do you make an image act as a hyperlink in HTML? | Nest the <img> tag inside an <a> tag, e.g. <a href="page.htm"><img src="pic.png"></a>
+What does the <ol> tag define? | An ordered (numbered) list; each item uses a <li> tag
+What does the <ul> tag define? | An unordered (bullet-point) list; each item uses a <li> tag
+What does the <div> tag do? | Groups HTML elements into a named section of the page, often used with CSS for styling
+What does the <link> tag do in the head section? | Links to external files such as CSS stylesheets
+What does the <form> tag do? | Creates a form for user input
+What does the <input> tag do? | Creates interactive form controls; the type attribute sets the control (e.g. "text" for a textbox, "submit" for a button)
+What does the <script> tag do? | Embeds or references JavaScript code within an HTML document
+What is the difference between a class and an ID in HTML/CSS? | A class can be applied to multiple elements; an ID is unique to a single element on the page
+How is a class selector written in CSS? | With a full stop before the class name, e.g. .myClass { }
+How is an ID selector written in CSS? | With a hash symbol before the ID name, e.g. #myID { }
+How is a class assigned to an HTML element? | Using the class attribute, e.g. <div class="example">
+How is an ID assigned to an HTML element? | Using the id attribute, e.g. <div id="example">
+What is CSS? | A language used to describe the style and appearance of a webpage, applied to HTML elements
+A language used to describe the style and appearance of a webpage — what is this? | CSS (Cascading Style Sheets)
+What are the two ways CSS can be applied to a webpage? | Internal/embedded CSS (inside <style> tags in the HTML) and external CSS (in a separate .css file linked via a <link> tag)
+How is an external CSS stylesheet linked to an HTML document? | With a <link> tag in the head, e.g. <link href="styles.css" rel="stylesheet" type="text/css">
+What is the general syntax of a CSS rule? | A selector followed by curly brackets containing property: value pairs each ending with a semicolon
+If CSS is defined both inline in the HTML and in an external stylesheet, which takes priority? | The inline CSS overrides the external stylesheet
+What CSS property sets the background colour? | background-color
+What CSS property sets the text/font colour? | color (American spelling required in code)
+What CSS property sets the font type? | font-family
+What CSS property sets the text size? | font-size
+What CSS properties set the dimensions of an element? | height and width
+What CSS property sets the border colour? | border-color
+What CSS property sets the border line style? | border-style (e.g. solid, dashed)
+What CSS property sets the border thickness? | border-width
+In CSS, what two ways can colours be specified? | By name (e.g. "orange") or by hex code (e.g. #FF8800)
+In a CSS hex colour code like #FF8800, what do the three pairs of hex digits represent? | The red, green, and blue colour components respectively
+What is JavaScript? | A scripting language primarily used to add interactivity and dynamic functionality to web pages
+A scripting language used to add interactivity to web pages — what language is this? | JavaScript
+Is JavaScript interpreted or compiled? | Interpreted; the browser interprets the code each time a page is loaded
+Why is it beneficial that JavaScript is interpreted? | Web pages run independently of the processor architecture, since the browser handles interpretation
+Name three advantages of using JavaScript for client-side input validation | Invalid data is caught before being sent to the server, it eases the load on busy servers, and it reduces web traffic
+In JavaScript, how do you select an HTML element by its ID and change its content? | Use document.getElementById("id") to select it, then set .innerHTML, e.g. element.innerHTML = "Hello"
+What does document.write("text") do in JavaScript? | Writes text directly to the HTML document
+What does alert("message") do in JavaScript? | Displays a pop-up alert box containing the message
+How are variables declared in JavaScript? | Using the let keyword, e.g. let score = 10;
+How are constants declared in JavaScript? | Using the const keyword, e.g. const PI = 3.14;
+How does a variable differ from a constant in JavaScript? | A variable's value can change during program execution; a constant's value is fixed after assignment
+What is the difference between == and === in JavaScript? | == compares values with type coercion (e.g. 5 == "5" is true); === compares both value and type without coercion (e.g. 5 === "5" is false)
+What is the difference between != and !== in JavaScript? | != checks inequality with type coercion; !== checks inequality without type coercion (strict comparison)
+What are the two main types of selection statement in JavaScript? | if statements and switch case statements
+What does a switch case statement do? | Compares a single expression against multiple case values and executes the code block of the matching case
+What is the purpose of the break keyword in a switch case? | It stops execution from falling through into subsequent case blocks
+What is fall-through behaviour in a switch case? | If a matching case lacks a break statement, execution continues through subsequent cases until a break is reached or the switch ends
+What does the default keyword do in a switch case? | Specifies a block of code to run if no case label matches the expression
+What are the three components in the parentheses of a JavaScript for loop? | Initialisation, condition, and increment/decrement, e.g. for (let i = 0; i < 5; i++)
+When is a for loop more appropriate than a while loop? | When the number of iterations is known in advance
+What is the syntax of a while loop in JavaScript? | while (condition) { code }; the condition is checked before each iteration
+How does a do-while loop differ from a while loop? | A do-while loop executes the code block at least once before checking the condition
+What does a for-in loop do in JavaScript? | Iterates through the indices or keys of a data structure such as an array
+How do you find the length of a string in JavaScript? | Use the .length property, e.g. "Hello".length returns 5
+What does the .substring(start, end) method do in JavaScript? | Extracts characters from the start index up to (but not including) the end index; if end is omitted, extracts to the end of the string
+What does the + operator do with strings in JavaScript? | Concatenates (joins) the strings together
+What does the modulus operator (%) return? | The remainder when one number is divided by another, e.g. 10 % 3 returns 1
+What does the ** operator do in JavaScript? | Performs exponentiation, e.g. 3 ** 3 returns 27
+What do the ++ and -- operators do in JavaScript? | ++ increments a value by 1; -- decrements a value by 1
+What does the && (AND) operator return? | true only if both operands are true; false otherwise
+What does the two-pipe (OR) operator return? | true if at least one operand is true; false only if both operands are false
+What does the ! (NOT) operator do in JavaScript? | Negates a boolean value: true becomes false and false becomes true
+What is nesting in programming? | Placing one block of code (such as a loop or if statement) inside another to handle more complex logic
+What is a function in JavaScript? | A reusable block of code that performs a specific task, can accept parameters, and returns a value using the return keyword
+How does a procedure differ from a function in JavaScript? | A procedure performs actions but does not return a value; it has no return statement (or returns without a value)
+What keyword is used to define a function in JavaScript? | function, e.g. function add(a, b) { return a + b; }
+What is a search engine? | A program that searches through a database of internet addresses for resources matching criteria set by the user
+What are the three main stages of how a search engine works? | Crawling (discovering pages), indexing (storing page data in a structured database), and ranking (ordering results by relevance)
+What are web crawlers? | Software programs (also called spiders or bots) that traverse the web page by page via links, collecting information to build the search index
+What information do web crawlers collect from web pages? | Text content, headings, keywords, links, and metadata specified by the website owner
+What is the purpose of a robots.txt file? | It directs web crawlers on which areas of a website to explore or avoid, respecting the owner's preferences
+What does the indexing stage involve? | Storing extracted information in a structured database, with each word recorded as an entry along with its position on the page
+Why does indexing enable efficient retrieval of search results? | The search engine queries its pre-built index rather than scanning the entire web for every search, producing results quickly
+Why do search engine crawlers periodically revisit indexed pages? | To detect updates and changes so that search results display the most current content
+What does the PageRank algorithm do? | Evaluates and ranks web pages based on perceived relevance and importance, determining the order they appear in search results
+What two main factors determine a page's PageRank? | The number of incoming links from other pages, and the PageRank of the pages that link to it
+How does each inbound link function in the PageRank algorithm? | As a "vote" for the target page, with the vote's weight determined by the importance of the linking page
+What data structure represents pages and links in the PageRank algorithm? | A directed graph, where nodes represent web pages and arcs (edges) represent links between them
+What is the damping factor in PageRank? | A value between 0 and 1 (usually 0.85) representing the probability that a user will jump to a random page rather than follow a link
+Why is the damping factor needed in PageRank? | It prevents the algorithm from getting stuck in infinite loops and makes the browsing model more realistic
+What is link weight distribution in PageRank? | A page distributes its importance equally among all pages it links to, sharing a portion of its rank with each outgoing link
+Why is PageRank calculated iteratively? | All pages start with equal values; each iteration recalculates importance using inbound link weights, repeating until rankings stabilise
+State the PageRank formula | PR(x) = (1 - d) + d × [PR(T1)/C(T1) + ... + PR(Tn)/C(Tn)], where d is the damping factor, Tn are pages linking to x, and C(Tn) is the total outbound links from Tn
+In the PageRank formula, what does C(Tn) represent? | The total count of outbound links from page Tn
+Name four factors beyond link analysis that modern search engines use to rank pages | Content relevance to the query, user engagement metrics, authority and trust of the domain, and content freshness
+How does mobile-friendliness affect search ranking? | Search engines factor in the mobile compatibility of pages; Google primarily uses the mobile version of a site's content for ranking
+What is server-side processing? | Running code and carrying out operations on the server rather than on the client's device; the client sends data to the server for processing
+A model where all processing occurs on the server and results are sent back to the client — what is this? | Server-side processing
+What is client-side processing? | Running code or processing tasks on the user's device (typically in the web browser) rather than on the server
+A model where processing occurs in the user's browser without constant server requests — what is this? | Client-side processing
+Name two common server-side scripting languages | PHP and Python (also Ruby, Java, SQL for database queries)
+What is the primary language used for client-side processing? | JavaScript
+Give two benefits of server-side processing | Improved security for sensitive data handling, and consistent behaviour across different devices and browsers
+Give two drawbacks of server-side processing | Increased server load when handling many requests, and latency from round-trip communication slows response times
+Give two benefits of client-side processing | Immediate response to user actions without server requests, and reduced server load improves scalability
+Give two drawbacks of client-side processing | Security risk because client-side code can be viewed and tampered with, and functionality breaks if the browser has JavaScript disabled
+Why might both client-side and server-side validation be used on the same form? | Client-side validation gives instant user feedback and reduces unnecessary server load, but server-side validation is also needed because JavaScript can be bypassed or disabled
+What is DOM manipulation? | Using JavaScript to modify the Document Object Model to dynamically change a web page's content and structure, such as adding/removing elements or updating styles
+What are AJAX requests? | Asynchronous server communication that retrieves data in the background, allowing content to update dynamically without a full page reload
+How does server-side processing differ from client-side processing in terms of security? | Server-side is more secure because code and data are hidden on the server; client-side code is visible to users and can be tampered with

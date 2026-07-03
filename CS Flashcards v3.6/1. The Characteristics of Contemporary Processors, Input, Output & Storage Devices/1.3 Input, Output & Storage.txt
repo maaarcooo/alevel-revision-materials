@@ -1,0 +1,56 @@
+What is an input device? | A device used to enter data and information into a computer
+A device used to enter data and information into a computer — what term is this? | Input device
+What is an output device? | A device that presents processed information from a computer to the user
+A device that presents processed information from a computer to the user — what term is this? | Output device
+Give an example of a device that is both input and output, and explain why | Touchscreen — it displays visual information (output) and accepts touch input (input)
+What input device reads data from magnetic stripes on cards such as credit and debit cards? | Magnetic stripe reader
+What input device is used in supermarkets and access control to read information from printed labels? | Barcode reader
+What type of output device allows visually impaired users to read text from a computer? | Braille display
+What is a plotter used for? | Printing large, high-quality diagrams and designs, often in engineering or architecture
+What input device allows artists and designers to draw or sketch directly onto a computer? | Graphics tablet
+What type of input device uses fingerprint scanning or facial recognition to verify a user's identity? | Biometric device
+Name three factors to consider when choosing an input or output device | Cost, suitability for the task, and speed/accuracy of the device
+What are the three main types of secondary storage? | Magnetic, optical, and flash
+How do optical storage devices read and write data? | Using lasers that read and write data in spiral tracks on the disc surface
+On an optical disc, what do pits and lands represent? | Pits (recessed portions) scatter laser light and represent 0. Lands (flat portions) reflect laser light and represent 1
+What does CD stand for? | Compact disc
+What does DVD stand for? | Digital versatile disc (or digital video disc)
+How does a CD-R differ from a CD-RW? | CD-R can only be written to once. CD-RW can be written to multiple times
+What is a CD-ROM? | A CD written to during manufacture that can only be read from afterwards
+How does DVD storage capacity compare to CD? | DVDs have a higher storage capacity than CDs, making them suited to storing video
+How does Blu-ray storage capacity compare to DVD? | Blu-ray discs have more than five times the storage capacity of traditional DVDs
+What are the typical storage capacities of CD, DVD, and Blu-ray? | CD: 700 MB, DVD: 4.7–9 GB, Blu-ray: 25–50 GB
+State two disadvantages of optical storage | Easily scratched or damaged, limited storage capacity, and slow read/write speeds (any two)
+How does magnetic storage represent binary data? | Using two magnetic states: polarised (1) and unpolarised (0). A read/write head detects the alignment of magnetic poles on the medium
+What does HDD stand for? | Hard disk drive
+How does an HDD store and access data? | Magnetic platters rotate at high speed under a read/write head on an actuating arm. Multiple platters are stacked to maximise capacity
+State two disadvantages of HDDs | Relatively slow data transfer speeds and susceptibility to damage from movement due to brittle platters and moving parts
+What was magnetic tape used for as a storage medium? | Storing computer data by winding tape onto reels and passing it through readers that checked the polarity to read binary values. Popular from the 1950s to the 1980s
+What is a floppy disk? | A thin magnetic disk enclosed in a plastic casing, used for exchanging small amounts of data. Typical capacity was about 1 MB
+What technology does flash storage use to store data? | Silicon semiconductors forming NAND and NOR logic gates that store electrical charge in two states (high or low) representing 1 and 0
+In flash memory, how is data organised? | In blocks, which are combined to form pages
+Which flash memory gate type is preferred for small data such as executable code? | NOR
+Which flash memory gate type is preferred for large files such as photos and videos? | NAND
+State two key properties of flash memory | It can be erased and reprogrammed electronically, and it is non-volatile (retains data without power)
+How does flash memory differ from RAM in terms of volatility? | Flash memory is non-volatile (retains data without power), whereas RAM is volatile (loses data when power is lost)
+What does SSD stand for? | Solid-state drive
+Name two advantages of SSDs over HDDs | No moving parts (more resistant to physical damage) and faster data transfer speeds
+Why do SSDs have a limited lifespan? | Each time a page is written to, the required write voltage increases. Eventually the voltage becomes too high for the page to be written to
+How does the cost per gigabyte of flash storage compare to magnetic and optical storage? | Flash storage is generally more expensive per gigabyte
+What does RAM stand for? | Random access memory
+What is RAM used for? | Storing data and programs currently being used by the computer, allowing fast access by the processor
+What happens to the data stored in RAM when power is lost? | It is lost — RAM is volatile
+Why do computers typically have much less RAM than secondary storage? | RAM is more expensive per gigabyte, so computers often have only 4–8 GB of RAM compared to hundreds or thousands of GB of secondary storage
+What does ROM stand for? | Read-only memory
+What is ROM used for? | Storing fixed instruction sequences such as the computer's startup (bootstrap/BIOS) routine
+What happens to the data stored in ROM when power is lost? | It is retained — ROM is non-volatile
+After ROM has been programmed, what can the computer do with the data stored in it? | Read it only — the data cannot be modified or written to
+How do RAM and ROM differ in volatility and writability? | RAM is volatile and can be read from and written to. ROM is non-volatile and can only be read from
+What is the difference between primary and secondary storage? | Primary storage (RAM and ROM) is used by the OS to run the computer and store instructions. Secondary storage (HDDs, SSDs, optical discs) stores user data
+What is virtual storage? | Storing data remotely on servers (typically in data centres) so it can be accessed from any device with an Internet connection
+Storing data remotely on cloud servers so it can be accessed from any Internet-connected device — what is this called? | Virtual storage (or cloud storage)
+Give two examples of virtual storage services | Google Drive and Microsoft OneDrive
+How is virtual storage physically implemented? | Data is distributed across hundreds of HDDs or SSDs in data centres, abstracted to appear as a single storage system to the user
+Name two advantages of virtual storage | Scalability (easy to increase capacity), accessibility from any Internet-connected device, and data redundancy against hardware failure (any two)
+Name two disadvantages of virtual storage | Dependence on Internet connection speed, security concerns from off-site data storage, and ongoing costs (any two)
+How does virtual storage differ from virtual memory? | Virtual storage stores data remotely on cloud servers. Virtual memory uses secondary storage as extra RAM when physical RAM is full

@@ -1,0 +1,45 @@
+What is abstraction? | The process of removing unnecessary details from a problem to focus on the key features relevant to the solution
+The process of removing unnecessary details from a problem to focus on the key features — what term is this? | Abstraction
+What is representational abstraction? | Analysing what is relevant to a given scenario and simplifying a problem based on this information
+Analysing what is relevant to a scenario and simplifying a problem based on this — what form of abstraction is this? | Representational abstraction
+What is abstraction by generalisation? | Grouping together similarities within a problem to identify what kind of problem it is, so a common solution can be applied
+Grouping together similarities within a problem to identify its type and apply a common solution — what form of abstraction is this? | Abstraction by generalisation
+What is data abstraction? | Hiding the details of how data is stored, allowing programmers to use data structures without knowing their underlying implementation
+Hiding the details of how data is stored so programmers can use structures without knowing their implementation — what form of abstraction is this? | Data abstraction
+Give two examples of abstract data structures | Stacks and queues
+What is procedural abstraction? | Modelling what a subroutine does without considering how it is implemented
+Modelling what a subroutine does without considering how it is implemented — what form of abstraction is this? | Procedural abstraction
+What does it mean to use a procedure as a "black box"? | A coded procedure is reused without needing to understand the internal code that implements it
+In a system with multiple levels of abstraction, what are the highest levels responsible for? | Providing an interface for the user to interact with the hardware
+In a system with multiple levels of abstraction, what are the lowest levels responsible for? | Performing tasks through the execution of machine code
+How does abstraction allow non-experts to use complex systems? | By hiding information that is too complex or irrelevant to the system's purpose
+How does abstraction improve efficiency during software development? | Programmers can focus on elements that need to be built rather than unnecessary details, reducing development time
+How does removing unnecessary details early in development affect program size? | It prevents the program from becoming unnecessarily large
+Abstraction is a critical part of which broader thinking approach? | Computational thinking
+Give three examples of implementations of abstraction | A simulator (e.g. flight simulator), a representation of a building in a program or game, a map of a transport route
+Why is the London Underground map a good example of abstraction? | It removes the geographical layout of routes, showing only the stations and connections a traveller needs to get from one stop to another
+What generation of programming language is machine code? | First generation
+What generation of programming language is assembly language? | Second generation
+What do assembly language mnemonics represent? | Groups of binary digits that correspond to machine code instructions
+Why is assembly language processor-specific? | Each processor family has its own instruction set with its own set of mnemonics
+What do high-level languages abstract away from the programmer? | The machine code that is actually executed when a program runs
+Why are high-level languages easier to use than low-level languages? | Their syntax parallels natural language, making them considerably easier to learn
+What generation of programming languages includes Python, Java, and C? | Third generation
+Name the four layers of the TCP/IP model from highest to lowest | Application, transport, internet, link
+How does the TCP/IP model use abstraction? | Each layer deals with a different part of communication and does not need to know how other layers work
+Why must standards be agreed in advance for layered models like TCP/IP? | To ensure compatibility between the layers
+What is the relationship between abstraction and reality? | Abstraction is a simplified representation of reality
+How are real-world entities represented computationally? | Using computational structures such as tables and databases, with real-world values stored as variables
+In OOP, what do attributes represent in terms of abstraction? | The characteristics of a real-world object
+In OOP, what do methods represent in terms of abstraction? | The actions a real-world object can perform
+In OOP, what three aspects of an entity does abstraction consider? | Functionality, interface, and properties
+What happens to the level of abstraction as an implementation gets closer to reality? | The solution becomes less abstract
+Give an example of a highly abstracted game and state what details are removed | Pong is a highly abstracted game of tennis — friction, gravity, and variable momentum are all removed
+In the map abstraction example, how are junctions and roads represented computationally? | Junctions become graph nodes, roads become edges or arcs, and distances become weights on each edge
+How can one-way road restrictions be represented in an abstracted map graph? | Using directed edges or arcs
+Name two graph algorithms that can be applied to an abstracted map | Dijkstra's shortest path algorithm and A* search
+When devising an abstract model, why must you consider the target audience? | To determine their level of expertise and remove details that would confuse them or are irrelevant to their needs
+When devising an abstract model, how can you test whether a detail should be included? | Consider whether removing the element would impact the solution — if not, it can be removed
+Why does a programmer not need to understand the underlying implementation of a queue? | Data abstraction hides how the queue is stored in memory — the programmer only needs to know they can add and remove data from it
+In the context of programming, what does abstraction separate? | What a program does from how it does it (the implementation)
+Give an analogy for how abstraction helps programmers | A car driver does not need to know how the engine works to drive — similarly, a programmer does not need to understand the underlying technical complexity to create programs

@@ -1,0 +1,18 @@
+What is concurrent thinking? | The mindset of identifying parts of a problem that can be tackled at the same time
+The mindset of identifying parts of a problem that can be tackled at the same time — what term is this? | Concurrent thinking
+What is concurrent processing? | Multiple processes running on a single processor, each given a time slice, creating the illusion of simultaneous execution while actually executing sequentially
+Multiple processes running on a single processor, each given a time slice to appear simultaneous while executing sequentially — what term is this? | Concurrent processing
+What is parallel processing? | Multiple processes running at the same time across multiple processor cores
+Multiple processes running at the same time across multiple processor cores — what term is this? | Parallel processing
+How does concurrent processing differ from parallel processing? | Concurrent processing uses one processor with time slicing, so tasks appear simultaneous but run sequentially. Parallel processing uses multiple cores to run tasks genuinely at the same time
+How does concurrent thinking differ from concurrent processing? | Concurrent thinking uses the human brain to identify parts of a problem that can be tackled simultaneously. Concurrent processing uses a computer processor to execute multiple tasks via time slicing
+What are dependencies in the context of concurrent processing? | Tasks that rely on other tasks in order to either start or complete
+Tasks that rely on other tasks in order to start or complete — what term is this? | Dependencies
+How do you determine which parts of a problem can be tackled concurrently? | Identify which parts are independent (have no dependencies on each other). Independent parts can run concurrently; dependent parts must execute in sequence
+Give one benefit of concurrent processing related to throughput | The number of tasks making progress in a given time frame is increased, as the processor works on multiple tasks rather than finishing one before starting another
+Give one benefit of concurrent processing related to waiting time | Less time is wasted waiting for user input or I/O, as the processor swaps to another task and returns when an interrupt signals readiness
+Give one drawback of concurrent processing when many processes are running | Individual processes take longer to complete because each is allocated only a small time slice of processor time
+Give one drawback of concurrent processing related to process switching | Coordinating and switching between processes creates overhead, reducing overall program throughput
+Why are some tasks unsuitable for concurrent processing? | They cannot be meaningfully broken into independent parts. Tasks with strong sequential dependencies must complete steps in order
+In concurrent processing, what can OS scheduling algorithms do? | Prioritise certain processes over others, allowing higher-priority processes to receive more processor time and complete sooner
+How can multiple independent batch programs be processed on a single processor? | They can be interchanged and pipelined using concurrent processing, allowing all programs to make progress within a shorter time frame

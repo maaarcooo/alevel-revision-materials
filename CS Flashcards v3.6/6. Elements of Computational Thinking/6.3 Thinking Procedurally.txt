@@ -1,0 +1,20 @@
+What is thinking procedurally? | Breaking a problem down into a sequence of smaller parts that are easier to understand and design
+What is problem decomposition? | Continually breaking a large, complex problem into smaller subproblems that can be solved more easily
+Continually breaking a large, complex problem into smaller subproblems that can be solved more easily — what term is this? | Problem decomposition
+What is abstraction in computational thinking? | Removing unimportant details from a problem and focusing on the details that will form part of the solution
+Removing unimportant details from a problem and focusing on details relevant to the solution — what term is this? | Abstraction
+What is top-down design? | A method of decomposition that breaks a problem down through levels, from a high-level overview to increasingly detailed low-level components
+What is another name for top-down design? | Stepwise refinement
+In top-down design, what do higher levels represent compared to lower levels? | Higher levels provide an overview of the problem, lower levels specify its detailed components
+What is the aim of top-down design? | To keep splitting problems until each subproblem is a single task that can be represented as a self-contained module or subroutine
+Give three advantages of decomposing a problem using top-down design | Each subroutine can be developed by a different person, tested individually (e.g. unit testing) before integration, and reused rather than rewriting code
+What is procedural abstraction? | Using a procedure to execute a sequence of instructions to achieve a specific goal
+Using a procedure to execute a sequence of instructions to achieve a specific goal — what term is this? | Procedural abstraction
+What does identifying the components of a solution involve? | Evaluating each decomposed subproblem and determining how it will be implemented, considering data types, data structures, libraries needed, and subroutine design
+Why is the order of steps important when constructing a solution from subroutines? | Some subroutines depend on data or outputs from other subroutines, so dependent operations must be performed before the subroutines that need their results
+Why must inputs be validated before being passed to subsequent subroutines? | To confirm their validity before the data is used, preventing errors from propagating through the program
+Under what condition can multiple subroutines execute simultaneously? | When they do not depend on data or outputs from each other
+Why must programs explicitly enforce the correct order of operations? | Correct ordering seems obvious to humans but must be coded explicitly to prevent operations being carried out in an order that causes errors
+What is a hierarchy chart? | A diagram that shows problem decomposition as a tree structure, depicting how modules and subroutines relate to each other
+A tree-structure diagram showing how modules and subroutines relate to each other through problem decomposition — what is it called? | Hierarchy chart
+Why are hierarchy charts preferred over tables and lists for decomposing larger problems? | Tables and lists become cumbersome for large problems, whereas hierarchy charts clearly show module relationships in a visual tree structure

@@ -1,0 +1,74 @@
+What is asymmetric encryption? | An encryption technique where a public key encrypts the data and the paired private key, known only to the recipient, decrypts it
+An encryption technique using a public key to encrypt and a paired private key to decrypt — what term is this? | Asymmetric encryption
+What is dictionary coding? | A lossless compression method where text entries matching a dictionary are replaced with shorter unique codes
+A lossless compression method that replaces text entries with shorter codes from a dictionary — what term is this? | Dictionary coding
+What is hashing? | A one-way transformation of data into an abbreviated form called a hash value, used to validate credentials like passwords without revealing the original data
+A one-way transformation of data into an abbreviated form used to validate credentials without revealing the original — what term is this? | Hashing
+Why is hashing described as one-way? | The original data cannot be recovered from the hash value
+What is lossless compression? | A compression algorithm that retains all original data by storing only the instructions needed to reconstruct the file
+A compression algorithm that retains all data by storing reconstruction instructions — what term is this? | Lossless compression
+What is lossy compression? | A compression algorithm that permanently removes non-essential data, causing a noticeable decrease in accuracy
+A compression algorithm that permanently removes non-essential data to reduce file size — what term is this? | Lossy compression
+What is run-length encoding (RLE)? | A lossless compression method that stores repeated consecutive occurrences of the same data value as a single value paired with its count
+A lossless compression method storing consecutive repeated values as a single value and count — what term is this? | Run-length encoding (RLE)
+What is symmetric encryption? | An encryption technique where the same key is used to both encrypt and decrypt data, requiring the key to be shared between both parties
+An encryption technique where the same shared key encrypts and decrypts — what term is this? | Symmetric encryption
+How does symmetric encryption differ from asymmetric encryption? | Symmetric uses one shared key for both encryption and decryption. Asymmetric uses a public key to encrypt and a separate private key to decrypt
+How does lossy compression differ from lossless compression? | Lossless retains all original data and is fully reversible. Lossy permanently removes non-essential data, reducing quality but achieving smaller file sizes
+What does ACID stand for in transaction processing? | Atomicity, Consistency, Isolation, Durability
+What is atomicity (ACID)? | All transactions must either fully succeed or fully fail — never partially processed
+What is consistency (ACID)? | Each transaction must obey the database's validation rules to maintain referential integrity
+What is isolation (ACID)? | No transaction should overwrite other concurrent transactions. The same results must be obtained whether transactions run concurrently or sequentially
+What is durability (ACID)? | Once a transaction has begun, it must be completed under all circumstances
+What is entity-relationship modelling? | A method of visually describing data tables and their relationships, used to reduce redundancy and design relational databases
+A visual method of describing data tables and their relationships to reduce redundancy — what term is this? | Entity-relationship modelling
+What is first normal form (1NF)? | A table with no repeating attributes, where the intersection of each record and attribute produces exactly one value
+A table with no repeating attributes where each record-attribute intersection yields exactly one value — what normal form is this? | First normal form (1NF)
+What is second normal form (2NF)? | A table in 1NF with no partial dependencies — data repeating across records is moved to a separate table with appropriate relationships
+A table in 1NF with no partial dependencies — what normal form is this? | Second normal form (2NF)
+What is third normal form (3NF)? | A table in 2NF where all non-key attributes depend only on the primary key (no non-key dependencies)
+A table in 2NF with no non-key dependencies — what normal form is this? | Third normal form (3NF)
+What is a flat file database? | A database where all data is stored in a single table
+A database storing all data in a single table — what term is this? | Flat file database
+What is a foreign key? | An attribute that links two tables in a relational database by being a primary key in one table and a foreign key in the other
+What is a primary key? | A unique identifier for each record in a database table
+A unique identifier for each record in a database table — what term is this? | Primary key
+What is a secondary key? | An alternative index used to access or sort records more quickly but less accurately than the primary key
+What is indexing in a database? | Creating an index of primary keys so that any record's location can be quickly retrieved given its primary key
+What is normalisation? | The formal process of optimally designing data tables by reducing redundancy and repetition, converting them into normal forms
+The process of reducing data redundancy by converting tables into normal forms — what term is this? | Normalisation
+What is record locking? | A technique that prevents simultaneous access to a record by locking it while it is being edited, preventing database inconsistencies
+What is redundancy in a database context? | The unnecessary repetition of a field across multiple tables
+Why might redundancy be deliberately used in a database? | To maintain identical backup copies of data for recovery if part of the database is lost
+What is referential integrity? | Keeping a database consistent by ensuring any changes to data or relationships in one table are reflected in all linked tables
+Ensuring that changes to data or relationships in one table are reflected in all linked tables — what term is this? | Referential integrity
+What is a relational database? | A database using separate tables for each entity, with relationships between entities represented by foreign keys
+A database using separate entity tables linked by foreign keys — what term is this? | Relational database
+What is transaction processing? | Ensuring every logical operation or state change in a database conforms to ACID rules for reliable processing
+How does a flat file database differ from a relational database? | A flat file stores all data in a single table. A relational database uses separate tables for each entity, linked by foreign keys
+What is circuit switching? | A data transmission method where a dedicated communication channel is created between two nodes, and all data follows this same path for the duration
+A transmission method using a single dedicated channel where all data follows the same path — what term is this? | Circuit switching
+What is packet switching? | A data transmission method where data is broken into packets that are sent independently and reassembled at the destination
+A transmission method where data is split into independently routed packets reassembled at the destination — what term is this? | Packet switching
+How does circuit switching differ from packet switching? | Circuit switching establishes one dedicated channel for the entire communication. Packet switching splits data into independent packets that may take different routes and are reassembled at the destination
+What is a client-server network? | A network where client computers connect to one or more central servers that handle service requests and hold shared resources
+A network where clients connect to central servers for services and resources — what term is this? | Client-server network
+What is a peer-to-peer network? | A network where all computers are connected directly to each other and share resources and workloads without a central server
+A network where computers share resources equally without a central server — what term is this? | Peer-to-peer network
+How does a client-server network differ from a peer-to-peer network? | Client-server has dedicated central servers handling requests and holding resources. Peer-to-peer has no central server — all computers share resources and workloads equally
+What is the Domain Name System (DNS)? | A hierarchical naming system that maps human-readable domain names to IP addresses to locate resources on a network
+What is encryption? | The process of converting plaintext into unreadable ciphertext using a cipher so unauthorised users cannot understand the data
+What is a firewall? | A security application that monitors incoming and outgoing network traffic to prevent unauthorised external access between two networks
+What is a Local Area Network (LAN)? | A network connecting devices within a single geographical area or site
+What is a Wide Area Network (WAN)? | A network connecting devices over a large geographical area, typically using third-party carriers
+What is protocol layering? | Simplifying network design by dividing the system into functional layers, each with assigned protocols that perform tasks and communicate with adjacent layers
+What is a proxy server? | A server application that intercepts all packets entering and leaving a network to hide true network addresses, restrict user access, and isolate the network from external networks
+What is the TCP/IP stack? | A suite of four layered networking protocols through which incoming and outgoing data packets are passed to enable communication between networked computers
+What is CSS (Cascading Style Sheets)? | A style language used to define the layout, design, and presentation of a webpage written in a markup language
+What is client-side processing? | Data processing performed by the client's browser using the user's local computer resources, typically for less critical code
+What is server-side processing? | Data processing performed by the web server — data is sent from the client's browser to the server for secure processing and results are returned to the client
+How does client-side processing differ from server-side processing? | Client-side runs in the user's browser using local resources, typically for less critical code. Server-side runs on the web server for secure processing, with results sent back to the client
+What is HTML (HyperText Markup Language)? | A markup language used to write the content and structure of webpages on the World Wide Web
+What is JavaScript in web development? | An interpreted, object-oriented programming language used to create interactive elements within web browsers for dynamic web pages
+What is the PageRank algorithm? | A Google algorithm that ranks webpages by quality and importance by counting the number of links pointing to that page
+What is search engine indexing? | The process of collecting, parsing, and storing data from websites to facilitate fast and accurate information retrieval by a search engine

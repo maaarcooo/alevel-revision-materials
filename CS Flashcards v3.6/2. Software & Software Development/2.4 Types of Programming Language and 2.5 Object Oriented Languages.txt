@@ -1,0 +1,94 @@
+What is a programming paradigm? | An approach to using a programming language to solve a problem
+An approach to using a programming language to solve a problem — what term is this? | Programming paradigm
+What are the two broad categories of programming paradigm? | Imperative and declarative
+Which programming paradigms fall under the imperative category? | Procedural and object-oriented
+Which programming paradigms fall under the declarative category? | Functional and logic
+What characterises imperative programming? | Code clearly specifies the actions to be performed in step-by-step instructions
+What characterises declarative programming? | Code states the desired result rather than the exact instructions to achieve it; the language determines how to obtain the result
+In what types of application is declarative programming commonly used? | Expert systems and artificial intelligence
+What characterises functional programming? | Programs are built from reusable functions, often combined within each other, closely linked to mathematics
+Name an example of a logic programming language | Prolog
+What characterises logic programming? | Code defines a set of facts and rules based on the problem, and queries are used to find answers
+What characterises procedural programming? | A type of imperative programming that uses a sequence of instructions which may be contained within procedures, carried out step by step
+Why is procedural programming widely used? | It can be applied to a wide range of problems and is relatively easy to write and interpret
+What is structured programming? | A subset of procedural programming where control flow uses four main structures: sequence, selection, iteration, and recursion
+What is sequence in structured programming? | Code is executed line by line, from top to bottom
+What is selection in structured programming? | A block of code runs only if a specific condition is met, using IF statements
+What is iteration in structured programming? | A block of code is executed a certain number of times or while a condition is met, using FOR, WHILE, or REPEAT UNTIL loops
+What is recursion? | A function that calls itself repeatedly until a stopping condition called a base case is met
+What is a base case in recursion? | A condition in a recursive function that does not call the function again, stopping the recursion
+What limitation does procedural programming have? | It cannot solve all types of problems, or may be inefficient for problems not easily expressed as a series of sequential instructions
+What types of data do procedural languages provide? | Built-in data types such as integers and strings, and data structures such as arrays and dictionaries
+What is assembly language? | A low-level language one level up from machine code that uses mnemonics instead of binary
+A low-level language that uses mnemonics to represent machine code instructions — what is this? | Assembly language
+What translates assembly language into machine code? | An assembler
+What is a mnemonic in assembly language? | An abbreviation representing a machine code instruction
+Why are assembly language instructions processor-specific? | Assembly language directly interacts with the CPU's special-purpose registers
+Why is assembly language useful for embedded systems? | It allows direct interaction with hardware components
+Why is assembly language not portable between different computers? | Its instructions are specific to a particular processor's instruction set
+How many lines of machine code does each assembly language instruction typically correspond to? | Approximately one line
+Why can assembly language produce more efficient code than high-level languages? | It provides direct control over hardware and low-level operations, avoiding the overhead of high-level abstractions
+What is the Little Man Computer (LMC)? | A hypothetical simplified computer model used for understanding the fundamental operations of a computer
+What does the LMC instruction ADD do? | Adds the value at the given memory address to the value in the accumulator
+What does the LMC instruction SUB do? | Subtracts the value at the given memory address from the value in the accumulator
+What does the LMC instruction STA do? | Stores the value in the accumulator at the given memory address
+What does the LMC instruction LDA do? | Loads the value at the given memory address into the accumulator
+What does the LMC instruction INP do? | Allows the user to input a value, which is held in the accumulator
+What does the LMC instruction OUT do? | Outputs the value currently held in the accumulator
+What does the LMC instruction HLT do? | Stops the program, preventing further code from executing
+What does the LMC instruction DAT do? | Creates a labelled memory location where data can be stored
+What does the LMC instruction BRZ do? | Branches to a given address if the value in the accumulator is zero (conditional branch)
+What does the LMC instruction BRP do? | Branches to a given address if the value in the accumulator is zero or positive (conditional branch)
+What does the LMC instruction BRA do? | Branches to a given address unconditionally, regardless of the accumulator value
+How does a conditional branch differ from an unconditional branch in LMC? | A conditional branch (BRZ, BRP) only branches when a specific condition is met; an unconditional branch (BRA) always branches
+What two parts make up a machine code instruction? | Opcode and operand
+What does the opcode specify in a machine code instruction? | The instruction to be performed
+What does the operand hold in a machine code instruction? | A value related to the data on which the instruction is to be performed
+Where is the addressing mode encoded within a machine code instruction? | As part of the opcode
+What does the addressing mode determine? | How the operand should be interpreted
+What is immediate addressing? | The operand is the actual value upon which the instruction is to be performed
+The operand is the actual value to be used — what addressing mode is this? | Immediate addressing
+What is direct addressing? | The operand gives the memory address that holds the value upon which the instruction is to be performed
+The operand gives the memory address holding the required value — what addressing mode is this? | Direct addressing
+Which addressing mode does the LMC use? | Direct addressing
+What is indirect addressing? | The operand gives the address of a register which holds another address where the actual data is located
+The operand points to a register containing the address of the data — what addressing mode is this? | Indirect addressing
+What is indexed addressing? | The effective address is calculated by adding the operand to the value in an index register
+The effective address is found by adding the operand to an index register — what addressing mode is this? | Indexed addressing
+Why is indexed addressing useful? | It allows an offset to access data stored contiguously in memory, such as elements in an array
+Why are addressing modes needed? | They allow a much greater number of memory locations to be accessed than the fixed size of the operand would otherwise permit
+What is a class in OOP? | A template (blueprint) that defines the attributes and methods that objects created from it will have
+A template defining the attributes and methods that its objects will have — what OOP term is this? | Class
+What is an object in OOP? | A specific instance of a class with its own attribute values
+A specific instance of a class with its own attribute values — what OOP term is this? | Object
+What is instantiation? | The process of creating an object from a class
+The process of creating an object from a class — what OOP term is this? | Instantiation
+What are attributes in OOP? | Properties of an object, defined as variables within a class, that represent the state of the object
+What is the difference between class variables and instance variables? | Class variables are the attribute definitions in the class template; instance variables are the specific values those attributes hold in an individual object
+What are methods in OOP? | Functions or procedures associated with a class that define the actions (behaviour) an object can perform
+How does a function differ from a procedure in OOP? | A function returns a value; a procedure does not return a value
+What is a constructor in OOP? | A special method called when a new object is created, which sets the initial values of its attributes
+What is a getter method? | A method that retrieves (returns) the value of a specific attribute
+What is a setter method? | A method that sets (updates) the value of a specific attribute
+What notation is used to call a method on an object? | Dot notation: objectName.methodName()
+What does the private access modifier mean in OOP? | The attribute or method can only be accessed from within its own class
+What does the public access modifier mean in OOP? | The attribute or method can be accessed from within its own class and from external classes
+What is encapsulation in OOP? | Declaring attributes as private so they cannot be directly accessed externally, and providing public methods (getters/setters) to interact with them
+Attributes are private and can only be accessed through public methods — what OOP principle is this? | Encapsulation
+Why is encapsulation used in OOP? | It protects attributes from accidental or unauthorised modification, making code more reliable
+What is inheritance in OOP? | A subclass takes on all the methods and attributes of a superclass, and can add its own additional properties
+A subclass gains all methods and attributes from a superclass — what OOP concept is this? | Inheritance
+What is a superclass in OOP? | The parent class from which another class inherits methods and attributes
+What is a subclass in OOP? | A class that inherits methods and attributes from a superclass and can add its own additional properties
+How is inheritance expressed in OCR pseudocode? | class SubclassName inherits SuperclassName
+What is the purpose of the super keyword in OOP? | To reference the superclass and access its methods, attributes, or constructors from within a subclass
+What is polymorphism in OOP? | Objects can behave differently depending on their class, so the same method name can produce different outputs for different objects
+Objects of different classes respond differently to the same method call — what OOP concept is this? | Polymorphism
+What is method overriding in OOP? | Redefining a method in a subclass so it produces different behaviour from the version in the superclass
+What is method overloading in OOP? | Defining a method that accepts different sets of parameters, producing different results depending on the arguments passed
+How does method overriding differ from method overloading? | Overriding redefines a method in a subclass to change its behaviour; overloading defines multiple versions of a method that accept different parameters
+How does OOP promote code reusability? | Inheritance allows subclasses to reuse methods and attributes from superclasses, and classes can be reused across multiple projects
+Why does encapsulation make OOP programs more reliable? | Attributes are declared private and can only be modified through controlled public methods, preventing direct external modification
+Why does OOP require advance planning? | The programmer must design how the problem is broken down into classes and how they relate to each other before coding
+Why does OOP's modular structure aid maintenance? | Each class can be developed, tested, and updated independently of others
+Why is OOP generally unsuitable for small problems? | The overhead of designing class structures is not justified when few components are reused, potentially producing longer, less efficient code

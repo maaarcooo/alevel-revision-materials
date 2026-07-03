@@ -1,0 +1,97 @@
+What is a database? | An organised collection of data that allows easy storage, retrieval, and management of information
+What is a field in a database? | A single piece of data in a record (a column entry)
+What is a record in a database? | A group of related fields representing one data entry (a row in a table)
+What is a table in a database? | A collection of records with a similar structure
+What is an entity in a database? | An item of interest about which data is stored, represented as a table in a relational database
+An item of interest about which data is stored in a database -- what term is this? | Entity
+What is an attribute in a database? | A characteristic of an entity; a category about which data is collected (a column in a table)
+What is a relational database? | A database that organises data into multiple linked tables, one for each entity, using keys to connect related data
+A database that organises data into multiple linked tables using keys to connect related data -- what type of database is this? | Relational database
+What is a flat file database? | A database that stores all data in a single table, typically based around a single entity
+A database that stores all data in a single table -- what type of database is this? | Flat file database
+How does a flat file differ from a relational database? | A flat file stores everything in one table, causing data redundancy and inconsistency. A relational database splits data across multiple linked tables, reducing redundancy and making maintenance easier
+What is a DBMS? | Database Management System: software used to create, manage, and interact with databases (e.g. MySQL, Oracle, PostgreSQL)
+What is the standard notation for writing out a database entity? | EntityName(PrimaryKey, Attribute2, Attribute3, ...) with the primary key underlined
+What is a primary key? | A unique identifier for each record in a table
+A unique identifier for each record in a database table -- what is this called? | Primary key
+How is a primary key shown in database notation? | By underlining the attribute name
+What is a compound (composite) primary key? | A combination of two or more fields that together uniquely identify each record
+What is a foreign key? | An attribute in one table that references the primary key of another table, used to link the two tables
+An attribute in one table that references the primary key of another table -- what is this called? | Foreign key
+How is a foreign key shown in database notation? | By marking it with an asterisk (*)
+What is a secondary key? | A field that is indexed to allow faster searching on that attribute
+A field indexed for faster searching in a database -- what is this called? | Secondary key
+Why are secondary keys used rather than searching by primary key? | Users rarely know or remember primary key values, so commonly searched fields (e.g. surname) are indexed as secondary keys for faster retrieval
+What is indexing in a database? | A method of storing the position of each record ordered by a certain attribute, used to speed up data retrieval
+Which key is automatically indexed in a database table? | The primary key
+What are the three types of relationship in entity relationship modelling? | One-to-one, one-to-many, many-to-many
+What is a one-to-one relationship? | Each entity instance is linked to exactly one instance of another entity (e.g. husband and wife)
+What is a one-to-many relationship? | One entity instance can be linked to many instances of another entity (e.g. a mother and her children)
+What is a many-to-many relationship? | Entity instances on both sides can be linked to many of the other (e.g. students and courses)
+What is an entity relationship diagram (ERD)? | A diagram representing the entities (tables) in a database and the relationships between them, drawn using crow's foot notation
+How is a one-to-one relationship drawn in an ERD? | A single straight line connecting the two entity boxes
+How is a one-to-many relationship drawn in an ERD? | A line with a crow's foot (fork) on the "many" side
+How is a many-to-many relationship drawn in an ERD? | A line with crow's feet (forks) on both sides
+Why must many-to-many relationships be resolved in a relational database? | They cannot be directly implemented; a link table must be created between the two entities, replacing the many-to-many with two one-to-many relationships
+In an ERD, which table receives the foreign key? | The table on the "many" side of a relationship
+What is normalisation? | The process of organising a relational database to reduce data redundancy and improve data accuracy, consistency, and maintainability
+The process of organising a database to reduce redundancy and improve consistency -- what is this called? | Normalisation
+What are the requirements for first normal form (1NF)? | All values must be atomic (single, indivisible), no repeating groups, each column has a unique name, and a primary key exists
+What does "atomic" mean in the context of 1NF? | Each field contains only a single, indivisible value (not a list or array of values)
+What are the requirements for second normal form (2NF)? | The table must be in 1NF and have no partial dependencies (no non-key attribute depends on only part of a composite primary key)
+What is a partial dependency? | When a non-key attribute depends on only part of a composite primary key rather than the whole key
+When does 2NF only apply? | Only to tables with a compound (composite) primary key; tables with a single-field primary key in 1NF are automatically in 2NF
+What are the requirements for third normal form (3NF)? | The table must be in 2NF and have no transitive dependencies (every non-key attribute depends only on the primary key, not on other non-key attributes)
+What is a transitive dependency? | When a non-key attribute depends on another non-key attribute rather than directly on the primary key
+What is MICR? | Magnetic Ink Character Recognition: reads text printed in special magnetic ink, used by banks to process cheques
+What is OMR? | Optical Mark Recognition: detects marked areas on paper using a special machine, used for multiple choice tests, surveys, and lottery tickets
+What is OCR? | Optical Character Recognition: converts printed or handwritten text into a digital format for searching and editing
+What is data mining? | The process of discovering hidden patterns, correlations, and insights from large datasets using techniques from machine learning and statistics
+What is Query By Example (QBE)? | A visual, form-based method of constructing database queries where users enter criteria in a grid without needing to write SQL
+What is EDI? | Electronic Data Interchange: a standardised method of transferring documents and data electronically between businesses without human interaction
+Electronic Data Interchange -- what does EDI stand for and what does it do? | Electronic Data Interchange: transfers documents and data between businesses electronically without human interaction
+What is CSV as a data exchange format? | Comma Separated Values: a plain text format for tabular data where values are separated by commas
+What is JSON? | JavaScript Object Notation: a lightweight, human-readable data interchange format using key-value pairs, common in web applications
+What is an API in the context of data exchange? | Application Programming Interface: a set of protocols that allow different software applications to communicate and exchange data with each other
+What does SQL stand for? | Structured Query Language
+What type of language is SQL? | A declarative language used to manipulate and interact with databases
+What does SELECT do in SQL? | Retrieves specified fields from a database table (use * to select all fields)
+What does FROM do in SQL? | Specifies which table(s) the data should be retrieved from
+What does WHERE do in SQL? | Filters results based on a specified condition
+What does ORDER BY do in SQL? | Sorts results in ascending order by default; add DESC for descending order
+What does LIKE do in SQL? | Filters data based on a pattern, used with the % wildcard (e.g. WHERE name LIKE 'J%' matches names starting with J)
+What does the * wildcard mean in SQL? | Selects all columns/fields from a table
+What does the % wildcard mean in SQL? | Used with LIKE to match any sequence of zero or more characters in a pattern
+How do AND and OR differ in a SQL WHERE clause? | AND requires all conditions to be true; OR requires at least one condition to be true
+What does JOIN (INNER JOIN) do in SQL? | Combines rows from two or more tables based on a related column between them, using the ON keyword to specify the matching fields
+What is a nested SELECT in SQL? | A SELECT statement inside another SELECT, used to filter based on a derived value (e.g. WHERE salary > (SELECT AVG(salary) FROM employees))
+What does CREATE TABLE do in SQL? | Creates a new table, specifying each attribute's name, data type, whether it is the primary key, and whether it allows NULL values
+What three details must be specified for each attribute in CREATE TABLE? | Whether it is the primary key, its data type, and whether it must be filled in (NOT NULL)
+What does ALTER TABLE do in SQL? | Adds, deletes, or modifies columns in an existing table (using ADD, DROP COLUMN, or MODIFY COLUMN)
+What does INSERT INTO do in SQL? | Adds a new record into a table: INSERT INTO TableName (col1, col2) VALUES (val1, val2)
+What does UPDATE do in SQL? | Modifies existing records: UPDATE TableName SET col1 = val1 WHERE condition
+What does DELETE FROM do in SQL? | Removes specific records from a table based on a WHERE condition
+What does DROP TABLE do in SQL? | Deletes an entire table and all its data from the database
+What is CHAR(n) in SQL? | A fixed-length string data type that always stores exactly n characters
+What is VARCHAR(n) in SQL? | A variable-length string data type with a maximum length of n characters
+How does CHAR(n) differ from VARCHAR(n)? | CHAR(n) always uses exactly n characters of storage (padding shorter strings); VARCHAR(n) uses only as many as needed up to the maximum n
+What is BOOLEAN in SQL? | A data type that stores TRUE or FALSE values
+What is FLOAT in SQL? | A data type that stores numbers with a floating decimal point
+What is referential integrity? | Ensuring that every foreign key value in a table matches an existing primary key value in the linked table, maintaining consistency between related tables
+Ensuring every foreign key matches a valid primary key in another table -- what is this called? | Referential integrity
+What happens if referential integrity is enforced and a primary key record is deleted? | The DBMS prevents the deletion or applies a cascade action (e.g. CASCADE deletes related records, SET NULL nullifies the foreign keys)
+What is a transaction in database processing? | A sequence of database operations treated as a single unit of work that must either fully complete or not happen at all
+What does ACID stand for? | Atomicity, Consistency, Isolation, Durability
+What is atomicity in ACID? | A transaction must be processed in its entirety or not at all; if any part fails, the entire transaction is rolled back
+What is consistency in ACID? | A transaction must maintain referential integrity rules, leaving the database in a valid consistent state
+What is isolation in ACID? | Concurrent execution of transactions must produce the same result as if they were executed sequentially; intermediate states are not visible to other transactions
+What is durability in ACID? | Once a transaction has been committed, it persists permanently regardless of subsequent system failures such as power cuts
+What is record locking? | Preventing simultaneous write access to a record so that while one user is editing it, others cannot modify the same record, avoiding inconsistencies or lost updates
+Preventing simultaneous access to a database record to avoid inconsistencies -- what is this called? | Record locking
+What is deadlock in a database? | When two or more transactions each hold a lock on a record the other needs, so both wait indefinitely and no progress can be made
+Two transactions each waiting for a lock held by the other, causing indefinite waiting -- what is this called? | Deadlock
+Describe a scenario that causes deadlock | User 1 locks Record A and requests Record B. User 2 locks Record B and requests Record A. Both wait for the other to release their lock, so neither can proceed
+What is data redundancy in the context of normalisation? | The same piece of data being unnecessarily stored in more than one place, leading to inconsistencies and wasted storage
+What is redundancy in the context of transaction processing and data protection? | Having one or more copies of data stored in physically different locations so that if one copy is damaged, others remain unaffected and can be recovered
+What is a shared lock (read lock)? | Allows multiple transactions to read a record simultaneously but prevents modifications until the lock is released
+What is an exclusive lock (write lock)? | Allows only one transaction to access and modify a record, blocking all other transactions from reading or writing until released

@@ -1,0 +1,53 @@
+What is the Data Protection Act 1998? | A law that protects personal data from being misused, covering data stored on computers and in organised paper filing systems
+A law that protects personal data from being misused, covering data on computers and organised paper filing systems — what act is this? | The Data Protection Act 1998
+What is personal data under the DPA? | Any data that can be used to identify a living person, including data that in combination with other data can identify a living person
+Give three examples of personal data | Name, address, date of birth
+What is a data subject? | An individual who can be identified by personal data
+An individual who can be identified by personal data — what term is this? | Data subject
+How many data protection principles does the DPA contain? | Eight
+State Principle 1 of the DPA | Personal data must be processed fairly and lawfully
+State Principle 2 of the DPA | Personal data must be obtained only for specified and lawful purposes
+State Principle 3 of the DPA | Personal data must be adequate, relevant and not excessive for its purpose
+State Principle 4 of the DPA | Personal data must be accurate and, where necessary, kept up to date
+State Principle 5 of the DPA | Personal data must not be kept for longer than is necessary for its purpose
+State Principle 6 of the DPA | Personal data must be processed in accordance with the rights of data subjects
+State Principle 7 of the DPA | Appropriate technical and organisational measures must be taken to protect personal data against unauthorised access, accidental loss or damage
+State Principle 8 of the DPA | Personal data must not be transferred outside the European Economic Area unless that country ensures an adequate level of data protection
+Name three exemptions from the DPA | Domestic purposes, law enforcement, intelligence services processing
+What is a Data Controller? | A staff member appointed by a company to ensure the DPA principles are followed and to communicate with the Information Commissioner
+A staff member responsible for ensuring the DPA principles are followed and communicating with the Information Commissioner — what role is this? | Data Controller
+What is a Subject Access Request (SAR)? | A formal request from a data subject for a copy of all personal data a company holds about them
+A formal request from a data subject for a copy of all personal data held about them — what term is this? | Subject Access Request (SAR)
+What must a company do before responding to a Subject Access Request? | Verify the identity of the data subject, then send the data securely
+What legislation replaced the Data Protection Act 1998? | The General Data Protection Regulation (GDPR) and the Data Protection Act 2018
+In what year was the DPA 1998 replaced? | 2018
+What can a data subject do if personal data held about them is inaccurate? | Request that it be corrected (rectified) or completed if incomplete
+What is the right to data portability? | The right of a data subject to obtain and reuse their personal data across different services
+What can happen to companies found in breach of the Data Protection Act? | They can face extremely large fines
+What is the Computer Misuse Act 1990? | A law addressing the malicious use of computers, originally created to ensure computer hacking was covered by law
+A law addressing the malicious use of computers, originally created to cover computer hacking — what act is this? | The Computer Misuse Act 1990
+How many primary offences does the Computer Misuse Act define? | Three
+What is offence 1 under the Computer Misuse Act? | Unauthorised access to computer materials (e.g. finding someone's password and opening their files)
+What is offence 2 under the Computer Misuse Act? | Unauthorised access with intent to commit further offences (e.g. accessing files intending to change data)
+What is offence 3 under the Computer Misuse Act? | Unauthorised modification of computer material (e.g. accessing files and actually changing data)
+How do the consequences of the three CMA offences compare? | They get progressively worse from offence 1 to offence 3, with each punishable by imprisonment
+How does offence 2 of the CMA differ from offence 1? | Offence 1 is simply gaining unauthorised access. Offence 2 requires the additional element of intent to commit further offences
+How does offence 3 of the CMA differ from offence 2? | Offence 2 is gaining access with intent to commit offences but without necessarily acting. Offence 3 is actually carrying out unauthorised modifications to the data
+Why has the Computer Misuse Act been frequently updated since 1990? | To ensure it remains relevant as technology evolves
+Name two technical measures that can help prevent offences under the CMA | Digital signatures or certificates to verify identity, and firewalls to prevent external access (including DoS and DDoS attacks)
+What is the Copyright, Designs and Patents Act 1988? | A law that protects the intellectual property of individuals and companies, making it illegal to copy, modify or distribute work without permission
+A law that protects intellectual property, making it illegal to copy, modify or distribute work without permission — what act is this? | The Copyright, Designs and Patents Act 1988
+When does copyright protection begin under the CDPA? | Automatically when an original work is created
+How long does copyright last under the CDPA? | 25 to 70 years after the death of the creator, depending on the type of work
+In what year was the CDPA extended to cover computer programs? | 1992
+How are computer programs classified under the CDPA? | As a type of literary work, meaning copyright automatically applies to code
+Whose responsibility is it to take action if their work is copied under the CDPA? | The individual (copyright holder) who believes their work has been copied
+What distinguishes a primary breach from a secondary breach under the CDPA? | A primary breach directly infringes copyright (e.g. copying, performing, adapting the work). A secondary breach involves facilitating infringement (e.g. importing copies, providing means to copy)
+How does the CDPA relate to peer-to-peer streaming? | Peer-to-peer streaming of copyrighted audio or video is covered by the Act, as it prevents the copyright owner from receiving income
+What is the Regulation of Investigatory Powers Act 2000? | A law governing investigation, surveillance and interception of communication by public bodies
+A law governing investigation, surveillance and interception of communication by public bodies — what act is this? | The Regulation of Investigatory Powers Act 2000
+Under RIPA, what must be obtained before communications can be intercepted for national security? | A warrant
+What does RIPA require of internet service providers and mobile phone companies? | They must provide information upon request from an authorised authority and ensure their networks have sufficient hardware to facilitate surveillance
+Why is RIPA considered controversial? | Its powers extend to small agencies like local councils, and it has been used for minor issues such as monitoring fly-tipping or checking school catchment areas rather than criminal or terrorist activity
+What restriction does RIPA place on the disclosure of interception activities? | The existence of interception activities is prevented from being revealed in court
+How do surveillance powers vary between organisations under RIPA? | Different organisations have different limits, with agencies like GCHQ having the most freedom

@@ -1,0 +1,76 @@
+What are ethics? | The values held by a community and how these impact different groups of people in society
+The values held by a community and how these impact different groups of people in society — what term is this? | Ethics
+What are morals? | A personal code of conduct encompassing how we choose to behave, including decisions we make at the expense of others
+A personal code of conduct encompassing how we choose to behave, including decisions we make at the expense of others — what term is this? | Morals
+How do ethics differ from morals? | Ethics are community values about the impact on groups in society. Morals are an individual's personal code of conduct
+Give two advantages of computers in the workforce | They improve efficiency (e.g. reducing delivery times and unit labour costs) and reduce strain on workers by removing repetitive, tedious tasks
+What type of unemployment results from computerisation replacing jobs? | Structural unemployment
+Which income level of jobs has computerisation hit hardest? | Middle-income manufacturing jobs, where entire production lines have been replaced by robots
+What shift in job types has resulted from the automation of manufacturing? | A shift from middle-income manufacturing jobs toward low-income service jobs
+How can the effects of job displacement from computerisation be mitigated? | Governments invest in retraining programmes so workers can change occupation
+Give two examples of new job roles created by increased computerisation | Software developers (for embedded systems in smart devices) and network engineers (to maintain networks)
+How has the Internet led to a rise in exclusively online services? | Services like online shopping and banking reduce the cost of renting physical space and cut labour costs, while creating demand for delivery drivers and web developers
+What is automated decision making? | The process of using algorithms and computer systems to make decisions without direct human intervention, based on data analysis, pattern recognition, and predefined rules
+The process of using algorithms and computer systems to make decisions without direct human intervention — what term is this? | Automated decision making
+What is the danger of social media feeds being determined solely by algorithms based on users' interests? | It creates a filter bubble where users' beliefs are never challenged, leading to a close-minded society
+Give two examples of automated decision making used in application processes | Assessing a person's suitability for mortgages, loans, and jobs by screening candidates for desired qualities
+Why could relying entirely on algorithms for decisions treat people unfairly? | Algorithms do not consider extenuating circumstances and cannot process information with the same consideration of contextual factors that humans can
+Why must algorithms not remain a "black box"? | Decisions must be justified and some level of human input is essential to ensure fairness, since algorithms designed by humans cannot be assumed to be free of bias
+What ethical dilemma does algorithmic decision making raise for driverless cars? | How the car should decide who is harmed if an unavoidable accident occurs (e.g. a pedestrian or the driver), and who is responsible for the consequences
+How is automated decision making used in stock market trading? | Algorithms analyse past trends to model future changes, enabling rapid trading decisions faster than humans can react
+How is automated decision making used in plant automation and power distribution? | Various inputs are collected and analysed to respond instantly to changes, such as increasing power supply when demand is forecast to rise
+What is artificial intelligence (AI)? | A field of computer science aiming to create intelligent machines that can perform tasks typically requiring human intelligence, such as learning, problem-solving, reasoning, perception, and decision-making
+What is an expert system? | A system (also called a knowledge-based system) that replicates the knowledge and experience of a human expert in a particular subject
+What three components make up an expert system? | A knowledge base (set of facts and rules), an inference engine (interrogates the knowledge base), and a user interface
+What is the knowledge base in an expert system? | A set of facts and rules about a particular domain, used to build an inference engine for finding solutions such as diagnoses
+What are neural networks in AI? | Systems that replicate biological neural networks by learning from a given data set and applying that knowledge to new data sets
+Give two applications of neural networks | Pattern detection and identifying financial fraud
+Why do AI-powered voice recognition systems (e.g. Alexa, Google Home) raise privacy concerns? | They must be constantly switched on to function, meaning they are always listening
+What accountability question does AI raise? | Who is responsible when an AI system makes an error or causes harm — the AI, its developers, or the user
+What is censorship? | The control or suppression of information, ideas, or content that people are able to view, publish, and access
+The control or suppression of information, ideas, or content that people are able to view, publish, and access — what term is this? | Censorship
+What type of content do UK ISPs block? | Content associated with terrorism and extremist political beliefs
+What is the concern about censorship being misused? | It could be used to block alternative political beliefs, pushing a certain ideology rather than protecting the country
+What is the concept of a "Free Internet"? | The idea that nothing online should be filtered at all, in line with the principle of freedom of speech
+Why do most people agree some censorship of the Internet is necessary? | For national security purposes and to filter offensive comments and extremist propaganda
+Give two examples of censorship on a smaller scale | Schools blocking unsuitable material from pupils, and workplaces using censorship to maintain productivity and prevent distractions
+Give two reasons governments may censor Internet content | Protecting national security by preventing the spread of sensitive information, and restricting harmful content such as hate speech or incitement to violence
+How can censorship exacerbate the digital divide? | By further widening the gap in access to information and online resources for marginalised communities with restricted Internet access
+How are computers used to monitor behaviour in the workplace? | Employers track the websites and applications workers access and the time spent on them, to monitor productivity
+How are CCTV cameras used to monitor behaviour? | They are used for security purposes and to detect crime (from speeding to violence), helping to trace and punish criminal activity
+What are ankle monitors used for? | Tracking the location of people under house arrest as a surveillance device
+What is the argument for surveillance measures like ankle monitors? | They are a necessary measure to deter people from committing crime
+What is the argument against surveillance measures like ankle monitors? | They are unethical and contravene basic human rights
+What is big data? | Large amounts of data collected from a number of sources that can be analysed to reveal insights about people and their behaviours
+Large amounts of data collected from a number of sources — what term is this? | Big data
+What is data mining? | The process of analysing big data to make inferences about people's behaviour, likes, and dislikes, and to identify previously unknown connections between variables
+The process of analysing big data to make inferences about behaviour and identify unknown connections between variables — what term is this? | Data mining
+Give two uses of data mining | Informing personalised political propaganda and creating targeted advertising
+What ethical concern arises from data mining in insurance? | An insurer could discover a person is at high risk of a disease and deny them insurance or charge a higher premium
+Why was the Data Protection Act 1998 considered insufficient for modern data protection? | It could no longer adequately protect public welfare given the scale of modern data collection, which is why the GDPR was enforced from May 2018
+What is piracy in computing? | The unauthorised copying, distribution, or reproduction of copyrighted content such as software, music, or films
+The unauthorised copying, distribution, or reproduction of copyrighted content — what term is this? | Piracy
+Give three types of piracy | Software piracy (unauthorised copying or use of copyrighted software), music and film piracy (via peer-to-peer networks or illegal download sites), and eBook piracy
+What is offensive communication? | Any sort of online harassment, including cyber-bullying or stalking, facilitated by the seemingly anonymous front the Internet provides
+What does the Malicious Communications Act 1988 make illegal? | Sending indecent or offensive messages to anyone online, making it a criminal offence that can result in a criminal record
+What does the Equality Act 2010 require regarding websites? | It makes it illegal to discriminate against providing a service to a certain group of people, so websites must be designed to accommodate all users
+Why might a website display menus on the right-hand side of the page? | To accommodate languages read from right to left (e.g. Arabic), where placing menus on the right matches natural reading direction
+Give three accessibility features a website should provide for users with disabilities | Alternative text (alt text) for images, a screen magnifier option for users with visual impairments, and transcripts of audio files for users with hearing impairments
+Why must web developers consider colour paradigms when designing for a global audience? | Different colours have different meanings across cultures, so a colour considered positive in one culture may have negative connotations in another
+Give an example of a colour having different cultural meanings | White is associated with mourning in the Middle East but with purity in Western cultures
+Why is Unicode preferred over ASCII for international websites? | ASCII uses only 7 bits and cannot represent all characters in languages like Chinese, whereas Unicode can represent over a million characters
+What is e-waste? | Discarded electronic or electrical devices whose improper disposal can cause serious environmental and health problems due to toxic elements they contain
+Discarded electronic or electrical devices that can cause environmental harm if improperly disposed of — what term is this? | E-waste
+What toxic substances can be found in computer components? | Mercury, radioactive isotopes, lead, and cadmium
+Why is shipping e-waste to developing countries considered immoral? | These countries often have lower environmental standards, and the toxic waste contaminates their water supplies and environment
+How does increased computerisation contribute to global warming? | More devices require more electricity, which is generated by burning non-renewable fossil fuels that emit greenhouse gases
+Give two examples of environmentally-friendly technologies that offset the environmental impact of computing | Smart home systems (using temperature and motion sensors to reduce energy use) and sleep or stand-by features on computers and laptops
+What is the digital divide? | The disparity between individuals who have access to technology and those who do not, creating barriers to information, education, and economic opportunities
+The disparity between individuals who have access to technology and those who do not — what term is this? | Digital divide
+What happened with Amazon's AI recruitment tool? | It was abandoned because it was biased against women, having been trained on 10 years of male-dominated application data, causing it to penalise CVs containing the word "women"
+What is the COMPAS program? | An AI program used in the US judicial system to predict a defendant's potential for future criminal behaviour using undisclosed factors to generate a risk score
+Why is the COMPAS program criticised? | It uses undisclosed factors (lack of transparency), AI cannot fully understand nuances of human behaviour, and it may reflect human biases present in its training data
+Give four steps for proper e-waste disposal | Reduce and reuse devices, recycle to recover valuable materials, use manufacturer take-back programs, and dispose of at designated facilities equipped for safe handling
+Why must personal data be erased before disposing of electronic devices? | To protect privacy and prevent sensitive information from being recovered by others
+What moral concern does AI raise about intellectual property and creative works? | Artists' work may be used without consent to train AI systems, raising questions about copyright infringement and whether creators should be paid when their work is used for AI training
+How do algorithms need to be improved to ensure fair automated decisions? | They must be thoroughly tested, provided with factually correct and unbiased data, made transparent (not a black box), and include human oversight

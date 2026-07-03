@@ -1,0 +1,71 @@
+What does SDLC stand for? | Software development life cycle
+What happens during the analysis stage of the SDLC? | Stakeholders state what they require from the finished product, and this is used to clearly define the problem and the system requirements
+What two methods can be used to define requirements during the analysis stage? | Analysing strengths and weaknesses of the current solution, and considering the types of data involved (inputs, outputs, stored data, volume)
+What aspects of a new system are designed during the design stage? | Inputs, outputs, security features, hardware setup, and user interface (considering volume, methods, frequency, access levels, compatibility, navigation)
+What else may be produced during the design stage besides the system design? | A test plan
+What happens during the development stage of the SDLC? | The design is used to split the project into individual, self-contained modules, which are allocated to teams for programming
+What is alpha testing? | Testing carried out in-house by the software development teams to pinpoint and fix bugs
+Testing carried out in-house by development teams to find and fix bugs — what type of testing is this? | Alpha testing
+What is beta testing? | Testing carried out by end-users after alpha testing, with feedback used to inform the next stage of development
+Testing carried out by end-users after in-house testing, with feedback used to improve the product — what type of testing is this? | Beta testing
+What is white box testing? | Testing carried out by developers where the test plan is based on the internal structure of the program and all possible routes through the code are tested
+Testing based on the internal structure of a program where all possible code paths are tested — what type of testing is this? | White box testing
+What is black box testing? | Testing where the software is tested without knowledge of its internal structure, tracing through inputs and outputs only
+Testing without knowledge of internal structure, checking only inputs and outputs — what type of testing is this? | Black box testing
+How does white box testing differ from black box testing? | White box testing is based on the internal structure and tests all code paths. Black box testing ignores internal structure and only traces inputs and outputs
+Who can carry out black box testing? | Both the development team (in-house) and end-users
+What happens during the implementation stage? | The software is installed onto the users' systems
+What happens during the evaluation stage? | The effectiveness of the software is evaluated against the system requirements defined at the analysis stage
+What criteria are considered during the evaluation stage? | Robustness, reliability, portability, and maintainability
+What happens during the maintenance stage? | End-users flag errors or improvements, and programmers send out software updates to fix bugs, security issues, or make improvements
+What is the waterfall lifecycle? | A sequential software development model where stages are completed in order, with each phase finished before the next begins
+A sequential software development model where each phase must be completed before the next begins — what model is this? | The waterfall lifecycle
+What feasibility study is included in the waterfall model's analysis stage? | A TELOS feasibility study
+What does the T in TELOS stand for? | Technical — is the project possible given the technology available?
+What does the E in TELOS stand for? | Economic — can the project be financed in the short and long term?
+What does the L in TELOS stand for? | Legal — can the project be completed within the law?
+What does the O in TELOS stand for? | Operational — can the project be successfully implemented and maintained?
+What does the S in TELOS stand for? | Scheduling — can the project be completed in the time available?
+Why is the waterfall model considered inflexible? | To make a change, programmers must revisit all stages between the current stage and the stage where the change is needed
+Why do users have limited input in the waterfall model? | They are only involved at the very beginning (analysis) and end (evaluation) of the lifecycle
+State two merits of the waterfall lifecycle | Straightforward to manage, and clearly documented with specific deliverables and milestones
+State three drawbacks of the waterfall lifecycle | Inflexible to change, no risk analysis, and limited user involvement
+What type of project is the waterfall lifecycle suited to? | Static, low-risk projects with well-understood, stable requirements that need little user input
+What are agile methodologies? | A collection of methodologies that aim to improve the flexibility of software development and adapt to changes in user requirements faster
+A collection of methodologies aiming to improve flexibility of development and adapt to changing user requirements — what are these called? | Agile methodologies
+How is the problem handled in agile development? | It is broken into sections developed in parallel, with different sections potentially at different stages of development
+What is the role of prototypes in agile development? | A working prototype is delivered early and built upon iteratively, with new prototypes delivered regularly throughout the development cycle
+What is prioritised in agile methodologies compared to waterfall? | User satisfaction over documentation
+State two drawbacks of agile methodologies | Poor documentation, and requires consistent interaction between user and programmer
+What type of project are agile methodologies suited to? | Small to medium projects with unclear initial requirements
+What is extreme programming (XP)? | An agile model where a pair of programmers works alongside a representative end-user to iteratively develop software
+An agile model using pair programming alongside a representative end-user — what methodology is this? | Extreme programming (XP)
+What are user stories in XP? | System requirements specified by the end-user that are used when designing the program
+What is the purpose of pair programming in XP? | To produce high-quality code, as code is written by one programmer and critiqued by the other so it is improved as it is written
+What working-time limit is applied in XP and why? | Programmers work no longer than 40 hours per week so that quality is not compromised
+What does each iteration through the XP cycle produce? | A working version of the program that could function as the final product
+State two drawbacks of extreme programming | High cost of two people working on one project, and the end-user may not always be available
+What type of project is extreme programming suited to? | Small to medium projects with unclear initial requirements requiring excellent usability
+What is the spiral model? | A software development model that combines iterative and sequential approaches, focused on effectively managing risk-heavy projects through repeated cycles
+A development model combining iterative and sequential approaches with a focus on risk management through repeated cycles — what model is this? | The spiral model
+What are the four stages of the spiral model? | Analyse system requirements, pinpoint and mitigate risks, develop/test/implement, and evaluate to inform the next iteration
+What happens if a spiral model project is found to be too risky at any point? | The project is terminated
+Why is the spiral model suited only to large-scale projects? | Hiring risk assessors to analyse risks at each iteration is expensive
+State two merits of the spiral model | Thorough risk analysis and mitigation, and caters to changing user needs while producing prototypes throughout
+State two drawbacks of the spiral model | Expensive to hire risk assessors, and lacks focus on code efficiency due to high costs from constant prototyping
+What type of project is the spiral model suited to? | Large, complex, risk-intensive projects with a high budget
+What is rapid application development (RAD)? | An iterative methodology that uses partially functioning prototypes which are continually built upon, emphasising fast development
+An iterative methodology using partially functioning prototypes that are continually built upon for fast delivery — what methodology is this? | Rapid application development (RAD)
+How are user requirements initially gathered in RAD? | Using focus groups
+Describe the RAD prototyping cycle | An incomplete version is given to the user to trial, user feedback generates an improved prototype, and this repeats until the prototype matches end-user requirements and becomes the final product
+When is RAD commonly used? | When user requirements are incomplete or unclear at the start of the project
+Why might code produced using RAD be inefficient? | As requirements change during the project, additions and changes to the code may be poorly integrated
+State two merits of RAD | Caters to changing user requirements, and focuses on core features to reduce development time
+State two drawbacks of RAD | Poorer quality documentation, and the fast pace may reduce overall code quality
+What type of project is RAD suited to? | Small to medium, low-budget projects with short timeframes requiring rapid delivery
+What is an algorithm? | A set of instructions used to solve a problem
+A set of instructions used to solve a problem — what term is this? | An algorithm
+State three qualities of a good algorithm relating to inputs and outputs | Inputs must be clearly defined, it must produce a valid output for any defined input, and it must be able to deal with invalid inputs
+What must a good algorithm always reach? | A stopping condition
+Why should a good algorithm be well-documented and well-commented? | Well-documented for reference, and well-commented so modifications can easily be made
+What is scope creep? | Uncontrolled changes in requirements that can occur in flexible methodologies like agile, XP, and RAD

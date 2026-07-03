@@ -1,0 +1,90 @@
+What is an integer data type? | A whole number (positive, negative, or zero) with no fractional part
+A whole number with no fractional part -- what data type is this? | Integer
+What is a real (floating point) data type? | A number that can have a fractional part, either positive or negative
+A number that can have a fractional part -- what data type is this? | Real (floating point)
+What is the relationship between integers and real numbers? | All integers are also real numbers (integers are a subset of reals)
+What is a character data type? | A single symbol used by a computer, such as a letter, digit, or special symbol
+A single symbol such as a letter, digit, or symbol -- what data type is this? | Character
+What is a string data type? | A sequence of characters
+A sequence of characters -- what data type is this? | String
+Why might a phone number starting with 0 be stored as a string rather than an integer? | An integer would discard the leading zero, changing the stored value
+What is a Boolean data type? | A data type restricted to the values True and False, used for data that can take only two states
+A data type restricted to True and False -- what data type is this? | Boolean
+After whom is the Boolean data type named? | The mathematician George Boole (hence the capital B)
+What is casting in programming? | Converting a value from one data type to another (e.g. string "12" to integer 12)
+Why is casting often needed when a user enters data into a program? | User input is typically received as a string, so it must be cast to a numerical type before arithmetic or comparisons can be performed
+What number base does binary use? | Base 2 (using only the digits 0 and 1)
+Why do computers store data in binary? | Computers are made of circuits and switches that have two states: on (1) and off (0)
+What is a bit? | A single binary digit (0 or 1), the smallest unit of digital information
+How many bits make up a byte? | 8 bits
+What is a nybble (nibble)? | 4 bits (half a byte)
+What is the least significant bit (LSB) of a binary number? | The bit furthest to the right, representing the smallest place value
+What is the most significant bit (MSB) of a binary number? | The bit furthest to the left, representing the largest place value
+How do you convert a binary number to denary? | Multiply each bit by its place value (powers of 2 from right to left: 1, 2, 4, 8, ...) and sum the results
+Describe the method for converting a denary number to binary | Find the largest power of 2 less than or equal to the remaining value, place a 1 in that column, subtract it, and repeat for each smaller power of 2
+What effect do leading zeros have on a binary number's value? | None. Leading zeros do not change the value (e.g. 101111 and 00101111 both represent 47)
+State the four rules of binary addition | 0+0=0, 0+1=1, 1+1=10 (0 carry 1), 1+1+1=11 (1 carry 1)
+What is an overflow error in binary addition? | It occurs when the result of an addition exceeds the number of bits available to store it, producing an incorrect result
+In signed binary, how can overflow affect the result? | The carry bit can flip the sign bit, incorrectly changing a positive result to negative or vice versa
+What is an unsigned binary number? | A binary number that represents only positive values, where all bits contribute to the magnitude
+What is a signed binary number? | A binary number that can represent both positive and negative values
+Name two methods for representing negative numbers in binary | Sign and magnitude, and two's complement
+What is sign magnitude representation? | The MSB indicates the sign (0 = positive, 1 = negative) and the remaining bits represent the magnitude of the number
+In sign magnitude, what does an MSB of 1 indicate? | The number is negative
+What is a consequence of using sign magnitude representation? | The maximum positive value is halved because one bit is used for the sign instead of contributing to the magnitude
+What is two's complement? | A method of representing negative numbers where the MSB has a negative place value and the remaining bits count upwards from it
+How do you convert a positive binary number to its negative two's complement form? | Invert (flip) all the bits, then add 1
+In an 8-bit two's complement system, what value does the MSB represent? | -128
+How do you convert a two's complement binary number to denary? | Treat the MSB as its negative place value and add the positive place values of all remaining 1-bits
+How is binary subtraction performed using two's complement? | Convert the number being subtracted to its two's complement form (invert and add 1), then add the two numbers together
+How does two's complement differ from sign magnitude? | In sign magnitude, the MSB is a pure sign bit and the remaining bits give the magnitude directly. In two's complement, the MSB has a negative place value and the other bits count upwards, which simplifies arithmetic
+What number base does hexadecimal use? | Base 16, using digits 0-9 and letters A-F
+In hexadecimal, what denary values do the letters A through F represent? | A=10, B=11, C=12, D=13, E=14, F=15
+State two reasons hexadecimal is used instead of binary | It is more concise (one hex digit replaces 4 binary bits) and it is easier for humans to read and write, reducing transcription errors
+State two common uses of hexadecimal notation | Representing colours in web design (e.g. #FF5733) and displaying memory addresses or error codes for debugging
+How do you convert a hexadecimal number to binary? | Convert each hex digit to its 4-bit binary nibble, then combine the nibbles in order
+How do you convert a binary number to hexadecimal? | Split the binary into groups of 4 bits (nibbles) from the right, then convert each nibble to its hex digit
+How do you convert a hexadecimal number directly to denary? | Multiply each hex digit by its place value (powers of 16) and sum the results
+What does the subscript in a number representation indicate? | The base of the number system (e.g. 10 subscript 2 means binary, 10 subscript 16 means hexadecimal)
+What are the two components of a floating point binary number? | Mantissa and exponent
+What role does the mantissa play in a floating point number? | It holds the significant digits, determining the precision of the value
+What role does the exponent play in a floating point number? | It determines how far the binary point moves, scaling the number up or down
+In floating point binary, where is the binary point assumed to be within the mantissa? | After the most significant bit
+How are the mantissa and exponent stored in floating point binary? | Both are stored in two's complement
+In a floating point mantissa, what does an MSB of 0 indicate? | The number is positive
+In a floating point mantissa, what does an MSB of 1 indicate? | The number is negative
+How does increasing the number of mantissa bits affect a floating point number? | It increases precision (more significant digits can be stored)
+How does increasing the number of exponent bits affect a floating point number? | It increases the range of values that can be represented (larger and smaller numbers)
+Describe how to convert a floating point binary number to denary | Convert the exponent to denary, shift the binary point in the mantissa by that many places (right if positive, left if negative), then convert the resulting fixed-point binary to denary
+What does it mean to normalise a floating point binary number? | Adjusting the mantissa and exponent so the mantissa begins with 01 (positive) or 10 (negative), maximising the use of mantissa bits for precision
+Why are floating point numbers normalised? | To ensure the number is stored as precisely as possible within the available bits by making full use of the mantissa
+A normalised positive floating point mantissa must begin with which two bits? | 01
+A normalised negative floating point mantissa must begin with which two bits? | 10
+When normalising, if you shift the mantissa n places to the left, what happens to the exponent? | The exponent decreases by n
+When normalising, if you shift the mantissa n places to the right, what happens to the exponent? | The exponent increases by n
+What is the first step when adding or subtracting two floating point binary numbers? | Equalise the exponents by shifting the mantissa of the number with the smaller exponent to the right and increasing its exponent to match
+After adding or subtracting floating point mantissas, what must you do? | Normalise the result if the mantissa does not start with 01 (positive) or 10 (negative)
+How is floating point subtraction performed in binary? | Equalise the exponents, convert the mantissa being subtracted to two's complement (invert and add 1), add the mantissas, then normalise the result
+What is a logical shift? | Moving all bits in a binary number a specified number of places to the left or right, filling vacated positions with zeros
+What is the effect of a logical shift left by 1 place on an unsigned binary number? | It doubles the value (multiplies by 2)
+What is the effect of a logical shift right by 1 place on an unsigned binary number? | It halves the value (integer division by 2)
+A logical shift left by n places multiplies the value by what? | 2 to the power of n
+A logical shift right by n places divides the value by what? | 2 to the power of n
+What is a mask in bitwise manipulation? | A binary number combined with another using a bitwise operation (AND, OR, or XOR) to isolate, set, clear, or toggle specific bits
+What is the effect of a bitwise AND on two bits? | The result is 1 only if both bits are 1; otherwise it is 0
+What is the effect of a bitwise OR on two bits? | The result is 1 if either or both bits are 1; it is 0 only if both bits are 0
+What is the effect of a bitwise XOR on two bits? | The result is 1 if exactly one of the two bits is 1; it is 0 if both bits are the same
+How can an AND mask extract specific bits from a binary number? | Set mask bits to 1 where you want to keep the original bits and 0 elsewhere; ANDing zeros out all other positions
+How can an OR mask set specific bits to 1? | Set mask bits to 1 in the positions to force on; ORing sets those bits to 1 without changing the others
+How can an XOR mask toggle specific bits? | Set mask bits to 1 in the positions to flip; XORing inverts those bits while leaving the rest unchanged
+What is a character set? | A standardised collection of codes and their corresponding characters, used by computers to represent text
+A standardised collection of codes and corresponding characters used to represent text -- what term describes this? | A character set
+What does ASCII stand for? | American Standard Code for Information Interchange
+How many bits does standard ASCII use per character? | 7 bits
+How many characters can standard ASCII represent? | 128 (2 to the power of 7)
+In ASCII, what range of decimal codes represents uppercase letters A-Z? | 65 to 90
+In ASCII, what range of decimal codes represents lowercase letters a-z? | 97 to 122
+How does extended ASCII differ from standard ASCII? | Extended ASCII uses 8 bits per character instead of 7, allowing 256 characters instead of 128
+What is a key limitation of ASCII? | It can only represent 128 characters, which is insufficient for non-English languages, modern symbols, and emoji
+How does Unicode address the limitations of ASCII? | It uses a variable number of bits (up to 32), allowing representation of over 1 million characters across many languages, symbols, and emoji
+What is the trade-off of Unicode compared to ASCII in terms of storage? | Unicode characters can require up to 32 bits each, using significantly more storage than ASCII's 7 bits per character

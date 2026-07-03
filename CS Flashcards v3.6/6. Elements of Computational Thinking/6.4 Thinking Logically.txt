@@ -1,0 +1,35 @@
+What is a decision in the context of problem solving? | A result reached after some consideration
+A result reached after some consideration — what term is this? | Decision
+How can the decision-making process be simplified when solving a problem? | By limiting the possible solutions to choose from, then evaluating which is most suitable
+Why is it important to identify where decisions need to be made early in the development process? | So enough information about the available options can be gathered, enabling an informed decision
+How is a decision represented in a flowchart? | By a diamond-shaped symbol with two outputs: Yes (true) and No (false)
+What three key factors should be considered when evaluating a decision? | Effectiveness, convenience, and feasibility (reasonableness)
+How should decision factors be used to reach an appropriate decision? | Evaluate them and order them from most important to least important, then prioritise accordingly
+Why might the prioritisation of decision factors vary between projects? | Because different projects have different purposes and different end-users
+How do decisions affect the flow of a program? | Each decision creates a different route through the program, directing execution down a different path depending on the outcome
+Name the three structured programming techniques | Sequence, selection, and iteration
+What is sequence in structured programming? | Executing one statement after another in order
+What is selection (branching) in structured programming? | Directing the flow of control of a program based on a Boolean condition or set of conditions (e.g. if/then/else, switch/case)
+Directing the flow of control based on a Boolean condition — what structured programming technique is this? | Selection (also called branching)
+What is iteration in structured programming? | Repeating a sequence of instructions based on a stopping Boolean condition (e.g. for, while, do until)
+Repeating a sequence of instructions based on a stopping Boolean condition — what structured programming technique is this? | Iteration
+What is the purpose of structured programming techniques? | To aid the readability, understanding, and maintainability of code
+What is a block-structured language? | A language that uses only sequence, selection, and iteration to control the flow of execution, where each block has a single entry and exit point
+Why should each block of code have a single entry and exit point? | To prevent unintended consequences such as entering or leaving a subroutine early or branching unintentionally
+Name three methods for planning an algorithm before coding | Flowcharts, pseudocode, and structured English
+Why are flowcharts useful for identifying decision points? | They visually show the flow of control in a program, making decisions clear and easy to follow
+What is a disadvantage of using flowcharts to plan algorithms? | They are time-consuming to create
+Why is pseudocode useful for planning algorithms? | It mimics the constructs of programming languages without syntax constraints, and any expression is acceptable as long as the meaning is clear
+How does structured English compare to pseudocode? | Structured English is usually more verbose and imprecise than pseudocode
+In which two programming structures do decisions typically occur? | Selection statements (if/select case) and loops (usually while loops)
+Where do most errors in a program occur? | When evaluating Boolean conditions, especially long, complex conditions involving multiple clauses
+What two categories of operators are used in Boolean conditions? | Comparison operators (e.g. ==, >, <, !=) and logical operators (AND, OR, NOT, XOR)
+What does the AND operator require for a Boolean expression to be true? | Both conditions must be true
+What does the OR operator require for a Boolean expression to be true? | Either one or both conditions must be true
+What does the NOT operator do in a Boolean expression? | It inverts the condition, making true become false and false become true
+What does the XOR operator require for a Boolean expression to be true? | Exactly one of the two conditions must be true, but not both
+How does XOR differ from OR? | OR is true when either or both conditions are true, while XOR is true only when exactly one condition is true (not both)
+What happens when iteration and selection statements are nested? | Each inner statement creates additional decision points that further affect the flow of the program
+Why should break instructions be used carefully? | They are powerful for controlling flow of execution but can be misused, causing unintended problems
+What factors should be considered when choosing a programming language for a problem? | Suitability and functionality for the problem, developer familiarity with the language, and ease of learning within time constraints
+What does thinking logically allow a programmer to do? | Plan and prepare for different scenarios by providing foresight of the decisions made throughout the program

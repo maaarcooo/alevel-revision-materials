@@ -1,0 +1,73 @@
+What is the Accumulator (ACC)? | A register that temporarily stores the results of operations performed by the ALU
+A register that temporarily stores the results of ALU operations — what is this? | Accumulator (ACC)
+What is the Address Bus? | A bus that carries the memory address of the location being read from or written to
+A bus that carries the memory address of the location being read from or written to — what is this? | Address Bus
+What is the Arithmetic and Logic Unit (ALU)? | The part of the CPU that performs arithmetic calculations and logical operations on data
+The part of the CPU that performs arithmetic calculations and logical operations on data — what is this? | Arithmetic and Logic Unit (ALU)
+What are buses in a computer? | Physical sets of parallel wires that connect components and carry groups of bits between them
+Physical sets of parallel wires connecting components and carrying groups of bits — what are these? | Buses
+What is cache? | A small, fast, and expensive memory in the CPU used to store frequently accessed instructions and data
+Small, fast, expensive memory in the CPU for storing frequently accessed instructions and data — what is this? | Cache
+What is clock speed? | The frequency at which the internal clock generates pulses, controlling how often instructions are executed and data is fetched
+The frequency at which the CPU's internal clock generates pulses, controlling instruction execution rate — what is this? | Clock speed
+What is contemporary processor architecture? | A modern architecture combining elements of both Von Neumann and Harvard architectures
+A modern architecture combining elements of Von Neumann and Harvard — what is this? | Contemporary processor architecture
+What is the Control Bus? | A bidirectional bus that carries control signals from the CU to synchronise access and use of data
+A bidirectional bus carrying control signals from the CU to synchronise data access — what is this? | Control Bus
+What is the Control Unit (CU)? | The part of the CPU that manages instruction execution by sending control signals and coordinating fetch-decode-execute cycles and buses
+The part of the CPU that manages instruction execution by sending control signals and coordinating FDE cycles and buses — what is this? | Control Unit (CU)
+What is the Current Instruction Register (CIR)? | A register that stores the current instruction being decoded and executed
+A register that stores the current instruction being decoded and executed — what is this? | Current Instruction Register (CIR)
+What two parts is an instruction in the CIR divided into? | Opcode and operand
+What is the Data Bus? | A bidirectional bus that carries data and instructions between the processor and memory
+A bidirectional bus carrying data and instructions between processor and memory — what is this? | Data Bus
+What is the fetch-decode-execute (FDE) cycle? | Fetch: supply the address and retrieve the instruction from memory. Decode: interpret the instruction and retrieve required data. Execute: the CPU carries out the required action
+The three-stage cycle of fetching, decoding, and executing instructions — what is this? | Fetch-decode-execute (FDE) cycle
+What is Harvard architecture? | An architecture that stores data and instructions in separate memories, allowing the next instruction to be fetched while data is being read or written
+An architecture with separate memories for data and instructions, allowing simultaneous instruction fetch and data access — what is this? | Harvard architecture
+What is the Memory Address Register (MAR)? | A register that stores the memory address of the next instruction to load or data to access
+A register that stores the memory address of the next instruction or data to access — what is this? | Memory Address Register (MAR)
+What is the Memory Data Register (MDR)? | A register that temporarily stores data being read from or written to memory
+A register that temporarily stores data being read from or written to memory — what is this? | Memory Data Register (MDR)
+What is a core in a processor? | A processing unit that handles instructions with its own fetch-decode-execute cycle
+A processing unit with its own FDE cycle within a processor — what is this? | A core
+What is pipelining? | Simultaneously processing multiple instructions at different FDE stages, e.g. fetching one while decoding another and executing a third
+Simultaneously processing multiple instructions at different FDE stages — what technique is this? | Pipelining
+What is the Program Counter (PC)? | A register that stores the address of the next instruction to execute
+A register that stores the address of the next instruction to execute — what is this? | Program Counter (PC)
+What are registers? | Small, fast memory cells in the CPU that temporarily store data and control information
+Small, fast CPU memory cells that temporarily store data and control information — what are these? | Registers
+What is Von Neumann architecture? | An architecture where a single control unit manages program control via a linear FDE sequence, with data and instructions stored in the same memory
+An architecture using a single control unit, a linear FDE sequence, and shared memory for data and instructions — what is this? | Von Neumann architecture
+What is a CISC processor? | A processor design that can execute a series of tasks in a single complex instruction built into hardware
+A processor design with complex instructions that each execute multiple tasks, built into hardware — what is this? | CISC (Complex Instruction Set Computer)
+What is a GPU? | A specialised processing unit with a large number of small cores for efficient parallel computation in tasks like graphics and machine learning
+A specialised processing unit with many small cores for efficient parallel computation — what is this? | GPU (Graphic Processing Unit)
+What is a multicore system? | A single processor chip containing several CPU cores to distribute workload
+A single processor chip containing several CPU cores to distribute workload — what is this? | Multicore system
+What is a parallel processing system? | A system that splits a job into subtasks which are carried out simultaneously by different cores
+A system that splits jobs into subtasks executed simultaneously by different cores — what is this? | Parallel processing system
+What is a RISC processor? | A simpler processor design that executes one simple instruction per clock cycle
+A simpler processor design executing one simple instruction per clock cycle — what is this? | RISC (Reduced Instruction Set Computer)
+What is flash storage? | A solid-state technology that stores data on memory chips with no moving parts
+Solid-state storage technology using memory chips with no moving parts — what is this? | Flash storage
+What are input devices? | Peripheral devices that allow the user to pass readable data into a computer, where it is decoded and sent to the CPU
+Peripheral devices that accept user data, decode it, and send it to the CPU — what are these? | Input devices
+What is magnetic storage? | Storage that uses the polarisation of magnetic particles on a mechanically moved magnetic material. Offers high capacity at low cost
+Storage using polarised magnetic particles on a mechanically moved material, with high capacity and low cost — what is this? | Magnetic storage
+What is optical storage? | Storage where data is represented as pits and lands on a surface, read and written by a laser
+Storage using pits and lands on a surface, read and written by a laser — what is this? | Optical storage
+What are output devices? | Peripheral devices that convert signals from a computer into a human-readable form
+Peripheral devices that convert computer signals into human-readable form — what are these? | Output devices
+What is RAM? | Volatile memory used to store programs and data currently in use, with fast access times. Data is lost when powered off
+Volatile memory that stores programs and data in use, with fast access but lost when powered off — what is this? | RAM (Random Access Memory)
+What is ROM? | Non-volatile memory that permanently stores information needed to boot and run the computer. Cannot be written to
+Non-volatile, read-only memory that permanently stores boot and startup information — what is this? | ROM (Read-Only Memory)
+What is a storage device? | Any medium on which data can be stored even when powered off
+Any medium that retains stored data even when powered off — what is this? | A storage device
+What is virtual storage? | Using the hard disk as an extension of memory to free up RAM for current programs
+Using the hard disk as an extension of memory to free up RAM — what is this? | Virtual storage
+How does Harvard architecture differ from Von Neumann? | Harvard stores data and instructions in separate memories allowing simultaneous access. Von Neumann uses shared memory and processes instructions sequentially through one control unit
+How does CISC differ from RISC? | CISC has complex multi-task instructions, uses less RAM, but cannot pipeline. RISC has simple single-instruction-per-cycle design, uses more RAM, but supports pipelining
+How does the MAR differ from the MDR? | MAR stores the memory address of data or instructions to access. MDR temporarily stores the actual data being transferred to or from memory
+How does RAM differ from ROM? | RAM is volatile, stores data and programs in use, and can be written to. ROM is non-volatile, permanently stores boot information, and is read-only

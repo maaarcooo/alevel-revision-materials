@@ -1,0 +1,82 @@
+What is a truth table? | A table showing every possible combination of inputs and the corresponding output for a Boolean expression or logic gate
+How many rows does a truth table have for n inputs? | 2^n rows (e.g. 2 inputs = 4 rows, 3 inputs = 8 rows)
+What is the order of precedence for evaluating Boolean expressions? | Brackets, NOT, AND, OR (highest to lowest)
+How does Boolean logic differ from Boolean algebra? | Boolean logic is the principles of logic based on binary values; Boolean algebra is a mathematical system used to manipulate and simplify Boolean expressions
+What does an AND gate output? | 1 only when both inputs are 1, otherwise 0
+What is the formal name for the AND operation in Boolean logic? | Conjunction
+The Boolean operation that outputs 1 only when both inputs are 1 — what is this called? | Conjunction (AND)
+What is the Boolean symbol for AND? | ∧ (or dot notation: A.B)
+What does an OR gate output? | 1 if at least one input is 1, 0 only when both inputs are 0
+What is the formal name for the OR operation in Boolean logic? | Disjunction
+The Boolean operation that outputs 1 if at least one input is 1 — what is this called? | Disjunction (OR)
+What is the Boolean symbol for OR? | ∨ (or plus notation: A+B)
+What does a NOT gate do? | Inverts the truth value of its single input (0 becomes 1, 1 becomes 0)
+What is the formal name for the NOT operation? | Negation
+The Boolean operation that inverts a single input value — what is this called? | Negation (NOT)
+What is the Boolean symbol for NOT? | ¬ (or an overbar above the variable)
+How many inputs does a NOT gate take, compared to AND, OR, and XOR? | One input (AND, OR, and XOR each take two)
+What does an XOR gate output? | 1 when exactly one input is 1, 0 when both inputs are the same
+What is the formal name for the XOR operation? | Exclusive disjunction
+The Boolean operation that outputs 1 only when exactly one input is 1 — what is this called? | Exclusive disjunction (XOR)
+What is the Boolean symbol for XOR? | ⊕
+How does XOR differ from OR? | XOR outputs 0 when both inputs are 1, whereas OR outputs 1. They are identical for all other input combinations
+What is X AND 0? | 0
+What is X AND 1? | X
+What is X AND X? | X
+What is (NOT X) AND X? | 0
+What is X OR 0? | X
+What is X OR 1? | 1
+What is X OR X? | X
+What is (NOT X) OR X? | 1
+What is a Karnaugh map used for? | Simplifying Boolean expressions by visually grouping terms with common factors
+What encoding must be used for row and column headings in a Karnaugh map? | Gray code, where adjacent headings differ by exactly one bit, including wraparound
+What is the 2-bit Gray code sequence used in Karnaugh map headings? | 00, 01, 11, 10
+What shapes and sizes can groups be in a Karnaugh map? | Rectangles where each side is a power of 2 (valid group sizes: 1, 2, 4, or 8 cells)
+What is the overlapping rule for groups in a Karnaugh map? | Groups can overlap, and overlapping is encouraged to maximise group sizes
+What is the wraparound rule in a Karnaugh map? | The map wraps around in all directions, so the first and last columns (and rows) are considered adjacent
+What is the goal when grouping 1s in a Karnaugh map? | Cover all 1s using as few groups as possible, with each group as large as possible
+How do you derive a simplified term from a single group in a Karnaugh map? | Identify the variables that remain constant across all cells in the group; those variables (in their constant form) make up the simplified term
+How are the terms from each group in a Karnaugh map combined into the final expression? | They are ORed together to produce the simplified sum-of-products expression
+How many variables can a Karnaugh map handle at A Level? | Two, three, or four variables
+Why is it desirable to simplify Boolean expressions? | Shorter expressions require fewer logic gates, reducing circuit complexity and cost
+What does it mean for two Boolean expressions to be equivalent? | They produce identical outputs for every possible input combination (same truth table)
+State De Morgan's first law | ¬(A ∧ B) ≡ ¬A ∨ ¬B — the negation of a conjunction equals the disjunction of the negations
+State De Morgan's second law | ¬(A ∨ B) ≡ ¬A ∧ ¬B — the negation of a disjunction equals the conjunction of the negations
+When applying De Morgan's laws, what two changes are made inside the negation? | Each literal is negated, and the operator is swapped (AND becomes OR, OR becomes AND)
+Why is De Morgan's law useful in digital circuit design? | It allows circuits to be built using only NAND or only NOR gates, simplifying hardware construction
+State the distributive law for AND over OR | A ∧ (B ∨ C) ≡ (A ∧ B) ∨ (A ∧ C)
+State the distributive law for OR over AND | A ∨ (B ∧ C) ≡ (A ∨ B) ∧ (A ∨ C)
+State the associative law for AND | (A ∧ B) ∧ C ≡ A ∧ (B ∧ C) ≡ A ∧ B ∧ C
+State the associative law for OR | (A ∨ B) ∨ C ≡ A ∨ (B ∨ C) ≡ A ∨ B ∨ C
+What does the associative law allow you to do in Boolean algebra? | Remove or rearrange brackets without changing the expression's truth value
+State the commutative law for Boolean expressions | A ∧ B ≡ B ∧ A and A ∨ B ≡ B ∨ A — the order of operands does not matter
+What does the double negation law state? | Negating a variable twice returns the original value: ¬¬A ≡ A
+State the absorption laws in Boolean algebra | A ∨ (A ∧ B) ≡ A and A ∧ (A ∨ B) ≡ A
+What is a flip-flop? | A logic circuit that can store the value of one bit of data
+A logic circuit that stores one bit of data — what type of circuit is this? | A flip-flop
+What type of circuit is a D-type flip-flop classified as? | A bistable circuit (it has two stable states)
+What are the two inputs of a D-type flip-flop? | A data input (D) and a clock input (CLK)
+What are the two outputs of a D-type flip-flop? | Q (the stored value) and NOT Q (its complement)
+When can the output of a D-type flip-flop change? | Only on the rising edge of the clock signal (positive edge triggered)
+What happens at the rising edge of the clock in a D-type flip-flop? | The output Q takes the current value of input D and holds it until the next rising edge
+What is a rising edge of a clock signal? | The transition from low (0) to high (1) in a clock pulse
+What is a falling edge of a clock signal? | The transition from high (1) to low (0) in a clock pulse
+What is a clock signal in computing? | A regular electronic pulse generated by the CPU, used to coordinate and synchronise the computer's components
+What type of logic gates is a D-type flip-flop typically built from? | Four NAND gates
+What is a NAND gate? | An AND gate with its output inverted; outputs 0 only when both inputs are 1, otherwise outputs 1
+How can multiple flip-flops be used together? | Sets of flip-flops can be combined to form registers for storing multi-bit values
+Name three applications of D-type flip-flops | Shift registers, counters, and memory units
+What is a half adder? | A logic circuit that adds two single-bit binary inputs, producing a Sum (S) and a Carry (C) output
+A logic circuit that adds two single-bit inputs and produces Sum and Carry outputs — what is this? | A half adder
+What logic gates make up a half adder? | An XOR gate (for Sum) and an AND gate (for Carry)
+In a half adder, how is the Sum output calculated? | S = A ⊕ B (A XOR B)
+In a half adder, how is the Carry output calculated? | C = A ∧ B (A AND B)
+What is a full adder? | A logic circuit that adds three single-bit inputs (A, B, and Carry in), producing a Sum and a Carry out
+How does a full adder differ from a half adder? | A full adder has an additional Carry in (Cin) input, allowing it to handle carries from a previous stage. A half adder has only two inputs and no carry input
+What logic gates make up a full adder? | Two XOR gates, two AND gates, and one OR gate
+How many rows does a full adder truth table have? | Eight rows (three inputs give 2^3 = 8 combinations)
+In a full adder, when is the Carry out (Cout) equal to 1? | When at least two of the three inputs (A, B, Cin) are 1
+In a full adder, what is the Sum output equivalent to? | A ⊕ B ⊕ Cin (the XOR of all three inputs)
+How can a full adder be constructed from simpler components? | Two half adders connected together with an OR gate combining their carry outputs
+What is a ripple adder? | A chain of full adders where the Carry out of each stage feeds into the Carry in of the next, enabling multi-bit binary addition
+How many full adders are needed to add two n-bit binary numbers? | n full adders (e.g. four full adders for two 4-bit numbers)

@@ -5,20 +5,24 @@ Any data that can be used to identify a living person — what term is this? | P
 What is a data subject? | An individual who can be identified by personal data
 An individual who can be identified by personal data — what term is this? | Data subject
 How many Data Protection Principles does the DPA contain? | Eight
-State DPA Principle 1 | Personal data shall be processed fairly and lawfully
-State DPA Principle 2 | Personal data shall be obtained only for one or more specified and lawful purposes
-State DPA Principle 3 | Personal data shall be adequate, relevant, and not excessive for its purpose
-State DPA Principle 4 | Personal data shall be accurate and where necessary kept up to date
-State DPA Principle 5 | Personal data shall not be kept for longer than is necessary for its purpose
-State DPA Principle 6 | Personal data shall be processed in accordance with the rights of data subjects under the Act
-State DPA Principle 7 | Appropriate technical and organisational measures shall be taken against unauthorised or unlawful processing and against accidental loss, destruction, or damage of personal data
-State DPA Principle 8 | Personal data shall not be transferred outside the European Economic Area unless the destination country ensures an adequate level of data protection
+What does the DPA require about the way personal data is processed? | It must be processed fairly and lawfully
+What does the DPA require about the purposes personal data is obtained for? | It may be obtained only for one or more specified and lawful purposes
+A company collects a phone number for delivery updates, then uses it for marketing. Which DPA requirement is broken? | Data may be obtained only for specified purposes, so it cannot be used for anything other than what was stated
+What does the DPA require about the amount of personal data held? | It must be adequate, relevant and not excessive for its purpose
+A bank asks about a customer's previous holidays when opening an account. Which DPA requirement is broken? | Data must be adequate, relevant and not excessive, so data that is not needed cannot be requested
+What does the DPA require about the accuracy of personal data? | It must be accurate and, where necessary, kept up to date
+What does the DPA require about how long personal data is kept? | It must not be kept for longer than is necessary for its purpose
+What does the DPA require about the rights of data subjects? | Personal data must be processed in accordance with the rights the Act gives to data subjects
+What does the DPA require about the security of personal data? | Appropriate technical and organisational measures must be taken against unauthorised processing and against accidental loss or damage
+What does the DPA require about sending personal data abroad? | It must not be transferred outside the European Economic Area unless the destination has an adequate level of data protection
 Name the three exemptions from the Data Protection Act | Domestic purposes, law enforcement, intelligence services processing
 Under the DPA, what is the domestic purposes exemption? | If personal data is used only for personal activities such as writing to friends or taking photos for enjoyment, the DPA does not apply
+Why is law enforcement exempt from the DPA? | So that someone suspected of a crime cannot ask to see the evidence held about them
 What is a Data Controller? | A member of staff appointed by a company to ensure the Data Protection Principles are not breached and to communicate with the Information Commissioner
 What is a Subject Access Request (SAR)? | A request by a data subject for a copy of all the personal data a company holds on them
 A request by a data subject for a copy of all personal data held on them — what is this called? | Subject Access Request (SAR)
 What must a company do before responding to a Subject Access Request? | Verify the identity of the data subject, then send the data copy securely
+Name three rights the DPA gives a data subject | To see a copy of the data held about them, to have inaccurate data corrected, and to prevent their contact details being used for marketing
 What is the right to data portability under data protection law? | The right of a data subject to obtain and reuse their personal data across different services
 What is the right to be forgotten under data protection law? | The right of a data subject to have their personal data deleted in certain circumstances
 What right do data subjects have regarding automated decisions? | The right to challenge automated decision making and profiling
@@ -29,7 +33,9 @@ A law concerning the malicious use of computers — what act is this? | The Comp
 What is offence 1 under the Computer Misuse Act? | Unauthorised access to computer materials
 What is offence 2 under the Computer Misuse Act? | Unauthorised access with intent to commit further offences
 What is offence 3 under the Computer Misuse Act? | Unauthorised modification of computer material
-How do CMA offences 2 and 3 differ? | Offence 2 is accessing a system without authorisation intending to commit further offences (e.g. accessing a markbook to change grades); offence 3 is actually carrying out the unauthorised modification
+A student uses a teacher's password to open the teacher's files. Which Computer Misuse Act offence is this? | Unauthorised access to computer materials
+A student opens a teacher's markbook intending to raise their mark, but changes nothing. Which Computer Misuse Act offence is this? | Unauthorised access with intent to commit further offences
+A student opens a teacher's markbook and raises their own mark. Which Computer Misuse Act offence is this? | Unauthorised modification of computer material
 How do penalties compare across the three CMA offences? | They become progressively more severe from offence 1 to 3, with each punishable by imprisonment
 What is the Copyright, Designs and Patents Act 1988? | A law that protects the intellectual property of individuals and companies, making it illegal to copy, modify, or distribute work without permission
 A law protecting intellectual property and making it illegal to copy, modify, or distribute work without permission — what act is this? | The Copyright, Designs and Patents Act 1988
@@ -37,11 +43,15 @@ When does copyright apply to an original work under the CDPA? | Automatically fr
 How long does copyright last under the CDPA? | 25 to 70 years after the death of the creator, depending on the type of work
 Who is responsible for taking action if work is copied under the CDPA? | The individual whose work has been copied
 How were computer programs affected by the 1992 amendment to the CDPA? | They were classified as a type of literary work, meaning copyright automatically applies to code
-What are primary breaches of the CDPA? | Acts that directly infringe copyright: copying an original work, issuing copies to the public, renting or lending copies, performing or showing the work in public, or making an adaptation
-What are secondary breaches of the CDPA? | Acts that facilitate infringement: importing copies, possessing or dealing with copies, providing means to make copies, permitting premises to be used for copying, or providing equipment for a performance of a copy
+What is a primary breach of the CDPA? | Directly infringing copyright, e.g. copying a work, issuing copies to the public or performing it in public
+What is a secondary breach of the CDPA? | Helping infringement to take place, e.g. importing copies, dealing in them or providing the means to make them
+Why does sharing copyrighted films or music over a peer-to-peer network breach the CDPA? | The work is copied and distributed without permission, so the copyright owner loses the income from it
 What is the Regulation of Investigatory Powers Act 2000? | A law that covers investigation, surveillance, and interception of communication by public bodies
 A law covering investigation, surveillance, and interception of communication by public bodies — what act is this? | The Regulation of Investigatory Powers Act 2000 (RIPA)
-What three activities does RIPA regulate? | Investigation, surveillance, and interception of communication
 What condition must be met before a public body can intercept online communications under RIPA? | A warrant must be issued
 What does RIPA require of ISPs and mobile phone companies? | To give up information on request from an authorised authority and to have sufficient hardware installed on their networks to facilitate surveillance
 Why is RIPA considered controversial? | Its powers extend to small agencies like local councils, and some people view it as an invasion of privacy or believe it is used improperly
+Which Act is broken if a company keeps customers' personal data for longer than it needs? | The Data Protection Act 1998
+Which Act makes it an offence to guess a colleague's password and read their files? | The Computer Misuse Act 1990
+Which Act is broken by sharing a downloaded film with other people without permission? | The Copyright, Designs and Patents Act 1988
+Which Act allows the security services to intercept communications once a warrant has been issued? | The Regulation of Investigatory Powers Act 2000

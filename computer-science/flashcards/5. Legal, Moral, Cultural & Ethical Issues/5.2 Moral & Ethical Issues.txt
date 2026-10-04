@@ -1,14 +1,16 @@
-What is the difference between ethics and morals? | Ethics are concerned with community values and how they impact different groups in society. Morals are a personal code of conduct governing how an individual chooses to behave
+How do ethics differ from morals? | Ethics concern the values of a community and their effect on groups in society, while morals are an individual's personal code of conduct
 Community values and how they impact different groups in society — what term describes this? | Ethics
 A personal code of conduct governing how an individual chooses to behave — what term describes this? | Morals
 Give two advantages of computers in the workforce | They improve efficiency (e.g. reducing delivery times, speeding up manufacturing) and reduce strain on workers by removing repetitive and tedious tasks
 What type of unemployment has computerisation created? | Structural unemployment, as workers' existing skills no longer match the jobs available
 Which type of jobs has computerisation hit hardest? | Middle-income manufacturing jobs, where entire production lines have been replaced by robots
+What shift in types of job has followed the automation of manufacturing? | A shift from middle-income manufacturing jobs towards low-income service jobs
 Why might structural unemployment from computerisation not be long-term? | Higher consumer demand from cheaper services may create employment in other sections of the business
 What must governments invest in to reduce the effects of computerisation on jobs? | Retraining programmes so people are able to change occupation
 What is a major risk of high dependence on computers in the workplace? | If something goes wrong, there will be a major loss of output
 How has increased computerisation affected demand for computing-related occupations? | Demand has increased for roles such as software developers, network engineers, and web developers
 How have online services (e.g. shopping, banking) affected employment? | They reduced the need for front-facing retail staff and bank clerks but increased demand for delivery drivers and web developers
+How do services offered only online cut a business's costs? | There are no physical premises to rent and fewer staff are needed
 How can computers in remote work settings create ethical issues? | They may blur the boundaries between work and personal life, impacting work-life balance and well-being
 How does the digital divide relate to computers in the workforce? | Increasing reliance on computers exacerbates inequality between those with access to technology and those without, hindering education, employment, and economic advancement
 What is automated decision making? | The process of using algorithms and computer systems to make decisions without direct human intervention, based on data analysis, pattern recognition, and predefined rules
@@ -16,11 +18,12 @@ Give three applications of automated decision making | Credit scoring and loan a
 How is automated decision making used in social media? | Algorithms determine what users see on their feeds based on their interactions and inferred interests
 What is the concern with social media feeds tailored solely to users' interests? | It creates a filter bubble in which beliefs are never challenged, leading to a close-minded society
 Why might relying entirely on algorithms for decisions about loans or jobs be unfair? | Algorithms do not consider extenuating circumstances and lack the contextual understanding that humans can provide
+How can automated decision making in driverless cars save lives? | Decisions are made faster than a human is able to react
 Why can algorithms not be assumed to be free of bias? | They are designed by software developers who may have biases, and they are trained on data that may itself contain biases
 What does it mean for an algorithm to be a "black box"? | The decision-making process is opaque so the reasoning behind decisions cannot be seen or justified
 Why is human input essential alongside automated decision making? | To ensure fairness, consider contextual factors, and provide accountability that algorithms alone cannot guarantee
 What ethical dilemma arises from algorithmic decision-making in driverless cars? | If a scenario arises where either a pedestrian or the driver must be harmed, the algorithm must decide who, raising questions about responsibility for the consequences
-What happened with Amazon's AI recruitment tool? | It was trained on 10 years of mostly male applicant data, taught itself male candidates were preferable, and began penalising CVs containing the word "women" — Amazon abandoned the project
+What does Amazon's abandoned AI recruitment tool show about automated decisions? | Trained on ten years of mostly male applications, it learned to prefer men and penalised CVs containing the word women, so biased data gives biased decisions
 What does algorithmic transparency mean? | Making automated decision-making algorithms interpretable and understandable so they can be held accountable and hidden biases can be prevented
 How is automated decision making used in financial markets? | Algorithms execute buy and sell orders based on predefined trading strategies, with high-frequency trading capitalising on market fluctuations faster than humans can react
 How is automated decision making used in manufacturing? | Automated systems analyse sensor data from machines to predict potential failures and schedule maintenance proactively, reducing downtime and costs
@@ -30,15 +33,16 @@ A knowledge base of facts and rules combined with an inference engine to replica
 What are neural networks in AI? | Systems that replicate biological neural networks by learning from a given data set and applying that knowledge to new data sets, used in pattern detection and financial fraud identification
 Give an example of AI in healthcare | AI can analyse medical images (e.g. breast cancer screening) to detect diseases or anomalies at a rate similar to human radiologists
 What privacy concern arises from voice recognition systems like Google Home and Alexa? | They must be constantly switched on to function, raising concerns about continuous surveillance of private conversations
-What accountability question does AI raise? | Who is responsible when an AI system makes an error — the AI system itself, its developers, or the user (e.g. the treating physician)?
+What accountability question does AI raise? | Who is responsible when an AI system makes an error: the AI system itself, its developers, or the user (e.g. the treating physician)?
+What question would arise if AI were ever considered sentient? | What rights it should have
 Why may AI algorithms show bias? | If trained on biased datasets, the AI inadvertently learns and reproduces those biases, leading to discrimination against certain demographic groups
-What was the UNESCO Recommendation on the Ethics of AI? | The first global standard on AI ethics, adopted by all 193 member states in November 2021
 What concern do artists have about AI training data? | Their work is being used without consent to train AI systems, leading to potential copyright infringements and lawsuits against AI firms
-What is the COMPAS AI program? | A program used in the US judicial system to predict a defendant's potential for future criminal behaviour using undisclosed factors to generate a risk score
+Why is the use of AI risk scores in the US justice system (COMPAS) criticised? | The factors behind a defendant's score are not disclosed, and the scores may reflect bias in the data the system was trained on
 What debate does AI-generated art raise? | Questions about the authenticity and originality of AI-generated works, and whether artistic merit should be attributed to AI systems
 What is e-waste? | Discarded electronic or electrical devices
 Discarded electronic or electrical devices — what term is this? | E-waste (electronic waste)
-What toxic elements can e-waste contain? | Lead, mercury, cadmium, and radioactive isotopes
+Why has cheaper technology led to more e-waste? | Devices are affordable and people replace them often to keep up with trends, so more are thrown away
+What toxic materials can e-waste contain? | Lead, mercury and radioactive isotopes, which can contaminate water supplies
 Why is shipping e-waste to developing countries considered immoral? | These countries often have lower environmental standards, exposing local communities to toxic contamination
 State three steps for proper e-waste management | Reduce and reuse devices, recycle to recover valuable materials, and dispose at designated facilities equipped to handle toxic materials safely
 Why should personal data be erased before disposing of a device? | To protect privacy and prevent personal information from being accessed by others
@@ -46,40 +50,42 @@ How does increased computerisation contribute to climate change? | More electric
 Give two examples of environmentally-friendly technologies that offset computing's environmental impact | Smart home systems using temperature and motion sensors to control heating and lighting, and sleep/standby features on computers that reduce energy consumption
 Why do lower-income communities bear a disproportionate burden of environmental effects from computing? | They are more likely to be near e-waste disposal sites and pollution sources, and have less access to energy-efficient technologies and recycling facilities
 What is internet censorship? | The control or suppression of information, ideas, or content available online, carried out by governments, organisations, or ISPs to restrict access to specific websites or platforms
-Give four reasons for internet censorship | Protecting national security, restricting harmful content (e.g. hate speech, child exploitation), preserving cultural norms, and combating disinformation
+Give three reasons for internet censorship | Protecting national security, restricting harmful content such as hate speech, and combating disinformation
 In the UK, what type of content do ISPs block? | Content associated with terrorism and extremist political beliefs
 What is the fear about censorship being misused? | That it could be used to block out alternative political beliefs and push a particular ideology rather than genuinely protecting the country
 What concept did Tim Berners-Lee intend when creating the internet? | A free space where people could share and mutually benefit from resources, in line with the principle of freedom of speech
 Give two examples of censorship at a smaller scale | Schools blocking material deemed unsuitable for pupils, and workplaces restricting access to maintain productivity and prevent distractions
 How can censorship exacerbate the digital divide? | By further widening the gap in access to information and online resources for marginalised communities with restricted internet access
-What did the Proxyrack study find about internet censorship? | The UAE was identified as the world's most censored country (scoring 8.03 out of 10), surpassing North Korea, Iran, China, and Russia
-How does China enforce internet censorship? | Over 66,000 rules govern content on search engines and online platforms, with Microsoft's Bing acting as the most diligent censor among search engines available in China
-Give four methods used to monitor behaviour | CCTV surveillance, tracking phone calls, GPS monitoring, and email monitoring
+Give three methods used to monitor behaviour | CCTV, GPS tracking, and monitoring of phone calls and emails
 Give three reasons for monitoring behaviour | Security and crime prevention, public safety and deterrence, and gathering evidence for law enforcement investigations
 How are ankle monitors used as a surveillance device? | They track the location of people under house arrest to enforce the terms of their sentence
 What moral concern arises from monitoring behaviour? | It can infringe on individuals' right to privacy and challenge personal autonomy by creating feelings of being constantly watched and restricted
+How do employers monitor behaviour in the workplace? | By tracking the websites and applications staff use and the time spent on them, to check productivity
+What is the argument for surveillance measures such as CCTV and ankle monitors? | They deter people from committing crime and help to trace and punish those who do
 How can mass surveillance affect social norms? | It may promote self-censorship and create a fear of expressing dissenting opinions, stifling open dialogue
 What does the ethical principle of minimisation and purpose limitation require for monitoring? | That the collection of unnecessary data is minimised and its use is limited to the intended purposes only
-What happened in the Karlee Besse monitoring case? | Tracking software (TimeCamp) found she had falsely reported her work hours, and she was ordered to repay £1506.66 to her former employer
-What is data mining? | The process of extracting patterns from large data sets to reveal previously unknown connections, used for targeted advertising, political propaganda, and identifying trends
+How is data mining used on personal information? | Patterns are extracted from large sets of personal data and used for targeted advertising, personalised political messaging and spotting trends
 Large amounts of data from a number of sources that can be analysed to make inferences about people's behaviour — what is this called? | Big data
-Give an ethical concern about data mining applied to personal information | Insights could act against individuals — e.g. an insurance company discovering someone is at high risk of a disease and denying them coverage or charging a higher premium
+Give an ethical concern about data mining applied to personal information | Insights could act against individuals: e.g. an insurance company discovering someone is at high risk of a disease and denying them coverage or charging a higher premium
+What ethical question arises when a company's data analysis uncovers a risk to an individual? | Whether the company has a responsibility to pass that information back to the person concerned
+Why are large firms under pressure to be more transparent about data collection? | Although they must state what data they collect, it is often not obvious to users what is gathered or what it will be used for
 Why was the GDPR enforced from May 2018? | The Data Protection Act 1998 was no longer sufficient to protect public welfare given how companies now collect and use personal data
 What moral obligation exists when analysing personal information? | Obtaining informed consent before gathering, storing, and analysing personal information, respecting individuals' autonomy to control information about themselves
 What cultural risk exists in data analysis? | Certain cultural groups may be underrepresented in data sets, leading to biased outcomes that do not fairly represent all populations
 What is piracy in computing? | The unauthorised use, distribution, or reproduction of copyrighted material such as software, music, films, or eBooks
+How has the Internet affected piracy? | It has made copyrighted content easier than ever to find and share, e.g. through peer-to-peer networks and download sites
 Give three types of software piracy | Counterfeiting, internet piracy, and end-user piracy
 Why is piracy sometimes controversially argued to democratise access? | In regions with economic or geographic constraints, copyrighted materials might otherwise be completely inaccessible
 What economic impact can piracy have on creators? | Significant revenue loss, as consumers access pirated content instead of purchasing it legally, which can also lead to job losses in creative industries
 What is offensive communication? | Any form of online harassment, including cyber-bullying or stalking, facilitated by the seemingly anonymous nature of the internet
-What does the Malicious Communications Act 1998 make illegal? | Sending indecent or offensive messages to anyone online — it is a criminal offence traceable by law enforcement
-What happened in the Napster and Metallica case? | In 2000, Metallica sued Napster for copyright infringement after their single was leaked on the platform. Napster settled in 2001 and shut down its free file-sharing system
-How did Steve Jobs view the cause of music piracy? | As a service issue, not a pricing issue — people pirated music because there was no convenient legal way to get it digitally, which led to the creation of iTunes
+What does the Malicious Communications Act 1988 make illegal? | Sending indecent or offensive messages, which is a criminal offence that can be traced by law enforcement
 Why must web developers consider reading direction when designing layouts? | Languages like Arabic and Hebrew read right to left, so menus and navigation elements must be placed on the right-hand side rather than the left
+Why is a clear, easily navigated layout especially important for an online store? | A site that is easy to use attracts more customers
 What does bi-directional text support mean? | The ability of a program to accommodate both left-to-right and right-to-left reading directions to ensure usability across different cultures
 Give three ways websites can be made accessible to users with disabilities | Providing alt text for images, offering a screen magnifier option, and including transcripts for audio files
 What does the Equality Act 2010 require regarding digital services? | It makes it illegal to discriminate against providing a service to a certain group of people, meaning websites must be accessible to all users
 Why must developers consider colour meanings across cultures? | Colours hold different meanings in different cultures (e.g. white signifies mourning in the Middle East but purity in Western cultures), and inappropriate choices could cause misunderstanding or offence
+Why is green often chosen for websites with an international audience? | It represents luck and nature, so it has positive connotations in most cultures
 What is a colour paradigm in UX design? | The systematic use of colours to elicit specific responses from users, such as blue for trust and stability or red for urgency and importance
 Why is Unicode preferred over ASCII for international websites? | ASCII uses only 7 bits and cannot represent all characters in languages like Chinese, while Unicode can represent over a million characters across most of the world's writing systems
 What is localisation in software development? | Adapting applications to different languages and regions without requiring engineering changes

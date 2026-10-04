@@ -6,20 +6,23 @@ What is the range of the weak force? | Up to $10^{-18}$ m
 What is the range of the strong force? | Approximately $10^{-15}$ m
 What property must particles have to be affected by the gravitational interaction? | Mass
 What property must particles have to be affected by the electromagnetic interaction? | Charge
-Which fundamental interaction affects all particles? | The weak interaction
+Which particles are affected by the weak interaction? | All hadrons and all leptons
 Which particles are affected by the strong interaction? | Hadrons only (particles made of quarks)
 Why does gravity not play a part in particle interactions? | It is so weak that it only has a noticeable effect on large masses, not individual particles
 What are exchange particles? | Virtual particles that exist briefly to carry (mediate) the fundamental force between interacting particles
 Virtual particles that exist briefly to mediate the fundamental force between interacting particles — what term is this? | Exchange particles (also called gauge bosons)
 What is the exchange particle of the strong interaction between nucleons? | Pion ($\pi^+$, $\pi^-$, $\pi^0$)
 What is the exchange particle of the strong interaction between quarks? | Gluon
+How do pions and gluons differ as exchange particles? | Pions carry the strong nuclear force between nucleons, while gluons carry the strong interaction between quarks
 What are the exchange particles of the weak interaction? | $W^+$ boson, $W^-$ boson, or $Z^0$ boson
+Why are beta decays caused by the weak interaction? | A quark changes type, which only the weak interaction can do
 What is the exchange particle of the electromagnetic interaction? | Virtual photon ($\gamma$)
+What is exchanged when two electrons repel each other? | A virtual photon
 What is the theorised exchange particle of the gravitational force? | The graviton (not yet discovered)
 State three properties of the photon | No mass, no charge, and it is its own antiparticle
 Why can leptons not interact via the strong force? | Leptons are not made of quarks, and the strong force only acts on particles made of quarks (hadrons)
 Explain why the electromagnetic force is responsible for binding electrons to atoms | The attractive force between the negatively charged electrons and the positively charged nucleus holds the electrons in place
-What is the weak interaction responsible for? | The radioactive decay of atoms
+What is the weak interaction responsible for? | Beta decay, electron capture and electron-proton collisions, in which a quark changes type
 Write the equation for $\beta^-$ decay | $n \rightarrow p + e^- + \bar{\nu}_e$
 What is the exchange particle in $\beta^-$ decay? | $W^-$ boson
 Write the equation for $\beta^+$ decay | $p \rightarrow n + e^+ + \nu_e$
@@ -43,9 +46,8 @@ What quantities must be conserved at each vertex of a Feynman diagram? | Charge,
 State the rule about line crossing on Feynman diagrams | Lines must not cross over
 What quark change occurs in $\beta^-$ decay? | A down quark changes to an up quark, converting a neutron (udd) to a proton (uud)
 What quark change occurs in $\beta^+$ decay? | An up quark changes to a down quark, converting a proton (uud) to a neutron (udd)
-What role does the $W^-$ boson play in $\beta^-$ decay at the quark level? | It carries away the negative charge of the down quark, providing the charge for the electron and anti-neutrino
-What role does the $W^+$ boson play in $\beta^+$ decay at the quark level? | It carries away the positive charge of the up quark, providing the charge for the positron
+What role does the $W^-$ boson play in $\beta^-$ decay at the quark level? | It carries negative charge away from the down quark as it becomes an up quark, then decays into the electron and the electron antineutrino
+What role does the $W^+$ boson play in $\beta^+$ decay at the quark level? | It carries positive charge away from the up quark as it becomes a down quark, then decays into the positron and the electron neutrino
 Which quantities are always conserved in particle interactions? | Charge (Q), baryon number (B), lepton number (L), energy (mass-energy), and momentum
 Which quantity does not need to be conserved in weak interactions? | Strangeness (S); it can change by 0, +1, or $-1$
-What values can quantum numbers such as Q, B, L, and S take? | Discrete values only (e.g. 0, $+1$, $-1$, $+\frac{1}{2}$)
 How do you determine whether a particle interaction is permitted? | Check that each quantum number (Q, B, L, S) is conserved on both sides of the equation; if any is not conserved (except S in weak interactions), the interaction cannot occur

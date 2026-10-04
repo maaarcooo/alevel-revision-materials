@@ -15,27 +15,28 @@ What is the specific charge of the proton? | $9.58 \times 10^{7}$ C kg$^{-1}$
 How is the total charge of an ion determined for a specific charge calculation? | Charge = number of electrons gained or lost $\times$ $1.60 \times 10^{-19}$ C (negative if gained, positive if lost)
 How is the total charge of a nucleus determined for a specific charge calculation? | Charge = number of protons $\times$ $1.60 \times 10^{-19}$ C
 How is the mass determined for a specific charge calculation of an ion or nucleus? | Mass = nucleon number (A) $\times$ $1.67 \times 10^{-27}$ kg
-How does calculating specific charge differ for an ion versus a nucleus? | For an ion, charge comes from the excess or deficit of electrons. For a nucleus, charge comes from the protons only
+Calculate the specific charge of a carbon-12 nucleus ($^{12}_{6}\text{C}$) | $\frac{6 \times 1.60 \times 10^{-19}}{12 \times 1.67 \times 10^{-27}} = 4.8 \times 10^{7}\;\mathrm{C\,kg^{-1}}$
+Why does a neutral atom have a specific charge of zero? | Its total charge is zero, because it has equal numbers of protons and electrons
 In $^A_Z X$ notation, what does A represent? | The nucleon number (mass number): total number of protons and neutrons in the nucleus
 In $^A_Z X$ notation, what does Z represent? | The proton number (atomic number): total number of protons in the nucleus
 Define isotope | Nuclei that have the same number of protons but different numbers of neutrons
 Nuclei that have the same number of protons but different numbers of neutrons — what term describes them? | Isotopes
 For isotopes of the same element, which number is fixed and which changes? | The proton number (Z) is fixed; the nucleon number (A) is different
 Why are some isotopes unstable? | They have an imbalance of neutrons and protons, causing them to decay and emit radiation to reach a more stable form
+How many protons and neutrons are in a nucleus of carbon-14, $^{14}_{6}\text{C}$? | 6 protons and 8 neutrons
 Define isotopic data | The relative amounts of different isotopes of an element present within a substance
 How is the relative atomic mass of an element calculated from isotopic data? | By summing the products of each isotope's mass number and its fractional (or percentage) abundance
 What instrument is used to determine the percentage abundance of different isotopes in a sample? | A mass spectrometer
 How is carbon dating used to determine the age of archaeological artefacts? | By comparing the ratio of stable carbon-12 to unstable carbon-14 in a dead sample with the ratio found in living tissue
 Why would electrostatic and gravitational forces alone be insufficient to hold the nucleus together? | Electrostatic repulsion between protons would push the nucleus apart, and gravitational attraction between nucleons is far too weak (negligible) to overcome it
 What is the strong nuclear force? | An attractive force that acts between all nucleons, holding the nucleus together by overcoming electrostatic repulsion
-The strong nuclear force acts between particles called [...] | quarks (which make up protons and neutrons)
+Between which fundamental particles does the strong interaction act? | Quarks, which make up protons and neutrons
 At what nucleon separation is the strong nuclear force repulsive? | Below approximately 0.5 fm
 Over what range of separations is the strong nuclear force attractive? | From approximately 0.5 fm to 3.0 fm
 At what nucleon separation does the strong nuclear force reach its maximum attractive value? | Approximately 1.0 fm, which is a typical nucleon separation
 At what separation is the equilibrium position of the strong nuclear force between two nucleons (resultant force = 0)? | Approximately 0.5 fm
 How does the strength of the strong nuclear force differ between proton-proton, neutron-neutron, and proton-neutron pairs? | It is roughly the same between all nucleon pairs, because the strong force is not influenced by charge
-How does the range of the strong nuclear force compare to the electrostatic force? | The strong force has a much smaller range (0.5 to 3.0 fm) than the electrostatic force, which becomes significant beyond about 2.5 fm separation
-At what separation is the equilibrium position for two protons, where the strong attractive and electrostatic repulsive forces balance? | Approximately 0.7 fm
+How does the range of the strong nuclear force compare with that of the electrostatic force? | The strong nuclear force only acts up to about 3 fm, whereas the electrostatic force has an infinite range
 What is 1 femtometre (fm) in metres? | $1 \times 10^{-15}$ m
 What is an alpha particle? | Two protons and two neutrons, equivalent to a helium-4 nucleus ($^4_2\text{He}$)
 What type of nucleus commonly undergoes alpha decay? | Large, unstable nuclei with too many nucleons
@@ -43,20 +44,19 @@ In alpha decay, how do the proton number and nucleon number change? | Proton num
 Write the general equation for alpha decay | $^A_Z X \rightarrow \;^{A-4}_{Z-2} Y + \;^4_2 \alpha$
 In radioactive decay, what are the parent nucleus and daughter nucleus? | The parent is the original unstable nucleus; the daughter is the new nucleus formed after decay
 What is a beta-minus ($\beta^-$) particle? | A high-energy electron emitted from the nucleus during radioactive decay
-What happens at the nucleon level during beta-minus decay? | A neutron turns into a proton, emitting an electron ($\beta^-$) and an anti-electron neutrino ($\bar{\nu}_e$)
+Which nuclei undergo beta-minus decay? | Neutron-rich nuclei, which have too many neutrons to be stable
+What happens at the nucleon level during beta-minus decay? | A neutron turns into a proton, emitting an electron ($\beta^-$) and an electron antineutrino ($\bar{\nu}_e$)
 In beta-minus decay, how do the proton number and nucleon number change? | Proton number increases by 1; nucleon number remains the same
 Write the general equation for beta-minus decay | $^A_Z X \rightarrow \;^A_{Z+1} Y + \;^{\;0}_{-1} \beta + \;^0_0 \bar{\nu}_e$
 What is a beta-plus ($\beta^+$) particle? | A high-energy positron emitted from the nucleus during radioactive decay
 What happens at the nucleon level during beta-plus decay? | A proton turns into a neutron, emitting a positron ($\beta^+$) and an electron neutrino ($\nu_e$)
 In beta-plus decay, how do the proton number and nucleon number change? | Proton number decreases by 1; nucleon number remains the same
 Write the general equation for beta-plus decay | $^A_Z X \rightarrow \;^A_{Z-1} Y + \;^0_{+1} \beta + \;^0_0 \nu_e$
-How does beta-minus decay differ from beta-plus decay at the nucleon level? | In $\beta^-$ decay a neutron becomes a proton (emitting an electron and $\bar{\nu}_e$). In $\beta^+$ decay a proton becomes a neutron (emitting a positron and $\nu_e$)
-Which type of neutrino is produced in beta-minus decay? | An anti-electron neutrino ($\bar{\nu}_e$)
+Which type of neutrino is produced in beta-minus decay? | An electron antineutrino ($\bar{\nu}_e$)
 Which type of neutrino is produced in beta-plus decay? | An electron neutrino ($\nu_e$)
 Why was the neutrino hypothesised to exist? | To account for the conservation of energy in beta decay, since beta particles were observed with a continuous range of energies rather than a single fixed value
 What type of energy spectrum do alpha particles have? | Discrete energies (specific fixed values, shown as spikes on a number-versus-energy graph)
-Why do beta particles have a continuous range of energies? | The energy released in beta decay is shared between the beta particle and the neutrino (or anti-neutrino), in varying proportions
-How do the energy spectra of alpha and beta particles differ? | Alpha particles have discrete energies (fixed values). Beta particles have a continuous range of energies because the decay energy is shared with a neutrino
+Why do beta particles have a continuous range of energies? | The energy released in beta decay is shared between the beta particle and the neutrino (or antineutrino), in varying proportions
 What is an antiparticle? | The antimatter counterpart of a particle, with the same mass and rest mass-energy but opposite charge
 A particle's counterpart with the same mass and rest mass-energy but opposite charge — what is this called? | An antiparticle
 What is the antiparticle of the electron? | The positron ($e^+$)
@@ -66,11 +66,13 @@ What is the rest mass-energy of a proton (or antiproton)? | 938.257 MeV
 What is the rest mass-energy of a neutron (or antineutron)? | 939.551 MeV
 What is the rest mass-energy of an electron (or positron)? | 0.511 MeV
 What is the rest mass-energy of a neutrino (or antineutrino)? | Zero
+How is an energy in MeV converted to joules? | Multiply by $1.60 \times 10^{-13}$, since 1 MeV is $10^{6} \times 1.60 \times 10^{-19}$ J
 Define a photon | A massless packet (quantum) of electromagnetic energy
 A massless packet (quantum) of electromagnetic energy — what is this called? | A photon
 What is the equation for the energy of a photon in terms of frequency? | $E = hf$
 What is the equation for the energy of a photon in terms of wavelength? | $E = \frac{hc}{\lambda}$
-How is photon energy related to wavelength? | Inversely proportional — a longer wavelength means a lower photon energy
+What is the value of the Planck constant, $h$? | $6.63 \times 10^{-34}$ J s
+How is photon energy related to wavelength? | Inversely proportional: a longer wavelength means a lower photon energy
 Define annihilation | The destruction of a particle-antiparticle pair when they collide, converting their mass into two gamma-ray photons emitted in opposite directions
 The destruction of a particle-antiparticle pair when they collide, converting their mass into two gamma-ray photons — what process is this? | Annihilation
 Why are two photons produced in annihilation, emitted in opposite directions? | To conserve momentum
@@ -78,5 +80,6 @@ What is the minimum energy of each photon produced in annihilation? | The rest m
 Define pair production | The creation of a particle-antiparticle pair when a high-energy photon spontaneously converts its energy into mass near a nucleus
 The creation of a particle-antiparticle pair from a high-energy photon near a nucleus — what process is this? | Pair production
 What is the minimum photon energy required for pair production? | Twice the rest mass-energy of one of the particles produced: $E_{min} = hf_{min} = 2E_0$
+What is the minimum photon energy needed to produce an electron-positron pair? | $2 \times 0.511 = 1.022$ MeV
+Why does pair production take place near a nucleus? | The nucleus takes away some momentum, so that momentum is conserved
 Why do the particle and antiparticle produced in pair production move in opposite directions? | To conserve momentum
-How does the minimum energy condition differ between annihilation and pair production? | In annihilation, each of the two photons produced has minimum energy equal to one particle's rest mass-energy ($E_0$). In pair production, the single incoming photon must have minimum energy equal to $2E_0$

@@ -1,43 +1,58 @@
-What is uncertainty in a measurement? | An estimate of the difference between a measurement reading and the true value
-An estimate of the difference between a measurement reading and the true value — what term is this? | Uncertainty
-What are random errors? | Unpredictable fluctuations in readings caused by uncontrollable factors such as environmental conditions
-Which property of measurements do random errors affect? | Precision — they cause a wider spread of results about the mean value
+What is the uncertainty in a measurement? | The interval within which the true value can be expected to lie, e.g. $20 \pm 2\;^{\circ}\mathrm{C}$
+The interval within which the true value of a measurement can be expected to lie — what term is this? | Uncertainty
+What are random errors? | Errors that make readings vary unpredictably from one measurement to the next, scattering them above and below the true value
+Which property of measurements do random errors affect? | Precision: they cause a wider spread of results about the mean value
 How can random errors be reduced? | Repeat measurements several times and calculate an average from them
-What are systematic errors? | Errors arising from faulty instruments or flaws in the experimental method that are repeated consistently every time
-Which property of measurements do systematic errors affect? | Accuracy — all readings are shifted by the same amount from the true value
-How can systematic errors be reduced? | Recalibrate or replace the instrument, and make corrections or adjustments to the technique
+Why does averaging repeated readings reduce the effect of random error? | Random errors scatter readings above and below the true value, so they partly cancel out in the mean
+Give two examples of sources of random error | Electronic noise in a measuring instrument and variation in human reaction time
+Besides repeating readings, how can random error be reduced? | Use data loggers or cameras to remove human error, or an instrument with a higher resolution
+What are systematic errors? | Errors that make every reading differ from the true value by the same amount, caused by faulty apparatus or a flaw in the method
+Which property of measurements do systematic errors affect? | Accuracy: all readings are shifted by the same amount from the true value
+How can systematic errors be reduced? | Calibrate the instrument against a known value, or use a different instrument or technique
+Why does repeating readings not reduce a systematic error? | Every reading is shifted by the same amount, so the mean is shifted by that amount too
+What is parallax error? | An error caused by reading a scale at an angle instead of at right angles to it
+How can calibration reveal a systematic error? | Measure a known value, such as a 1 kg standard mass. A reading that differs from it shows the instrument has a systematic error
+What systematic correction is needed in radioactivity experiments? | The background count, measured beforehand, is subtracted from every reading
 What is a zero error? | A type of systematic error where an instrument gives a non-zero reading when the true value is zero
 What is precision? | How close repeated measurements are to each other (how little spread there is about the mean value)
 How close repeated measurements are to each other — what term is this? | Precision
 What is accuracy? | How close a measurement is to the true value
 How close a measurement is to the true value — what term is this? | Accuracy
-How does precision differ from accuracy? | Precision: how close repeated measurements are to each other. Accuracy: how close a measurement is to the true value. Measurements can be precise but not accurate if each reading has the same systematic error
+How can a set of measurements be precise but not accurate? | The readings are close together, but all are shifted from the true value by the same systematic error
+Readings are widely spread but their mean is close to the true value. How are they described? | Accurate but not precise
+What does precision tell you about the errors in a set of measurements? | Only the size of the random errors. It gives no indication of how close the results are to the true value
 What does it mean for a measurement to be repeatable? | The original experimenter repeats the investigation using the same method and equipment and obtains the same results
 The original experimenter repeats the investigation using the same method and equipment and obtains the same results — what term is this? | Repeatable
 What does it mean for a measurement to be reproducible? | The investigation is repeated by another person, or using different equipment or techniques, and the same results are obtained
 The investigation is repeated by another person, or using different equipment or techniques, and the same results are obtained — what term is this? | Reproducible
-How does repeatability differ from reproducibility? | Repeatability: same experimenter, same method and equipment. Reproducibility: different person, or different equipment or techniques. Both require the same results
 What is the resolution of a measuring instrument? | The smallest change in the quantity being measured that gives a perceptible change in the reading
 The smallest change in the quantity being measured that gives a perceptible change in the reading — what term is this? | Resolution
-What is the resolution of a typical wristwatch, and of a digital stopclock? | Wristwatch: 1 s. Digital stopclock: typically 10 ms (0.01 s)
-How do uncertainties differ from errors? | Errors are issues with equipment or methodology that cause readings to differ from the true value. Uncertainty is a range of values within which the true value is expected to lie, and is an estimate
+How does an uncertainty differ from an error? | An error is the difference between a reading and the true value. An uncertainty is an estimate of the range in which the true value lies
 What is absolute uncertainty? | Uncertainty given as a fixed quantity in the same units as the measurement, denoted by $\Delta$
 What is fractional uncertainty? | $\text{Fractional uncertainty} = \frac{\text{uncertainty}}{\text{measured value}}$
 What is the equation for percentage uncertainty? | $\text{Percentage uncertainty} = \frac{\text{uncertainty}}{\text{measured value}} \times 100\%$
+What is the percentage uncertainty in a potential difference of $5.0 \pm 0.1$ V? | $\frac{0.1}{5.0} \times 100\% = 2\%$
+How can the percentage uncertainty in a measurement be reduced without changing the instrument? | Measure a larger quantity, so the same absolute uncertainty is a smaller fraction of it
 What is the uncertainty in a single reading from an analogue scale? | $\pm$ half the smallest division
-What is the uncertainty in a measurement (e.g. using a ruler where two readings are taken)? | At least $\pm 1$ smallest division
+What is the uncertainty in a measurement found from two readings, e.g. a length on a ruler? | At least $\pm 1$ smallest division, because each end contributes $\pm$ half a division
+How does a reading differ from a measurement? | A reading is a single value taken from an instrument, such as a thermometer. A measurement is the difference between two readings, such as a length on a ruler
 What is the uncertainty in repeated data? | Half the range: $\pm \frac{1}{2}(\text{largest} - \text{smallest value})$
 What is the uncertainty in a digital reading? | $\pm$ the last significant digit, unless otherwise quoted
+The time for 10 swings of a pendulum is $6.2 \pm 0.1$ s. What is the time for one swing? | $0.62 \pm 0.01$ s, because the value and the uncertainty are both divided by 10
+Why is the period of a pendulum found by timing many swings? | The uncertainty in the total time is shared between all the swings, so the uncertainty in one period is much smaller
 How are uncertainties combined when adding or subtracting data? | Add the absolute uncertainties
+Lengths of $8.0 \pm 0.1$ cm and $3.0 \pm 0.1$ cm are subtracted. What is the result? | $5.0 \pm 0.2$ cm
 How are uncertainties combined when multiplying or dividing data? | Add the percentage or fractional uncertainties
+Resistance is found from $R = \frac{V}{I}$, where V has a 2% uncertainty and I has a 3% uncertainty. What is the percentage uncertainty in R? | 5%
 How is uncertainty handled when raising a quantity to a power? | Multiply the percentage uncertainty by the power
+The radius of a sphere has a percentage uncertainty of 0.8%. What is the percentage uncertainty in its volume, $V = \frac{4}{3}\pi r^{3}$? | $3 \times 0.8\% = 2.4\%$
 To how many significant figures should absolute uncertainties be quoted? | One significant figure
 To how many significant figures should percentage and fractional uncertainties be quoted? | No more than two significant figures
 How should the number of significant figures in a final result relate to the uncertainty? | The final result must be rounded to match the precision of the absolute uncertainty
 What is the uncertainty in numbers and constants such as $\pi$? | Zero
 What do error bars on a graph represent? | The absolute uncertainty in the plotted values
-What is the 'best' line of best fit on a graph? | The line that passes as close as possible to all the data points
-What is the 'worst' line of best fit on a graph? | The steepest or shallowest line that still fits within all the error bars
-What is the equation for percentage uncertainty in a gradient from a graph? | $\frac{\text{best gradient} - \text{worst gradient}}{\text{best gradient}} \times 100\%$
-What is the equation for percentage uncertainty in a y-intercept from a graph? | $\frac{\text{best y-intercept} - \text{worst y-intercept}}{\text{best y-intercept}} \times 100\%$
+What is the line of best fit on a graph? | The line that passes as close as possible to all the points, with roughly equal numbers of points above and below it
+What is the worst acceptable line on a graph with error bars? | The steepest or shallowest line that still passes through all the error bars
+What is the equation for the percentage uncertainty in a gradient from a graph? | $\frac{\lvert\text{best gradient} - \text{worst gradient}\rvert}{\text{best gradient}} \times 100\%$
+What is the equation for the percentage uncertainty in a y-intercept from a graph? | $\frac{\lvert\text{best y-intercept} - \text{worst y-intercept}\rvert}{\text{best y-intercept}} \times 100\%$
 What are anomalies in experimental data, and how are they handled? | Readings that do not fit the expected pattern, identified through repeated measurements and omitted from the final results

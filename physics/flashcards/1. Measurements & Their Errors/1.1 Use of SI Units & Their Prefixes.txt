@@ -7,10 +7,13 @@ What is the SI base unit of temperature? | kelvin (K)
 What is the SI base unit of amount of substance? | mole (mol)
 What are derived units? | Units that are derived from combinations of the seven SI base units
 Units that are derived from combinations of the seven SI base units — what term is this? | Derived units
-How do you deduce the SI base units of a derived unit? | Substitute the defining equation of the quantity with SI base units
+How do you find the SI base units of a derived unit? | Write the defining equation of the quantity, replace each quantity with its base units, and simplify
 What is the newton (N) expressed in SI base units? | $\mathrm{kg\,m\,s^{-2}}$
 What is the joule (J) expressed in SI base units? | $\mathrm{kg\,m^{2}\,s^{-2}}$
 What is the pascal (Pa) expressed in SI base units? | $\mathrm{kg\,m^{-1}\,s^{-2}}$
+What is the coulomb (C) expressed in SI base units? | $\mathrm{A\,s}$, from $Q = It$
+What is the watt (W) expressed in SI base units? | $\mathrm{kg\,m^{2}\,s^{-3}}$, from $P = \frac{E}{t}$
+What is the volt (V) expressed in SI base units? | $\mathrm{kg\,m^{2}\,s^{-3}\,A^{-1}}$, from $V = \frac{E}{Q}$
 What power of ten does the prefix tera (T) represent? | $10^{12}$
 What power of ten does the prefix giga (G) represent? | $10^{9}$
 What power of ten does the prefix mega (M) represent? | $10^{6}$
@@ -21,21 +24,28 @@ What power of ten does the prefix micro (μ) represent? | $10^{-6}$
 What power of ten does the prefix nano (n) represent? | $10^{-9}$
 What power of ten does the prefix pico (p) represent? | $10^{-12}$
 What power of ten does the prefix femto (f) represent? | $10^{-15}$
+Express 7 nC in coulombs in standard form | $7 \times 10^{-9}$ C
+Express 9 G$\Omega$ in ohms in standard form | $9 \times 10^{9}\;\Omega$
 What is one electronvolt (eV)? | The energy gained by an electron moving through a potential difference of 1 V, equal to $1.6 \times 10^{-19}$ J
 The energy gained by an electron moving through a potential difference of 1 V — what quantity is this? | Electronvolt (eV)
 How do you convert joules to electronvolts? | Divide by $1.6 \times 10^{-19}$
 How do you convert electronvolts to joules? | Multiply by $1.6 \times 10^{-19}$
 Convert $2.176 \times 10^{-18}$ J to electronvolts | $\frac{2.176 \times 10^{-18}}{1.6 \times 10^{-19}} = 13.6$ eV
+Convert 76 MeV to joules | $76 \times 10^{6} \times 1.6 \times 10^{-19} = 1.2 \times 10^{-11}$ J
 How many joules are in 1 kilowatt-hour? | $3.6 \times 10^{6}$ J (3.6 MJ)
+Why is 1 kW h equal to $3.6 \times 10^{6}$ J? | $1000\;\mathrm{W} \times 3600\;\mathrm{s} = 3.6 \times 10^{6}$ J, since 1 W is $1\;\mathrm{J\,s^{-1}}$
 How do you convert joules to kilowatt-hours? | Divide by $3.6 \times 10^{6}$
 How do you convert kilowatt-hours to joules? | Multiply by $3.6 \times 10^{6}$
 What is an order of magnitude? | The power of ten nearest to a quantity
 The power of ten nearest to a quantity — what is this called? | Order of magnitude
 What is the order of magnitude of $6 \times 10^{8}$? | $10^{9}$ (the coefficient rounds up because $6 \geq 5$)
 By what factor is a quantity larger when it is one order of magnitude greater? | About 10 times
+How many orders of magnitude larger is a galaxy ($\sim 10^{21}$ m wide) than an atom ($\sim 10^{-10}$ m)? | 31, so the galaxy is about $10^{31}$ times wider
+Why do physicists estimate quantities? | To make comparisons and to check whether a calculated value is reasonable
 What is the approximate diameter of an atom? | $\sim 10^{-10}$ m
-What is the approximate wavelength of UV light? | $\sim 10$ nm ($10^{-8}$ m)
-What is the approximate height of an adult human? | $\sim 2$ m
+What is the approximate diameter of a nucleus? | $\sim 10^{-14}$ m to $10^{-15}$ m
+What is the approximate wavelength of visible light? | $\sim 5 \times 10^{-7}$ m (the range is about 400 nm to 700 nm)
+What is the approximate height of an adult human? | $\sim 2$ m (order of magnitude $10^{0}$ m)
 What is the approximate distance between the Earth and the Sun (1 AU)? | $\sim 1.5 \times 10^{11}$ m
 What is the approximate mass of a hydrogen atom? | $\sim 10^{-27}$ kg
 What is the approximate mass of an adult human? | $\sim 70$ kg
@@ -46,3 +56,4 @@ What is the approximate speed of sound in air? | $\sim 300\;\mathrm{m\,s^{-1}}$
 What is the approximate power of a standard lightbulb? | $\sim 60$ W
 What is the approximate value of atmospheric pressure? | $\sim 1 \times 10^{5}$ Pa
 What is the approximate surface temperature of the Sun? | $\sim 6000$ K (order of magnitude $\sim 10^{4}$)
+Estimate the energy needed for an adult to climb a flight of stairs | Using $E = mgh$ with $m \sim 70$ kg, $g \sim 10\;\mathrm{N\,kg^{-1}}$ and $h \sim 3$ m gives about 2000 J

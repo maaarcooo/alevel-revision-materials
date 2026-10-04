@@ -15,11 +15,11 @@ How does white box testing differ from black box testing? | White box testing us
 What is the waterfall model? | A sequential SDLC where each stage must be completed before the next begins
 A sequential SDLC where each stage must be completed before the next begins — what methodology is this? | Waterfall model (waterfall lifecycle)
 What is a feasibility study? | An evaluation in the analysis stage of whether a project is viable, using the TELOS criteria: technical, economic, legal, operational and scheduling
-What does the 'T' in TELOS stand for? | Technical — is the project possible with available technology?
-What does the 'E' in TELOS stand for? | Economic — can the project be financed in the short and long term?
-What does the 'L' in TELOS stand for? | Legal — can the project be completed within the law?
-What does the 'O' in TELOS stand for? | Operational — can the project be successfully implemented and maintained?
-What does the 'S' in TELOS stand for? | Scheduling — can the project be completed within the time available?
+What does the 'T' in TELOS stand for? | Technical: is the project possible with available technology?
+What does the 'E' in TELOS stand for? | Economic: can the project be financed in the short and long term?
+What does the 'L' in TELOS stand for? | Legal: can the project be completed within the law?
+What does the 'O' in TELOS stand for? | Operational: can the project be successfully implemented and maintained?
+What does the 'S' in TELOS stand for? | Scheduling: can the project be completed within the time available?
 Why is the waterfall model considered inflexible? | If a change is needed, programmers must revisit all stages back to the point requiring the change, which is costly and time-consuming
 Why does the waterfall model have limited user involvement? | Users are only involved at the very beginning (analysis) and end (evaluation) of the lifecycle
 Give two merits of the waterfall model | It is straightforward to manage because the stages and milestones are clearly defined, and it is clearly documented

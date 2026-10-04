@@ -47,7 +47,7 @@ Why are interpreters useful during program development? | They allow incremental
 Why is compiled code platform-specific? | It is compiled into machine code specific to a particular processor type and operating system, so it cannot run on different platforms without recompilation
 Why is interpreted code considered more portable than compiled code? | It can run on any platform where an appropriate interpreter is available, without needing recompilation
 What must be present at runtime for interpreted code to execute? | An interpreter
-What is needed at runtime to execute compiled code? | Only the compiled executable file — no translator is needed
+What is needed at runtime to execute compiled code? | Only the compiled executable file: no translator is needed
 How do compilers and interpreters differ in error reporting? | A compiler reports all errors after attempting to translate the whole program. An interpreter stops at the first error it encounters, reporting its exact location
 What is the first stage of compilation? | Lexical analysis
 What stage of compilation directly follows lexical analysis? | Syntax analysis

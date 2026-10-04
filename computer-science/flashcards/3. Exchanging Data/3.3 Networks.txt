@@ -22,14 +22,15 @@ Name one benefit of protocol layering relating to interoperability | Different t
 What does TCP/IP stand for? | Transmission Control Protocol / Internet Protocol
 Name the four layers of the TCP/IP model from top to bottom | Application, Transport, Internet, Link
 What does the Application layer of TCP/IP do? | Selects the appropriate protocol based on the application (e.g. HTTP for web, FTP for files) and prepares data for transmission
-What does the Transport layer of TCP/IP do? | Splits data into segments, labels them with sequence numbers, total packet count, and port numbers, and manages end-to-end communication
+What does the Transport layer of TCP/IP do? | Establishes an end-to-end connection, splits the data into packets, and labels each with its packet number and the port number
 What happens if packets are lost during TCP transmission? | The transport layer detects the loss and requests retransmission of the missing packets
 What does the Internet layer of TCP/IP do? | Adds source and destination IP addresses to each packet and routes packets across the network
+At which layer of the TCP/IP stack do routers operate? | The internet (network) layer, since they forward packets using IP addresses
 What does the Link layer of TCP/IP do? | Adds MAC addresses of source and destination devices, creates a physical connection, and converts digital packets into signals (electrical, optical, or wireless) for transmission
+Which MAC address does the link layer use as the destination when the recipient is on a different network? | The MAC address of the router
 What is a socket address? | The combination of an IP address and a port number, used to specify a device and the application running on it
 What is encapsulation in the TCP/IP model? | Each layer adds its own header (and the link layer adds a trailer) to the data as it passes down the stack, wrapping it for transmission
 What is de-encapsulation? | At the receiving end, each layer removes its header from bottom to top, reversing the encapsulation until the original data is recovered
-Name the data unit at each TCP/IP layer from top to bottom | Application: data; Transport: segments; Internet: packets; Link: frames
 What is an IP address? | A unique numerical identifier for a device on a network, used to deliver packets to the correct destination
 What are the two versions of IP address currently in use? | IPv4 (e.g. 104.22.74.202) and IPv6 (e.g. 0000:0000:0000:0000:0000:ffff:6816:4aca)
 What is a port number? | A numerical identifier used by the transport layer to direct data to the correct application or process on a device (e.g. port 80 for HTTP)
@@ -39,15 +40,19 @@ What is a DNS resolver? | The first stop in the DNS lookup process, usually prov
 What is the role of DNS root servers? | They direct the resolver to the appropriate Top-Level Domain (TLD) server based on the domain extension (e.g. .com, .org)
 What does a TLD (Top-Level Domain) server do in the DNS lookup? | Provides the resolver with the IP address of the domain's authoritative DNS server
 What does an authoritative DNS server do? | Holds and responds with the actual IP address for the requested domain
-What is DNS propagation? | The process of updating DNS records across servers when a domain is newly registered or its server's IP address changes
 What benefit does DNS provide to users? | It allows users to access websites using easy-to-remember domain names instead of numeric IP addresses
+How are the levels of a domain name separated? | By full stops, e.g. in leeds.gov.uk, uk is the top-level domain and gov is the second-level domain
+What does a computer check before it sends a DNS query? | Its local cache, in case it already holds the IP address from an earlier request
 What is a LAN? | A Local Area Network; a network within a small geographical area (e.g. a single building) where all hardware is typically owned by one entity
 A network within a small geographical area with hardware owned by a single entity — what type of network is this? | LAN (Local Area Network)
 What is a WAN? | A Wide Area Network; connects multiple LANs over a large geographical area using third-party connections such as leased lines or satellite links
 A network connecting multiple LANs over a large geographical area using third-party infrastructure — what type of network is this? | WAN (Wide Area Network)
 Why is a LAN considered more secure than a WAN? | All connections in a LAN are owned by the organisation, whereas WAN data travels across third-party public networks
+Give two advantages of connecting computers in a LAN | Resources such as printers and files can be shared, and updates, backups and software installation can be managed centrally
+Give two disadvantages of a LAN | If hardware fails the network may stop working, and networked computers are more open to attack than standalone ones
 Give two advantages of a WAN | Enables communication between offices in different locations; allows access to central servers and shared databases from anywhere
 Give two disadvantages of a WAN | Slower than LANs due to greater transmission distances; more expensive due to leased line or ISP costs and more vulnerable to security risks
+What is the largest WAN? | The Internet
 What is packetising? | Dividing a large message into smaller, manageable units called packets that can be sent individually over the network
 What are the three components of a packet? | Header (metadata for delivery), payload (the actual data), and trailer/footer (error-checking data)
 Name three items found in a packet header | Source IP address, destination IP address, and sequence number (packet order)
@@ -57,15 +62,16 @@ What is packet switching? | A communication method where data is broken into pac
 A method where data is broken into packets sent via different routes and reassembled at the destination — what is this? | Packet switching
 Give two advantages of packet switching | Efficient use of network bandwidth as packets share available routes; more reliable since only lost packets need resending, not the entire stream
 Give two disadvantages of packet switching | Packets can arrive out of order, requiring reassembly and error-checking; not ideal for real-time services that need a steady data stream
+What happens in packet switching if one route fails? | Packets are sent by another route, so the data still arrives
+Why is packet switching not ideal for real-time services such as video calls? | Packets take different routes, so they can arrive out of order or after varying delays, which disrupts a continuous stream
 What is circuit switching? | A communication method where a dedicated path is established between two devices for the entire duration of their conversation, with all data following the same route
 A method where a dedicated communication path is maintained for the entire conversation — what is this? | Circuit switching
 Give two advantages of circuit switching | Data arrives in order since it follows the same path; provides a constant, steady transmission rate ideal for real-time services like voice calls
 Give two disadvantages of circuit switching | Bandwidth is wasted when no data is being sent; less scalable since dedicated paths tie up network resources for other users
-How does packet switching compare to circuit switching in terms of resource usage? | Packet switching shares bandwidth efficiently across users; circuit switching reserves a dedicated path even during idle periods, wasting resources
+What requirement does circuit switching place on the two devices? | They must send and receive data at the same rate
 What is hacking in a network context? | Gaining unauthorised access to a system or network to steal or manipulate data, disrupt services, or cause damage
 What is a computer virus? | Malicious software that attaches to a legitimate program or file and replicates to spread to other programs, potentially deleting data or damaging hardware
 What is a worm? | A standalone malicious program that spreads and replicates over computer networks without needing to attach to a host file
-How does a worm differ from a virus? | A worm is standalone and spreads independently over networks; a virus must attach to a legitimate program or file to replicate
 What is a Trojan horse in computing? | A program that disguises itself as legitimate software but performs malicious actions such as deleting data or damaging hardware once installed
 What is spyware? | Software that secretly monitors user activity and transmits the collected information to a third party
 What is adware? | Software that displays unwanted advertisements without user consent; it may contain spyware or link to viruses when clicked
@@ -75,15 +81,17 @@ How does a DDoS attack differ from a DoS attack? | A DDoS (Distributed Denial of
 What is SQL injection? | An attack where malicious SQL statements are inserted into a website's input fields to exploit vulnerabilities and potentially expose the database
 What is phishing? | Sending fraudulent communications (typically emails) disguised as trustworthy sources to trick users into revealing sensitive information via fake websites
 What is pharming? | A cyber attack where malware redirects a website's traffic to a bogus site without the user's knowledge, tricking them into entering personal details
-How does pharming differ from phishing? | Phishing lures users via fake emails to click links to fraudulent sites; pharming automatically redirects users via malware without requiring them to click anything
 What is social engineering? | Manipulating people into divulging confidential information or performing actions that benefit the attacker, using techniques like impersonation or baiting
 What is a firewall? | A network security system that monitors and controls incoming and outgoing traffic based on predetermined rules called packet filters
 How does packet filtering work in a firewall? | The firewall examines each packet's source IP, destination IP, protocol, and port number, comparing them against administrator-configured rules to allow or block traffic
 What is the difference between dropping and rejecting a packet in a firewall? | A rejected packet sends an alert back to the sender; a dropped packet is silently discarded with no notification
-What is a proxy server? | An intermediary server that collects and sends data on behalf of the user, providing anonymity, caching, reduced web traffic, and access control
+What is a proxy server? | An intermediary server that collects and sends data on behalf of the user
 Give two benefits of using a proxy server | User privacy is protected as requests appear to come from the proxy; frequently accessed data is cached for faster loading
-What is encryption in a network context? | Making data unreadable during transmission so it cannot be understood if intercepted; data is encrypted and decrypted using keys
+How can network administrators use a proxy server? | To block access to sensitive or irrelevant websites, e.g. at work or school
+Why is data encrypted before it is sent over a network? | So that it cannot be understood if it is intercepted
 What is two-factor authentication (2FA)? | A security method requiring two forms of identification, such as a password plus a verification code sent to the user's phone or email
+What does anti-virus software do? | Detects and removes malicious software such as viruses, worms and Trojans
+Why do regular software updates improve security? | They install the latest security patches
 What is a modem? | A modulator-demodulator that converts digital signals to analogue and vice versa, enabling data transmission over telephone or cable lines
 A device that converts between digital and analogue signals for transmission over telephone or cable lines — what is it? | Modem
 What is the role of a router? | To connect two or more networks together by analysing packet headers and forwarding packets to the correct destination using a routing table
@@ -97,8 +105,7 @@ What is a wireless access point (WAP)? | A device that transmits and receives Wi
 What is a network hub? | A device that connects multiple devices on a network by broadcasting all received data to every connected device
 Why are hubs considered inefficient and less secure than switches? | They broadcast every packet to all connected devices, creating unnecessary traffic and allowing every device to see all data
 What is a network switch? | A device that connects devices on a network and forwards data only to the intended recipient by using a MAC address lookup table
-How does a switch differ from a hub? | A switch sends data only to the intended device using a MAC address lookup table; a hub broadcasts data to all connected devices
-What types of cable are commonly used in wired networks? | Ethernet cables (Cat5, Cat5e, Cat6) for speeds from 10 Mbps to 10 Gbps, and fibre-optic cables that use light for higher speed and greater capacity
+What two types of cable are used in wired networks? | Ethernet cables (e.g. Cat5e, Cat6), and fibre-optic cables, which use light to give higher speeds and capacity
 What is a gateway? | A device used when protocols differ between networks; it translates protocols by removing packet headers and re-encapsulating data using the new protocol
 What is a client-server network? | A network where powerful server computers control the network and provide services (files, email, web) to client devices that request them
 Give two advantages of a client-server network | Easier central management of resources, backups, and security; scalable as new clients can be added easily
@@ -107,5 +114,7 @@ What is a peer-to-peer network? | A network where all computers share equal resp
 A network with no central server where all devices share equal responsibility and act as both client and server — what type of network is this? | Peer-to-peer
 Give two advantages of a peer-to-peer network | Cheap and easy to set up with no specialist staff needed; no dependency on a central server
 Give two disadvantages of a peer-to-peer network | Lack of central control leads to poorer security; not suitable for large networks due to performance issues and difficulty locating resources
+Who is responsible for security and backups in a peer-to-peer network? | The user of each machine, for their own data
+Why are peer-to-peer networks used for piracy? | It is almost impossible to trace the origin of files shared across them
 When is a client-server network more appropriate than peer-to-peer? | In larger organisations requiring centralised control, reliability, security, and scalability
 When is a peer-to-peer network more appropriate than client-server? | In small networks such as home setups or small businesses, or for specific applications like file sharing

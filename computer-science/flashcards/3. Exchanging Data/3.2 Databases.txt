@@ -8,93 +8,104 @@ What is a compound (composite) primary key? | A combination of two or more field
 What is a foreign key? | A field in one table that references the primary key in another table, used to link tables together
 A field in one table that references the primary key in another table — what term is this? | Foreign key
 What is a secondary key? | A field that is indexed to enable faster searching of the database
-What is a DBMS? | Database Management System — software used to create, manage, and query databases (e.g. MySQL, Oracle, PostgreSQL)
+What is a DBMS? | Database Management System: software used to create, manage, and query databases (e.g. MySQL, Oracle, PostgreSQL)
 What is an entity in database design? | An item of interest about which data is stored, which becomes a table in a relational database
-What are attributes in database design? | Characteristics of an entity — the fields or columns about which data is collected
+What are attributes in database design? | Characteristics of an entity: the fields or columns about which data is collected
 How is a primary key shown in database entity notation? | By underlining it
 How is a foreign key shown in database entity notation? | With an asterisk (*)
 What is a flat file database? | A database that stores all data in a single table
 A database that stores all data in a single table — what term is this? | Flat file database
 What is a relational database? | A database that organises data into multiple linked tables, using keys to connect related data
+What is the advantage of a flat file database? | It is simple to set up and easy to understand
 What problem does a flat file cause when data needs updating? | The same data appears in multiple records, so updating one instance but missing others creates data inconsistency
 How does a relational database reduce data redundancy? | By splitting data into separate linked tables so each piece of data is stored only once
 What is indexing in a database? | A method of storing the position of each record ordered by a certain attribute, allowing the DBMS to look up and access data quickly
-Why are secondary keys used for indexing rather than primary keys? | Users rarely know or query primary keys — secondary keys like surname are the fields people actually search on
+How does an index speed up a search? | The DBMS can go straight to the relevant records instead of checking every record in turn, like using the index of a book
+Which key is indexed automatically? | The primary key
+Why are secondary keys used for indexing rather than primary keys? | Users rarely know or query primary keys: secondary keys like surname are the fields people actually search on
 What is normalisation? | The process of organising a relational database to reduce data duplication and improve data accuracy and consistency
 The process of organising a database to reduce redundancy and improve consistency — what is this called? | Normalisation
-What does "atomic" mean in the context of first normal form? | Each field contains only a single, indivisible value — no lists or multiple values
+What does "atomic" mean in the context of first normal form? | Each field contains only a single, indivisible value: no lists or multiple values
 State the requirements for first normal form (1NF) | Atomic values (no multi-value fields), no repeating groups, and a primary key for each row
-What additional requirement does second normal form (2NF) add beyond 1NF? | No partial dependencies — every non-key attribute must depend on the entire primary key, not just part of a composite key
-2NF is only relevant to tables with what kind of key? | A composite (compound) primary key — tables with a single-field primary key that are in 1NF are automatically in 2NF
+What additional requirement does second normal form (2NF) add beyond 1NF? | No partial dependencies: every non-key attribute must depend on the entire primary key, not just part of a composite key
+2NF is only relevant to tables with what kind of key? | A composite (compound) primary key: tables with a single-field primary key that are in 1NF are automatically in 2NF
 What is a partial dependency? | When a non-key attribute depends on only part of a composite primary key rather than the whole key
-What additional requirement does third normal form (3NF) add beyond 2NF? | No transitive dependencies — every non-key attribute must depend only on the primary key, not on any other non-key attribute
+How is a partial dependency removed to reach 2NF? | The attributes that depend on part of the key are moved to a new table, whose primary key is that part of the key
+What additional requirement does third normal form (3NF) add beyond 2NF? | No transitive dependencies: every non-key attribute must depend only on the primary key, not on any other non-key attribute
 What is a transitive dependency? | When a non-key attribute depends on another non-key attribute rather than directly on the primary key
+How is a transitive dependency removed to reach 3NF? | The dependent attributes are moved to a new table, which is linked back to the original by a foreign key
 What is an entity relationship diagram (ERD)? | A diagram showing the entities (tables) in a database and the relationships between them, drawn using crow's foot notation
 Name the three types of relationship between database entities | One-to-one, one-to-many, many-to-many
+Give an example of a one-to-many relationship | One customer can place many orders, but each order belongs to one customer
+Give an example of a many-to-many relationship | A student can take many courses, and each course has many students
 How is a one-to-one relationship shown in crow's foot notation? | A single straight line connecting the two entities
 How is a one-to-many relationship shown in crow's foot notation? | A single line on the "one" side and a branch (crow's foot) on the "many" side
 How is a many-to-many relationship shown in crow's foot notation? | Branches (crow's feet) on both sides
-Why can a many-to-many relationship not be directly implemented in a relational database? | It must be resolved by creating a link (junction) table, turning the single M:M into two one-to-many relationships
+How is a many-to-many relationship resolved in a relational database? | A link table is created between the two entities, which turns it into two one-to-many relationships
 In a one-to-many relationship, which entity contains the foreign key? | The entity on the "many" side contains the foreign key referencing the primary key of the "one" side
-What is OMR? | Optical Mark Recognition — a machine detects marks in predefined positions on paper (e.g. multiple-choice exam sheets, lottery tickets)
-What is OCR? | Optical Character Recognition — converts printed or handwritten text into a digital format for searching and editing
-What is MICR? | Magnetic Ink Character Recognition — reads characters printed in special magnetic ink, used by banks to process cheques
-What is data mining? | The process of discovering hidden patterns, correlations, and insights from large datasets, using techniques such as machine learning and statistics
+What is a data capture form? | A form that collects input from a user and organises it into a structured format
+What is OMR? | Optical Mark Recognition: a machine detects marks in predefined positions on paper (e.g. multiple-choice exam sheets, lottery tickets)
+What is OCR? | Optical Character Recognition: converts printed or handwritten text into a digital format for searching and editing
+What is MICR? | Magnetic Ink Character Recognition: reads characters printed in special magnetic ink, used by banks to process cheques
+What are 1D and 2D barcodes? | 1D barcodes store data as parallel lines of varying width (e.g. on products), and 2D barcodes use patterns of squares or dots to store more data (e.g. QR codes)
+What are the advantages of barcodes for data capture? | Data entry is fast and accurate, which reduces human error
+How are sensors used to capture data? | They convert physical signals such as temperature or motion into digital data, which allows automatic, real-time data collection
+What does selecting data involve before it is stored? | Keeping only the data that meets set criteria, which reduces the volume stored, e.g. a speed camera recording only cars above the limit
 What is Query By Example (QBE)? | A visual interface for constructing database queries by entering criteria into a grid, without needing to write SQL
 What is one advantage of QBE over SQL? | Accessible to non-technical users because it uses a visual interface rather than requiring knowledge of query syntax
 What is one disadvantage of QBE compared to SQL? | Less powerful for complex queries, advanced features like stored procedures, and large datasets
-What is CSV? | Comma Separated Values — a simple plain text format that stores tabular data with commas separating each value
-What is JSON? | JavaScript Object Notation — a lightweight, human-readable data interchange format using key-value pairs, common in web applications
-What is EDI? | Electronic Data Interchange — a standardised method for electronically transferring documents and data between businesses without human interaction
+What two ways are there to add, edit and delete data in a database? | A data manipulation language such as SQL, or the built-in facilities of the DBMS
+What is CSV? | Comma Separated Values: a simple plain text format that stores tabular data with commas separating each value
+What is JSON? | JavaScript Object Notation: a lightweight, human-readable data interchange format using key-value pairs, common in web applications
+What is EDI? | Electronic Data Interchange: a standardised method for electronically transferring documents and data between businesses without human interaction
 What is an API in the context of data exchange? | A set of protocols that allow different software applications to communicate, enabling integration of services and data exchange between platforms
-What does SQL stand for and what type of language is it? | Structured Query Language — a declarative language used to interact with and manipulate databases via a DBMS
+What is SQL? | Structured Query Language: a declarative language used to create, query and update databases
 What does the SELECT statement do in SQL? | Retrieves specified fields from a database table
 What does the FROM clause specify in SQL? | Which table(s) the data should be retrieved from
 What does the WHERE clause do in SQL? | Filters results to include only records matching a specified condition
 What does the LIKE keyword do in SQL? | Filters data by matching a pattern, using % as a wildcard (e.g. WHERE name LIKE 'J%' matches names starting with J)
 What does the * wildcard do in a SELECT statement? | Selects all columns from the table
 What does the % wildcard represent in a LIKE clause? | Any sequence of zero or more characters
+Write an SQL statement to list the Name of every record in Customers whose Country starts with U | SELECT Name FROM Customers WHERE Country LIKE 'U%'
 How do AND and OR differ in a SQL WHERE clause? | AND requires all conditions to be true; OR requires at least one condition to be true
+Write an SQL statement to show CustomerID and Surname from Customer for people whose Title is Miss or Mrs | SELECT CustomerID, Surname FROM Customer WHERE Title = "Miss" OR Title = "Mrs"
 What is a nested SELECT (subquery) in SQL? | A SELECT statement inside another, whose result is used in the outer query's condition (e.g. WHERE salary > (SELECT AVG(salary) FROM employees))
 What does JOIN (INNER JOIN) do in SQL? | Combines rows from two or more tables based on a matching column, returning only rows where the join condition is met
 Write the general syntax for a SQL JOIN query | SELECT table1.field, table2.field FROM table1 JOIN table2 ON table1.key = table2.key
 What does INSERT INTO do in SQL? | Adds a new record to a table (syntax: INSERT INTO table (columns) VALUES (values))
 What does DELETE FROM do in SQL? | Removes records from a table that match a WHERE condition
+Write an SQL statement to remove all songs by RandomBits from the table Song | DELETE FROM Song WHERE Artist = "RandomBits"
 What does DROP TABLE do in SQL? | Permanently deletes an entire table and all its data from the database
-How does DELETE FROM differ from DROP TABLE? | DELETE FROM removes specific records (rows) from a table; DROP TABLE removes the entire table structure and all data
 What does ORDER BY do in SQL? | Sorts query results in ascending order by default; adding DESC sorts in descending order
 What does CREATE TABLE do in SQL? | Creates a new table, specifying each column's name, data type, whether it is the primary key, and whether it allows null values
-What does ALTER TABLE do in SQL? | Modifies the structure of an existing table — can add columns, drop columns, or change a column's data type
+What does ALTER TABLE do in SQL? | Modifies the structure of an existing table: can add columns, drop columns, or change a column's data type
 What does UPDATE do in SQL? | Modifies existing records in a table (syntax: UPDATE table SET column = value WHERE condition)
 In SQL, how does CHAR(n) differ from VARCHAR(n)? | CHAR(n) is a fixed-length string of exactly n characters; VARCHAR(n) is a variable-length string with a maximum of n characters
-What SQL data type stores TRUE or FALSE values? | BOOLEAN
-What SQL data type stores a whole number? | INTEGER (or INT)
-What SQL data type stores a number with a decimal point? | FLOAT
 What is referential integrity? | The principle that every foreign key value must match an existing primary key in the related table (or be null), ensuring consistency between linked tables
 The principle that every foreign key must reference a valid primary key — what is this called? | Referential integrity
 What is an orphaned record? | A record whose foreign key points to a primary key that no longer exists, violating referential integrity
+How can referential integrity be broken? | A record is deleted while foreign keys in another table still refer to its primary key
 What does the CASCADE action do in referential integrity? | Automatically applies the same update or deletion to all related records in linked tables
-What does SET NULL do as a referential integrity action? | Sets the foreign key to null in related records when the referenced primary key is deleted or updated
 What does NO ACTION (RESTRICT) do as a referential integrity action? | Prevents the deletion or modification of a primary key if related foreign key records still exist
-What is a transaction in database terms? | A sequence of database operations treated as a single unit of work — either all operations complete successfully or none do
+What is a transaction in database terms? | A sequence of database operations treated as a single unit of work: either all operations complete successfully or none do
 What does ACID stand for? | Atomicity, Consistency, Isolation, Durability
-What does Atomicity mean in ACID? | A transaction must complete entirely or not at all — if any operation fails, the entire transaction is rolled back
+What does Atomicity mean in ACID? | A transaction must be processed in its entirety or not at all, so if any part fails the whole transaction is rolled back
+A transaction must be processed in its entirety or not at all — which ACID property is this? | Atomicity
 What does Consistency mean in ACID? | A transaction must leave the database in a valid, consistent state, following all rules and constraints
-What does Isolation mean in ACID? | Each transaction executes independently — its intermediate states are not visible to other concurrent transactions
-What does Durability mean in ACID? | Once a transaction is committed, the changes persist permanently even if the system fails (e.g. power cut)
-What is record locking? | A DBMS technique that prevents other transactions from accessing a record while it is being used, to avoid conflicting modifications and data inconsistency
+A transaction must leave the database in a valid state that follows all its rules — which ACID property is this? | Consistency
+What does Isolation mean in ACID? | Transactions that run at the same time must give the same result as if they had run one after the other
+Transactions that run at the same time must give the same result as if run one after the other — which ACID property is this? | Isolation
+What does Durability mean in ACID? | Once a transaction is committed its changes are kept even if the system fails (e.g. a power cut), because they are written to secondary storage
+Once a transaction is committed its changes are kept even if the system fails — which ACID property is this? | Durability
+What is record locking? | Preventing other users from accessing a record while one user is editing it, so that updates are not lost or left inconsistent
 The process of preventing simultaneous access to database records to avoid conflicts — what is this called? | Record locking
 What is a shared lock (read lock)? | A lock that allows multiple transactions to read a record simultaneously but prevents any modification until released
 What is an exclusive lock (write lock)? | A lock that grants only one transaction access to read and modify a record, blocking all other transactions
-How does a shared lock differ from an exclusive lock? | A shared lock allows concurrent reads but no writes; an exclusive lock blocks all other access including reads
 What is a deadlock in a database? | A situation where two or more transactions each hold a lock and are waiting for the other to release its lock, so none can proceed
-Describe a scenario that causes a deadlock | User A locks Record 1 and requests Record 2; simultaneously User B locks Record 2 and requests Record 1 — both wait indefinitely
+Describe a scenario that causes a deadlock | User A locks Record 1 and requests Record 2; simultaneously User B locks Record 2 and requests Record 1, so both wait indefinitely
 Name two methods for dealing with deadlocks | Deadlock prevention (ordering resource requests) and timeout mechanisms (aborting a transaction if it waits too long)
 What is the difference between commit and rollback? | Commit saves all changes in a transaction permanently; rollback undoes all changes and restores the previous state
 What is data redundancy in a database? | The same piece of data being stored in more than one place within the database, which can lead to inconsistencies and wasted storage
 What is the purpose of deliberate redundancy in data storage? | Storing copies of data in physically different locations so that if one copy is damaged, others remain unaffected and can be recovered
-How does data redundancy differ from deliberate redundancy for backup? | Data redundancy is unwanted duplication within a database causing inconsistency and waste; deliberate redundancy stores copies in separate physical locations as a safeguard against data loss
 What is concurrency control? | The management of simultaneous data access in a multi-user database to prevent conflicts and maintain consistency
 Name two techniques used for concurrency control | Locking (preventing simultaneous access to the same data) and timestamping (assigning a unique timestamp to each transaction to determine order)
-What is the two-phase commit protocol? | A protocol used in distributed databases that ensures a transaction is either committed at all participating nodes or aborted at all of them, maintaining consistency
-What are 1D and 2D barcodes? | 1D barcodes use parallel lines of varying widths (e.g. product barcodes); 2D barcodes use geometric patterns like squares or dots to store more data (e.g. QR codes)

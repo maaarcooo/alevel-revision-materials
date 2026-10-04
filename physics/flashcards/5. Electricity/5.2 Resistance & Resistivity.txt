@@ -1,27 +1,28 @@
 What is resistivity? | A property of a material that describes the extent to which it opposes the flow of electric current through it. Measured in $\Omega\;\text{m}$
 A property of a material that describes the extent to which it opposes the flow of electric current — what quantity is this? | Resistivity
 What is the equation for resistance in terms of resistivity, length, and cross-sectional area? | $R = \frac{\rho L}{A}$
-Resistivity is a property of the material and is also dependent on [...] | temperature
-How does resistance depend on the length of a wire? | Resistance is directly proportional to length — doubling the length doubles the resistance
-How does resistance depend on the cross-sectional area of a wire? | Resistance is inversely proportional to cross-sectional area — doubling the area halves the resistance
+A wire of length 2.0 m and cross-sectional area $1.0 \times 10^{-7}\;\mathrm{m^2}$ has a resistance of $0.34\;\Omega$. What is the resistivity of its material? | $\rho = \frac{RA}{L} = \frac{0.34 \times 1.0 \times 10^{-7}}{2.0} = 1.7 \times 10^{-8}\;\Omega\,\mathrm{m}$
+How does resistivity differ from resistance? | Resistivity is a property of a material at a given temperature. Resistance belongs to one component and also depends on its length and cross-sectional area
+Besides the material itself, what does resistivity depend on? | Temperature
+How does resistance depend on the length of a wire? | Resistance is directly proportional to length: doubling the length doubles the resistance
+How does resistance depend on the cross-sectional area of a wire? | Resistance is inversely proportional to cross-sectional area: doubling the area halves the resistance
 Why does doubling the diameter of a wire reduce its resistance to one quarter? | Area is proportional to diameter squared ($A = \frac{\pi d^2}{4}$), so doubling $d$ quadruples $A$ and quarters $R$
 Explain why metals have electrical resistance | Free electrons collide with metal ions as they flow through the wire, which impedes the flow of charge
 What happens to the kinetic energy of free electrons when they collide with metal ions? | They transfer some or all of it to the ions, causing electrical heating
 Explain why resistance increases with temperature in a metal | Metal ions vibrate with greater amplitude at higher temperatures, so free electrons collide with them more frequently, reducing current
 Why is copper used for electrical wires? | It has very low resistivity at room temperature ($1.7 \times 10^{-8}\;\Omega\;\text{m}$), so current flows through it easily
 Why do insulators not conduct electricity? | They have very high resistivity (e.g. $10^{12}$ to $10^{15}\;\Omega\;\text{m}$), so virtually no current flows through them
-What is a thermistor? | A non-ohmic conductor whose resistance varies with temperature, used as a temperature sensor
-A non-ohmic conductor whose resistance varies with temperature — what component is this? | Thermistor
-What does NTC mean for a thermistor? | Negative temperature coefficient — as temperature increases, resistance decreases, and vice versa
+What is a thermistor? | A semiconductor component whose resistance changes with temperature, used as a temperature sensor
+A semiconductor component whose resistance changes with temperature — what component is this? | Thermistor
+What does NTC mean for a thermistor? | Negative temperature coefficient: as temperature increases, resistance decreases, and vice versa
+Why does the resistance of an NTC thermistor fall as it gets hotter? | More charge carriers are released in the semiconductor, which increases the current for a given p.d.
 Describe the shape of the resistance-temperature graph for an NTC thermistor | A steep curve starting high at low temperature that decreases and levels off at high temperature
 Give three applications of thermistors | Ovens, fire alarms, digital thermometers
 How does the resistance-temperature relationship differ between a metal and an NTC thermistor? | In a metal, resistance increases with temperature due to increased ion vibrations. In an NTC thermistor, resistance decreases with temperature
-In a series circuit with a thermistor and a fixed resistor, what happens to the p.d. across each when temperature decreases? | The thermistor's resistance increases so it takes a greater share of the total p.d. — p.d. across the thermistor increases and across the fixed resistor decreases
 What is a superconductor? | A material with no resistance below a critical temperature
 A material with no resistance below a critical temperature — what is this called? | A superconductor
 What is the critical temperature in superconductivity? | The temperature at which a material becomes superconducting, i.e. its resistivity drops to zero
 The temperature at which a material becomes superconducting — what term is this? | Critical temperature (or transition temperature)
-What is the critical temperature of mercury? | $4.2\;\text{K}$
 On a resistivity-temperature graph, how does a superconductor differ from a normal metal? | A superconductor's resistivity drops sharply to zero at the critical temperature, while a normal metal's resistivity decreases gradually but never reaches zero
 Why can superconductors carry large currents without energy loss? | They have zero resistance, so no electrical energy is dissipated as heat
 What two properties of superconductors make them useful? | They can produce strong magnetic fields, and they eliminate energy loss in power transmission
@@ -29,8 +30,8 @@ Give three applications of superconductors | MRI scanners, maglev trains, partic
 How do maglev trains use superconductors? | Superconducting electromagnets produce strong magnetic fields that levitate the train above the track
 What is the aim of the required practical on resistivity? | To determine the resistivity of a constantan wire
 In the resistivity practical, what is the independent variable? | Length $L$ of the wire
-In the resistivity practical, what is the dependent variable? | Current $I$ through the wire
-In the resistivity practical, name two control variables | Voltage through the wire, and the material the wire is made from
+In the resistivity practical, what is the dependent variable? | The current through the wire, from which the resistance $R = \frac{V}{I}$ is calculated
+In the resistivity practical, name three control variables | The p.d. across the wire, the material and diameter of the wire, and its temperature
 How is the diameter of the wire measured in the resistivity practical? | Using a micrometer screw gauge, taking 5–10 measurements at random positions along the wire and calculating the mean
 In the resistivity practical, how are the ammeter and voltmeter connected? | Ammeter in series with the wire, voltmeter in parallel across the wire
 In the resistivity practical, why must the current be switched off between readings? | To prevent the wire from heating up, which would change its resistivity and affect the results

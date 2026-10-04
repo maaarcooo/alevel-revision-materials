@@ -1,30 +1,30 @@
 What is Boolean logic? | The principles of logic based on binary values (TRUE/FALSE, 1/0), used in computer science and electronics to make logical decisions
-The principles of logic based on binary values, used to make logical decisions -- what term is this? | Boolean logic
+The principles of logic based on binary values, used to make logical decisions — what term is this? | Boolean logic
 What is Boolean algebra? | A mathematical system used to manipulate and simplify Boolean values and expressions
-A mathematical system used to manipulate and simplify Boolean values and expressions -- what term is this? | Boolean algebra
-How does Boolean logic differ from Boolean algebra? | Boolean logic refers to the principles of logic based on binary values; Boolean algebra is the mathematical system used to manipulate those values
+A mathematical system used to manipulate and simplify Boolean values and expressions — what term is this? | Boolean algebra
 What is the order of precedence for evaluating Boolean expressions? | Brackets first, then NOT, then AND, then OR
 What is a logic gate? | A component that represents a Boolean operation, taking binary inputs and producing a binary output
-What does a conjunction (AND) gate output? | TRUE (1) only if both inputs are TRUE; otherwise FALSE (0)
+What does a conjunction (AND) gate output? | 1 only when both inputs are 1, otherwise 0
 What is the Boolean notation for AND? | $A \wedge B$ or $A.B$
-What does a disjunction (OR) gate output? | TRUE (1) if either or both inputs are TRUE; FALSE (0) only when both inputs are FALSE
+What does a disjunction (OR) gate output? | 1 when either or both inputs are 1, and 0 only when both inputs are 0
 What is the Boolean notation for OR? | $A \vee B$ or $A + B$
-What does a negation (NOT) gate output? | The inverse of the input value (TRUE becomes FALSE, FALSE becomes TRUE)
+What does a negation (NOT) gate output? | The inverse of its input, so 1 becomes 0 and 0 becomes 1
 What is the Boolean notation for NOT? | $\neg A$ or $\overline{A}$
-What does an exclusive disjunction (XOR) gate output? | TRUE (1) if exactly one input is TRUE; FALSE (0) if both inputs are the same
-What is the Boolean notation for XOR? | $A \oplus B$
-Which Boolean operator has the highest precedence? | NOT
-Which Boolean operator has the lowest precedence? | OR
+What does an exclusive disjunction (XOR) gate output? | 1 when exactly one input is 1, and 0 when both inputs are the same
+What is the Boolean notation for XOR? | $A \veebar B$ or $A \oplus B$
 What is a truth table? | A table showing every possible permutation of inputs to a Boolean expression and the corresponding output
-A table showing every possible permutation of inputs and corresponding outputs for a Boolean expression -- what is this? | Truth table
+A table showing every possible permutation of inputs and corresponding outputs for a Boolean expression — what is this? | Truth table
 What is a Karnaugh map used for? | Simplifying Boolean algebra expressions by visually grouping terms with common factors to eliminate redundant variables
-A visual method of simplifying Boolean expressions by grouping terms with common factors on a grid -- what tool is this? | Karnaugh map
+A visual method of simplifying Boolean expressions by grouping terms with common factors on a grid — what tool is this? | Karnaugh map
 Why must Karnaugh map row and column headers use Gray code ordering? | So that adjacent cells differ by only one bit, which is necessary for valid grouping of 1s (including wraparound)
 How is a Karnaugh map filled from a truth table? | Place a 1 in each cell where the output is TRUE and a 0 where it is FALSE, matching each cell to its corresponding input combination
 What constraints apply to group sizes in a Karnaugh map? | Groups must be rectangles with sides that are powers of 2 (containing 1, 2, 4, or 8 ones)
 What overlap and wrapping rules apply to groups in a Karnaugh map? | Groups can overlap (cells can belong to multiple groups), and the grid wraps in all directions so groups can span edges
 How is the simplified expression for a Karnaugh map group determined? | It consists of the variables that remain constant across all cells in the group; variables that change value are eliminated
 How are the simplified group expressions from a Karnaugh map combined? | They are OR'd together to form the final simplified Boolean expression
+What is the aim when grouping the 1s in a Karnaugh map? | To cover every 1 using as few groups as possible, with each group as large as possible
+What is the 2-bit Gray code order used for Karnaugh map headings? | 00, 01, 11, 10
+Why is it useful to simplify a Boolean expression? | The shorter expression needs fewer logic gates, so the circuit is simpler and cheaper to build
 What is the result of $X \wedge 0$? | 0
 What is the result of $X \wedge 1$? | $X$
 What is the result of $X \wedge X$? | $X$
@@ -34,7 +34,7 @@ What is the result of $X \vee 1$? | 1
 What is the result of $X \vee X$? | $X$
 What is the result of $\neg X \vee X$? | 1
 What is De Morgan's Law? | A rule for simplifying expressions where a negation applies to an entire conjunction or disjunction, by negating each literal and switching the operator
-A rule for simplifying negated conjunctions or disjunctions by negating each literal and switching the operator -- what law is this? | De Morgan's Law
+A rule for simplifying negated conjunctions or disjunctions by negating each literal and switching the operator — what law is this? | De Morgan's Law
 State De Morgan's Law for a negated conjunction | $\neg(A \wedge B) \equiv \neg A \vee \neg B$
 State De Morgan's Law for a negated disjunction | $\neg(A \vee B) \equiv \neg A \wedge \neg B$
 Why is De Morgan's Law significant in hardware design? | It allows circuits to be built using only NAND or NOR gates, simplifying microprocessor construction
@@ -47,8 +47,10 @@ State the associative law for OR | $(A \vee B) \vee C \equiv A \vee (B \vee C) \
 What is the commutative law in Boolean algebra? | The order of variables around an operator does not change the result: $A \wedge B \equiv B \wedge A$ and $A \vee B \equiv B \vee A$
 What is the double negation law in Boolean algebra? | Negating a variable twice returns the original value: $\neg\neg A \equiv A$
 State the absorption law in Boolean algebra | $A \vee (A \wedge B) \equiv A$ and $A \wedge (A \vee B) \equiv A$
+Simplify $\neg(\neg A \wedge \neg B)$ | $A \vee B$, using De Morgan's law and then double negation
+Simplify $(A \vee B) \wedge (A \vee C)$ | $A \vee (B \wedge C)$, using the distributive law
 What is a D-type flip flop? | A bistable logic circuit that stores one bit of data, updating its output Q to match the data input D on the rising edge of the clock pulse
-A bistable circuit that stores one bit, updating Q to match D on the rising edge of the clock -- what is this? | D-type flip flop
+A bistable circuit that stores one bit, updating Q to match D on the rising edge of the clock — what is this? | D-type flip flop
 What are the inputs of a D-type flip flop? | Data input (D) and clock input (CLK)
 What are the outputs of a D-type flip flop? | Q and $\overline{Q}$ (NOT Q), which are always complementary
 When does the output of a D-type flip flop change? | Only on the rising edge of the clock pulse (the transition from low to high)
@@ -56,17 +58,17 @@ What happens to Q between rising clock edges in a D-type flip flop? | Q holds it
 Name three uses of D-type flip flops | Shift registers, counters, and memory units
 How are registers formed from flip-flops? | Multiple flip-flops are combined, each storing one bit, to form a register that can store a multi-bit value
 What is a half adder? | A digital circuit that adds two single-bit binary inputs (A and B) and produces two outputs: Sum (S) and Carry (C)
-A circuit that adds two single-bit inputs and produces Sum and Carry outputs -- what is this? | Half adder
+A circuit that adds two single-bit inputs and produces Sum and Carry outputs — what is this? | Half adder
 What logic gates make up a half adder? | An XOR gate (producing Sum) and an AND gate (producing Carry)
 What Boolean expression gives the Sum output of a half adder? | $S = A \oplus B$
 What Boolean expression gives the Carry output of a half adder? | $C = A \wedge B$
+What are the outputs of a half adder when both inputs are 1? | Sum 0 and Carry 1, since 1 + 1 is 10 in binary
 What is a full adder? | A digital circuit that adds three single-bit inputs (A, B, and carry in) and produces two outputs: Sum (S) and carry out ($C_{out}$)
-A circuit that adds three bits including a carry in and produces Sum and carry out -- what is this? | Full adder
-What are the three inputs of a full adder? | A, B, and $C_{in}$ (carry in)
+A circuit that adds three bits including a carry in and produces Sum and carry out — what is this? | Full adder
 What logic gates make up a full adder? | Two XOR gates, two AND gates, and one OR gate
 How can a full adder be constructed from simpler circuits? | From two half adders and one OR gate: the first half adder takes A and B; the second takes the first's Sum and $C_{in}$; the OR gate combines both Carry outputs to produce $C_{out}$
 What Boolean expression gives the Sum output of a full adder? | $S = A \oplus B \oplus C_{in}$
 When is the carry out of a full adder TRUE? | When at least two of the three inputs (A, B, $C_{in}$) are TRUE
-How does a full adder differ from a half adder? | A half adder adds two single-bit inputs with no carry input; a full adder adds three inputs (including carry in), enabling multi-bit addition when chained
+What are the outputs of a full adder when A, B and $C_{in}$ are all 1? | Sum 1 and carry out 1, since 1 + 1 + 1 is 11 in binary
 What is a ripple adder? | A chain of full adders where the $C_{out}$ of each stage connects to the $C_{in}$ of the next, enabling multi-bit binary addition
 How many full adders are needed to add two 4-bit binary numbers? | Four, with the carry out of each connected to the carry in of the next

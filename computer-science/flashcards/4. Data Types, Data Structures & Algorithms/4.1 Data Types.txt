@@ -1,3 +1,4 @@
+What is a data type? | A classification of data that determines what kind of values it can hold and which operations can be performed on it
 What is an integer data type? | A whole number, either positive or negative, with no fractional part. Useful for counting
 A whole number with no fractional part — what data type is this? | Integer
 What is a real (floating point) data type? | A number that can, but does not necessarily, have a fractional part. Useful for measuring
@@ -16,7 +17,6 @@ What is a bit? | The smallest unit of digital information, representing either a
 The smallest unit of digital information — what is this called? | A bit
 What is a byte? | A group of 8 bits
 What is a nibble (nybble)? | A group of 4 bits (half a byte)
-In an 8-bit unsigned binary number, what place value does each column represent from left to right? | $2^7$ (128), $2^6$ (64), $2^5$ (32), $2^4$ (16), $2^3$ (8), $2^2$ (4), $2^1$ (2), $2^0$ (1)
 What is the most significant bit (MSB)? | The bit furthest to the left in a binary number, with the highest place value
 What is the least significant bit (LSB)? | The bit furthest to the right in a binary number, with the lowest place value ($2^0 = 1$)
 How do you convert an unsigned binary number to denary? | Multiply each bit by its column place value ($2^n$) and sum all the results
@@ -26,13 +26,14 @@ What is the difference between unsigned and signed binary? | Unsigned represents
 What are the two methods for representing negative numbers in binary at A Level? | Sign and magnitude, and two's complement
 How does sign and magnitude representation work? | The MSB is a sign bit (0 = positive, 1 = negative) and the remaining bits represent the magnitude of the number
 How do you convert a sign and magnitude binary number to denary? | Note the MSB for the sign, discard it, convert the remaining bits to denary as normal, then apply the sign
+What is the 8-bit sign and magnitude number 10001011 in denary? | -11
 What is the consequence of using a sign bit in sign and magnitude? | The maximum positive value is halved because the MSB is used for the sign rather than a place value
 How do you convert a positive denary number to its two's complement negative? | Write the positive number in binary, invert all the bits (flip 0s to 1s and 1s to 0s), then add 1
+What is -7 in 8-bit two's complement? | 11111001
 In 8-bit two's complement, what does the MSB represent? | A place value of $-128$
 How do you convert an 8-bit two's complement number to denary? | Assign $-128$ to the MSB and normal positive place values to the remaining bits; sum the place values of all bits set to 1
 What is the range of an 8-bit two's complement number? | $-128$ to $+127$
 Why is two's complement preferred over sign and magnitude for arithmetic? | Two's complement allows subtraction to be performed using addition circuitry, making calculations simpler and less computationally intensive
-How does sign and magnitude differ from two's complement? | Sign and magnitude prefixes a sign bit to the magnitude (the rest of the bits are unchanged); two's complement makes the MSB negative and the remaining bits count upward from it, enabling simpler arithmetic
 What are the four rules of binary addition? | $0+0=0$, $0+1=1$, $1+1=10$ (0 carry 1), $1+1+1=11$ (1 carry 1)
 What is an overflow error in binary addition? | When the result of adding two binary numbers exceeds the number of bits available, producing an incorrect or truncated result
 How can overflow affect signed binary arithmetic? | It can flip the sign bit, incorrectly changing the sign of the result (e.g. adding two positive numbers and getting a negative result)
@@ -43,11 +44,12 @@ Why is hexadecimal used instead of binary? | It is more concise (one hex digit r
 Give three uses of hexadecimal | Defining colours (hex colour codes), debugging and error codes, and representing memory addresses or MAC addresses
 How do you convert a binary number to hexadecimal? | Split the binary into nibbles (groups of 4 bits from right to left), then convert each nibble to its hexadecimal equivalent (0-F)
 How do you convert a hexadecimal number to binary? | Convert each hex digit to its 4-bit binary nibble, then join the nibbles together
+Convert hexadecimal B2 to binary | 10110010 (B is 1011 and 2 is 0010)
+Convert denary 241 to hexadecimal | F1 (241 is 11110001 in binary, and 1111 is F, 0001 is 1)
 How do you convert hexadecimal directly to denary? | Multiply each hex digit by its place value (powers of 16: $16^0$, $16^1$, $16^2$...) and sum the results
 What does the subscript in $10_2$, $10_{10}$, and $10_{16}$ indicate? | The base of the number system: base 2 (binary), base 10 (denary), and base 16 (hexadecimal) respectively
-What are the two main components of a floating point binary number? | The mantissa (significant digits determining precision) and the exponent (controls where the binary point is placed, determining scale)
-What does the mantissa represent in floating point? | The significant digits (precision) of the number
-What does the exponent represent in floating point? | How far the binary point moves: a positive exponent shifts it right (larger number), a negative exponent shifts it left (smaller number)
+What is the mantissa of a floating point number? | The part that holds the significant digits of the number, which sets its precision
+What is the exponent of a floating point number? | The part that says how far to move the binary point: right if it is positive, left if it is negative
 Where is the binary point assumed to be in a normalised mantissa? | After the most significant bit (e.g. mantissa bits 01100 represent $0.1100$)
 How are both the mantissa and exponent stored in floating point? | In two's complement, so the MSB of the mantissa indicates sign (0 = positive, 1 = negative) and the exponent can be negative
 How do you convert a floating point binary number to denary? | Convert the exponent to denary, shift the mantissa's binary point by that many places (right if positive, left if negative), then convert the resulting fixed-point binary to denary
@@ -55,6 +57,7 @@ What does it mean for a floating point number to be normalised? | The mantissa b
 Why are floating point numbers normalised? | To ensure maximum precision in a given number of bits and to provide a consistent, unambiguous representation
 How do you normalise a positive floating point number? | Shift the mantissa left until it starts with 01, reducing the exponent by 1 for each place shifted
 How do you normalise a negative floating point number? | Shift the mantissa left until it starts with 10, reducing the exponent by 1 for each place shifted
+Normalise the floating point number with mantissa 00011010 and exponent 0101 | Mantissa 01101000 and exponent 0011: the mantissa moves two places left, so the exponent drops from 5 to 3
 How does increasing mantissa length affect a floating point number? | It increases precision (more significant digits) but does not change the range
 How does increasing exponent length affect a floating point number? | It increases the range of representable values but does not change the precision
 What is the first step when adding or subtracting floating point binary numbers? | Align the exponents by shifting the mantissa of the number with the smaller exponent to the right and increasing its exponent to match the larger one
@@ -76,6 +79,6 @@ What ASCII code range represents lowercase a-z? | 97 to 122
 What is extended ASCII? | An 8-bit version of ASCII that can represent $2^8 = 256$ characters
 Give three limitations of ASCII | It supports only 128 characters, cannot represent non-English language characters, and has no provision for modern symbols or emoji
 Why was Unicode created? | To overcome ASCII's limitations by supporting characters from all the world's writing systems, as well as symbols and emoji
-How does Unicode differ from ASCII in storage requirements? | ASCII uses 7 bits per character; Unicode uses a varying number of bits (up to 32), requiring more storage space
+How does Unicode relate to ASCII? | It is a superset of ASCII, so every ASCII character has the same code in Unicode
 What is the main benefit of Unicode over ASCII? | It can represent characters from virtually all languages worldwide, plus special symbols and emoji, whereas ASCII is limited to English characters
-What is the main drawback of Unicode compared to ASCII? | Unicode characters require more storage space (up to 32 bits per character vs 7 bits for ASCII)
+What is the main drawback of Unicode compared to ASCII? | Each character can need more bits (up to 32 rather than 7), so text takes more storage space

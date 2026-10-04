@@ -18,6 +18,7 @@ State the benefit of concurrent processing for throughput | More tasks are compl
 How does concurrent processing reduce the time wasted waiting for user input? | The processor swaps to another task, then swaps back when an operating system interrupt signals the input
 State the drawback of concurrent processing when many users or tasks are involved | Each process gets only a time slice, so processes take longer to complete
 What overhead does concurrent processing introduce? | Coordinating and switching between processes, which reduces throughput
+What must be implemented when concurrent processes read and write the same data? | Record locking, so two processes cannot change the data at once, which makes the programming more complex
 Why are some tasks unsuited to concurrent processing? | Not every task can be broken up into parts that are performed in turn
 What can operating system scheduling algorithms do to concurrent processes? | Prioritise some processes over others, so those processes can finish sooner
 State an advantage of parallel processing for repetitive calculations on large amounts of data | The work is split over several processors, which speeds it up, as in image or video editing

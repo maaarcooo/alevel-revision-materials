@@ -33,6 +33,7 @@ What is prefetching? | Algorithms predict which instructions are likely to be ne
 Algorithms predicting which instructions are likely to be needed soon and loading them into cache before they are requested — what term is this? | Prefetching
 How does prefetching differ from ordinary caching? | Caching stores data after it has been used. Prefetching loads data before it is requested
 Why is prefetching not always effective? | The algorithm only makes an informed prediction, so the instructions it loads may not be the ones needed
+When does caching give no benefit? | When the cached item is not needed again, because caching relies on the same data being requested more than once
 Why does cache size limit the benefit of caching? | A small cache holds little data, and a larger cache takes longer to search
 State a drawback of caching that concerns its implementation | It is difficult to implement, and how effective it is depends on how well the caching algorithm manages the cache
 What are reusable program components? | Components that have already been written, debugged and tested, which can be transplanted into new programs

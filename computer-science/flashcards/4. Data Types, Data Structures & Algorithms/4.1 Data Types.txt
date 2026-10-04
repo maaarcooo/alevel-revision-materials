@@ -12,6 +12,7 @@ A data type restricted to True or False — what data type is this? | Boolean
 What is casting? | Converting a value from one data type to another (e.g. string to integer)
 Changing one data type to another — what is this process called? | Casting
 Why is casting often necessary for user input? | User input is typically received as a string, so it must be cast to a numerical type (integer or real) before arithmetic or numerical comparisons can be performed
+What happens when a real value such as 5.7 is cast to an integer? | The fractional part is truncated, giving 5
 Why do computers use binary to store data? | Computers are made up of circuits and switches that are either on (1) or off (0), so binary (base 2) maps directly to their physical design
 What is a bit? | The smallest unit of digital information, representing either a 0 (off) or a 1 (on)
 The smallest unit of digital information — what is this called? | A bit

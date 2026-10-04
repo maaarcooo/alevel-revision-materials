@@ -55,20 +55,15 @@ What is the difference between == and === in JavaScript? | == compares values af
 What are the JavaScript operators for AND and NOT? | && and !
 How is the logical OR operator written in JavaScript? | As two vertical bar characters
 What is the syntax of an if-else statement in JavaScript? | if (condition) { code if true } else { code if false }
-What is a switch case statement used for in JavaScript? | Comparing one expression against several possible values and running the block of code for the value that matches
 What is fall-through behaviour in a switch case statement? | Without a break statement at the end of a case, execution continues into the next case
-What does the default keyword do in a switch case statement? | Gives the block of code to run if none of the cases match
 What are the three parts of a for loop's header in JavaScript? | Initialisation of the counter, the condition checked before each iteration, and the increment or decrement made after each iteration
 Write a JavaScript for loop that outputs the numbers 1 to 5 | for (let i = 1; i <= 5; i++) { console.log(i); }
-When is a while loop used instead of a for loop? | When the number of iterations is not known in advance, so the loop continues for as long as a condition is true
-How does a do-while loop differ from a while loop? | A do-while loop checks its condition after the code block, so the block always runs at least once
 What does a for...in loop do in JavaScript? | Iterates through the indices of a data structure such as an array, so each item can be accessed by its index
 How is the length of a string found in JavaScript? | With the length property, e.g. message.length
 What does the substring() method do in JavaScript? | Returns part of a string, from a start index up to but not including an optional end index
 What does "Hello, world!".substring(0, 5) return in JavaScript? | "Hello"
 How is a function defined in JavaScript? | function name(parameters) { code; return value; }
 What is a procedure in JavaScript? | A function that does not return a value, so it has no return statement or one with no value
-How do you calculate the total number of times the body of an inner loop runs in nested loops? | Multiply the number of outer loop iterations by the number of inner loop iterations
 What is a search engine? | A program that searches an index of web pages for resources that match the criteria set by the user
 What are the three stages of how a search engine works? | Crawling, indexing and ranking
 What is a web crawler? | A program (also called a spider or bot) that follows links from page to page across the web, collecting information for a search engine

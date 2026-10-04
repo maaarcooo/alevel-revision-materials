@@ -1,6 +1,4 @@
 What is thinking procedurally? | Breaking a problem down into smaller parts that are easier to understand and to design
-What is problem decomposition? | Continually breaking a large, complex problem into smaller subproblems that can be solved more easily
-Continually breaking a large, complex problem into smaller subproblems that can be solved more easily — what term is this? | Problem decomposition
 Which two processes are applied to a problem before algorithms are created to solve it? | Abstraction to remove unimportant details, then decomposition into sub-problems
 What are the components of a problem? | The smaller, simpler tasks and sub-procedures it can be broken down into, to be completed modularly
 What is top-down design? | A method of decomposition that breaks a problem into major tasks, then into smaller sub-tasks, until each can be solved by a single subroutine or module

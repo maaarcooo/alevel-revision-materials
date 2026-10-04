@@ -1,62 +1,75 @@
-What are computational methods? | Problem-solving techniques that use algorithms and mathematical models to analyse, simulate, and solve complex problems using a computer
+What are computational methods? | Problem-solving techniques that use algorithms and mathematical models to solve problems with a computer
 What is a computable problem? | A problem that can be solved using an algorithm within a finite, realistic amount of time
-A problem that can be solved using an algorithm within a finite, realistic amount of time — what is this? | A computable problem
-What do computable problems typically consist of? | Inputs, outputs, and calculations
-Name three real-world constraints that affect whether a problem can be solved computationally | Processing power, speed, and memory
-Why might a theoretically computable problem be impractical to solve? | The amount of resources or length of time required may be too great
-What makes a problem unsuitable for a computational solution? | It requires human judgment, creativity, or cultural/ethical input that algorithms could oversimplify or misinterpret
-What is problem recognition? | Determining whether a problem exists, clearly identifying what it is, and defining the system requirements
-Who states the requirements during problem recognition? | Stakeholders
-Name two ways system requirements may be defined during problem recognition | Analysing strengths and weaknesses of the current solution, and considering the types of data involved (inputs, outputs, stored data)
-What is problem decomposition? | Continually breaking a large problem into smaller sub-problems until each can be represented as a self-contained subroutine
-Why might decomposition allow reuse of existing code? | Sub-problems may match tasks already solved by pre-coded modules or libraries
-Give two benefits of problem decomposition for team-based development | Different teams can work on separate sections in parallel, and individual modules can be independently designed, developed, and tested
-Explain how problem decomposition simplifies debugging | Errors can be identified, located, and fixed within individual modules rather than searching the entire application
-Why is abstraction often applied before decomposition? | Removing non-essential elements first allows programmers to focus on the critical aspects when breaking the problem down
-What are the three stages of divide and conquer? | Divide (halve the problem into sub-problems), conquer (solve each sub-problem, often recursively), and merge (recombine solutions into the overall solution)
-Name two algorithms that use divide and conquer | Binary search and merge sort (or quick sort)
-What is the time complexity of divide and conquer algorithms? | $O(\log n)$
-Give one benefit of using divide and conquer | The problem size halves with each iteration, so as the problem grows the time to solve it does not grow as significantly
-Give one drawback of divide and conquer | It uses recursion, which risks stack overflow and makes large programs difficult to trace
-What is 'decrease and conquer'? | A variant of divide and conquer where the problem is reduced by less than half in every iteration
-How does divide and conquer differ from general problem decomposition? | Divide and conquer specifically halves the problem with each iteration, solves sub-problems recursively, and recombines solutions. Decomposition does not require halving or recombination
-What is task parallelism? | When several tasks or sub-tasks are carried out concurrently to speed up overall completion time
-What is abstraction in problem solving? | The removal of unnecessary details from a problem to simplify it and allow focus on the core aspects of the solution
-The removal of unnecessary details from a problem to simplify it and focus on core aspects — what technique is this? | Abstraction (representational abstraction)
-How do levels of abstraction help manage a large project? | The project is split into simpler component parts that can be dealt with by different teams, with details about other layers hidden
-What is abstraction by generalisation? | Grouping together different sections of a problem with similar underlying functionality, allowing segments to be coded together and reused
-Give an example of abstraction in a computer game | Complex algorithms controlling NPCs and game physics are hidden from the user, who only interacts with visual elements and controls
-What is backtracking? | A problem-solving technique that builds a solution incrementally by exploring paths; if a path is invalid, the algorithm returns to the last valid point and tries an alternate path
-A problem-solving technique that explores paths incrementally, returning to the last valid point when a dead end is reached — what is this? | Backtracking
-Give an example of backtracking in data structures | Depth-first graph or tree traversal
+A problem that can be solved using an algorithm within a finite, realistic amount of time — what is this called? | A computable problem
+What do problems that can be solved computationally typically consist of? | Inputs, outputs and calculations
+Which three resources limit the problems that can be solved computationally in practice? | Processing power, processor speed and memory
+Why might a computable problem be impractical to solve? | The resources or the length of time it needs are too great
+How have advances in technology affected which problems can be solved computationally? | More problems have become feasible to solve as processing power, speed and memory have grown
+What kind of problem is unsuitable for a computational solution? | One that depends on human judgement or creativity, e.g. low staff morale or a poor marketing strategy
+What is problem recognition? | Identifying that there is a problem to be solved and clearly defining what the problem is
+Identifying that there is a problem to be solved and clearly defining what it is — what is this called? | Problem recognition
+Who states what is required of the finished product during problem recognition? | The stakeholders
+What two things are analysed to define the system requirements? | The strengths and weaknesses of the current solution, and the data involved (inputs, outputs, stored data and volume of data)
+What is problem decomposition? | Continually breaking a problem down into smaller sub-problems until each can be solved by a self-contained subroutine
+Continually breaking a problem down into smaller sub-problems until each can be solved by a self-contained subroutine — what is this called? | Problem decomposition
+What is the aim of problem decomposition? | To reduce the complexity of a problem by splitting it into smaller sections that are easier to understand and solve
+How does decomposition allow a project to be delivered faster? | Sub-problems can be developed in parallel by different teams and then combined
+How does decomposition differ from abstraction? | Decomposition splits a problem into smaller parts, while abstraction removes unnecessary detail from it
+What is divide and conquer? | A technique that repeatedly splits a problem into smaller sub-problems of the same kind, solves them, and combines the results
+A problem is repeatedly split into smaller sub-problems of the same kind, which are solved and their results combined — what technique is this? | Divide and conquer
+What are the three stages of divide and conquer? | Divide, conquer and merge (combine)
+What happens in the divide stage of divide and conquer? | The problem is split into smaller sub-problems, typically halving its size each time
+What happens in the conquer stage of divide and conquer? | Each sub-problem is solved, often recursively
+What happens in the merge stage of divide and conquer? | The solutions to the sub-problems are recombined to form the solution to the whole problem
+Name three algorithms that use divide and conquer | Binary search, merge sort and quick sort
+How does binary search apply divide and conquer? | It compares the middle item with the target and discards the half that cannot contain it, then repeats on the half that remains
+How many times can a problem of size $n$ be halved before one item is left? | About $\log_2 n$ times, which is why binary search has time complexity $O(\log n)$
+Why does divide and conquer cope well with large problems? | Halving the problem at each step means the time taken grows slowly as the problem grows
+Give one drawback of divide and conquer | It usually relies on recursion, which risks a stack overflow and is difficult to trace
+How can divide and conquer take advantage of a multi-core processor? | Independent sub-problems can be solved at the same time on different cores
+Why is abstraction used when solving a problem computationally? | It removes unnecessary detail, so the programmer can focus on the core aspects of the solution
+How can abstraction allow existing code to be used in a solution? | The problem may be reduced to one that has already been solved, so pre-written modules and libraries can be used
+How do levels of abstraction make a large project more manageable? | The project is split into simpler components that different teams can work on, with the details of other layers hidden
+What is abstract thinking used for once a problem has been abstracted? | Representing real-world entities with computational elements, such as tables and variables
+What is backtracking? | A technique that builds a solution step by step by exploring a path, and returns to the previous decision point to try another path when one fails
+A solution is built step by step, returning to the previous decision point to try another path whenever one fails — what technique is this? | Backtracking
+How is backtracking usually implemented? | Recursively
+Which graph traversal is an example of backtracking? | Depth-first traversal
+How would backtracking solve a maze? | Follow a path until a dead end is reached, then go back to the most recent junction and try a different route
 Give one benefit of backtracking | It is guaranteed to find a solution if one exists
-Give one drawback of backtracking | It can have high time complexity and may not find the most optimal solution
-Why is backtracking not ideal for solving strategic problems? | It systematically explores all paths without evaluating which is most likely to lead to the best solution
-What is data mining? | A technique for identifying patterns, trends, or correlations in large datasets (big data) that are not immediately obvious, using algorithms and statistical methods
-A technique for identifying patterns and correlations in large datasets that are not immediately obvious — what is this? | Data mining
-Give two uses of data mining in business | Predicting future trends based on past data, and identifying customer purchasing patterns to inform marketing decisions
-Why must data mining comply with GDPR? | It often involves processing personal data, so organisations must follow data protection legislation
-Give one benefit of data mining | It can identify patterns and trends not immediately obvious to humans, enabling better predictions and informed decisions
-Give one limitation of data mining | It can identify patterns but may not explain the reasons why they exist
-What are heuristics? | A non-optimal, 'rule-of-thumb' approach to problem-solving that finds an approximate, 'good enough' solution quickly rather than the optimal one
-A non-optimal approach using rules of thumb to find an approximate solution quickly — what is this? | Heuristics
-What is the key trade-off when using heuristics? | Speed vs accuracy: heuristics find solutions faster but do not guarantee the best or most accurate result
-What is an intractable problem? | A problem for which the optimal solution takes an unreasonably long time to find
-A problem for which the optimal solution takes an unreasonably long time to find — what is this called? | An intractable problem
-Name two problems where heuristics are used | The Travelling Salesman Problem and the A* pathfinding algorithm
-What is a local optimum in the context of heuristics? | A point where the algorithm appears near the best solution in its local area, but this is not the globally best solution
-What is performance modelling? | Using mathematical methods to simulate and predict the behaviour and performance of a system before it is used in the real world
-Using mathematical methods to simulate system behaviour before real-world deployment — what technique is this? | Performance modelling
-Why is performance modelling useful for safety-critical systems? | It allows testing without real-world risk, as systems such as those on airplanes cannot safely undergo real trial runs
-Give one benefit of performance modelling over real-world testing | It is cheaper and less time-consuming than setting up and running real-world tests
-Give one limitation of performance modelling | Results are only as accurate as the data and rules fed into the model; incorrect assumptions produce incorrect results
-In which two phases of software development can performance modelling be used? | The design phase (for architectural decisions) and the testing phase (to simulate real-world scenarios)
-What is pipelining as a computational method? | Carrying out multiple tasks concurrently, where the output of one process becomes the input of the next, improving overall efficiency
-Carrying out multiple tasks concurrently where each task's output feeds into the next — what computational method is this? | Pipelining
-What three steps are involved in applying pipelining to a task? | Break the task into individual sub-tasks, arrange them in sequential order, and allow multiple tasks to operate at the same time
-What does the pipe symbol (vertical bar) do in Unix? | Connects the output of one command to the input of the next, allowing commands to be chained together
-What is visualisation as a computational method? | Presenting data or concepts in graphical or visual form that is easier for humans to understand, making it possible to identify otherwise hidden trends and patterns
-Name three types of visual representation used in problem solving | Flowcharts, UML diagrams, and wireframes
-What are wireframes? | Low-fidelity design plans representing the skeletal framework of a program or website, used for layout planning and user experience design
-Give one benefit of visualisation | It simplifies complex concepts, making it easier to spot trends and patterns that may not have been noticed before
-Give one limitation of visualisation | It can show data visually but cannot explain why something is the way it is, and different people may interpret visualisations differently
+Why can backtracking be slow? | It may have to search the entire solution space, so its time complexity can be high
+Why might backtracking not give the best solution? | It stops at the first solution it finds, which is not necessarily the optimal one
+What is data mining? | Analysing large sets of data to identify patterns, trends and correlations that are not immediately obvious
+Large sets of data are analysed to identify patterns, trends and correlations that are not immediately obvious — what technique is this? | Data mining
+How do businesses use the results of data mining? | To predict future trends from past data, which informs decisions such as stock levels and marketing
+Give an example of data mining in retail | Analysing purchase histories to find which products sell at certain times of year, so enough stock is ordered in advance
+Why must data mining comply with data protection law? | It often involves processing personal data, which is regulated by the GDPR
+Give one benefit of data mining | It finds patterns and trends that people would not spot, so better predictions and decisions can be made
+Give two practical drawbacks of data mining | It needs powerful computers with a lot of processing power, and inaccurate data gives inaccurate results
+What can data mining not tell you about a pattern it finds? | The reason why the pattern exists
+What are heuristics? | A rule-of-thumb approach that finds an approximate, good enough solution quickly, instead of the optimal one
+A rule-of-thumb approach that quickly finds a good enough solution instead of the optimal one — what is this? | Heuristics
+When are heuristics used? | When finding the optimal solution would take an unreasonable amount of time or resources
+What is the trade-off when using heuristics? | Speed against accuracy: a solution is found faster, but it is not guaranteed to be the best
+What is an intractable problem? | A problem whose solution takes an unreasonably long time to find
+A problem whose solution takes an unreasonably long time to find — what is this called? | An intractable problem
+Name two problems where heuristics are used | The Travelling Salesman Problem and pathfinding with the A* algorithm
+How do heuristics differ from backtracking? | Heuristics make educated guesses to reach an approximate solution quickly, while backtracking explores paths systematically until it finds a solution
+What is performance modelling? | Using mathematical models and simulation to predict how a system will perform before it is used in the real world
+Mathematical models and simulation are used to predict how a system will perform before it is used in the real world — what technique is this? | Performance modelling
+Why is performance modelling used for safety-critical systems? | A real trial run would be unsafe, e.g. for the systems on an aeroplane
+Give one advantage of performance modelling over real performance testing | It is cheaper and less time-consuming
+How does performance modelling show whether a system will cope with heavy use? | It simulates the system under different loads, such as large volumes of data or large numbers of users
+What do the results of performance modelling help a company to judge? | The capabilities of the system, how it will cope in different environments, and whether it is safe to implement
+Give one limitation of performance modelling | The results are only as accurate as the data and assumptions put into the model
+What is pipelining as a computational method? | Splitting a task into smaller tasks that are carried out concurrently, with the output of one process becoming the input of the next
+A task is split into smaller tasks that run concurrently, with the output of one becoming the input of the next — what computational method is this? | Pipelining
+What three steps are involved in applying pipelining to a task? | Break the task into smaller tasks, put them in order so each output feeds the next input, and run as many as possible at the same time
+How can pipelining shorten the manufacture of a car? | Tasks that do not depend on each other, such as developing the engine and the chassis, are done at the same time
+What does the pipe symbol (vertical bar) do in Unix? | Passes the output of one command to the input of the next command
+What is visualisation? | Presenting data or a problem in a visual form that is easier for people to understand
+Data or a problem is presented in a visual form that is easier for people to understand — what technique is this? | Visualisation
+Name three ways in which data can be visualised | Graphs, charts and tables
+Give one benefit of visualisation | Trends and patterns that were not obvious in the raw data become easier to identify
+Give one limitation of visualisation | It shows what the data looks like but cannot explain why, and different people may interpret it differently
+Name three diagrams used to visualise the design of a system | Flowcharts, UML diagrams and wireframes

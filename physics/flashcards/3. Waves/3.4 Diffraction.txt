@@ -1,9 +1,10 @@
 What is diffraction? | The spreading out of waves after they pass through a narrow gap or around an obstruction
 The spreading out of waves after they pass through a narrow gap or around an obstruction — what term is this? | Diffraction
 When are diffraction effects most noticeable? | When the wavelength of the wave and the width of the gap are similar in size
+Why are very narrow slits needed to diffract light noticeably? | The wavelength of visible light is very small (about $10^{-7}$ m), and the gap must be of a similar size
 What produces the bright fringes in a single slit diffraction pattern? | Constructive interference of each part of the wavefront as it passes through the slit
 What produces the dark fringes in a single slit diffraction pattern? | Destructive interference of each part of the wavefront as it passes through the slit
-Describe the central maximum in a single slit diffraction pattern compared to the subsidiary maxima | It is much wider and brighter than the other bright fringes
+How does the central maximum of a single slit diffraction pattern compare with the other maxima? | It is twice as wide as the other maxima and much brighter
 How do the subsidiary maxima change as the order increases in a single slit diffraction pattern? | They become narrower and dimmer
 In the single slit intensity pattern, what is the intensity at the dark fringes? | Zero
 How does the central maximum of a single slit pattern compare in width to a double slit central maximum? | The single slit central maximum is much wider
@@ -13,9 +14,6 @@ In white light single slit diffraction, which colour appears nearest to the cent
 In white light single slit diffraction, which colour appears furthest from the central maximum? | Red
 Explain why blue light appears closer to the central maximum than red light in white light single slit diffraction | Shorter wavelengths are diffracted less, so they spread out less and appear nearer the centre
 How does fringe spacing change further from the central maximum in white light single slit diffraction? | It gets smaller, and spectra eventually merge without any space between them
-How does the proportion of red and blue wavelengths change at higher-order maxima in white light single slit diffraction? | The amount of red wavelength increases and the amount of blue wavelength decreases
-How does the intensity of the central maximum compare between white light and monochromatic light in single slit diffraction? | They are equal in intensity
-How do the non-central maxima of white light compare to those of monochromatic light in single slit diffraction? | They are wider and less intense
 How does the double slit interference pattern differ from the single slit diffraction pattern? | Double slit has equally spaced maxima of equal intensity. Single slit has a distinctive central maximum with subsequent maxima at decreasing intensity
 What is the single slit 'envelope' in a double slit experiment? | The single slit diffraction pattern that modulates the double slit interference fringes, causing their intensity to decrease away from the centre
 How does increasing the gap size (relative to wavelength) affect diffraction? | The waves spread out less after passing through the gap
@@ -25,8 +23,9 @@ How does making the slit narrower affect the width of the central maximum? | The
 How does making the slit narrower affect the intensity of the maxima? | The intensity decreases
 How does making the slit narrower affect fringe spacing? | The spacing between fringes becomes wider
 What property of a wave stays constant when it is diffracted? | The wavelength (distance between wavefronts). Only the amplitude changes
-What is a diffraction grating? | A piece of optical equipment consisting of a large number of very thin, equally spaced parallel slits carved into a glass plate
+What is a diffraction grating? | A plate with a very large number of narrow, parallel, equally spaced slits
 How does a diffraction grating pattern compare to a double slit pattern? | The bright fringes are narrower and brighter, while the dark regions are wider and darker
+Why does a diffraction grating give sharper maxima than a double slit? | Light from many more slits reinforces only in very precise directions, so the maxima are narrower and brighter
 What does a diffraction grating produce when monochromatic light passes through it? | A pattern of bright and dark fringes
 What does a diffraction grating produce when white light passes through it? | It separates the white light into its different wavelength components (spectra)
 What is the diffraction grating equation? | $d \sin \theta = n\lambda$
@@ -35,10 +34,12 @@ In the diffraction grating equation $d \sin \theta = n\lambda$, what does $\thet
 In the diffraction grating equation $d \sin \theta = n\lambda$, what does $n$ represent? | The order of the maxima (number of maxima away from the central maximum, where $n = 0$)
 How is the slit spacing $d$ calculated from the number of lines per unit length $N$? | $d = \frac{1}{N}$
 If a diffraction grating has 300 lines per mm, what is the slit spacing in metres? | $d = \frac{1}{300} = 3.33 \times 10^{-3}$ mm $= 3.33 \times 10^{-6}$ m
+Light of wavelength 600 nm is incident normally on a grating with slit spacing $2.0 \times 10^{-6}$ m. At what angle is the first-order maximum? | $\sin\theta = \frac{\lambda}{d} = 0.30$, so $\theta = 17.5°$
 How is the angular separation between two orders of maxima found? | By subtracting the smaller angle from the larger one
 What is the maximum angle of diffraction at which maxima can be observed from a diffraction grating? | $\theta = 90°$ (when $\sin \theta = 1$)
 How is the highest visible order of maxima calculated for a diffraction grating? | $n = \frac{d}{\lambda}$, rounded down to the nearest integer
 Why must the calculated value of $n = \frac{d}{\lambda}$ be rounded down? | Because $n$ must be an integer number of maxima, and $\sin \theta$ cannot exceed 1
+A grating has slit spacing $2.0 \times 10^{-6}$ m and the light has wavelength 600 nm. What is the highest order seen, and how many maxima are there in total? | $\frac{d}{\lambda} = 3.3$, so the highest order is 3 and there are 7 maxima (3 on each side plus the central one)
 What is the path difference between light from adjacent slits at the $n$th order maximum of a diffraction grating? | $n\lambda$
 What is the path difference at the zeroth-order (central) maximum of a diffraction grating? | Zero
 How is the diffraction grating equation derived from the path difference? | At the $n$th order maximum the path difference is $n\lambda$. From trigonometry, $\sin \theta = \frac{n\lambda}{d}$, which rearranges to $d \sin \theta = n\lambda$

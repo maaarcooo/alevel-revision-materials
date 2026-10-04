@@ -1,5 +1,3 @@
-State the principle of superposition | When two or more waves overlap at a point, the displacement at that point is equal to the sum of the displacements of the individual waves
-When two or more waves overlap at a point, the displacement equals the sum of the individual displacements — what principle is this? | The principle of superposition
 What is interference? | The effect of superposition, producing regions of increased and decreased (or zero) displacement
 What is constructive interference? | When two waves meet in phase, their displacements add to produce a larger resultant amplitude
 What is destructive interference? | When two waves meet in antiphase, their displacements cancel to produce zero resultant amplitude
@@ -8,6 +6,7 @@ Why can wave displacements cancel each other during superposition? | Displacemen
 What property must waves have to produce a stable interference pattern? | They must be coherent (same frequency and constant phase difference)
 What two conditions must waves satisfy to be coherent? | They must have the same frequency and a constant phase difference
 The same frequency and a constant phase difference — what property of waves do these two conditions define? | Coherence
+Why do two separate filament lamps not produce an interference pattern? | They are not coherent: the phase difference between them changes randomly, so no stable pattern forms
 Define path difference | The difference in distance travelled by two waves from their sources to the point where they meet
 The difference in distance travelled by two waves from their sources to the point where they meet — what quantity is this? | Path difference
 How does path difference differ from phase difference? | Path difference compares the progress made by waves along their paths; phase difference compares the relative positions of peaks and troughs of coherent waves at a point
@@ -17,15 +16,15 @@ How do you determine the type of interference at a point on a wavefront diagram?
 What does monochromatic mean? | Having a single wavelength (or equivalently, a single frequency)
 Give two examples of coherent wave sources | A monochromatic laser; two speakers connected to the same signal generator emitting the same frequency
 Why are lasers ideal for analysing diffraction and interference patterns? | Laser light is coherent (constant phase difference and frequency) and monochromatic (single wavelength)
-In a laser diffraction pattern, bright fringes correspond to regions of [...] | constructive interference
-In a laser diffraction pattern, dark fringes correspond to regions of [...] | destructive interference
+What do the bright fringes in an interference pattern correspond to? | Regions of constructive interference, where the waves arrive in phase
+What do the dark fringes in an interference pattern correspond to? | Regions of destructive interference, where the waves arrive in antiphase
 How is constructive interference of sound waves perceived? | The sound appears louder, because compressions and rarefactions from each wave line up
 How is destructive interference of sound waves perceived? | Zero sound is heard, because a compression from one wave meets a rarefaction from the other
 What technology uses destructive interference of sound waves? | Noise-cancelling headphones
 How is two-source interference demonstrated with microwaves? | A microwave transmitter emits waves through two slits in metal plates; a moveable microwave detector picks up regions of maximum and zero signal
 Name three types of waves used to demonstrate two-source interference | Light (laser through double slits), sound (two coherent speakers), and microwaves (transmitter through two slits with a moveable detector)
 State the relationship between the intensity of a wave and its amplitude | $I \propto A^2$ (intensity is proportional to the square of the amplitude)
-Explain why intensity is proportional to the square of amplitude | The energy transferred by a wave is proportional to the square of its amplitude, and intensity is the power per unit area
+By what factor does the intensity of a wave change if its amplitude doubles? | It becomes 4 times greater, because $I \propto A^{2}$
 In Young's double-slit experiment, what is the purpose of the single slit? | To diffract the light so it acts as a single source, ensuring the waves emerging from the double slit are coherent
 In an ideal double-slit interference pattern, how do the bright fringes compare? | All bright fringes have the same width and intensity, separated by narrow dark bands
 Explain why the central maximum in a real double-slit pattern is brighter than the outer fringes | Each individual slit also diffracts light, so fringe intensities are modulated by the single-slit diffraction envelope
@@ -34,6 +33,7 @@ In the equation $w = \frac{\lambda D}{s}$, what do $w$, $D$, and $s$ represent? 
 How does fringe spacing $w$ change if the wavelength $\lambda$ increases? | $w$ increases ($w \propto \lambda$)
 How does fringe spacing $w$ change if the slit-to-screen distance $D$ increases? | $w$ increases ($w \propto D$)
 How does fringe spacing $w$ change if the slit separation $s$ decreases? | $w$ increases ($w \propto 1/s$)
+Light of wavelength 600 nm passes through slits 0.50 mm apart onto a screen 2.0 m away. What is the fringe spacing? | $w = \frac{\lambda D}{s} = \frac{600 \times 10^{-9} \times 2.0}{0.50 \times 10^{-3}} = 2.4$ mm
 What does the order number $n$ represent in an interference pattern? | The position of a maximum or minimum relative to the central maximum; $n = 0$ is the central maximum, $n = 1$ the first on either side, and so on
 What colour is the central maximum when white light passes through a double slit? | White, because all wavelengths interfere constructively at the centre
 In a white-light double-slit pattern, which colour appears nearest to the central maximum in the spectra? | Violet/blue (shortest wavelength, diffracted least)
@@ -45,17 +45,13 @@ What did Christiaan Huygens propose in 1678? | The Wave Theory of Light, describ
 What did Thomas Young's double-slit experiment (1801) demonstrate? | That light is a wave, capable of constructive and destructive interference
 What did Maxwell show about light in 1862? | That light is an electromagnetic wave made of perpendicular oscillating electric and magnetic fields
 What did Einstein's work on the photoelectric effect (1905) demonstrate about light? | Light behaves as a particle, consisting of packets of energy called photons
-What is wave-particle duality? | The concept that light exhibits both wave-like and particle-like behaviour
 What is the aim of the Young's double-slit required practical? | To investigate the relationship between the slit-to-screen distance $D$ and the fringe width $w$
 In the Young's double-slit required practical, what are the independent and dependent variables? | Independent: slit-to-screen distance $D$; Dependent: fringe width $w$
 What are the control variables in the Young's double-slit required practical? | Wavelength of laser light ($\lambda$) and slit separation ($s$)
 How is fringe width $w$ measured accurately in the required practical? | Measure across many fringes using vernier callipers, then divide the total distance by the number of fringe widths
 What graph is plotted in the Young's double-slit practical, and what does the gradient represent? | $w$ against $D$; gradient $= \frac{\lambda}{s}$
 How is wavelength determined from the $w$ vs $D$ graph in the required practical? | $\lambda = s \times \text{gradient}$
-What is the aim of the diffraction grating required practical? | To calculate the wavelength of laser light using a diffraction grating
-State the diffraction grating equation | $n\lambda = d\sin\theta$
-In the equation $n\lambda = d\sin\theta$, what do $d$ and $\theta$ represent? | $d$ = distance between adjacent slits (m); $\theta$ = angle between the normal and the maximum
-How is slit spacing $d$ calculated from the number of slits per metre $N$? | $d = \frac{1}{N}$
+What is the aim of the diffraction grating required practical? | To find the wavelength of laser light from the angles of the maxima, using $n\lambda = d\sin\theta$
 How is the angle $\theta$ to each order calculated in the diffraction grating practical? | $\theta = \tan^{-1}\!\left(\frac{h}{D}\right)$, where $h$ is the distance from the central maximum to the order and $D$ is the grating-to-screen distance
 State two methods to reduce uncertainty when measuring fringe spacing or distance between maxima | Measure across all visible fringes and divide by the number of fringes; use a Vernier scale for higher resolution
 Why does using a grating with more lines per mm reduce the percentage uncertainty? | It produces larger values of $h$ (distance between maxima), so the fixed measurement uncertainty becomes a smaller fraction of $h$

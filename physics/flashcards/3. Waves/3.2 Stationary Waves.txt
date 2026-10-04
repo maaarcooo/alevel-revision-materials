@@ -8,19 +8,19 @@ A point of no vibration on a stationary wave — what is this called? | A node
 What is an antinode on a stationary wave? | A point of maximum amplitude on a stationary wave
 A point of maximum amplitude on a stationary wave — what is this called? | An antinode
 How do nodes and antinodes behave in terms of position on a stationary wave? | Nodes are fixed in position. Antinodes oscillate vertically but do not move along the string
-How can you determine whether two points on a stationary wave are in phase or out of phase? | Count the nodes between them: an even number (including zero) means in phase, an odd number means out of phase
+How can you tell whether two points on a stationary wave are in phase or in antiphase? | Count the nodes between them: an even number (including zero) means in phase, an odd number means in antiphase
+How does phase vary along a progressive wave compared with a stationary wave? | Along a progressive wave the phase changes continuously. On a stationary wave all points between two adjacent nodes are in phase
 What distance separates adjacent nodes (or adjacent antinodes) on a stationary wave? | Half a wavelength ($\frac{\lambda}{2}$)
-State the principle of superposition | When two or more waves with the same frequency arrive at a point, the resultant displacement is the sum of the displacements of each wave
+State the principle of superposition | When two or more waves meet at a point, the resultant displacement is the vector sum of the displacements of the individual waves
 The resultant displacement at a point equals the sum of the displacements of the individual waves arriving there — what principle is this? | The principle of superposition
 To what types of waves does the principle of superposition apply? | All types: transverse and longitudinal, progressive and stationary
-What happens when two waves of the same frequency and amplitude superpose in phase? | Constructive interference occurs and the resultant wave has double the amplitude
-What happens when two waves of the same frequency and amplitude superpose in anti-phase? | Destructive interference occurs and the resultant wave has zero amplitude
 What conditions are required for a stationary wave to form? | Two waves with the same frequency, same wavelength, and similar amplitude must travel in opposite directions along the same line
 What type of interference produces nodes on a stationary wave? | Destructive interference (the waves are in anti-phase at those points)
 What type of interference produces antinodes on a stationary wave? | Constructive interference (the waves are in phase at those points)
 What do stationary waves on a vibrating stretched string produce? | Sound (this is how stringed instruments such as guitars and violins work)
 How can stationary waves be demonstrated with microwaves? | Place a microwave source in line with a metal reflector and move a probe detector between them to locate nodes (signal minima) and antinodes (signal maxima)
 How can stationary sound waves be demonstrated in a tube? | Place fine powder inside a tube with a loudspeaker at the open end. At resonant frequencies the powder collects in evenly spaced heaps at the nodes
+Why does the powder collect at the nodes of a stationary sound wave in a tube? | The air does not vibrate at the nodes, so the powder there is left undisturbed
 For a stationary sound wave in a tube closed at one end, where are the node and antinode? | Node at the closed end, antinode at the open end (loudspeaker end)
 What is a resonant frequency in the context of a vibrating string? | A frequency at which a whole number of half wavelengths fits exactly on the length of the string, forming a stationary wave
 What are harmonics? | Different stationary wave patterns that can form at specific resonant frequencies, depending on the frequency of vibration and the boundary conditions
@@ -28,6 +28,7 @@ What is the first harmonic on a string fixed at both ends? | The simplest statio
 What is another name for the first harmonic? | The fundamental frequency
 What is the wavelength of the first harmonic on a string of length $L$? | $\lambda = 2L$
 What is the frequency of the first harmonic on a string of length $L$ with wave speed $v$? | $f_1 = \frac{v}{2L}$
+The first harmonic on a string of length 0.60 m has a frequency of 110 Hz. What is the wave speed on the string? | $v = f\lambda = 110 \times 1.2 = 132\;\mathrm{m\,s^{-1}}$
 How many nodes and antinodes does the second harmonic have on a string? | Three nodes and two antinodes
 What is the wavelength of the second harmonic on a string of length $L$? | $\lambda = L$
 What is the frequency of the second harmonic in terms of $f_1$? | $f_2 = 2f_1$
@@ -39,6 +40,8 @@ What is the frequency of the $n$th harmonic in terms of $f_1$? | $f_n = n \times
 What is the equation for the speed of a wave travelling along a string under tension? | $v = \sqrt{\frac{T}{\mu}}$, where $T$ is tension (N) and $\mu$ is mass per unit length (kg m$^{-1}$)
 What is mass per unit length ($\mu$) and what is its SI unit? | The mass of the string divided by its length, measured in kg m$^{-1}$
 What is the equation for the frequency of the first harmonic in terms of $L$, $T$, and $\mu$? | $f = \frac{1}{2L}\sqrt{\frac{T}{\mu}}$
+How does the first harmonic frequency of a string change if the tension is made four times larger? | It doubles, because $f \propto \sqrt{T}$
+How does the first harmonic frequency of a string change if its length is halved? | It doubles, because $f \propto \frac{1}{L}$
 What is the aim of the required practical on stationary waves? | To investigate how the frequency of the first harmonic depends on the length, tension, or mass per unit length of a string
 In the stationary waves required practical (varying length), what are the independent, dependent, and control variables? | IV: length of string. DV: frequency of first harmonic. CVs: tension (same hanging mass) and same string (constant mass per unit length)
 Describe the setup for the stationary waves required practical | A string is attached to a vibration generator at one end, passes over a pulley at the other end, and has masses hung from it to provide tension. A moveable bridge sets the vibrating length $L$

@@ -8,10 +8,13 @@ What is frequency (f) of a wave? | The number of complete oscillations per unit 
 What equation relates frequency and period? | $f = \frac{1}{T}$
 What is wave speed (v)? | The distance travelled by the wave per unit time, measured in $\text{m s}^{-1}$
 State the wave equation | $v = f\lambda$
+A sound wave has a frequency of 440 Hz and travels at $330\;\mathrm{m\,s^{-1}}$. What is its wavelength? | $\lambda = \frac{v}{f} = \frac{330}{440} = 0.75$ m
 For a wave of constant speed, what happens to frequency if wavelength increases? | Frequency decreases
 What is phase difference? | A measure of how much a point or a wave is in front of or behind another
 A measure of how much a point or a wave is in front of or behind another — what term is this? | Phase difference
 In what units can phase difference be measured? | Fractions of a wavelength, degrees, or radians
+Two points on a wave are a distance $d$ apart. What is their phase difference in radians? | $\frac{2\pi d}{\lambda}$
+What is the phase difference between two points a quarter of a wavelength apart? | $\frac{\pi}{2}$ radians ($90°$)
 When are two waves said to be in phase? | When their crests or troughs are aligned, giving a phase difference of $0°$ or $360°$ ($2\pi$ radians)
 When are two waves said to be in antiphase? | When the crest of one wave aligns with the trough of another, giving a phase difference of $180°$ ($\pi$ radians)
 If wave A reaches a peak before wave B, what is the phase relationship? | Wave A leads wave B (wave B lags wave A)
@@ -23,6 +26,7 @@ A wave in which the particles oscillate parallel to the direction of wave travel
 What features do longitudinal waves show? | Compressions (regions of increased pressure) and rarefactions (regions of decreased pressure)
 What is the wavelength of a longitudinal wave? | The distance between two successive compressions or two successive rarefactions
 Give three examples of transverse waves | Electromagnetic waves (e.g. light, radio, UV), vibrations on a string, seismic S-waves
+What do all electromagnetic waves have in common in a vacuum? | They all travel at the same speed, $3.00 \times 10^{8}\;\mathrm{m\,s^{-1}}$
 Give three examples of longitudinal waves | Sound waves, ultrasound waves, seismic P-waves
 How can transverse waves be demonstrated? | Using a rope, with vibrations perpendicular to the direction of wave travel
 How can longitudinal waves be demonstrated? | Using a slinky spring, with vibrations parallel to the direction of wave travel
@@ -30,14 +34,15 @@ Which type of wave can be polarised? | Transverse waves only (longitudinal waves
 What is polarisation? | When particle oscillations occur in a single plane perpendicular to the direction of wave propagation
 Particle oscillations occurring in a single plane perpendicular to the direction of wave propagation — what term is this? | Polarisation
 Why can only transverse waves be polarised? | Transverse waves oscillate in any plane perpendicular to the propagation direction, so they can be restricted to one plane; longitudinal waves oscillate only parallel to travel
+How does polarisation provide evidence about the nature of a wave? | Only a wave with oscillations perpendicular to its direction of travel can be polarised, so a wave that can be polarised must be transverse
 What does a polariser (polarising filter) do? | It transmits only oscillations in a single plane, blocking all other planes of oscillation
 What is the transmitted light intensity when two polarisers have parallel transmission axes? | Maximum: all polarised light from the first filter passes through the second
 What is the transmitted light intensity when two polarisers have perpendicular transmission axes? | Zero: no polarised light from the first filter passes through the second
+How does the transmitted intensity change as the angle between two polarisers increases from 0° to 90°? | It falls from its maximum to zero
 In a two-polariser experiment, how many times does the transmitted intensity reach zero as the second polariser is rotated through 360°? | Twice (at 90° and 270°)
-What happens to the intensity of unpolarised light after passing through a single polarising filter? | The intensity reduces
+What happens to unpolarised light when it passes through a single polarising filter? | Its intensity is halved, and the light that emerges is plane-polarised
 What happens to unpolarised light when it reflects off a horizontal surface such as water? | It becomes partially plane-polarised, with a greater proportion oscillating in the horizontal plane
 How do Polaroid sunglasses reduce glare from reflective surfaces? | They contain vertically oriented polarising filters that block horizontally polarised light reflected from surfaces such as water or wet roads
 Why can a polarising filter reveal objects beneath water? | Glare from the water surface is partially horizontally polarised and is blocked, while light from underwater objects is refracted (not reflected) and so is not polarised, passing through the filter
 Why must a TV reception aerial be aligned to match the transmitter's signal polarisation? | Broadcasting towers transmit either vertically or horizontally polarised signals; the aerial must be in the same orientation to receive the signal
 Name three processes (besides passing through a polariser) by which light can become polarised | Reflection, refraction, and scattering
-Why is it best practice to use $v$ rather than $c$ for wave speed in the wave equation? | $c$ represents the speed of light ($3 \times 10^8$ $\text{m s}^{-1}$); $v$ should be used for any other wave speed

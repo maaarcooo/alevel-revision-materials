@@ -27,11 +27,9 @@ What does a memory read signal on the control bus cause? | Data is read from a s
 What does a memory write signal on the control bus cause? | The data on the data bus is written into the addressed memory location
 What does an interrupt request signal on the control bus show? | That a device is requesting access to the CPU
 What is the clock signal on the control bus used for? | To synchronise operations
-What does assembly language use to represent instructions? | Mnemonics such as ADD, which are a simplified way of representing machine code
 What are the two parts of an instruction held in the CIR? | The opcode and the operand
 What does the opcode of an instruction specify? | The type of instruction to be executed
 What does the operand of an instruction contain? | The data, or the address of the data, on which the operation is to be performed
-What does the addressing mode of a machine code instruction specify? | How the operand is to be used
 What is the fetch-decode-execute cycle? | The sequence of operations the CPU repeats to fetch, decode and execute each instruction
 The sequence of operations the CPU repeats to process each instruction — what term is this? | The fetch-decode-execute cycle
 What is the first step of the fetch phase? | The address in the PC is copied to the MAR

@@ -21,7 +21,6 @@ Give an example of abstraction experienced by a user saving a file | They do not
 Name two areas of computing that use layers of abstraction | Programming languages (low-level to high-level) and networking (the TCP/IP model)
 Which generations of programming language are machine code, assembly language and high-level languages? | First, second and third generation respectively
 How does assembly language abstract machine code? | Mnemonics stand for groups of binary digits, which makes programs quicker to write and less error-prone than binary
-Why must an assembly language program be rewritten to run on a different family of processors? | Each processor family has its own instruction set
 What do high-level languages provide an abstraction for? | The machine code that is actually executed when the program runs
 What do high-level languages let a developer ignore? | How data is stored in memory and how instructions are carried out by the processor
 Why have high-level languages made coding accessible to non-specialists? | Their syntax parallels natural language, so they are far easier to learn and use than low-level languages

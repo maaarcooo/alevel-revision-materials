@@ -2,6 +2,7 @@ What is application software? | Software designed to perform a specific task for
 Software designed to perform a specific task for the end-user, requiring systems software to run — what type of software is this? | Application software
 What is systems software? | Low-level software responsible for running the computer system smoothly, interacting with hardware and providing a platform for applications software to run
 Low-level software that manages the computer system and provides a platform for applications software — what type of software is this? | Systems software
+Give three examples of systems software | The operating system, utility programs and device drivers
 How does application software differ from systems software? | Application software performs specific tasks for end-users (e.g. word processing). Systems software manages the computer itself and provides a platform for applications to run
 What is the purpose of a word processor? | Creating, editing, formatting, and printing text documents
 What is the purpose of database management software (DBMS)? | Storing, retrieving, manipulating, and managing data
@@ -10,18 +11,20 @@ What is the purpose of an Integrated Development Environment (IDE)? | Developing
 What is the purpose of virtualisation software? | Creating and running virtual machines on a single physical machine
 What is utility software? | Software designed to analyse, configure, optimise, or maintain a computer, supporting the operating system
 Software designed to analyse, configure, optimise, or maintain a computer — what type of software is this? | Utility software
-What does a disk defragmentation utility do? | Rearranges files on a hard disk into contiguous blocks, reducing empty spaces, to speed up file access and improve performance
+What does a disk defragmentation utility do? | Rearranges the fragmented files on a hard disk into contiguous blocks so that they can be read faster
 Which type of storage device generally does not require defragmentation? | Solid-state drives (SSDs)
-What does a backup utility do? | Automatically creates routine copies of user-specified files at set intervals, allowing file recovery after power failure, malicious attack, or other accidents
+What does a backup utility do? | Automatically makes routine copies of the files the user selects, so they can be recovered after a power failure, attack or accident
 What does an antivirus utility do? | Detects potential threats to the computer, alerts the user, and removes the threats
-What does an automatic updating utility do? | Ensures the operating system is kept up to date by automatically installing updates on restart, tackling bugs and security flaws
+What does an automatic updating utility do? | Keeps the operating system up to date by installing updates automatically, which fixes bugs and security flaws
 What does a compression utility do? | Enables files to be compressed and decompressed, commonly used when transmitting large files across the Internet
-What is the role of a device driver? | Provides an interface between hardware and the operating system, allowing programs to communicate with hardware without knowing the hardware's precise details
 What does a file encryption utility do? | Scrambles file contents so they can only be read by someone with the correct password or key, enabling secure file transfer
+What does a file management utility do? | Lets the user organise, search, rename, move and delete files and folders
+What does a system cleanup utility do? | Frees up space by removing temporary files, cached data and other unnecessary files
 What is open source software? | Software where the source code is freely available and can be viewed, modified, and redistributed by anyone without requiring a license
 Software where the source code is freely available and can be viewed, modified, and redistributed by anyone — what is this called? | Open source software
 What is closed source software? | Software where the source code is proprietary and hidden. Users require a license and cannot access or modify the code
 Software where the source code is proprietary and users require a license to use it — what is this called? | Closed source software
+Give an example of open source software and of closed source software | Linux is open source. Microsoft Windows is closed source
 Give two advantages of open source software to the user | Often free to use; can be customised and modified to suit specific needs
 Give two disadvantages of open source software to the user | Online support may be insufficient or incorrect with no official user manuals; may have lower security as not developed in a controlled environment
 Give two advantages of closed source software to the user | Professional expert support and user manuals; thorough, regular, well-tested updates
@@ -34,7 +37,9 @@ What factors should a user consider when choosing between open and closed source
 What is a translator in computing? | A program that converts source code from a high-level or assembly language into low-level object code (machine code) so it can be executed
 Name the three types of translator | Compiler, interpreter, assembler
 How does a compiler translate code? | Translates the entire source code into machine code all at once, reporting any errors found during the process
+What must be done if a change is made to a compiled program? | The whole program must be recompiled
 How does an interpreter translate code? | Translates and executes source code line by line, stopping and producing an error when a line contains an error
+Why might an interpreter appear faster than a compiler at first? | It starts executing straight away, whereas a compiler must translate the whole program before anything runs
 How does an assembler translate code? | Translates assembly language into machine code on an almost one-to-one basis (each assembly instruction maps to roughly one machine code instruction)
 What type of language does an assembler translate? | Assembly language (a low-level language)
 Why is compiled code generally faster to execute than interpreted code? | Compiled code is already fully translated to machine code, requiring no translation at runtime. Interpreted code must be re-translated each time it runs
@@ -44,30 +49,33 @@ Why is interpreted code considered more portable than compiled code? | It can ru
 What must be present at runtime for interpreted code to execute? | An interpreter
 What is needed at runtime to execute compiled code? | Only the compiled executable file — no translator is needed
 How do compilers and interpreters differ in error reporting? | A compiler reports all errors after attempting to translate the whole program. An interpreter stops at the first error it encounters, reporting its exact location
-Why is assembly code considered platform-specific? | Its instructions depend on the instruction set of the specific processor
 What is the first stage of compilation? | Lexical analysis
 What stage of compilation directly follows lexical analysis? | Syntax analysis
 What stage of compilation directly follows syntax analysis? | Code generation
 What is the final stage of compilation? | Optimisation
-What happens during lexical analysis? | Whitespace and comments are removed, and the remaining code is broken into tokens (keywords, identifiers, operators, separators). A token table is produced for the next stage
+What happens during lexical analysis? | Whitespace and comments are removed, and keywords and identifiers are replaced with tokens, with information about each token stored in a symbol table
 What is a token in the context of compilation? | A small meaningful unit of the programming language, such as a keyword, identifier, operator, or separator
-What is a symbol table in compilation? | A data structure that stores information about identifiers (such as variable names and their types) encountered during compilation
+What is the symbol table used for in compilation? | It stores information about the tokens and identifiers found during lexical analysis, with further detail added during syntax analysis
 What happens during syntax analysis? | Tokens are checked against the grammar and rules of the programming language. Syntax errors are flagged, and an abstract syntax tree (AST) is produced
+What is parsing? | The process of checking that each line of code is well formed according to the rules of the language
 What is an abstract syntax tree (AST)? | A tree-based representation of the structure of the source code, produced during syntax analysis and used in code generation
 Give two examples of syntax errors detected during syntax analysis | Mismatched or incomplete brackets; missing semicolons
 What is semantic analysis in the context of compilation? | Detection of logic errors such as undeclared identifiers or multiple declarations of the same variable, carried out during the syntax analysis stage
+How does a semantic error differ from a syntax error? | A syntax error breaks the grammar of the language, such as a missing bracket. A semantic error is grammatically valid but wrong in meaning, such as using an undeclared identifier
 What happens during code generation? | The abstract syntax tree is traversed to produce object code (machine code) that can be executed by the computer
-What happens during the optimisation stage of compilation? | The code is modified to be more efficient without changing its functionality, e.g. removing redundant or duplicate code to reduce memory use and increase execution speed
+What happens during the optimisation stage of compilation? | Redundant code is removed and repeated sections are replaced with more efficient code that produces the same result
 What risk is associated with excessive code optimisation? | It may alter the way the program behaves, changing its intended functionality
-Why can the optimisation stage increase overall compilation time? | Searching for and applying optimisations is computationally expensive, adding significantly to compilation time even though the resulting code executes faster
+What is the aim of optimisation, and what does it cost? | The aim is code that executes faster and uses less memory. The cost is a significantly longer compilation
 What is a library in programming? | A collection of pre-written, pre-compiled code (functions, procedures, classes) that can be incorporated into programs to perform common tasks without writing from scratch
 A collection of pre-written, pre-compiled code that can be incorporated into programs — what is this? | A library (or code library)
 Give two advantages of using libraries in programming | They save development time with ready-to-use, tested code; they can be reused across multiple programs
 Give two disadvantages of using libraries in programming | Dependency issues if the library becomes unsupported; potential compatibility issues between library versions and the system
 What is a linker? | Software that combines separately compiled object files and libraries into a single executable file, resolving references between them
-How does static linking differ from dynamic linking? | Static linking copies library code directly into the executable at compile time, increasing file size but not requiring the library at runtime. Dynamic linking stores only addresses of libraries, keeping files small and allowing external updates to apply automatically
+How does static linking differ from dynamic linking? | Static linking copies the library code into the program file, which makes the file larger. Dynamic linking stores only the addresses of the libraries, so the file stays small
 In static linking, how does updating the external library affect the program? | It does not affect the program, since the library code was copied into the executable at compile time
 In dynamic linking, how does updating the external library affect the program? | Updates automatically apply, since only the library's address is stored in the executable, not its code
+What is an advantage of static linking? | A specific version of a library can be relied on, because later updates to the library do not affect the program
+What does the loader do for a dynamically linked program? | When the program is run, it retrieves the library or subroutine from the address stored in the file
 What is a loader? | A program provided by the operating system that loads executable files into memory so they can be run
 What is source code? | Code written by a programmer in a high-level or assembly language, before it has been translated into object code
 What is object code? | Machine code output produced by a compiler or assembler, ready to be executed by a computer

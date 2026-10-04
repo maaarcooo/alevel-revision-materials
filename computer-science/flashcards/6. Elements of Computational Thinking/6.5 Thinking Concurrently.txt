@@ -4,7 +4,6 @@ What is concurrent thinking? | The mindset of spotting patterns and parts of a p
 The mindset of spotting patterns and parts of a problem where concurrency can be applied — what term is this? | Concurrent thinking
 How does concurrent thinking differ from concurrent processing? | Concurrent thinking is done by a person analysing a problem. Concurrent processing is done by a computer processor
 How does concurrent processing differ from parallel processing? | Concurrent processing switches between tasks on one processor using time slices. Parallel processing runs tasks at the same instant on multiple processors or cores
-What is a time slice? | A small fraction of processor time given to one process before the processor swaps to another
 Why does concurrent processing look simultaneous to a user? | Each time slice lasts only microseconds, which is far too fast for a person to notice the switching
 What would happen to a second program if processes were not given time slices? | It could not start until the first had run to completion, such as a game waiting for a virus scan to finish
 What are dependencies? | Tasks that rely on other tasks in order to start or complete

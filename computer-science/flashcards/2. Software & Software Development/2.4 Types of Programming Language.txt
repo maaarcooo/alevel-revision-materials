@@ -1,0 +1,64 @@
+What is a programming paradigm? | An approach to using a programming language to solve a problem, which sets how programs are structured and developed
+An approach to using a programming language to solve a problem, which sets how programs are structured — what term is this? | Programming paradigm
+Why are different programming paradigms needed? | Different types of problem suit different approaches, so the paradigm is chosen to fit the problem being solved
+What two broad categories are programming paradigms split into? | Imperative and declarative
+Which two paradigms fall under the imperative category? | Procedural and object-oriented
+Which two paradigms fall under the declarative category? | Functional and logic
+How does imperative programming specify computation? | The code clearly specifies the actions to be performed, step by step
+How does declarative programming specify computation? | The code states the desired result, and the language determines how best to obtain it
+A paradigm in which code states the desired result rather than the steps needed to reach it — what is this? | Declarative programming
+What type of applications is declarative programming commonly used for? | Expert systems and artificial intelligence
+What is functional programming? | A declarative paradigm in which programs are built from function calls, often combined within each other, closely linked to mathematics
+Name a functional programming language | Haskell
+What is logic programming? | A declarative paradigm in which code defines a set of facts and rules, and queries are used to find answers
+A paradigm in which code defines facts and rules, and queries are used to find answers — what is this? | Logic programming
+Name a logic programming language | Prolog
+What kind of problem suits the object-oriented paradigm? | One with many reusable components that share similar characteristics
+What is meant by a multi-paradigm language? | A language that supports more than one paradigm, e.g. Python supports both procedural and object-oriented programming
+What is procedural programming? | A type of imperative programming in which a sequence of instructions, which may be grouped into procedures, is carried out step by step
+An imperative paradigm in which instructions, often grouped into procedures, are carried out step by step — what is this? | Procedural programming
+Why is procedural programming so widely used? | It can be applied to a wide range of problems and is relatively easy to write and interpret
+What is structured programming? | A subsection of procedural programming in which control flow is given by sequence, selection, iteration and recursion
+What data types and structures do procedural languages provide? | Built-in data types such as integers and strings, and data structures such as arrays and dictionaries
+What is the role of variables in procedural programming? | They hold the program's state as it runs
+How does procedural programming promote reuse and clarity? | Code is grouped into functions and procedures
+What types of problems is procedural programming best suited to? | Problems that can easily be expressed as a series of step-by-step instructions
+Why is procedural programming a poor fit for very large systems? | Programs become unwieldy and hard to manage and scale as they grow
+What is assembly language? | A low-level language, one level above machine code, that uses mnemonics to represent machine code instructions
+A low-level language that uses mnemonics to represent machine code instructions — what is this called? | Assembly language
+What is a mnemonic in assembly language? | An abbreviation that stands for a machine code instruction, e.g. ADD, SUB, LDA
+Why is assembly language processor-specific? | Its instructions work directly with the registers and instruction set of one processor family, so code must be rewritten for a different one
+What is assembly language particularly useful for? | Embedded systems and other software that needs direct control of hardware or highly optimised code
+Why can assembly code be more efficient than high-level code? | The programmer has direct control over the hardware and every instruction, with no overhead from high-level abstractions
+Give two weaknesses of assembly language | Programs are not portable between processor types, and they are hard to write, debug and maintain
+What is the Little Man Computer (LMC)? | A simplified, hypothetical model of a computer with a small instruction set, used to understand how a processor works
+What does the LMC instruction ADD do? | Adds the value at the given memory address to the value in the accumulator
+What does the LMC instruction SUB do? | Subtracts the value at the given memory address from the value in the accumulator
+What does the LMC instruction STA do? | Stores the value in the accumulator at the given memory address
+What does the LMC instruction LDA do? | Loads the value at the given memory address into the accumulator
+What does the LMC instruction INP do? | Takes a value input by the user and places it in the accumulator
+What does the LMC instruction OUT do? | Outputs the value currently held in the accumulator
+What does the LMC instruction HLT do? | Stops the program
+What does the LMC instruction DAT do? | Reserves a labelled memory location in which data can be stored
+What does the LMC instruction BRA do? | Always branches to the given address, whatever the value in the accumulator (unconditional branch)
+What does the LMC instruction BRZ do? | Branches to the given address if the value in the accumulator is zero (conditional branch)
+What does the LMC instruction BRP do? | Branches to the given address if the value in the accumulator is zero or positive (conditional branch)
+What is a label in an LMC program? | A name given to a line of the program, so that branch instructions and data locations can refer to it instead of a numeric address
+What does the line count DAT 5 do in an LMC program? | Reserves a memory location labelled count and stores the initial value 5 in it
+How is a comparison such as A >= B made in LMC? | Load A, subtract B with SUB, then use BRP, which branches when the result is zero or positive
+How are two values tested for equality in LMC? | Subtract one from the other, then use BRZ, which branches when the result is zero
+How is a loop written in LMC? | A label marks the start of the loop, and a branch instruction at the end jumps back to it
+What addressing mode does the LMC use? | Direct addressing
+What is an addressing mode? | The way the operand of an instruction is interpreted in order to find the data to be used
+The way the operand of an instruction is to be interpreted — what term is this? | Addressing mode
+Where is the addressing mode specified within a machine code instruction? | In the opcode
+Why are addressing modes needed? | The size of the operand limits how many addresses it can hold directly, so other modes allow far more memory locations to be reached
+What is immediate addressing? | The operand is the actual value to be used by the instruction
+The operand is the actual value to be used by the instruction — which addressing mode is this? | Immediate addressing
+What is direct addressing? | The operand is the memory address that holds the value to be used
+The operand is the memory address that holds the value to be used — which addressing mode is this? | Direct addressing
+What is indirect addressing? | The operand is the address of a location that holds another address, which is where the data is stored
+The operand is the address of a location that holds the address of the data — which addressing mode is this? | Indirect addressing
+What is indexed addressing? | The address of the data is found by adding the operand to the value held in the index register
+The address of the data is found by adding the operand to the value in the index register — which addressing mode is this? | Indexed addressing
+Why is indexed addressing useful for arrays? | The index register supplies an offset from a base address, so items stored contiguously in memory can be reached in turn

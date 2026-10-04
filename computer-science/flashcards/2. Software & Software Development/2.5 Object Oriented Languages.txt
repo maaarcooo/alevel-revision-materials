@@ -1,0 +1,49 @@
+What is object-oriented programming (OOP)? | A paradigm in which programs are built from objects, created from classes, that combine data (attributes) with behaviour (methods)
+What is a class in OOP? | A template for creating objects, which defines their attributes and methods
+A template for creating objects, which defines their attributes and methods — what OOP term is this? | Class
+What is an object in OOP? | An instance of a class, with its own values for the class's attributes
+An instance of a class, with its own values for the class's attributes — what OOP term is this? | Object
+What does an object usually represent? | A real-world entity, e.g. a teacher, an aeroplane or a book
+What is instantiation? | Creating an object from a class
+Creating an object from a class — what term is this? | Instantiation
+How is an object created in OCR pseudocode? | objectName = new ClassName(parameters), e.g. myBook = new Book("Emma", "Jane Austen")
+What is a constructor? | A method called automatically when an object is instantiated, which sets the initial values of its attributes
+A method called automatically when an object is instantiated, which sets its initial attribute values — what is this called? | Constructor
+What is the constructor called in OCR pseudocode? | new, declared as public procedure new(parameters)
+What is an attribute in OOP? | A variable belonging to an object or class that holds part of its state, e.g. name or price
+A variable belonging to an object or class that holds part of its state — what OOP term is this? | Attribute
+What data types can an attribute have? | Any, e.g. integer, string, Boolean, or another object
+What is a method in OOP? | A function or procedure belonging to a class, which defines an action its objects can perform
+A function or procedure belonging to a class, which defines an action its objects can perform — what OOP term is this? | Method
+What two forms can a method take? | A function or a procedure
+How is a method called on an object? | With dot notation: objectName.methodName()
+How does an instance method differ from a static method? | An instance method works on the data of one object, while a static method belongs to the class and can be called without creating an object
+How does a public member differ from a private member? | A public attribute or method can be accessed by code outside the class, while a private one can only be accessed from within the class
+What access level is assumed in OCR pseudocode if neither public nor private is stated? | Public
+Why is a change to a private method safer than a change to a public method? | A private method is only used inside its class, so the change cannot affect code elsewhere in the program
+What is encapsulation? | Bundling attributes and methods together in a class, and making attributes private so they can only be accessed through the class's methods
+Bundling attributes and methods in a class and keeping attributes private so they are only accessed through methods — what OOP concept is this? | Encapsulation
+How does encapsulation protect an object's data? | Attributes can only be read or changed through public methods, which prevents accidental or unintended changes
+What is a getter? | A public method that returns the value of a private attribute
+What is a setter? | A public method that changes the value of a private attribute
+What can a setter do that direct access to an attribute cannot? | Validate the new value before it is stored, so the attribute cannot be set to invalid data
+How does encapsulation relate to abstraction? | The internal workings of a class are hidden, so other code uses its public methods without knowing how they are implemented
+What is inheritance? | When a class takes on all the attributes and methods of another class
+A class takes on all the attributes and methods of another class — what OOP concept is this? | Inheritance
+What is a superclass? | The class that others inherit from, also called the parent class or base class
+What is a subclass? | A class that inherits from another class, also called the child class or derived class
+What can a subclass do beyond what it inherits? | Add its own attributes and methods, and override inherited methods
+What type of relationship does inheritance establish between classes? | An "is a" relationship, e.g. a Car is a Vehicle
+How is inheritance written in OCR pseudocode? | class Subclass inherits Superclass, e.g. class Biography inherits Book
+What does the super keyword do? | Refers to the superclass, so a subclass can call its parent's methods, e.g. super.new(title) to run the parent's constructor
+What is polymorphism? | When objects of different classes respond to the same method call in different ways, each running its own class's version
+The same method call makes objects of different classes behave in different ways — what OOP concept is this? | Polymorphism
+What is method overriding? | Redefining an inherited method in a subclass, so it behaves differently from the superclass version
+What is method overloading? | Defining several methods with the same name but different parameters, so the one that runs depends on the arguments passed
+How does polymorphism let objects be treated as a common group? | Objects of different subclasses can be stored as their superclass type, e.g. in one array, and each still runs its own overridden methods
+Why does OOP promote code reuse? | Subclasses reuse superclass code through inheritance, and tested classes can be used again in other projects
+Why does OOP suit development by a team? | Classes are self-contained, so different classes can be written and tested independently
+Why is OOP code easy to maintain? | Its modular structure means one class can be updated without affecting the rest of the program
+Why does OOP need careful planning in advance? | How the problem is split into classes, and how the classes link, must be designed before coding
+Why is OOP unsuitable for small problems? | Designing classes is not worthwhile when few components are reused, and the program may end up longer and less efficient
+Why can OOP be difficult for some programmers to pick up? | It needs a different style of thinking from other paradigms

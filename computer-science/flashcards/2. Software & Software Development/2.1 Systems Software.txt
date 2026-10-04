@@ -1,45 +1,48 @@
 What is an operating system? | A collection of programs that manage hardware and software resources and provide an interface between the user and the computer
-A collection of programs that manage hardware and software resources and provide an interface between the user and the computer -- what is this? | An operating system
+A collection of programs that manage hardware and software resources and provide an interface between the user and the computer — what is this? | An operating system
 What role does the OS play in resource management? | It allocates resources (CPU, memory, disk drives, printers) to specific tasks and ensures they are used effectively
-What role does the OS play in file management? | It handles the storage, retrieval, and manipulation of data files, providing a GUI of the file system for navigating directories
-How does the OS provide security? | Through password-protected user accounts, firewalls, virus scanning, file encryption, and restricting user permissions
+What role does the OS play in file management? | It handles the storage, retrieval and manipulation of files, and lets the user choose where files are saved and what they are called
+How does the OS provide security? | Through password-protected user accounts with restricted permissions, a firewall and file encryption
 In what two ways does an OS provide a user interface? | Graphical user interface (GUI) and command-line interface (CLI)
 How does the OS provide a platform for software to run? | By allowing application software access to system resources such as the CPU, GPU, memory, and network card
-What does disk defragmentation do? | Reorganises files on the hard disk so they are stored contiguously and can be accessed faster
-What does file compression utility software do? | Reduces file size to save disk space or for faster transfer over a network
-What does disk cleanup utility software do? | Finds and removes duplicate or corrupted files, freeing up disk space
-What does backup software do? | Creates system snapshots and allows users to restore the system to a previous point
-What does file encryption utility software do? | Encodes file contents into a non-readable format to protect sensitive data during transfer or if lost/stolen
+What are the utility programs provided with an operating system for? | System maintenance and security, for example disk defragmentation, backup and file encryption
+Why is memory management needed? | Main memory is limited and often cannot hold every program in use, so it must be shared efficiently between them
 What is memory management? | The allocation and deallocation of a computer's primary memory to programs and data by the operating system
-The allocation and deallocation of primary memory to programs and data by the OS -- what function is this? | Memory management
-Name two benefits of memory management | Enables multitasking by allocating memory to multiple programs, and maintains security by preventing programs from accessing memory reserved for others
+The allocation and deallocation of primary memory to programs and data by the OS — what function is this? | Memory management
+How does memory management support multitasking? | Memory is allocated efficiently to several programs so that they can run at once
+How does memory management maintain security? | A program is not allowed to access memory reserved for another program
 What is paging? | Dividing primary memory into equal-sized blocks called pages, which can be swapped between main memory and the hard disk as needed
-Dividing memory into equal-sized blocks that can be swapped between RAM and the hard disk -- what memory management technique is this? | Paging
-What type of fragmentation can paging cause, and why? | Internal fragmentation -- the last page allocated to a process may not be fully used, and the unused space within a page cannot be used by other data
+Dividing memory into equal-sized blocks that can be swapped between RAM and the hard disk — what memory management technique is this? | Paging
+What type of fragmentation can paging cause, and why? | Internal fragmentation: the last page allocated to a process may not be fully used, and the unused space within a page cannot be used by other data
 What is segmentation? | Dividing memory into variable-sized blocks (segments) based on the logical parts of a program, such as code blocks, data, or UI elements
-Dividing memory into variable-sized blocks based on the logical structure of a program -- what technique is this? | Segmentation
-What type of fragmentation can segmentation cause, and why? | External fragmentation -- as segments are allocated and deallocated, small gaps form in memory that may be too small for new segments
+Dividing memory into variable-sized blocks based on the logical structure of a program — what technique is this? | Segmentation
+What type of fragmentation can segmentation cause, and why? | External fragmentation: as segments are allocated and deallocated, small gaps form in memory that may be too small for new segments
 What is virtual memory? | A technique where a section of secondary storage acts as an extension of RAM, allowing the OS to offload less-used data from main memory so more programs can run
-Using a section of the hard drive as an extension of RAM when main memory is insufficient -- what technique is this? | Virtual memory
+Using a section of the hard drive as an extension of RAM when main memory is insufficient — what technique is this? | Virtual memory
+How does virtual memory free up space in RAM? | Parts of programs that are not currently in use are moved to the hard disk by paging
 What is a drawback of over-reliance on virtual memory? | Accessing data in virtual memory is considerably slower than RAM, which degrades system performance
 What is disk thrashing? | When the computer freezes because pages are being swapped too frequently between main memory and the hard disk, so more time is spent transferring data than running programs
-Pages being swapped too frequently between RAM and the hard disk, causing the system to freeze -- what is this called? | Disk thrashing
+Pages being swapped too frequently between RAM and the hard disk, causing the system to freeze — what is this called? | Disk thrashing
 How does paging differ from segmentation? | Paging divides memory into equal-sized blocks with no logical meaning, risking internal fragmentation. Segmentation divides memory into variable-sized blocks based on program structure, risking external fragmentation
-What is an interrupt? | A signal sent to the processor that causes it to suspend its current task and transfer control to an interrupt service routine
-A signal to the processor that causes it to suspend its current task and run an interrupt service routine -- what is this? | An interrupt
+What is an interrupt? | A signal generated by hardware or software telling the processor that something needs its attention, causing it to suspend its current task
+A signal to the processor that causes it to suspend its current task and run an interrupt service routine — what is this? | An interrupt
+Give two examples of interrupts | A printer signalling that a print job is complete, and a peripheral signalling a power failure
 What is a hardware interrupt? | An interrupt generated by an external device, e.g. keyboard input, mouse movement, or disk I/O request
 What is a software interrupt? | An interrupt triggered by software or the operating system, e.g. a request to open a file or a division by zero error
 What is a trap interrupt? | An interrupt intentionally triggered by a program for software debugging or handling unexpected error cases
 What is an interrupt service routine (ISR)? | A specific routine that handles a particular type of interrupt, designed to be concise and efficient as it deals with time-sensitive events
-A routine designed to handle a particular type of interrupt -- what is this called? | Interrupt service routine (ISR)
+A routine designed to handle a particular type of interrupt — what is this called? | Interrupt service routine (ISR)
 Where are pending interrupts stored before being serviced? | In a priority queue within a special register called the interrupt register
 At what point in the FDE cycle does the processor check for interrupts? | At the end of each fetch-decode-execute cycle
 What happens to register contents when a higher-priority interrupt is acknowledged? | The current contents of the CPU's special purpose registers are saved onto a stack so they can be restored after the ISR completes
-What happens after an ISR completes? | The flag is reset, the interrupt queue is checked for further higher-priority interrupts. If none remain, the register contents are restored from the stack and the FDE cycle resumes
+Why is a stack used to hold the register contents during an interrupt? | A stack is last in, first out, so with nested interrupts the most recently saved state is restored first
+After the registers are saved, how does the processor respond to an interrupt? | It loads and executes the interrupt service routine for that type of interrupt
+What happens after an interrupt service routine completes? | The interrupt queue is checked again. If no interrupt of higher priority remains, the register contents are restored from the stack and the fetch-decode-execute cycle resumes
 What is interrupt nesting? | The ability of the processor to suspend a lower-priority ISR to handle a higher-priority interrupt that arrives during its execution
 What is scheduling in an OS? | Deciding which tasks the CPU should process, for how long, and in what order, using scheduling algorithms to share processor time fairly
-What is pre-emptive scheduling? | Scheduling where the OS allocates the CPU for a limited time quantum and can interrupt a running process to give CPU time to another
-What is non-pre-emptive scheduling? | Scheduling where once the CPU is allocated to a process, it runs until completion or enters a waiting state without being interrupted
+What is a time slice? | A fixed period of processor time given to a job before the processor moves on to the next job
+What is pre-emptive scheduling? | Scheduling in which the operating system can stop a running job to give the processor to another, as in round robin, shortest remaining time and multi-level feedback queues
+What is non-pre-emptive scheduling? | Scheduling in which a job, once started, keeps the processor until it completes, as in first come first served and shortest job first
 How does the round robin algorithm work? | Each process is given an equal time quantum. If not completed within its quantum, the process is moved to the back of the queue
 Name one benefit and one drawback of round robin scheduling | Benefit: all processes get a fair share of CPU time. Drawback: longer jobs are split across many cycles, and priority is not considered
 How does first come first served (FCFS) scheduling work? | Processes are executed in the order they arrive. The current process blocks all others until it completes
@@ -48,34 +51,39 @@ How does the multi-level feedback queue (MLFQ) algorithm work? | Uses multiple q
 Name one benefit and one drawback of MLFQ scheduling | Benefit: shorter and more critical tasks are prioritised. Drawback: more complex to implement and configure
 How does shortest job first (SJF) scheduling work? | Processes are ordered by burst time from shortest to longest, with shorter jobs processed first to minimise average waiting time
 Name one benefit and one drawback of SJF scheduling | Benefit: minimises average waiting time. Drawback: requires knowing burst times in advance, and long processes risk starvation
-How does shortest remaining time first (SRTF) scheduling work? | A pre-emptive version of SJF. After each time quantum, all processes are re-ordered by remaining burst time, and the one with the least remaining time runs next
+How does shortest remaining time scheduling work? | The job with the least time left to complete runs next. The queue is reordered whenever a new job arrives, so a running job can be pre-empted
+Name one benefit and one drawback of shortest remaining time scheduling | Benefit: short jobs are completed quickly. Drawback: long jobs can be starved if short jobs keep arriving, and pre-empting jobs adds switching overhead
 What is processor starvation? | When a process does not receive enough CPU time to execute and complete because higher-priority or shorter processes keep being scheduled ahead of it
-A process not receiving enough CPU time to complete because other processes are continually prioritised over it -- what is this called? | Processor starvation
-How does pre-emptive scheduling differ from non-pre-emptive scheduling? | Pre-emptive: the OS can interrupt a running process to allocate CPU to another (e.g. round robin, SRTF). Non-pre-emptive: a process runs until it finishes or waits (e.g. FCFS, SJF)
+A process not receiving enough CPU time to complete because other processes are continually prioritised over it — what is this called? | Processor starvation
+Which scheduling algorithms carry a risk of processor starvation? | Shortest job first and shortest remaining time, because short jobs are always put ahead of long ones
+Which scheduling algorithm do operating systems such as Windows typically use? | Multi-level feedback queues
 What is a distributed operating system? | An OS that runs across multiple devices, spreading the processing load across multiple computer processors when a task is run
 What is an embedded operating system? | An OS designed for a specific device that is not primarily a computer (e.g. microwave, washing machine), performing a limited range of functions with low power consumption
 What is a multi-tasking operating system? | An OS that allows multiple tasks to run concurrently on a single processor by using time slicing to switch quickly between programs in memory
 What is a multi-user operating system? | An OS that supports multiple users accessing one computer concurrently, using scheduling to share processor time fairly and providing data security between users
 What is a real-time operating system (RTOS)? | An OS designed to process data and respond within a guaranteed time frame, used where low latency is critical to safety (e.g. self-driving cars, aerospace)
+Why are embedded operating systems hard to update? | They are built for one device with limited functionality and are closely tied to its hardware
 What does BIOS stand for? | Basic Input/Output System
 What is the BIOS? | Firmware stored on a chip on the motherboard. It is the first software to run at startup, performs the POST, and then runs the bootstrap loader to load the OS
-What is the POST? | Power-On Self-Test -- a diagnostic sequence run by the BIOS to check that all hardware components are connected and working properly
-A diagnostic sequence run at startup to verify hardware is connected and functional -- what is this called? | POST (Power-On Self-Test)
+What is the POST? | Power-On Self-Test: a diagnostic sequence run by the BIOS to check that all hardware components are connected and working properly
+A diagnostic sequence run at startup to verify hardware is connected and functional — what is this called? | POST (Power-On Self-Test)
 What is the bootstrap loader? | The program triggered by the BIOS after a successful POST that loads the operating system from secondary storage into RAM
-The program that loads the operating system from the hard disk into RAM after the POST -- what is this? | Bootstrap loader (bootloader)
+The program that loads the operating system from the hard disk into RAM after the POST — what is this? | Bootstrap loader (bootloader)
 What happens if the BIOS is destroyed or overwritten? | The computer cannot perform the POST or load the bootstrap program, so the operating system fails to start
 What does the Program Counter point to when a computer starts up? | The memory location of the BIOS, ensuring it is the first program to execute
 What is a device driver? | Software that enables communication between the operating system and a specific hardware device, allowing the OS to control and interact with that device
-Software that enables the OS to communicate with and control a specific hardware device -- what is this? | A device driver
+Software that enables the OS to communicate with and control a specific hardware device — what is this? | A device driver
 Why are device drivers specific to both the hardware architecture and the OS? | Different hardware architectures require different drivers, and because drivers interact directly with the OS, they must also match the installed operating system
+Why might an operating system have several drivers for the same kind of device? | Most hardware manufacturers write their own driver, so each make or model needs a different one
+How is a device driver an example of abstraction? | The user and the operating system can use the hardware without knowing the details of how it works
 What is a virtual machine? | A software implementation of a computer system that runs within a physical machine, mimicking virtual CPU, memory, and storage using hypervisor software
-A software implementation of a computer system running within a physical machine -- what is this? | A virtual machine
+A software implementation of a computer system running within a physical machine — what is this? | A virtual machine
 What is a hypervisor? | Software that enables a physical machine to run multiple virtual machines, each with its own OS and applications, independent of the host OS
-What is intermediate code in the context of virtual machines? | Code (e.g. Java bytecode) that is independent of processor architecture and is executed by a virtual machine, enabling the same program to run on multiple platforms
-Architecture-independent code executed by a virtual machine to enable cross-platform compatibility -- what is this called? | Intermediate code (bytecode)
+What is intermediate code? | Code halfway between source code and machine code, such as Java bytecode, that is independent of processor architecture and is executed by a virtual machine
+Code halfway between source code and machine code that is independent of processor architecture and is executed by a virtual machine — what term is this? | Intermediate code
 How do virtual machines enable cross-platform compatibility? | A VM can run a different OS (e.g. macOS on a Windows host), allowing users to run software not designed for their native OS
 How are virtual machines used in software testing? | They provide isolated environments where developers can test on clean systems, against different OS versions and hardware configurations, without affecting the host
 How do virtual machines support legacy software? | A VM can run an older OS version to use applications that have not received forwards-compatibility updates
 What is a drawback of running too many virtual machines? | VMs share the host machine's CPU, RAM, and storage, so over-use can exhaust these resources and cause crashes or lag
-Why is running software in a virtual machine slower than on native hardware? | The VM adds a layer of abstraction, and intermediate code runs considerably slower compared to low-level code running directly on the hardware it was designed for
+Why is running software in a virtual machine slower than running it directly on the hardware? | The virtual machine adds a layer of software between the program and the hardware, and it shares the host machine's resources
 How can virtual machines protect against malware during development? | Malware affects only the VM, not the host system, so developers can safely work with harmful test code in an isolated environment

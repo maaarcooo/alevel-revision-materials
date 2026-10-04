@@ -1,74 +1,60 @@
-What type of data structure is a stack? | A first in, last out (FILO) data structure
-A first in, last out (FILO) data structure — what is this? | A stack
-How is a stack typically implemented? | As an array with a single pointer called the top pointer
-What value is the top pointer of a stack initialised to, and why? | -1, because the first element occupies index 0, so -1 indicates the stack is empty
-What is the push operation on a stack? | Adding a new element to the top of the stack
-Adding a new element to the top of a stack — what operation is this? | Push
-What is the pop operation on a stack? | Removing and returning the element at the top of the stack
-Removing and returning the element at the top of a stack — what operation is this? | Pop
-What is the peek operation on a stack? | Returning the element at the top of the stack without removing it
-Returning the top element of a stack (or the front element of a queue) without removing it — what operation is this? | Peek
-Describe the algorithm for push(element) on a stack | Increment the top pointer by 1, then place the element at position A[top]
-Describe the algorithm for pop() on a stack | Check the stack is not empty, record the element at A[top], clear the position, decrement top by 1, and return the recorded element
-How is isEmpty() determined for a stack? | Return True if the top pointer is less than 0, otherwise return False
-How is size() calculated for a stack? | Return top + 1
-How is isFull() determined for a fixed-size stack? | Return True if the number of elements equals the capacity (the top pointer is at MAX_SIZE - 1)
-What must be checked before performing pop() or peek() on a stack? | That the stack is not empty (using isEmpty), to avoid errors
-What must be checked before performing push() on a fixed-size stack? | That the stack is not full (using isFull)
-What type of data structure is a queue? | A first in, first out (FIFO) data structure
-A first in, first out (FIFO) data structure — what is this? | A queue
-How many pointers does a queue use, and what are they called? | Two pointers: front (position of the first element) and back/rear
-What is the enqueue operation on a queue? | Adding a new element to the back of the queue
-Adding a new element to the back of a queue — what operation is this? | Enqueue
-What is the dequeue operation on a queue? | Removing and returning the element at the front of the queue
-Removing and returning the element at the front of a queue — what operation is this? | Dequeue
-In a linear queue, what are the front and rear pointers initialised to? | Front is initialised to 0 and rear to -1
-Why is the rear pointer in a linear queue initialised to -1? | So that when rear is incremented before inserting the first item, it points to index 0 (the first position in the array)
-How is isFull() determined for a linear queue? | Return True if $\text{rear} + 1 = \text{MAX\_SIZE}$
-How is isEmpty() determined for a linear queue? | Return True if front is greater than rear
-Describe the algorithm for enqueue(data) in a linear queue | Check the queue is not full, increment rear by 1, then place the data at queue[rear]
-Describe the algorithm for dequeue() in a linear queue | Check the queue is not empty, record the element at queue[front], increment front by 1, and return the recorded element
-What does peek() return for a queue? | The element at the front position, without removing it
-How is size() calculated for a linear queue? | $\text{size} = \text{back} - \text{front}$
-What formula advances a pointer in a circular queue? | $(\text{pointer} + 1) \bmod \text{MAX\_SIZE}$
-In a circular queue, what are the front and rear pointers initialised to? | Both are initialised to -1
-How is isEmpty() determined for a circular queue? | Return True if the front pointer equals -1
-How is isFull() determined for a circular queue? | Return True if $(\text{rear} + 1) \bmod \text{MAX\_SIZE} = \text{front}$
-What additional step occurs when the first item is enqueued into an empty circular queue? | The front pointer is set to 0 (to indicate the queue is no longer empty)
-What happens during dequeue in a circular queue if front equals rear? | Both front and rear are reset to -1, indicating the queue is now empty
-How is the front pointer advanced during dequeue in a circular queue when it is not the last item? | $\text{front} = (\text{front} + 1) \bmod \text{MAX\_SIZE}$
-Why does a circular queue use MOD to advance pointers? | So that when a pointer reaches the end of the array it wraps back to position 0, allowing reuse of vacated positions
-What is a priority queue? | A queue where each item has an associated priority, and higher-priority items are placed closer to the front
-A queue where each item has an associated priority and higher-priority items are placed closer to the front — what is this? | A priority queue
-Where is a new item placed in a priority queue relative to existing items? | Ahead of items with lower priority and behind items with equal or higher priority
-What programming paradigm is recommended for implementing a priority queue? | Object-oriented programming (OOP), encapsulating data and methods within class definitions
-What two fields does each node in a linked list contain? | A data field (storing the value) and a pointer to the next node in the list
-What are the names for the first and last nodes in a linked list? | The head (first) and the tail (last)
-What value does the next pointer of the tail node in a linked list hold? | Null (None), indicating the end of the list
-How is a linked list traversed? | Start at the head, output the current node's data, follow the next pointer to the next node, and repeat until the next pointer is Null
-How is a new node added to the end of a linked list? | Create the new node, traverse to the last node (where next is Null), and set that last node's next pointer to reference the new node
-What special case must be handled when adding a node to an empty linked list? | The new node becomes the head of the list
-How is a node removed from the middle of a linked list? | Set the previous node's next pointer to point to the removed node's next node, bypassing the removed node
-How is the head node removed from a linked list? | Update the head pointer to reference the second node (the removed head's next node)
-What type of search is used to find an element in a linked list? | Linear search, following sequential next operations until the element is found
-What two components make up a tree data structure? | Nodes and edges
-What two properties distinguish a tree from a general graph? | A tree cannot contain cycles, and its edges are undirected
-What three attributes does a binary tree node typically have? | A data value, a left child pointer, and a right child pointer
-In a general (non-binary) tree implementation, what two fields does each TreeNode contain? | A value and a collection (list) of child nodes
-What are the two types of tree traversal required by the OCR specification? | Depth-first (post-order) and breadth-first
-In what order does post-order (depth-first) traversal visit parts of a binary tree? | Left subtree, right subtree, then the root node
-What data structure does depth-first (post-order) traversal use internally? | A stack
-What data structure does breadth-first traversal use internally? | A queue
-How does depth-first traversal behave when it reaches a leaf node (no children)? | It visits (outputs) the node's value, then backtracks to the parent node
-How does breadth-first traversal visit nodes in a tree? | It visits all children of the start node, then all children of those nodes, continuing level by level until every node has been visited
-What visual method can determine post-order traversal order? | Draw a line around the tree and output each node's value as the line passes it on the right-hand side
+How is a stack typically implemented? | As an array with a single pointer, the top pointer, which holds the index of the item on top
+What value is the top pointer of an array-based stack initialised to? | -1, because index 0 would wrongly suggest that the stack already holds an item
+Describe the algorithm for push(element) on a stack | Check the stack is not full, increment the top pointer by 1, then store the element at A[top]
+Why is the top pointer incremented before the new item is stored in a push? | The top pointer holds the index of the current top item, so it must move to the next free position first
+What happens if push is called on a full stack? | An error is returned and the stack is left unchanged
+Describe the algorithm for pop() on a stack | Check the stack is not empty, copy the item at A[top], decrement the top pointer by 1, then return the copied item
+Describe the algorithm for peek() on a stack | Check the stack is not empty, then return A[top] without changing the top pointer
+What must be checked before pop() or peek() is carried out on a stack? | That the stack is not empty, using isEmpty()
+How does isEmpty() work for an array-based stack? | It returns True if the top pointer is less than 0, otherwise False
+How does isFull() work for an array-based stack? | It returns True if the top pointer equals the maximum index of the array (MAX_SIZE - 1)
+How is size() calculated for an array-based stack? | top + 1, because the first item is at index 0
+An empty stack of capacity 3 has push(1), push(5), push(4), peek(), pop() carried out. What do peek() and pop() return? | Both return 4. peek() leaves it on the stack and pop() removes it
+A stack holds 1, 5 (top). After push(2), pop(), pop(), what is left on the stack? | Only 1, because 2 and then 5 are popped
+How is a linear queue implemented? | As an array with two pointers, one for the front of the queue and one for the back
+Describe the algorithm for enqueue(element) when the back pointer holds the next free position | Check the queue is not full, store the element at A[back], then increment back by 1
+Describe the algorithm for dequeue() on a linear queue | Check the queue is not empty, copy the item at A[front], increment front by 1, then return the copied item
+Describe the algorithm for peek() on a queue | Return A[front] without changing either pointer
+What must be checked before dequeue() is carried out? | That the queue is not empty, using isEmpty()
+When the back pointer holds the next free position, how does isEmpty() work for a queue? | It returns True if front equals back
+When the back pointer holds the next free position, how is size() calculated for a queue? | back - front
+A queue has front = 1 and back = 6, where back holds the next free position. How many items does it hold? | 5
+When the rear pointer holds the index of the last item, what are front and rear initialised to in a linear queue? | Front is 0 and rear is -1
+Why is the rear pointer initialised to -1 when it holds the index of the last item? | Rear is incremented before each item is stored, so the first item goes into index 0
+When the rear pointer holds the index of the last item, how does isEmpty() work for a linear queue? | It returns True if front is greater than rear
+When the rear pointer holds the index of the last item, how does isFull() work for a linear queue? | It returns True if rear + 1 equals MAX_SIZE
+When the rear pointer holds the index of the last item, how is size() calculated for a linear queue? | rear - front + 1
+What are the front and rear pointers of a circular queue initialised to? | Both are -1, which shows that the queue is empty
+How does isEmpty() work for a circular queue? | It returns True if front equals -1
+How does isFull() work for a circular queue? | It returns True if (rear + 1) MOD MAX_SIZE equals front
+What extra step is needed when the first item is enqueued into an empty circular queue? | The front pointer is set to 0
+Describe the algorithm for enqueue(element) on a circular queue | Check the queue is not full, set rear to (rear + 1) MOD MAX_SIZE, then store the element at queue[rear]
+How is the front pointer advanced when an item is dequeued from a circular queue? | front = (front + 1) MOD MAX_SIZE
+What happens when the last remaining item is dequeued from a circular queue? | Front equals rear, so both pointers are reset to -1 to show the queue is empty
+A circular queue has MAX_SIZE 5 and rear = 4. Where is the next item stored if the queue is not full? | Index 0, because (4 + 1) MOD 5 = 0
+Where is a new item placed when it is enqueued into a priority queue? | Ahead of all items with a lower priority and behind items with an equal or higher priority
+How are items of equal priority ordered in a priority queue? | In the order they were added, so they are first in first out among themselves
+How does enqueue differ between a standard queue and a priority queue? | A standard queue always adds at the back, while a priority queue inserts the item at the position given by its priority
+What are the first and last nodes of a linked list called? | The head and the tail
+How is the node after node N accessed in a linked list? | By following N's pointer, written N.next
+How is a linked list searched for an item? | With a linear search: start at the head and follow the next pointers until the item is found or the end is reached
+How is a new node added to the end of a linked list? | Traverse to the tail (the node whose pointer is null) and set its pointer to the new node, whose own pointer is null
+What special case arises when a node is added to an empty linked list? | The new node becomes the head of the list
+How is a new node inserted between two nodes of a linked list? | Set the new node's pointer to the following node, then set the preceding node's pointer to the new node
+Why must the new node's pointer be set first when inserting into a linked list? | Changing the preceding node's pointer first would lose the address of the rest of the list
+How is the head node removed from a linked list? | The head pointer is changed to the second node
+Which two tree traversals does the OCR specification require? | Depth-first (post-order) and breadth-first
+Describe the recursive algorithm for post-order traversal | Traverse the left subtree, traverse the right subtree, then output the current node
+What does a post-order traversal do when it reaches a leaf node? | Outputs the node's value, then backtracks to its parent
+When is a node with children output in a post-order traversal? | After all of its children have been output
+Why does a recursive post-order traversal not need its own stack? | The call stack records the nodes still to be returned to
+Describe the algorithm for breadth-first traversal using a queue | Enqueue the root, then repeatedly dequeue a node, output it and enqueue its children, until the queue is empty
 For a binary tree with root 5, left subtree (3 with children 2 and 4), and right child 8, what is the post-order output? | 2, 4, 3, 8, 5
 For a binary tree with root 5, left subtree (3 with children 2 and 4), and right child 8, what is the breadth-first output? | 5, 3, 8, 2, 4
-How is a new value inserted into a binary search tree? | Compare the value with the current node: go left if smaller, go right if larger, repeating until a Null child position is found, then insert the new node there
-What are the three cases when removing a node from a binary search tree? | The node has no children (leaf), the node has one child, or the node has two children
-How is a leaf node removed from a binary search tree? | Set it to Null (simply delete it)
-How is a node with one child removed from a binary search tree? | Replace the node with its only child
-How is a node with two children removed from a binary search tree? | Find the minimum value in the right subtree (in-order successor), replace the node's data with that value, then recursively remove the successor from the right subtree
-How does the find_minimum function locate the smallest value in a subtree? | Follow left child pointers repeatedly from the given node until reaching a node with no left child, and return that node
-How does the order of removal differ between a stack and a queue? | A stack removes the most recently added item first, while a queue removes the earliest added item first
-How do depth-first and breadth-first tree traversals differ in the data structures they use? | Depth-first uses a stack for backtracking, while breadth-first uses a queue to process nodes level by level
+Which node is always output last in a post-order traversal? | The root
+Which node is always output first in a breadth-first traversal? | The root
+How is a binary search tree searched for a value? | Start at the root and move left if the value is smaller or right if it is larger, until it is found or a null pointer is reached
+How is the smallest value in a binary search tree found? | Follow left pointers from the root until a node with no left child is reached
+How is the largest value in a binary search tree found? | Follow right pointers from the root until a node with no right child is reached
+What is the worst-case time complexity of searching a balanced binary search tree? | $O(\log n)$, because each comparison discards half of the remaining tree
+Why can searching an unbalanced binary search tree take $O(n)$ time? | If values were inserted in order, every node has one child, so the tree behaves like a linked list

@@ -1,18 +1,21 @@
 What is time complexity? | A measure of the number of operations or steps an algorithm requires to complete, relative to the input size
 What is space complexity? | A measure of how much memory an algorithm requires to complete
-What does time complexity measure instead of wall-clock time? | The number of operations or steps performed, not the numerical time in seconds or minutes
+Which two properties make one algorithm preferable to another for the same task? | It takes fewer steps (lower time complexity) and uses less memory (lower space complexity)
 Why is an algorithm's time complexity independent of hardware? | It counts steps or instructions, which remain the same regardless of CPU speed; a faster CPU completes them quicker but the count is unchanged
 What is Big O Notation used to express? | The complexity (scalability) of an algorithm, describing an upper limit for time or space relative to the input size
-Big O Notation is named after which mathematician? | Edmund Landau
 What two rules simplify an expression into Big O Notation? | Remove all terms except the one with the largest factor or exponent, and remove any coefficients (constants)
+What is the Big O notation of an algorithm that executes $3n^2 + 4n + 5$ instructions? | $O(n^2)$: $n^2$ is the dominant term and its coefficient is dropped
 What is O(1)? | Constant time: the algorithm requires the same number of operations regardless of input size
 An algorithm that requires the same number of operations regardless of input size has which Big O classification? | O(1), constant time
+Give an example of an O(1) operation | Accessing an array element by its index
 What is O(n)? | Linear time: the number of operations grows proportionally to the input size
 An algorithm whose operations grow proportionally to input size has which Big O classification? | O(n), linear time
-What is $O(n^2)$? | Polynomial (quadratic) time: performance is proportional to the square of the number of data inputs
-An algorithm whose performance is proportional to the square of the input size has which Big O classification? | $O(n^2)$, polynomial time
+What is $O(n^2)$? | Polynomial (quadratic) time: the number of operations is proportional to the square of the input size
+An algorithm whose number of operations is proportional to the square of the input size has which Big O classification? | $O(n^2)$, polynomial time
 What is $O(2^n)$? | Exponential time: the number of operations doubles for each additional data input value
 An algorithm whose execution time doubles with each additional input item has which Big O classification? | $O(2^n)$, exponential time
+What kind of algorithm commonly has $O(2^n)$ time complexity? | A recursive algorithm that solves a problem of size n by solving two problems of size n - 1
+Why are exponential time algorithms impractical for large inputs? | The number of operations doubles with every extra item, so it quickly becomes too large to complete
 What is $O(\log n)$? | Logarithmic time: execution time grows very slowly as input size increases, because the problem space is halved each step
 An algorithm that halves the problem space each step, with execution time growing very slowly, has which Big O classification? | $O(\log n)$, logarithmic time
 What time complexity sits between $O(n)$ and $O(n^2)$? | $O(n \log n)$, linearithmic time
@@ -21,42 +24,60 @@ What time complexity is worse than exponential $O(2^n)$? | $O(n!)$, factorial ti
 What case does Big O notation almost always describe? | The worst-case performance of the algorithm
 What is best-case complexity? | The scenario where the algorithm performs most efficiently, requiring the fewest operations
 What is worst-case complexity? | The scenario where the algorithm is least efficient, requiring the most operations
+What is average-case complexity? | The number of operations the algorithm needs for typical input data
 How do you derive Big O time complexity by inspecting pseudocode? | Count the number of loops and nested loops; the dominant (highest-order) term determines the classification
 Why are coefficients removed when stating Big O notation? | As input size grows, multiplicative constants contribute proportionally less to the overall growth rate
 In computer science, logarithms typically use which base? | Base 2
 What does $\log_2(8) = 3$ mean? | 2 must be raised to the power of 3 to get 8
+About how many comparisons does a binary search need for a sorted list of 1,000,000 items? | About 20, because $2^{20}$ is roughly 1,000,000
 Rank these from most efficient to least efficient: $O(n^2)$, $O(1)$, $O(n)$, $O(2^n)$, $O(\log n)$, $O(n \log n)$ | $O(1)$, $O(\log n)$, $O(n)$, $O(n \log n)$, $O(n^2)$, $O(2^n)$
 What type of code structure produces O(n) time complexity? | A single loop that iterates through the input
 What type of code structure produces $O(n^2)$ time complexity? | Nested loops, where each loop executes n times
+What is the time complexity of three nested loops that each run n times? | $O(n^3)$
+An algorithm has a pair of nested loops, then a single loop, then one statement. What is its overall time complexity? | $O(n^2)$, because the nested loops dominate
+How can the time complexity of an algorithm be reduced? | By reducing the number of nested loops, or the number of items processed, e.g. with divide and conquer
+How can the space complexity of an algorithm be reduced? | By changing the original data in place instead of making copies of it
+Two algorithms have the same time complexity. How is the more suitable one chosen? | By comparing their space complexity: the one that needs less memory is preferred
+When should time complexity be given priority over space complexity? | When a large amount of data must be processed quickly and memory is not a constraint
 What is a linear search? | An algorithm that finds an element in an unordered list by checking each element sequentially from start to end, comparing it to the target value
-What type of list does a linear search operate on? | An unordered (unsorted) list
+What does a search function typically return if the item is not in the list? | -1, a value that cannot be a valid index
+Why can a linear search be used on any list? | It checks every item in turn, so the list does not need to be sorted
 What is the worst-case time complexity of a linear search? | O(n)
 What is the best-case time complexity of a linear search? | O(1), when the item is found at the first position
 What is the space complexity of a linear search? | O(1), as it uses only a fixed number of variables regardless of input size
+When is a linear search preferable to a binary search? | When the list is unsorted or very small, so sorting it first would not be worthwhile
 What is a binary search? | A search algorithm that compares the middle item to the target and repeatedly halves the search space by discarding the irrelevant half
 What precondition must be met for a binary search to work? | The list must be sorted
+How is the midpoint calculated in a binary search? | midpoint = (first + last) DIV 2
+A binary search for 23 is carried out on 3, 8, 12, 17, 23, 31, 40. Which items are compared with 23? | 17, then 31, then 23
 In a binary search, what happens if the target is less than the middle value? | The upper half is ignored by moving the end pointer to just below the midpoint
 In a binary search, what happens if the target is greater than the middle value? | The lower half is ignored by moving the start pointer to just above the midpoint
 What algorithmic approach does binary search use? | Divide and conquer: the problem is progressively reduced in size until the item is found or the search space is exhausted
 What is the worst-case time complexity of a binary search? | $O(\log n)$
+Why is the worst-case time complexity of a binary search $O(\log n)$? | The search range is halved after each comparison, so at most about $\log_2 n$ comparisons are needed
 What is the best-case time complexity of a binary search? | O(1), when the item is found at the midpoint on the first comparison
 What is the space complexity of an iterative binary search? | O(1), as it uses only a fixed number of variables (start, end, mid)
 What is the space complexity of a recursive binary search? | $O(\log n)$, because each recursive call is added to the call stack
-Does a binary search physically remove elements from the list? | No, it only adjusts the start, end, and mid pointers to narrow the search range
+How does a binary search discard half of the list without removing any items? | It only moves the start or end pointer, which narrows the range being searched
 How does a binary search differ from a linear search in preconditions and efficiency? | Binary search requires a sorted list and has $O(\log n)$ worst-case time; linear search works on unsorted lists but has O(n) worst-case time
 What is a bubble sort? | A sorting algorithm that compares adjacent pairs of elements and swaps them if out of order, repeating passes until the list is sorted
 What is a pass in bubble sort? | One complete traversal through the list where each pair of adjacent elements is compared and swapped if out of order
+What is the list 5, 2, 8, 1 after one pass of a bubble sort into ascending order? | 2, 5, 1, 8
+Why is a temporary variable needed to swap two items? | It holds one value while the other is copied over it, so neither value is lost
 After each pass of a bubble sort, what is guaranteed? | The next largest unsorted value has moved ("bubbled") to its correct position at the end of the unsorted portion
 How does an optimised bubble sort detect that the list is fully sorted? | A pass is completed with no swaps, so the algorithm terminates early
 What is the worst-case time complexity of a bubble sort? | $O(n^2)$
+Why is a bubble sort $O(n^2)$ in the worst case? | It uses nested loops: up to n passes, each making up to n comparisons
 What is the best-case time complexity of a bubble sort? | O(n), when the list is already sorted and only one pass with no swaps is needed
 What is the space complexity of a bubble sort? | O(1), as it operates in-place using only a temporary swap variable and loop counters
 Why does an optimised bubble sort reduce comparisons each pass? | The sorted elements at the end of the list do not need to be rechecked, so the inner loop range shrinks by one each iteration
 What is an insertion sort? | A sorting algorithm that takes one item at a time and inserts it into its correct position within the already-sorted portion of the list
 In an insertion sort, how is the correct position found for the current item? | The current item is compared to each preceding item; if the preceding item is larger, it is shifted right until the correct insertion point is found
+An insertion sort is run on 5, 2, 8, 1. What is the list after the second item has been inserted? | 2, 5, 8, 1
 What is the worst-case time complexity of an insertion sort? | $O(n^2)$
 What is the best-case time complexity of an insertion sort? | O(n), when the list is already sorted and each item only needs one comparison
 What is the space complexity of an insertion sort? | O(1), as it sorts in-place with no additional data structures
+Which sorting algorithm suits a small or nearly sorted list? | Insertion sort: it is close to O(n) on nearly sorted data and needs no extra memory
 What is a merge sort? | A divide and conquer sorting algorithm that repeatedly divides the list in half until each sub-list contains one element, then merges pairs of sub-lists back together in sorted order
 What are the two phases of a merge sort? | Divide: split the list into single-element sub-lists. Merge: repeatedly merge pairs of sub-lists in sorted order until one sorted list remains
 What is the base case in merge sort? | A sub-list containing only one element, which is inherently sorted
@@ -64,9 +85,10 @@ How many sub-lists are merged at a time in merge sort? | Two; any leftover sub-l
 What mechanism does merge sort use to divide the list? | Recursion: it calls itself on each half until the base case is reached, with each call added to the call stack
 What is the worst-case time complexity of a merge sort? | $O(n \log n)$
 What is the best-case time complexity of a merge sort? | $O(n \log n)$, the same as worst case, because the list must always be fully divided and merged regardless of initial order
+Why is a merge sort $O(n \log n)$? | The list is halved about $\log_2 n$ times, and at each level all n items are merged
 What is the space complexity of a merge sort? | O(n), because it requires additional memory to store copies of the left and right halves during merging
+Why might a merge sort be unsuitable when memory is limited? | It needs O(n) extra memory to hold the sub-lists while they are merged
 During the merge phase of merge sort, what do the left pointer, right pointer, and new-list pointer track? | The left pointer tracks the current position in the left sub-list, the right pointer tracks the current position in the right sub-list, and the new-list pointer tracks the next available position in the merged output
-What is slicing in the context of merge sort? | Splitting a list using index ranges: list[:mid] takes all elements up to but not including mid, and list[mid:] takes elements from mid to the end
 When one sub-list is exhausted during a merge sort merge, what happens to the remaining elements in the other sub-list? | They are appended directly to the end of the new merged list, since they are already sorted
 What is a quick sort? | A divide and conquer sorting algorithm that selects a pivot value, partitions elements into those less than and those greater than the pivot, and recursively sorts the partitions
 What is the role of the pivot in quick sort? | It divides the list into two partitions: values less than the pivot go to one side and values greater go to the other
@@ -74,9 +96,11 @@ In quick sort, what happens after the left and right pointers cross each other? 
 What is the worst-case time complexity of quick sort? | $O(n^2)$
 What is the best and average case time complexity of quick sort? | $O(n \log n)$
 What input causes worst-case performance in quick sort? | When the pivot is consistently placed at an extreme (e.g. always the smallest or largest value), such as with already-sorted or reverse-sorted data
-What techniques help avoid the worst case in quick sort? | Randomised pivot selection or median-of-three pivot selection
-What is the space complexity of quick sort? | O(n), due to copies of sub-lists stored on the call stack during recursion
+How can the worst case of quick sort be made unlikely? | By choosing the pivot at random, or as the median of three values
+What is the space complexity of quick sort? | $O(\log n)$ on average when sorting in place, for the recursive calls on the call stack. It rises to $O(n)$ in the worst case
 What risk arises if quick sort recursion depth becomes too large? | A stack overflow, caused by too many recursive calls on the call stack
+How do quick sort and merge sort differ in where the sorting work is done? | Quick sort does the work while partitioning, before its recursive calls. Merge sort does it while merging, after them
+Why might a merge sort be chosen instead of a quick sort? | Its worst case is still $O(n \log n)$, whereas quick sort can degrade to $O(n^2)$
 What is an optimisation problem? | A problem that involves maximising efficiency, such as finding the shortest route, minimising resource usage, or optimal scheduling
 What is Dijkstra's shortest path algorithm? | An optimisation algorithm that calculates the shortest path from a starting node to all other nodes in a weighted graph
 What type of graph does Dijkstra's algorithm operate on? | A weighted graph, where each edge carries a value representing distance, time, or cost
@@ -88,10 +112,13 @@ Why is Dijkstra's algorithm described as exhaustive? | It checks every available
 What data structure orders nodes for processing in Dijkstra's algorithm? | A priority queue, sorted by current shortest distance from the start node
 How is the final shortest path reconstructed after Dijkstra's algorithm completes? | By backtracking through the recorded "previous node" entries from the goal node back to the start node
 What is the A* search algorithm? | A pathfinding algorithm that extends Dijkstra's by adding a heuristic function to estimate distance to the goal, directing the search toward the goal node more efficiently
-What is a heuristic in the context of the A* algorithm? | A rule of thumb or estimate that approximates the straight-line (Euclidean) distance from the current node to the goal node
+What is the heuristic in the A* algorithm? | An estimate of the cost from a node to the goal, e.g. the straight-line distance between them
 What is the total cost function used by A*? | $f(x) = g(x) + h(x)$, where $g(x)$ is the actual distance from the start and $h(x)$ is the heuristic estimate to the goal
 What does $g(x)$ represent in the A* algorithm? | The actual distance (real cost) from the start node to node x along the path taken so far
 What does $h(x)$ represent in the A* algorithm? | The heuristic estimate of the remaining distance from node x to the goal node
+How does A* choose the next node to visit? | It takes the unvisited node with the lowest value of $f(x) = g(x) + h(x)$
 What constraint must the heuristic function in A* satisfy? | It must never overestimate the real cost to reach the goal; the actual cost should always be greater than or equal to the heuristic
 How does A* differ from Dijkstra's in its termination condition? | A* stops when the goal node is reached; Dijkstra's continues until it has calculated the shortest path to every node
+Why does A* usually visit fewer nodes than Dijkstra's algorithm? | The heuristic directs the search towards the goal, so nodes that lead away from it are not explored
+What does A* become if the heuristic is 0 for every node? | Dijkstra's algorithm, because $f(x) = g(x)$
 In A*, what does it indicate if $h(x)$ increases compared to the previous node? | The algorithm is travelling further away from the goal node

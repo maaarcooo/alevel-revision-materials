@@ -49,4 +49,4 @@ State two methods to reduce absorption in an optical fibre | Use an extremely tr
 State three methods to reduce pulse broadening in an optical fibre | Use a narrow core, use a monochromatic light source, and use optical fibre repeaters
 Why does a narrow core reduce pulse broadening? | It limits the range of paths the light can take, so all parts of the pulse arrive at more similar times
 Why does monochromatic light reduce pulse broadening? | All the light has one wavelength and so one speed in the fibre, which removes material dispersion
-What is a single-mode fibre? | A fibre with a core so narrow that light can follow only one path along it, which removes modal dispersion
+What is a single-mode (monomode) fibre? | A fibre with a core so narrow that light can follow only one path along it, which removes modal dispersion

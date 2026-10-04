@@ -2,7 +2,7 @@ What is a moment? | The turning effect of a force
 The turning effect of a force — what term is this? | Moment
 What is the equation for the moment of a force? | $\text{Moment} = F \times d$, where $d$ is the perpendicular distance from the pivot to the line of action of the force
 What is the SI unit of moment? | Newton metre (N m)
-A force $F$ acts on a beam at angle $\theta$ to the beam, at a distance $d$ from the pivot. What is its moment? | $Fd\sin\theta$, using the component of the force perpendicular to the beam
+A force $F$ acts on a beam at angle $\theta$ to the beam, at a distance $d$ from the pivot. What is its moment? | $Fd\sin\theta$, because $d\sin\theta$ is the perpendicular distance from the pivot to the line of action of the force
 Explain why a door handle is placed far from the hinge | Maximises the perpendicular distance from the pivot, producing a greater moment for a given applied force
 State the principle of moments | For a system in equilibrium, the sum of clockwise moments about any point equals the sum of anticlockwise moments about that point
 For a system in equilibrium, the sum of clockwise moments about a point equals the sum of anticlockwise moments about the same point — what principle is this? | The principle of moments
@@ -10,7 +10,7 @@ A 30 N weight hangs 0.40 m from a pivot. What force 0.60 m from the pivot on the
 Why is it useful to take moments about a point where an unknown force acts? | That force has no moment about the point, so it drops out of the calculation
 What is a couple? | A pair of equal and opposite coplanar forces that produces rotation only
 A pair of equal and opposite coplanar forces that produces rotation only — what term is this? | A couple
-What three properties must a pair of forces have to form a couple? | Equal in magnitude, opposite in direction, and acting along different (parallel) lines of action
+What three properties must a pair of forces have to form a couple? | Equal in magnitude, opposite in direction, and coplanar with a perpendicular distance between their lines of action
 Why does a couple produce no linear acceleration? | The resultant force is zero (equal and opposite forces cancel), so by $F = ma$ the acceleration is zero
 How does the moment of a couple differ from the moment of a single force? | It does not depend on a pivot point
 What is the equation for the moment of a couple? | $\text{Moment} = F \times d$, where $F$ is one of the forces and $d$ is the perpendicular distance between their lines of action

@@ -30,8 +30,12 @@ of each deck and note.
 - Errors copied from source material were corrected. Examples: the meaning of the
   PageRank damping factor, the year of the Malicious Communications Act (1988), the
   claim that every divide and conquer algorithm is O(log n), the definition of
-  measurement uncertainty, the intensity of light after one polariser, the moment of an
-  angled force, and rubber listed as a ductile material.
+  measurement uncertainty, the intensity of light after one polariser, the resolution
+  of a micrometer, and rubber listed as a ductile material.
+- The corrections were then checked against the OCR and AQA specifications and
+  published mark schemes. Two of them turned out to be rewordings of statements that
+  were already acceptable (the conditions for a couple and the moment of an angled
+  force), so those now follow the wording of the AQA specification.
 
 **Notes**
 

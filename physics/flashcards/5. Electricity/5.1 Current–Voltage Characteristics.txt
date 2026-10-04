@@ -43,7 +43,7 @@ How is resistance calculated from an I-V graph? | $R = \frac{1}{\text{gradient}}
 For an ohmic conductor, how is resistance found from a graph with V on the y-axis and I on the x-axis? | It equals the gradient
 Describe the I-V characteristic of a semiconductor diode | In reverse bias almost no current flows. In forward bias almost no current flows until the threshold voltage is reached, then the current rises steeply
 What is forward bias in a diode? | When current flows in the direction of the arrowhead symbol, and the diode conducts
-What is the threshold voltage of a diode? | The smallest forward p.d. at which the diode starts to conduct, about 0.6 V for a silicon diode
+What is the threshold voltage of a diode? | The smallest forward p.d. at which the diode starts to conduct, roughly 0.6 V to 0.7 V for a silicon diode
 What is reverse bias in a diode? | When the diode is connected the opposite way round, so its resistance is extremely high and only a tiny current flows
 What is the purpose of a diode in a circuit? | To allow current to flow in only one direction
 Describe the I-V characteristic of a filament lamp | An S-shaped curve: current increases at a proportionally slower rate than the potential difference

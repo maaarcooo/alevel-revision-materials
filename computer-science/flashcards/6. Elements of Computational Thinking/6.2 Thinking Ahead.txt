@@ -1,32 +1,48 @@
-What is an input in computational thinking? | Any data required to solve a problem, entered by the user or passed as a parameter to a subroutine
-What is an output in computational thinking? | The results passed back once inputs have been processed, returned to the calling subroutine or sent to an output device such as a monitor, printer, or speaker
-What properties of inputs and outputs must be explicitly defined when designing an algorithm? | Their data type, size, and format
-Why should inputs and outputs be defined before implementing an algorithm? | Failing to define them can cause errors and unexpected behaviour when the algorithm encounters data it was not designed to handle
-Besides the data values themselves, what two aspects of input should designers consider? | The order in which data is input and the method of input (i.e. the input device used)
-In what order do designers typically plan inputs and outputs for a solution? | Start with the required outputs based on user requirements, then work backwards to identify the inputs needed to achieve them
-Give two forms output can take other than display on a screen | Audio feedback through a speaker, or physical output such as a printed receipt or dispensed cash
-What is a precondition? | A condition that must be true before an algorithm or subroutine can execute successfully without errors
-A condition that must be true before an algorithm or subroutine can execute successfully without errors - what term is this? | Precondition
-What happens if a precondition is not met when a subroutine runs? | The program will fail to execute correctly or return an invalid answer
-State the key precondition that distinguishes binary search from linear search | The input list must already be sorted in order
-State two preconditions common to search algorithms | The list must not be empty (to avoid index errors), and all elements including the search target must be the same data type
-Why might a bubble sort specify a maximum input size as a precondition? | Bubble sort has $O(n^2)$ time complexity, so a very large input list would take an impractically long time to process
-Give two ways preconditions can be enforced | Tested for within the subroutine code itself (validation checks), or specified in the documentation for the caller to ensure before invoking the subroutine
-How does specifying preconditions in documentation rather than code affect the subroutine? | It reduces the length and complexity of the subroutine, and saves time needed to debug and maintain a longer program
-How do preconditions make subroutines more reusable? | By explicitly defining the conditions under which a subroutine works, it can be placed in a library and called by any program that meets those conditions
-What is caching? | Storing frequently used instructions or data values in cache memory after they have been used, so they can be retrieved quickly if needed again
-Storing frequently used data in cache memory so it can be retrieved quickly if needed again - what process is this? | Caching
-What typically manages caching in a computer system? | The operating system performs caching automatically, though some languages such as C allow direct manipulation of cache hardware
-Give two benefits of caching | Frequently used data can be accessed faster than retrieving it from secondary storage, and in web caching it saves bandwidth by not re-downloading content
-How does web caching work? | Frequently accessed web pages and images are stored locally, so on subsequent visits content loads without delay and does not need to be re-downloaded
-What is prefetching? | A form of caching where algorithms predict which instructions or data are likely to be needed soon and load them into cache before they are requested
-Predicting which instructions will be needed soon and loading them into cache before they are requested - what is this called? | Prefetching
-Why is prefetching not always effective? | The algorithms can only make informed predictions about which instructions will be needed, with no guarantee of accuracy
-Give two drawbacks of caching | Cache has limited size restricting how much data can be stored, and effective caching algorithms are difficult to implement
-What is a library in programming? | A collection of commonly used, pre-tested subroutines packaged together for reuse across programs and projects
-A collection of commonly used, pre-tested subroutines packaged together for reuse across programs and projects - what is this called? | A library
-Give two examples of reusable program components | Implementations of abstract data structures (e.g. stacks, queues) and standard algorithms (e.g. quick sort, merge sort)
-Why are reusable components more reliable than newly written code? | They have already been thoroughly tested and any bugs dealt with
-Give two ways reusable components reduce development costs | Code does not need to be written from scratch, and well-tested components can be reused across future projects
-How does decomposition relate to reusable program components? | When a problem is decomposed into smaller tasks, developers can identify where existing components from past projects or external sources can be reused instead of writing new code
-Give one drawback of using third-party reusable components | They may have compatibility issues with the rest of the software, and modifying them to fit can be more costly and time-consuming than developing in-house
+What does thinking ahead involve when designing a solution? | Considering the components of a problem and how they will be handled, so difficulties in use are anticipated early
+What is an input in computational thinking? | Any data an algorithm needs in order to run, entered by the user or passed as a parameter to a subroutine
+What is an output in computational thinking? | The result passed back once the inputs have been processed, returned to the calling subroutine or sent to an output device
+Which three properties of each input and output must be defined when designing an algorithm? | Data type, size and format
+Why must inputs and outputs be defined explicitly before an algorithm is written? | Otherwise the algorithm is harder to create and unexpected data can cause errors later
+Besides the data itself, which two aspects of an input should a designer consider? | The order in which data is input and the method of input
+In what order do designers usually identify inputs and outputs? | Outputs first, from the user's requirements, then the inputs and processing needed to produce them
+Give two forms of output other than a screen display | Sound from a speaker and a printed copy from a printer
+Identify three inputs to an ATM program | The transaction type, the card details from a card reader, and the PIN from a keypad
+Identify three outputs of an ATM program | The balance or amount shown on screen, the cash dispensed, and a printed receipt
+What is a precondition? | A requirement that must be met before a program or subroutine can execute successfully
+A requirement that must be met before a program or subroutine can execute successfully — what term is this? | Precondition
+What happens if a precondition is not met? | The program fails to execute, crashes or returns an invalid answer
+What can a subroutine safely assume once its preconditions are specified? | That the arguments passed to it meet the stated criteria
+What are arguments? | The values passed into the parameters of a subroutine when it is called
+In which two places can a precondition be specified? | Tested for within the subroutine's code, or stated in the documentation that accompanies it
+When a precondition is stated only in documentation, who must make sure it is met? | The developer calling the subroutine
+What is the advantage of stating a precondition in documentation instead of testing it in code? | The subroutine is shorter and less complex, so less time is spent debugging and maintaining it
+What is the advantage of testing a precondition inside the subroutine? | Validation happens automatically, so the calling developer does not have to write extra checks
+How do preconditions make a subroutine more reusable? | Its requirements are defined explicitly, so it can be put in a library and called safely from any program that meets them
+What is the precondition of a pop operation on a stack? | The stack must not be empty
+What is the precondition of a factorial function? | The argument must be a non-negative integer
+What precondition does binary search have that linear search does not? | The list must be sorted
+State two preconditions common to algorithms that search a list | The list must not be empty, and the target must be the same data type as the list's elements
+Why might a bubble sort have a precondition limiting the size of its input? | Its time complexity is $O(n^2)$, so a very large list would take too long to sort
+What makes a precondition acceptable as an exam answer? | It must be a condition that can be evaluated, such as "room width is greater than 0" and not just "room dimensions"
+What is caching? | Storing instructions or data in cache or memory after they have been used, so they can be retrieved faster if needed again
+Storing instructions or data in cache or memory after they have been used, so they can be retrieved faster if needed again — what term is this? | Caching
+What is web caching? | Storing recently visited web pages and images locally so they do not have to be downloaded again
+Give two benefits of caching | Frequently used data and instructions are retrieved faster than from secondary storage, and web caching frees bandwidth because content is not downloaded again
+What usually performs caching in a computer system? | The operating system, automatically
+What is prefetching? | Algorithms predict which instructions are likely to be needed soon and load them into cache before they are requested
+Algorithms predicting which instructions are likely to be needed soon and loading them into cache before they are requested — what term is this? | Prefetching
+How does prefetching differ from ordinary caching? | Caching stores data after it has been used. Prefetching loads data before it is requested
+Why is prefetching not always effective? | The algorithm only makes an informed prediction, so the instructions it loads may not be the ones needed
+Why does cache size limit the benefit of caching? | A small cache holds little data, and a larger cache takes longer to search
+State a drawback of caching that concerns its implementation | It is difficult to implement, and how effective it is depends on how well the caching algorithm manages the cache
+What are reusable program components? | Components that have already been written, debugged and tested, which can be transplanted into new programs
+Components that have already been written, debugged and tested, which can be transplanted into new programs — what term is this? | Reusable program components
+How are commonly used subroutines made available for reuse? | They are packaged into libraries
+Give three kinds of reusable program component | Subroutines, classes, and implementations of abstract data structures such as stacks and queues
+Why are reusable components more reliable than newly written code? | They have already been tested and their bugs dealt with
+What do reusable components save during development? | Time, money and resources
+How can one reusable subroutine produce a variety of outputs? | By being called with different arguments
+How does producing well-tested components benefit future projects? | They can be reused again, which saves development costs
+How does decomposition help developers reuse components? | Breaking the problem into smaller tasks shows where existing or externally sourced components can be used
+What problem can arise when using a third-party component? | It may not be compatible with the rest of the software
+Why can adapting a third-party component be worse than writing a new one? | Modifying it to fit can cost more time and money than developing the component in-house

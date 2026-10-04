@@ -1,33 +1,47 @@
-What is abstraction? | The process of removing unnecessary details from a problem to focus on the key features needed for a solution
-The process of removing unnecessary details from a problem to focus on the key features needed for a solution — what term is this? | Abstraction
-What is representational abstraction? | Analysing what is relevant to a given scenario and simplifying a problem based on that information
-What is abstraction by generalisation? | Grouping together similarities within a problem to identify what kind of problem it is, so a common solution can be applied
-How does abstraction by generalisation help with problem solving? | It allows problems to be categorised as a particular type, so a common solution can be used to solve them
-What is data abstraction? | Hiding the details of how data is stored so programmers can use abstract data structures without concerning themselves with the underlying implementation
-What is procedural abstraction? | Modelling what a subroutine does without considering how it is done, allowing a procedure to be reused as a black box
-How does procedural abstraction relate to decomposition? | Procedural abstraction is used in decomposition by allowing subroutines to be treated as black boxes that perform a task without needing to know the internal code
-In a system with multiple levels of abstraction, what does the highest level typically handle? | Providing an interface for the user to interact with hardware
-In a system with multiple levels of abstraction, what does the lowest level typically handle? | Performing tasks through the execution of machine code
-Why is abstraction needed in software development? | It enables more efficient design by letting programmers focus on essential elements rather than unnecessary details, reducing development time and preventing programs from becoming unnecessarily large
-How does abstraction allow non-experts to use complex systems? | By hiding information that is too complex or irrelevant to the system's purpose
-What is the relationship between abstraction and reality? | Abstraction is a simplified representation of reality, retaining only the details relevant to the problem being solved
-The closer an implementation is to reality, the [...] abstract the solution becomes | less
-Give an example of abstraction in everyday life | The London Underground map removes geographical accuracy and shows only stations and connections, which is all a traveller needs to navigate between stops
-How can a city map be abstracted for use by a computer to find shortest routes? | Remove unnecessary detail like buildings and greenspace, represent junctions as graph nodes, roads as edges, distances as weights, and turning restrictions as directed edges
-What graph theory algorithms can be applied to an abstracted map? | Dijkstra's shortest path and A* search
-Why is the game Pong considered a highly abstracted simulation? | It models tennis or badminton but removes real-world factors such as friction, gravity, and variable momentum, keeping the ball's momentum constant
-What is a first generation programming language? | Machine code (binary), which uses 0s and 1s to create programs
-What is a second generation programming language? | Assembly language, which uses mnemonics to represent groups of binary digits
-What is a disadvantage of assembly language? | Each processor has its own instruction set, so programs must be rewritten to run on a different family of processors
-How do high-level languages abstract away lower-level details? | They allow developers to ignore how data is stored in memory and how instructions are executed by the processor, condensing complex sequences into shorter instructions
-Why has the development of high-level languages made coding accessible to non-specialists? | High-level language syntax parallels natural language, making it considerably easier to learn and use compared to low-level languages
-In the context of programming languages, what do low-level languages interact with directly? | Computer systems (hardware)
-What is the TCP/IP model an abstraction for? | How networks function, separated into four layers (application, transport, internet, link) that each handle a different part of the communication process
-Why must standards be agreed in advance for the TCP/IP model? | To ensure compatibility between the layers, so each layer can be dealt with individually while details about other layers remain hidden
+What is abstraction? | The process of removing unnecessary details from a problem to leave a representation with only the key features needed for a solution
+The process of removing unnecessary details from a problem to leave only the key features needed for a solution — what term is this? | Abstraction
+What is representational abstraction? | Analysing what is relevant to a given scenario and simplifying the problem based on that information
+Analysing what is relevant to a scenario and simplifying the problem based on that information — what form of abstraction is this? | Representational abstraction
+What is abstraction by generalisation? | Grouping together similarities within a problem to identify what kind of problem it is
+Grouping together similarities within a problem to identify what kind of problem it is — what form of abstraction is this? | Abstraction by generalisation
+How does abstraction by generalisation help to solve a problem? | Once the problem is categorised as a particular type, a common solution for that type can be used
+What is data abstraction? | Hiding the details of how data is stored, so structures such as stacks and queues can be used without knowing how they are implemented
+Hiding the details of how data is stored so structures can be used without knowing how they are implemented — what form of abstraction is this? | Data abstraction
+Give an example of the layers hidden by data abstraction | A queue is a modified array, which is a collection of variables, which are stored as bytes and bits
+What is procedural abstraction? | Modelling what a subroutine does without considering how it does it
+Modelling what a subroutine does without considering how it does it — what form of abstraction is this? | Procedural abstraction
+What does it mean to reuse a procedure as a black box? | It is called for what it does, with no knowledge of the code that implements it
+In a system with multiple levels of abstraction, what are the highest levels responsible for? | Providing an interface for the user to interact with the hardware
+In a system with multiple levels of abstraction, what are the lowest levels responsible for? | Performing the tasks by executing machine code
+How does abstraction allow non-experts to use complex systems? | It hides information that is too complex or irrelevant to the system's purpose
+How does abstraction make software design more efficient? | Programmers focus on the elements that must be built instead of unnecessary details, which reduces development time
+What does removing unnecessary details early in development prevent? | The program becoming unnecessarily large
+What does abstraction separate in a program? | What the program does from how it does it (the implementation)
+Give an example of abstraction experienced by a user saving a file | They do not need to know how the file is written to disk or how the operating system manages memory
+Name two areas of computing that use layers of abstraction | Programming languages (low-level to high-level) and networking (the TCP/IP model)
+Which generations of programming language are machine code, assembly language and high-level languages? | First, second and third generation respectively
+How does assembly language abstract machine code? | Mnemonics stand for groups of binary digits, which makes programs quicker to write and less error-prone than binary
+Why must an assembly language program be rewritten to run on a different family of processors? | Each processor family has its own instruction set
+What do high-level languages provide an abstraction for? | The machine code that is actually executed when the program runs
+What do high-level languages let a developer ignore? | How data is stored in memory and how instructions are carried out by the processor
+Why have high-level languages made coding accessible to non-specialists? | Their syntax parallels natural language, so they are far easier to learn and use than low-level languages
+How is the TCP/IP model an example of abstraction? | Network communication is split into four layers, each handling one part of the process without needing to know how the other layers work
+Why must standards be agreed in advance for a layered model such as TCP/IP? | To ensure the layers are compatible with each other
+What is the relationship between an abstraction and reality? | An abstraction is a simplified representation of reality
+The closer an implementation is to reality, the [...] abstract it becomes | less
+Which computational structures are used to represent real-world entities and values? | Tables and databases for entities, variables for values
+In object-oriented programming, what are objects an abstraction for? | Real-world entities
 In object-oriented programming, what are attributes an abstraction for? | The characteristics of a real-world object
-In object-oriented programming, what are methods an abstraction for? | The actions a real-world object is able to perform
-What computational structures can be used to represent real-world entities in an abstraction? | Tables, databases, and variables
-Name four questions to consider when devising an abstract model | What problem needs to be solved? How will the model be used? Who will use it? Which parts of the problem are relevant to the audience and purpose?
-When devising an abstract model, why is the target audience important? | It determines the level of expertise assumed and which details should be removed to avoid confusing the audience
-What does abstraction in programming ultimately separate? | What a program does from how it does it (the implementation)
-How does representational abstraction differ from abstraction by generalisation? | Representational abstraction simplifies a specific problem by keeping only relevant details. Abstraction by generalisation groups problems by their similarities to apply a common solution
+In object-oriented programming, what are methods an abstraction for? | The actions a real-world object can perform
+Why is the London Underground map an example of abstraction? | It leaves out the geographical layout and shows only stations and connections, which is all a traveller needs
+Why is Pong a highly abstracted model of tennis? | The ball's momentum is constant and factors such as gravity and friction are left out
+Which details are removed when a city map is abstracted for route finding? | Buildings and greenspace, leaving only roads and junctions
+In a graph abstracted from a city map, what do the nodes and edges represent? | Nodes are junctions and edges are the roads between them
+In a graph abstracted from a city map, how is the distance between two junctions shown? | As a weight on the edge
+In a graph abstracted from a city map, how is a restriction such as no left turn shown? | As a directed edge
+What is graph theory? | A branch of mathematics that represents problems abstractly as a collection of nodes connected by edges
+Which two algorithms can find the shortest route on a graph abstracted from a map? | Dijkstra's shortest path and A* search
+When devising an abstract model, what should be asked about the problem itself? | What problem needs solving, whether it can be solved computationally, and what its key features are
+When devising an abstract model, what should be asked about how it will be used? | What format it needs, considering convenience, affordability and ease of access
+When devising an abstract model, why does the target audience matter? | Their level of expertise decides which details would confuse them and should be removed
+When devising an abstract model, how can you test whether a detail should be kept? | Ask whether removing it would affect the solution. If it would not, remove it

@@ -1,23 +1,28 @@
-What is problem decomposition? | Breaking a large, complex problem into smaller subproblems that can be solved more easily
-Breaking a large, complex problem into smaller subproblems that can be solved more easily — what term is this? | Problem decomposition
-What is abstraction in computational thinking? | Removing unimportant details from a problem and focusing on the details that form part of the solution
-Removing unimportant details from a problem and focusing on the details that form part of the solution — what term is this? | Abstraction
-What two processes are applied to a problem before creating algorithms to solve it? | Abstraction (removing unimportant details) and decomposition (breaking into sub-problems)
+What is thinking procedurally? | Breaking a problem down into smaller parts that are easier to understand and to design
+What is problem decomposition? | Continually breaking a large, complex problem into smaller subproblems that can be solved more easily
+Continually breaking a large, complex problem into smaller subproblems that can be solved more easily — what term is this? | Problem decomposition
+Which two processes are applied to a problem before algorithms are created to solve it? | Abstraction to remove unimportant details, then decomposition into sub-problems
+What are the components of a problem? | The smaller, simpler tasks and sub-procedures it can be broken down into, to be completed modularly
 What is top-down design? | A method of decomposition that breaks a problem into major tasks, then into smaller sub-tasks, until each can be solved by a single subroutine or module
 By what other name is top-down design known? | Stepwise refinement
-In a top-down design hierarchy, what do higher levels represent compared to lower levels? | Higher levels give an overview of the problem; lower levels specify the detailed components
-When applying top-down design, when should you stop breaking down a sub-task? | When it cannot be broken down further, is easily solved, and can be implemented as a single subroutine or module
-What is procedural abstraction? | Using a procedure to execute a sequence of instructions to achieve a goal
-In thinking procedurally, what does "procedure" refer to (as distinct from the strict programming definition)? | A unit of computation that performs a single task
-In programming, how does a function differ from a procedure? | A function returns a value; a procedure does not
-What is a hierarchy chart? | A tree-structured diagram that shows problem decomposition and how modules and subroutines relate to each other
-A tree-structured diagram showing problem decomposition and how modules and subroutines relate — what is this? | A hierarchy chart
-Why is decomposed code simpler to test? | Each subroutine is self-contained, so it can be tested individually using unit testing
-How does decomposition support code reuse? | Subroutines can be reused as needed rather than rewriting code
-Why does decomposition make errors easier to find and fix? | Each subroutine is self-contained and well documented, so errors can be located within individual modules
-Why is decomposition beneficial for team development? | The problem can be divided between developers according to their skill sets, with each person working on a separate module
-Why must the order of steps be considered when combining sub-procedures into a solution? | Some operations depend on inputs from earlier steps or other subroutines, so they cannot execute until those dependencies are met
-What must be done to inputs before they are passed between subroutines? | They must be validated to confirm correctness before being passed on
-When can subroutines be executed simultaneously within a program? | When they do not require data from each other (no data dependencies between them)
-Why is it useful to identify existing modules, subroutines, or libraries during solution design? | Reusable components reduce development complexity and avoid rewriting code that already exists
-What is the difference between identifying the components of a problem and the components of a solution? | Problem components are the key variables and constraints to consider. Solution components are the technical implementation details needed to solve each part (data types, data structures, algorithms)
+In top-down design, what do higher levels show compared with lower levels? | Higher levels give an overview of the problem. Lower levels specify its components in detail
+In top-down design, when should a sub-task stop being broken down? | When it cannot be broken down further, is easily solved and is clear, so a single subroutine or module can solve it
+Why is top-down design preferred for very large problems? | Splitting the problem into levels makes it manageable and lets the tasks be shared between people
+Why is decomposed code simpler to test? | Each subroutine is self-contained, so it can be tested on its own (unit testing) before being integrated
+Why does decomposition make errors easier to find and fix? | Each subroutine is self-contained and well documented, so an error can be traced to one module
+How does decomposition support code reuse? | A subroutine can be reused wherever it is needed instead of rewriting the code
+How does decomposition help a team of developers? | Sub-problems can be shared out according to each person's skills and developed separately
+How do the components of a solution differ from the components of a problem? | Components of the problem are the parts that must be solved. Components of the solution are how each part will be implemented
+Which details about data are decided when identifying the components of a solution? | The data types of inputs and outputs, the data structures needed, and the format of the output
+Which details about processing are decided when identifying the components of a solution? | The libraries required, the constructs and data transformations needed, and how efficient the algorithm must be
+How is procedural abstraction used when thinking procedurally? | Each component is implemented as a procedure that carries out a sequence of instructions to achieve one goal
+In thinking procedurally, what is meant by a procedure? | A unit of computation that performs a single task, not strictly a subroutine that returns no value
+Why is it useful to look for existing modules, subroutines or libraries when designing a solution? | Reusing them reduces the complexity of development
+Why must the order of steps be considered when combining subroutines into a solution? | Some subroutines need data from others, so they cannot run until that data exists
+What must be done to inputs before they are passed on to other subroutines? | They must be validated
+When can subroutines be executed simultaneously? | When they do not need data from each other
+Why must the order of operations be written explicitly into a program? | An order that seems obvious to a person is not enforced unless it is coded, so operations could run in an order that raises an error
+Give an example of an order of operations that a program must enforce | A food delivery app must not let food be chosen before the location is confirmed, or payment be made before the order is confirmed
+What is a hierarchy chart? | A tree-structured diagram that shows how a problem is decomposed and how its modules and subroutines relate to each other
+A tree-structured diagram that shows how a problem is decomposed and how its modules and subroutines relate to each other — what term is this? | Hierarchy chart
+Why are diagrams preferred to tables and lists for decomposing larger problems? | Tables and lists quickly become cumbersome as the problem grows

@@ -1,25 +1,28 @@
-What is concurrent processing? | Multiple processes are given time slices of processor time on a single processor, making them appear to run simultaneously when they are actually executed sequentially
-Multiple processes given time slices on a single processor, appearing simultaneous but executing sequentially — what term is this? | Concurrent processing
-What is parallel processing? | Multiple processes running at the same time across multiple processor cores
-Multiple processes running simultaneously across multiple processor cores — what term is this? | Parallel processing
-What is concurrent thinking? | The mindset of identifying patterns and parts of problems where concurrency can be applied
-The mindset of identifying where concurrency can be applied in a problem — what term is this? | Concurrent thinking
-How does concurrent processing differ from parallel processing? | Concurrent processing interleaves tasks on a single processor using time slices (sequential in reality). Parallel processing runs tasks simultaneously on multiple processor cores
-How does concurrent thinking differ from concurrent processing? | Concurrent thinking is the human mindset of spotting where concurrency applies. Concurrent processing is the actual execution of interleaved tasks on a computer processor
-What are dependencies in the context of concurrent processing? | Tasks that rely on other tasks in order to start or complete
+What is concurrent processing? | Each process is given a slice of processor time in turn on a single processor, so tasks appear to run simultaneously but actually run one after another
+Each process being given a slice of processor time in turn on a single processor, so tasks appear to run simultaneously — what term is this? | Concurrent processing
+What is concurrent thinking? | The mindset of spotting patterns and parts of a problem where concurrency can be applied
+The mindset of spotting patterns and parts of a problem where concurrency can be applied — what term is this? | Concurrent thinking
+How does concurrent thinking differ from concurrent processing? | Concurrent thinking is done by a person analysing a problem. Concurrent processing is done by a computer processor
+How does concurrent processing differ from parallel processing? | Concurrent processing switches between tasks on one processor using time slices. Parallel processing runs tasks at the same instant on multiple processors or cores
+What is a time slice? | A small fraction of processor time given to one process before the processor swaps to another
+Why does concurrent processing look simultaneous to a user? | Each time slice lasts only microseconds, which is far too fast for a person to notice the switching
+What would happen to a second program if processes were not given time slices? | It could not start until the first had run to completion, such as a game waiting for a virus scan to finish
+What are dependencies? | Tasks that rely on other tasks in order to start or complete
 Tasks that rely on other tasks in order to start or complete — what term is this? | Dependencies
-Give an example of a dependency in problem solving | A roof cannot be built until the walls are complete, and walls cannot be built until the foundation is in place
-How do you determine which parts of a problem can be tackled concurrently? | Assess which parts are related and which have dependencies; parts with no dependencies on each other can be processed concurrently
-State one benefit of concurrent processing related to throughput | The number of tasks completed in a given time frame is increased, as multiple programs can make progress rather than waiting in sequence
-Why does concurrent processing reduce wasted time during user input? | While one process waits for user input, the processor swaps to another task and swaps back when the input is received
-State one drawback of concurrent processing when many users or tasks are involved | Each process is allocated a limited time slice, so computationally intensive processes take longer to complete as they cannot run to completion at once
-What overhead is associated with concurrent processing? | Coordinating and switching between processes, which reduces overall program throughput
-Why are not all tasks suited to concurrent processing? | Some tasks have dependencies that prevent them from being broken up and interleaved
-Why can independent batch programs be run in parallel on multiple cores? | If the data sets do not relate, rely on, or interact with each other, they have no dependencies and can be processed simultaneously
-How can multiple batch programs make progress on a single processor? | They can be interchanged and pipelined using concurrent processing, with each allocated time slices
-State one advantage of parallel processing for large data sets | Repetitive calculations (e.g. image or video editing) can be split across several processors, speeding up performance
-State one disadvantage of parallel processing related to communication | Processors running programs simultaneously may need to communicate, leading to overhead and processing delays
-Why might some tasks not benefit from parallel processing? | Some tasks are optimised to run on a single processor and may run faster without being split across multiple cores
-Why can GPUs render 3D objects quickly using parallel processing? | They split the computations of a scene between multiple cores, processing parts simultaneously
-In the car number-plate-and-colour problem, why is recording both attributes per car before moving on an example of concurrent thinking? | The two tasks are related to the same car, so grouping them is more efficient than completing all of one task before starting the other
-What can OS scheduling algorithms do to affect concurrent processing? | Prioritise certain processes over others, allowing higher-priority processes to receive more processor time and finish sooner
+Give an example of a dependency | A roof cannot be put on a house until the walls are built, and the walls cannot be built until the foundation is in place
+How do you decide which parts of a problem can be tackled at the same time? | Assess which parts are related and identify the dependencies. Parts that do not rely on each other can be tackled concurrently
+In the task of recording the number plate and colour of each passing car, what is the concurrent thinking approach? | Record both the plate and the colour of one car before moving to the next, instead of all the plates and then all the colours
+When can the data sets of a batch program be processed in parallel on multiple cores? | When they do not relate to, rely on or interact with each other
+How can several different batch programs make progress on one processor? | They are interchanged and pipelined using concurrent processing
+State the benefit of concurrent processing for throughput | More tasks are completed in a given time
+How does concurrent processing reduce the time wasted waiting for user input? | The processor swaps to another task, then swaps back when an operating system interrupt signals the input
+State the drawback of concurrent processing when many users or tasks are involved | Each process gets only a time slice, so processes take longer to complete
+What overhead does concurrent processing introduce? | Coordinating and switching between processes, which reduces throughput
+Why are some tasks unsuited to concurrent processing? | Not every task can be broken up into parts that are performed in turn
+What can operating system scheduling algorithms do to concurrent processes? | Prioritise some processes over others, so those processes can finish sooner
+State an advantage of parallel processing for repetitive calculations on large amounts of data | The work is split over several processors, which speeds it up, as in image or video editing
+How do GPUs use parallel processing? | They split the computations of a 3D scene between many cores
+State a drawback of parallel processing that concerns communication | Processors working simultaneously may need to communicate, which adds overhead and delay
+Why might a task not benefit from parallel processing? | Some tasks run faster, or are optimised to run, on a single processor
+Give an example of concurrent processing in a flight simulator | The user's plane, the other planes and the weather do not always interact, so each can be processed in its own time slices
+Which three things should an exam answer about an example of concurrent processing include? | The example, how it acts concurrently, and why it needs to be concurrent

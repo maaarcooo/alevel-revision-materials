@@ -1,32 +1,37 @@
-What is a decision in the context of problem solving? | A result reached after some consideration
-A result reached after some consideration — what term describes this? | A decision
-What are the three structured programming techniques? | Sequence, selection, and iteration
-What is sequence in structured programming? | Executing one statement after another
-Executing one statement after another — what structured programming technique is this? | Sequence
-What is selection in structured programming? | Decision making that directs program flow based on a Boolean condition (e.g. if/then/else, switch/case). Also known as branching
-Decision making that directs program flow based on a Boolean condition — what structured programming technique is this? | Selection (also known as branching)
-What is iteration in structured programming? | Repeating a sequence of instructions based on a stopping Boolean condition (e.g. for, while, do until)
-Repeating a sequence of instructions based on a stopping Boolean condition — what structured programming technique is this? | Iteration
-What is the purpose of using structured programming techniques? | To aid the readability, understanding, and maintainability of code
-What is a block-structured language? | A language that uses only sequence, selection, and iteration to control the flow of execution and data (e.g. Python)
-Why should each block of code have a single entry and exit point? | To prevent unintended consequences to the flow of control, such as entering or leaving a subroutine early or branching unintentionally
-Name three ways to plan an algorithm before coding | Flowcharts, pseudocode, and structured English
-Why are flowcharts useful when identifying decision points? | They visually show the flow of control, making decisions clear and easy to follow
-What is the main disadvantage of using flowcharts? | They are time consuming to create
-What advantage does pseudocode have over flowcharts? | It more accurately mimics programming language constructs without the problem of syntax
-When is any way of expressing a pseudocode algorithm considered acceptable? | As long as the meaning is clear, since pseudocode has no fixed syntax
-What is the disadvantage of structured English compared to pseudocode? | It is usually more verbose and imprecise
-Why is it challenging to implement a solution directly in a different programming language? | Languages have specific syntax, constructs, and idiosyncrasies that differ between them
-In which two types of programming structure do decisions usually occur? | Selection structures (if/then/else, switch/case) and iteration structures (while loops)
-What do decisions affect in a program? | The flow of control
-Where do most errors in a program occur? | When evaluating Boolean conditions, especially long, complex conditions with multiple clauses
-What does the AND operator require for the overall condition to be true? | Both conditions must be true
-What does the OR operator require for the overall condition to be true? | Either or both conditions must be true
-What does the NOT operator do in a Boolean condition? | Inverts the condition so it evaluates to the opposite value
-What does the XOR operator require for the overall condition to be true? | Exactly one of the two conditions must be true, but not both
-What symbol represents a decision in a flowchart, and what outcomes can it have? | A diamond shape with two possible outcomes: yes/no (true/false)
-How can the decision-making process be simplified when designing a solution? | By limiting the possible solutions to those that are feasible and suitable for the problem
-What three factors should be evaluated when deciding on an approach for a solution? | Effectiveness, convenience, and feasibility
-Why is it important to identify decision points early when building a solution? | It allows enough information to be gathered about options, enabling an informed decision
-What can happen if break instructions are misused in iterative blocks? | They can cause unintended problems by disrupting the expected flow of control
-What does thinking logically allow a programmer to do? | Plan and prepare for different scenarios by providing foresight of the decisions made through the whole program
+What is a decision in problem solving? | A result reached after some consideration
+What does thinking logically allow a programmer to do? | Plan for different scenarios, by foreseeing the decisions made throughout the whole program
+Why should decision points be identified early when building a solution? | So that enough information about the options can be gathered to make an informed decision
+How can decision making be simplified when designing a solution? | By first limiting the options to those that are feasible and suited to the problem
+What should be considered when choosing a programming language for a solution? | Its suitability and functionality for the problem, and how familiar or quick to learn it is in the time available
+What is a flowchart? | A diagram of the flow of a program that shows every point where a decision has to be taken
+How is a decision shown in a flowchart? | As a diamond with two outcomes, yes or no (true or false)
+Name three ways to plan an algorithm before coding it | Flowcharts, pseudocode and structured English
+Why are flowcharts useful for identifying decision points? | They show the flow of control visually, so decisions are clear and easy to follow
+What is the main disadvantage of flowcharts? | They are time-consuming to create
+What advantage does pseudocode have for planning an algorithm? | It mimics the constructs of programming languages without the problem of syntax
+What makes a piece of pseudocode acceptable? | Its meaning is clear, since pseudocode has no fixed syntax
+How does structured English compare with pseudocode? | It is usually more verbose and less precise
+Why is an algorithm planned before it is written in a particular language? | Languages differ in syntax, constructs and idiosyncrasies, so a plan can be implemented in any of them
+Which three constructs do structured programming techniques use? | Sequence, selection and iteration
+What is the purpose of structured programming techniques? | To aid the readability, understanding and maintainability of code
+What is a block-structured language? | One that uses only sequence, selection and iteration to control the flow of execution, such as Python
+Why should each block of code have a single entry and exit point? | To avoid unintended flow of control, such as leaving a subroutine early or branching unintentionally
+In which two kinds of structure do decisions occur in a program? | Selection (if statements, switch/case) and iteration (usually while loops)
+By what other name is selection known? | Branching
+How does a selection structure use a decision? | A Boolean condition directs the flow of control down one of several paths
+How does an iteration structure use a decision? | A Boolean stopping condition determines whether the instructions are repeated
+Which three factors are weighed when choosing between options for a solution? | Effectiveness, convenience and feasibility
+How are effectiveness, convenience and feasibility used to reach a decision? | They are ordered from most to least important, and the option that best meets the top priority is chosen
+Why might the priority given to effectiveness, convenience and feasibility differ between projects? | It depends on the purpose of the software and its end-users
+What are logical conditions? | Conditions, depending on one or more variables, that determine the next step whenever a system has to make a decision
+Conditions, depending on one or more variables, that determine the next step whenever a system has to make a decision — what term is this? | Logical conditions
+What is a Boolean condition? | A condition that evaluates to either true or false
+Where do most errors in a program occur? | In evaluating Boolean conditions, especially long conditions with multiple clauses
+Which two kinds of operator are combined to build Boolean conditions? | Comparison operators (such as ==, != and >=) and logical operators (AND, OR, NOT and XOR)
+How does XOR differ from OR in a Boolean condition? | OR is true when either or both conditions are true. XOR is true only when exactly one of them is true
+A cinema admits someone only if age >= 15 AND money >= 8. Why is AND the correct operator? | Both conditions must be true for entry. With OR, meeting just one of them would be enough
+What do decisions affect in a program? | The flow of control, which is the route taken through the program
+How does a decision made by the user affect a program? | The program follows a different route for each choice, so the outcome of every choice must be planned
+What is the effect of nesting selection and iteration statements? | Each inner statement adds another decision point that further affects the flow of the program
+How does a switch/case statement compare with a chain of if/elseif statements? | They are functionally identical. Each case or branch is a decision point leading to different statements
+Why should break instructions be used with care? | They change the flow of control abruptly, so misuse can cause unintended problems

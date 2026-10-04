@@ -57,7 +57,7 @@ def check(deck, fronts):
         if line.count("$") % 2:
             errors.append(f"{where}: unbalanced $ in LaTeX")
         fronts[(subject_of(deck), normalise(question))].append((deck, number))
-        if re.match(r"(yes|no|true|false)\b", answer, re.I):
+        if re.match(r"(yes|no|true|false)\s*($|[,.;:(])", answer, re.I):
             warnings.append(f"{where}: yes/no style answer")
         if len(answer.split()) > MAX_ANSWER_WORDS:
             warnings.append(f"{where}: answer is {len(answer.split())} words")

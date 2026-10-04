@@ -1,16 +1,18 @@
 What is the Young Modulus? | The ratio of tensile stress to tensile strain ($E = \frac{FL}{A\Delta L}$), measuring the stiffness of a material
 The ratio of tensile stress to tensile strain, measuring the stiffness of a material — what quantity is this? | The Young Modulus
 What are the units of the Young Modulus? | Pascals (Pa)
+A wire of length 2.0 m and cross-sectional area $1.0 \times 10^{-7}\;\mathrm{m^2}$ extends by 1.0 mm under a force of 10 N. What is its Young modulus? | $E = \frac{FL}{A\Delta L} = \frac{10 \times 2.0}{1.0 \times 10^{-7} \times 1.0 \times 10^{-3}} = 2.0 \times 10^{11}$ Pa
+How does the Young modulus differ from the spring constant? | The Young modulus is a property of the material, whatever its dimensions. The spring constant belongs to one object and depends on its length and cross-sectional area
 Explain why the Young Modulus has the same units as stress | Strain is dimensionless, so dividing stress by strain gives units of stress
-The Young Modulus of a material is typically a very large number, in the order of [...] | GPa (gigapascals)
+What is the typical order of magnitude of the Young modulus of a metal? | About $10^{11}$ Pa (around 100 GPa)
 How is the Young Modulus determined from a stress-strain graph? | It equals the gradient of the linear region, where Hooke's Law is obeyed
-What does the area under the linear region of a stress-strain graph represent? | The energy stored per unit volume of the material
 How does finding the Young Modulus differ between a stress-strain graph and a force-extension graph? | On a stress-strain graph the gradient gives the Young Modulus directly, whereas on a force-extension graph the gradient must be multiplied by $\frac{L}{A}$
 What is the aim of the Young Modulus required practical? | To measure the Young Modulus of a metal in the form of a wire
 In the Young Modulus experiment, what is the independent variable? | Force (or load) in N
 In the Young Modulus experiment, what is the dependent variable? | Extension in m
 In the Young Modulus experiment, what are the control variables? | Original length of wire, thickness of wire, and the metal used
-Why is the diameter of the wire measured with a micrometer rather than a ruler? | A micrometer has a resolution of 0.001 mm, giving a much more precise measurement than a ruler (1 mm resolution)
+Why is a long, thin wire used in the Young modulus experiment? | It gives a larger extension for each load, which reduces the percentage uncertainty in the extension
+Why is the diameter of the wire measured with a micrometer and not a ruler? | A micrometer has a resolution of 0.01 mm, so the percentage uncertainty in the small diameter is much lower than with a ruler (1 mm)
 Why is the diameter of the wire measured in several places and averaged? | To reduce the uncertainty on the cross-sectional area
 How is the cross-sectional area of the wire calculated from its diameter? | $A = \frac{\pi d^2}{4}$
 What is the role of the pulley in the Young Modulus experiment? | It allows the mass to hang vertically, introducing less friction than the edge of the table

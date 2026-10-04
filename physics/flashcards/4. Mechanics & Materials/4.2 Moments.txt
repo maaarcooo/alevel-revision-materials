@@ -1,14 +1,16 @@
 What is a moment? | The turning effect of a force
 The turning effect of a force — what term is this? | Moment
-What is the equation for the moment of a force? | $\text{Moment} = F \times d$, where $F$ is the force and $d$ is the perpendicular distance from the pivot
+What is the equation for the moment of a force? | $\text{Moment} = F \times d$, where $d$ is the perpendicular distance from the pivot to the line of action of the force
 What is the SI unit of moment? | Newton metre (N m)
-If a force acts at distance $d$ from a pivot but is not perpendicular to $d$, how is the moment calculated? | Take the component of $d$ perpendicular to the force: $\text{Moment} = F \times d\cos\theta$
+A force $F$ acts on a beam at angle $\theta$ to the beam, at a distance $d$ from the pivot. What is its moment? | $Fd\sin\theta$, using the component of the force perpendicular to the beam
 Explain why a door handle is placed far from the hinge | Maximises the perpendicular distance from the pivot, producing a greater moment for a given applied force
 State the principle of moments | For a system in equilibrium, the sum of clockwise moments about any point equals the sum of anticlockwise moments about that point
 For a system in equilibrium, the sum of clockwise moments about a point equals the sum of anticlockwise moments about the same point — what principle is this? | The principle of moments
+A 30 N weight hangs 0.40 m from a pivot. What force 0.60 m from the pivot on the other side balances it? | $F = \frac{30 \times 0.40}{0.60} = 20$ N
+Why is it useful to take moments about a point where an unknown force acts? | That force has no moment about the point, so it drops out of the calculation
 What is a couple? | A pair of equal and opposite coplanar forces that produces rotation only
 A pair of equal and opposite coplanar forces that produces rotation only — what term is this? | A couple
-State the three properties a pair of forces must have to form a couple | Equal in magnitude, opposite in direction, and perpendicular to the distance between them
+What three properties must a pair of forces have to form a couple? | Equal in magnitude, opposite in direction, and acting along different (parallel) lines of action
 Why does a couple produce no linear acceleration? | The resultant force is zero (equal and opposite forces cancel), so by $F = ma$ the acceleration is zero
 How does the moment of a couple differ from the moment of a single force? | It does not depend on a pivot point
 What is the equation for the moment of a couple? | $\text{Moment} = F \times d$, where $F$ is one of the forces and $d$ is the perpendicular distance between their lines of action
@@ -16,10 +18,9 @@ Why can two equal and opposite forces sharing the same line of action not form a
 What is the centre of mass of an object? | The point at which the weight of the object may be considered to act
 The point at which the weight of an object may be considered to act — what term is this? | Centre of mass
 Where is the centre of mass of a uniform regular solid? | At its geometric centre
+A uniform 5.0 m beam weighing 40 N is pivoted 2.0 m from one end. What is the moment of its weight about the pivot? | $40 \times 0.50 = 20$ N m, because the weight acts at the centre, 0.50 m from the pivot
 How can the centre of mass be found for a symmetrical object of uniform density? | It is located at the point of symmetry
 When is an object stable? | When its centre of mass lies above its base
 How do base width and centre of mass height affect stability? | Wider base and lower centre of mass increase stability; narrower base and higher centre of mass make the object more likely to topple
 In a uniform gravitational field, how do the centre of gravity and centre of mass compare? | They are identical
-Why does the centre of gravity depend on the gravitational field but the centre of mass does not? | Centre of gravity relates to weight ($mg$), which varies with $g$; centre of mass depends only on mass distribution, which is independent of the field
-In a non-uniform gravitational field, where is the centre of gravity displaced relative to the centre of mass? | Toward the region of stronger gravitational field
 Where can the centre of mass of an object lie? | Inside or outside the body, since it is a hypothetical point whose position depends on the object's shape

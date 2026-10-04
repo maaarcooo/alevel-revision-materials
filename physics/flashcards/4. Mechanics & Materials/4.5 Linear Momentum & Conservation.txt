@@ -7,23 +7,26 @@ When solving momentum problems, which direction is usually assigned as positive?
 When does the linear momentum of an object remain constant? | When no external resultant force acts on the system
 State the principle of conservation of linear momentum | The total momentum before a collision is equal to the total momentum after, provided no external force acts
 The total momentum before a collision equals the total momentum after (if no external force acts) — what principle is this? | The principle of conservation of linear momentum
+A 0.80 kg trolley moving at $3.0\;\mathrm{m\,s^{-1}}$ hits a stationary 1.60 kg trolley and they stick together. What is their velocity afterwards? | $v = \frac{0.80 \times 3.0}{0.80 + 1.60} = 1.0\;\mathrm{m\,s^{-1}}$
+When two objects stick together in a collision, how is their mass treated afterwards? | As a single object of mass $m_A + m_B$
 What is the momentum of a stationary object? | Zero
 When an object rebounds after a collision, what happens to the sign of its velocity? | It reverses (positive before, negative after if the initial direction is taken as positive)
 What are external forces? | Forces that act on a system from outside, e.g. friction and weight
 What are internal forces? | Forces exchanged by particles within the system, e.g. tension in a string
-How do external forces differ from internal forces? | External forces act on a system from outside (e.g. friction, weight); internal forces are exchanged between particles within the system (e.g. tension). Only external forces change the total momentum of the system
-A system with no external forces acting on it is described as [...] | Closed or isolated
+What is a system with no external forces acting on it called? | A closed (isolated) system
 In a collision between two objects, how do the forces they exert on each other compare? | Equal in magnitude and opposite in direction (Newton's third law)
 What is impulse? | The change in momentum of an object when a force acts on it, equal to $F \Delta t$
 The change in momentum of an object produced by a force acting over a time interval — what quantity is this? | Impulse
 What is the SI unit of impulse? | Newton second (N s)
 State Newton's second law in terms of momentum | The resultant force on an object equals its rate of change of momentum, $F = \frac{\Delta p}{\Delta t}$
 The resultant force on an object equals its rate of change of momentum — which law is this? | Newton's second law (stated in terms of momentum)
+How is $F = ma$ obtained from $F = \frac{\Delta p}{\Delta t}$? | For constant mass, $\Delta p = m\Delta v$, so $F = \frac{m\Delta v}{\Delta t} = ma$
 Write the equation for change in momentum in terms of mass and velocity | $\Delta p = mv - mu$
+A 58 g tennis ball arriving at $30\;\mathrm{m\,s^{-1}}$ is hit straight back at $20\;\mathrm{m\,s^{-1}}$. What is the magnitude of the impulse on it? | $0.058 \times (20 + 30) = 2.9$ N s
+Why is the impulse on an object that rebounds greater than on one that just stops? | Its velocity changes sign, so the change in velocity (and momentum) is larger
 When can the equation $\text{Impulse} = F \Delta t$ be used? | Only when the force $F$ is constant
 Why is impulse usually measured indirectly? | The force acts for a very short time, making it difficult to directly measure the magnitude of the force or its duration
 In what direction does impulse act? | In the direction of the resultant force
-A small force acting over a long time produces the same [...] as a large force acting over a short time | Impulse (change in momentum)
 What does the area under a force-time graph represent? | Impulse (change in momentum)
 How do you find impulse from a curved force-time graph? | Count the squares under the curve
 How do you find impulse from a straight-line force-time graph? | Split into geometric sections (triangles, rectangles, trapeziums) and sum their areas
@@ -34,13 +37,13 @@ How do seat belts reduce injury in a collision? | They keep the passenger fixed 
 How do airbags reduce injury in a collision? | They act as a soft cushion, increasing the contact time over which the passenger's momentum changes, reducing the force
 On a force-time graph, how does increasing contact time affect the curve for the same impulse? | Lower peak force and wider base, with the same area under the curve
 In both collisions and explosions, what quantity is always conserved? | Momentum (provided no external forces act)
+What is an explosion, in terms of momentum? | An event in which objects that were at rest move apart, so the total momentum stays at zero
 What is an elastic collision? | A collision in which kinetic energy is conserved
 A collision in which kinetic energy is conserved — what type of collision is this? | Elastic
 What is an inelastic collision? | A collision in which kinetic energy is not conserved
 A collision in which kinetic energy is not conserved — what type of collision is this? | Inelastic
 How do you determine whether a collision is elastic or inelastic? | Calculate and compare the total kinetic energy before and after the collision
-How does an elastic collision differ from an inelastic collision? | Elastic: kinetic energy is conserved, objects typically bounce apart. Inelastic: kinetic energy is not conserved, objects typically stick together
-What is the equation for kinetic energy? | $E_k = \frac{1}{2}mv^2$
+A 0.80 kg trolley at $3.0\;\mathrm{m\,s^{-1}}$ sticks to a stationary 1.60 kg trolley and they move off at $1.0\;\mathrm{m\,s^{-1}}$. Is the collision elastic or inelastic? | Inelastic: the kinetic energy falls from 3.6 J to 1.2 J
 In an explosion from rest, why do the fragments move in opposite directions? | To conserve momentum: the total must remain zero, so the momenta of the fragments must cancel out
 How does following through when kicking a football affect the ball? | It increases the contact time, creating a larger impulse and giving the ball a higher velocity
 Why do hailstones require more force to hold an umbrella upright than raindrops? | Hailstones bounce back off the umbrella, causing a greater change in momentum (greater impulse) than raindrops which splatter with a small change in momentum

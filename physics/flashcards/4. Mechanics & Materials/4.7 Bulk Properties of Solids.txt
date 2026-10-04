@@ -1,66 +1,67 @@
 What is density? | The mass per unit volume of an object
-The mass per unit volume of an object -- what quantity is this? | Density
+The mass per unit volume of an object — what quantity is this? | Density
 What is the equation for density? | $\rho = \frac{m}{V}$
 What are the SI units of density? | $\text{kg m}^{-3}$
+A block has a mass of 2.7 kg and a volume of $1.0 \times 10^{-3}\;\mathrm{m^3}$. What is its density? | $\rho = \frac{2.7}{1.0 \times 10^{-3}} = 2700\;\mathrm{kg\,m^{-3}}$
 How do you convert $\text{mm}^3$ to $\text{m}^3$? | Divide by $(1000)^3 = 10^9$, so $1\;\text{mm}^3 = 1 \times 10^{-9}\;\text{m}^3$
 How do you convert $\text{cm}^3$ to $\text{m}^3$? | Divide by $(100)^3 = 10^6$, so $1\;\text{cm}^3 = 1 \times 10^{-6}\;\text{m}^3$
-When converting a larger unit to a smaller unit, what operation do you use? | Multiply
-When converting a smaller unit to a larger unit, what operation do you use? | Divide
 State Hooke's Law | The extension of a material is directly proportional to the applied force, up to the limit of proportionality
 What is the equation for Hooke's Law? | $F = k\Delta L$
-What does the spring constant $k$ measure? | The stiffness of a material; a larger $k$ means a stiffer material
+What does the spring constant $k$ measure? | The stiffness of a spring or wire: the force needed per unit extension
 What are the units of the spring constant? | $\text{N m}^{-1}$
+A spring extends by 0.030 m under a force of 12 N. What is its spring constant? | $k = \frac{F}{\Delta L} = \frac{12}{0.030} = 400\;\mathrm{N\,m^{-1}}$
 How is extension $\Delta L$ calculated? | Stretched length minus unstretched length
 What two types of deformation does Hooke's Law apply to? | Extensions (increase in length) and compressions (decrease in length)
 On a force-extension graph, how is the Hooke's Law region shown? | A straight line through the origin
 What is the gradient of a force-extension graph equal to in the Hooke's Law region? | The spring constant $k$
 What is the gradient of an extension-force graph equal to in the Hooke's Law region? | $\frac{1}{k}$
 What is the limit of proportionality? | The point beyond which extension is no longer proportional to the applied force
-The point beyond which extension is no longer proportional to the applied force -- what term is this? | Limit of proportionality
+The point beyond which extension is no longer proportional to the applied force — what term is this? | Limit of proportionality
 What is the elastic limit? | The point beyond which a material will no longer return to its original length when the force is removed
-The point beyond which a material will no longer return to its original length when the force is removed -- what term is this? | Elastic limit
-How does the limit of proportionality differ from the elastic limit? | Limit of proportionality: extension stops being proportional to force. Elastic limit: material stops returning to its original shape. The limit of proportionality is reached first
+The point beyond which a material will no longer return to its original length when the force is removed — what term is this? | Elastic limit
 Define tensile stress | The force exerted per unit cross-sectional area of a material
-The force exerted per unit cross-sectional area of a material -- what quantity is this? | Tensile stress
+The force exerted per unit cross-sectional area of a material — what quantity is this? | Tensile stress
 What is the equation for tensile stress? | $\sigma = \frac{F}{A}$
+A force of 50 N stretches a wire of cross-sectional area $2.0 \times 10^{-7}\;\mathrm{m^2}$. What is the tensile stress? | $\sigma = \frac{50}{2.0 \times 10^{-7}} = 2.5 \times 10^{8}$ Pa
 What are the units of tensile stress? | Pascals (Pa)
-What Greek letter represents tensile stress? | $\sigma$ (lower-case sigma)
 Define tensile strain | The extension per unit length
-The extension per unit length -- what quantity is this? | Tensile strain
+The extension per unit length — what quantity is this? | Tensile strain
 What is the equation for tensile strain? | $\text{strain} = \frac{\Delta L}{L}$
 Why is tensile strain dimensionless? | It is the ratio of two lengths, so the units cancel
 How is strain expressed as a percentage? | Multiply the strain value by 100
-When calculating strain, do the extension and original length need to be in metres? | No, they can be in any units as long as both use the same units, since strain is a ratio
+What units must the extension and original length be in when calculating strain? | Any units, as long as both are the same, because strain is a ratio
 What is the ultimate tensile stress (UTS)? | The maximum stress that a material can withstand, shown at the highest point on a stress-strain graph
-The maximum stress that a material can withstand -- what term is this? | Ultimate tensile stress (UTS)
+The maximum stress that a material can withstand — what term is this? | Ultimate tensile stress (UTS)
 What is the breaking stress? | The stress at the point where a material fractures
-The stress at the point where a material fractures -- what term is this? | Breaking stress
-How does the UTS differ from the breaking stress on a stress-strain graph? | UTS is the maximum stress (peak of the curve); breaking stress is the stress at which the material actually fractures (final point), which can be lower than UTS
+The stress at the point where a material fractures — what term is this? | Breaking stress
 What is the yield stress? | The stress at which a material begins to deform plastically for no or a small increase in stress
-The stress at which a material begins to deform plastically for no or a small increase in stress -- what term is this? | Yield stress
+The stress at which a material begins to deform plastically for no or a small increase in stress — what term is this? | Yield stress
 What does the area under the straight-line region of a stress-strain graph represent? | The elastic strain energy stored per unit volume
 What does the area under a force-extension graph represent? | The work done on the material (elastic strain energy stored)
 When a material obeys Hooke's Law, what shape is the area under the force-extension graph? | A right-angled triangle
 What is the equation for elastic strain energy when Hooke's Law is obeyed? | $E = \frac{1}{2}F\Delta L$
+A spring extends by 0.030 m under a force of 12 N. How much elastic strain energy does it store? | $E = \frac{1}{2}F\Delta L = \frac{1}{2} \times 12 \times 0.030 = 0.18$ J
 Write the elastic strain energy equation in terms of the spring constant | $E = \frac{1}{2}k(\Delta L)^2$
 Before a material reaches its elastic limit, where is all the work done on it stored? | As elastic strain energy
 How is work done calculated from a force-extension graph when Hooke's Law is not obeyed? | Find the total area under the curve by splitting it into separate geometric shapes and adding the individual areas
 What is elastic deformation? | Deformation where the material returns to its original shape when the load is removed
-Deformation where the material returns to its original shape when the load is removed -- what type of deformation is this? | Elastic deformation
+Deformation where the material returns to its original shape when the load is removed — what type of deformation is this? | Elastic deformation
 What is plastic deformation? | Permanent deformation where the material does not return to its original shape or length when the load is removed
-Permanent deformation where the material does not return to its original shape when the load is removed -- what type of deformation is this? | Plastic deformation
-How does elastic deformation differ from plastic deformation? | Elastic: material returns to original shape when force is removed. Plastic: material is permanently deformed and does not return to its original shape
+Permanent deformation where the material does not return to its original shape when the load is removed — what type of deformation is this? | Plastic deformation
 On a force-extension graph, what divides the elastic and plastic regions? | The elastic limit
 What characterises a brittle material on a stress-strain graph? | A straight line through the origin with no or negligible curved region before fracture
 Give two examples of brittle materials | Glass and concrete
+What is a ductile material? | One that undergoes a large plastic deformation before it fractures, so it can be drawn into wires
 What characterises a ductile material on a stress-strain graph? | A straight line through the origin followed by a significant curved region (large plastic region) before fracture
-Give two examples of ductile materials | Copper and rubber
-How does a brittle material differ from a ductile material? | Brittle: fractures with little or no plastic deformation. Ductile: undergoes significant plastic deformation (stretches into a new shape) before fracturing
+Give two examples of ductile materials | Copper and aluminium
+What is a brittle material? | One that fractures with little or no plastic deformation
 When a metal wire is unloaded after being stretched beyond its elastic limit, how does the unloading line compare to the loading line? | It is parallel (same gradient, since $k$ has not changed) but does not pass through the origin, due to permanent extension
-Why is the unloading line parallel to the loading line for a plastically deformed metal wire? | The intermolecular forces between bonds are identical, so the spring constant and gradient remain the same
+Why is the unloading line parallel to the loading line for a plastically deformed metal wire? | The bonds between the atoms are unchanged, so the stiffness of the wire is the same
 What does the area between the loading and unloading lines on a force-extension graph represent? | The work done to permanently deform the material
+What happens to the work done in deforming a material plastically? | It is not stored as strain energy: it moves atoms apart permanently and is dissipated as heat
+How do crumple zones use plastic deformation to protect passengers? | Work is done in deforming them permanently, which takes kinetic energy from the car
 On a rubber band's force-extension graph, where does the unloading curve lie relative to the loading curve? | Below the loading curve
-After stretching and releasing a rubber band, what is its permanent extension? | Zero -- the rubber band deforms elastically and returns to its original length
+After stretching and releasing a rubber band, what is its permanent extension? | Zero: the rubber band deforms elastically and returns to its original length
 What does the area between the loading and unloading curves of a rubber band represent? | The energy converted to thermal energy (heat) in the rubber band
 On a rubber band's force-extension graph, what does the total area under the loading curve represent? | The total work done in stretching the rubber band
 Why does a rubber band become warm when repeatedly stretched and released? | Some strain energy is converted to thermal energy during each loading-unloading cycle, as shown by the area between the curves

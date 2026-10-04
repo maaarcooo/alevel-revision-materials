@@ -1,44 +1,46 @@
 What is work done by a force equivalent to? | A transfer of energy
 What is the unit of work done? | Joule (J), equivalent to 1 N m
 Define mechanical work | The amount of energy transferred when an external force causes an object to move over a certain distance
-The amount of energy transferred when an external force causes an object to move over a certain distance -- what term is this? | Mechanical work (work done)
+The amount of energy transferred when an external force causes an object to move over a certain distance — what term is this? | Mechanical work (work done)
 What does the work done by a resultant force on a system equal? | The change in energy in that system
 What is the equation for work done by a constant force parallel to the displacement? | $W = Fs$, where $F$ = average force (N) and $s$ = displacement (m)
 What is the equation for work done when the force is at angle $\theta$ to the displacement? | $W = Fs\cos\theta$
 In the equation $W = Fs\cos\theta$, what does $\theta$ represent? | The angle between the direction of the force and the direction of motion of the object
 When calculating work done with a force at an angle, which component of the force is used? | The component parallel to the displacement
+A sled is pulled 10 m along level ground by a 50 N force at 30° to the horizontal. How much work is done? | $W = Fs\cos\theta = 50 \times 10 \times \cos 30° = 430$ J
 What is power? | The rate of doing work, or the rate of energy transfer
-The rate of doing work or the rate of energy transfer -- what quantity is this? | Power
+The rate of doing work or the rate of energy transfer — what quantity is this? | Power
 What is the equation relating power, work done, and time? | $P = \frac{\Delta W}{\Delta t}$, where $P$ = power (W), $\Delta W$ = work done (J), $\Delta t$ = time (s)
 What is the unit of power? | Watt (W)
 What is the equation for power in terms of force and velocity? | $P = Fv$, where $F$ = force (N) and $v$ = velocity (m s$^{-1}$)
 Under what conditions can the equation $P = Fv$ be used? | When an object moves at constant velocity with a constant force in the direction of the velocity
+A car travels at a steady $30\;\mathrm{m\,s^{-1}}$ against resistive forces of 600 N. What power does its engine deliver? | $P = Fv = 600 \times 30 = 18$ kW
 What does the area under a force-displacement graph represent? | The work done
 How is work done found when the force is not constant? | From the area under the force-displacement graph (splitting into standard shapes if necessary)
-Why can the equations $W = Fs$ and $P = Fv$ not be used for a variable force? | Because the force is not constant; work done must instead be found from the area under the force-displacement graph
-What happens to an object's acceleration when a varying force acting on it increases? | The acceleration increases
 Define efficiency | The ratio of the useful power output from a system to its total power input
-The ratio of the useful power output from a system to its total power input -- what quantity is this? | Efficiency
+The ratio of the useful power output from a system to its total power input — what quantity is this? | Efficiency
 What is the equation for efficiency in terms of power? | $\text{Efficiency} = \frac{\text{useful power output}}{\text{total power input}} \times 100\%$
 What is the equation for efficiency in terms of energy? | $\text{Efficiency} = \frac{\text{useful energy output}}{\text{total energy input}} \times 100\%$
 In what two formats can efficiency be expressed? | As a ratio (between 0 and 1) or as a percentage (between 0% and 100%)
 What are the units of efficiency? | Efficiency has no units, because it is a ratio of two quantities with the same units
+A motor takes in 40 W and delivers 30 W of useful power. What is its efficiency? | $\frac{30}{40} = 0.75$, or 75%
+Why can no energy transfer be 100% efficient? | Some energy is always dissipated to the surroundings, e.g. as thermal energy through friction
 What determines whether a type of energy transfer is useful or wasted in a system? | The purpose of the system (e.g. in a lightbulb light is useful and heat is wasted, whereas in a heater heat is useful and sound is wasted)
 State the principle of conservation of energy | Energy cannot be created or destroyed; it can only be transferred from one form to another
 What does the principle of conservation of energy imply for a closed system? | The total amount of energy remains constant, although the amount in each form may change
 What is dissipated energy? | Energy transferred to the surroundings in forms that cannot easily be used for a useful purpose (wasted energy)
 In what forms is energy commonly dissipated? | Thermal (heat), light, and sound energy
 What energy transfer occurs for a falling object in a vacuum? | Gravitational potential energy is converted to kinetic energy
+A ball is dropped from a height of 5.0 m. What is its speed just before it lands, ignoring air resistance? | $mgh = \frac{1}{2}mv^2$, so $v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 5.0} = 9.9\;\mathrm{m\,s^{-1}}$
+Why does a ball thrown upwards not reach the height predicted by energy conservation alone? | Work is done against air resistance, which transfers some of its kinetic energy to thermal energy
 What energy transfer occurs for a horizontal mass oscillating on a spring? | Elastic potential energy is converted to kinetic energy and vice versa
 For an object travelling up a rough inclined surface, state the energy conservation equation | Loss in kinetic energy = gain in gravitational potential energy + work done against friction
 What is kinetic energy? | The energy an object has due to its motion (velocity)
 What is the equation for kinetic energy? | $E_k = \frac{1}{2}mv^2$
-In the kinetic energy equation, which quantity is squared? | Only the speed ($v$), not the mass or the $\frac{1}{2}$
 How should the loss of kinetic energy be expressed in a calculation? | As a positive value, because energy is a scalar quantity
 What is gravitational potential energy? | Energy stored in a mass due to its position in a gravitational field
 What is the equation for the change in gravitational potential energy in a uniform field? | $\Delta E_p = mg\Delta h$, where $m$ = mass (kg), $g$ = gravitational field strength (N kg$^{-1}$), $\Delta h$ = change in height (m)
 Under what condition is $\Delta E_p = mg\Delta h$ valid? | In a uniform gravitational field (such as near the Earth's surface)
 What happens to gravitational potential energy when a mass is lifted? | It increases (the mass gains GPE)
 What happens to gravitational potential energy when a mass falls? | It decreases (the mass loses GPE, which is transferred to kinetic energy)
-What is the relationship between gravitational potential energy and height in a uniform field? | Linear -- a graph of GPE against height is a straight line
-What is the equation for elastic potential energy? | $E_{el} = \frac{1}{2}k(\Delta L)^2$
+What is the relationship between gravitational potential energy and height in a uniform field? | Linear: a graph of GPE against height is a straight line

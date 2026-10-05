@@ -67,6 +67,7 @@ What is time of flight for a projectile? | The total time the projectile spends 
 What is the range of a projectile? | The total horizontal distance travelled by the projectile
 What is the maximum height attained by a projectile? | The highest vertical point reached, where the vertical velocity component is momentarily zero
 How does air resistance affect a projectile's trajectory? | It reduces both the horizontal range and the maximum height, and causes a steeper descent path
+How does air resistance change the vertical acceleration of a ball thrown upwards? | On the way up it is greater than $g$, because air resistance acts downwards with the weight. On the way down it is less than $g$, because air resistance acts upwards
 What two factors most affect the motion of an object through a fluid? | Mass (determines weight) and surface area (determines drag force)
 What is a fluid? | A term used to describe a liquid or a gas
 A term used to describe a liquid or a gas — what is this? | A fluid

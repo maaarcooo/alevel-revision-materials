@@ -7,7 +7,8 @@ Explain why a door handle is placed far from the hinge | Maximises the perpendic
 State the principle of moments | For a system in equilibrium, the sum of clockwise moments about any point equals the sum of anticlockwise moments about that point
 For a system in equilibrium, the sum of clockwise moments about a point equals the sum of anticlockwise moments about the same point — what principle is this? | The principle of moments
 A 30 N weight hangs 0.40 m from a pivot. What force 0.60 m from the pivot on the other side balances it? | $F = \frac{30 \times 0.40}{0.60} = 20$ N
-Why is it useful to take moments about a point where an unknown force acts? | That force has no moment about the point, so it drops out of the calculation
+State the two conditions for an object to be in equilibrium | The resultant force on it is zero, and the resultant moment about any point is zero
+Why is it useful to take moments about a point where an unknown force acts? | Its line of action passes through the point, so it has no moment about it and drops out of the calculation
 What is a couple? | A pair of equal and opposite coplanar forces that produces rotation only
 A pair of equal and opposite coplanar forces that produces rotation only — what term is this? | A couple
 What three properties must a pair of forces have to form a couple? | Equal in magnitude, opposite in direction, and coplanar with a perpendicular distance between their lines of action
@@ -18,6 +19,7 @@ Why can two equal and opposite forces sharing the same line of action not form a
 What is the centre of mass of an object? | The point at which the weight of the object may be considered to act
 The point at which the weight of an object may be considered to act — what term is this? | Centre of mass
 Where is the centre of mass of a uniform regular solid? | At its geometric centre
+Why does an object balance when it is pivoted at its centre of mass? | The line of action of its weight passes through the pivot, so the weight has no moment about the pivot
 A uniform 5.0 m beam weighing 40 N is pivoted 2.0 m from one end. What is the moment of its weight about the pivot? | $40 \times 0.50 = 20$ N m, because the weight acts at the centre, 0.50 m from the pivot
 How can the centre of mass be found for a symmetrical object of uniform density? | It is located at the point of symmetry
 When is an object stable? | When its centre of mass lies above its base

@@ -6,6 +6,7 @@ How does the Young modulus differ from the spring constant? | The Young modulus 
 Explain why the Young Modulus has the same units as stress | Strain is dimensionless, so dividing stress by strain gives units of stress
 What is the typical order of magnitude of the Young modulus of a metal? | About $10^{11}$ Pa (around 100 GPa)
 How is the Young Modulus determined from a stress-strain graph? | It equals the gradient of the linear region, where Hooke's Law is obeyed
+How is a stiff material recognised on a stress-strain graph? | By a steep gradient in the linear region, which shows a high Young modulus
 How does finding the Young Modulus differ between a stress-strain graph and a force-extension graph? | On a stress-strain graph the gradient gives the Young Modulus directly, whereas on a force-extension graph the gradient must be multiplied by $\frac{L}{A}$
 What is the aim of the Young Modulus required practical? | To measure the Young Modulus of a metal in the form of a wire
 In the Young Modulus experiment, what is the independent variable? | Force (or load) in N

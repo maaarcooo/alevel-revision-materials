@@ -37,6 +37,7 @@ What factors should a user consider when choosing between open and closed source
 What is a translator in computing? | A program that converts source code from a high-level or assembly language into low-level object code (machine code) so it can be executed
 Name the three types of translator | Compiler, interpreter, assembler
 How does a compiler translate code? | Translates the entire source code into machine code all at once, reporting any errors found during the process
+Why does distributing compiled code protect the developer's intellectual property? | Only the executable is distributed, so users and competitors cannot see or copy the source code
 What must be done if a change is made to a compiled program? | The whole program must be recompiled
 How does an interpreter translate code? | Translates and executes source code line by line, stopping and producing an error when a line contains an error
 Why might an interpreter appear faster than a compiler at first? | It starts executing straight away, whereas a compiler must translate the whole program before anything runs

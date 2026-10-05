@@ -7,7 +7,7 @@ What does the development stage of an SDLC involve? | The design is used to spli
 What does the evaluation stage of an SDLC involve? | The software is assessed against the original system requirements for robustness, reliability, portability, and maintainability
 What happens in the implementation stage of an SDLC? | The tested software is installed onto the users' systems
 What happens in the maintenance stage of an SDLC? | End-users report errors and possible improvements, and programmers release updates to fix bugs and security issues
-What is alpha testing? | Testing carried out in-house by the development team to find and fix bugs
+What is alpha testing? | Testing of the complete program carried out in-house by the development team, who use it as an end-user would, before beta testing
 What is beta testing? | Testing carried out by end-users after alpha testing, with feedback used to inform further development
 What is white box testing? | Testing by developers based on the program's internal structure, where all possible code paths are tested
 What is black box testing? | Testing without knowledge of the internal structure of the program, by tracing inputs through to outputs. It can be done in-house or by end-users
@@ -24,6 +24,7 @@ Why is the waterfall model considered inflexible? | If a change is needed, progr
 Why does the waterfall model have limited user involvement? | Users are only involved at the very beginning (analysis) and end (evaluation) of the lifecycle
 Give two merits of the waterfall model | It is straightforward to manage because the stages and milestones are clearly defined, and it is clearly documented
 Why can the waterfall model lead to a long development cycle? | Its sequential nature means each stage must finish before the next starts, so delays at any stage delay all subsequent work
+Why may the waterfall model suit a large development team? | Responsibilities are clearly defined at each stage
 What type of project is the waterfall model most suitable for? | Static, low-risk projects with well-defined, stable requirements that need little user input
 What are agile methodologies? | A collection of iterative approaches that improve development flexibility, adapt to changing user requirements, and prioritise user satisfaction over documentation
 A collection of iterative development methodologies prioritising flexibility, user satisfaction, and adapting to changing requirements — what is this approach? | Agile methodologies
@@ -50,6 +51,8 @@ What is the spiral model? | An iterative SDLC combining elements of waterfall an
 An iterative SDLC with a dedicated risk analysis phase in every iteration — what model is this? | Spiral model
 What are the four stages in each iteration of the spiral model? | Planning (objectives and constraints), risk analysis, engineering (design, coding, testing), and evaluation with stakeholder feedback
 What happens if a project is found to be too risky during the spiral model? | The project can be terminated
+Which parts of a project does the spiral model deal with first? | The riskiest parts
+How do the spiral and waterfall models differ in the requirements they start with? | Spiral works on a small set of requirements in each iteration, while waterfall starts with all of the requirements
 Give two merits of the spiral model | Risks are thoroughly analysed and mitigated, and prototypes produced throughout cater to changing user needs
 Give two drawbacks of the spiral model | It is expensive to hire risk assessors, and constant prototyping keeps costs high
 Why is the spiral model unsuitable for small projects? | The extensive planning and risk management overhead is overkill for simple or small-scale work

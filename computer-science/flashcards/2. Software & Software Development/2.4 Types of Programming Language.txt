@@ -27,6 +27,8 @@ Why is procedural programming a poor fit for very large systems? | Programs beco
 What is assembly language? | A low-level language, one level above machine code, that uses mnemonics to represent machine code instructions
 A low-level language that uses mnemonics to represent machine code instructions — what is this called? | Assembly language
 What is a mnemonic in assembly language? | An abbreviation that stands for a machine code instruction, e.g. ADD, SUB, LDA
+How do assembly language and a high-level language differ in the machine code each line produces? | One assembly instruction translates to one machine code instruction, while one high-level statement may translate to several
+How do assembly language and a high-level language differ in portability? | Assembly language is machine dependent (specific to one type of processor), while a high-level language is machine independent and can be translated for different processors
 Why is assembly language processor-specific? | Its instructions work directly with the registers and instruction set of one processor family, so code must be rewritten for a different one
 What is assembly language particularly useful for? | Embedded systems and other software that needs direct control of hardware or highly optimised code
 Why can assembly code be more efficient than high-level code? | The programmer has direct control over the hardware and every instruction, with no overhead from high-level abstractions

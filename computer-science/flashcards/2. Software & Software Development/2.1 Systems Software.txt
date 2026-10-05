@@ -65,6 +65,7 @@ What is a real-time operating system (RTOS)? | An OS designed to process data an
 Why are embedded operating systems hard to update? | They are built for one device with limited functionality and are closely tied to its hardware
 What does BIOS stand for? | Basic Input/Output System
 What is the BIOS? | Firmware stored on a chip on the motherboard. It is the first software to run at startup, performs the POST, and then runs the bootstrap loader to load the OS
+Besides running the POST and the bootstrap loader, what does the BIOS do at start-up? | Loads the stored hardware settings, and works out which drive holds the operating system
 What is the POST? | Power-On Self-Test: a diagnostic sequence run by the BIOS to check that all hardware components are connected and working properly
 A diagnostic sequence run at startup to verify hardware is connected and functional — what is this called? | POST (Power-On Self-Test)
 What is the bootstrap loader? | The program triggered by the BIOS after a successful POST that loads the operating system from secondary storage into RAM

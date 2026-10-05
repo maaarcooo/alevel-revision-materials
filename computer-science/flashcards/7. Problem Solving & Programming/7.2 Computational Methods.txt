@@ -35,6 +35,7 @@ What is backtracking? | A technique that builds a solution step by step by explo
 A solution is built step by step, returning to the previous decision point to try another path whenever one fails — what technique is this? | Backtracking
 How is backtracking usually implemented? | Recursively
 Which graph traversal is an example of backtracking? | Depth-first traversal
+How is backtracking used in a depth-first traversal of a tree? | When a leaf node is reached, the traversal goes back to the most recent node that still has unvisited children
 How would backtracking solve a maze? | Follow a path until a dead end is reached, then go back to the most recent junction and try a different route
 Give one benefit of backtracking | It is guaranteed to find a solution if one exists
 Why can backtracking be slow? | It may have to search the entire solution space, so its time complexity can be high

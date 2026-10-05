@@ -61,6 +61,8 @@ What happens if a local variable and a global variable have the same name? | The
 Why is using local variables good practice? | Subroutines stay self-contained, so their variables cannot be changed accidentally by code elsewhere
 Why are global variables discouraged? | They can be overwritten unintentionally from anywhere in the program, which makes it harder to test and maintain
 When is a global variable appropriate? | For a value needed throughout the whole program, e.g. a constant or a configuration setting
+Give one benefit of using a global variable instead of passing a parameter | The value does not have to be passed into subroutines or returned from them, so the code is simpler to write
+State one drawback of using local variables | Data needed by another subroutine has to be passed as a parameter or handled as a return value, which makes the program more complex to write
 How can a subroutine use a value without relying on a global variable? | The value is passed in as a parameter and the result is passed back as a return value
 What is modular programming? | Splitting a large program into smaller, self-contained modules, each of which carries out one task
 A large program is split into smaller, self-contained modules that each carry out one task — what technique is this? | Modular programming
@@ -79,6 +81,7 @@ x = 5 and procedure addOne(n:byVal) runs n = n + 1. What is x after addOne(x)? |
 x = 5 and procedure addOne(n:byRef) runs n = n + 1. What is x after addOne(x)? | 6, because the procedure changed the original
 Why is passing by value safer than passing by reference? | The subroutine cannot change the original data, so there are no unintended side effects
 Why is passing by reference more efficient for a large data structure? | No copy is made, which saves memory and the time taken to copy it
+Why must an array be passed by reference to a procedure that updates it? | A procedure cannot return the updated array, so the changes must be made to the original for them to be kept when it ends
 Why can passing by reference cause unexpected side effects? | The subroutine changes the original data, which other parts of the program may rely on
 What is an IDE? | A program that provides a set of tools to make it easier to write, develop and debug code
 A program that provides a set of tools to make it easier to write, develop and debug code — what is this? | An Integrated Development Environment (IDE)

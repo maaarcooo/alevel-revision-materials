@@ -41,6 +41,7 @@ Components that have already been written, debugged and tested, which can be tra
 How are commonly used subroutines made available for reuse? | They are packaged into libraries
 Give three kinds of reusable program component | Subroutines, classes, and implementations of abstract data structures such as stacks and queues
 Why are reusable components more reliable than newly written code? | They have already been tested and their bugs dealt with
+How do reusable components make a program easier to maintain? | An error is fixed once in the component, and the fix applies everywhere the component is used
 What do reusable components save during development? | Time, money and resources
 How can one reusable subroutine produce a variety of outputs? | By being called with different arguments
 How does producing well-tested components benefit future projects? | They can be reused again, which saves development costs

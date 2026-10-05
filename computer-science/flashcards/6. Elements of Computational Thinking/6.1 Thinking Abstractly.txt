@@ -16,6 +16,7 @@ In a system with multiple levels of abstraction, what are the lowest levels resp
 How does abstraction allow non-experts to use complex systems? | It hides information that is too complex or irrelevant to the system's purpose
 How does abstraction make software design more efficient? | Programmers focus on the elements that must be built instead of unnecessary details, which reduces development time
 What does removing unnecessary details early in development prevent? | The program becoming unnecessarily large
+How does abstraction affect the resources the finished program needs? | It needs less memory and processing power, because unnecessary detail is not stored or processed
 What does abstraction separate in a program? | What the program does from how it does it (the implementation)
 Give an example of abstraction experienced by a user saving a file | They do not need to know how the file is written to disk or how the operating system manages memory
 Name two areas of computing that use layers of abstraction | Programming languages (low-level to high-level) and networking (the TCP/IP model)

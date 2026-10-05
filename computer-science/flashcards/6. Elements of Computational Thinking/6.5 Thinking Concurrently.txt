@@ -1,5 +1,5 @@
-What is concurrent processing? | Each process is given a slice of processor time in turn on a single processor, so tasks appear to run simultaneously but actually run one after another
-Each process being given a slice of processor time in turn on a single processor, so tasks appear to run simultaneously — what term is this? | Concurrent processing
+What is concurrent processing? | More than one process is in progress at the same time, so one can start before another finishes. Each process is given a slice of processor time in turn, or the processes run on different cores
+More than one process being in progress at the same time, each given a slice of processor time in turn — what term is this? | Concurrent processing
 What is concurrent thinking? | The mindset of spotting patterns and parts of a problem where concurrency can be applied
 The mindset of spotting patterns and parts of a problem where concurrency can be applied — what term is this? | Concurrent thinking
 How does concurrent thinking differ from concurrent processing? | Concurrent thinking is done by a person analysing a problem. Concurrent processing is done by a computer processor
@@ -14,6 +14,7 @@ In the task of recording the number plate and colour of each passing car, what i
 When can the data sets of a batch program be processed in parallel on multiple cores? | When they do not relate to, rely on or interact with each other
 How can several different batch programs make progress on one processor? | They are interchanged and pipelined using concurrent processing
 State the benefit of concurrent processing for throughput | More tasks are completed in a given time
+State the benefit of concurrent processing for a user while a long task runs | The user can still interact with the computer, because long-running tasks do not hold up short ones
 How does concurrent processing reduce the time wasted waiting for user input? | The processor swaps to another task, then swaps back when an operating system interrupt signals the input
 State the drawback of concurrent processing when many users or tasks are involved | Each process gets only a time slice, so processes take longer to complete
 What overhead does concurrent processing introduce? | Coordinating and switching between processes, which reduces throughput

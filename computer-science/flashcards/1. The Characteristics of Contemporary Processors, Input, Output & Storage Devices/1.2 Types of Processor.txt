@@ -23,6 +23,7 @@ What is a co-processor? | A secondary processor designed to supplement the activ
 Where can a GPU be located in a computer? | On a graphics card or embedded in the CPU
 Why can a computer not run with a GPU alone? | The CPU is needed to assign tasks to the GPU
 How do the cores of a GPU differ from those of a CPU? | A GPU has hundreds or thousands of small cores optimised for parallel processing. A CPU has a few larger cores optimised for serial processing
+How do the tasks suited to a GPU and a CPU differ? | A GPU suits simple operations carried out in parallel on large data sets. A CPU suits complex operations on smaller data sets
 What does SIMD stand for? | Single Instruction Multiple Data
 What is SIMD processing? | Multiple processing elements performing the same operation on many data points at the same time
 Why is a GPU well suited to processing graphics? | It has built-in instructions for common graphics operations and applies one instruction to many pixels or vertices at once

@@ -17,7 +17,7 @@ Give an example of the environment affecting the choice of device | A wired mous
 What is secondary storage? | Non-volatile storage that keeps files, applications and other data when the computer is powered off
 Name the three types of secondary storage | Magnetic, optical and flash
 Which four factors should be considered when recommending a storage device? | Capacity needed, speed of access needed, portability and cost
-How does magnetic storage represent binary data? | Regions of magnetic material are either polarised or unpolarised, and a read/write head detects which state each region is in
+How does magnetic storage represent binary data? | Small regions of the magnetic surface are magnetised in one of two orientations, one representing 1 and the other 0. A read/write head detects or changes the orientation
 How does a hard disk drive work? | Magnetic platters spin at high speed under a read/write head on an actuating arm, which can reach any part of a platter
 Why do most hard disk drives contain several platters? | Stacking platters maximises the storage capacity
 Give two benefits of magnetic storage | High capacity and a low cost per gigabyte
@@ -34,9 +34,9 @@ Give two drawbacks of optical storage | Low capacity and slow transfer speeds co
 How does flash storage represent binary data? | Semiconductor logic gates (NAND and NOR) hold electrical charge in one of two states, high or low
 How is the data in flash memory organised? | In pages, which are grouped into blocks
 Which type of flash memory is preferred for small amounts of data such as code, and which for large files? | NOR for small amounts of data such as code. NAND for large files such as photos and videos
-Flash memory can be erased and reprogrammed [...] | electronically
+How is flash memory erased and reprogrammed? | Electrically, with no moving parts
 How does flash memory differ from RAM? | Flash memory is non-volatile, so it keeps its data without power. RAM is volatile
-Give three advantages of an SSD over a hard disk drive | Faster data transfer, no moving parts so it resists damage from movement, and it is lighter
+Give three advantages of an SSD over a hard disk drive | Faster read and write speeds, no moving parts so it is more durable, and lower power use
 What limits the lifespan of an SSD? | Each write to a page raises the voltage needed to write to it again, until the page can no longer be written to
 What is the main disadvantage of flash storage compared with magnetic and optical storage? | It costs more per gigabyte
 Which type of storage best suits a task needing fast access to data, such as video editing? | Flash storage (an SSD)
@@ -46,7 +46,7 @@ What does volatile mean? | The memory loses its contents when the power is lost
 What is RAM? | Fast, volatile main memory that holds the data and programs the computer is currently using
 Fast, volatile main memory that holds the data and programs the computer is currently using — what term is this? | RAM (random access memory)
 Why is RAM described as random access? | The processor can access any part of it equally quickly
-Why does adding more RAM improve performance? | More data and programs can be held in fast memory at once
+Why does adding more RAM improve performance? | More running programs and data fit in RAM, so less virtual memory is used. Virtual memory is slower because data has to be swapped between secondary storage and RAM
 Why does a computer have far less RAM than secondary storage? | RAM is more expensive per gigabyte
 Why is RAM not used to store personal files? | It is volatile, so the files would be lost when the power is turned off
 What is ROM? | Non-volatile main memory whose contents can be read but not modified

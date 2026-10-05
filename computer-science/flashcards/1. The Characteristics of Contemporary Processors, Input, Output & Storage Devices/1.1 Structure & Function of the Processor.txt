@@ -8,7 +8,7 @@ What is the role of the control unit? | It directs the operations of the CPU: it
 What are registers? | Small, very fast memory cells inside the CPU, each used to store data temporarily for one specific purpose
 Small, very fast memory cells inside the CPU, each used to store data temporarily for one specific purpose — what term is this? | Registers
 What does the program counter (PC) hold? | The address of the next instruction to be fetched
-What does the accumulator (ACC) hold? | Values that have been input or loaded, and the results of calculations carried out in the ALU
+What does the accumulator (ACC) hold? | Values that have been input or loaded, and the results of calculations carried out in the ALU. Its value is also checked by conditional branch instructions
 What does the memory address register (MAR) hold? | The address of the memory location that is to be read from or written to
 What does the memory data register (MDR) hold? | The data or instruction that has just been read from memory or is about to be written to it
 What does the current instruction register (CIR) hold? | The instruction currently being executed, split into opcode and operand

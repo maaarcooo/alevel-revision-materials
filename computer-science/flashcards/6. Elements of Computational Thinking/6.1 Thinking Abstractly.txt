@@ -27,7 +27,7 @@ Why have high-level languages made coding accessible to non-specialists? | Their
 How is the TCP/IP model an example of abstraction? | Network communication is split into four layers, each handling one part of the process without needing to know how the other layers work
 Why must standards be agreed in advance for a layered model such as TCP/IP? | To ensure the layers are compatible with each other
 What is the relationship between an abstraction and reality? | An abstraction is a simplified representation of reality
-The closer an implementation is to reality, the [...] abstract it becomes | less
+How does the level of abstraction change as an implementation gets closer to reality? | It becomes less abstract
 Which computational structures are used to represent real-world entities and values? | Tables and databases for entities, variables for values
 In object-oriented programming, what are objects an abstraction for? | Real-world entities
 In object-oriented programming, what are attributes an abstraction for? | The characteristics of a real-world object

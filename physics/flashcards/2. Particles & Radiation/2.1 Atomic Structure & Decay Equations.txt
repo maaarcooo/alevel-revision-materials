@@ -81,5 +81,6 @@ Define pair production | The creation of a particle-antiparticle pair when a hig
 The creation of a particle-antiparticle pair from a high-energy photon near a nucleus — what process is this? | Pair production
 What is the minimum photon energy required for pair production? | Twice the rest mass-energy of one of the particles produced: $E_{min} = hf_{min} = 2E_0$
 What is the minimum photon energy needed to produce an electron-positron pair? | $2 \times 0.511 = 1.022$ MeV
+A photon has more than the minimum energy needed for pair production. What happens to the extra energy? | It becomes the kinetic energy of the particle and antiparticle produced
 Why does pair production take place near a nucleus? | The nucleus takes away some momentum, so that momentum is conserved
 Why do the particle and antiparticle produced in pair production move in opposite directions? | To conserve momentum

@@ -14,7 +14,7 @@ What is the baryon number of a particle that is not a baryon (e.g. mesons, lepto
 In which interactions is baryon number conserved? | All interactions
 What is the baryon number of an individual quark? | $B = +\frac{1}{3}$
 What is the baryon number of an individual anti-quark? | $B = -\frac{1}{3}$
-Why is the proton the most stable baryon? | It is the lightest baryon, so it cannot decay into a lighter baryon
+Why is the proton the only stable baryon? | It is the lightest baryon, so it cannot decay into a lighter baryon
 What do all other baryons eventually decay into? | Protons
 Why would proton decay violate a conservation law? | No lighter baryon exists for it to decay into, so baryon number could not be conserved
 What three charge states can pions have? | Positive ($\pi^+$), negative ($\pi^-$), and neutral ($\pi^0$)
@@ -76,6 +76,6 @@ Through which interaction do strange particles always decay? | The weak interact
 Why do strange particles have relatively long lifetimes? | They decay through the weak interaction, which is much slower than the strong interaction
 How can a change in strangeness show which interaction caused a decay? | If strangeness changes by $\pm 1$, the decay must be through the weak interaction
 Why must strange particles be produced in pairs? | Strangeness is conserved in the strong interaction, so a strange quark must be produced alongside an anti-strange quark
-How is a theory validated in particle physics? | The discovery is confirmed by repeat experiments that reduce experimental uncertainty, leading the scientific community to accept it
+How is a new theory validated in particle physics? | Its predictions are tested by repeatable experiments, and the results are checked by other scientists (peer review) before the scientific community accepts it
 What are particle accelerators used for? | Colliding particles at very high speeds to produce new particles and reveal the inner structure of particles
 Why does particle physics research require international collaboration? | The equipment is extremely expensive and complex, requiring large groups of scientists and engineers to provide funding and expertise

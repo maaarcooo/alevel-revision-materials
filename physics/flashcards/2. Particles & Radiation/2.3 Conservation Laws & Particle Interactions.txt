@@ -18,6 +18,7 @@ What are the exchange particles of the weak interaction? | $W^+$ boson, $W^-$ bo
 Why are beta decays caused by the weak interaction? | A quark changes type, which only the weak interaction can do
 What is the exchange particle of the electromagnetic interaction? | Virtual photon ($\gamma$)
 What is exchanged when two electrons repel each other? | A virtual photon
+How does the exchange of a virtual photon make two electrons repel? | The virtual photon carries momentum from one electron to the other, so by conservation of momentum the path of each electron changes
 What is the theorised exchange particle of the gravitational force? | The graviton (not yet discovered)
 State three properties of the photon | No mass, no charge, and it is its own antiparticle
 Why can leptons not interact via the strong force? | Leptons are not made of quarks, and the strong force only acts on particles made of quarks (hadrons)

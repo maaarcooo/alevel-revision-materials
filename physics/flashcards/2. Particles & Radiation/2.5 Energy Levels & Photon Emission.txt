@@ -1,5 +1,7 @@
 What are energy levels? | Specific, discrete energy states that electrons in an atom can occupy
 Why do electrons occupy the lowest possible energy level? | This is the most stable configuration for the atom
+What is the ground state of an atom? | The lowest energy state of the atom, in which its electrons occupy the lowest energy levels they can
+The lowest energy state of an atom — what term is this? | The ground state
 Define excitation | When an electron absorbs enough energy to move up to a higher energy level
 When an electron absorbs enough energy to move up to a higher energy level — what term is this? | Excitation
 What happens to an atom when one of its electrons is excited to a higher energy level? | The atom is said to be in an excited state
@@ -12,11 +14,12 @@ When an atom gains or loses an orbital electron and becomes charged — what ter
 What is the ionisation energy of an atom? | The minimum energy required to remove an electron from the ground state of the atom
 The minimum energy required to remove an electron from the ground state of an atom — what quantity is this? | Ionisation energy
 What is inside a fluorescent tube? | Low-pressure mercury vapour in a partially evacuated glass tube with a phosphor coating on the inside
-In a fluorescent tube, what happens when a high voltage is applied? | Electrons flow from cathode to anode, forming a beam that collides with mercury atoms, transferring kinetic energy
+In a fluorescent tube, what happens when a high voltage is applied? | Electrons flow through the tube and collide with mercury atoms, transferring kinetic energy that excites electrons in the mercury atoms to higher energy levels
 In a fluorescent tube, what type of photons do mercury atoms emit when their electrons de-excite? | Ultraviolet (UV) photons
 What is the role of the phosphor coating in a fluorescent tube? | UV photons excite electrons in the phosphor atoms; as they de-excite in stages, they emit lower-energy visible light photons
 On an energy level diagram, what does the bottom line with the most negative energy represent? | The ground state
 On an energy level diagram, what does the top line at 0 eV represent? | The ionisation level
+Why are the energy levels of an atom given negative values? | An electron that is just free of the atom is defined as having zero energy, so energy must be supplied to an electron in the atom to raise it to that level
 What is the ground state energy of the hydrogen atom? | $-13.6$ eV
 How much energy is needed to ionise a hydrogen atom in its ground state? | 13.6 eV, the gap between $-13.6$ eV and 0
 What are line spectra? | Discrete wavelengths of light emitted or absorbed by excited atoms, observed as a series of lines with spaces between them
@@ -39,9 +42,10 @@ What evidence shows that light behaves as a particle? | The photoelectric effect
 What evidence shows that light behaves as a wave? | Diffraction and interference (e.g. Young's double-slit experiment)
 Why does the wave theory of light fail to explain the photoelectric effect? | Wave theory predicts any frequency should cause emission given enough time and that kinetic energy should increase with intensity, but neither is observed
 What evidence shows that electrons can behave as waves? | A diffraction pattern of concentric rings is produced when a beam of electrons is directed at a thin graphite film
+What causes the bright rings in an electron diffraction pattern? | Electron waves that arrive in phase interfere constructively, giving maximum intensity
 Why is graphite suitable for demonstrating electron diffraction? | Its crystalline structure has regular atomic spacing similar in size to the de Broglie wavelength, with gaps between atom planes acting as slits
 In electron diffraction, what happens to the ring diameter when the accelerating voltage increases? | The diameter decreases (higher speed gives shorter de Broglie wavelength and less diffraction)
-In electron diffraction, what would be observed if electrons behaved only as particles? | A uniform distribution across the screen with no diffraction pattern
+In electron diffraction, what would be observed if electrons behaved only as particles? | A single bright patch on the screen where the beam lands, with no rings
 What does the de Broglie equation relate? | Wavelength (a wave property) to momentum (a particle property)
 What did de Broglie propose? | That particles have wave properties, just as light has particle properties, with wavelength $\lambda = \frac{h}{p}$
 State the de Broglie equation | $\lambda = \frac{h}{p} = \frac{h}{mv}$

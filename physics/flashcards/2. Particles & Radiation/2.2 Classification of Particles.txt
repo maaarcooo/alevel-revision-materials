@@ -16,6 +16,7 @@ What is the baryon number of an individual quark? | $B = +\frac{1}{3}$
 What is the baryon number of an individual anti-quark? | $B = -\frac{1}{3}$
 Why is the proton the only stable baryon? | It is the lightest baryon, so it cannot decay into a lighter baryon
 What do all other baryons eventually decay into? | Protons
+What happens to a free neutron? | It is unstable and decays into a proton, an electron and an electron antineutrino
 Why would proton decay violate a conservation law? | No lighter baryon exists for it to decay into, so baryon number could not be conserved
 What three charge states can pions have? | Positive ($\pi^+$), negative ($\pi^-$), and neutral ($\pi^0$)
 What types of quarks do pions contain? | Up and down quarks and their anti-quarks only

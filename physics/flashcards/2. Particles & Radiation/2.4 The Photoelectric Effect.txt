@@ -23,6 +23,7 @@ In a photoelectric experiment, what is the role of the emitter plate? | The meta
 In a photoelectric experiment, what is the role of the collector plate? | The metal plate that collects the photoelectrons after they cross the gap
 What equation relates the maximum kinetic energy of photoelectrons to the stopping potential? | $E_{k\,\text{max}} = eV_s$
 What happens to the stopping potential when the intensity of the radiation is increased? | It stays the same, because the maximum kinetic energy depends only on the frequency and the work function
+What happens to the stopping potential when the frequency of the radiation is increased? | It increases, because each photon has more energy, so the maximum kinetic energy of the photoelectrons is greater
 Why does the photoelectric current fall as the opposing potential difference is increased towards the stopping potential? | Photoelectrons are emitted with a range of kinetic energies, so fewer of them have enough kinetic energy to cross the gap
 Why does the photoelectric current reach a constant value when the collector is made positive? | All the photoelectrons emitted each second already reach the collector, and their number depends on the intensity, not on the potential difference
 What is the photoelectric equation? | $hf = \Phi + E_{k\,\text{max}}$
@@ -33,6 +34,7 @@ What is the photoelectric equation rearranged into the form $y = mx + c$? | $E_{
 On a graph of $E_{k(\text{max})}$ against frequency $f$, what does the gradient represent? | Planck's constant ($h$)
 On a graph of $E_{k(\text{max})}$ against frequency $f$, what does the y-intercept represent? | The negative of the work function ($-\Phi$)
 On a graph of $E_{k(\text{max})}$ against frequency $f$, what does the x-intercept represent? | The threshold frequency ($f_0$)
+How do the graphs of $E_{k(\text{max})}$ against $f$ compare for two different metals? | The lines are parallel, because the gradient is $h$ for both. The metal with the greater work function crosses the frequency axis at a higher threshold frequency
 What is the effect of increasing the intensity of incident radiation on the maximum kinetic energy of photoelectrons? | No effect: maximum kinetic energy is independent of intensity
 What two factors determine the maximum kinetic energy of emitted photoelectrons? | The frequency of the incident photons and the work function of the metal
 Explain why increasing the intensity of incident radiation does not affect the maximum kinetic energy of photoelectrons | Each electron absorbs only one photon. Intensity affects the number of photons (and hence photoelectrons), not the energy of each photon

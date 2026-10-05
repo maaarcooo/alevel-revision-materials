@@ -31,6 +31,7 @@ Give three examples of longitudinal waves | Sound waves, ultrasound waves, seism
 How can transverse waves be demonstrated? | Using a rope, with vibrations perpendicular to the direction of wave travel
 How can longitudinal waves be demonstrated? | Using a slinky spring, with vibrations parallel to the direction of wave travel
 Which type of wave can be polarised? | Transverse waves only (longitudinal waves cannot be polarised)
+What is unpolarised light? | Light whose oscillations are in many planes, all perpendicular to its direction of travel
 What is polarisation? | The restriction of the oscillations of a transverse wave to a single plane, with the oscillations still perpendicular to the direction of propagation
 The restriction of the oscillations of a transverse wave to a single plane — what term is this? | Polarisation
 Why can only transverse waves be polarised? | Transverse waves oscillate in any plane perpendicular to the propagation direction, so they can be restricted to one plane; longitudinal waves oscillate only parallel to travel

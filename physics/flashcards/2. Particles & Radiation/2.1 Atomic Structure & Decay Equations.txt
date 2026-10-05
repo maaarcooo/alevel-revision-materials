@@ -37,6 +37,7 @@ At what nucleon separation does the strong nuclear force reach its maximum attra
 At what separation is the equilibrium position of the strong nuclear force between two nucleons (resultant force = 0)? | Approximately 0.5 fm
 How does the strength of the strong nuclear force differ between proton-proton, neutron-neutron, and proton-neutron pairs? | It is roughly the same between all nucleon pairs, because the strong force is not influenced by charge
 How does the range of the strong nuclear force compare with that of the electrostatic force? | The strong nuclear force only acts up to about 3 fm, whereas the electrostatic force has an infinite range
+How does the strong nuclear force keep the nucleons in a stable nucleus at a fixed separation? | Its short-range attraction stops them moving further apart and its very-short-range repulsion stops them moving closer, so they settle at an equilibrium separation
 What is 1 femtometre (fm) in metres? | $1 \times 10^{-15}$ m
 What is an alpha particle? | Two protons and two neutrons, equivalent to a helium-4 nucleus ($^4_2\text{He}$)
 What type of nucleus commonly undergoes alpha decay? | Large, unstable nuclei with too many nucleons

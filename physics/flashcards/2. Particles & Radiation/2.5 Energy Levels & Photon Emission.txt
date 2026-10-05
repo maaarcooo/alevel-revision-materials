@@ -13,10 +13,12 @@ Define ionisation | When an atom gains or loses an orbital electron and becomes 
 When an atom gains or loses an orbital electron and becomes charged — what term is this? | Ionisation
 What is the ionisation energy of an atom? | The minimum energy required to remove an electron from the ground state of the atom
 The minimum energy required to remove an electron from the ground state of an atom — what quantity is this? | Ionisation energy
+How does a beam of electrons ionise a gas atom? | A beam electron collides with an electron in the atom and transfers enough energy for that electron to leave, so the atom becomes a positive ion
 What is inside a fluorescent tube? | Low-pressure mercury vapour in a partially evacuated glass tube with a phosphor coating on the inside
 In a fluorescent tube, what happens when a high voltage is applied? | Electrons flow through the tube and collide with mercury atoms, transferring kinetic energy that excites electrons in the mercury atoms to higher energy levels
 In a fluorescent tube, what type of photons do mercury atoms emit when their electrons de-excite? | Ultraviolet (UV) photons
 What is the role of the phosphor coating in a fluorescent tube? | UV photons excite electrons in the phosphor atoms; as they de-excite in stages, they emit lower-energy visible light photons
+Why does a fluorescent tube emit many more visible photons than ultraviolet photons? | Each ultraviolet photon absorbed by the coating can produce several lower-energy visible photons, because the electron de-excites in stages
 On an energy level diagram, what does the bottom line with the most negative energy represent? | The ground state
 On an energy level diagram, what does the top line at 0 eV represent? | The ionisation level
 Why are the energy levels of an atom given negative values? | An electron that is just free of the atom is defined as having zero energy, so energy must be supplied to an electron in the atom to raise it to that level
@@ -25,7 +27,7 @@ How much energy is needed to ionise a hydrogen atom in its ground state? | 13.6 
 What are line spectra? | Discrete wavelengths of light emitted or absorbed by excited atoms, observed as a series of lines with spaces between them
 These series of discrete spectral lines produced by excited atoms — what are they called? | Line spectra (or atomic spectra)
 Why can each element be identified by its line spectrum? | No two elements produce the same set of spectral lines, because each element has a unique set of energy levels
-How is an emission spectrum produced? | Electrons transition from higher to lower energy levels, emitting photons at discrete wavelengths
+How is an emission spectrum produced? | Electrons fall between discrete energy levels, each emitting a photon whose energy equals the difference between the levels, so only certain wavelengths are emitted
 What does an emission spectrum look like? | Coloured lines on a black background, each at a discrete wavelength
 How is an absorption spectrum produced? | White light passes through a cool, low-pressure gas; atoms absorb photons at wavelengths matching their energy level differences
 What does an absorption spectrum look like? | A continuous spectrum (all colours) with dark lines at specific wavelengths
@@ -43,6 +45,7 @@ What evidence shows that light behaves as a wave? | Diffraction and interference
 Why does the wave theory of light fail to explain the photoelectric effect? | Wave theory predicts any frequency should cause emission given enough time and that kinetic energy should increase with intensity, but neither is observed
 What evidence shows that electrons can behave as waves? | A diffraction pattern of concentric rings is produced when a beam of electrons is directed at a thin graphite film
 What causes the bright rings in an electron diffraction pattern? | Electron waves that arrive in phase interfere constructively, giving maximum intensity
+In an electron diffraction tube, where do the electrons behave as waves and where as particles? | As waves when they diffract through the gaps between the atoms in the graphite. As particles when they are accelerated by the anode and when they hit the screen
 Why is graphite suitable for demonstrating electron diffraction? | Its crystalline structure has regular atomic spacing similar in size to the de Broglie wavelength, with gaps between atom planes acting as slits
 In electron diffraction, what happens to the ring diameter when the accelerating voltage increases? | The diameter decreases (higher speed gives shorter de Broglie wavelength and less diffraction)
 In electron diffraction, what would be observed if electrons behaved only as particles? | A single bright patch on the screen where the beam lands, with no rings

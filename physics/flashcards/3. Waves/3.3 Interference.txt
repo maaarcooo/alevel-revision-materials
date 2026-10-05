@@ -18,7 +18,7 @@ Give two examples of coherent wave sources | A monochromatic laser; two speakers
 Why are lasers ideal for analysing diffraction and interference patterns? | Laser light is coherent (constant phase difference and frequency) and monochromatic (single wavelength)
 What do the bright fringes in an interference pattern correspond to? | Regions of constructive interference, where the waves arrive in phase
 What do the dark fringes in an interference pattern correspond to? | Regions of destructive interference, where the waves arrive in antiphase
-Why might the minima in an interference pattern not have zero intensity? | The two waves do not have exactly the same amplitude where they meet, so they cannot cancel completely
+Why might the minima in an interference pattern not have zero intensity? | One wave has travelled further than the other, so their amplitudes are not equal where they meet and they cannot cancel completely
 How is constructive interference of sound waves perceived? | The sound appears louder, because compressions and rarefactions from each wave line up
 How is destructive interference of sound waves perceived? | The sound is at its quietest (silent if the amplitudes are equal), because a compression from one wave meets a rarefaction from the other
 What technology uses destructive interference of sound waves? | Noise-cancelling headphones
@@ -55,8 +55,9 @@ What graph is plotted in the Young's double-slit practical, and what does the gr
 How is wavelength determined from the $w$ vs $D$ graph in the required practical? | $\lambda = s \times \text{gradient}$
 What is the aim of the diffraction grating required practical? | To find the wavelength of laser light from the angles of the maxima, using $n\lambda = d\sin\theta$
 How is the angle $\theta$ to each order calculated in the diffraction grating practical? | $\theta = \tan^{-1}\!\left(\frac{h}{D}\right)$, where $h$ is the distance from the central maximum to the order and $D$ is the grating-to-screen distance
-State two methods to reduce uncertainty when measuring fringe spacing or distance between maxima | Measure across all visible fringes and divide by the number of fringes; use a Vernier scale for higher resolution
+State two ways to reduce the percentage uncertainty in the fringe spacing in the double-slit practical | Measure across several fringes and divide by the number of fringe spacings, and increase the slit-to-screen distance so the fringes are further apart
 Why does using a grating with more lines per mm reduce the percentage uncertainty? | It produces larger values of $h$ (distance between maxima), so the fixed measurement uncertainty becomes a smaller fraction of $h$
+State two ways to reduce the percentage uncertainty in the wavelength in the diffraction grating practical | Increase the grating-to-screen distance, or measure to a higher-order maximum. Both make the measured distance larger, so its percentage uncertainty is smaller
 Why should interference experiments be conducted in a darkened room? | So the fringes are clearly visible against the background
 Why is a set square used in the diffraction grating experiment? | To ensure the beam passes through the grating at normal incidence and meets the screen perpendicularly
 State three laser safety precautions for interference experiments | Never look directly at the beam or its reflection; wear laser safety goggles; place a 'laser on' warning sign outside the room

@@ -22,7 +22,7 @@ How can stationary waves be demonstrated with microwaves? | Place a microwave so
 How can stationary sound waves be demonstrated in a tube? | Place fine powder inside a tube with a loudspeaker at the open end. At resonant frequencies the powder collects in evenly spaced heaps at the nodes
 Why does the powder collect at the nodes of a stationary sound wave in a tube? | The air does not vibrate at the nodes, so the powder there is left undisturbed
 For a stationary sound wave in a tube closed at one end, where are the node and antinode? | Node at the closed end, antinode at the open end (loudspeaker end)
-What is a resonant frequency in the context of a vibrating string? | A frequency at which a whole number of half wavelengths fits exactly on the length of the string, forming a stationary wave
+What is a resonant frequency in the context of a vibrating string? | A frequency at which a stationary wave forms. The fixed ends must be nodes, so a whole number of half wavelengths has to fit the length of the string
 What are harmonics? | Different stationary wave patterns that can form at specific resonant frequencies, depending on the frequency of vibration and the boundary conditions
 What is the first harmonic on a string fixed at both ends? | The simplest stationary wave pattern: a single loop with two nodes (at the ends) and one antinode
 What is another name for the first harmonic? | The fundamental frequency

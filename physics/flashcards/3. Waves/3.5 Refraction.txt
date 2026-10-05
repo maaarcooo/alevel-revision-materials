@@ -22,6 +22,7 @@ What is the critical angle? | The angle of incidence in the denser medium at whi
 The angle of incidence in the denser medium at which the angle of refraction equals 90° — what term is this? | Critical angle
 State the equation for the critical angle | $\sin \theta_c = \frac{n_2}{n_1}$ where $n_1 > n_2$
 How is the critical angle equation obtained from Snell's law? | Set $\theta_2 = 90°$, so $n_1 \sin\theta_c = n_2$ and $\sin\theta_c = \frac{n_2}{n_1}$
+What happens to light that meets a boundary with a less dense medium at less than the critical angle? | Most of it is refracted into the second medium and some is partially reflected back
 What is the critical angle for light travelling from glass of refractive index 1.5 into air? | $\theta_c = \sin^{-1}\!\left(\frac{1}{1.5}\right) = 41.8°$
 How does the critical angle change as the refractive index of a material increases? | It decreases
 How does the critical angle of a glass block differ for blue and red light? | It is smaller for blue light, because the refractive index of glass is greater for blue light than for red

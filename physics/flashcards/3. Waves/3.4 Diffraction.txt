@@ -5,7 +5,7 @@ Why are very narrow slits needed to diffract light noticeably? | The wavelength 
 What produces the bright fringes in a single slit diffraction pattern? | Constructive interference of each part of the wavefront as it passes through the slit
 What produces the dark fringes in a single slit diffraction pattern? | Destructive interference of each part of the wavefront as it passes through the slit
 How does the central maximum of a single slit diffraction pattern compare with the other maxima? | It is twice as wide as the other maxima and much brighter
-How do the subsidiary maxima change as the order increases in a single slit diffraction pattern? | They become narrower and dimmer
+How do the subsidiary maxima change as the order increases in a single slit diffraction pattern? | They become dimmer, while each stays the same width (half the width of the central maximum)
 In the single slit intensity pattern, what is the intensity at the dark fringes? | Zero
 How does the central maximum of a single slit pattern compare in width to a double slit central maximum? | The single slit central maximum is much wider
 Why is the central maximum bright white when white light is diffracted through a single slit? | Constructive interference from all wavelengths (colours) occurs at the central position

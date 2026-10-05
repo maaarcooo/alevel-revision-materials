@@ -24,6 +24,7 @@ State the equation for the critical angle | $\sin \theta_c = \frac{n_2}{n_1}$ wh
 How is the critical angle equation obtained from Snell's law? | Set $\theta_2 = 90°$, so $n_1 \sin\theta_c = n_2$ and $\sin\theta_c = \frac{n_2}{n_1}$
 What is the critical angle for light travelling from glass of refractive index 1.5 into air? | $\theta_c = \sin^{-1}\!\left(\frac{1}{1.5}\right) = 41.8°$
 How does the critical angle change as the refractive index of a material increases? | It decreases
+How does the critical angle of a glass block differ for blue and red light? | It is smaller for blue light, because the refractive index of glass is greater for blue light than for red
 What is total internal reflection? | The complete reflection of light back into the denser medium, instead of refracting through the boundary, so no light passes into the second medium
 The complete reflection of light back into the denser medium, with no light passing through the boundary — what term is this? | Total internal reflection
 State the two conditions for total internal reflection | The angle of incidence must be greater than the critical angle ($i > \theta_c$), and the light must be in the medium with the higher refractive index ($n_1 > n_2$)
@@ -32,7 +33,7 @@ Name the three main components of an optical fibre | Optically dense core (glass
 How does light travel through an optical fibre? | It refracts into the core at one end, undergoes repeated total internal reflection at the core-cladding boundary, and refracts out at the other end
 State two uses of optical fibres | Communications (telephone and internet) and medical imaging (endoscopes)
 Why must $n_{\text{cladding}} < n_{\text{core}}$ in an optical fibre? | Total internal reflection requires light to travel from a higher to a lower refractive index medium
-State three functions of cladding in an optical fibre | Protects the core from damage, prevents signal degradation by stopping light escaping, and keeps adjacent fibres separate to prevent information crossover
+State three functions of cladding in an optical fibre | It protects the core from scratches, provides the lower refractive index needed for total internal reflection, and prevents signals crossing between fibres that touch
 What is a step-index optical fibre? | A fibre in which the refractive index changes abruptly, in a single step, between the core and the cladding
 What is pulse broadening? | The output pulses from an optical fibre are longer (wider in time) than the input pulses
 When pulses emerging from an optical fibre are longer than those entering — what term is this? | Pulse broadening
@@ -40,13 +41,14 @@ What two types of dispersion cause pulse broadening? | Material dispersion and m
 What is material dispersion? | The spreading of a light pulse caused by different wavelengths travelling at different speeds in the fibre material
 The spreading of a light pulse in a fibre caused by different wavelengths travelling at different speeds — what term is this? | Material dispersion
 In material dispersion, which colour of visible light travels slowest through the fibre? | Violet, because glass has its highest refractive index for the shortest wavelengths
-What is modal dispersion? | The spreading of a monochromatic light pulse because different parts of the wavefront take paths with different numbers of reflections and arrive at different times
-The spreading of a monochromatic light pulse because different parts of the wavefront take different paths through the fibre — what term is this? | Modal dispersion
+What is modal dispersion? | The spreading of a pulse because light that enters the fibre at different angles takes paths of different lengths, so parts of the pulse take different times to arrive
+The spreading of a pulse because light entering a fibre at different angles takes paths of different lengths — what term is this? | Modal dispersion
 Why is modal dispersion more prominent in a fibre with a wider core? | A wider core allows more paths with different angles, increasing the variation in number of reflections and path lengths
 What is absorption in an optical fibre? | The fibre material absorbs part of the signal's energy, reducing the amplitude and potentially causing loss of transmitted information
-What effect does pulse broadening have on signal quality? | Adjacent pulses can merge, distorting the information and decreasing the signal amplitude
+What effect does pulse broadening have on signal quality? | Adjacent pulses can overlap and merge, so information is lost and the maximum rate of data transfer is limited
 State two methods to reduce absorption in an optical fibre | Use an extremely transparent core material and use optical fibre repeaters to regenerate the signal
 State three methods to reduce pulse broadening in an optical fibre | Use a narrow core, use a monochromatic light source, and use optical fibre repeaters
 Why does a narrow core reduce pulse broadening? | It limits the range of paths the light can take, so all parts of the pulse arrive at more similar times
+Why does a cladding with a refractive index close to that of the core reduce modal dispersion? | The critical angle is large, so only rays travelling close to the axis are totally internally reflected, giving a smaller range of path lengths
 Why does monochromatic light reduce pulse broadening? | All the light has one wavelength and so one speed in the fibre, which removes material dispersion
 What is a single-mode (monomode) fibre? | A fibre with a core so narrow that light can follow only one path along it, which removes modal dispersion

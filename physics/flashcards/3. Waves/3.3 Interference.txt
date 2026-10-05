@@ -1,6 +1,6 @@
 What is interference? | The effect of superposition, producing regions of increased and decreased (or zero) displacement
 What is constructive interference? | When two waves meet in phase, their displacements add to produce a larger resultant amplitude
-What is destructive interference? | When two waves meet in antiphase, their displacements cancel to produce zero resultant amplitude
+What is destructive interference? | When two waves meet in antiphase, their displacements cancel to give a minimum resultant amplitude, which is zero if their amplitudes are equal
 When two waves of equal amplitude $A$ interfere constructively, what is the resultant amplitude? | $2A$
 Why can wave displacements cancel each other during superposition? | Displacement is a vector quantity, so individual displacements may be positive or negative and can sum to zero
 What property must waves have to produce a stable interference pattern? | They must be coherent (same frequency and constant phase difference)
@@ -18,8 +18,9 @@ Give two examples of coherent wave sources | A monochromatic laser; two speakers
 Why are lasers ideal for analysing diffraction and interference patterns? | Laser light is coherent (constant phase difference and frequency) and monochromatic (single wavelength)
 What do the bright fringes in an interference pattern correspond to? | Regions of constructive interference, where the waves arrive in phase
 What do the dark fringes in an interference pattern correspond to? | Regions of destructive interference, where the waves arrive in antiphase
+Why might the minima in an interference pattern not have zero intensity? | The two waves do not have exactly the same amplitude where they meet, so they cannot cancel completely
 How is constructive interference of sound waves perceived? | The sound appears louder, because compressions and rarefactions from each wave line up
-How is destructive interference of sound waves perceived? | Zero sound is heard, because a compression from one wave meets a rarefaction from the other
+How is destructive interference of sound waves perceived? | The sound is at its quietest (silent if the amplitudes are equal), because a compression from one wave meets a rarefaction from the other
 What technology uses destructive interference of sound waves? | Noise-cancelling headphones
 How is two-source interference demonstrated with microwaves? | A microwave transmitter emits waves through two slits in metal plates; a moveable microwave detector picks up regions of maximum and zero signal
 Name three types of waves used to demonstrate two-source interference | Light (laser through double slits), sound (two coherent speakers), and microwaves (transmitter through two slits with a moveable detector)
@@ -30,6 +31,7 @@ In an ideal double-slit interference pattern, how do the bright fringes compare?
 Explain why the central maximum in a real double-slit pattern is brighter than the outer fringes | Each individual slit also diffracts light, so fringe intensities are modulated by the single-slit diffraction envelope
 State the double-slit fringe spacing equation | $w = \frac{\lambda D}{s}$
 In the equation $w = \frac{\lambda D}{s}$, what do $w$, $D$, and $s$ represent? | $w$ = fringe spacing (distance between successive bright fringes), $D$ = distance from slits to screen, $s$ = slit separation
+When is the fringe spacing equation $w = \frac{\lambda D}{s}$ valid? | Only when the slit-to-screen distance $D$ is much greater than the slit separation $s$
 How does fringe spacing $w$ change if the wavelength $\lambda$ increases? | $w$ increases ($w \propto \lambda$)
 How does fringe spacing $w$ change if the slit-to-screen distance $D$ increases? | $w$ increases ($w \propto D$)
 How does fringe spacing $w$ change if the slit separation $s$ decreases? | $w$ increases ($w \propto 1/s$)

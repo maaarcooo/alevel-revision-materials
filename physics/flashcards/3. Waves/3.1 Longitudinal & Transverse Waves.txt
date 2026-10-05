@@ -31,8 +31,8 @@ Give three examples of longitudinal waves | Sound waves, ultrasound waves, seism
 How can transverse waves be demonstrated? | Using a rope, with vibrations perpendicular to the direction of wave travel
 How can longitudinal waves be demonstrated? | Using a slinky spring, with vibrations parallel to the direction of wave travel
 Which type of wave can be polarised? | Transverse waves only (longitudinal waves cannot be polarised)
-What is polarisation? | When particle oscillations occur in a single plane perpendicular to the direction of wave propagation
-Particle oscillations occurring in a single plane perpendicular to the direction of wave propagation — what term is this? | Polarisation
+What is polarisation? | The restriction of the oscillations of a transverse wave to a single plane, with the oscillations still perpendicular to the direction of propagation
+The restriction of the oscillations of a transverse wave to a single plane — what term is this? | Polarisation
 Why can only transverse waves be polarised? | Transverse waves oscillate in any plane perpendicular to the propagation direction, so they can be restricted to one plane; longitudinal waves oscillate only parallel to travel
 How does polarisation provide evidence about the nature of a wave? | Only a wave with oscillations perpendicular to its direction of travel can be polarised, so a wave that can be polarised must be transverse
 What does a polariser (polarising filter) do? | It transmits only oscillations in a single plane, blocking all other planes of oscillation
@@ -43,6 +43,6 @@ In a two-polariser experiment, how many times does the transmitted intensity rea
 What happens to unpolarised light when it passes through a single polarising filter? | Its intensity is halved, and the light that emerges is plane-polarised
 What happens to unpolarised light when it reflects off a horizontal surface such as water? | It becomes partially plane-polarised, with a greater proportion oscillating in the horizontal plane
 How do Polaroid sunglasses reduce glare from reflective surfaces? | They contain vertically oriented polarising filters that block horizontally polarised light reflected from surfaces such as water or wet roads
-Why can a polarising filter reveal objects beneath water? | Glare from the water surface is partially horizontally polarised and is blocked, while light from underwater objects is refracted (not reflected) and so is not polarised, passing through the filter
+Why can a polarising filter reveal objects beneath water? | Glare reflected from the surface is mostly horizontally polarised and is absorbed by the filter, while light from the underwater objects is unpolarised, so about half of it passes through
 Why must a TV reception aerial be aligned to match the transmitter's signal polarisation? | Broadcasting towers transmit either vertically or horizontally polarised signals; the aerial must be in the same orientation to receive the signal
 Name three processes (besides passing through a polariser) by which light can become polarised | Reflection, refraction, and scattering

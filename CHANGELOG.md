@@ -3,6 +3,42 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-05: mark-scheme pass, Physics topics 2 and 3
+
+The definition and explanation cards in Particles & Radiation and Waves were compared
+with the credited answers in AQA topic mark schemes, and the notes were updated to
+match. Physics now has 1293 cards.
+
+**Facts corrected**
+
+- Polarisation: the oscillations are restricted to a single plane. The old wording
+  said the plane was perpendicular to the direction of propagation, but the plane
+  contains that direction.
+- Single-slit diffraction: the subsidiary maxima get dimmer but stay the same width.
+  The old card said they get narrower.
+- Destructive interference gives zero amplitude only when the two amplitudes are equal.
+- Electron diffraction: a beam of particles alone would give a single bright patch, not
+  an even spread across the screen.
+- Fluorescent tube: collisions excite the mercury atoms. The note said they ionise them.
+
+**Reworded to match credited answers**
+
+- Work function, the proton as the only stable baryon, how a theory is validated, the
+  functions of cladding, modal dispersion, the effect of pulse broadening, and why a
+  polarising filter reveals objects under water.
+
+**Added**
+
+- 13 cards for mark-scheme points that had no card. Examples: the ground state, why
+  energy levels are negative, why nothing is emitted below the threshold frequency,
+  when the fringe spacing equation is valid, and how the cladding affects modal
+  dispersion.
+
+**Tools**
+
+- `scripts/pull_mark_schemes.py` downloads the topic papers into `sources/`, which git
+  ignores. The procedure is in `skills/improve-materials/SKILL.md`.
+
 ## 2026-10-04: baseline
 
 The repository moved from many numbered versions kept side by side to one living copy

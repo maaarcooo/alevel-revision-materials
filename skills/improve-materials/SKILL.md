@@ -93,6 +93,22 @@ Settled owners for ideas that cross topics:
 
 When a new overlap turns up, settle it by the specification, move the definition to the owner, and add the row here.
 
+## Checking against mark schemes
+
+The specification says what to cover. The mark schemes say which wording earns the mark. A mark-scheme pass compares one topic's cards with the credited answers.
+
+1. **Get the papers.** For Physics, download the topic questions and mark schemes into `sources/` (ignored by git, never commit them):
+   ```bash
+   python3 scripts/pull_mark_schemes.py waves "3. Waves"
+   ```
+   Each PDF is saved with a plain-text copy for searching. Sets M, N and P are AQA papers. Sets A to D mix in other boards, so do not rely on them alone.
+2. **Read the mark schemes for the topic** next to the decks. Definitions and "explain" answers matter most, because marks depend on their wording. Calculations rarely need changing.
+3. **Change a card** when its wording would not earn the mark, when the mark scheme rejects it (look for "do not allow", "reject" and "insufficient"), or when it is wrong.
+4. **Add a card** when a mark scheme point comes up that no card covers and the specification section includes it.
+5. **Leave a card alone** when it already says what the mark scheme credits in other words.
+
+Status: Physics topics 2 and 3 have had this pass. The other Physics topics and all of Computer Science have not.
+
 ## Note rules
 
 These add to `skills/revision-notes-generator/SKILL.md`.

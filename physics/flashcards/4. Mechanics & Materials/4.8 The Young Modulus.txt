@@ -14,7 +14,7 @@ In the Young Modulus experiment, what is the dependent variable? | Extension in 
 In the Young Modulus experiment, what are the control variables? | Original length of wire, thickness of wire, and the metal used
 Why is a long, thin wire used in the Young modulus experiment? | It gives a larger extension for each load, which reduces the percentage uncertainty in the extension
 Why is the diameter of the wire measured with a micrometer and not a ruler? | A micrometer has a resolution of 0.01 mm, so the percentage uncertainty in the small diameter is much lower than with a ruler (1 mm)
-Why is the diameter of the wire measured in several places and averaged? | To reduce the uncertainty on the cross-sectional area
+How should the diameter of the wire be measured to reduce the effect of random error? | Take readings at different points along the wire and in different orientations, reject any anomalies and calculate the mean
 How is the cross-sectional area of the wire calculated from its diameter? | $A = \frac{\pi d^2}{4}$
 What is the role of the pulley in the Young Modulus experiment? | It allows the mass to hang vertically, introducing less friction than the edge of the table
 What is the purpose of the tape marker in the Young Modulus experiment? | To mark a reference point on the wire so the extension can be accurately read from the ruler after each load is added

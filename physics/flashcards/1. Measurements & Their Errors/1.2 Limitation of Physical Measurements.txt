@@ -14,6 +14,8 @@ What is parallax error? | An error caused by reading a scale at an angle instead
 How can calibration reveal a systematic error? | Measure a known value, such as a 1 kg standard mass. A reading that differs from it shows the instrument has a systematic error
 What systematic correction is needed in radioactivity experiments? | The background count, measured beforehand, is subtracted from every reading
 What is a zero error? | A type of systematic error where an instrument gives a non-zero reading when the true value is zero
+How is the zero error of a micrometer found and corrected? | Close the jaws with nothing between them and note the reading, then subtract it from every measurement
+Why is a micrometer closed with the ratchet and not the thimble? | The ratchet slips at a set force, so the object is not squashed and every reading is taken with the same force
 What is precision? | How close repeated measurements are to each other (how little spread there is about the mean value)
 How close repeated measurements are to each other — what term is this? | Precision
 What is accuracy? | How close a measurement is to the true value

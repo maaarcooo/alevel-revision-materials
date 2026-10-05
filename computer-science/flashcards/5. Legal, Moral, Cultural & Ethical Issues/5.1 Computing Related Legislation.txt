@@ -50,6 +50,7 @@ What is the Regulation of Investigatory Powers Act 2000? | A law that covers inv
 A law covering investigation, surveillance, and interception of communication by public bodies — what act is this? | The Regulation of Investigatory Powers Act 2000 (RIPA)
 What condition must be met before a public body can intercept online communications under RIPA? | A warrant must be issued
 What does RIPA require of ISPs and mobile phone companies? | To give up information on request from an authorised authority and to have sufficient hardware installed on their networks to facilitate surveillance
+What can RIPA force someone who holds encrypted data to do? | Hand over the encryption key, or decrypt the data
 Why is RIPA considered controversial? | Its powers extend to small agencies like local councils, and some people view it as an invasion of privacy or believe it is used improperly
 Which Act is broken if a company keeps customers' personal data for longer than it needs? | The Data Protection Act 1998
 Which Act makes it an offence to guess a colleague's password and read their files? | The Computer Misuse Act 1990

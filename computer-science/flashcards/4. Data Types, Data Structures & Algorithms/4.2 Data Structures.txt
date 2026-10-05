@@ -1,13 +1,14 @@
 What is an array? | An ordered, static set of elements of a single data type
 An ordered, static set of elements of a single data type — what data structure is this? | Array
 What does it mean for an array to be zero-indexed? | The first element is at position 0
+Why are many values stored in an array instead of in separate variables? | All the values share one identifier and are reached by index, so they can be processed in a loop and passed as a single parameter
 How is an element of a 1D array accessed? | With the array name followed by the index in square brackets, e.g. scores[3]
 How can a 2D array be visualised? | As a table or spreadsheet
 In what order do you navigate a 2D array to locate an element? | Down the rows first, then across the columns
 How can a 3D array be visualised? | As a multi-page spreadsheet, or multiple 2D arrays
 What three indices are needed to access an element in a 3D array? | The array index, the row index, and the column index
-What is a record? | A row in a file, made up of fields. Used in databases
-A row in a file made up of fields — what data structure is this? | A record
+What is a record? | A data structure that groups related fields, which may have different data types, under one identifier. Each row of a database table is a record
+A data structure that groups related fields of different data types under one identifier — what is this? | A record
 How is a field of a record accessed in pseudocode? | Using dot notation: recordName.fieldName
 How is a record type declared in pseudocode? | TypeName = record, then each field with its data type, then end record
 What is a list? | A data structure made up of a number of ordered items, in which an item can occur more than once
@@ -98,6 +99,7 @@ What data structure does a breadth-first search use? | A queue
 What is a depth-first search of a graph? | A traversal that follows a path as far as possible before backtracking to explore other paths
 What data structure does a depth-first search use? | A stack
 What is a tree in computer science? | A connected, undirected graph with no cycles, in which nodes are linked in parent-child relationships starting from a root node
+Give three ways in which a graph differs from a tree | A graph has no root node, may contain cycles, and has no hierarchy
 What is the root of a tree? | The single top-level node with no incoming edges
 What is a leaf node? | A node with no children
 What is the height of a tree? | The number of edges from the root to the furthest leaf node
@@ -120,8 +122,9 @@ What is a binary search tree? | A binary tree where nodes are ordered so that le
 A binary tree where left subtree values are less than the parent and right subtree values are greater — what is this? | A binary search tree
 Why is a binary search tree ordered? | To optimise searching
 Why is searching a binary search tree more efficient than searching a linked list? | Each comparison in a balanced tree discards half of the remaining values, whereas every item in a linked list may have to be checked
+What advantage does a binary search tree have over an array when new items are added? | Each item is inserted in its correct place, so the data stays in order without being re-sorted
 How is a value inserted into a binary search tree? | Compare with the current node: move left if smaller, move right if greater. Repeat until a vacant position is found and insert there
-How is a leaf node deleted from a binary search tree? | Simply remove it, as it has no children
+How is a leaf node deleted from a binary search tree? | Search the tree to find the node, then set its parent's pointer to it to null
 How is a node with one child deleted from a binary search tree? | Replace the node with its child
 How is a node with two children deleted from a binary search tree? | Replace it with the in-order successor (the minimum value in its right subtree), then delete the successor from its original position
 What is the in-order successor of a node in a binary search tree? | The smallest value in the node's right subtree

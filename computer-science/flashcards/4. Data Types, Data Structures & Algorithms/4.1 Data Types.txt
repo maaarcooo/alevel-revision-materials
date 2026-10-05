@@ -35,6 +35,7 @@ In 8-bit two's complement, what does the MSB represent? | A place value of $-128
 How do you convert an 8-bit two's complement number to denary? | Assign $-128$ to the MSB and normal positive place values to the remaining bits; sum the place values of all bits set to 1
 What is the range of an 8-bit two's complement number? | $-128$ to $+127$
 Why is two's complement preferred over sign and magnitude for arithmetic? | Two's complement allows subtraction to be performed using addition circuitry, making calculations simpler and less computationally intensive
+How many ways of representing zero do sign and magnitude and two's complement each have? | Sign and magnitude has two (positive and negative zero), while two's complement has only one
 What are the four rules of binary addition? | $0+0=0$, $0+1=1$, $1+1=10$ (0 carry 1), $1+1+1=11$ (1 carry 1)
 What is an overflow error in binary addition? | When the result of adding two binary numbers exceeds the number of bits available, producing an incorrect or truncated result
 How can overflow affect signed binary arithmetic? | It can flip the sign bit, incorrectly changing the sign of the result (e.g. adding two positive numbers and getting a negative result)

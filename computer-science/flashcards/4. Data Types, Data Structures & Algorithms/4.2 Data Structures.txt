@@ -13,6 +13,7 @@ How is a record type declared in pseudocode? | TypeName = record, then each fiel
 What is a list? | A data structure made up of a number of ordered items, in which an item can occur more than once
 How do lists differ from arrays in terms of memory storage? | List values are stored non-contiguously in memory, whereas array elements are stored contiguously
 How do lists differ from arrays in terms of data types? | Lists can contain more than one data type, whereas arrays store only one
+How do lists differ from arrays in terms of size? | An array has a fixed size (static), whereas a list can grow and shrink at run time (dynamic)
 What does the list operation isEmpty() return? | Whether the list is empty (Boolean)
 What does append(value) do to a list? | Adds a new value to the end of the list
 What does remove(value) do to a list? | Removes the value the first time it appears in the list
@@ -118,6 +119,7 @@ How does breadth-first traversal of a tree work? | Begin at the root and output 
 What is a binary search tree? | A binary tree where nodes are ordered so that left subtree values are less than the parent and right subtree values are greater
 A binary tree where left subtree values are less than the parent and right subtree values are greater — what is this? | A binary search tree
 Why is a binary search tree ordered? | To optimise searching
+Why is searching a binary search tree more efficient than searching a linked list? | Each comparison in a balanced tree discards half of the remaining values, whereas every item in a linked list may have to be checked
 How is a value inserted into a binary search tree? | Compare with the current node: move left if smaller, move right if greater. Repeat until a vacant position is found and insert there
 How is a leaf node deleted from a binary search tree? | Simply remove it, as it has no children
 How is a node with one child deleted from a binary search tree? | Replace the node with its child

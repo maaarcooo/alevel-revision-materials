@@ -7,6 +7,7 @@ A unique identifier for each record in a table — what term is this? | Primary 
 What is a compound (composite) primary key? | A combination of two or more fields that together uniquely identify each record
 What is a foreign key? | A field in one table that references the primary key in another table, used to link tables together
 A field in one table that references the primary key in another table — what term is this? | Foreign key
+How do a primary key and a foreign key differ in uniqueness? | A primary key value appears only once in its table, while a foreign key value may appear many times in its table
 What is a secondary key? | A field that is indexed to enable faster searching of the database
 What is a DBMS? | Database Management System: software used to create, manage, and query databases (e.g. MySQL, Oracle, PostgreSQL)
 What is an entity in database design? | An item of interest about which data is stored, which becomes a table in a relational database
@@ -19,6 +20,7 @@ What is a relational database? | A database that organises data into multiple li
 What is the advantage of a flat file database? | It is simple to set up and easy to understand
 What problem does a flat file cause when data needs updating? | The same data appears in multiple records, so updating one instance but missing others creates data inconsistency
 How does a relational database reduce data redundancy? | By splitting data into separate linked tables so each piece of data is stored only once
+Besides less redundancy and better consistency, what can a relational database do that a flat file cannot do well? | Carry out complex queries and searches across the linked tables
 What is indexing in a database? | A method of storing the position of each record ordered by a certain attribute, allowing the DBMS to look up and access data quickly
 How does an index speed up a search? | The DBMS can go straight to the relevant records instead of checking every record in turn, like using the index of a book
 Which key is indexed automatically? | The primary key
@@ -44,6 +46,7 @@ How is a many-to-many relationship shown in crow's foot notation? | Branches (cr
 How is a many-to-many relationship resolved in a relational database? | A link table is created between the two entities, which turns it into two one-to-many relationships
 In a one-to-many relationship, which entity contains the foreign key? | The entity on the "many" side contains the foreign key referencing the primary key of the "one" side
 What is a data capture form? | A form that collects input from a user and organises it into a structured format
+Why is an online form a suitable way to capture data for a database? | The input can be validated automatically, and the data is entered straight into the database with little manual processing
 What is OMR? | Optical Mark Recognition: a machine detects marks in predefined positions on paper (e.g. multiple-choice exam sheets, lottery tickets)
 What is OCR? | Optical Character Recognition: converts printed or handwritten text into a digital format for searching and editing
 What is MICR? | Magnetic Ink Character Recognition: reads characters printed in special magnetic ink, used by banks to process cheques

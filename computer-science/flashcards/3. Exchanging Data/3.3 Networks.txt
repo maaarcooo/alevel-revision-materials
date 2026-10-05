@@ -19,6 +19,7 @@ What is protocol layering? | Dividing network protocols into layers, each perfor
 Name one benefit of protocol layering relating to troubleshooting | Breaking networking into manageable layers makes it easier to design, implement, and troubleshoot
 Name one benefit of protocol layering relating to updates | Changes can be made to one layer without affecting the others
 Name one benefit of protocol layering relating to interoperability | Different technologies can work together because each layer operates independently
+How does protocol layering apply abstraction? | Each layer does one well-defined job and hides its details from the others, communicating only with the layers directly above and below it
 What does TCP/IP stand for? | Transmission Control Protocol / Internet Protocol
 Name the four layers of the TCP/IP model from top to bottom | Application, Transport, Internet, Link
 What does the Application layer of TCP/IP do? | Selects the appropriate protocol based on the application (e.g. HTTP for web, FTP for files) and prepares data for transmission

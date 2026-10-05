@@ -95,19 +95,29 @@ When a new overlap turns up, settle it by the specification, move the definition
 
 ## Checking against mark schemes
 
-The specification says what to cover. The mark schemes say which wording earns the mark. A mark-scheme pass compares one topic's cards with the credited answers.
+The specification says what to cover. The mark schemes say which wording earns the mark, and the examiner reports say which wording loses it. A mark-scheme pass compares one topic's cards with both.
 
-1. **Get the papers.** For Physics, download the topic questions and mark schemes into `sources/` (ignored by git, never commit them):
+Source material lives in `sources/`, which git ignores. It is copyrighted: never commit it, and never move it out of `sources/`.
+
+```
+sources/<subject>/notes/<provider>/          # PMT, SME and Cognito note sets
+sources/physics/papers/as/combined/          # AQA AS papers 2016 to 2025, question and mark scheme together
+sources/physics/papers/as/cleaned/           # the examiner report for each paper
+sources/physics/papers/as/raw/               # the separate papers the two folders above were built from
+sources/physics/papers/topic-questions/      # topic-sorted questions and mark schemes
+```
+
+1. **Collect the topic's questions.** For Physics, print every part question on the topic with its mark scheme and examiner comment:
    ```bash
-   python3 scripts/pull_mark_schemes.py waves "3. Waves"
+   python3 scripts/paper_digest.py "polaris|stationary wave|coheren" > /tmp/waves.txt
    ```
-   Each PDF is saved with a plain-text copy for searching. Sets M, N and P are AQA papers. Sets A to D mix in other boards, so do not rely on them alone.
-2. **Read the mark schemes for the topic** next to the decks. Definitions and "explain" answers matter most, because marks depend on their wording. Calculations rarely need changing.
-3. **Change a card** when its wording would not earn the mark, when the mark scheme rejects it (look for "do not allow", "reject" and "insufficient"), or when it is wrong.
+   Use a pattern of the topic's key terms. For more questions, `scripts/pull_mark_schemes.py waves "3. Waves"` downloads topic-sorted papers (sets M, N and P are AQA; sets A to D include other boards).
+2. **Read them next to the decks.** Definitions and "explain" answers matter most, because marks depend on their wording. Calculations rarely need changing.
+3. **Change a card** when its wording would not earn the mark, when the mark scheme or examiner report rejects it (look for "do not allow", "reject", "insufficient" and "common error"), or when it is wrong.
 4. **Add a card** when a mark scheme point comes up that no card covers and the specification section includes it.
 5. **Leave a card alone** when it already says what the mark scheme credits in other words.
 
-Status: Physics topics 2 and 3 have had this pass. The other Physics topics and all of Computer Science have not.
+Status: Physics topics 2 and 3 have had this pass. Physics topics 1, 4 and 5 and all of Computer Science have not.
 
 ## Note rules
 

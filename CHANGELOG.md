@@ -6,8 +6,9 @@ came from.
 ## 2026-10-05: mark-scheme pass, Physics topics 2 and 3
 
 The definition and explanation cards in Particles & Radiation and Waves were compared
-with the credited answers in AQA topic mark schemes, and the notes were updated to
-match. Physics now has 1293 cards.
+with the credited answers in the AQA AS papers from 2016 to 2025, their examiner
+reports, and AQA topic mark schemes. The notes were updated to match. Physics now has
+1303 cards.
 
 **Facts corrected**
 
@@ -23,21 +24,27 @@ match. Physics now has 1293 cards.
 
 **Reworded to match credited answers**
 
-- Work function, the proton as the only stable baryon, how a theory is validated, the
-  functions of cladding, modal dispersion, the effect of pulse broadening, and why a
-  polarising filter reveals objects under water.
+- Work function, the proton as the only stable baryon, how a theory is validated, how
+  an emission spectrum is produced, resonant frequencies on a string, the functions of
+  cladding, modal dispersion, the effect of pulse broadening, why a polarising filter
+  reveals objects under water, and how to reduce uncertainty in the double-slit
+  practical.
 
 **Added**
 
-- 13 cards for mark-scheme points that had no card. Examples: the ground state, why
+- 23 cards for mark-scheme points that had no card. Examples: the ground state, why
   energy levels are negative, why nothing is emitted below the threshold frequency,
-  when the fringe spacing equation is valid, and how the cladding affects modal
-  dispersion.
+  how the stopping potential depends on frequency, how a beam of electrons ionises an
+  atom, where electrons behave as waves in a diffraction tube, when the fringe spacing
+  equation is valid, and how to reduce uncertainty in the diffraction grating practical.
 
 **Tools**
 
-- `scripts/pull_mark_schemes.py` downloads the topic papers into `sources/`, which git
-  ignores. The procedure is in `skills/improve-materials/SKILL.md`.
+- `scripts/paper_digest.py` prints the past-paper questions on a topic with their mark
+  schemes and examiner comments. `scripts/pull_mark_schemes.py` downloads topic-sorted
+  papers. Both work on `sources/`, which git ignores.
+- `sources/` now has one layout: `<subject>/notes/<provider>` and `physics/papers`.
+  The procedure is in `skills/improve-materials/SKILL.md`.
 
 ## 2026-10-04: baseline
 

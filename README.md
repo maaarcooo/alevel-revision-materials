@@ -8,7 +8,7 @@ no version numbers in file or folder names. The history is in git, and
 [CHANGELOG.md](CHANGELOG.md) records what changed and where the content came from.
 
 All content is AI-generated and checked against the exam board specifications. Physics
-topics 2 and 3 have also been checked against AQA mark schemes. Always verify anything
+topics 2 and 3 have also been checked against AQA mark schemes and examiner reports. Always verify anything
 important against the official specification.
 
 ## What is here
@@ -16,7 +16,7 @@ important against the official specification.
 | Subject | Decks | Cards | Notes |
 |---------|------:|------:|------:|
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1925 | 26 |
-| Physics (AQA, AS topics 1 to 5) | 24 | 1293 | 24 |
+| Physics (AQA, AS topics 1 to 5) | 24 | 1303 | 24 |
 
 Each subtopic has one flashcard deck and one note with the same name.
 
@@ -31,7 +31,7 @@ alevel-revision-materials/
 │   ├── flashcards/<n>. <topic>/<n.m> <subtopic>.txt
 │   └── notes/<n>. <topic>/<n.m> <subtopic>.md
 ├── skills/        # the generator skills and the procedure for improving materials
-├── scripts/       # check_decks.py, pull_mark_schemes.py
+├── scripts/       # check_decks.py, paper_digest.py, pull_mark_schemes.py
 ├── CHANGELOG.md
 └── LICENSE
 ```

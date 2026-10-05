@@ -18,7 +18,7 @@ import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DEST = ROOT / "sources" / "physics" / "Physics AQA Topic Questions (PMT)"
+DEST = ROOT / "sources" / "physics" / "papers" / "topic-questions"
 INDEX = "https://www.physicsandmathstutor.com/physics-revision/a-level-aqa/{}/"
 AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15"
 

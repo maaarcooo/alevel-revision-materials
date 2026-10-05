@@ -2,6 +2,7 @@
 .DS_Store
 
 # Copyrighted source material must never be committed to this public repo.
-# sources/ holds the local PMT, SME and Cognito note sets the materials are built from.
+# sources/ holds the local note sets the materials are built from, and the past papers
+# and mark schemes they are checked against.
 /sources/
 *.pdf

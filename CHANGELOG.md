@@ -3,6 +3,50 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-05: mark-scheme pass, the remaining topics
+
+The same comparison was carried out for Physics topics 1, 4 and 5 (AQA AS papers 2016
+to 2025) and for all eight Computer Science topics (OCR A-Level papers 2021 to 2025 and
+AS papers 2022 to 2025), with the examiner reports for each. Most cards already said
+what the mark schemes credit, so the changes are small. Physics now has 1316 cards and
+Computer Science has 1951.
+
+**Facts corrected**
+
+- Physics 5.1: the resistance at a point on an I-V graph is V/I at that point. The old
+  card gave 1/gradient, which the examiner reports name as a misconception for curves.
+- Computer Science 1.3: magnetic storage represents bits by the orientation of
+  magnetised regions. The old wording said polarised and unpolarised regions.
+- Computer Science 4.2: a record is a data structure that groups fields of different
+  data types under one identifier. The old card called it a row in a file, and the
+  examiner reports say database-row answers lose the mark in programming questions.
+
+**Reworded to match credited answers**
+
+- Physics: why a filament lamp's resistance rises, and how the diameter of a wire is
+  measured (readings at different points and orientations, anomalies rejected, mean
+  calculated).
+- Computer Science: the accumulator, why more RAM helps, SSD advantages, alpha testing,
+  concurrent processing (no longer limited to one processor), and deleting a leaf from
+  a binary search tree.
+- Two fill-in-the-blank cards (1.3 and 6.1) rewritten as questions.
+
+**Added**
+
+- 13 Physics cards. Examples: the two conditions for equilibrium, thrust and drag
+  explained with Newton's laws, thermistor self-heating, cells in parallel, and the
+  micrometer zero error.
+- 26 Computer Science cards. Examples: what the BIOS does at start-up, why compiled
+  code protects intellectual property, spiral against waterfall, assembly against
+  high-level languages, primary and foreign key uniqueness, layering as abstraction,
+  one representation of zero in two's complement, arrays against lists, a RIPA power,
+  the benefit of a global variable, and how a graph differs from a tree.
+
+**Tools**
+
+- `scripts/paper_digest.py` now takes the subject as its first argument and covers
+  the Computer Science papers in `sources/computer-science/papers`.
+
 ## 2026-10-05: mark-scheme pass, Physics topics 2 and 3
 
 The definition and explanation cards in Particles & Radiation and Waves were compared

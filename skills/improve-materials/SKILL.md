@@ -105,19 +105,24 @@ sources/physics/papers/as/combined/          # AQA AS papers 2016 to 2025, quest
 sources/physics/papers/as/cleaned/           # the examiner report for each paper
 sources/physics/papers/as/raw/               # the separate papers the two folders above were built from
 sources/physics/papers/topic-questions/      # topic-sorted questions and mark schemes
+sources/computer-science/papers/alevel/combined/   # OCR H446 papers 2021 to 2025, question and mark scheme together
+sources/computer-science/papers/as/combined/       # OCR H046 papers 2022 to 2025
+sources/computer-science/papers/<level>/clean/     # the examiner report for each paper
+sources/computer-science/papers/<level>/raw/       # the separate papers the folders above were built from
 ```
 
-1. **Collect the topic's questions.** For Physics, print every part question on the topic with its mark scheme and examiner comment:
+1. **Collect the topic's questions.** Print every question on the topic with its mark scheme and examiner comment:
    ```bash
-   python3 scripts/paper_digest.py "polaris|stationary wave|coheren" > /tmp/waves.txt
+   python3 scripts/paper_digest.py physics "polaris|stationary wave|coheren" > /tmp/waves.txt
+   python3 scripts/paper_digest.py computer-science "normal form|foreign key" --paper 1 > /tmp/databases.txt
    ```
-   Use a pattern of the topic's key terms. For more questions, `scripts/pull_mark_schemes.py waves "3. Waves"` downloads topic-sorted papers (sets M, N and P are AQA; sets A to D include other boards).
+   Use a pattern of the topic's key terms. In Computer Science, Paper 1 covers topics 1 to 5 and Paper 2 covers topics 6 to 8, and data structures (4.2) come up in both. Add `--calculations` to include questions whose mark scheme is mostly working. For more Physics questions, `scripts/pull_mark_schemes.py waves "3. Waves"` downloads topic-sorted papers (sets M, N and P are AQA; sets A to D include other boards).
 2. **Read them next to the decks.** Definitions and "explain" answers matter most, because marks depend on their wording. Calculations rarely need changing.
 3. **Change a card** when its wording would not earn the mark, when the mark scheme or examiner report rejects it (look for "do not allow", "reject", "insufficient" and "common error"), or when it is wrong.
 4. **Add a card** when a mark scheme point comes up that no card covers and the specification section includes it.
 5. **Leave a card alone** when it already says what the mark scheme credits in other words.
 
-Status: Physics topics 2 and 3 have had this pass. Physics topics 1, 4 and 5 and all of Computer Science have not.
+Status: every topic in both subjects had this pass on 5 October 2026. Run it again for a topic when new papers are added to `sources/`, or when a deck is rewritten.
 
 ## Note rules
 

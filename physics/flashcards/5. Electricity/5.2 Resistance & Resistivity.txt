@@ -16,6 +16,7 @@ What is a thermistor? | A semiconductor component whose resistance changes with 
 A semiconductor component whose resistance changes with temperature — what component is this? | Thermistor
 What does NTC mean for a thermistor? | Negative temperature coefficient: as temperature increases, resistance decreases, and vice versa
 Why does the resistance of an NTC thermistor fall as it gets hotter? | More charge carriers are released in the semiconductor, which increases the current for a given p.d.
+Why does the resistance of a thermistor fall as the current through it increases? | The current heats the thermistor, and at a higher temperature more charge carriers are released
 Describe the shape of the resistance-temperature graph for an NTC thermistor | A steep curve starting high at low temperature that decreases and levels off at high temperature
 Give three applications of thermistors | Ovens, fire alarms, digital thermometers
 How does the resistance-temperature relationship differ between a metal and an NTC thermistor? | In a metal, resistance increases with temperature due to increased ion vibrations. In an NTC thermistor, resistance decreases with temperature

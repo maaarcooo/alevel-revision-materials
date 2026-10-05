@@ -39,7 +39,7 @@ What does constant temperature imply for a conductor obeying Ohm's law? | Consta
 What is an ohmic conductor? | A conductor for which the current is directly proportional to the p.d. across it, so its resistance is constant, provided its temperature stays constant
 In a circuit for plotting I-V characteristics, what component is adjusted to vary the current and p.d.? | A variable resistor connected in series with the test component
 How can you tell from an I-V graph that a component obeys Ohm's law? | The graph is a straight line through the origin
-How is resistance calculated from an I-V graph? | $R = \frac{1}{\text{gradient}}$, since the gradient of the I-V graph equals $\frac{1}{R}$
+How is the resistance of a component found from its I-V graph? | Read $V$ and $I$ at the point and calculate $R = \frac{V}{I}$. It equals $\frac{1}{\text{gradient}}$ only for a straight line through the origin
 For an ohmic conductor, how is resistance found from a graph with V on the y-axis and I on the x-axis? | It equals the gradient
 Describe the I-V characteristic of a semiconductor diode | In reverse bias almost no current flows. In forward bias almost no current flows until the threshold voltage is reached, then the current rises steeply
 What is forward bias in a diode? | When current flows in the direction of the arrowhead symbol, and the diode conducts
@@ -47,5 +47,5 @@ What is the threshold voltage of a diode? | The smallest forward p.d. at which t
 What is reverse bias in a diode? | When the diode is connected the opposite way round, so its resistance is extremely high and only a tiny current flows
 What is the purpose of a diode in a circuit? | To allow current to flow in only one direction
 Describe the I-V characteristic of a filament lamp | An S-shaped curve: current increases at a proportionally slower rate than the potential difference
-Explain why the resistance of a filament lamp increases as current increases | As current increases, the filament temperature rises; since the filament is a metal, higher temperature causes increased resistance
+Explain why the resistance of a filament lamp increases as current increases | The current heats the filament, so its lattice ions vibrate more. Conduction electrons collide with the ions more often, so the resistance increases
 For what range of voltages does a filament lamp obey Ohm's law? | For small voltages, where the I-V graph is approximately a straight line

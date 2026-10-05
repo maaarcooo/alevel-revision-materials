@@ -11,6 +11,7 @@ How is the e.m.f. of the supply shared in a series circuit? | It is divided amon
 What is the p.d. across each branch in a parallel circuit? | The same across every branch
 What is the total voltage of cells connected in series? | The sum of the potential differences across each cell
 What is the total voltage of identical cells connected in parallel? | The same as the voltage of one cell
+What is gained by connecting identical cells in parallel? | The p.d. stays the same, but each cell supplies less current and more energy is stored in total, so the cells last longer
 What is conservation of charge in a circuit? | Charge is never used up or lost in a circuit
 State Kirchhoff's First Law | The sum of the currents entering a junction equals the sum of the currents leaving the junction
 The sum of the currents entering a junction equals the sum of the currents leaving the junction — what law is this? | Kirchhoff's First Law
@@ -34,6 +35,7 @@ For a given resistor, if the current or voltage across it doubles, what happens 
 What is a potential divider? | A circuit that produces an output voltage as a fraction of its input voltage, using two or more resistors in series
 A circuit that produces an output voltage as a fraction of its input voltage — what is this called? | A potential divider
 State three purposes of a potential divider | To provide a variable p.d., to select a specific p.d., and to split the p.d. of a power source between components
+Why can a potential divider control a lamp over a wider range than a variable resistor in series with it? | The potential divider can give any p.d. from zero up to the supply p.d. A series variable resistor can never reduce the p.d. across the lamp to zero
 What is the potential divider equation? | $V_{out} = \frac{R_2}{R_1 + R_2} \times V_{in}$, where $R_2$ is the resistance of the resistor across which $V_{out}$ is measured
 In the potential divider equation, which resistance must be in the numerator? | The resistance of the component across which the output voltage is measured
 A 12 V supply is connected across a $4\;\mathrm{k\Omega}$ resistor in series with a $2\;\mathrm{k\Omega}$ resistor. What is the p.d. across the $2\;\mathrm{k\Omega}$ resistor? | $V_{out} = \frac{2}{4 + 2} \times 12 = 4$ V

@@ -13,6 +13,7 @@ What are lost volts? | The work done per unit charge to overcome the internal re
 The work done per unit charge to overcome the internal resistance inside the battery — what quantity is this? | Lost volts
 How are e.m.f., terminal p.d. and lost volts related? | $\varepsilon = V + v$, so the terminal p.d. is $V = \varepsilon - Ir$
 Why does the terminal p.d. of a cell fall as the current drawn from it increases? | The lost volts, $Ir$, increase, leaving less of the e.m.f. across the external circuit
+How is the power supplied by a cell shared in a circuit with internal resistance? | $\varepsilon I = I^2R + I^2r$: the power supplied by the cell equals the power delivered to the load plus the power wasted in the internal resistance
 State the e.m.f. equation for a circuit with internal resistance | $\varepsilon = IR + Ir = I(R + r)$, where $R$ = load resistance, $r$ = internal resistance
 How is a cell with internal resistance modelled in a circuit? | As a source of e.m.f. in series with an internal resistance $r$
 What does "negligible internal resistance" imply in an exam question? | The e.m.f. equals the terminal p.d., so no internal resistance calculations are needed
@@ -27,6 +28,7 @@ Describe the procedure for collecting data in the e.m.f. experiment | Set the va
 What graph is plotted in the e.m.f. experiment, and what do the gradient and y-intercept represent? | $V$ against $I$. Gradient $= -r$ (negative internal resistance), y-intercept $= \varepsilon$ (e.m.f.)
 Which equation gives the straight-line graph in the e.m.f. experiment? | $V = -rI + \varepsilon$, which has the form $y = mx + c$
 Why is the switch opened between readings in the e.m.f. experiment? | To prevent the cell from heating up, which would change the internal resistance and introduce systematic error
+Why might a fixed resistor be put in series with the variable resistor in the e.m.f. experiment? | It limits the current when the variable resistor is set to zero, so the cell does not overheat or run down quickly
 Why should fairly new cells be used in the e.m.f. experiment? | Run-down batteries have e.m.f. and internal resistance that vary during the experiment, introducing random error
 Why are readings allowed to stabilise before recording in the e.m.f. experiment? | To reduce random error from fluctuating voltmeter and ammeter readings
 How are random errors minimised in the e.m.f. experiment? | Take at least 3 repeat readings for each resistance value and calculate a mean

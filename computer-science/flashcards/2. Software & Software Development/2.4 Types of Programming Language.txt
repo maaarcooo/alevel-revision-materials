@@ -1,22 +1,22 @@
 What is a programming paradigm? | An approach to using a programming language to solve a problem, which sets how programs are structured and developed
-An approach to using a programming language to solve a problem, which sets how programs are structured — what term is this? | Programming paradigm
+An approach to using a programming language to solve a problem, which sets how programs are structured - what term is this? | Programming paradigm
 Why are different programming paradigms needed? | Different types of problem suit different approaches, so the paradigm is chosen to fit the problem being solved
 What two broad categories are programming paradigms split into? | Imperative and declarative
 Which two paradigms fall under the imperative category? | Procedural and object-oriented
 Which two paradigms fall under the declarative category? | Functional and logic
 How does imperative programming specify computation? | The code clearly specifies the actions to be performed, step by step
 How does declarative programming specify computation? | The code states the desired result, and the language determines how best to obtain it
-A paradigm in which code states the desired result rather than the steps needed to reach it — what is this? | Declarative programming
+A paradigm in which code states the desired result rather than the steps needed to reach it - what is this? | Declarative programming
 What type of applications is declarative programming commonly used for? | Expert systems and artificial intelligence
 What is functional programming? | A declarative paradigm in which programs are built from function calls, often combined within each other, closely linked to mathematics
 Name a functional programming language | Haskell
 What is logic programming? | A declarative paradigm in which code defines a set of facts and rules, and queries are used to find answers
-A paradigm in which code defines facts and rules, and queries are used to find answers — what is this? | Logic programming
+A paradigm in which code defines facts and rules, and queries are used to find answers - what is this? | Logic programming
 Name a logic programming language | Prolog
 What kind of problem suits the object-oriented paradigm? | One with many reusable components that share similar characteristics
 What is meant by a multi-paradigm language? | A language that supports more than one paradigm, e.g. Python supports both procedural and object-oriented programming
 What is procedural programming? | A type of imperative programming in which a sequence of instructions, which may be grouped into procedures, is carried out step by step
-An imperative paradigm in which instructions, often grouped into procedures, are carried out step by step — what is this? | Procedural programming
+An imperative paradigm in which instructions, often grouped into procedures, are carried out step by step - what is this? | Procedural programming
 Why is procedural programming so widely used? | It can be applied to a wide range of problems and is relatively easy to write and interpret
 What is structured programming? | A subsection of procedural programming in which control flow is given by sequence, selection, iteration and recursion
 What data types and structures do procedural languages provide? | Built-in data types such as integers and strings, and data structures such as arrays and dictionaries
@@ -25,7 +25,7 @@ How does procedural programming promote reuse and clarity? | Code is grouped int
 What types of problems is procedural programming best suited to? | Problems that can easily be expressed as a series of step-by-step instructions
 Why is procedural programming a poor fit for very large systems? | Programs become unwieldy and hard to manage and scale as they grow
 What is assembly language? | A low-level language, one level above machine code, that uses mnemonics to represent machine code instructions
-A low-level language that uses mnemonics to represent machine code instructions — what is this called? | Assembly language
+A low-level language that uses mnemonics to represent machine code instructions - what is this called? | Assembly language
 What is a mnemonic in assembly language? | An abbreviation that stands for a machine code instruction, e.g. ADD, SUB, LDA
 How do assembly language and a high-level language differ in the machine code each line produces? | One assembly instruction translates to one machine code instruction, while one high-level statement may translate to several
 How do assembly language and a high-level language differ in portability? | Assembly language is machine dependent (specific to one type of processor), while a high-level language is machine independent and can be translated for different processors
@@ -52,15 +52,15 @@ How are two values tested for equality in LMC? | Subtract one from the other, th
 How is a loop written in LMC? | A label marks the start of the loop, and a branch instruction at the end jumps back to it
 What addressing mode does the LMC use? | Direct addressing
 What is an addressing mode? | The way the operand of an instruction is interpreted in order to find the data to be used
-The way the operand of an instruction is to be interpreted — what term is this? | Addressing mode
+The way the operand of an instruction is to be interpreted - what term is this? | Addressing mode
 Where is the addressing mode specified within a machine code instruction? | In the opcode
 Why are addressing modes needed? | The size of the operand limits how many addresses it can hold directly, so other modes allow far more memory locations to be reached
 What is immediate addressing? | The operand is the actual value to be used by the instruction
-The operand is the actual value to be used by the instruction — which addressing mode is this? | Immediate addressing
+The operand is the actual value to be used by the instruction - which addressing mode is this? | Immediate addressing
 What is direct addressing? | The operand is the memory address that holds the value to be used
-The operand is the memory address that holds the value to be used — which addressing mode is this? | Direct addressing
+The operand is the memory address that holds the value to be used - which addressing mode is this? | Direct addressing
 What is indirect addressing? | The operand is the address of a location that holds another address, which is where the data is stored
-The operand is the address of a location that holds the address of the data — which addressing mode is this? | Indirect addressing
+The operand is the address of a location that holds the address of the data - which addressing mode is this? | Indirect addressing
 What is indexed addressing? | The address of the data is found by adding the operand to the value held in the index register
-The address of the data is found by adding the operand to the value in the index register — which addressing mode is this? | Indexed addressing
+The address of the data is found by adding the operand to the value in the index register - which addressing mode is this? | Indexed addressing
 Why is indexed addressing useful for arrays? | The index register supplies an offset from a base address, so items stored contiguously in memory can be reached in turn

@@ -1,7 +1,7 @@
 What is application software? | Software designed to perform a specific task for the end-user. It requires systems software in order to run
-Software designed to perform a specific task for the end-user, requiring systems software to run — what type of software is this? | Application software
+Software designed to perform a specific task for the end-user, requiring systems software to run - what type of software is this? | Application software
 What is systems software? | Low-level software responsible for running the computer system smoothly, interacting with hardware and providing a platform for applications software to run
-Low-level software that manages the computer system and provides a platform for applications software — what type of software is this? | Systems software
+Low-level software that manages the computer system and provides a platform for applications software - what type of software is this? | Systems software
 Give three examples of systems software | The operating system, utility programs and device drivers
 How does application software differ from systems software? | Application software performs specific tasks for end-users (e.g. word processing). Systems software manages the computer itself and provides a platform for applications to run
 What is the purpose of a word processor? | Creating, editing, formatting, and printing text documents
@@ -10,7 +10,7 @@ What is the purpose of spreadsheet software? | Organising, calculating, and anal
 What is the purpose of an Integrated Development Environment (IDE)? | Developing, testing, and debugging software code
 What is the purpose of virtualisation software? | Creating and running virtual machines on a single physical machine
 What is utility software? | Software designed to analyse, configure, optimise, or maintain a computer, supporting the operating system
-Software designed to analyse, configure, optimise, or maintain a computer — what type of software is this? | Utility software
+Software designed to analyse, configure, optimise, or maintain a computer - what type of software is this? | Utility software
 What does a disk defragmentation utility do? | Rearranges the fragmented files on a hard disk into contiguous blocks so that they can be read faster
 Which type of storage device generally does not require defragmentation? | Solid-state drives (SSDs)
 What does a backup utility do? | Automatically makes routine copies of the files the user selects, so they can be recovered after a power failure, attack or accident
@@ -21,17 +21,17 @@ What does a file encryption utility do? | Scrambles file contents so they can on
 What does a file management utility do? | Lets the user organise, search, rename, move and delete files and folders
 What does a system cleanup utility do? | Frees up space by removing temporary files, cached data and other unnecessary files
 What is open source software? | Software where the source code is freely available and can be viewed, modified, and redistributed by anyone without requiring a license
-Software where the source code is freely available and can be viewed, modified, and redistributed by anyone — what is this called? | Open source software
+Software where the source code is freely available and can be viewed, modified, and redistributed by anyone - what is this called? | Open source software
 What is closed source software? | Software where the source code is proprietary and hidden. Users require a license and cannot access or modify the code
-Software where the source code is proprietary and users require a license to use it — what is this called? | Closed source software
+Software where the source code is proprietary and users require a license to use it - what is this called? | Closed source software
 Give an example of open source software and of closed source software | Linux is open source. Microsoft Windows is closed source
-Give two advantages of open source software to the user | Often free to use; can be customised and modified to suit specific needs
-Give two disadvantages of open source software to the user | Online support may be insufficient or incorrect with no official user manuals; may have lower security as not developed in a controlled environment
-Give two advantages of closed source software to the user | Professional expert support and user manuals; thorough, regular, well-tested updates
-Give two disadvantages of closed source software to the user | Can be costly (license fees); users cannot modify or improve the software themselves
-Give two advantages of open source software to the creator | Community collaboration and faster innovation; software can be modified and improved by anyone
+Give two advantages of open source software to the user | Often free to use. Can be customised and modified to suit specific needs
+Give two disadvantages of open source software to the user | Online support may be insufficient or incorrect with no official user manuals. May have lower security as not developed in a controlled environment
+Give two advantages of closed source software to the user | Professional expert support and user manuals. Thorough, regular, well-tested updates
+Give two disadvantages of closed source software to the user | Can be costly (license fees). Users cannot modify or improve the software themselves
+Give two advantages of open source software to the creator | Community collaboration and faster innovation. Software can be modified and improved by anyone
 Give one disadvantage of open source software to the creator | Less control over the product, burdened with requests from users
-Give two advantages of closed source software to the creator | Greater control with revenue through sales; intellectual property (IP) protection
+Give two advantages of closed source software to the creator | Greater control with revenue through sales. Intellectual property (IP) protection
 Give one disadvantage of closed source software to the creator | Slower innovation with full responsibility for updates and fixing flaws
 What factors should a user consider when choosing between open and closed source software? | Costs (implementation, maintenance, training, licensing) and functionality (features available, ease of use, suitability for the task)
 What is a translator in computing? | A program that converts source code from a high-level or assembly language into low-level object code (machine code) so it can be executed
@@ -60,17 +60,17 @@ What is the symbol table used for in compilation? | It stores information about 
 What happens during syntax analysis? | Tokens are checked against the grammar and rules of the programming language. Syntax errors are flagged, and an abstract syntax tree (AST) is produced
 What is parsing? | The process of checking that each line of code is well formed according to the rules of the language
 What is an abstract syntax tree (AST)? | A tree-based representation of the structure of the source code, produced during syntax analysis and used in code generation
-Give two examples of syntax errors detected during syntax analysis | Mismatched or incomplete brackets; missing semicolons
-What is semantic analysis in the context of compilation? | Detection of logic errors such as undeclared identifiers or multiple declarations of the same variable, carried out during the syntax analysis stage
+Give two examples of syntax errors detected during syntax analysis | Mismatched or incomplete brackets. Missing semicolons
+What is semantic analysis in the context of compilation? | Detection of errors in meaning, such as undeclared identifiers or multiple declarations of the same variable, carried out during the syntax analysis stage
 How does a semantic error differ from a syntax error? | A syntax error breaks the grammar of the language, such as a missing bracket. A semantic error is grammatically valid but wrong in meaning, such as using an undeclared identifier
 What happens during code generation? | The abstract syntax tree is traversed to produce object code (machine code) that can be executed by the computer
 What happens during the optimisation stage of compilation? | Redundant code is removed and repeated sections are replaced with more efficient code that produces the same result
 What risk is associated with excessive code optimisation? | It may alter the way the program behaves, changing its intended functionality
 What is the aim of optimisation, and what does it cost? | The aim is code that executes faster and uses less memory. The cost is a significantly longer compilation
 What is a library in programming? | A collection of pre-written, pre-compiled code (functions, procedures, classes) that can be incorporated into programs to perform common tasks without writing from scratch
-A collection of pre-written, pre-compiled code that can be incorporated into programs — what is this? | A library (or code library)
-Give two advantages of using libraries in programming | They save development time with ready-to-use, tested code; they can be reused across multiple programs
-Give two disadvantages of using libraries in programming | Dependency issues if the library becomes unsupported; potential compatibility issues between library versions and the system
+A collection of pre-written, pre-compiled code that can be incorporated into programs - what is this? | A library (or code library)
+Give two advantages of using libraries in programming | They save development time with ready-to-use, tested code. They can be reused across multiple programs
+Give two disadvantages of using libraries in programming | Dependency issues if the library becomes unsupported. Potential compatibility issues between library versions and the system
 What is a linker? | Software that combines separately compiled object files and libraries into a single executable file, resolving references between them
 How does static linking differ from dynamic linking? | Static linking copies the library code into the program file, which makes the file larger. Dynamic linking stores only the addresses of the libraries, so the file stays small
 In static linking, how does updating the external library affect the program? | It does not affect the program, since the library code was copied into the executable at compile time

@@ -13,7 +13,7 @@ What is white box testing? | Testing by developers based on the program's intern
 What is black box testing? | Testing without knowledge of the internal structure of the program, by tracing inputs through to outputs. It can be done in-house or by end-users
 How does white box testing differ from black box testing? | White box testing uses the internal structure of the program to test every route through it. Black box testing looks only at inputs and outputs
 What is the waterfall model? | A sequential SDLC where each stage must be completed before the next begins
-A sequential SDLC where each stage must be completed before the next begins — what methodology is this? | Waterfall model (waterfall lifecycle)
+A sequential SDLC where each stage must be completed before the next begins - what methodology is this? | Waterfall model (waterfall lifecycle)
 What is a feasibility study? | An evaluation in the analysis stage of whether a project is viable, using the TELOS criteria: technical, economic, legal, operational and scheduling
 What does the 'T' in TELOS stand for? | Technical: is the project possible with available technology?
 What does the 'E' in TELOS stand for? | Economic: can the project be financed in the short and long term?
@@ -27,8 +27,8 @@ Why can the waterfall model lead to a long development cycle? | Its sequential n
 Why may the waterfall model suit a large development team? | Responsibilities are clearly defined at each stage
 What type of project is the waterfall model most suitable for? | Static, low-risk projects with well-defined, stable requirements that need little user input
 What are agile methodologies? | A collection of iterative approaches that improve development flexibility, adapt to changing user requirements, and prioritise user satisfaction over documentation
-A collection of iterative development methodologies prioritising flexibility, user satisfaction, and adapting to changing requirements — what is this approach? | Agile methodologies
-How is development organised in agile compared to waterfall? | In agile, the problem is broken into sections developed in parallel; different sections can be at different stages simultaneously
+A collection of iterative development methodologies prioritising flexibility, user satisfaction, and adapting to changing requirements - what is this approach? | Agile methodologies
+How is development organised in agile compared to waterfall? | In agile, the problem is broken into sections developed in parallel. Different sections can be at different stages simultaneously
 What is the role of prototypes in agile development? | A working prototype is delivered early and improved iteratively, with new prototypes delivered regularly throughout development
 Give two merits of agile methodologies | They are flexible to changing requirements, and regular user input keeps the product close to what users want
 Give two drawbacks of agile methodologies | Documentation is poor, and consistent interaction between the user and the programmers is required
@@ -48,7 +48,7 @@ Why is documentation often poor in extreme programming? | The iterative nature o
 What is scope creep? | Uncontrolled changes or continuous additions to requirements, a risk in flexible methodologies like agile and RAD
 What type of project is extreme programming most suitable for? | Small to medium projects with unclear or changing requirements, requiring excellent usability and constant user involvement
 What is the spiral model? | An iterative SDLC combining elements of waterfall and agile, with a dedicated risk analysis phase in every iteration
-An iterative SDLC with a dedicated risk analysis phase in every iteration — what model is this? | Spiral model
+An iterative SDLC with a dedicated risk analysis phase in every iteration - what model is this? | Spiral model
 What are the four stages in each iteration of the spiral model? | Planning (objectives and constraints), risk analysis, engineering (design, coding, testing), and evaluation with stakeholder feedback
 What happens if a project is found to be too risky during the spiral model? | The project can be terminated
 Which parts of a project does the spiral model deal with first? | The riskiest parts
@@ -58,18 +58,18 @@ Give two drawbacks of the spiral model | It is expensive to hire risk assessors,
 Why is the spiral model unsuitable for small projects? | The extensive planning and risk management overhead is overkill for simple or small-scale work
 What type of project is the spiral model most suitable for? | Large, complex, risk-intensive projects with a high budget where requirements may change
 What is rapid application development (RAD)? | An iterative methodology using partially functioning prototypes that are continually improved through user feedback until they match requirements
-An iterative methodology using partially functioning prototypes improved through continuous user feedback — what methodology is this? | Rapid application development (RAD)
+An iterative methodology using partially functioning prototypes improved through continuous user feedback - what methodology is this? | Rapid application development (RAD)
 How are initial requirements gathered in RAD? | Through focus groups, producing an incomplete first version of the solution for users to trial
 How does a prototype become the final product in RAD? | Users trial each prototype and their feedback produces an improved one, until a prototype matches their requirements
 Give two merits of RAD | It caters to changing user requirements, and the focus on core features reduces development time
 Give two drawbacks of RAD | Documentation is of poorer quality, and the fast pace may reduce the quality of the code
 Why might code produced using RAD be inefficient? | Requirements change during the project, and the additions and changes made to the code to keep up may be inefficient
 What type of project is RAD most suitable for? | Small to medium, low-budget projects with short timeframes where requirements are unclear at the start
-How does user involvement differ between waterfall and agile methodologies? | Waterfall involves users only at analysis and evaluation; agile involves users continuously throughout development
+How does user involvement differ between waterfall and agile methodologies? | Waterfall involves users only at analysis and evaluation. Agile involves users continuously throughout development
 What is an algorithm? | A set of instructions used to solve a problem
-A set of instructions used to solve a problem — what is this called? | An algorithm
+A set of instructions used to solve a problem - what is this called? | An algorithm
 What must be true about the inputs of a good algorithm? | They must be clearly defined, specifying what is valid and what is invalid
 What must a good algorithm always produce for any defined input? | A valid output
 How must a good algorithm handle invalid inputs? | It must be able to deal with them without crashing or producing undefined behaviour
 What condition must every algorithm always reach? | A stopping condition (it must terminate)
-Why should algorithms be well-documented and well-commented? | Documentation provides reference for understanding; comments enable modifications to be made easily
+Why should algorithms be well-documented and well-commented? | Documentation provides reference for understanding. Comments enable modifications to be made easily

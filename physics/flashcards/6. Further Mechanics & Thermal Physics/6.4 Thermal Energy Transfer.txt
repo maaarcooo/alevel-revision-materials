@@ -1,0 +1,59 @@
+Define internal energy | The sum of the randomly distributed kinetic and potential energies of the particles in a body
+The sum of the randomly distributed kinetic and potential energies of the particles in a body - what quantity is this? | Internal energy
+What are the symbol and unit of internal energy? | $U$, measured in joules (J)
+What property of molecules gives them kinetic energy? | Their speed
+What gives molecules their potential energy? | The intermolecular forces between them, which vary with particle separation
+What word must a definition of internal energy include to avoid losing a mark? | "Random" (random motion of the particles or random distribution of the energies)
+Why does an ideal gas have no potential energy? | There are no intermolecular forces between its particles
+How does raising the temperature of a substance affect its internal energy? | Internal energy increases as the particles' kinetic energy increases
+For the same substance, which phase has the highest internal energy? | Gas (solid has the lowest)
+State the first law of thermodynamics | The internal energy of a system is increased when energy is transferred to it by heating or when work is done on it
+Which principle is the first law of thermodynamics based on? | Conservation of energy
+What are the two ways the internal energy of a system can decrease? | Thermal energy is transferred away from it, or the system does work on its surroundings
+When is mechanical work done? | When a distance is moved against a force
+When a gas expands, what does work on what? | The gas does work on the surroundings
+When a gas is compressed, what does work on what? | The surroundings do work on the gas
+How does the internal energy of an insulated gas change when it is compressed? | It increases, and the particles' average kinetic energy rises
+How does the internal energy of an insulated gas change when it expands? | It decreases, and the particles' average kinetic energy falls
+Define specific heat capacity | The thermal energy required to raise the temperature of 1 kg of a substance by 1 °C (or 1 K) without a change of state
+The thermal energy required to raise the temperature of 1 kg of a substance by 1 °C (or 1 K) without a change of state - what quantity is this? | Specific heat capacity
+What are the symbol and unit of specific heat capacity? | $c$, measured in $\text{J kg}^{-1}\,\text{K}^{-1}$ (or $\text{J kg}^{-1}\,{}^{\circ}\text{C}^{-1}$)
+What is the equation for the thermal energy needed to change the temperature of a mass $m$? | $\Delta Q = mc\Delta\theta$
+Calculate the energy needed to heat 2.0 kg of water by 10 K ($c = 4200\ \text{J kg}^{-1}\,\text{K}^{-1}$) | $\Delta Q = 2.0 \times 4200 \times 10 = 84\,000\ \text{J}$
+Why does $\Delta\theta$ not need converting between °C and K? | A temperature difference has the same value in both units
+How quickly does a substance with a low specific heat capacity heat up and cool down? | Quickly, compared with a substance of high specific heat capacity
+What apparatus can find the specific heat capacity of a fluid flowing past a heater? | A continuous-flow calorimeter
+In the continuous-flow method, what is kept the same in both runs? | The temperature rise of the fluid, $\Delta\theta$
+In the continuous-flow method, which two quantities are changed between runs? | The flow rate and the potential difference across the heater
+In the continuous-flow method, what is assumed about energy lost to the surroundings? | It is the same in both runs
+In the continuous-flow method, how is the temperature rise found? | $\Delta\theta = T_2 - T_1$, from electric thermometers at the outlet and inlet
+In the continuous-flow method, how is the mass of fluid heated found? | Flow rate (mass per second) multiplied by the time $t$
+What is the energy equation for a single run of the continuous-flow method? | $IVt = mc\Delta\theta + E_{\text{lost}}$
+What equation gives $c$ from two runs of the continuous-flow method? | $c = \frac{Q_2 - Q_1}{(m_2 - m_1)\Delta\theta}$, where $Q = IVt$
+Why are the two continuous-flow equations subtracted? | To cancel $E_{\text{lost}}$
+What happens to the temperature of a substance while it changes state? | It stays constant
+On a graph of temperature against heat supplied, what do the two horizontal sections show? | Changes of state: melting at the lower one, boiling at the higher one
+Define specific latent heat | The thermal energy required to change the state of 1 kg of a substance without any change of temperature
+The thermal energy required to change the state of 1 kg of a substance without any change of temperature - what quantity is this? | Specific latent heat
+Define specific latent heat of fusion | The thermal energy required to convert 1 kg of solid to liquid with no change in temperature
+The thermal energy required to convert 1 kg of solid to liquid with no change in temperature - what quantity is this? | Specific latent heat of fusion
+Define specific latent heat of vaporisation | The thermal energy required to convert 1 kg of liquid to gas with no change in temperature
+The thermal energy required to convert 1 kg of liquid to gas with no change in temperature - what quantity is this? | Specific latent heat of vaporisation
+Which two changes of state does the latent heat of fusion apply to? | Melting and freezing
+Which two changes of state does the latent heat of vaporisation apply to? | Boiling (vaporisation) and condensing
+What is the change of state directly from solid to gas called? | Sublimation
+How does the energy released when a mass of substance freezes compare with the energy absorbed when the same mass melts? | They are equal
+What is the equation for the energy needed to change the state of a mass $m$? | $Q = mL$
+What energy is needed to melt 0.50 kg of ice at 0 °C ($L = 330\ \text{kJ kg}^{-1}$)? | $Q = mL = 0.50 \times 330\,000 = 165\,000\ \text{J}$
+What is the unit of specific latent heat? | $\text{J kg}^{-1}$
+Roughly how many times more energy does vaporising 1 kg of water need than melting 1 kg of ice? | About seven times
+Explain why the latent heat of vaporisation of water is much greater than its latent heat of fusion | Melting only increases molecular separation enough for molecules to flow past each other. Boiling must separate them completely against intermolecular attraction and do work against atmospheric pressure
+During a change of state, which type of molecular energy changes? | Potential energy (kinetic energy stays the same)
+Why does a constant temperature during a change of state mean molecular kinetic energy is unchanged? | Mean molecular kinetic energy is proportional to absolute temperature (in kelvin)
+What does the energy absorbed during melting or boiling do to the molecules? | Moves them further apart by overcoming the intermolecular forces of attraction
+What happens to the molecules when energy is released during freezing or condensation? | They move closer together and the intermolecular attraction between them becomes stronger
+What is thermal equilibrium? | The state in which all materials in a system have reached the same temperature
+The state in which all materials in a system have reached the same temperature - what term is this? | Thermal equilibrium
+What equation relates the energy changes when a warmer and a colder material are mixed with no energy transferred to the surroundings? | $\Delta Q_{\text{colder}} = -\Delta Q_{\text{warmer}}$
+Why is there a negative sign in $\Delta Q_{\text{colder}} = -\Delta Q_{\text{warmer}}$? | Energy is transferred to the colder material and away from the warmer one
+Ice below 0 °C is added to a warm drink and melts. What three energy terms make up the energy it gains? | Heating the ice to 0 °C, melting it, then heating the resulting water to the final temperature

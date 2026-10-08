@@ -1,0 +1,86 @@
+What is absolute zero? | The lowest possible temperature, at which molecules have minimum kinetic energy
+The lowest possible temperature, at which molecules have minimum kinetic energy - what term is this? | Absolute zero
+What is absolute zero in kelvin and in degrees Celsius? | $0\ \text{K}$ and $-273.15\ ^\circ\text{C}$
+How much more energy can be removed from a system at 0 K? | None
+What is the equation to convert a Celsius temperature $\theta$ to a kelvin temperature $T$? | $T/\text{K} = \theta/^\circ\text{C} + 273.15$
+Convert 300 K to degrees Celsius | $\theta = 300 - 273.15 = 26.85\ ^\circ\text{C}$
+What temperature change in degrees Celsius is equal to a temperature change of 1 K? | $1\ ^\circ\text{C}$
+What rounded value of 0 °C in kelvin is accepted in exams? | $273\ \text{K}$
+What two quantities are assumed constant for all three ideal gas laws? | The mass and the number of molecules of the gas
+State Boyle's law | For a fixed mass of gas at constant temperature, pressure is inversely proportional to volume ($p \propto \frac{1}{V}$)
+How is Boyle's law written in terms of initial and final states? | $p_1V_1 = p_2V_2$
+A fixed mass of gas at constant temperature has a pressure of $1.0 \times 10^5\ \text{Pa}$ at a volume of $3.0 \times 10^{-3}\ \text{m}^3$. Find its pressure at $1.5 \times 10^{-3}\ \text{m}^3$ | $p_2 = \frac{p_1V_1}{V_2} = \frac{(1.0 \times 10^5)(3.0 \times 10^{-3})}{1.5 \times 10^{-3}} = 2.0 \times 10^5\ \text{Pa}$
+What shape is a graph of volume against pressure for a fixed mass of gas at constant temperature? | A curve showing inverse proportionality, approaching both axes
+How does a Boyle's law curve change if the constant temperature is higher? | Same shape, shifted further from the origin
+State Charles's law | For a fixed mass of gas at constant pressure, volume is directly proportional to absolute temperature ($V \propto T$)
+How is Charles's law written in terms of initial and final states? | $\frac{V_1}{T_1} = \frac{V_2}{T_2}$
+A fixed mass of gas at constant pressure has a volume of $2.0 \times 10^{-3}\ \text{m}^3$ at 300 K. Find its volume at 450 K | $V_2 = \frac{V_1T_2}{T_1} = \frac{(2.0 \times 10^{-3})(450)}{300} = 3.0 \times 10^{-3}\ \text{m}^3$
+State the pressure law | For a fixed mass of gas at constant volume, pressure is directly proportional to absolute temperature ($p \propto T$)
+How is the pressure law written in terms of initial and final states? | $\frac{p_1}{T_1} = \frac{p_2}{T_2}$
+What graph shape shows direct proportionality, as in Charles's law and the pressure law plotted against temperature in kelvin? | A straight line through the origin
+In what unit must temperature always be when using any ideal gas law? | Kelvin (K)
+On a graph of gas volume against temperature in °C at constant pressure, where does the extrapolated line meet the temperature axis? | At $-273\ ^\circ\text{C}$ (absolute zero)
+A tyre at constant volume has $p_1 = 5.10 \times 10^5\ \text{Pa}$ at 279 K. Find the pressure at 299 K | $p_2 = \frac{p_1 T_2}{T_1} = \frac{(5.10 \times 10^5)(299)}{279} = 5.47 \times 10^5\ \text{Pa}$
+What single relation combines the three gas laws for a fixed mass of ideal gas? | $pV \propto T$
+What molecular property is the temperature of a gas related to? | The average kinetic energy of its molecules
+Explain why the pressure of a gas rises when it is heated at constant volume | Molecules move faster, so they hit the walls more frequently and with a greater change in momentum, increasing the force per unit area
+Explain why the pressure of a gas rises when its volume is reduced at constant temperature | Molecules collide with each unit area of wall more frequently, increasing the force per unit area
+Explain why a gas expands when heated at constant pressure | Molecules move faster and collide harder and more often with the walls. The gas must expand so the force per unit area stays the same
+In an ideal gas, what is the volume of the molecules? | Negligible
+What type of collisions occur between ideal gas molecules? | Elastic collisions
+What forces act between the molecules of an ideal gas? | None, except during collisions
+What change of state can an ideal gas never undergo? | It cannot be liquefied
+Which three laws does an ideal gas obey? | Boyle's law, Charles's law and the pressure law
+Define an ideal gas | A gas that obeys the equation of state $pV = nRT$ at all pressures, volumes and temperatures
+A gas that obeys the equation of state $pV = nRT$ at all pressures, volumes and temperatures - what term is this? | An ideal gas
+What is the ideal gas equation in terms of number of moles? | $pV = nRT$
+Find the number of moles of ideal gas in $8.3 \times 10^{-3}\ \text{m}^3$ at $4.5 \times 10^7\ \text{Pa}$ and 288 K | $n = \frac{pV}{RT} = \frac{(4.5 \times 10^7)(8.3 \times 10^{-3})}{8.31 \times 288} = 160\ \text{mol}$
+What is the ideal gas equation in terms of number of molecules? | $pV = NkT$
+How do you convert a volume in $\text{cm}^3$ to $\text{m}^3$? | Multiply by $10^{-6}$
+What is the equation for the work done when a gas changes volume at constant pressure? | $W = p\Delta V$
+How does the work done differ between a gas expanding and a gas being compressed? | Expanding: work is done by the gas. Compressed: work is done on the gas
+A piston of cross-sectional area $A$ is pushed a distance $s$ by an expanding gas. What is the change in volume? | $\Delta V = As$
+A gas expands by $0.015\ \text{m}^3$ at a constant $1.0 \times 10^5\ \text{Pa}$. Find the work done | $W = p\Delta V = (1.0 \times 10^5)(0.015) = 1500\ \text{J}$
+What is the atomic mass unit (u)? | Approximately the mass of a proton or neutron, $1.66 \times 10^{-27}\ \text{kg}$
+Define the Avogadro constant $N_A$ | The number of atoms in 12 g of carbon-12, equal to $6.02 \times 10^{23}\ \text{mol}^{-1}$
+The number of atoms in 12 g of carbon-12 - what constant is this? | The Avogadro constant ($N_A$)
+What is the equation for the number of particles $N$ in $n$ moles? | $N = nN_A$
+Find the number of atoms in 0.25 mol of magnesium | $N = 0.25 \times 6.02 \times 10^{23} = 1.51 \times 10^{23}$
+What is the mass of one mole of an element? | Its relative atomic mass in grams
+What is molar mass? | The mass in grams of one mole of a substance, unit $\text{g mol}^{-1}$
+How is the molar mass of a compound found? | Add the relative atomic masses of its atoms (e.g. $\text{H}_2\text{O}$: $2 \times 1 + 16 = 18\ \text{g mol}^{-1}$)
+What is the equation for number of moles from mass? | $n = \frac{\text{mass}}{\text{molar mass}}$
+Find the number of moles in 6 g of magnesium-24 | $n = \frac{6}{24} = 0.25\ \text{mol}$
+What is the equation linking $k$, $R$ and $N_A$? | $k = \frac{R}{N_A}$
+What does the Boltzmann constant relate? | Microscopic properties of particles (e.g. molecular kinetic energy) to macroscopic properties (e.g. temperature)
+What is the aim of the Boyle's law required practical? | To investigate how the pressure of a fixed mass of air varies with its volume at constant temperature
+In the Boyle's law syringe practical, what are the independent and dependent variables? | Independent: mass hung from the plunger. Dependent: volume of air
+In the Boyle's law syringe practical, what are the control variables? | Temperature and the cross-sectional area of the syringe
+In the Boyle's law practical, how is the syringe's internal diameter measured? | With a vernier calliper, averaging at least three readings
+In the Boyle's law practical, why is the syringe nozzle sealed with rubber tubing and a pinch clip? | To stop air entering or escaping, so the mass of gas is fixed
+In the Boyle's law practical, why is the volume read a few seconds after adding masses? | So the gas returns to constant (room) temperature
+In the Boyle's law practical, why are masses added 200 g at a time? | So a significant change in volume is seen each time
+How is the cross-sectional area of the syringe calculated from its diameter $d$? | $A = \frac{\pi d^2}{4}$
+In the Boyle's law practical, how is the pressure exerted by the hanging masses calculated? | $p = \frac{F}{A} = \frac{mg}{A}$
+In the Boyle's law practical, how is the gas pressure found? | Atmospheric pressure minus the pressure exerted by the masses
+What value of atmospheric pressure is used in the Boyle's law practical? | $101\ \text{kPa}$
+In the Boyle's law practical, what graph is plotted? | $p$ against $\frac{1}{V}$, with a line of best fit
+In the Boyle's law practical, what shape of $p$ against $\frac{1}{V}$ graph confirms the law? | A straight line through the origin, showing $pV$ = constant
+In the Boyle's law practical, what does a $p$ against $\frac{1}{V}$ line not passing through the origin indicate? | A systematic error
+What is the main systematic error in the Boyle's law syringe practical and how is it reduced? | Friction in the syringe. Use a low-friction or lubricated syringe
+What safety precaution is needed in the Boyle's law syringe practical? | Use a counterweight or G-clamp so the stand cannot topple
+What is the aim of the Charles's law required practical? | To investigate how the volume of a gas varies with temperature at constant pressure
+In the Charles's law capillary tube practical, what are the independent and dependent variables? | Independent: temperature of the water. Dependent: height of the air column
+In the Charles's law capillary tube practical, why can the height of the air column be used in place of volume? | $V = \pi r^2 h$ with constant radius, so volume is proportional to height
+In the Charles's law practical, why is the capillary tube open at the top? | To keep the trapped gas at constant (atmospheric) pressure
+In the Charles's law practical, what is the purpose of the drop of concentrated sulfuric acid? | To trap the air column below it so no gas escapes
+In the Charles's law practical, why must the water level be above the sulfuric acid drop? | So all of the trapped gas is at the water's temperature
+In the Charles's law practical, over what range are readings taken? | From 95 °C downwards in 5 °C steps, at least eight readings
+In the Charles's law practical, what graph is plotted? | Height of the air column against temperature in °C, with a line of best fit
+In the Charles's law practical, how is absolute zero found from the graph? | Extrapolate the line to the temperature where the height is zero
+In the Charles's law practical, why must absolute zero be found by extrapolation rather than measurement? | The water bath cannot reach temperatures that low without freezing
+Using the line $h = mT + c$ from the Charles's law practical, what is the equation for absolute zero $T_0$? | $T_0 = T_1 - \frac{h_1}{m}$, where $(T_1, h_1)$ is any point on the line of best fit
+What is the equation for relative percentage error? | $\frac{\text{measured} - \text{accepted}}{\text{accepted}} \times 100\%$
+What is the main systematic error in the Charles's law practical and how is it avoided? | Misalignment of the capillary tube and ruler. Secure the tube close to and aligned with the ruler
+How are random errors reduced when reading the Charles's law apparatus? | Read at eye level to avoid parallax, and stir the water so the gas and water are at the same temperature
+What safety precautions are needed in the Charles's law practical? | Avoid spilling boiling water on skin or electrical equipment, and use a heat-proof mat

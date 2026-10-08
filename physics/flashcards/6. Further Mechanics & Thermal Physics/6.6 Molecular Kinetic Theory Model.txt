@@ -1,0 +1,59 @@
+What does it mean that the gas laws are empirical? | They are based on experimental observation and evidence
+How does the basis of kinetic theory differ from that of the empirical gas laws? | Kinetic theory is derived theoretically from assumptions about molecules, not from experimental observation
+What does kinetic theory explain about the gas laws? | Why gases behave in the way the gas laws describe
+What does the kinetic theory of gases link together? | Microscopic properties of molecules (mass, speed) to macroscopic properties of the gas (pressure, volume)
+Why do molecules in solids and liquids have potential energy as well as kinetic energy? | They are close together and bound by intermolecular forces
+What is the internal energy of an ideal gas? | The sum of the kinetic energies of all its molecules
+The sum of the kinetic energies of all the molecules of an ideal gas - what quantity is this? | Internal energy of an ideal gas
+What happens to gas molecules when the gas is heated? | They move faster and their kinetic energy increases
+What happens to the molecules of a solid when it is heated? | They vibrate more
+What is the internal energy of an ideal gas in terms of the number of molecules and their mean kinetic energy? | $U = N\bar{E}_k$
+What is the internal energy of $1.806 \times 10^{24}$ ideal gas molecules with mean kinetic energy $6.53 \times 10^{-21}$ J? | $U = N\bar{E}_k = 1.806 \times 10^{24} \times 6.53 \times 10^{-21} = 1.18 \times 10^{4}\;\text{J}$
+What is the internal energy of $N$ molecules of an ideal gas in terms of temperature? | $U = \frac{3}{2}NkT$
+How does the internal energy of a fixed amount of ideal gas depend on its temperature? | Directly proportional, $U \propto T$
+Kinetic theory assumption: what is assumed about the mass of the gas molecules? | All molecules are identical, with the same mass
+Kinetic theory assumption: what kind of objects are the molecules modelled as? | Hard spheres
+Kinetic theory assumption: what type of collisions do the molecules make? | Perfectly elastic (no kinetic energy lost)
+Kinetic theory assumption: how does the volume of the molecules compare with the container? | The volume of the molecules is negligible compared with the volume of the container
+Kinetic theory assumption: how does the duration of a collision compare with the time between collisions? | Negligible
+Kinetic theory assumption: what forces act between molecules? | No intermolecular forces, except during collisions
+Kinetic theory assumption: how are external forces such as gravity treated? | They are ignored
+Kinetic theory assumption: what kind of motion do the molecules have? | Continuous random motion
+Kinetic theory assumption: which laws govern the motion of the molecules? | Newton's laws of motion
+Kinetic theory assumption: how many molecules are there? | A very large number
+Why does kinetic theory use the average behaviour of molecules rather than individual molecules? | The number of molecules is very large
+How do gas molecules exert a pressure on the walls of their container? | Each molecule's change in momentum when it rebounds from a wall exerts a force, and many collisions give an average force per unit area
+What is the change in momentum of a molecule of mass $m$ and speed $c_1$ that hits a wall perpendicularly and rebounds elastically? | $\Delta p = -2mc_1$ (magnitude $2mc_1$)
+What is the time between successive collisions of a molecule of speed $c_1$ with the same wall of a cube of side $L$? | $\Delta t = \frac{2L}{c_1}$
+What is the average force exerted on a wall by one molecule of mass $m$ and speed $c_1$ in a cube of side $L$? | $F = \frac{mc_1^2}{L}$
+What is the pressure exerted on one face of a cube of side $L$ and volume $V$ by one molecule of mass $m$ and speed $c_1$ moving perpendicular to it? | $p = \frac{mc_1^2}{L^3} = \frac{mc_1^2}{V}$
+How is the square of a molecule's speed related to its velocity components? | $c^2 = c_x^2 + c_y^2 + c_z^2$ (Pythagoras in 3D)
+Why is a factor of $\frac{1}{3}$ introduced in deriving the kinetic theory equation? | Molecules move randomly in three dimensions, so each component accounts for a third of the mean square speed, $\overline{c_x^2} = \frac{1}{3}\overline{c^2}$
+In the kinetic theory derivation, what is the pressure on one wall from $N$ molecules of mass $m$ moving randomly in 3D in a volume $V$? | $p = \frac{1}{3}\frac{m}{V}(c_1^2 + c_2^2 + \ldots + c_N^2)$
+What is the root-mean-square speed of gas molecules? | The square root of the mean of the squares of the molecular speeds, $c_{\text{rms}} = \sqrt{\frac{c_1^2 + c_2^2 + \ldots + c_N^2}{N}}$
+The square root of the mean of the squares of the speeds of the molecules - what quantity is this? | Root-mean-square speed, $c_{\text{rms}}$
+Why is the root-mean-square speed used in the kinetic theory equation rather than a single speed? | The molecules have a range of speeds and all contribute to the pressure
+What is the unit of mean square speed $(c_{\text{rms}})^2$? | $\text{m}^2\,\text{s}^{-2}$
+What is the kinetic theory of gases equation? | $pV = \frac{1}{3}Nm(c_{\text{rms}})^2$
+In $pV = \frac{1}{3}Nm(c_{\text{rms}})^2$, what does $m$ represent? | The mass of one molecule (kg)
+What is the density of a gas in terms of $N$, $m$ and $V$? | $\rho = \frac{Nm}{V}$
+What is the kinetic theory equation written in terms of density? | $p = \frac{1}{3}\rho(c_{\text{rms}})^2$
+Calculate $c_{\text{rms}}$ for a gas of density 4.5 kg m$^{-3}$ at a pressure of $9.3 \times 10^5$ Pa | $c_{\text{rms}} = \sqrt{\frac{3p}{\rho}} = \sqrt{\frac{3 \times 9.3 \times 10^5}{4.5}} = 790\;\text{m s}^{-1}$
+Which two equations are equated to derive the mean kinetic energy of a gas molecule? | $pV = NkT$ and $pV = \frac{1}{3}Nm(c_{\text{rms}})^2$
+What is the mean kinetic energy of one ideal gas molecule in terms of temperature? | $\frac{1}{2}m(c_{\text{rms}})^2 = \frac{3}{2}kT$
+What is the mean kinetic energy of an ideal gas molecule at 300 K? | $\bar{E}_k = \frac{3}{2}kT = \frac{3}{2} \times 1.38 \times 10^{-23} \times 300 = 6.21 \times 10^{-21}\;\text{J}$
+What is the mean kinetic energy of an ideal gas molecule in terms of $R$, $T$ and $N_A$? | $\frac{3RT}{2N_A}$
+How does the mean kinetic energy of an ideal gas molecule depend on temperature? | Directly proportional to the thermodynamic (absolute) temperature, $\bar{E}_k \propto T$
+In what unit must temperature be expressed in $\frac{1}{2}m(c_{\text{rms}})^2 = \frac{3}{2}kT$? | Kelvin (K)
+How does $c_{\text{rms}}$ of a given gas depend on its absolute temperature? | $c_{\text{rms}} \propto \sqrt{T}$
+Helium has $c_{\text{rms}} = 720$ m s$^{-1}$ at 318 K. Find $c_{\text{rms}}$ at 353 K | $c_{\text{rms}} = 720 \times \sqrt{\frac{353}{318}} = 760\;\text{m s}^{-1}$
+What is Brownian motion? | The random, erratic motion of small particles (e.g. smoke or pollen) suspended in a liquid or gas
+The random, erratic motion of small particles such as smoke or pollen suspended in a fluid - what is this? | Brownian motion
+How is Brownian motion typically observed? | Smoke particles in air viewed under a microscope
+What does Brownian motion provide evidence for? | The existence of atoms or molecules in a gas or liquid
+What two features define the random motion of particles? | A range of speeds and no preferred direction of movement
+How do the particles seen in Brownian motion compare with the molecules that cause it? | They are much larger and heavier
+What causes the Brownian motion of smoke particles in air? | Collisions with air molecules, which change the speed and direction of the smoke particles randomly
+Why can tiny air molecules visibly move much larger smoke particles? | They travel much faster than the smoke particles and hit them unevenly from different sides, giving a random resultant force
+What must happen before a new scientific theory is accepted? | It must be validated: other scientists repeat the experiments and obtain the same conclusions
+What does the history of gas theories show about scientific models? | They evolve over time in light of new experimental evidence

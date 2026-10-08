@@ -1,5 +1,5 @@
 What is HTML? | Hypertext Markup Language, the language used to describe the structure and content of a web page so that a browser can render it
-The language used to describe the structure and content of a web page — what is this? | HTML (Hypertext Markup Language)
+The language used to describe the structure and content of a web page - what is this? | HTML (Hypertext Markup Language)
 What notation do HTML tags use? | Angle brackets, usually in pairs, with <tag> to open and </tag> to close
 What are the two main sections of an HTML page? | The head, which holds information about the page such as its title, and the body, which holds the visible content
 What does the <head> section of an HTML document contain? | Information about the web page that is not displayed on the page itself, such as the title and links to stylesheets
@@ -21,7 +21,7 @@ How is an external stylesheet linked in an HTML document? | With a <link> tag in
 What is the difference between a class and an ID in HTML? | A class can be given to many elements so they share styling, while an ID is unique to one element on the page
 How are a class and an ID given to an element in HTML? | With the class and id attributes, e.g. <div class="subject" id="maths">
 What is CSS? | Cascading Style Sheets, a language used to define the style and appearance of a web page
-A language used to define the style and appearance of a web page — what is this? | CSS (Cascading Style Sheets)
+A language used to define the style and appearance of a web page - what is this? | CSS (Cascading Style Sheets)
 What are the three ways CSS can be applied to a web page? | Inline (the style attribute of an element), embedded (in <style> tags in the head), or external (a separate .css file linked to the page)
 If CSS is defined both inline and in an external stylesheet, which takes priority? | The inline CSS, which overrides the external stylesheet
 What is the advantage of an external stylesheet over embedded CSS? | One file can style every page of a site, so the look is consistent and a change only has to be made in one place
@@ -67,12 +67,12 @@ What is a procedure in JavaScript? | A function that does not return a value, so
 What is a search engine? | A program that searches an index of web pages for resources that match the criteria set by the user
 What are the three stages of how a search engine works? | Crawling, indexing and ranking
 What is a web crawler? | A program (also called a spider or bot) that follows links from page to page across the web, collecting information for a search engine
-A program that follows links from page to page across the web, collecting information for a search engine — what is this called? | Web crawler (or spider)
+A program that follows links from page to page across the web, collecting information for a search engine - what is this called? | Web crawler (or spider)
 What does a web crawler collect from each page it visits? | Keywords and phrases from the text, links to other pages, and metadata
 What is metadata in search engine indexing? | Information about a page specified by the website owner, which crawlers collect and add to the index
 What file do website owners use to tell crawlers which areas of a site to explore or avoid? | robots.txt
 What is search engine indexing? | Storing the information collected from web pages in a structured index, so that pages matching a query can be found quickly
-Storing the information collected from web pages in a structured way so that matching pages can be found quickly — what is this process called? | Search engine indexing
+Storing the information collected from web pages in a structured way so that matching pages can be found quickly - what is this process called? | Search engine indexing
 What is stored in a search engine index for each word on a page? | The word and its position on the page
 Why does an index make searching efficient? | The search engine searches its index rather than scanning the whole web for every query
 Why do crawlers periodically revisit pages that are already indexed? | To detect updates and changes, so search results reflect the latest content
@@ -88,9 +88,9 @@ In the PageRank formula, what does $C(T_n)$ represent? | The total number of out
 What data structure represents the links between web pages in PageRank? | A directed graph, in which nodes are pages and arcs are the links between them
 Name three factors other than links that modern search engines use to rank pages | How relevant the content is to the query, how users engage with the page, and how fresh the content is
 What is server side processing? | Running code and processing data on the server rather than on the client's device
-Running code and processing data on the server rather than on the client's device — what type of processing is this? | Server side processing
+Running code and processing data on the server rather than on the client's device - what type of processing is this? | Server side processing
 What is client side processing? | Running code and processing data on the user's own device, usually in the web browser
-Running code and processing data on the user's own device, usually in the web browser — what type of processing is this? | Client side processing
+Running code and processing data on the user's own device, usually in the web browser - what type of processing is this? | Client side processing
 What is the main language used for client side processing? | JavaScript
 What is PHP? | A server side scripting language designed for web development
 Why is server side processing more secure than client side processing? | Sensitive data and the code that handles it stay on the server, where users cannot see or change them

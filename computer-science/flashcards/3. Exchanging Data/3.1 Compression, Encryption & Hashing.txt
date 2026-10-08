@@ -1,9 +1,9 @@
 What is compression? | Reducing the storage space required by a file
 State two benefits of compressing files before sending them over a network | Faster transmission and less bandwidth used
 What is lossy compression? | Compression that reduces file size by permanently removing some of the data
-Compression that reduces file size by permanently removing some of the data — what type is this? | Lossy compression
+Compression that reduces file size by permanently removing some of the data - what type is this? | Lossy compression
 What is lossless compression? | Compression that reduces file size without losing any data, so the original file can be fully recovered
-Compression that reduces file size without losing any data, so the original can be fully recovered — what type is this? | Lossless compression
+Compression that reduces file size without losing any data, so the original can be fully recovered - what type is this? | Lossless compression
 Why can a lossy-compressed file not be restored to the original? | The removed data is discarded completely, with no record of what it was
 Give an example of how lossy compression is applied to audio | Very high and very low frequencies, which are least noticeable to the ear, are removed
 How can lossy compression affect the quality of an image or a recording? | The image may look more pixelated, and the recording may sound less clear
@@ -12,26 +12,26 @@ How do the file sizes produced by lossy and lossless compression compare? | Loss
 When should lossless compression be recommended? | When the original must be recovered exactly, e.g. text, program code or a logo for print
 When should lossy compression be recommended? | When a small file or fast transfer matters more than quality and some loss is acceptable, e.g. streaming or social media images
 What is run length encoding (RLE)? | A lossless method that replaces a run of consecutive identical values with one copy of the value and the number of times it repeats
-A lossless method that replaces a run of consecutive identical values with one copy of the value and a count — what is this? | Run length encoding (RLE)
+A lossless method that replaces a run of consecutive identical values with one copy of the value and a count - what is this? | Run length encoding (RLE)
 How would RLE compress the string AAAAAABBBBBCCC? | 6A5B3C
 What does the RLE sequence 3C3M4C decompress to? | CCCMMMCCCC
 When is RLE most effective? | When data has long runs of identical consecutive values, e.g. a bitmap image with large areas of one colour
 When is RLE ineffective? | When there is little consecutive repetition, so the file is barely reduced and may even grow
 What is dictionary coding? | A lossless method that replaces frequently occurring pieces of data with shorter index codes, with a dictionary that maps each code back to the original
-A lossless method that replaces frequently occurring pieces of data with shorter index codes — what is this? | Dictionary coding
+A lossless method that replaces frequently occurring pieces of data with shorter index codes - what is this? | Dictionary coding
 What must be stored or sent with data compressed by dictionary coding? | The dictionary, without which the data cannot be decompressed
 How does the repetition needed by dictionary coding differ from that needed by RLE? | Dictionary coding works on sequences repeated anywhere in the data, while RLE needs the repeats to be consecutive
 What is the cost of dictionary coding compared with RLE? | It may need more computational resources, since the data has to be scanned to build the dictionary
 What is encryption? | Converting readable data (plaintext) into an unreadable form (ciphertext) so that it cannot be understood by unauthorised people
-Converting plaintext into ciphertext so that it cannot be understood by unauthorised people — what is this? | Encryption
+Converting plaintext into ciphertext so that it cannot be understood by unauthorised people - what is this? | Encryption
 What is a key in encryption? | A value used by the encryption algorithm to encrypt or decrypt data
 What is symmetric encryption? | Encryption in which the sender and receiver use the same key to encrypt and decrypt
-Encryption in which the same key is used to encrypt and decrypt — what type is this? | Symmetric encryption
+Encryption in which the same key is used to encrypt and decrypt - what type is this? | Symmetric encryption
 What is a key exchange? | The process in which the sender and receiver share the key used for symmetric encryption
 What is the main weakness of symmetric encryption? | The key has to be shared, and anyone who intercepts it during the key exchange can decrypt every message
 Why is symmetric encryption suited to large amounts of data? | It is faster than asymmetric encryption
 What is asymmetric encryption? | Encryption that uses a pair of mathematically related keys, where data encrypted with one key can only be decrypted with the other
-Encryption that uses a pair of mathematically related keys, one public and one private — what type is this? | Asymmetric encryption
+Encryption that uses a pair of mathematically related keys, one public and one private - what type is this? | Asymmetric encryption
 In asymmetric encryption, which key is shared and which is kept secret? | The public key can be published to anyone, and the private key is kept secret by its owner
 Which key is used to encrypt a message so that only the recipient can read it? | The recipient's public key, since only the recipient's private key can then decrypt it
 How does asymmetric encryption solve the key distribution problem? | No secret key is ever sent, because the public key can be shared openly and cannot decrypt the data
@@ -39,7 +39,7 @@ How does a digital signature prove who sent a message? | The sender encrypts wit
 What is the drawback of asymmetric encryption? | It is slower than symmetric encryption, so it is generally used for small amounts of data
 How are symmetric and asymmetric encryption used together? | Asymmetric encryption is used to exchange a symmetric key securely, and the faster symmetric key then encrypts the data
 What is hashing? | A one-way process in which a hash function turns an input into a fixed-size value
-A one-way process in which a function turns an input into a fixed-size value — what is this? | Hashing
+A one-way process in which a function turns an input into a fixed-size value - what is this? | Hashing
 What is a hash, or digest? | The fixed-size output of a hash function
 What does a hash function produce when given the same input twice? | The same hash each time
 What happens to a hash when the input changes even slightly? | A completely different hash is produced

@@ -3,10 +3,10 @@ What is a field in a database? | A single piece of data in a record
 What is a record in a database? | A group of related fields representing one data entry (one complete row in a table)
 What is a table in a database? | A collection of records with a similar structure
 What is a primary key? | A unique identifier for each record in a table
-A unique identifier for each record in a table — what term is this? | Primary key
+A unique identifier for each record in a table - what term is this? | Primary key
 What is a compound (composite) primary key? | A combination of two or more fields that together uniquely identify each record
 What is a foreign key? | A field in one table that references the primary key in another table, used to link tables together
-A field in one table that references the primary key in another table — what term is this? | Foreign key
+A field in one table that references the primary key in another table - what term is this? | Foreign key
 How do a primary key and a foreign key differ in uniqueness? | A primary key value appears only once in its table, while a foreign key value may appear many times in its table
 What is a secondary key? | A field that is indexed to enable faster searching of the database
 What is a DBMS? | Database Management System: software used to create, manage, and query databases (e.g. MySQL, Oracle, PostgreSQL)
@@ -15,7 +15,7 @@ What are attributes in database design? | Characteristics of an entity: the fiel
 How is a primary key shown in database entity notation? | By underlining it
 How is a foreign key shown in database entity notation? | With an asterisk (*)
 What is a flat file database? | A database that stores all data in a single table
-A database that stores all data in a single table — what term is this? | Flat file database
+A database that stores all data in a single table - what term is this? | Flat file database
 What is a relational database? | A database that organises data into multiple linked tables, using keys to connect related data
 What is the advantage of a flat file database? | It is simple to set up and easy to understand
 What problem does a flat file cause when data needs updating? | The same data appears in multiple records, so updating one instance but missing others creates data inconsistency
@@ -26,7 +26,7 @@ How does an index speed up a search? | The DBMS can go straight to the relevant 
 Which key is indexed automatically? | The primary key
 Why are secondary keys used for indexing rather than primary keys? | Users rarely know or query primary keys: secondary keys like surname are the fields people actually search on
 What is normalisation? | The process of organising a relational database to reduce data duplication and improve data accuracy and consistency
-The process of organising a database to reduce redundancy and improve consistency — what is this called? | Normalisation
+The process of organising a database to reduce redundancy and improve consistency - what is this called? | Normalisation
 What does "atomic" mean in the context of first normal form? | Each field contains only a single, indivisible value: no lists or multiple values
 State the requirements for first normal form (1NF) | Atomic values (no multi-value fields), no repeating groups, and a primary key for each row
 What additional requirement does second normal form (2NF) add beyond 1NF? | No partial dependencies: every non-key attribute must depend on the entire primary key, not just part of a composite key
@@ -70,7 +70,7 @@ What does the LIKE keyword do in SQL? | Filters data by matching a pattern, usin
 What does the * wildcard do in a SELECT statement? | Selects all columns from the table
 What does the % wildcard represent in a LIKE clause? | Any sequence of zero or more characters
 Write an SQL statement to list the Name of every record in Customers whose Country starts with U | SELECT Name FROM Customers WHERE Country LIKE 'U%'
-How do AND and OR differ in a SQL WHERE clause? | AND requires all conditions to be true; OR requires at least one condition to be true
+How do AND and OR differ in a SQL WHERE clause? | AND requires all conditions to be true. OR requires at least one condition to be true
 Write an SQL statement to show CustomerID and Surname from Customer for people whose Title is Miss or Mrs | SELECT CustomerID, Surname FROM Customer WHERE Title = "Miss" OR Title = "Mrs"
 What is a nested SELECT (subquery) in SQL? | A SELECT statement inside another, whose result is used in the outer query's condition (e.g. WHERE salary > (SELECT AVG(salary) FROM employees))
 What does JOIN (INNER JOIN) do in SQL? | Combines rows from two or more tables based on a matching column, returning only rows where the join condition is met
@@ -79,13 +79,13 @@ What does INSERT INTO do in SQL? | Adds a new record to a table (syntax: INSERT 
 What does DELETE FROM do in SQL? | Removes records from a table that match a WHERE condition
 Write an SQL statement to remove all songs by RandomBits from the table Song | DELETE FROM Song WHERE Artist = "RandomBits"
 What does DROP TABLE do in SQL? | Permanently deletes an entire table and all its data from the database
-What does ORDER BY do in SQL? | Sorts query results in ascending order by default; adding DESC sorts in descending order
+What does ORDER BY do in SQL? | Sorts query results in ascending order by default. Adding DESC sorts in descending order
 What does CREATE TABLE do in SQL? | Creates a new table, specifying each column's name, data type, whether it is the primary key, and whether it allows null values
 What does ALTER TABLE do in SQL? | Modifies the structure of an existing table: can add columns, drop columns, or change a column's data type
 What does UPDATE do in SQL? | Modifies existing records in a table (syntax: UPDATE table SET column = value WHERE condition)
-In SQL, how does CHAR(n) differ from VARCHAR(n)? | CHAR(n) is a fixed-length string of exactly n characters; VARCHAR(n) is a variable-length string with a maximum of n characters
+In SQL, how does CHAR(n) differ from VARCHAR(n)? | CHAR(n) is a fixed-length string of exactly n characters. VARCHAR(n) is a variable-length string with a maximum of n characters
 What is referential integrity? | The principle that every foreign key value must match an existing primary key in the related table (or be null), ensuring consistency between linked tables
-The principle that every foreign key must reference a valid primary key — what is this called? | Referential integrity
+The principle that every foreign key must reference a valid primary key - what is this called? | Referential integrity
 What is an orphaned record? | A record whose foreign key points to a primary key that no longer exists, violating referential integrity
 How can referential integrity be broken? | A record is deleted while foreign keys in another table still refer to its primary key
 What does the CASCADE action do in referential integrity? | Automatically applies the same update or deletion to all related records in linked tables
@@ -93,21 +93,21 @@ What does NO ACTION (RESTRICT) do as a referential integrity action? | Prevents 
 What is a transaction in database terms? | A sequence of database operations treated as a single unit of work: either all operations complete successfully or none do
 What does ACID stand for? | Atomicity, Consistency, Isolation, Durability
 What does Atomicity mean in ACID? | A transaction must be processed in its entirety or not at all, so if any part fails the whole transaction is rolled back
-A transaction must be processed in its entirety or not at all — which ACID property is this? | Atomicity
+A transaction must be processed in its entirety or not at all - which ACID property is this? | Atomicity
 What does Consistency mean in ACID? | A transaction must leave the database in a valid, consistent state, following all rules and constraints
-A transaction must leave the database in a valid state that follows all its rules — which ACID property is this? | Consistency
+A transaction must leave the database in a valid state that follows all its rules - which ACID property is this? | Consistency
 What does Isolation mean in ACID? | Transactions that run at the same time must give the same result as if they had run one after the other
-Transactions that run at the same time must give the same result as if run one after the other — which ACID property is this? | Isolation
+Transactions that run at the same time must give the same result as if run one after the other - which ACID property is this? | Isolation
 What does Durability mean in ACID? | Once a transaction is committed its changes are kept even if the system fails (e.g. a power cut), because they are written to secondary storage
-Once a transaction is committed its changes are kept even if the system fails — which ACID property is this? | Durability
+Once a transaction is committed its changes are kept even if the system fails - which ACID property is this? | Durability
 What is record locking? | Preventing other users from accessing a record while one user is editing it, so that updates are not lost or left inconsistent
-The process of preventing simultaneous access to database records to avoid conflicts — what is this called? | Record locking
+The process of preventing simultaneous access to database records to avoid conflicts - what is this called? | Record locking
 What is a shared lock (read lock)? | A lock that allows multiple transactions to read a record simultaneously but prevents any modification until released
 What is an exclusive lock (write lock)? | A lock that grants only one transaction access to read and modify a record, blocking all other transactions
 What is a deadlock in a database? | A situation where two or more transactions each hold a lock and are waiting for the other to release its lock, so none can proceed
-Describe a scenario that causes a deadlock | User A locks Record 1 and requests Record 2; simultaneously User B locks Record 2 and requests Record 1, so both wait indefinitely
+Describe a scenario that causes a deadlock | User A locks Record 1 and requests Record 2. Simultaneously User B locks Record 2 and requests Record 1, so both wait indefinitely
 Name two methods for dealing with deadlocks | Deadlock prevention (ordering resource requests) and timeout mechanisms (aborting a transaction if it waits too long)
-What is the difference between commit and rollback? | Commit saves all changes in a transaction permanently; rollback undoes all changes and restores the previous state
+What is the difference between commit and rollback? | Commit saves all changes in a transaction permanently. Rollback undoes all changes and restores the previous state
 What is data redundancy in a database? | The same piece of data being stored in more than one place within the database, which can lead to inconsistencies and wasted storage
 What is the purpose of deliberate redundancy in data storage? | Storing copies of data in physically different locations so that if one copy is damaged, others remain unaffected and can be recovered
 What is concurrency control? | The management of simultaneous data access in a multi-user database to prevent conflicts and maintain consistency

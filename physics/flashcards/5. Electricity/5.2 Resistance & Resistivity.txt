@@ -1,5 +1,5 @@
 What is resistivity? | A property of a material that describes the extent to which it opposes the flow of electric current through it. Measured in $\Omega\;\text{m}$
-A property of a material that describes the extent to which it opposes the flow of electric current — what quantity is this? | Resistivity
+A property of a material that describes the extent to which it opposes the flow of electric current - what quantity is this? | Resistivity
 What is the equation for resistance in terms of resistivity, length, and cross-sectional area? | $R = \frac{\rho L}{A}$
 A wire of length 2.0 m and cross-sectional area $1.0 \times 10^{-7}\;\mathrm{m^2}$ has a resistance of $0.34\;\Omega$. What is the resistivity of its material? | $\rho = \frac{RA}{L} = \frac{0.34 \times 1.0 \times 10^{-7}}{2.0} = 1.7 \times 10^{-8}\;\Omega\,\mathrm{m}$
 How does resistivity differ from resistance? | Resistivity is a property of a material at a given temperature. Resistance belongs to one component and also depends on its length and cross-sectional area
@@ -13,7 +13,7 @@ Explain why resistance increases with temperature in a metal | Metal ions vibrat
 Why is copper used for electrical wires? | It has very low resistivity at room temperature ($1.7 \times 10^{-8}\;\Omega\;\text{m}$), so current flows through it easily
 Why do insulators not conduct electricity? | They have very high resistivity (e.g. $10^{12}$ to $10^{15}\;\Omega\;\text{m}$), so virtually no current flows through them
 What is a thermistor? | A semiconductor component whose resistance changes with temperature, used as a temperature sensor
-A semiconductor component whose resistance changes with temperature — what component is this? | Thermistor
+A semiconductor component whose resistance changes with temperature - what component is this? | Thermistor
 What does NTC mean for a thermistor? | Negative temperature coefficient: as temperature increases, resistance decreases, and vice versa
 Why does the resistance of an NTC thermistor fall as it gets hotter? | More charge carriers are released in the semiconductor, which increases the current for a given p.d.
 Why does the resistance of a thermistor fall as the current through it increases? | The current heats the thermistor, and at a higher temperature more charge carriers are released
@@ -21,9 +21,9 @@ Describe the shape of the resistance-temperature graph for an NTC thermistor | A
 Give three applications of thermistors | Ovens, fire alarms, digital thermometers
 How does the resistance-temperature relationship differ between a metal and an NTC thermistor? | In a metal, resistance increases with temperature due to increased ion vibrations. In an NTC thermistor, resistance decreases with temperature
 What is a superconductor? | A material with no resistance below a critical temperature
-A material with no resistance below a critical temperature — what is this called? | A superconductor
+A material with no resistance below a critical temperature - what is this called? | A superconductor
 What is the critical temperature in superconductivity? | The temperature at which a material becomes superconducting, i.e. its resistivity drops to zero
-The temperature at which a material becomes superconducting — what term is this? | Critical temperature (or transition temperature)
+The temperature at which a material becomes superconducting - what term is this? | Critical temperature (or transition temperature)
 On a resistivity-temperature graph, how does a superconductor differ from a normal metal? | A superconductor's resistivity drops sharply to zero at the critical temperature, while a normal metal's resistivity decreases gradually but never reaches zero
 Why can superconductors carry large currents without energy loss? | They have zero resistance, so no electrical energy is dissipated as heat
 What two properties of superconductors make them useful? | They can produce strong magnetic fields, and they eliminate energy loss in power transmission

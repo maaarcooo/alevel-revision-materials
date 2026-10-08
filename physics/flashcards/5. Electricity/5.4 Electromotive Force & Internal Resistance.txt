@@ -1,16 +1,17 @@
 What is electromotive force (e.m.f.)? | The amount of chemical energy converted to electrical energy per coulomb of charge when passing through a power supply, $\varepsilon = \frac{E}{Q}$
-The amount of chemical energy converted to electrical energy per coulomb of charge when passing through a power supply — what quantity is this? | Electromotive force (e.m.f.)
+The amount of chemical energy converted to electrical energy per coulomb of charge when passing through a power supply - what quantity is this? | Electromotive force (e.m.f.)
+A cell transfers 9.0 J of energy to 6.0 C of charge. What is its e.m.f.? | $\varepsilon = \frac{E}{Q} = \frac{9.0}{6.0} = 1.5$ V
 What symbol represents e.m.f.? | $\varepsilon$ (Greek letter epsilon)
 In what unit is e.m.f. measured? | Volts (V)
 How is e.m.f. measured? | Connect a high-resistance voltmeter in parallel with the cell in an open circuit (no current flowing)
 What is terminal potential difference? | The potential difference across the terminals of a cell, given by $V = IR$ where $R$ is the external resistance
-The potential difference across the terminals of a cell — what term is this? | Terminal potential difference (terminal p.d.)
+The potential difference across the terminals of a cell - what term is this? | Terminal potential difference (terminal p.d.)
 When is the terminal p.d. of a cell equal to its e.m.f.? | When no current flows, because there are then no lost volts
 What is internal resistance? | The resistance of the materials within the battery
-The resistance of the materials within the battery — what term is this? | Internal resistance
+The resistance of the materials within the battery - what term is this? | Internal resistance
 Explain why a cell becomes warm during use | Internal resistance causes the circulating charge to dissipate electrical energy within the power supply itself
 What are lost volts? | The work done per unit charge to overcome the internal resistance inside the battery when current flows, $v = Ir$
-The work done per unit charge to overcome the internal resistance inside the battery — what quantity is this? | Lost volts
+The work done per unit charge to overcome the internal resistance inside the battery - what quantity is this? | Lost volts
 How are e.m.f., terminal p.d. and lost volts related? | $\varepsilon = V + v$, so the terminal p.d. is $V = \varepsilon - Ir$
 Why does the terminal p.d. of a cell fall as the current drawn from it increases? | The lost volts, $Ir$, increase, leaving less of the e.m.f. across the external circuit
 How is the power supplied by a cell shared in a circuit with internal resistance? | $\varepsilon I = I^2R + I^2r$: the power supplied by the cell equals the power delivered to the load plus the power wasted in the internal resistance

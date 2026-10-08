@@ -1,17 +1,18 @@
 Define a progressive wave | A wave that transfers energy from one point to another without transferring the medium itself
-A wave that transfers energy from one point to another without transferring the medium itself — what term is this? | Progressive wave
-What is displacement (x) of a wave? | The distance of a point on the wave from its equilibrium position; it is a vector quantity
+A wave that transfers energy from one point to another without transferring the medium itself - what term is this? | Progressive wave
+What is displacement (x) of a wave? | The distance of a point on the wave from its equilibrium position. It is a vector quantity
 What is amplitude (A) of a wave? | The maximum displacement of a particle in the wave from its equilibrium position, measured in metres (m)
 What is wavelength ($\lambda$) of a wave? | The distance between points on successive oscillations of the wave that are in phase, measured in metres (m)
 What is the period (T) of a wave? | The time taken for one complete oscillation or cycle of the wave, measured in seconds (s)
 What is frequency (f) of a wave? | The number of complete oscillations per unit time, measured in hertz (Hz) or $\text{s}^{-1}$
 What equation relates frequency and period? | $f = \frac{1}{T}$
+A wave has a period of 0.020 s. What is its frequency? | $f = \frac{1}{T} = \frac{1}{0.020} = 50$ Hz
 What is wave speed (v)? | The distance travelled by the wave per unit time, measured in $\text{m s}^{-1}$
 State the wave equation | $v = f\lambda$
 A sound wave has a frequency of 440 Hz and travels at $330\;\mathrm{m\,s^{-1}}$. What is its wavelength? | $\lambda = \frac{v}{f} = \frac{330}{440} = 0.75$ m
 For a wave of constant speed, what happens to frequency if wavelength increases? | Frequency decreases
 What is phase difference? | A measure of how much a point or a wave is in front of or behind another
-A measure of how much a point or a wave is in front of or behind another — what term is this? | Phase difference
+A measure of how much a point or a wave is in front of or behind another - what term is this? | Phase difference
 In what units can phase difference be measured? | Fractions of a wavelength, degrees, or radians
 Two points on a wave are a distance $d$ apart. What is their phase difference in radians? | $\frac{2\pi d}{\lambda}$
 What is the phase difference between two points a quarter of a wavelength apart? | $\frac{\pi}{2}$ radians ($90°$)
@@ -19,10 +20,10 @@ When are two waves said to be in phase? | When their crests or troughs are align
 When are two waves said to be in antiphase? | When the crest of one wave aligns with the trough of another, giving a phase difference of $180°$ ($\pi$ radians)
 If wave A reaches a peak before wave B, what is the phase relationship? | Wave A leads wave B (wave B lags wave A)
 Define a transverse wave | A wave in which the particles oscillate perpendicular to the direction of wave travel and energy transfer
-A wave in which the particles oscillate perpendicular to the direction of wave travel — what type of wave is this? | Transverse wave
+A wave in which the particles oscillate perpendicular to the direction of wave travel - what type of wave is this? | Transverse wave
 What features do transverse waves show? | Crests (peaks) and troughs
 Define a longitudinal wave | A wave in which the particles oscillate parallel to the direction of wave travel and energy transfer
-A wave in which the particles oscillate parallel to the direction of wave travel — what type of wave is this? | Longitudinal wave
+A wave in which the particles oscillate parallel to the direction of wave travel - what type of wave is this? | Longitudinal wave
 What features do longitudinal waves show? | Compressions (regions of increased pressure) and rarefactions (regions of decreased pressure)
 What is the wavelength of a longitudinal wave? | The distance between two successive compressions or two successive rarefactions
 Give three examples of transverse waves | Electromagnetic waves (e.g. light, radio, UV), vibrations on a string, seismic S-waves
@@ -33,8 +34,8 @@ How can longitudinal waves be demonstrated? | Using a slinky spring, with vibrat
 Which type of wave can be polarised? | Transverse waves only (longitudinal waves cannot be polarised)
 What is unpolarised light? | Light whose oscillations are in many planes, all perpendicular to its direction of travel
 What is polarisation? | The restriction of the oscillations of a transverse wave to a single plane, with the oscillations still perpendicular to the direction of propagation
-The restriction of the oscillations of a transverse wave to a single plane — what term is this? | Polarisation
-Why can only transverse waves be polarised? | Transverse waves oscillate in any plane perpendicular to the propagation direction, so they can be restricted to one plane; longitudinal waves oscillate only parallel to travel
+The restriction of the oscillations of a transverse wave to a single plane - what term is this? | Polarisation
+Why can only transverse waves be polarised? | Transverse waves oscillate in any plane perpendicular to the propagation direction, so they can be restricted to one plane. Longitudinal waves oscillate only parallel to travel
 How does polarisation provide evidence about the nature of a wave? | Only a wave with oscillations perpendicular to its direction of travel can be polarised, so a wave that can be polarised must be transverse
 What does a polariser (polarising filter) do? | It transmits only oscillations in a single plane, blocking all other planes of oscillation
 What is the transmitted light intensity when two polarisers have parallel transmission axes? | Maximum: all polarised light from the first filter passes through the second
@@ -45,5 +46,5 @@ What happens to unpolarised light when it passes through a single polarising fil
 What happens to unpolarised light when it reflects off a horizontal surface such as water? | It becomes partially plane-polarised, with a greater proportion oscillating in the horizontal plane
 How do Polaroid sunglasses reduce glare from reflective surfaces? | They contain vertically oriented polarising filters that block horizontally polarised light reflected from surfaces such as water or wet roads
 Why can a polarising filter reveal objects beneath water? | Glare reflected from the surface is mostly horizontally polarised and is absorbed by the filter, while light from the underwater objects is unpolarised, so about half of it passes through
-Why must a TV reception aerial be aligned to match the transmitter's signal polarisation? | Broadcasting towers transmit either vertically or horizontally polarised signals; the aerial must be in the same orientation to receive the signal
+Why must a TV reception aerial be aligned to match the transmitter's signal polarisation? | Broadcasting towers transmit either vertically or horizontally polarised signals. The aerial must be in the same orientation to receive the signal
 Name three processes (besides passing through a polariser) by which light can become polarised | Reflection, refraction, and scattering

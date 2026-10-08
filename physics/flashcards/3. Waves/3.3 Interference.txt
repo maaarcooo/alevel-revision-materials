@@ -3,18 +3,18 @@ What is constructive interference? | When two waves meet in phase, their displac
 What is destructive interference? | When two waves meet in antiphase, their displacements cancel to give a minimum resultant amplitude, which is zero if their amplitudes are equal
 When two waves of equal amplitude $A$ interfere constructively, what is the resultant amplitude? | $2A$
 Why can wave displacements cancel each other during superposition? | Displacement is a vector quantity, so individual displacements may be positive or negative and can sum to zero
-What property must waves have to produce a stable interference pattern? | They must be coherent (same frequency and constant phase difference)
+What property must waves have to produce a stable interference pattern? | They must be coherent
 What two conditions must waves satisfy to be coherent? | They must have the same frequency and a constant phase difference
-The same frequency and a constant phase difference — what property of waves do these two conditions define? | Coherence
+The same frequency and a constant phase difference - what property of waves do these two conditions define? | Coherence
 Why do two separate filament lamps not produce an interference pattern? | They are not coherent: the phase difference between them changes randomly, so no stable pattern forms
 Define path difference | The difference in distance travelled by two waves from their sources to the point where they meet
-The difference in distance travelled by two waves from their sources to the point where they meet — what quantity is this? | Path difference
-How does path difference differ from phase difference? | Path difference compares the progress made by waves along their paths; phase difference compares the relative positions of peaks and troughs of coherent waves at a point
+The difference in distance travelled by two waves from their sources to the point where they meet - what quantity is this? | Path difference
+How does path difference differ from phase difference? | Path difference compares the progress made by waves along their paths. Phase difference compares the relative positions of peaks and troughs of coherent waves at a point
 What is the path difference condition for constructive interference? | Path difference $= n\lambda$, where $n = 0, 1, 2, 3...$
 What is the path difference condition for destructive interference? | Path difference $= \left(n + \frac{1}{2}\right)\lambda$, where $n = 0, 1, 2, 3...$
-How do you determine the type of interference at a point on a wavefront diagram? | Count the wavelengths from each source to the point and calculate the path difference; whole-number multiples of $\lambda$ give constructive, odd half-wavelength multiples give destructive
+How do you determine the type of interference at a point on a wavefront diagram? | Count the wavelengths from each source to the point and calculate the path difference. Whole-number multiples of $\lambda$ give constructive, odd half-wavelength multiples give destructive
 What does monochromatic mean? | Having a single wavelength (or equivalently, a single frequency)
-Give two examples of coherent wave sources | A monochromatic laser; two speakers connected to the same signal generator emitting the same frequency
+Give two examples of coherent wave sources | A monochromatic laser, and two speakers connected to the same signal generator
 Why are lasers ideal for analysing diffraction and interference patterns? | Laser light is coherent (constant phase difference and frequency) and monochromatic (single wavelength)
 What do the bright fringes in an interference pattern correspond to? | Regions of constructive interference, where the waves arrive in phase
 What do the dark fringes in an interference pattern correspond to? | Regions of destructive interference, where the waves arrive in antiphase
@@ -22,7 +22,7 @@ Why might the minima in an interference pattern not have zero intensity? | One w
 How is constructive interference of sound waves perceived? | The sound appears louder, because compressions and rarefactions from each wave line up
 How is destructive interference of sound waves perceived? | The sound is at its quietest (silent if the amplitudes are equal), because a compression from one wave meets a rarefaction from the other
 What technology uses destructive interference of sound waves? | Noise-cancelling headphones
-How is two-source interference demonstrated with microwaves? | A microwave transmitter emits waves through two slits in metal plates; a moveable microwave detector picks up regions of maximum and zero signal
+How is two-source interference demonstrated with microwaves? | A microwave transmitter emits waves through two slits in metal plates. A moveable microwave detector picks up regions of maximum and zero signal
 Name three types of waves used to demonstrate two-source interference | Light (laser through double slits), sound (two coherent speakers), and microwaves (transmitter through two slits with a moveable detector)
 State the relationship between the intensity of a wave and its amplitude | $I \propto A^2$ (intensity is proportional to the square of the amplitude)
 By what factor does the intensity of a wave change if its amplitude doubles? | It becomes 4 times greater, because $I \propto A^{2}$
@@ -36,7 +36,7 @@ How does fringe spacing $w$ change if the wavelength $\lambda$ increases? | $w$ 
 How does fringe spacing $w$ change if the slit-to-screen distance $D$ increases? | $w$ increases ($w \propto D$)
 How does fringe spacing $w$ change if the slit separation $s$ decreases? | $w$ increases ($w \propto 1/s$)
 Light of wavelength 600 nm passes through slits 0.50 mm apart onto a screen 2.0 m away. What is the fringe spacing? | $w = \frac{\lambda D}{s} = \frac{600 \times 10^{-9} \times 2.0}{0.50 \times 10^{-3}} = 2.4$ mm
-What does the order number $n$ represent in an interference pattern? | The position of a maximum or minimum relative to the central maximum; $n = 0$ is the central maximum, $n = 1$ the first on either side, and so on
+What does the order number $n$ represent in an interference pattern? | The position of a maximum or minimum relative to the central maximum. $n = 0$ is the central maximum, $n = 1$ the first on either side, and so on
 What colour is the central maximum when white light passes through a double slit? | White, because all wavelengths interfere constructively at the centre
 In a white-light double-slit pattern, which colour appears nearest to the central maximum in the spectra? | Violet/blue (shortest wavelength, diffracted least)
 In a white-light double-slit pattern, which colour appears furthest from the central maximum in the spectra? | Red (longest wavelength, diffracted most)
@@ -48,11 +48,10 @@ What did Thomas Young's double-slit experiment (1801) demonstrate? | That light 
 What did Maxwell show about light in 1862? | That light is an electromagnetic wave made of perpendicular oscillating electric and magnetic fields
 What did Einstein's work on the photoelectric effect (1905) demonstrate about light? | Light behaves as a particle, consisting of packets of energy called photons
 What is the aim of the Young's double-slit required practical? | To investigate the relationship between the slit-to-screen distance $D$ and the fringe width $w$
-In the Young's double-slit required practical, what are the independent and dependent variables? | Independent: slit-to-screen distance $D$; Dependent: fringe width $w$
+In the Young's double-slit required practical, what are the independent and dependent variables? | Independent: slit-to-screen distance $D$. Dependent: fringe width $w$
 What are the control variables in the Young's double-slit required practical? | Wavelength of laser light ($\lambda$) and slit separation ($s$)
 How is fringe width $w$ measured accurately in the required practical? | Measure across many fringes using vernier callipers, then divide the total distance by the number of fringe widths
-What graph is plotted in the Young's double-slit practical, and what does the gradient represent? | $w$ against $D$; gradient $= \frac{\lambda}{s}$
-How is wavelength determined from the $w$ vs $D$ graph in the required practical? | $\lambda = s \times \text{gradient}$
+What graph is plotted in the Young's double-slit practical, and what does the gradient represent? | $w$ against $D$. Gradient $= \frac{\lambda}{s}$
 What is the aim of the diffraction grating required practical? | To find the wavelength of laser light from the angles of the maxima, using $n\lambda = d\sin\theta$
 How is the angle $\theta$ to each order calculated in the diffraction grating practical? | $\theta = \tan^{-1}\!\left(\frac{h}{D}\right)$, where $h$ is the distance from the central maximum to the order and $D$ is the grating-to-screen distance
 State two ways to reduce the percentage uncertainty in the fringe spacing in the double-slit practical | Measure across several fringes and divide by the number of fringe spacings, and increase the slit-to-screen distance so the fringes are further apart
@@ -60,5 +59,5 @@ Why does using a grating with more lines per mm reduce the percentage uncertaint
 State two ways to reduce the percentage uncertainty in the wavelength in the diffraction grating practical | Increase the grating-to-screen distance, or measure to a higher-order maximum. Both make the measured distance larger, so its percentage uncertainty is smaller
 Why should interference experiments be conducted in a darkened room? | So the fringes are clearly visible against the background
 Why is a set square used in the diffraction grating experiment? | To ensure the beam passes through the grating at normal incidence and meets the screen perpendicularly
-State three laser safety precautions for interference experiments | Never look directly at the beam or its reflection; wear laser safety goggles; place a 'laser on' warning sign outside the room
+State three laser safety precautions for interference experiments | Never look directly at the beam or its reflection. Wear laser safety goggles. Place a 'laser on' warning sign outside the room
 What class of laser should be used in school experiments, and what is the maximum output? | Class 2, maximum output of 1 mW

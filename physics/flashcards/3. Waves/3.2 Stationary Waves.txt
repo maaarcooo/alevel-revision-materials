@@ -1,18 +1,17 @@
 What is a stationary (standing) wave? | A wave formed by the superposition of two waves of the same frequency and amplitude travelling in opposite directions, producing a pattern where the peaks and troughs do not move
-A wave formed by superposition of two waves of the same frequency and amplitude travelling in opposite directions, where the peaks and troughs do not move — what type of wave is this? | Stationary (standing) wave
+A wave formed by superposition of two waves of the same frequency and amplitude travelling in opposite directions, where the peaks and troughs do not move - what type of wave is this? | Stationary (standing) wave
 How is a stationary wave usually produced? | By a travelling wave superposing with its own reflection
-How do stationary waves and progressive waves differ in terms of energy? | Stationary waves store energy; progressive waves transfer energy
+How do stationary waves and progressive waves differ in terms of energy? | Stationary waves store energy. Progressive waves transfer energy
 How does the amplitude of individual points differ between a progressive wave and a stationary wave? | Progressive wave: all points have the same amplitude. Stationary wave: each point has a different amplitude depending on its position
 What is a node on a stationary wave? | A point of no vibration (zero displacement at all times)
-A point of no vibration on a stationary wave — what is this called? | A node
+A point of no vibration on a stationary wave - what is this called? | A node
 What is an antinode on a stationary wave? | A point of maximum amplitude on a stationary wave
-A point of maximum amplitude on a stationary wave — what is this called? | An antinode
+A point of maximum amplitude on a stationary wave - what is this called? | An antinode
 How do nodes and antinodes behave in terms of position on a stationary wave? | Nodes are fixed in position. Antinodes oscillate vertically but do not move along the string
 How can you tell whether two points on a stationary wave are in phase or in antiphase? | Count the nodes between them: an even number (including zero) means in phase, an odd number means in antiphase
 How does phase vary along a progressive wave compared with a stationary wave? | Along a progressive wave the phase changes continuously. On a stationary wave all points between two adjacent nodes are in phase
 What distance separates adjacent nodes (or adjacent antinodes) on a stationary wave? | Half a wavelength ($\frac{\lambda}{2}$)
 State the principle of superposition | When two or more waves meet at a point, the resultant displacement is the vector sum of the displacements of the individual waves
-The resultant displacement at a point equals the sum of the displacements of the individual waves arriving there — what principle is this? | The principle of superposition
 To what types of waves does the principle of superposition apply? | All types: transverse and longitudinal, progressive and stationary
 What conditions are required for a stationary wave to form? | Two waves with the same frequency, same wavelength, and similar amplitude must travel in opposite directions along the same line
 What type of interference produces nodes on a stationary wave? | Destructive interference (the waves are in anti-phase at those points)
@@ -40,6 +39,7 @@ What is the frequency of the $n$th harmonic in terms of $f_1$? | $f_n = n \times
 What is the equation for the speed of a wave travelling along a string under tension? | $v = \sqrt{\frac{T}{\mu}}$, where $T$ is tension (N) and $\mu$ is mass per unit length (kg m$^{-1}$)
 What is mass per unit length ($\mu$) and what is its SI unit? | The mass of the string divided by its length, measured in kg m$^{-1}$
 What is the equation for the frequency of the first harmonic in terms of $L$, $T$, and $\mu$? | $f = \frac{1}{2L}\sqrt{\frac{T}{\mu}}$
+A string of length 0.50 m and mass per unit length $2.0 \times 10^{-3}\;\mathrm{kg\,m^{-1}}$ is under a tension of 80 N. What is the frequency of its first harmonic? | $f = \frac{1}{2 \times 0.50}\sqrt{\frac{80}{2.0 \times 10^{-3}}} = 200$ Hz
 How does the first harmonic frequency of a string change if the tension is made four times larger? | It doubles, because $f \propto \sqrt{T}$
 How does the first harmonic frequency of a string change if its length is halved? | It doubles, because $f \propto \frac{1}{L}$
 What is the aim of the required practical on stationary waves? | To investigate how the frequency of the first harmonic depends on the length, tension, or mass per unit length of a string

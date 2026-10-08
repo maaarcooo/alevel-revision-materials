@@ -1,9 +1,9 @@
 What is refraction? | The change in direction of a wave as it crosses a boundary between two media in which it travels at different speeds
-The change in direction of a wave as it crosses a boundary between two media in which it travels at different speeds — what term is this? | Refraction
+The change in direction of a wave as it crosses a boundary between two media in which it travels at different speeds - what term is this? | Refraction
 What causes refraction? | Different parts of the wavefront change speed at different times as they cross the boundary, causing the wave to change direction
 What does "medium" mean in optics? | A transparent material through which light can travel
 What is the refractive index of a material? | The ratio of the speed of light in a vacuum to the speed of light in that substance, $n = \frac{c}{c_s}$
-The ratio of the speed of light in a vacuum to the speed of light in a substance — what quantity is this? | Refractive index ($n$)
+The ratio of the speed of light in a vacuum to the speed of light in a substance - what quantity is this? | Refractive index ($n$)
 Why is the refractive index dimensionless? | It is a ratio of two speeds, so the units cancel
 Why is the refractive index of a material always greater than 1? | The speed of light in any substance is always less than the speed of light in a vacuum
 What is the speed of light in glass of refractive index 1.5? | $c_s = \frac{c}{n} = \frac{3.00 \times 10^{8}}{1.5} = 2.0 \times 10^{8}\;\mathrm{m\,s^{-1}}$
@@ -19,7 +19,7 @@ State Snell's law | $n_1 \sin \theta_1 = n_2 \sin \theta_2$
 Light passes from air into glass of refractive index 1.5 at an angle of incidence of 39°. What is the angle of refraction? | $\sin\theta_2 = \frac{\sin 39°}{1.5} = 0.42$, so $\theta_2 = 25°$
 A question gives the angle between a ray and the boundary. How is the angle needed for Snell's law found? | Subtract it from 90°, because angles are measured from the normal
 What is the critical angle? | The angle of incidence in the denser medium at which the angle of refraction is exactly 90° and the refracted ray travels along the boundary
-The angle of incidence in the denser medium at which the angle of refraction equals 90° — what term is this? | Critical angle
+The angle of incidence in the denser medium at which the angle of refraction equals 90° - what term is this? | Critical angle
 State the equation for the critical angle | $\sin \theta_c = \frac{n_2}{n_1}$ where $n_1 > n_2$
 How is the critical angle equation obtained from Snell's law? | Set $\theta_2 = 90°$, so $n_1 \sin\theta_c = n_2$ and $\sin\theta_c = \frac{n_2}{n_1}$
 What happens to light that meets a boundary with a less dense medium at less than the critical angle? | Most of it is refracted into the second medium and some is partially reflected back
@@ -27,7 +27,7 @@ What is the critical angle for light travelling from glass of refractive index 1
 How does the critical angle change as the refractive index of a material increases? | It decreases
 How does the critical angle of a glass block differ for blue and red light? | It is smaller for blue light, because the refractive index of glass is greater for blue light than for red
 What is total internal reflection? | The complete reflection of light back into the denser medium, instead of refracting through the boundary, so no light passes into the second medium
-The complete reflection of light back into the denser medium, with no light passing through the boundary — what term is this? | Total internal reflection
+The complete reflection of light back into the denser medium, with no light passing through the boundary - what term is this? | Total internal reflection
 State the two conditions for total internal reflection | The angle of incidence must be greater than the critical angle ($i > \theta_c$), and the light must be in the medium with the higher refractive index ($n_1 > n_2$)
 What law governs the reflected ray during total internal reflection? | The law of reflection: angle of incidence equals angle of reflection
 Name the three main components of an optical fibre | Optically dense core (glass or plastic), lower refractive index cladding, and an outer sheath
@@ -37,13 +37,13 @@ Why must $n_{\text{cladding}} < n_{\text{core}}$ in an optical fibre? | Total in
 State three functions of cladding in an optical fibre | It protects the core from scratches, provides the lower refractive index needed for total internal reflection, and prevents signals crossing between fibres that touch
 What is a step-index optical fibre? | A fibre in which the refractive index changes abruptly, in a single step, between the core and the cladding
 What is pulse broadening? | The output pulses from an optical fibre are longer (wider in time) than the input pulses
-When pulses emerging from an optical fibre are longer than those entering — what term is this? | Pulse broadening
+When pulses emerging from an optical fibre are longer than those entering - what term is this? | Pulse broadening
 What two types of dispersion cause pulse broadening? | Material dispersion and modal dispersion
 What is material dispersion? | The spreading of a light pulse caused by different wavelengths travelling at different speeds in the fibre material
-The spreading of a light pulse in a fibre caused by different wavelengths travelling at different speeds — what term is this? | Material dispersion
+The spreading of a light pulse in a fibre caused by different wavelengths travelling at different speeds - what term is this? | Material dispersion
 In material dispersion, which colour of visible light travels slowest through the fibre? | Violet, because glass has its highest refractive index for the shortest wavelengths
 What is modal dispersion? | The spreading of a pulse because light that enters the fibre at different angles takes paths of different lengths, so parts of the pulse take different times to arrive
-The spreading of a pulse because light entering a fibre at different angles takes paths of different lengths — what term is this? | Modal dispersion
+The spreading of a pulse because light entering a fibre at different angles takes paths of different lengths - what term is this? | Modal dispersion
 Why is modal dispersion more prominent in a fibre with a wider core? | A wider core allows more paths with different angles, increasing the variation in number of reflections and path lengths
 What is absorption in an optical fibre? | The fibre material absorbs part of the signal's energy, reducing the amplitude and potentially causing loss of transmitted information
 What effect does pulse broadening have on signal quality? | Adjacent pulses can overlap and merge, so information is lost and the maximum rate of data transfer is limited

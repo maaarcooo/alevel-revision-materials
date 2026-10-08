@@ -1,5 +1,5 @@
 What is diffraction? | The spreading out of waves after they pass through a narrow gap or around an obstruction
-The spreading out of waves after they pass through a narrow gap or around an obstruction — what term is this? | Diffraction
+The spreading out of waves after they pass through a narrow gap or around an obstruction - what term is this? | Diffraction
 When are diffraction effects most noticeable? | When the wavelength of the wave and the width of the gap are similar in size
 Why are very narrow slits needed to diffract light noticeably? | The wavelength of visible light is very small (about $10^{-7}$ m), and the gap must be of a similar size
 What produces the bright fringes in a single slit diffraction pattern? | Constructive interference of each part of the wavefront as it passes through the slit

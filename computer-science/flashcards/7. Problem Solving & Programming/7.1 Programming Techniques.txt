@@ -11,11 +11,11 @@ Why can the condition number < 0 AND number > 100 never be true? | No number is 
 What are the three programming constructs? | Sequence, iteration and branching (selection)
 What does a programming construct determine? | The order in which lines of code are executed
 What is sequence? | Executing instructions one after another, in the order they are written
-Instructions are executed one after another, in the order they are written — which programming construct is this? | Sequence
+Instructions are executed one after another, in the order they are written - which programming construct is this? | Sequence
 What is branching (selection)? | Testing a condition and using the outcome to decide which block of code runs next
-A condition is tested and the outcome decides which block of code runs next — which programming construct is this? | Branching (selection)
+A condition is tested and the outcome decides which block of code runs next - which programming construct is this? | Branching (selection)
 What is iteration? | Repeating a block of code using a loop
-A block of code is repeated using a loop — which programming construct is this? | Iteration
+A block of code is repeated using a loop - which programming construct is this? | Iteration
 What are the two types of selection statement? | if...elseif...else and switch...case
 When is a switch/case statement preferred over if/elseif/else? | When one expression is compared against several possible constant values
 What does the default case do in a switch/case statement? | Runs if none of the other cases match the expression
@@ -23,9 +23,9 @@ Why might if/elseif/else be needed instead of switch/case? | It can test ranges 
 Which keywords show that code uses selection? | if (with elseif and else) and switch (with case)
 Which keywords show that code uses iteration? | for, while and do
 What is count-controlled iteration? | A loop that repeats a fixed number of times, e.g. a for loop
-A loop that repeats a fixed number of times — what type of iteration is this? | Count-controlled iteration
+A loop that repeats a fixed number of times - what type of iteration is this? | Count-controlled iteration
 What is condition-controlled iteration? | A loop that repeats until a condition is met, e.g. a while loop or a do...until loop
-A loop that repeats until a condition is met — what type of iteration is this? | Condition-controlled iteration
+A loop that repeats until a condition is met - what type of iteration is this? | Condition-controlled iteration
 When is a while loop used instead of a for loop? | When the number of iterations is not known in advance
 When does a while loop check its condition? | Before each iteration, so the body may never run
 When does a do...until loop check its condition? | After each iteration, so the body always runs at least once
@@ -33,7 +33,7 @@ In OCR pseudocode, when does a do...until loop stop? | When its condition become
 How many times does the following loop body run: for i = 0 to 5? | 6, because both 0 and 5 are included
 How do you calculate the total number of times the body of an inner loop runs in nested loops? | Multiply the number of outer loop iterations by the number of inner loop iterations
 What is recursion? | When a subroutine calls itself during its execution, until a stopping condition is met
-A subroutine calls itself during its execution — what technique is this? | Recursion
+A subroutine calls itself during its execution - what technique is this? | Recursion
 What three features must a recursive subroutine have? | A stopping condition (base case), a call to itself for any other input, and a stopping condition that is reached after a finite number of calls
 What is the base case of a recursive subroutine? | The condition under which it returns a result without calling itself again
 What happens if a recursive subroutine never reaches its base case? | It keeps calling itself until the call stack runs out of memory, causing a stack overflow that crashes the program
@@ -51,9 +51,9 @@ Give one advantage of iteration over recursion | There is no call stack overhead
 When a recursive subroutine is rewritten iteratively, what replaces the recursive call? | A loop, in which variables are updated the same way the parameters changed between calls
 What is the scope of a variable? | The section of code in which the variable can be accessed
 What is a local variable? | A variable declared inside a subroutine, which can only be accessed within that subroutine
-A variable that can only be accessed within the subroutine in which it was declared — what type of variable is this? | Local variable
+A variable that can only be accessed within the subroutine in which it was declared - what type of variable is this? | Local variable
 What is a global variable? | A variable declared in the main program, which can be accessed from any part of the program
-A variable that can be accessed from any part of the program — what type of variable is this? | Global variable
+A variable that can be accessed from any part of the program - what type of variable is this? | Global variable
 How is a variable made global in OCR pseudocode? | With the global keyword, e.g. global userid = 123
 When is the memory used by a local variable freed? | When the subroutine it was declared in ends
 How long does a global variable stay in memory? | Until the program ends
@@ -65,16 +65,16 @@ Give one benefit of using a global variable instead of passing a parameter | The
 State one drawback of using local variables | Data needed by another subroutine has to be passed as a parameter or handled as a return value, which makes the program more complex to write
 How can a subroutine use a value without relying on a global variable? | The value is passed in as a parameter and the result is passed back as a return value
 What is modular programming? | Splitting a large program into smaller, self-contained modules, each of which carries out one task
-A large program is split into smaller, self-contained modules that each carry out one task — what technique is this? | Modular programming
+A large program is split into smaller, self-contained modules that each carry out one task - what technique is this? | Modular programming
 What is a subroutine? | A named block of code that performs a specific task and can be called whenever it is needed
 How does a function differ from a procedure? | A function always returns a value, while a procedure does not
 Give three benefits of modular programming | Modules can be tested individually, reused in other programs, and shared out between the members of a team
 What is a parameter? | A variable in a subroutine's definition that receives a value passed in when the subroutine is called
 What is an argument? | The actual value passed to a subroutine when it is called
 What happens when a parameter is passed by value? | A copy of the value is given to the subroutine, so changes made inside it do not affect the original
-A copy of the value is given to the subroutine and discarded when the subroutine ends — which parameter passing method is this? | Passing by value
+A copy of the value is given to the subroutine and discarded when the subroutine ends - which parameter passing method is this? | Passing by value
 What happens when a parameter is passed by reference? | The address of the value is given to the subroutine, so changes made inside it change the original
-The address of the value is given to the subroutine, so the original can be changed — which parameter passing method is this? | Passing by reference
+The address of the value is given to the subroutine, so the original can be changed - which parameter passing method is this? | Passing by reference
 How is the parameter passing method shown in OCR pseudocode? | byVal or byRef after the parameter name, e.g. function multiply(x:byVal, y:byRef)
 In an OCR exam, how are parameters passed unless stated otherwise? | By value
 x = 5 and procedure addOne(n:byVal) runs n = n + 1. What is x after addOne(x)? | 5, because only the copy was changed
@@ -84,21 +84,21 @@ Why is passing by reference more efficient for a large data structure? | No copy
 Why must an array be passed by reference to a procedure that updates it? | A procedure cannot return the updated array, so the changes must be made to the original for them to be kept when it ends
 Why can passing by reference cause unexpected side effects? | The subroutine changes the original data, which other parts of the program may rely on
 What is an IDE? | A program that provides a set of tools to make it easier to write, develop and debug code
-A program that provides a set of tools to make it easier to write, develop and debug code — what is this? | An Integrated Development Environment (IDE)
+A program that provides a set of tools to make it easier to write, develop and debug code - what is this? | An Integrated Development Environment (IDE)
 What is syntax highlighting? | Showing keywords, strings, comments and other parts of the code in different colours, which makes code easier to read and mistakes easier to spot
 What does autocomplete do in an IDE? | Suggests the rest of a keyword, variable name or subroutine name as it is typed, and closes brackets automatically
 What does auto-indent do in an IDE? | Indents new lines inside a block automatically, which shows the structure of selection and iteration
 What do error diagnostics show in an IDE? | The errors found when the code is translated or run, with the line number and a description of each
 What is a breakpoint? | A point set in the code at which execution pauses, so the state of the program can be inspected
-A point set in the code at which execution pauses so the program's state can be inspected — what IDE feature is this? | Breakpoint
+A point set in the code at which execution pauses so the program's state can be inspected - what IDE feature is this? | Breakpoint
 What is stepping? | Executing the program one line at a time to see the effect of each line
-The program is executed one line at a time to see the effect of each line — what IDE feature is this? | Stepping
+The program is executed one line at a time to see the effect of each line - what IDE feature is this? | Stepping
 What does a variable watch show? | How the contents of chosen variables change as the program runs
 What is a crash dump (post-mortem report)? | A record of the program's state and memory contents at the moment it crashed, used to find the cause
 What does the stack contents tool show? | The subroutines that have been called, in order, with the parameters and local variables of each
 Which three IDE features are used together to trace a logic error? | A breakpoint to pause near the fault, stepping to run line by line, and a variable watch to see values change
 What is information hiding? | Protecting data from being changed accidentally by other parts of the program, by restricting access to it
-Data is protected from accidental change by restricting access to it — what principle is this? | Information hiding
+Data is protected from accidental change by restricting access to it - what principle is this? | Information hiding
 Which object-oriented technique implements information hiding? | Encapsulation: attributes are made private and can only be accessed through public methods
 What principle do top-down design and encapsulation share? | Each component, whether a module or an object, is self-contained and hides its internal details
 What is run-time (dynamic) polymorphism? | The version of an overridden method that runs is chosen while the program is running, from the actual class of the object

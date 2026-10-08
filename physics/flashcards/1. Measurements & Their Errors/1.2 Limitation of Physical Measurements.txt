@@ -1,5 +1,5 @@
 What is the uncertainty in a measurement? | The interval within which the true value can be expected to lie, e.g. $20 \pm 2\;^{\circ}\mathrm{C}$
-The interval within which the true value of a measurement can be expected to lie — what term is this? | Uncertainty
+The interval within which the true value of a measurement can be expected to lie - what term is this? | Uncertainty
 What are random errors? | Errors that make readings vary unpredictably from one measurement to the next, scattering them above and below the true value
 Which property of measurements do random errors affect? | Precision: they cause a wider spread of results about the mean value
 How can random errors be reduced? | Repeat measurements several times and calculate an average from them
@@ -17,18 +17,18 @@ What is a zero error? | A type of systematic error where an instrument gives a n
 How is the zero error of a micrometer found and corrected? | Close the jaws with nothing between them and note the reading, then subtract it from every measurement
 Why is a micrometer closed with the ratchet and not the thimble? | The ratchet slips at a set force, so the object is not squashed and every reading is taken with the same force
 What is precision? | How close repeated measurements are to each other (how little spread there is about the mean value)
-How close repeated measurements are to each other — what term is this? | Precision
+How close repeated measurements are to each other - what term is this? | Precision
 What is accuracy? | How close a measurement is to the true value
-How close a measurement is to the true value — what term is this? | Accuracy
+How close a measurement is to the true value - what term is this? | Accuracy
 How can a set of measurements be precise but not accurate? | The readings are close together, but all are shifted from the true value by the same systematic error
 Readings are widely spread but their mean is close to the true value. How are they described? | Accurate but not precise
 What does precision tell you about the errors in a set of measurements? | Only the size of the random errors. It gives no indication of how close the results are to the true value
 What does it mean for a measurement to be repeatable? | The original experimenter repeats the investigation using the same method and equipment and obtains the same results
-The original experimenter repeats the investigation using the same method and equipment and obtains the same results — what term is this? | Repeatable
+The original experimenter repeats the investigation using the same method and equipment and obtains the same results - what term is this? | Repeatable
 What does it mean for a measurement to be reproducible? | The investigation is repeated by another person, or using different equipment or techniques, and the same results are obtained
-The investigation is repeated by another person, or using different equipment or techniques, and the same results are obtained — what term is this? | Reproducible
+The investigation is repeated by another person, or using different equipment or techniques, and the same results are obtained - what term is this? | Reproducible
 What is the resolution of a measuring instrument? | The smallest change in the quantity being measured that gives a perceptible change in the reading
-The smallest change in the quantity being measured that gives a perceptible change in the reading — what term is this? | Resolution
+The smallest change in the quantity being measured that gives a perceptible change in the reading - what term is this? | Resolution
 How does an uncertainty differ from an error? | An error is the difference between a reading and the true value. An uncertainty is an estimate of the range in which the true value lies
 What is absolute uncertainty? | Uncertainty given as a fixed quantity in the same units as the measurement, denoted by $\Delta$
 What is fractional uncertainty? | $\text{Fractional uncertainty} = \frac{\text{uncertainty}}{\text{measured value}}$

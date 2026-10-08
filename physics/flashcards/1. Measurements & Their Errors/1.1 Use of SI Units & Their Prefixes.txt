@@ -6,7 +6,7 @@ What is the SI base unit of electric current? | ampere (A)
 What is the SI base unit of temperature? | kelvin (K)
 What is the SI base unit of amount of substance? | mole (mol)
 What are derived units? | Units that are derived from combinations of the seven SI base units
-Units that are derived from combinations of the seven SI base units — what term is this? | Derived units
+Units that are derived from combinations of the seven SI base units - what term is this? | Derived units
 How do you find the SI base units of a derived unit? | Write the defining equation of the quantity, replace each quantity with its base units, and simplify
 What is the newton (N) expressed in SI base units? | $\mathrm{kg\,m\,s^{-2}}$
 What is the joule (J) expressed in SI base units? | $\mathrm{kg\,m^{2}\,s^{-2}}$
@@ -27,7 +27,7 @@ What power of ten does the prefix femto (f) represent? | $10^{-15}$
 Express 7 nC in coulombs in standard form | $7 \times 10^{-9}$ C
 Express 9 G$\Omega$ in ohms in standard form | $9 \times 10^{9}\;\Omega$
 What is one electronvolt (eV)? | The energy gained by an electron moving through a potential difference of 1 V, equal to $1.6 \times 10^{-19}$ J
-The energy gained by an electron moving through a potential difference of 1 V — what quantity is this? | Electronvolt (eV)
+The energy gained by an electron moving through a potential difference of 1 V - what quantity is this? | Electronvolt (eV)
 How do you convert joules to electronvolts? | Divide by $1.6 \times 10^{-19}$
 How do you convert electronvolts to joules? | Multiply by $1.6 \times 10^{-19}$
 Convert $2.176 \times 10^{-18}$ J to electronvolts | $\frac{2.176 \times 10^{-18}}{1.6 \times 10^{-19}} = 13.6$ eV
@@ -35,9 +35,8 @@ Convert 76 MeV to joules | $76 \times 10^{6} \times 1.6 \times 10^{-19} = 1.2 \t
 How many joules are in 1 kilowatt-hour? | $3.6 \times 10^{6}$ J (3.6 MJ)
 Why is 1 kW h equal to $3.6 \times 10^{6}$ J? | $1000\;\mathrm{W} \times 3600\;\mathrm{s} = 3.6 \times 10^{6}$ J, since 1 W is $1\;\mathrm{J\,s^{-1}}$
 How do you convert joules to kilowatt-hours? | Divide by $3.6 \times 10^{6}$
-How do you convert kilowatt-hours to joules? | Multiply by $3.6 \times 10^{6}$
 What is an order of magnitude? | The power of ten nearest to a quantity
-The power of ten nearest to a quantity — what is this called? | Order of magnitude
+The power of ten nearest to a quantity - what is this called? | Order of magnitude
 What is the order of magnitude of $6 \times 10^{8}$? | $10^{9}$ (the coefficient rounds up because $6 \geq 5$)
 By what factor is a quantity larger when it is one order of magnitude greater? | About 10 times
 How many orders of magnitude larger is a galaxy ($\sim 10^{21}$ m wide) than an atom ($\sim 10^{-10}$ m)? | 31, so the galaxy is about $10^{31}$ times wider

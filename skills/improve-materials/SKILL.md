@@ -37,12 +37,14 @@ These add to the card style rules in `skills/flashcard-generator/SKILL.md`, whic
 - One card per line, `Question | Answer`, with exactly one pipe on the line and a space on each side. No blank lines. The file ends with a newline.
 - Maths in LaTeX between dollar signs. Write a modulus as `\lvert x \rvert`, never with pipe characters.
 - Cards follow the order of the specification.
-- A reverse card has the form `<definition> — what term is this? | <term>` and sits directly after the definition it reverses. Only key terms get one.
+- A reverse card has the form `<definition> - what term is this? | <term>` and sits directly after the definition it reverses. Only key terms get one. A law, a principle, an Act or a description of when something happens is never reversed.
 - A list answer has at most three items. Split longer lists.
 - No yes/no or true/false answers, and no fill-in-the-blank cards.
 - Bundle or split, not both: a card that only restates two neighbouring cards is removed.
-- No em dashes in answers. Use a colon or a comma.
-- Put a worked card (a calculation, a trace, a scenario) directly after the fact it applies. Check the arithmetic.
+- No em dashes or semicolons on a card. Use a comma, a colon, or two sentences.
+- Put a worked card (a calculation, a trace, a scenario) directly after the fact it applies. Check the arithmetic. Each main equation candidates calculate with has one single-step worked card.
+- No card for rearranging an equation that already has a card.
+- No card for the value of a constant the exam supplies. For Physics that is everything under "Fundamental constants and values" on AQA's data and formulae sheet ($c$, $e$, $h$, $g$, $R$, $k$, $N_A$, the particle masses and specific charges, the atomic mass unit) and the rest energies in its particle table, along with values a question gives, such as the specific heat capacity of water. Equations on the sheet keep their cards, because candidates are expected to use them fluently, and so do the quark and lepton properties.
 
 ## One deck owns each idea
 
@@ -90,6 +92,9 @@ Settled owners for ideas that cross topics:
 | Hooke's law and elastic strain energy | 4.7 |
 | Thermistors | 5.2 |
 | The potential divider | 5.3 |
+| Why an ideal gas has no potential energy, $Q = mc\Delta\theta$ and the units of $\Delta\theta$ | 6.4 |
+| The gas constants and $k = \frac{R}{N_A}$ | 6.5 |
+| The internal energy of an ideal gas, how gas molecules exert a pressure | 6.6 |
 
 When a new overlap turns up, settle it by the specification, move the definition to the owner, and add the row here.
 

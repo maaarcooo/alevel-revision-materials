@@ -3,6 +3,63 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-08: card rules brought up to date, and thermal physics added
+
+Every deck was checked against the current card rules (flashcard-generator v3.10, the
+rules tuned as the NeuroCards generation prompt). Physics now has 1510 cards in 27 decks
+and Computer Science has 1952.
+
+**New decks**
+
+- Physics 6.4 Thermal Energy Transfer, 6.5 Ideal Gases and 6.6 Molecular Kinetic Theory
+  Model, generated from the notes for those sections and then edited to the current
+  rules. They have no revision notes yet.
+
+**Punctuation**
+
+- Reverse cards are written `<definition> - what term is this?`, with a hyphen where
+  there was an em dash (272 cards).
+- Semicolons in answers became full stops, colons or commas (91 answers). Code that
+  needs its semicolons keeps them.
+
+**Facts corrected**
+
+- Physics 6.4: mean molecular kinetic energy is proportional to absolute temperature.
+  The old answer said temperature.
+- Physics 6.5: the temperature of a gas is related to the average kinetic energy of its
+  molecules. The old answer said average speed.
+- Physics 6.5: the Boyle's law graph of $p$ against $1/V$ confirms the law when it is a
+  straight line through the origin. The old answer said a straight line.
+- Computer Science 1.1: the width of the address bus determines the number of
+  addressable locations, $2^n$ for $n$ bits. The old card and the note said proportional.
+- Computer Science 2.2: semantic analysis detects errors in meaning. The old card and
+  the note called them logic errors.
+
+**Removed**
+
+- Values the exam supplies: the constants on AQA's data and formulae sheet (Physics 2.1:
+  $e$, $h$, the particle masses, specific charges and rest energies; 6.5: $R$ and $k$)
+  and values a question gives (6.4: the specific heat capacity and latent heats of
+  water). Equations on the sheet keep their cards.
+- Reverse cards for laws, principles and Acts: Newton's laws, Ohm's law, Kirchhoff's
+  laws, the gas laws, the principles of moments, superposition and conservation of
+  momentum, De Morgan's law, and the four Acts in Computer Science 5.1.
+- Cards that only rearrange an equation that has a card (Physics 2.4, 3.3 and 5.1).
+- Repeats of another card (Physics 1.1, 4.3, 6.4, 6.5 and 6.6, Computer Science 4.2),
+  and the named-scientist history cards in Physics 6.6, which the specification does
+  not ask for.
+
+**Added**
+
+- A single-step worked card for each main equation that had none: 15 in Physics topics
+  2 to 5, 7 in topic 6, and 7 binary and address-bus calculations in Computer Science.
+
+**Reworded**
+
+- Conditions moved into the question where the answer depends on them: photoelectric
+  current against intensity (fixed frequency above the threshold), $W = p\Delta V$
+  (constant pressure), and the energy balance for mixing (no energy lost).
+
 ## 2026-10-05: mark-scheme pass, the remaining topics
 
 The same comparison was carried out for Physics topics 1, 4 and 5 (AQA AS papers 2016

@@ -1,7 +1,7 @@
 # A-Level Revision Materials
 
 Flashcards and revision notes for **OCR A-Level Computer Science** (H446) and
-**AQA A-Level Physics** (AS topics 1 to 5).
+**AQA A-Level Physics** (AS topics 1 to 5, and thermal physics from topic 6).
 
 There is one copy of each deck and each note. They are improved in place, so there are
 no version numbers in file or folder names. The history is in git, and
@@ -16,10 +16,11 @@ anything important against the official specification.
 
 | Subject | Decks | Cards | Notes |
 |---------|------:|------:|------:|
-| Computer Science (OCR H446, topics 1 to 8) | 26 | 1951 | 26 |
-| Physics (AQA, AS topics 1 to 5) | 24 | 1316 | 24 |
+| Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
+| Physics (AQA, AS topics 1 to 5, and 6.4 to 6.6) | 27 | 1510 | 24 |
 
-Each subtopic has one flashcard deck and one note with the same name.
+Each subtopic has one flashcard deck and one note with the same name. The three topic 6
+decks (6.4 to 6.6) have no notes yet.
 
 ## Layout
 
@@ -47,7 +48,8 @@ Question | Answer
 
 - The only pipe on a line is the separator, with a space on each side.
 - Maths is written in LaTeX between dollar signs, e.g. `$E_k = \frac{1}{2}mv^2$`.
-- A reverse card (`<definition> — what term is this? | <term>`) directly follows the
+- No card contains an em dash or a semicolon.
+- A reverse card (`<definition> - what term is this? | <term>`) directly follows the
   definition it reverses.
 
 Import a deck into Anki with File > Import and "Fields separated by: Pipe", or into any

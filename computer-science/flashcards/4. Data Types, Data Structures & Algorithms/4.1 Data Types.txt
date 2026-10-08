@@ -1,29 +1,31 @@
 What is a data type? | A classification of data that determines what kind of values it can hold and which operations can be performed on it
 What is an integer data type? | A whole number, either positive or negative, with no fractional part. Useful for counting
-A whole number with no fractional part — what data type is this? | Integer
+A whole number with no fractional part - what data type is this? | Integer
 What is a real (floating point) data type? | A number that can, but does not necessarily, have a fractional part. Useful for measuring
-A number that can have a fractional part, positive or negative — what data type is this? | Real (floating point)
+A number that can have a fractional part, positive or negative - what data type is this? | Real (floating point)
 What is a character data type? | A single symbol such as a letter, digit, or symbol (e.g. 'A', '7', '%')
-A single symbol such as a letter, digit, or symbol — what data type is this? | Character
+A single symbol such as a letter, digit, or symbol - what data type is this? | Character
 What is a string data type? | A collection (sequence) of characters, useful for storing text and data like phone numbers that must preserve leading zeros
-A collection of characters — what data type is this? | String
+A collection of characters - what data type is this? | String
 What is a Boolean data type? | A data type restricted to one of two values: True or False. Useful for recording states that can only be one of two things
-A data type restricted to True or False — what data type is this? | Boolean
+A data type restricted to True or False - what data type is this? | Boolean
 What is casting? | Converting a value from one data type to another (e.g. string to integer)
-Changing one data type to another — what is this process called? | Casting
+Changing one data type to another - what is this process called? | Casting
 Why is casting often necessary for user input? | User input is typically received as a string, so it must be cast to a numerical type (integer or real) before arithmetic or numerical comparisons can be performed
 What happens when a real value such as 5.7 is cast to an integer? | The fractional part is truncated, giving 5
 Why do computers use binary to store data? | Computers are made up of circuits and switches that are either on (1) or off (0), so binary (base 2) maps directly to their physical design
 What is a bit? | The smallest unit of digital information, representing either a 0 (off) or a 1 (on)
-The smallest unit of digital information — what is this called? | A bit
+The smallest unit of digital information - what is this called? | A bit
 What is a byte? | A group of 8 bits
 What is a nibble (nybble)? | A group of 4 bits (half a byte)
 What is the most significant bit (MSB)? | The bit furthest to the left in a binary number, with the highest place value
 What is the least significant bit (LSB)? | The bit furthest to the right in a binary number, with the lowest place value ($2^0 = 1$)
 How do you convert an unsigned binary number to denary? | Multiply each bit by its column place value ($2^n$) and sum all the results
+Convert the unsigned binary number 10110110 to denary | 128 + 32 + 16 + 4 + 2 = 182
 How do you convert a denary number to unsigned binary? | Starting from the highest power of 2, place a 1 if the place value is less than or equal to the remaining value (then subtract it), otherwise place a 0
+Convert denary 77 to 8-bit unsigned binary | 01001101 (64 + 8 + 4 + 1)
 What is the maximum value of an 8-bit unsigned binary number? | 255 ($2^8 - 1$)
-What is the difference between unsigned and signed binary? | Unsigned represents only positive values (0 upward); signed can represent both positive and negative values
+What is the difference between unsigned and signed binary? | Unsigned represents only positive values (0 upward). Signed can represent both positive and negative values
 What are the two methods for representing negative numbers in binary at A Level? | Sign and magnitude, and two's complement
 How does sign and magnitude representation work? | The MSB is a sign bit (0 = positive, 1 = negative) and the remaining bits represent the magnitude of the number
 How do you convert a sign and magnitude binary number to denary? | Note the MSB for the sign, discard it, convert the remaining bits to denary as normal, then apply the sign
@@ -32,16 +34,17 @@ What is the consequence of using a sign bit in sign and magnitude? | The maximum
 How do you convert a positive denary number to its two's complement negative? | Write the positive number in binary, invert all the bits (flip 0s to 1s and 1s to 0s), then add 1
 What is -7 in 8-bit two's complement? | 11111001
 In 8-bit two's complement, what does the MSB represent? | A place value of $-128$
-How do you convert an 8-bit two's complement number to denary? | Assign $-128$ to the MSB and normal positive place values to the remaining bits; sum the place values of all bits set to 1
+How do you convert an 8-bit two's complement number to denary? | Assign $-128$ to the MSB and normal positive place values to the remaining bits. Sum the place values of all bits set to 1
 What is the range of an 8-bit two's complement number? | $-128$ to $+127$
 Why is two's complement preferred over sign and magnitude for arithmetic? | Two's complement allows subtraction to be performed using addition circuitry, making calculations simpler and less computationally intensive
 How many ways of representing zero do sign and magnitude and two's complement each have? | Sign and magnitude has two (positive and negative zero), while two's complement has only one
 What are the four rules of binary addition? | $0+0=0$, $0+1=1$, $1+1=10$ (0 carry 1), $1+1+1=11$ (1 carry 1)
+What is 0110 + 0111 in binary? | 1101 (6 + 7 = 13)
 What is an overflow error in binary addition? | When the result of adding two binary numbers exceeds the number of bits available, producing an incorrect or truncated result
 How can overflow affect signed binary arithmetic? | It can flip the sign bit, incorrectly changing the sign of the result (e.g. adding two positive numbers and getting a negative result)
 How is binary subtraction performed using two's complement? | Convert the number being subtracted to its two's complement (invert bits, add 1), then add it to the other number and discard any carry beyond the fixed bit width
 What is hexadecimal? | A base-16 number system using the digits 0-9 and letters A-F, where A=10, B=11, C=12, D=13, E=14, F=15
-A base-16 number system using digits 0-9 and letters A-F — what is this called? | Hexadecimal
+A base-16 number system using digits 0-9 and letters A-F - what is this called? | Hexadecimal
 Why is hexadecimal used instead of binary? | It is more concise (one hex digit represents 4 binary bits), easier for humans to read and write, and less error-prone when communicating values
 Give three uses of hexadecimal | Defining colours (hex colour codes), debugging and error codes, and representing memory addresses or MAC addresses
 How do you convert a binary number to hexadecimal? | Split the binary into nibbles (groups of 4 bits from right to left), then convert each nibble to its hexadecimal equivalent (0-F)
@@ -55,6 +58,7 @@ What is the exponent of a floating point number? | The part that says how far to
 Where is the binary point assumed to be in a normalised mantissa? | After the most significant bit (e.g. mantissa bits 01100 represent $0.1100$)
 How are both the mantissa and exponent stored in floating point? | In two's complement, so the MSB of the mantissa indicates sign (0 = positive, 1 = negative) and the exponent can be negative
 How do you convert a floating point binary number to denary? | Convert the exponent to denary, shift the mantissa's binary point by that many places (right if positive, left if negative), then convert the resulting fixed-point binary to denary
+A floating point number has mantissa 01100 and exponent 011. What is it in denary? | 6: the exponent is 3, so 0.1100 becomes 110.0
 What does it mean for a floating point number to be normalised? | The mantissa begins with 01 (for positive numbers) or 10 (for negative numbers), maximising the use of available bits for precision
 Why are floating point numbers normalised? | To ensure maximum precision in a given number of bits and to provide a consistent, unambiguous representation
 How do you normalise a positive floating point number? | Shift the mantissa left until it starts with 01, reducing the exponent by 1 for each place shifted
@@ -67,13 +71,15 @@ After adding or subtracting floating point mantissas, what must be done? | Check
 How is floating point subtraction performed? | Align the exponents, convert the mantissa being subtracted to two's complement, then add the mantissas and normalise the result
 What is a logical shift? | Moving all bits in a binary number a specified number of positions to the left or right, filling vacated positions with zeros
 What is the effect of a logical shift left by $n$ places? | It multiplies the number by $2^n$ (each single shift doubles the value)
+What is 00010110 after a logical shift left of 2 places? | 01011000, so 22 becomes 88
 What is the effect of a logical shift right by $n$ places? | It divides the number by $2^n$ using integer division (each single shift halves the value)
 What is a mask in bitwise manipulation? | A binary number combined with another binary value using a bitwise operation (AND, OR, or XOR) to isolate, set, clear, or toggle specific bits
-How does a bitwise AND operation work? | The result is 1 only where both input bits are 1; otherwise the result is 0. Used to extract or clear specific bits
-How does a bitwise OR operation work? | The result is 1 where either input bit (or both) is 1; the result is 0 only where both input bits are 0. Used to set specific bits to 1
-How does a bitwise XOR operation work? | The result is 1 where the two input bits differ; the result is 0 where they are the same. Used to toggle (flip) specific bits
+How does a bitwise AND operation work? | The result is 1 only where both input bits are 1. Otherwise the result is 0. Used to extract or clear specific bits
+What is the result of 10110110 AND 00001111? | 00000110, which keeps only the lower nibble
+How does a bitwise OR operation work? | The result is 1 where either input bit (or both) is 1. The result is 0 only where both input bits are 0. Used to set specific bits to 1
+How does a bitwise XOR operation work? | The result is 1 where the two input bits differ. The result is 0 where they are the same. Used to toggle (flip) specific bits
 What is a character set? | A standardised collection of characters and their associated unique binary codes, ensuring consistent interpretation across systems
-A standardised list of characters and their associated binary codes — what is this called? | A character set
+A standardised list of characters and their associated binary codes - what is this called? | A character set
 What does ASCII stand for? | American Standard Code for Information Interchange
 How many bits does standard ASCII use, and how many characters can it represent? | 7 bits, representing $2^7 = 128$ distinct characters
 What ASCII code range represents uppercase A-Z? | 65 to 90

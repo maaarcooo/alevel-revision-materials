@@ -1,5 +1,5 @@
 What is an array? | An ordered, static set of elements of a single data type
-An ordered, static set of elements of a single data type — what data structure is this? | Array
+An ordered, static set of elements of a single data type - what data structure is this? | Array
 What does it mean for an array to be zero-indexed? | The first element is at position 0
 Why are many values stored in an array instead of in separate variables? | All the values share one identifier and are reached by index, so they can be processed in a loop and passed as a single parameter
 How is an element of a 1D array accessed? | With the array name followed by the index in square brackets, e.g. scores[3]
@@ -8,7 +8,7 @@ In what order do you navigate a 2D array to locate an element? | Down the rows f
 How can a 3D array be visualised? | As a multi-page spreadsheet, or multiple 2D arrays
 What three indices are needed to access an element in a 3D array? | The array index, the row index, and the column index
 What is a record? | A data structure that groups related fields, which may have different data types, under one identifier. Each row of a database table is a record
-A data structure that groups related fields of different data types under one identifier — what is this? | A record
+A data structure that groups related fields of different data types under one identifier - what is this? | A record
 How is a field of a record accessed in pseudocode? | Using dot notation: recordName.fieldName
 How is a record type declared in pseudocode? | TypeName = record, then each field with its data type, then end record
 What is a list? | A data structure made up of a number of ordered items, in which an item can occur more than once
@@ -23,13 +23,13 @@ What does index(value) return for a list? | The position of the item in the list
 What does insert(position, value) do to a list? | Inserts a value at the given position in the list
 What does length() return for a list? | The number of items in the list
 What is a tuple? | An ordered, immutable set of values of any type
-An ordered, immutable set of values of any type — what data structure is this? | A tuple
+An ordered, immutable set of values of any type - what data structure is this? | A tuple
 What brackets are used to initialise a tuple? | Round brackets, e.g. (1, 2, 3)
 What does it mean for a tuple to be immutable? | Elements cannot be added, removed, or changed once the tuple has been created
 What happens if you attempt to modify a value in a tuple? | An error occurs, because a tuple cannot be changed once it has been created
 When is a record the appropriate data structure? | When grouping related data that forms a single entity with different fields, such as a contact in an address book
 What is a linked list? | A dynamic data structure used to hold an ordered sequence, where each item (node) contains a data field and a pointer to the next node
-A dynamic data structure where each node contains a data field and a pointer to the next node — what is this? | A linked list
+A dynamic data structure where each node contains a data field and a pointer to the next node - what is this? | A linked list
 What two fields does each node in a linked list contain? | A data field (the stored value) and a pointer field (the address of the next node)
 What two pointers does a linked list maintain alongside the nodes? | A Start pointer (index of the first item) and a NextFree pointer (index of the next available space)
 How is the end of a linked list identified during traversal? | When the pointer field is empty or null
@@ -37,11 +37,11 @@ How is a linked list traversed? | Start at the node given by the Start pointer, 
 Describe the steps to add a node to a linked list | Check there is free memory, place the new value at the NextFree position, update the preceding node's pointer to the new node, update the new node's pointer to the next item, and update NextFree
 How is a node removed from a linked list? | Update the preceding node's pointer to bypass the deleted node and point directly to the node after it
 What is the advantage of a linked list when adding or removing items? | Only pointers need to be changed, so no other items have to be moved
-Why does removing a node from a linked list waste memory? | The node is not truly deleted; it remains in memory but is ignored because no pointer references it
+Why does removing a node from a linked list waste memory? | The node is not truly deleted. It remains in memory but is ignored because no pointer references it
 Why can items in a linked list not be directly accessed by index? | Items are connected by pointers and can only be reached by traversing from the start node through each pointer in sequence
 Why does a linked list require more memory per item than an array? | Each node must store a pointer in addition to the data
 What is a stack? | A last in first out (LIFO) data structure where items can only be added to or removed from the top
-A last in first out (LIFO) data structure — what is this? | A stack
+A last in first out (LIFO) data structure - what is this? | A stack
 Give two uses of stacks in computing | Undo functionality in applications and navigating back a page in web browsers
 What pointer does a stack use? | A top pointer, which points to the position at the top of the stack where data will be added or removed
 What does the stack operation push(value) do? | Adds a new value to the top of the stack, after checking the stack is not full
@@ -57,7 +57,7 @@ What happens to the top pointer when an item is popped from a stack? | It is dec
 Why might data still be in memory after it has been popped from a stack? | Popping only moves the top pointer down, so the data remains until it is overwritten
 When are static stacks preferred over dynamic stacks? | When the maximum size required is known in advance, as they are easier to implement and make more efficient use of memory
 What is a queue? | A first in first out (FIFO) data structure where items are added to the back and removed from the front
-A first in first out (FIFO) data structure — what is this? | A queue
+A first in first out (FIFO) data structure - what is this? | A queue
 What two pointers does a queue use? | A front (head) pointer and a back (tail/rear) pointer
 What does enQueue(value) do? | Adds a new element to the back of the queue and increments the back pointer
 What does deQueue() do? | Removes and returns the element from the front of the queue and increments the front pointer
@@ -87,13 +87,12 @@ What is a weighted graph? | A graph where a value (weight) is assigned to each e
 Name two structures used to represent a graph in a computer | An adjacency matrix and an adjacency list
 What is an adjacency matrix? | A matrix of rows and columns used to represent a labelled graph, where values indicate edges between nodes
 What is an adjacency list? | A collection of unordered lists used to represent a finite graph, where each node stores a list of its neighbours
-In an adjacency matrix for an unweighted graph, what do 1 and 0 represent? | 1 means an edge exists between two nodes; 0 means no edge
+In an adjacency matrix for an unweighted graph, what do 1 and 0 represent? | 1 means an edge exists between two nodes. 0 means no edge
 What property does the adjacency matrix of an undirected graph have? | It is symmetric
 In a weighted adjacency matrix, what value represents the absence of an edge? | Infinity
 What is an advantage of an adjacency matrix over an adjacency list? | Quicker access times for checking whether an edge exists, and it is easy to add nodes
 What is an advantage of an adjacency list over an adjacency matrix? | More space efficient for large, sparse networks
 Name three applications of graphs in computing | Social networks, transport networks, and operating systems
-Give two differences between a graph and a tree | A graph can contain cycles and can be directed, while a tree has no cycles and has a parent-child hierarchy
 What is a breadth-first search of a graph? | A traversal that visits all neighbours of a vertex before moving to their neighbours, processing the graph layer by layer
 What data structure does a breadth-first search use? | A queue
 What is a depth-first search of a graph? | A traversal that follows a path as far as possible before backtracking to explore other paths
@@ -119,7 +118,7 @@ What order does post-order traversal follow? | Left subtree, right subtree, root
 In the outline method for post-order traversal, where is the dot placed? | On the right-hand side of each node
 How does breadth-first traversal of a tree work? | Begin at the root and output each level from left to right, moving down through each level in turn
 What is a binary search tree? | A binary tree where nodes are ordered so that left subtree values are less than the parent and right subtree values are greater
-A binary tree where left subtree values are less than the parent and right subtree values are greater — what is this? | A binary search tree
+A binary tree where left subtree values are less than the parent and right subtree values are greater - what is this? | A binary search tree
 Why is a binary search tree ordered? | To optimise searching
 Why is searching a binary search tree more efficient than searching a linked list? | Each comparison in a balanced tree discards half of the remaining values, whereas every item in a linked list may have to be checked
 What advantage does a binary search tree have over an array when new items are added? | Each item is inserted in its correct place, so the data stays in order without being re-sorted
@@ -129,7 +128,7 @@ How is a node with one child deleted from a binary search tree? | Replace the no
 How is a node with two children deleted from a binary search tree? | Replace it with the in-order successor (the minimum value in its right subtree), then delete the successor from its original position
 What is the in-order successor of a node in a binary search tree? | The smallest value in the node's right subtree
 What is a hash table? | An associative array coupled with a hash function that maps keys to indices in the table
-An associative array coupled with a hash function that maps keys to indices — what data structure is this? | A hash table
+An associative array coupled with a hash function that maps keys to indices - what data structure is this? | A hash table
 What is the role of a hash function in a hash table? | To map a key to an index in the hash table
 Why is the key stored alongside the data in a hash table? | So that when an item is retrieved, the stored key can be compared with the key being searched for
 What is a collision in a hash table? | When two different keys produce the same hash value

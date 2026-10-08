@@ -1,23 +1,23 @@
 What are energy levels? | Specific, discrete energy states that electrons in an atom can occupy
 Why do electrons occupy the lowest possible energy level? | This is the most stable configuration for the atom
 What is the ground state of an atom? | The lowest energy state of the atom, in which its electrons occupy the lowest energy levels they can
-The lowest energy state of an atom — what term is this? | The ground state
+The lowest energy state of an atom - what term is this? | The ground state
 Define excitation | When an electron absorbs enough energy to move up to a higher energy level
-When an electron absorbs enough energy to move up to a higher energy level — what term is this? | Excitation
+When an electron absorbs enough energy to move up to a higher energy level - what term is this? | Excitation
 What happens to an atom when one of its electrons is excited to a higher energy level? | The atom is said to be in an excited state
 How can an electron be excited to a higher energy level? | By absorbing a photon or through a collision with another electron
 Why must a photon have exactly the right energy to excite an atom, when a colliding electron only needs enough? | A photon is absorbed whole, so its energy must equal a level difference. A colliding electron transfers part of its kinetic energy and keeps the rest
 Define de-excitation | When an electron moves from a higher energy level to a lower one, emitting a photon
-When an electron moves from a higher energy level to a lower one, emitting a photon — what term is this? | De-excitation
+When an electron moves from a higher energy level to a lower one, emitting a photon - what term is this? | De-excitation
 Define ionisation | When an atom gains or loses an orbital electron and becomes charged
-When an atom gains or loses an orbital electron and becomes charged — what term is this? | Ionisation
+When an atom gains or loses an orbital electron and becomes charged - what term is this? | Ionisation
 What is the ionisation energy of an atom? | The minimum energy required to remove an electron from the ground state of the atom
-The minimum energy required to remove an electron from the ground state of an atom — what quantity is this? | Ionisation energy
+The minimum energy required to remove an electron from the ground state of an atom - what quantity is this? | Ionisation energy
 How does a beam of electrons ionise a gas atom? | A beam electron collides with an electron in the atom and transfers enough energy for that electron to leave, so the atom becomes a positive ion
 What is inside a fluorescent tube? | Low-pressure mercury vapour in a partially evacuated glass tube with a phosphor coating on the inside
 In a fluorescent tube, what happens when a high voltage is applied? | Electrons flow through the tube and collide with mercury atoms, transferring kinetic energy that excites electrons in the mercury atoms to higher energy levels
 In a fluorescent tube, what type of photons do mercury atoms emit when their electrons de-excite? | Ultraviolet (UV) photons
-What is the role of the phosphor coating in a fluorescent tube? | UV photons excite electrons in the phosphor atoms; as they de-excite in stages, they emit lower-energy visible light photons
+What is the role of the phosphor coating in a fluorescent tube? | UV photons excite electrons in the phosphor atoms. As they de-excite in stages, they emit lower-energy visible light photons
 Why does a fluorescent tube emit many more visible photons than ultraviolet photons? | Each ultraviolet photon absorbed by the coating can produce several lower-energy visible photons, because the electron de-excites in stages
 On an energy level diagram, what does the bottom line with the most negative energy represent? | The ground state
 On an energy level diagram, what does the top line at 0 eV represent? | The ionisation level
@@ -25,21 +25,21 @@ Why are the energy levels of an atom given negative values? | An electron that i
 What is the ground state energy of the hydrogen atom? | $-13.6$ eV
 How much energy is needed to ionise a hydrogen atom in its ground state? | 13.6 eV, the gap between $-13.6$ eV and 0
 What are line spectra? | Discrete wavelengths of light emitted or absorbed by excited atoms, observed as a series of lines with spaces between them
-These series of discrete spectral lines produced by excited atoms — what are they called? | Line spectra (or atomic spectra)
+These series of discrete spectral lines produced by excited atoms - what are they called? | Line spectra (or atomic spectra)
 Why can each element be identified by its line spectrum? | No two elements produce the same set of spectral lines, because each element has a unique set of energy levels
 How is an emission spectrum produced? | Electrons fall between discrete energy levels, each emitting a photon whose energy equals the difference between the levels, so only certain wavelengths are emitted
 What does an emission spectrum look like? | Coloured lines on a black background, each at a discrete wavelength
-How is an absorption spectrum produced? | White light passes through a cool, low-pressure gas; atoms absorb photons at wavelengths matching their energy level differences
+How is an absorption spectrum produced? | White light passes through a cool, low-pressure gas. Atoms absorb photons at wavelengths matching their energy level differences
 What does an absorption spectrum look like? | A continuous spectrum (all colours) with dark lines at specific wavelengths
 Why do dark lines appear in an absorption spectrum? | Absorbed photons are re-emitted in all directions rather than the original direction, so those wavelengths appear missing from the transmitted light
 How do the wavelengths of dark lines in an absorption spectrum relate to the emission spectrum of the same element? | They occur at the same wavelengths
 What evidence do line spectra provide about atomic structure? | That electrons in atoms can only occupy and transition between discrete energy levels
 What equation relates photon energy to the difference between two energy levels? | $hf = E_1 - E_2$, the difference between the two level energies
 What equation gives the wavelength of a photon from an energy level transition? | $\lambda = \frac{hc}{E_1 - E_2}$
-How does the energy difference between two levels relate to the wavelength of the photon? | Larger energy difference gives shorter wavelength; smaller energy difference gives longer wavelength
+How does the energy difference between two levels relate to the wavelength of the photon? | Larger energy difference gives shorter wavelength. Smaller energy difference gives longer wavelength
 An electron falls from the $-1.5$ eV level to the $-3.4$ eV level. What is the energy of the photon emitted, in joules? | $1.9 \times 1.6 \times 10^{-19} = 3.0 \times 10^{-19}$ J
 What is wave-particle duality? | The phenomenon where light and matter can behave both as waves and as particles
-Light and matter can behave both as waves and as particles — what is this phenomenon called? | Wave-particle duality
+Light and matter can behave both as waves and as particles - what is this phenomenon called? | Wave-particle duality
 What evidence shows that light behaves as a particle? | The photoelectric effect
 What evidence shows that light behaves as a wave? | Diffraction and interference (e.g. Young's double-slit experiment)
 Why does the wave theory of light fail to explain the photoelectric effect? | Wave theory predicts any frequency should cause emission given enough time and that kinetic energy should increase with intensity, but neither is observed
@@ -56,12 +56,12 @@ What is the de Broglie wavelength in terms of kinetic energy? | $\lambda = \frac
 What is the de Broglie wavelength of an electron moving at $2.0 \times 10^{6}\;\mathrm{m\,s^{-1}}$? | $\lambda = \frac{6.63 \times 10^{-34}}{9.11 \times 10^{-31} \times 2.0 \times 10^{6}} = 3.6 \times 10^{-10}$ m
 How is momentum related to kinetic energy? | $p = \sqrt{2mE}$
 How does increasing momentum affect the de Broglie wavelength? | Greater momentum gives a shorter de Broglie wavelength
-How does the de Broglie wavelength affect the radius of an electron diffraction pattern? | Longer wavelength gives a larger radius (more diffraction); shorter wavelength gives a smaller radius (less diffraction)
+How does the de Broglie wavelength affect the radius of an electron diffraction pattern? | Longer wavelength gives a larger radius (more diffraction). Shorter wavelength gives a smaller radius (less diffraction)
 For two particles accelerated through the same potential difference, how do their de Broglie wavelengths compare? | $\lambda \propto \frac{1}{\sqrt{m}}$, so the lighter particle has the longer de Broglie wavelength
 How can an observed electron diffraction pattern be used? | To deduce the crystal structure that produced the pattern
 Why are high-energy electrons used to investigate the size of an atomic nucleus? | They have a very short de Broglie wavelength, small enough to probe structures on the scale of a nucleus
 What is peer review? | The evaluation of scientific research by other expert scientists before publication in journals
-The evaluation of scientific research by other expert scientists before publication in journals — what is this process called? | Peer review
+The evaluation of scientific research by other expert scientists before publication in journals - what is this process called? | Peer review
 What three aspects must peer reviewers check? | Validity (appropriate method, errors addressed), originality (new results, prior work credited), and significance (important findings)
 Why should claims from non-peer-reviewed research be questioned? | The method, accuracy of results, or conclusions drawn may contain unchecked problems
 Why did the photon model replace the wave model of light for the photoelectric effect? | The wave model's predictions did not match the experimental evidence, so a new model was needed to explain it

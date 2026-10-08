@@ -1,5 +1,5 @@
 What are hadrons? | Subatomic particles made up of quarks that can feel the strong nuclear force
-Subatomic particles made up of quarks that can feel the strong nuclear force — what term is this? | Hadrons
+Subatomic particles made up of quarks that can feel the strong nuclear force - what term is this? | Hadrons
 What are the two classes of hadrons? | Baryons (three quarks) and mesons (a quark and anti-quark pair)
 What kind of charge do all hadrons have? | A whole-number multiple of $e$, e.g. $+1e$, $0$ or $-1e$
 What are the two most common baryons? | Protons and neutrons
@@ -40,7 +40,7 @@ What do kaons typically decay into? | Pions
 Give an example equation for kaon pair production | $p + p \rightarrow p + p + K^+ + K^-$
 Give an example equation for kaon decay | $K^0 \rightarrow \pi^+ + \pi^-$
 What are leptons? | Fundamental particles that are not made of quarks and do not feel the strong nuclear force
-Fundamental particles that are not made of quarks and do not feel the strong nuclear force — what term is this? | Leptons
+Fundamental particles that are not made of quarks and do not feel the strong nuclear force - what term is this? | Leptons
 Through which interactions do leptons interact? | The weak interaction and gravity, and the electromagnetic interaction if they are charged
 Name the two charged leptons at A-level | Electron ($e^-$) and muon ($\mu^-$)
 What are the two neutrinos at A-level? | Electron neutrino ($\nu_e$) and muon neutrino ($\nu_\mu$)
@@ -68,7 +68,7 @@ What is the quark composition of a neutron? | $udd$
 Show that the quarks in a proton give it a charge of $+1e$ | $uud$: $+\frac{2}{3} + \frac{2}{3} - \frac{1}{3} = +1$
 A particle has quark composition $uds$. What are its charge, baryon number and strangeness? | Charge 0, baryon number $+1$ and strangeness $-1$
 What is strangeness? | A quantum number: $S = -1$ for a strange quark, $S = +1$ for an anti-strange quark, $S = 0$ if neither is present
-A quantum number assigned based on whether a particle contains a strange or anti-strange quark — what is this? | Strangeness ($S$)
+A quantum number assigned based on whether a particle contains a strange or anti-strange quark - what is this? | Strangeness ($S$)
 In which interactions is strangeness conserved? | All interactions except the weak interaction
 By how much can strangeness change in a weak interaction? | By $0$, $+1$, or $-1$
 What defines a strange particle? | It contains a strange or anti-strange quark (e.g. kaons)

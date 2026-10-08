@@ -1,27 +1,27 @@
 Why is the electronvolt used in quantum physics? | Quantum energies are much smaller than 1 joule, so the electronvolt provides a more convenient unit
 What equation relates the kinetic energy gained by an electron accelerated from rest to the potential difference it travels through? | $eV = \frac{1}{2}mv^2$
-What is the equation for the speed of an electron accelerated from rest through a potential difference $V$? | $v = \sqrt{\frac{2eV}{m}}$
 What is the photoelectric effect? | The emission of electrons from the surface of a metal upon absorption of electromagnetic radiation
-The emission of electrons from the surface of a metal upon absorption of electromagnetic radiation — what phenomenon is this? | The photoelectric effect
+The emission of electrons from the surface of a metal upon absorption of electromagnetic radiation - what phenomenon is this? | The photoelectric effect
 What are photoelectrons? | Electrons emitted from a metal surface by the photoelectric effect
 What evidence does the photoelectric effect provide about the nature of light? | Light is quantised (carried in discrete packets), shown by the fact that each electron absorbs only a single photon
 What is the threshold frequency? | The minimum frequency of incident electromagnetic radiation required to remove a photoelectron from the surface of a metal
-The minimum frequency of incident electromagnetic radiation required to remove a photoelectron from the surface of a metal — what term is this? | Threshold frequency
+The minimum frequency of incident electromagnetic radiation required to remove a photoelectron from the surface of a metal - what term is this? | Threshold frequency
 What is the threshold wavelength? | The longest wavelength of incident electromagnetic radiation that would remove a photoelectron from the surface of a metal
-The longest wavelength of incident electromagnetic radiation that would remove a photoelectron from the surface of a metal — what term is this? | Threshold wavelength
+The longest wavelength of incident electromagnetic radiation that would remove a photoelectron from the surface of a metal - what term is this? | Threshold wavelength
 What determines the values of threshold frequency and threshold wavelength? | They are properties of the material and vary from metal to metal
 In what region of the electromagnetic spectrum do alkali metals (e.g. sodium, potassium) have their threshold frequencies? | The visible light region
 In what region of the electromagnetic spectrum do transition metals (e.g. zinc, iron) have their threshold frequencies? | The ultraviolet region
 What is the work function ($\Phi$) of a metal? | The minimum energy needed to remove an electron from the surface of the metal
-The minimum energy needed to remove an electron from the surface of a metal — what quantity is this? | The work function ($\Phi$)
+The minimum energy needed to remove an electron from the surface of a metal - what quantity is this? | The work function ($\Phi$)
 How many photons can a single electron absorb in the photoelectric effect? | One
 What happens to an electron that absorbs a photon with less energy than the work function? | It cannot escape, and the energy it gained is passed on to the metal
 What condition must a photon's energy meet for an electron to escape the metal surface? | The photon energy must be equal to or greater than the work function ($\Phi$)
 What is the stopping potential ($V_s$)? | The minimum potential difference needed to stop the most energetic photoelectrons, so that the photoelectric current falls to zero
-The minimum potential difference needed to stop the most energetic photoelectrons — what quantity is this? | The stopping potential ($V_s$)
+The minimum potential difference needed to stop the most energetic photoelectrons - what quantity is this? | The stopping potential ($V_s$)
 In a photoelectric experiment, what is the role of the emitter plate? | The metal plate that photons strike, causing photoelectrons to be emitted from its surface
 In a photoelectric experiment, what is the role of the collector plate? | The metal plate that collects the photoelectrons after they cross the gap
 What equation relates the maximum kinetic energy of photoelectrons to the stopping potential? | $E_{k\,\text{max}} = eV_s$
+The stopping potential for a metal surface is 1.5 V. What is the maximum kinetic energy of the photoelectrons, in joules? | $E_{k\,\text{max}} = eV_s = 1.60 \times 10^{-19} \times 1.5 = 2.4 \times 10^{-19}$ J
 What happens to the stopping potential when the intensity of the radiation is increased? | It stays the same, because the maximum kinetic energy depends only on the frequency and the work function
 What happens to the stopping potential when the frequency of the radiation is increased? | It increases, because each photon has more energy, so the maximum kinetic energy of the photoelectrons is greater
 Why does the photoelectric current fall as the opposing potential difference is increased towards the stopping potential? | Photoelectrons are emitted with a range of kinetic energies, so fewer of them have enough kinetic energy to cross the gap
@@ -30,7 +30,6 @@ What is the photoelectric equation? | $hf = \Phi + E_{k\,\text{max}}$
 What does the equation $hf_0 = \Phi$ represent? | At the threshold frequency $f_0$, the photon energy exactly equals the work function, so photoelectric emission only just occurs with zero kinetic energy
 Photons of energy 4.0 eV are incident on a metal with a work function of 2.3 eV. What is the maximum kinetic energy of the photoelectrons? | $4.0 - 2.3 = 1.7$ eV
 What is the threshold frequency of a metal with a work function of $3.3 \times 10^{-19}$ J? | $f_0 = \frac{\Phi}{h} = \frac{3.3 \times 10^{-19}}{6.63 \times 10^{-34}} = 5.0 \times 10^{14}$ Hz
-What is the photoelectric equation rearranged into the form $y = mx + c$? | $E_{k(\text{max})} = hf - \Phi$
 On a graph of $E_{k(\text{max})}$ against frequency $f$, what does the gradient represent? | Planck's constant ($h$)
 On a graph of $E_{k(\text{max})}$ against frequency $f$, what does the y-intercept represent? | The negative of the work function ($-\Phi$)
 On a graph of $E_{k(\text{max})}$ against frequency $f$, what does the x-intercept represent? | The threshold frequency ($f_0$)
@@ -42,7 +41,7 @@ What happens when photons with frequency below the threshold frequency are incid
 Explain why no photoelectrons are emitted below the threshold frequency, however intense the radiation | Photon energy depends on frequency ($E = hf$) and each electron absorbs only one photon. Below the threshold frequency the photon energy is less than the work function, so no electron can escape
 Why is the kinetic energy of photoelectrons quoted as a maximum? | Surface electrons need only the work function to escape and retain the most kinetic energy. Electrons deeper in the metal use extra energy reaching the surface and emerge with less
 What is the photoelectric current a measure of? | The number of photoelectrons emitted per second
-What is the relationship between photoelectric current and the intensity of incident radiation? | Photoelectric current is proportional to intensity
+What is the relationship between photoelectric current and the intensity of incident radiation of a fixed frequency above the threshold? | Photoelectric current is proportional to intensity
 Explain why photoelectric current is proportional to the intensity of incident radiation | Intensity is proportional to the number of photons striking the metal per second. Each photoelectron absorbs one photon, so more photons means more photoelectrons
 What happens to the photoelectric current when the frequency of incident radiation is increased while intensity is kept constant? | The photoelectric current decreases
 Explain why increasing frequency at constant intensity decreases the photoelectric current | At higher frequency each photon carries more energy, so fewer photons are needed to maintain the same intensity. Fewer photons means fewer photoelectrons

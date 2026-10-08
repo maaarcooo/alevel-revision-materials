@@ -10,7 +10,7 @@ Which particles are affected by the weak interaction? | All hadrons and all lept
 Which particles are affected by the strong interaction? | Hadrons only (particles made of quarks)
 Why does gravity not play a part in particle interactions? | It is so weak that it only has a noticeable effect on large masses, not individual particles
 What are exchange particles? | Virtual particles that exist briefly to carry (mediate) the fundamental force between interacting particles
-Virtual particles that exist briefly to mediate the fundamental force between interacting particles — what term is this? | Exchange particles (also called gauge bosons)
+Virtual particles that exist briefly to mediate the fundamental force between interacting particles - what term is this? | Exchange particles (also called gauge bosons)
 What is the exchange particle of the strong interaction between nucleons? | Pion ($\pi^+$, $\pi^-$, $\pi^0$)
 What is the exchange particle of the strong interaction between quarks? | Gluon
 How do pions and gluons differ as exchange particles? | Pions carry the strong nuclear force between nucleons, while gluons carry the strong interaction between quarks
@@ -30,7 +30,7 @@ Write the equation for $\beta^+$ decay | $p \rightarrow n + e^+ + \nu_e$
 What is the exchange particle in $\beta^+$ decay? | $W^+$ boson
 How does the sign of the W boson relate to the type of beta decay? | The sign matches: $W^-$ is exchanged in $\beta^-$ decay, $W^+$ is exchanged in $\beta^+$ decay
 What is electron capture? | A process where an atomic electron is absorbed by a proton in the nucleus, producing a neutron and an electron neutrino
-A process where an atomic electron is absorbed by a proton in the nucleus, producing a neutron and an electron neutrino — what term is this? | Electron capture
+A process where an atomic electron is absorbed by a proton in the nucleus, producing a neutron and an electron neutrino - what term is this? | Electron capture
 Write the equation for electron capture | $p + e^- \rightarrow n + \nu_e$
 What is the exchange particle in electron capture? | $W^+$ boson (the proton acts on the electron)
 What is the exchange particle in an electron-proton collision? | $W^-$ boson (the electron acts on the proton)
@@ -42,7 +42,7 @@ How are particles represented on a Feynman diagram? | Straight lines with arrows
 How are exchange particles represented on a Feynman diagram? | Wavy lines with no arrows (charged W bosons may have a directional arrow above the line)
 Where do incoming and outgoing particles appear on a Feynman diagram? | Incoming particles enter at the bottom, outgoing particles leave at the top
 In what default direction is the exchange particle transferred on a Feynman diagram? | Left to right, unless an arrow above the wavy line indicates otherwise
-On a Feynman diagram, where are hadrons/quarks and leptons placed? | Hadrons/quarks on the left, leptons on the right; they must never meet at a vertex
+On a Feynman diagram, where are hadrons/quarks and leptons placed? | Hadrons/quarks on the left, leptons on the right. They must never meet at a vertex
 What quantities must be conserved at each vertex of a Feynman diagram? | Charge, baryon number, and lepton number
 State the rule about line crossing on Feynman diagrams | Lines must not cross over
 What quark change occurs in $\beta^-$ decay? | A down quark changes to an up quark, converting a neutron (udd) to a proton (uud)
@@ -50,5 +50,5 @@ What quark change occurs in $\beta^+$ decay? | An up quark changes to a down qua
 What role does the $W^-$ boson play in $\beta^-$ decay at the quark level? | It carries negative charge away from the down quark as it becomes an up quark, then decays into the electron and the electron antineutrino
 What role does the $W^+$ boson play in $\beta^+$ decay at the quark level? | It carries positive charge away from the up quark as it becomes a down quark, then decays into the positron and the electron neutrino
 Which quantities are always conserved in particle interactions? | Charge (Q), baryon number (B), lepton number (L), energy (mass-energy), and momentum
-Which quantity does not need to be conserved in weak interactions? | Strangeness (S); it can change by 0, +1, or $-1$
-How do you determine whether a particle interaction is permitted? | Check that each quantum number (Q, B, L, S) is conserved on both sides of the equation; if any is not conserved (except S in weak interactions), the interaction cannot occur
+Which quantity does not need to be conserved in weak interactions? | Strangeness (S). It can change by 0, +1, or $-1$
+How do you determine whether a particle interaction is permitted? | Check that each quantum number (Q, B, L, S) is conserved on both sides of the equation. If any is not conserved (except S in weak interactions), the interaction cannot occur

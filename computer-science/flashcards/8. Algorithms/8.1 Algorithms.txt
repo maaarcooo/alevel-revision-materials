@@ -1,7 +1,7 @@
 What is time complexity? | A measure of the number of operations or steps an algorithm requires to complete, relative to the input size
 What is space complexity? | A measure of how much memory an algorithm requires to complete
 Which two properties make one algorithm preferable to another for the same task? | It takes fewer steps (lower time complexity) and uses less memory (lower space complexity)
-Why is an algorithm's time complexity independent of hardware? | It counts steps or instructions, which remain the same regardless of CPU speed; a faster CPU completes them quicker but the count is unchanged
+Why is an algorithm's time complexity independent of hardware? | It counts steps or instructions, which remain the same regardless of CPU speed. A faster CPU completes them quicker but the count is unchanged
 What is Big O Notation used to express? | The complexity (scalability) of an algorithm, describing an upper limit for time or space relative to the input size
 What two rules simplify an expression into Big O Notation? | Remove all terms except the one with the largest factor or exponent, and remove any coefficients (constants)
 What is the Big O notation of an algorithm that executes $3n^2 + 4n + 5$ instructions? | $O(n^2)$: $n^2$ is the dominant term and its coefficient is dropped
@@ -25,7 +25,7 @@ What case does Big O notation almost always describe? | The worst-case performan
 What is best-case complexity? | The scenario where the algorithm performs most efficiently, requiring the fewest operations
 What is worst-case complexity? | The scenario where the algorithm is least efficient, requiring the most operations
 What is average-case complexity? | The number of operations the algorithm needs for typical input data
-How do you derive Big O time complexity by inspecting pseudocode? | Count the number of loops and nested loops; the dominant (highest-order) term determines the classification
+How do you derive Big O time complexity by inspecting pseudocode? | Count the number of loops and nested loops. The dominant (highest-order) term determines the classification
 Why are coefficients removed when stating Big O notation? | As input size grows, multiplicative constants contribute proportionally less to the overall growth rate
 In computer science, logarithms typically use which base? | Base 2
 What does $\log_2(8) = 3$ mean? | 2 must be raised to the power of 3 to get 8
@@ -59,7 +59,7 @@ What is the best-case time complexity of a binary search? | O(1), when the item 
 What is the space complexity of an iterative binary search? | O(1), as it uses only a fixed number of variables (start, end, mid)
 What is the space complexity of a recursive binary search? | $O(\log n)$, because each recursive call is added to the call stack
 How does a binary search discard half of the list without removing any items? | It only moves the start or end pointer, which narrows the range being searched
-How does a binary search differ from a linear search in preconditions and efficiency? | Binary search requires a sorted list and has $O(\log n)$ worst-case time; linear search works on unsorted lists but has O(n) worst-case time
+How does a binary search differ from a linear search in preconditions and efficiency? | Binary search requires a sorted list and has $O(\log n)$ worst-case time. Linear search works on unsorted lists but has O(n) worst-case time
 What is a bubble sort? | A sorting algorithm that compares adjacent pairs of elements and swaps them if out of order, repeating passes until the list is sorted
 What is a pass in bubble sort? | One complete traversal through the list where each pair of adjacent elements is compared and swapped if out of order
 What is the list 5, 2, 8, 1 after one pass of a bubble sort into ascending order? | 2, 5, 1, 8
@@ -72,7 +72,7 @@ What is the best-case time complexity of a bubble sort? | O(n), when the list is
 What is the space complexity of a bubble sort? | O(1), as it operates in-place using only a temporary swap variable and loop counters
 Why does an optimised bubble sort reduce comparisons each pass? | The sorted elements at the end of the list do not need to be rechecked, so the inner loop range shrinks by one each iteration
 What is an insertion sort? | A sorting algorithm that takes one item at a time and inserts it into its correct position within the already-sorted portion of the list
-In an insertion sort, how is the correct position found for the current item? | The current item is compared to each preceding item; if the preceding item is larger, it is shifted right until the correct insertion point is found
+In an insertion sort, how is the correct position found for the current item? | The current item is compared to each preceding item. If the preceding item is larger, it is shifted right until the correct insertion point is found
 An insertion sort is run on 5, 2, 8, 1. What is the list after the second item has been inserted? | 2, 5, 8, 1
 What is the worst-case time complexity of an insertion sort? | $O(n^2)$
 What is the best-case time complexity of an insertion sort? | O(n), when the list is already sorted and each item only needs one comparison
@@ -81,7 +81,7 @@ Which sorting algorithm suits a small or nearly sorted list? | Insertion sort: i
 What is a merge sort? | A divide and conquer sorting algorithm that repeatedly divides the list in half until each sub-list contains one element, then merges pairs of sub-lists back together in sorted order
 What are the two phases of a merge sort? | Divide: split the list into single-element sub-lists. Merge: repeatedly merge pairs of sub-lists in sorted order until one sorted list remains
 What is the base case in merge sort? | A sub-list containing only one element, which is inherently sorted
-How many sub-lists are merged at a time in merge sort? | Two; any leftover sub-list is carried forward to the next merging iteration
+How many sub-lists are merged at a time in merge sort? | Two. Any leftover sub-list is carried forward to the next merging iteration
 What mechanism does merge sort use to divide the list? | Recursion: it calls itself on each half until the base case is reached, with each call added to the call stack
 What is the worst-case time complexity of a merge sort? | $O(n \log n)$
 What is the best-case time complexity of a merge sort? | $O(n \log n)$, the same as worst case, because the list must always be fully divided and merged regardless of initial order
@@ -104,7 +104,7 @@ Why might a merge sort be chosen instead of a quick sort? | Its worst case is st
 What is an optimisation problem? | A problem that involves maximising efficiency, such as finding the shortest route, minimising resource usage, or optimal scheduling
 What is Dijkstra's shortest path algorithm? | An optimisation algorithm that calculates the shortest path from a starting node to all other nodes in a weighted graph
 What type of graph does Dijkstra's algorithm operate on? | A weighted graph, where each edge carries a value representing distance, time, or cost
-What initial values are assigned when Dijkstra's algorithm begins? | The start node's distance is set to 0; all other nodes are set to infinity
+What initial values are assigned when Dijkstra's algorithm begins? | The start node's distance is set to 0. All other nodes are set to infinity
 How does Dijkstra's algorithm select the next node to visit? | It chooses the unvisited node with the lowest current path weight (shortest distance from start)
 How does Dijkstra's algorithm update a neighbouring node's distance? | If the current node's distance plus the edge weight to the neighbour is less than the neighbour's recorded distance, the distance is updated and the previous node is recorded
 What happens to a node once it has been visited in Dijkstra's algorithm? | It is added to a visited list and is never rechecked
@@ -117,8 +117,8 @@ What is the total cost function used by A*? | $f(x) = g(x) + h(x)$, where $g(x)$
 What does $g(x)$ represent in the A* algorithm? | The actual distance (real cost) from the start node to node x along the path taken so far
 What does $h(x)$ represent in the A* algorithm? | The heuristic estimate of the remaining distance from node x to the goal node
 How does A* choose the next node to visit? | It takes the unvisited node with the lowest value of $f(x) = g(x) + h(x)$
-What constraint must the heuristic function in A* satisfy? | It must never overestimate the real cost to reach the goal; the actual cost should always be greater than or equal to the heuristic
-How does A* differ from Dijkstra's in its termination condition? | A* stops when the goal node is reached; Dijkstra's continues until it has calculated the shortest path to every node
+What constraint must the heuristic function in A* satisfy? | It must never overestimate the real cost to reach the goal. The actual cost should always be greater than or equal to the heuristic
+How does A* differ from Dijkstra's in its termination condition? | A* stops when the goal node is reached. Dijkstra's continues until it has calculated the shortest path to every node
 Why does A* usually visit fewer nodes than Dijkstra's algorithm? | The heuristic directs the search towards the goal, so nodes that lead away from it are not explored
 What does A* become if the heuristic is 0 for every node? | Dijkstra's algorithm, because $f(x) = g(x)$
 In A*, what does it indicate if $h(x)$ increases compared to the previous node? | The algorithm is travelling further away from the goal node

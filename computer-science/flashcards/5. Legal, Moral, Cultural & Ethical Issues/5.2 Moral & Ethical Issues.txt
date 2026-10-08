@@ -1,6 +1,6 @@
 How do ethics differ from morals? | Ethics concern the values of a community and their effect on groups in society, while morals are an individual's personal code of conduct
-Community values and how they impact different groups in society — what term describes this? | Ethics
-A personal code of conduct governing how an individual chooses to behave — what term describes this? | Morals
+Community values and how they impact different groups in society - what term describes this? | Ethics
+A personal code of conduct governing how an individual chooses to behave - what term describes this? | Morals
 Give two advantages of computers in the workforce | They improve efficiency (e.g. reducing delivery times, speeding up manufacturing) and reduce strain on workers by removing repetitive and tedious tasks
 What type of unemployment has computerisation created? | Structural unemployment, as workers' existing skills no longer match the jobs available
 Which type of jobs has computerisation hit hardest? | Middle-income manufacturing jobs, where entire production lines have been replaced by robots
@@ -29,7 +29,7 @@ How is automated decision making used in financial markets? | Algorithms execute
 How is automated decision making used in manufacturing? | Automated systems analyse sensor data from machines to predict potential failures and schedule maintenance proactively, reducing downtime and costs
 What is artificial intelligence? | The ability of a computer to replicate human intelligence and cognitive ability, performing tasks such as learning, problem-solving, reasoning, perception, and decision-making
 What is an expert system? | A system that replicates the knowledge and experience of a human expert, made up of a knowledge base (set of facts and rules) and an inference engine used to derive conclusions
-A knowledge base of facts and rules combined with an inference engine to replicate expert knowledge — what type of system is this? | Expert system (also called a knowledge-based system)
+A knowledge base of facts and rules combined with an inference engine to replicate expert knowledge - what type of system is this? | Expert system (also called a knowledge-based system)
 What are neural networks in AI? | Systems that replicate biological neural networks by learning from a given data set and applying that knowledge to new data sets, used in pattern detection and financial fraud identification
 Give an example of AI in healthcare | AI can analyse medical images (e.g. breast cancer screening) to detect diseases or anomalies at a rate similar to human radiologists
 What privacy concern arises from voice recognition systems like Google Home and Alexa? | They must be constantly switched on to function, raising concerns about continuous surveillance of private conversations
@@ -40,7 +40,7 @@ What concern do artists have about AI training data? | Their work is being used 
 Why is the use of AI risk scores in the US justice system (COMPAS) criticised? | The factors behind a defendant's score are not disclosed, and the scores may reflect bias in the data the system was trained on
 What debate does AI-generated art raise? | Questions about the authenticity and originality of AI-generated works, and whether artistic merit should be attributed to AI systems
 What is e-waste? | Discarded electronic or electrical devices
-Discarded electronic or electrical devices — what term is this? | E-waste (electronic waste)
+Discarded electronic or electrical devices - what term is this? | E-waste (electronic waste)
 Why has cheaper technology led to more e-waste? | Devices are affordable and people replace them often to keep up with trends, so more are thrown away
 What toxic materials can e-waste contain? | Lead, mercury and radioactive isotopes, which can contaminate water supplies
 Why is shipping e-waste to developing countries considered immoral? | These countries often have lower environmental standards, exposing local communities to toxic contamination
@@ -65,7 +65,7 @@ What is the argument for surveillance measures such as CCTV and ankle monitors? 
 How can mass surveillance affect social norms? | It may promote self-censorship and create a fear of expressing dissenting opinions, stifling open dialogue
 What does the ethical principle of minimisation and purpose limitation require for monitoring? | That the collection of unnecessary data is minimised and its use is limited to the intended purposes only
 How is data mining used on personal information? | Patterns are extracted from large sets of personal data and used for targeted advertising, personalised political messaging and spotting trends
-Large amounts of data from a number of sources that can be analysed to make inferences about people's behaviour — what is this called? | Big data
+Large amounts of data from a number of sources that can be analysed to make inferences about people's behaviour - what is this called? | Big data
 Give an ethical concern about data mining applied to personal information | Insights could act against individuals: e.g. an insurance company discovering someone is at high risk of a disease and denying them coverage or charging a higher premium
 What ethical question arises when a company's data analysis uncovers a risk to an individual? | Whether the company has a responsibility to pass that information back to the person concerned
 Why are large firms under pressure to be more transparent about data collection? | Although they must state what data they collect, it is often not obvious to users what is gathered or what it will be used for

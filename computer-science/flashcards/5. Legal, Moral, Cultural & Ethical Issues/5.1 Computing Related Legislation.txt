@@ -1,9 +1,8 @@
 What is the Data Protection Act 1998? | A law that protects personal data from being misused, applying to data stored on computers and in organised paper filing systems
-A law that protects personal data from being misused — what act is this? | The Data Protection Act 1998
 What is personal data under the DPA? | Any data that can be used to identify a living person, including data that can identify someone when combined with other data
-Any data that can be used to identify a living person — what term is this? | Personal data
+Any data that can be used to identify a living person - what term is this? | Personal data
 What is a data subject? | An individual who can be identified by personal data
-An individual who can be identified by personal data — what term is this? | Data subject
+An individual who can be identified by personal data - what term is this? | Data subject
 How many Data Protection Principles does the DPA contain? | Eight
 What does the DPA require about the way personal data is processed? | It must be processed fairly and lawfully
 What does the DPA require about the purposes personal data is obtained for? | It may be obtained only for one or more specified and lawful purposes
@@ -20,7 +19,7 @@ Under the DPA, what is the domestic purposes exemption? | If personal data is us
 Why is law enforcement exempt from the DPA? | So that someone suspected of a crime cannot ask to see the evidence held about them
 What is a Data Controller? | A member of staff appointed by a company to ensure the Data Protection Principles are not breached and to communicate with the Information Commissioner
 What is a Subject Access Request (SAR)? | A request by a data subject for a copy of all the personal data a company holds on them
-A request by a data subject for a copy of all personal data held on them — what is this called? | Subject Access Request (SAR)
+A request by a data subject for a copy of all personal data held on them - what is this called? | Subject Access Request (SAR)
 What must a company do before responding to a Subject Access Request? | Verify the identity of the data subject, then send the data copy securely
 Name three rights the DPA gives a data subject | To see a copy of the data held about them, to have inaccurate data corrected, and to prevent their contact details being used for marketing
 What is the right to data portability under data protection law? | The right of a data subject to obtain and reuse their personal data across different services
@@ -29,7 +28,6 @@ What right do data subjects have regarding automated decisions? | The right to c
 What penalty can companies face for breaching the Data Protection Act? | Extremely large fines
 What legislation replaced the Data Protection Act 1998? | The General Data Protection Regulation (GDPR) and the Data Protection Act 2018
 What is the Computer Misuse Act 1990? | A law concerning the malicious use of computers, originally created to ensure computer hacking was covered by law
-A law concerning the malicious use of computers — what act is this? | The Computer Misuse Act 1990
 What is offence 1 under the Computer Misuse Act? | Unauthorised access to computer materials
 What is offence 2 under the Computer Misuse Act? | Unauthorised access with intent to commit further offences
 What is offence 3 under the Computer Misuse Act? | Unauthorised modification of computer material
@@ -38,7 +36,6 @@ A student opens a teacher's markbook intending to raise their mark, but changes 
 A student opens a teacher's markbook and raises their own mark. Which Computer Misuse Act offence is this? | Unauthorised modification of computer material
 How do penalties compare across the three CMA offences? | They become progressively more severe from offence 1 to 3, with each punishable by imprisonment
 What is the Copyright, Designs and Patents Act 1988? | A law that protects the intellectual property of individuals and companies, making it illegal to copy, modify, or distribute work without permission
-A law protecting intellectual property and making it illegal to copy, modify, or distribute work without permission — what act is this? | The Copyright, Designs and Patents Act 1988
 When does copyright apply to an original work under the CDPA? | Automatically from the moment of creation
 How long does copyright last under the CDPA? | 25 to 70 years after the death of the creator, depending on the type of work
 Who is responsible for taking action if work is copied under the CDPA? | The individual whose work has been copied
@@ -47,7 +44,6 @@ What is a primary breach of the CDPA? | Directly infringing copyright, e.g. copy
 What is a secondary breach of the CDPA? | Helping infringement to take place, e.g. importing copies, dealing in them or providing the means to make them
 Why does sharing copyrighted films or music over a peer-to-peer network breach the CDPA? | The work is copied and distributed without permission, so the copyright owner loses the income from it
 What is the Regulation of Investigatory Powers Act 2000? | A law that covers investigation, surveillance, and interception of communication by public bodies
-A law covering investigation, surveillance, and interception of communication by public bodies — what act is this? | The Regulation of Investigatory Powers Act 2000 (RIPA)
 What condition must be met before a public body can intercept online communications under RIPA? | A warrant must be issued
 What does RIPA require of ISPs and mobile phone companies? | To give up information on request from an authorised authority and to have sufficient hardware installed on their networks to facilitate surveillance
 What can RIPA force someone who holds encrypted data to do? | Hand over the encryption key, or decrypt the data

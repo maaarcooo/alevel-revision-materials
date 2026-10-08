@@ -1,5 +1,5 @@
 What is the Young Modulus? | The ratio of tensile stress to tensile strain ($E = \frac{FL}{A\Delta L}$), measuring the stiffness of a material
-The ratio of tensile stress to tensile strain, measuring the stiffness of a material — what quantity is this? | The Young Modulus
+The ratio of tensile stress to tensile strain, measuring the stiffness of a material - what quantity is this? | The Young Modulus
 What are the units of the Young Modulus? | Pascals (Pa)
 A wire of length 2.0 m and cross-sectional area $1.0 \times 10^{-7}\;\mathrm{m^2}$ extends by 1.0 mm under a force of 10 N. What is its Young modulus? | $E = \frac{FL}{A\Delta L} = \frac{10 \times 2.0}{1.0 \times 10^{-7} \times 1.0 \times 10^{-3}} = 2.0 \times 10^{11}$ Pa
 How does the Young modulus differ from the spring constant? | The Young modulus is a property of the material, whatever its dimensions. The spring constant belongs to one object and depends on its length and cross-sectional area

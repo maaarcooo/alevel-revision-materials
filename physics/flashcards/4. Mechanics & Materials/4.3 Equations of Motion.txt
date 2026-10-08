@@ -2,11 +2,11 @@ What is distance? | The total length of the path travelled, with no direction (a
 What is speed? | The distance travelled per unit time (a scalar)
 What is displacement? | The distance of an object from a fixed point in a specified direction (vector quantity)
 How can an object travel a large distance and have zero displacement? | It returns to its starting point, e.g. after one complete lap of a track
-The distance of an object from a fixed point in a specified direction — what quantity is this? | Displacement
+The distance of an object from a fixed point in a specified direction - what quantity is this? | Displacement
 What is velocity? | The rate of change of displacement of an object
-The rate of change of displacement of an object — what quantity is this? | Velocity
+The rate of change of displacement of an object - what quantity is this? | Velocity
 What is acceleration? | The rate of change of velocity of an object
-The rate of change of velocity of an object — what quantity is this? | Acceleration
+The rate of change of velocity of an object - what quantity is this? | Acceleration
 What is the equation linking velocity, displacement, and time? | $v = \frac{\Delta s}{\Delta t}$
 What is the equation linking acceleration, velocity, and time? | $a = \frac{\Delta v}{\Delta t}$
 What is the SI unit of velocity? | $\text{m s}^{-1}$
@@ -23,14 +23,14 @@ On a displacement-time graph, what does a curved line represent? | Acceleration 
 On a displacement-time graph, what does a horizontal line represent? | The object is at rest
 What does the area under a displacement-time graph represent? | Nothing: it has no physical meaning
 On a displacement-time graph, what does the sign of the gradient indicate? | The direction of motion: positive gradient means motion in the positive direction, negative gradient means motion in the negative direction
-How does a displacement-time graph differ from a distance-time graph? | A displacement-time graph can have positive or negative values on the y-axis; a distance-time graph has only positive values
+How does a displacement-time graph differ from a distance-time graph? | A displacement-time graph can have positive or negative values on the y-axis. A distance-time graph has only positive values
 What does the gradient of a velocity-time graph represent? | Acceleration
 What does the y-intercept of a velocity-time graph represent? | Initial velocity
 On a velocity-time graph, what does a straight line represent? | Uniform (constant) acceleration
 On a velocity-time graph, what does a curved line represent? | Non-uniform acceleration
 On a velocity-time graph, what does a horizontal line represent? | Constant velocity (zero acceleration)
 What does the area under a velocity-time graph represent? | Displacement or distance travelled
-How does a velocity-time graph differ from a speed-time graph? | A velocity-time graph can show positive or negative values on the y-axis; a speed-time graph has only positive values
+How does a velocity-time graph differ from a speed-time graph? | A velocity-time graph can show positive or negative values on the y-axis. A speed-time graph has only positive values
 What does the gradient of an acceleration-time graph represent? | It has no physical meaning
 What does the y-intercept of an acceleration-time graph represent? | Initial acceleration
 On an acceleration-time graph, what does a horizontal line represent? | Constant acceleration
@@ -41,8 +41,10 @@ At the point of a bounce, what happens to a ball's velocity and speed? | Velocit
 What does the acronym SUVAT stand for? | $s$ (displacement), $u$ (initial velocity), $v$ (final velocity), $a$ (acceleration), $t$ (time)
 When can the SUVAT equations be used? | For motion with constant acceleration in a straight line
 State the SUVAT equation that does not contain $s$ | $v = u + at$
+A car moving at $5.0\;\mathrm{m\,s^{-1}}$ accelerates at $2.0\;\mathrm{m\,s^{-2}}$ for 6.0 s. What is its final velocity? | $v = u + at = 5.0 + 2.0 \times 6.0 = 17\;\mathrm{m\,s^{-1}}$
 State the SUVAT equation that does not contain $v$ | $s = ut + \frac{1}{2}at^2$
 State the SUVAT equation that does not contain $a$ | $s = \frac{(v + u)}{2}t$
+A cyclist slows uniformly from $12\;\mathrm{m\,s^{-1}}$ to $4.0\;\mathrm{m\,s^{-1}}$ in 5.0 s. How far does the cyclist travel in that time? | $s = \frac{(v + u)}{2}t = \frac{(4.0 + 12)}{2} \times 5.0 = 40$ m
 State the SUVAT equation that does not contain $t$ | $v^2 = u^2 + 2as$
 What are the steps for solving a SUVAT problem? | List the known values and the unknown, choose the equation that contains exactly those quantities, then substitute in SI units
 A stone is dropped from rest and falls 50 m. What is its speed just before it lands? | $v = \sqrt{2as} = \sqrt{2 \times 9.81 \times 50} = 31\;\mathrm{m\,s^{-1}}$
@@ -70,18 +72,18 @@ How does air resistance affect a projectile's trajectory? | It reduces both the 
 How does air resistance change the vertical acceleration of a ball thrown upwards? | On the way up it is greater than $g$, because air resistance acts downwards with the weight. On the way down it is less than $g$, because air resistance acts upwards
 What two factors most affect the motion of an object through a fluid? | Mass (determines weight) and surface area (determines drag force)
 What is a fluid? | A term used to describe a liquid or a gas
-A term used to describe a liquid or a gas — what is this? | A fluid
+A term used to describe a liquid or a gas - what is this? | A fluid
 What are drag forces? | Forces that oppose the motion of an object moving through a fluid (gas or liquid)
 In what direction do drag forces act? | In the opposite direction to the motion of the object
 How does drag force change with the speed of an object? | Drag force increases as the speed increases
 Besides speed, which properties of an object affect the drag on it? | Its shape and its cross-sectional area
 What energy conversions occur due to drag forces? | Kinetic energy is converted into heat and sound
 What is lift? | An upward force on an object moving through a fluid, acting perpendicular to the fluid flow
-Explain how lift is generated on an aeroplane wing | The wing pushes air downward as it moves; by Newton's third law, the air exerts an equal and opposite upward force (lift) on the wing
+Explain how lift is generated on an aeroplane wing | The wing pushes air downward as it moves. By Newton's third law, the air exerts an equal and opposite upward force (lift) on the wing
 Why do aeroplanes fly at high altitudes? | The air is less dense at higher altitudes, so there is less air resistance
 In an exam, what does it mean if air resistance is described as "negligible"? | There are no drag forces acting on the body: air resistance is too small to affect the motion
 What is terminal velocity? | The maximum constant velocity of a falling object, reached when the drag force equals the weight and the resultant force and acceleration are zero
-The maximum velocity reached by a falling object when drag equals weight — what is this called? | Terminal velocity
+The maximum velocity reached by a falling object when drag equals weight - what is this called? | Terminal velocity
 Explain why a falling object eventually reaches terminal velocity | As speed increases, drag force increases, reducing the resultant force and acceleration. When drag equals weight, the resultant force is zero and velocity becomes constant
 On a velocity-time graph, how is the approach to terminal velocity shown? | The curve starts steep (large gradient), the gradient decreases as drag increases, and the line levels off to horizontal at terminal velocity
 Why does a heavier skydiver have a higher terminal velocity than a lighter one? | Greater weight means drag must reach a larger value to equal the weight, which requires a higher speed
@@ -95,7 +97,7 @@ What is the purpose of the light gates in the determination of $g$ experiment? |
 Why are light gates used in place of a stopwatch in the determination of $g$ experiment? | They remove human reaction time, which would be a large fraction of the short fall time
 What is the purpose of the glass tube in the determination of $g$ experiment? | To guide the ball-bearing vertically downwards in a straight line
 What is the purpose of the cushion in the determination of $g$ experiment? | To catch the ball-bearing and prevent it from being damaged or damaging the surface
-What are the resolutions of the measuring instruments in the determination of $g$ experiment? | Metre ruler: 1 mm; timer (via light gates): 0.01 s
+What are the resolutions of the measuring instruments in the determination of $g$ experiment? | Metre ruler: 1 mm. Timer (via light gates): 0.01 s
 What graph is plotted to determine $g$ from the free-fall experiment? | $\frac{2h}{t}$ on the y-axis against $t$ on the x-axis
 In the determination of $g$ graph, what does the gradient represent? | The acceleration due to gravity, $g$
 In the determination of $g$ graph, what does the y-intercept represent? | $2u$, where $u$ is the initial velocity of the ball-bearing
@@ -104,7 +106,6 @@ Name one systematic error in the determination of $g$ experiment | Residual magn
 Name two random errors in the determination of $g$ experiment | Parallax error when reading height $h$ on the metre ruler, and the ball not falling accurately through the centre of each light gate
 How are random errors reduced in the determination of $g$ experiment? | Repeat the experiment at least 3-5 times for each value of $h$ and calculate an average time
 How is the uncertainty in $g$ determined from the graph? | The fractional uncertainty equals the difference between the gradients of the best fit and worst fit lines, divided by the gradient of the best fit line
-What is the line of worst fit? | The steepest or shallowest straight line that still passes through all the error bars on the graph
 How is the uncertainty in $h$ determined in the determination of $g$ experiment? | Half the resolution of the metre ruler (typically 0.5 mm)
 How is the uncertainty in $t$ determined for each height in the determination of $g$ experiment? | Half the range of the repeated time measurements
 How is the percentage uncertainty in $\frac{2h}{t}$ calculated? | Add the percentage uncertainties of $h$ and $t$ together

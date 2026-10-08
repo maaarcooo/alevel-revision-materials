@@ -1,7 +1,7 @@
 What is a scalar quantity? | A quantity that has magnitude but not direction
-A quantity that has magnitude but not direction — what term is this? | Scalar quantity
+A quantity that has magnitude but not direction - what term is this? | Scalar quantity
 What is a vector quantity? | A quantity that has both magnitude and direction
-A quantity that has both magnitude and direction — what term is this? | Vector quantity
+A quantity that has both magnitude and direction - what term is this? | Vector quantity
 How can an object have constant speed but changing velocity? | If the object is changing direction, its velocity changes even though its speed remains the same
 Classify distance as scalar or vector | Scalar
 Classify displacement as scalar or vector | Vector
@@ -18,7 +18,7 @@ Classify temperature as scalar or vector | Scalar
 Classify pressure as scalar or vector | Scalar
 How are vectors represented in diagrams? | By arrows: the arrowhead shows the direction and the length represents the magnitude
 What is a resultant vector? | The single vector produced by adding two or more vectors together. Also called the net vector
-The single vector produced by adding two or more vectors — what is it called? | The resultant vector (or net vector)
+The single vector produced by adding two or more vectors - what is it called? | The resultant vector (or net vector)
 When two perpendicular vectors are added, how is the magnitude of the resultant found? | Using Pythagoras' theorem: $R = \sqrt{a^2 + b^2}$
 When two perpendicular vectors are added, how is the direction of the resultant found? | Using trigonometry, e.g. $\tan\theta = \frac{\text{opposite}}{\text{adjacent}}$
 A hiker walks 6 km east and then 10 km north. What is the magnitude and direction of the displacement? | $\sqrt{6^2 + 10^2} = 11.7$ km, at $\tan^{-1}\!\left(\frac{10}{6}\right) = 59°$ north of east

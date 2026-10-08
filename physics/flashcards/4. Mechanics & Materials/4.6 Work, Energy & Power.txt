@@ -1,7 +1,7 @@
 What is work done by a force equivalent to? | A transfer of energy
 What is the unit of work done? | Joule (J), equivalent to 1 N m
 Define mechanical work | The amount of energy transferred when an external force causes an object to move over a certain distance
-The amount of energy transferred when an external force causes an object to move over a certain distance — what term is this? | Mechanical work (work done)
+The amount of energy transferred when an external force causes an object to move over a certain distance - what term is this? | Mechanical work (work done)
 What does the work done by a resultant force on a system equal? | The change in energy in that system
 What is the equation for work done by a constant force parallel to the displacement? | $W = Fs$, where $F$ = average force (N) and $s$ = displacement (m)
 What is the equation for work done when the force is at angle $\theta$ to the displacement? | $W = Fs\cos\theta$
@@ -9,8 +9,9 @@ In the equation $W = Fs\cos\theta$, what does $\theta$ represent? | The angle be
 When calculating work done with a force at an angle, which component of the force is used? | The component parallel to the displacement
 A sled is pulled 10 m along level ground by a 50 N force at 30° to the horizontal. How much work is done? | $W = Fs\cos\theta = 50 \times 10 \times \cos 30° = 430$ J
 What is power? | The rate of doing work, or the rate of energy transfer
-The rate of doing work or the rate of energy transfer — what quantity is this? | Power
+The rate of doing work or the rate of energy transfer - what quantity is this? | Power
 What is the equation relating power, work done, and time? | $P = \frac{\Delta W}{\Delta t}$, where $P$ = power (W), $\Delta W$ = work done (J), $\Delta t$ = time (s)
+A motor does 1500 J of work in 5.0 s. What is its power? | $P = \frac{\Delta W}{\Delta t} = \frac{1500}{5.0} = 300$ W
 What is the unit of power? | Watt (W)
 What is the equation for power in terms of force and velocity? | $P = Fv$, where $F$ = force (N) and $v$ = velocity (m s$^{-1}$)
 Under what conditions can the equation $P = Fv$ be used? | When an object moves at constant velocity with a constant force in the direction of the velocity
@@ -18,7 +19,7 @@ A car travels at a steady $30\;\mathrm{m\,s^{-1}}$ against resistive forces of 6
 What does the area under a force-displacement graph represent? | The work done
 How is work done found when the force is not constant? | From the area under the force-displacement graph (splitting into standard shapes if necessary)
 Define efficiency | The ratio of the useful power output from a system to its total power input
-The ratio of the useful power output from a system to its total power input — what quantity is this? | Efficiency
+The ratio of the useful power output from a system to its total power input - what quantity is this? | Efficiency
 What is the equation for efficiency in terms of power? | $\text{Efficiency} = \frac{\text{useful power output}}{\text{total power input}} \times 100\%$
 What is the equation for efficiency in terms of energy? | $\text{Efficiency} = \frac{\text{useful energy output}}{\text{total energy input}} \times 100\%$
 In what two formats can efficiency be expressed? | As a ratio (between 0 and 1) or as a percentage (between 0% and 100%)
@@ -26,7 +27,7 @@ What are the units of efficiency? | Efficiency has no units, because it is a rat
 A motor takes in 40 W and delivers 30 W of useful power. What is its efficiency? | $\frac{30}{40} = 0.75$, or 75%
 Why can no energy transfer be 100% efficient? | Some energy is always dissipated to the surroundings, e.g. as thermal energy through friction
 What determines whether a type of energy transfer is useful or wasted in a system? | The purpose of the system (e.g. in a lightbulb light is useful and heat is wasted, whereas in a heater heat is useful and sound is wasted)
-State the principle of conservation of energy | Energy cannot be created or destroyed; it can only be transferred from one form to another
+State the principle of conservation of energy | Energy cannot be created or destroyed. It can only be transferred from one form to another
 What does the principle of conservation of energy imply for a closed system? | The total amount of energy remains constant, although the amount in each form may change
 What is dissipated energy? | Energy transferred to the surroundings in forms that cannot easily be used for a useful purpose (wasted energy)
 In what forms is energy commonly dissipated? | Thermal (heat), light, and sound energy
@@ -37,9 +38,11 @@ What energy transfer occurs for a horizontal mass oscillating on a spring? | Ela
 For an object travelling up a rough inclined surface, state the energy conservation equation | Loss in kinetic energy = gain in gravitational potential energy + work done against friction
 What is kinetic energy? | The energy an object has due to its motion (velocity)
 What is the equation for kinetic energy? | $E_k = \frac{1}{2}mv^2$
+What is the kinetic energy of a 1200 kg car moving at $20\;\mathrm{m\,s^{-1}}$? | $E_k = \frac{1}{2}mv^2 = \frac{1}{2} \times 1200 \times 20^2 = 2.4 \times 10^{5}$ J
 How should the loss of kinetic energy be expressed in a calculation? | As a positive value, because energy is a scalar quantity
 What is gravitational potential energy? | Energy stored in a mass due to its position in a gravitational field
 What is the equation for the change in gravitational potential energy in a uniform field? | $\Delta E_p = mg\Delta h$, where $m$ = mass (kg), $g$ = gravitational field strength (N kg$^{-1}$), $\Delta h$ = change in height (m)
+What is the gain in gravitational potential energy of a 60 kg person who climbs 3.0 m? | $\Delta E_p = mg\Delta h = 60 \times 9.81 \times 3.0 = 1800$ J
 Under what condition is $\Delta E_p = mg\Delta h$ valid? | In a uniform gravitational field (such as near the Earth's surface)
 What happens to gravitational potential energy when a mass is lifted? | It increases (the mass gains GPE)
 What happens to gravitational potential energy when a mass falls? | It decreases (the mass loses GPE, which is transferred to kinetic energy)

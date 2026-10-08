@@ -1,12 +1,11 @@
 What is momentum? | The product of mass and velocity, $p = mv$
-The product of an object's mass and velocity — what quantity is this? | Momentum
+The product of an object's mass and velocity - what quantity is this? | Momentum
 What is the SI unit of momentum? | $\text{kg m s}^{-1}$
 What type of quantity is momentum? | A vector quantity
 What is linear momentum? | The momentum of an object moving in only one dimension
 When solving momentum problems, which direction is usually assigned as positive? | The initial direction of motion
 When does the linear momentum of an object remain constant? | When no external resultant force acts on the system
 State the principle of conservation of linear momentum | The total momentum before a collision is equal to the total momentum after, provided no external force acts
-The total momentum before a collision equals the total momentum after (if no external force acts) — what principle is this? | The principle of conservation of linear momentum
 A 0.80 kg trolley moving at $3.0\;\mathrm{m\,s^{-1}}$ hits a stationary 1.60 kg trolley and they stick together. What is their velocity afterwards? | $v = \frac{0.80 \times 3.0}{0.80 + 1.60} = 1.0\;\mathrm{m\,s^{-1}}$
 When two objects stick together in a collision, how is their mass treated afterwards? | As a single object of mass $m_A + m_B$
 What is the momentum of a stationary object? | Zero
@@ -16,10 +15,10 @@ What are internal forces? | Forces exchanged by particles within the system, e.g
 What is a system with no external forces acting on it called? | A closed (isolated) system
 In a collision between two objects, how do the forces they exert on each other compare? | Equal in magnitude and opposite in direction (Newton's third law)
 What is impulse? | The change in momentum of an object when a force acts on it, equal to $F \Delta t$
-The change in momentum of an object produced by a force acting over a time interval — what quantity is this? | Impulse
+The change in momentum of an object produced by a force acting over a time interval - what quantity is this? | Impulse
 What is the SI unit of impulse? | Newton second (N s)
 State Newton's second law in terms of momentum | The resultant force on an object equals its rate of change of momentum, $F = \frac{\Delta p}{\Delta t}$
-The resultant force on an object equals its rate of change of momentum — which law is this? | Newton's second law (stated in terms of momentum)
+The velocity of a 0.40 kg ball changes by $15\;\mathrm{m\,s^{-1}}$ in 0.050 s. What is the average resultant force on it? | $F = \frac{\Delta p}{\Delta t} = \frac{0.40 \times 15}{0.050} = 120$ N
 How is $F = ma$ obtained from $F = \frac{\Delta p}{\Delta t}$? | For constant mass, $\Delta p = m\Delta v$, so $F = \frac{m\Delta v}{\Delta t} = ma$
 A jet engine pushes air backwards. Explain, using Newton's laws, why the air pushes the engine forwards | The momentum of the air changes, so there is a force on the air (second law). The air exerts an equal and opposite force on the engine (third law)
 Explain, in terms of momentum, why air resistance increases with speed | More air is displaced each second and it is given more momentum, so the rate of change of momentum of the air is greater. This needs a greater force on the air, so the air exerts a greater force on the object
@@ -41,9 +40,9 @@ On a force-time graph, how does increasing contact time affect the curve for the
 In both collisions and explosions, what quantity is always conserved? | Momentum (provided no external forces act)
 What is an explosion, in terms of momentum? | An event in which objects that were at rest move apart, so the total momentum stays at zero
 What is an elastic collision? | A collision in which kinetic energy is conserved
-A collision in which kinetic energy is conserved — what type of collision is this? | Elastic
+A collision in which kinetic energy is conserved - what type of collision is this? | Elastic
 What is an inelastic collision? | A collision in which kinetic energy is not conserved
-A collision in which kinetic energy is not conserved — what type of collision is this? | Inelastic
+A collision in which kinetic energy is not conserved - what type of collision is this? | Inelastic
 How do you determine whether a collision is elastic or inelastic? | Calculate and compare the total kinetic energy before and after the collision
 A 0.80 kg trolley at $3.0\;\mathrm{m\,s^{-1}}$ sticks to a stationary 1.60 kg trolley and they move off at $1.0\;\mathrm{m\,s^{-1}}$. Is the collision elastic or inelastic? | Inelastic: the kinetic energy falls from 3.6 J to 1.2 J
 In an explosion from rest, why do the fragments move in opposite directions? | To conserve momentum: the total must remain zero, so the momenta of the fragments must cancel out

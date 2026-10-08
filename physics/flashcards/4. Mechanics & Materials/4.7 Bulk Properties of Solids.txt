@@ -1,5 +1,5 @@
 What is density? | The mass per unit volume of an object
-The mass per unit volume of an object — what quantity is this? | Density
+The mass per unit volume of an object - what quantity is this? | Density
 What is the equation for density? | $\rho = \frac{m}{V}$
 What are the SI units of density? | $\text{kg m}^{-3}$
 A block has a mass of 2.7 kg and a volume of $1.0 \times 10^{-3}\;\mathrm{m^3}$. What is its density? | $\rho = \frac{2.7}{1.0 \times 10^{-3}} = 2700\;\mathrm{kg\,m^{-3}}$
@@ -16,26 +16,27 @@ On a force-extension graph, how is the Hooke's Law region shown? | A straight li
 What is the gradient of a force-extension graph equal to in the Hooke's Law region? | The spring constant $k$
 What is the gradient of an extension-force graph equal to in the Hooke's Law region? | $\frac{1}{k}$
 What is the limit of proportionality? | The point beyond which extension is no longer proportional to the applied force
-The point beyond which extension is no longer proportional to the applied force — what term is this? | Limit of proportionality
+The point beyond which extension is no longer proportional to the applied force - what term is this? | Limit of proportionality
 What is the elastic limit? | The point beyond which a material will no longer return to its original length when the force is removed
-The point beyond which a material will no longer return to its original length when the force is removed — what term is this? | Elastic limit
+The point beyond which a material will no longer return to its original length when the force is removed - what term is this? | Elastic limit
 Define tensile stress | The force exerted per unit cross-sectional area of a material
-The force exerted per unit cross-sectional area of a material — what quantity is this? | Tensile stress
+The force exerted per unit cross-sectional area of a material - what quantity is this? | Tensile stress
 What is the equation for tensile stress? | $\sigma = \frac{F}{A}$
 A force of 50 N stretches a wire of cross-sectional area $2.0 \times 10^{-7}\;\mathrm{m^2}$. What is the tensile stress? | $\sigma = \frac{50}{2.0 \times 10^{-7}} = 2.5 \times 10^{8}$ Pa
 What are the units of tensile stress? | Pascals (Pa)
 Define tensile strain | The extension per unit length
-The extension per unit length — what quantity is this? | Tensile strain
+The extension per unit length - what quantity is this? | Tensile strain
 What is the equation for tensile strain? | $\text{strain} = \frac{\Delta L}{L}$
+A wire of length 2.0 m extends by 4.0 mm. What is its tensile strain? | $\frac{\Delta L}{L} = \frac{4.0 \times 10^{-3}}{2.0} = 2.0 \times 10^{-3}$
 Why is tensile strain dimensionless? | It is the ratio of two lengths, so the units cancel
 How is strain expressed as a percentage? | Multiply the strain value by 100
 What units must the extension and original length be in when calculating strain? | Any units, as long as both are the same, because strain is a ratio
 What is the ultimate tensile stress (UTS)? | The maximum stress that a material can withstand, shown at the highest point on a stress-strain graph
-The maximum stress that a material can withstand — what term is this? | Ultimate tensile stress (UTS)
+The maximum stress that a material can withstand - what term is this? | Ultimate tensile stress (UTS)
 What is the breaking stress? | The stress at the point where a material fractures
-The stress at the point where a material fractures — what term is this? | Breaking stress
+The stress at the point where a material fractures - what term is this? | Breaking stress
 What is the yield stress? | The stress at which a material begins to deform plastically for no or a small increase in stress
-The stress at which a material begins to deform plastically for no or a small increase in stress — what term is this? | Yield stress
+The stress at which a material begins to deform plastically for no or a small increase in stress - what term is this? | Yield stress
 What does the area under the straight-line region of a stress-strain graph represent? | The elastic strain energy stored per unit volume
 What does the area under a force-extension graph represent? | The work done on the material (elastic strain energy stored)
 When a material obeys Hooke's Law, what shape is the area under the force-extension graph? | A right-angled triangle
@@ -45,9 +46,9 @@ Write the elastic strain energy equation in terms of the spring constant | $E = 
 Before a material reaches its elastic limit, where is all the work done on it stored? | As elastic strain energy
 How is work done calculated from a force-extension graph when Hooke's Law is not obeyed? | Find the total area under the curve by splitting it into separate geometric shapes and adding the individual areas
 What is elastic deformation? | Deformation where the material returns to its original shape when the load is removed
-Deformation where the material returns to its original shape when the load is removed — what type of deformation is this? | Elastic deformation
+Deformation where the material returns to its original shape when the load is removed - what type of deformation is this? | Elastic deformation
 What is plastic deformation? | Permanent deformation where the material does not return to its original shape or length when the load is removed
-Permanent deformation where the material does not return to its original shape when the load is removed — what type of deformation is this? | Plastic deformation
+Permanent deformation where the material does not return to its original shape when the load is removed - what type of deformation is this? | Plastic deformation
 On a force-extension graph, what divides the elastic and plastic regions? | The elastic limit
 What characterises a brittle material on a stress-strain graph? | A straight line through the origin with no or negligible curved region before fracture
 Give two examples of brittle materials | Glass and concrete

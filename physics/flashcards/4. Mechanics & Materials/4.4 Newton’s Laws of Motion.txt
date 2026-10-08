@@ -1,26 +1,24 @@
 State Newton's First Law | An object will remain at rest or move with constant velocity unless acted on by a resultant force
-An object will remain at rest or move with constant velocity unless acted on by a resultant force — which law is this? | Newton's First Law
 What three changes to an object's motion require a resultant force? | Speeding up, slowing down, and changing direction
 If the resultant force on an object is zero, what are the two possible states of motion? | At rest, or moving at a constant velocity
 A car travels at constant velocity with a driving force of 6 kN. What is the total resistive force on it? | 6 kN, because the resultant force must be zero
 What is the resultant force on a body? | The vector sum of all the forces acting on the body
 When forces on a body are balanced, what is true about the horizontal and vertical components? | Forces acting left equal forces acting right, and forces acting upward equal forces acting downward
 State Newton's Second Law | The resultant force acting on an object with a constant mass is directly proportional to its acceleration: $F = ma$
-The resultant force acting on an object with a constant mass is directly proportional to its acceleration — which law is this? | Newton's Second Law
 In $F = ma$, what does each symbol represent and what are its units? | $F$ = resultant force (N), $m$ = mass (kg), $a$ = acceleration (m s$^{-2}$)
+A resultant force of 12 N acts on a mass of 3.0 kg. What is its acceleration? | $a = \frac{F}{m} = \frac{12}{3.0} = 4.0\;\mathrm{m\,s^{-2}}$
 In what direction does the acceleration produced by a resultant force act? | In the same direction as the resultant force
 A rocket has a thrust of 15 MN, a weight of 8 MN and air resistance of 0.5 MN. What is the resultant force on it? | $15 - 8 - 0.5 = 6.5$ MN upwards
 A 70 kg person stands in a lift accelerating upwards at $2.0\;\mathrm{m\,s^{-2}}$. What is the normal reaction force on them? | $R = m(g + a) = 70 \times (9.81 + 2.0) = 830$ N
 What happens when the resultant force on a moving object acts along the direction of its motion? | The object speeds up (accelerates) or slows down (decelerates)
 What happens when the resultant force on an object acts at an angle to its direction of motion? | The object changes direction
-What happens to a moving object when the resultant force opposes its motion? | The object decelerates; it does not suddenly reverse direction
+What happens to a moving object when the resultant force opposes its motion? | The object decelerates. It does not suddenly reverse direction
 Why is the acceleration of a falling object independent of its mass when no drag forces are present? | The only force is weight ($mg$), so $a = \frac{F}{m} = \frac{mg}{m} = g$: mass cancels
 What sign convention is generally used for forces and motion in calculations? | The direction of motion is positive. For stationary objects, forward, upward, and rightward are conventionally positive
 State Newton's Third Law | If Object A exerts a force on Object B, then Object B will exert a force on Object A which is equal in magnitude but opposite in direction
-If Object A exerts a force on Object B, then Object B will exert a force on Object A which is equal in magnitude but opposite in direction — which law is this? | Newton's Third Law
 What four conditions must a Newton's third-law force pair satisfy? | Same type of force, same magnitude, opposite direction, acting on different objects
 What type of forces form the third-law pair when a person walks? | Normal contact forces: the foot pushes the ground backward, the ground pushes the foot forward
 What is the third-law pair for the weight of an object (gravitational pull of Earth on the object)? | The gravitational pull of the object on the Earth: same type, same magnitude, opposite direction, different objects
 Why are the weight and normal contact force on a book resting on a table not a Newton's third-law pair? | They are different types of force (gravitational vs contact) and both act on the same object (the book)
-How do Newton's first and second laws differ from the third law in what they describe? | First and second laws deal with multiple forces acting on a single object; the third law deals with the interaction between two objects
+How do Newton's first and second laws differ from the third law in what they describe? | First and second laws deal with multiple forces acting on a single object. The third law deals with the interaction between two objects
 What does a free-body force diagram show? | All the forces acting on a single object

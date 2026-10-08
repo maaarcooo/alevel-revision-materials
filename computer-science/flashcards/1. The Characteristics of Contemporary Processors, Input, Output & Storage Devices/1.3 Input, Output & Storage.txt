@@ -1,7 +1,7 @@
 What is an input device? | A hardware component used to put data and commands into a computer system
-A hardware component used to put data and commands into a computer system — what term is this? | Input device
+A hardware component used to put data and commands into a computer system - what term is this? | Input device
 What is an output device? | A hardware component that receives information from a computer and presents it to the user
-A hardware component that receives information from a computer and presents it to the user — what term is this? | Output device
+A hardware component that receives information from a computer and presents it to the user - what term is this? | Output device
 Give an example of a device that is both an input and an output device | A touchscreen, which displays output like a monitor and accepts touch input
 What is a barcode reader used for? | Reading information from printed labels and cards, as in supermarket checkouts, stock control and access control
 What is a magnetic stripe reader used for? | Reading the data on the magnetic stripe of a card such as a credit or debit card
@@ -44,17 +44,17 @@ Which storage devices suit moving data between computers? | USB flash drives and
 What type of storage are RAM and ROM? | Primary storage (main memory)
 What does volatile mean? | The memory loses its contents when the power is lost
 What is RAM? | Fast, volatile main memory that holds the data and programs the computer is currently using
-Fast, volatile main memory that holds the data and programs the computer is currently using — what term is this? | RAM (random access memory)
+Fast, volatile main memory that holds the data and programs the computer is currently using - what term is this? | RAM (random access memory)
 Why is RAM described as random access? | The processor can access any part of it equally quickly
 Why does adding more RAM improve performance? | More running programs and data fit in RAM, so less virtual memory is used. Virtual memory is slower because data has to be swapped between secondary storage and RAM
 Why does a computer have far less RAM than secondary storage? | RAM is more expensive per gigabyte
 Why is RAM not used to store personal files? | It is volatile, so the files would be lost when the power is turned off
 What is ROM? | Non-volatile main memory whose contents can be read but not modified
-Non-volatile main memory whose contents can be read but not modified — what term is this? | ROM (read-only memory)
+Non-volatile main memory whose contents can be read but not modified - what term is this? | ROM (read-only memory)
 What is stored in ROM? | The BIOS or firmware, including the bootstrap routine that starts the computer and initialises the hardware
 Why is the startup routine stored in ROM and not RAM? | ROM is non-volatile, so the instructions are still there when the computer is switched on
 What is virtual storage? | Storing data remotely on servers so that it can be accessed over a network from any connected device. It is also known as cloud storage
-Storing data remotely on servers so that it can be accessed over a network from any connected device — what term is this? | Virtual storage (cloud storage)
+Storing data remotely on servers so that it can be accessed over a network from any connected device - what term is this? | Virtual storage (cloud storage)
 How is virtual storage an abstraction? | The data sits on hundreds of hard drives or SSDs that are formatted to act as a single piece of storage
 Name three benefits of virtual storage | Capacity is easy to increase, data can be accessed from anywhere with an internet connection, and redundancy protects against hardware failure
 Name three drawbacks of virtual storage | It depends on the speed of the internet connection, sensitive data is held off-site, and the ongoing costs add up

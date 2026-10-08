@@ -6,21 +6,22 @@ What does the logic circuit within the ALU carry out? | Logical operations such 
 What are status flags in the ALU? | Indicators that record the outcome of an operation, such as an overflow flag (value too large for the register) and a zero flag (result is zero)
 What is the role of the control unit? | It directs the operations of the CPU: it decodes instructions, controls the flow of data within the CPU and to other devices, and generates timing signals
 What are registers? | Small, very fast memory cells inside the CPU, each used to store data temporarily for one specific purpose
-Small, very fast memory cells inside the CPU, each used to store data temporarily for one specific purpose — what term is this? | Registers
+Small, very fast memory cells inside the CPU, each used to store data temporarily for one specific purpose - what term is this? | Registers
 What does the program counter (PC) hold? | The address of the next instruction to be fetched
 What does the accumulator (ACC) hold? | Values that have been input or loaded, and the results of calculations carried out in the ALU. Its value is also checked by conditional branch instructions
 What does the memory address register (MAR) hold? | The address of the memory location that is to be read from or written to
 What does the memory data register (MDR) hold? | The data or instruction that has just been read from memory or is about to be written to it
 What does the current instruction register (CIR) hold? | The instruction currently being executed, split into opcode and operand
 What is a bus? | A set of parallel wires connecting two or more components, used to transfer data between them
-A set of parallel wires connecting two or more components, used to transfer data between them — what term is this? | A bus
+A set of parallel wires connecting two or more components, used to transfer data between them - what term is this? | A bus
 What is the system bus? | The collective name for the data bus, the address bus and the control bus
 What does the data bus carry? | Data and instructions between components, in both directions
 What does the address bus carry? | The memory address that data is to be read from or written to
 What does the control bus carry? | Control signals between components, in both directions, to coordinate the use of the data and address buses
 Which of the three buses is unidirectional? | The address bus, which carries addresses from the CPU to memory and devices
 What determines how many bits a bus can transfer at the same time? | The width of the bus, which is the number of parallel wires it has
-What is the width of the address bus proportional to? | The number of addressable memory locations
+What does the width of the address bus determine? | The maximum number of addressable memory locations: $2^n$ for a bus $n$ bits wide
+How many memory locations can a 16-bit address bus address? | $2^{16} = 65\,536$
 What does a bus request signal on the control bus show? | That a device is requesting the use of the data bus
 What does a bus grant signal on the control bus show? | That the CPU has granted access to the data bus
 What does a memory read signal on the control bus cause? | Data is read from a specific memory location and placed onto the data bus
@@ -31,7 +32,7 @@ What are the two parts of an instruction held in the CIR? | The opcode and the o
 What does the opcode of an instruction specify? | The type of instruction to be executed
 What does the operand of an instruction contain? | The data, or the address of the data, on which the operation is to be performed
 What is the fetch-decode-execute cycle? | The sequence of operations the CPU repeats to fetch, decode and execute each instruction
-The sequence of operations the CPU repeats to process each instruction — what term is this? | The fetch-decode-execute cycle
+The sequence of operations the CPU repeats to process each instruction - what term is this? | The fetch-decode-execute cycle
 What is the first step of the fetch phase? | The address in the PC is copied to the MAR
 In the fetch phase, how does the instruction get from memory to the CPU? | The address in the MAR is sent along the address bus with a read signal on the control bus, and the instruction comes back along the data bus to the MDR
 What happens to the PC during the fetch phase? | It is incremented by 1 so that it holds the address of the next instruction
@@ -49,7 +50,7 @@ What does the system clock do? | It generates a signal that switches between 0 a
 What is clock speed? | The number of clock cycles completed per second, measured in hertz
 How does a higher clock speed improve performance? | More instructions are executed per second
 What is a core? | An independent processing unit within the CPU that can run its own fetch-decode-execute cycle
-An independent processing unit within the CPU that can run its own fetch-decode-execute cycle — what term is this? | A core
+An independent processing unit within the CPU that can run its own fetch-decode-execute cycle - what term is this? | A core
 How does having more cores improve performance? | Each core can carry out a task at the same time as the others, so more instructions are executed at once
 Why is a dual-core processor not twice as fast as a single-core processor? | Time is spent organising tasks between the cores, and some tasks or programs cannot be split between cores
 What is cache memory? | A small amount of very fast memory on or close to the CPU that stores frequently used data and instructions
@@ -58,16 +59,16 @@ How does a larger cache improve performance? | More frequently used data and ins
 What happens when the cache fills up? | Instructions that are no longer being used are replaced
 How do the three levels of cache differ? | Level 1 is the smallest and fastest, level 2 is larger and slower, and level 3 is the largest and slowest
 What is pipelining? | Carrying out the fetch, decode and execute stages of different instructions at the same time: while one instruction is executed, the next is decoded and the one after is fetched
-While one instruction is being executed, the next is decoded and the one after is fetched — what technique is this? | Pipelining
+While one instruction is being executed, the next is decoded and the one after is fetched - what technique is this? | Pipelining
 How does pipelining improve processor performance? | No stage of the processor sits idle, so more instructions are completed in a given time
 Where is data held in a pipeline until it is needed? | In a buffer close to the CPU
 What happens to the pipeline when a branch is taken? | It is flushed, because the instructions already fetched and decoded are no longer the ones needed
 How does instruction pipelining differ from arithmetic pipelining? | Instruction pipelining overlaps the fetch, decode and execute stages of instructions. Arithmetic pipelining breaks arithmetic operations into parts and overlaps them
 What is Von Neumann architecture? | An architecture with a single control unit in which one shared memory and one set of buses are used for both data and instructions
-A single control unit with one shared memory and one set of buses for both data and instructions — what architecture is this? | Von Neumann architecture
+A single control unit with one shared memory and one set of buses for both data and instructions - what architecture is this? | Von Neumann architecture
 What is the stored program concept? | Instructions are stored in main memory alongside data, in the same format, and are fetched and executed in sequence
 What is Harvard architecture? | An architecture with physically separate memories and buses for instructions and for data, commonly used in embedded systems
-Physically separate memories and buses for instructions and for data — what architecture is this? | Harvard architecture
+Physically separate memories and buses for instructions and for data - what architecture is this? | Harvard architecture
 What is the main advantage of Harvard architecture over Von Neumann architecture? | Data and instructions can be fetched at the same time, so execution is quicker
 Give two advantages of Von Neumann architecture over Harvard architecture | It is cheaper to develop because the control unit is easier to design, and programs can be optimised in size
 Why can the two memories in Harvard architecture have different characteristics? | They are separate, so instructions can be read-only while data is read-write, and each memory and its bus can be sized to suit its contents

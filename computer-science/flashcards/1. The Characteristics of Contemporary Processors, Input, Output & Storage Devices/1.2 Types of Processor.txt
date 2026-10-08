@@ -18,7 +18,7 @@ Which devices typically use CISC processors? | Laptops and desktop computers
 Why will a program written for a RISC processor not run on a CISC processor? | Their instruction sets are different, so the machine code of one cannot be executed by the other
 Why might a program written for one RISC processor not run on another RISC processor? | The two processors may have different instruction sets
 What is a GPU? | A processor with many small cores working in parallel, designed to process graphics and so reduce the load on the CPU
-A processor with many small cores working in parallel, designed to process graphics and so reduce the load on the CPU — what term is this? | Graphics processing unit (GPU)
+A processor with many small cores working in parallel, designed to process graphics and so reduce the load on the CPU - what term is this? | Graphics processing unit (GPU)
 What is a co-processor? | A secondary processor designed to supplement the activities of the primary processor
 Where can a GPU be located in a computer? | On a graphics card or embedded in the CPU
 Why can a computer not run with a GPU alone? | The CPU is needed to assign tasks to the GPU
@@ -33,7 +33,7 @@ Why are GPUs suited to machine learning? | Training on a massive amount of data 
 Why is a GPU more energy efficient than a CPU for parallel tasks? | It performs more calculations per unit of power consumed
 What is parallel processing? | Using multiple cores or processors to execute instructions at the same time
 What is a multicore processor? | A single processor containing more than one core, each able to process instructions independently at the same time
-A single processor containing more than one core, each able to process instructions independently at the same time — what term is this? | A multicore processor
+A single processor containing more than one core, each able to process instructions independently at the same time - what term is this? | A multicore processor
 In which two ways can multiple cores be used? | The cores can work on the same task to complete it sooner, or each core can work on a separate task
 Besides a multicore CPU, how else can parallel processing be achieved? | By using more than one processor, such as a CPU together with a GPU
 How does parallel processing reduce execution time? | A task is divided into subtasks that are executed simultaneously

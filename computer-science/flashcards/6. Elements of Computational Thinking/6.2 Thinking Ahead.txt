@@ -9,7 +9,7 @@ Give two forms of output other than a screen display | Sound from a speaker and 
 Identify three inputs to an ATM program | The transaction type, the card details from a card reader, and the PIN from a keypad
 Identify three outputs of an ATM program | The balance or amount shown on screen, the cash dispensed, and a printed receipt
 What is a precondition? | A requirement that must be met before a program or subroutine can execute successfully
-A requirement that must be met before a program or subroutine can execute successfully — what term is this? | Precondition
+A requirement that must be met before a program or subroutine can execute successfully - what term is this? | Precondition
 What happens if a precondition is not met? | The program fails to execute, crashes or returns an invalid answer
 What can a subroutine safely assume once its preconditions are specified? | That the arguments passed to it meet the stated criteria
 What are arguments? | The values passed into the parameters of a subroutine when it is called
@@ -25,19 +25,19 @@ State two preconditions common to algorithms that search a list | The list must 
 Why might a bubble sort have a precondition limiting the size of its input? | Its time complexity is $O(n^2)$, so a very large list would take too long to sort
 What makes a precondition acceptable as an exam answer? | It must be a condition that can be evaluated, such as "room width is greater than 0" and not just "room dimensions"
 What is caching? | Storing instructions or data in cache or memory after they have been used, so they can be retrieved faster if needed again
-Storing instructions or data in cache or memory after they have been used, so they can be retrieved faster if needed again — what term is this? | Caching
+Storing instructions or data in cache or memory after they have been used, so they can be retrieved faster if needed again - what term is this? | Caching
 What is web caching? | Storing recently visited web pages and images locally so they do not have to be downloaded again
 Give two benefits of caching | Frequently used data and instructions are retrieved faster than from secondary storage, and web caching frees bandwidth because content is not downloaded again
 What usually performs caching in a computer system? | The operating system, automatically
 What is prefetching? | Algorithms predict which instructions are likely to be needed soon and load them into cache before they are requested
-Algorithms predicting which instructions are likely to be needed soon and loading them into cache before they are requested — what term is this? | Prefetching
+Algorithms predicting which instructions are likely to be needed soon and loading them into cache before they are requested - what term is this? | Prefetching
 How does prefetching differ from ordinary caching? | Caching stores data after it has been used. Prefetching loads data before it is requested
 Why is prefetching not always effective? | The algorithm only makes an informed prediction, so the instructions it loads may not be the ones needed
 When does caching give no benefit? | When the cached item is not needed again, because caching relies on the same data being requested more than once
 Why does cache size limit the benefit of caching? | A small cache holds little data, and a larger cache takes longer to search
 State a drawback of caching that concerns its implementation | It is difficult to implement, and how effective it is depends on how well the caching algorithm manages the cache
 What are reusable program components? | Components that have already been written, debugged and tested, which can be transplanted into new programs
-Components that have already been written, debugged and tested, which can be transplanted into new programs — what term is this? | Reusable program components
+Components that have already been written, debugged and tested, which can be transplanted into new programs - what term is this? | Reusable program components
 How are commonly used subroutines made available for reuse? | They are packaged into libraries
 Give three kinds of reusable program component | Subroutines, classes, and implementations of abstract data structures such as stacks and queues
 Why are reusable components more reliable than newly written code? | They have already been tested and their bugs dealt with

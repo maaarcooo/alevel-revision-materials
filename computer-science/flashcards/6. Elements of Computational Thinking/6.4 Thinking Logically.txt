@@ -24,7 +24,7 @@ Which three factors are weighed when choosing between options for a solution? | 
 How are effectiveness, convenience and feasibility used to reach a decision? | They are ordered from most to least important, and the option that best meets the top priority is chosen
 Why might the priority given to effectiveness, convenience and feasibility differ between projects? | It depends on the purpose of the software and its end-users
 What are logical conditions? | Conditions, depending on one or more variables, that determine the next step whenever a system has to make a decision
-Conditions, depending on one or more variables, that determine the next step whenever a system has to make a decision — what term is this? | Logical conditions
+Conditions, depending on one or more variables, that determine the next step whenever a system has to make a decision - what term is this? | Logical conditions
 What is a Boolean condition? | A condition that evaluates to either true or false
 Where do most errors in a program occur? | In evaluating Boolean conditions, especially long conditions with multiple clauses
 Which two kinds of operator are combined to build Boolean conditions? | Comparison operators (such as ==, != and >=) and logical operators (AND, OR, NOT and XOR)

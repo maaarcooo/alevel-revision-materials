@@ -22,5 +22,5 @@ When can subroutines be executed simultaneously? | When they do not need data fr
 Why must the order of operations be written explicitly into a program? | An order that seems obvious to a person is not enforced unless it is coded, so operations could run in an order that raises an error
 Give an example of an order of operations that a program must enforce | A food delivery app must not let food be chosen before the location is confirmed, or payment be made before the order is confirmed
 What is a hierarchy chart? | A tree-structured diagram that shows how a problem is decomposed and how its modules and subroutines relate to each other
-A tree-structured diagram that shows how a problem is decomposed and how its modules and subroutines relate to each other — what term is this? | Hierarchy chart
+A tree-structured diagram that shows how a problem is decomposed and how its modules and subroutines relate to each other - what term is this? | Hierarchy chart
 Why are diagrams preferred to tables and lists for decomposing larger problems? | Tables and lists quickly become cumbersome as the problem grows

@@ -1,15 +1,15 @@
 What is abstraction? | The process of removing unnecessary details from a problem to leave a representation with only the key features needed for a solution
-The process of removing unnecessary details from a problem to leave only the key features needed for a solution — what term is this? | Abstraction
+The process of removing unnecessary details from a problem to leave only the key features needed for a solution - what term is this? | Abstraction
 What is representational abstraction? | Analysing what is relevant to a given scenario and simplifying the problem based on that information
-Analysing what is relevant to a scenario and simplifying the problem based on that information — what form of abstraction is this? | Representational abstraction
+Analysing what is relevant to a scenario and simplifying the problem based on that information - what form of abstraction is this? | Representational abstraction
 What is abstraction by generalisation? | Grouping together similarities within a problem to identify what kind of problem it is
-Grouping together similarities within a problem to identify what kind of problem it is — what form of abstraction is this? | Abstraction by generalisation
+Grouping together similarities within a problem to identify what kind of problem it is - what form of abstraction is this? | Abstraction by generalisation
 How does abstraction by generalisation help to solve a problem? | Once the problem is categorised as a particular type, a common solution for that type can be used
 What is data abstraction? | Hiding the details of how data is stored, so structures such as stacks and queues can be used without knowing how they are implemented
-Hiding the details of how data is stored so structures can be used without knowing how they are implemented — what form of abstraction is this? | Data abstraction
+Hiding the details of how data is stored so structures can be used without knowing how they are implemented - what form of abstraction is this? | Data abstraction
 Give an example of the layers hidden by data abstraction | A queue is a modified array, which is a collection of variables, which are stored as bytes and bits
 What is procedural abstraction? | Modelling what a subroutine does without considering how it does it
-Modelling what a subroutine does without considering how it does it — what form of abstraction is this? | Procedural abstraction
+Modelling what a subroutine does without considering how it does it - what form of abstraction is this? | Procedural abstraction
 What does it mean to reuse a procedure as a black box? | It is called for what it does, with no knowledge of the code that implements it
 In a system with multiple levels of abstraction, what are the highest levels responsible for? | Providing an interface for the user to interact with the hardware
 In a system with multiple levels of abstraction, what are the lowest levels responsible for? | Performing the tasks by executing machine code

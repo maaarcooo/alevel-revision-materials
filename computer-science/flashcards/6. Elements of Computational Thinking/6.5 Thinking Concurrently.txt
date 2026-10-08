@@ -1,13 +1,13 @@
 What is concurrent processing? | More than one process is in progress at the same time, so one can start before another finishes. Each process is given a slice of processor time in turn, or the processes run on different cores
-More than one process being in progress at the same time, each given a slice of processor time in turn — what term is this? | Concurrent processing
+More than one process being in progress at the same time, each given a slice of processor time in turn - what term is this? | Concurrent processing
 What is concurrent thinking? | The mindset of spotting patterns and parts of a problem where concurrency can be applied
-The mindset of spotting patterns and parts of a problem where concurrency can be applied — what term is this? | Concurrent thinking
+The mindset of spotting patterns and parts of a problem where concurrency can be applied - what term is this? | Concurrent thinking
 How does concurrent thinking differ from concurrent processing? | Concurrent thinking is done by a person analysing a problem. Concurrent processing is done by a computer processor
 How does concurrent processing differ from parallel processing? | Concurrent processing switches between tasks on one processor using time slices. Parallel processing runs tasks at the same instant on multiple processors or cores
 Why does concurrent processing look simultaneous to a user? | Each time slice lasts only microseconds, which is far too fast for a person to notice the switching
 What would happen to a second program if processes were not given time slices? | It could not start until the first had run to completion, such as a game waiting for a virus scan to finish
 What are dependencies? | Tasks that rely on other tasks in order to start or complete
-Tasks that rely on other tasks in order to start or complete — what term is this? | Dependencies
+Tasks that rely on other tasks in order to start or complete - what term is this? | Dependencies
 Give an example of a dependency | A roof cannot be put on a house until the walls are built, and the walls cannot be built until the foundation is in place
 How do you decide which parts of a problem can be tackled at the same time? | Assess which parts are related and identify the dependencies. Parts that do not rely on each other can be tackled concurrently
 In the task of recording the number plate and colour of each passing car, what is the concurrent thinking approach? | Record both the plate and the colour of one car before moving to the next, instead of all the plates and then all the colours

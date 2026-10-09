@@ -1,0 +1,67 @@
+What is an alternating current? | A current that periodically reverses direction, varying between positive and negative values with time
+A current that periodically reverses direction, varying between positive and negative values with time — what term is this? | Alternating current (a.c.)
+How often does the direction of an alternating current reverse? | Every half cycle
+To what shape of waveform do the A-level rms equations apply? | Sinusoidal waveforms only
+What is the relationship between the period and frequency of an a.c. supply? | $T = \frac{1}{f}$
+What is the frequency of an a.c. supply with a period of 20 ms? | $f = \frac{1}{T} = \frac{1}{0.020} = 50\;\text{Hz}$
+What is the peak value of an alternating current or voltage? | Its maximum value measured from zero, equal to the amplitude of the waveform
+What is the peak-to-peak value of an alternating voltage? | The difference between its maximum positive and maximum negative values
+How is peak voltage related to peak-to-peak voltage for a sinusoidal a.c.? | $V_0 = \frac{\text{peak-to-peak voltage}}{2}$
+What is the peak-to-peak voltage of a sinusoidal supply with a peak voltage of 325 V? | $2 \times 325 = 650\;\text{V}$
+What is the rms value of an alternating current? | The steady direct current that delivers the same average power in a resistor as the alternating current
+The steady direct current that delivers the same average power in a resistor as the alternating current — what term is this? | Root-mean-square (rms) current
+How is the rms value of an alternating current calculated from its values over a cycle? | The square root of the mean of the squares of all the current values in one cycle
+What is the equation for the rms current of a sinusoidal a.c.? | $I_{rms} = \frac{I_0}{\sqrt{2}} \approx 0.707 I_0$
+What is the equation for the rms voltage of a sinusoidal a.c.? | $V_{rms} = \frac{V_0}{\sqrt{2}} \approx 0.707 V_0$
+What is the peak voltage of a 230 V rms mains supply? | $V_0 = \sqrt{2} \times 230 = 325\;\text{V}$
+What is the rms voltage of UK mains electricity? | 230 V
+What is the frequency of UK mains electricity? | 50 Hz
+What is the equation for the average power delivered to a resistor by a sinusoidal a.c. supply? | $P = I_{rms} V_{rms}$
+What is the average power delivered to a resistor by a 230 V rms supply with an rms current of 2.0 A? | $P = I_{rms} V_{rms} = 2.0 \times 230 = 460\;\text{W}$
+What quantities are plotted on the axes of an oscilloscope display? | Voltage on the y-axis and time on the x-axis
+What can an oscilloscope be used to measure? | a.c. and d.c. voltages, time intervals, and frequencies
+What does the time-base setting of an oscilloscope give? | The time represented by each horizontal division, e.g. in ms div$^{-1}$
+What does the y-gain setting of an oscilloscope give? | The voltage represented by each vertical division, in V div$^{-1}$
+How is the period of an a.c. found from an oscilloscope trace? | Count the horizontal divisions spanned by one complete cycle and multiply by the time-base setting
+What is the period of an oscilloscope trace in which one cycle spans 4 divisions at a time-base of 5 ms div$^{-1}$? | $T = 4 \times 5 = 20\;\text{ms}$
+How should the period be measured from an oscilloscope trace to reduce uncertainty? | Measure the time for as many complete cycles as fit on the screen and divide by the number of cycles
+How is the peak voltage found from an oscilloscope trace? | Count the vertical divisions from the zero line to a peak and multiply by the y-gain
+How is the peak-to-peak voltage found from an oscilloscope trace? | Count the vertical divisions between the maximum and minimum and multiply by the y-gain
+How does an a.c. voltage appear on an oscilloscope with the time-base switched on? | As a sinusoidal waveform across the screen, from which the period and peak voltage can be measured
+How does an a.c. voltage appear on an oscilloscope with the time-base switched off? | As a vertical line whose length represents the peak-to-peak voltage
+How does a d.c. voltage appear on an oscilloscope with the time-base switched on? | As a horizontal line, whose height above the zero line in divisions multiplied by the y-gain gives the voltage
+What is a transformer? | A device that changes a high alternating voltage at low current to a low alternating voltage at high current, or vice versa
+What are the three main parts of a transformer? | A primary coil, a secondary coil, and an iron core
+What is the purpose of the iron core in a transformer? | It concentrates the magnetic flux from the primary coil and links it through the secondary coil
+Why is a transformer core made of soft iron? | It is easily magnetised and demagnetised, which reduces hysteresis losses
+Explain how a transformer produces an output voltage | An alternating current in the primary coil creates an alternating magnetic flux in the core, which passes through the secondary coil. The changing flux linkage induces an alternating e.m.f. in the secondary (Faraday's law)
+Why must the input to a transformer be alternating? | Only a changing current produces the changing flux linkage needed to induce an e.m.f. in the secondary coil
+How does the frequency of a transformer's output compare with its input? | It is the same
+What is the transformer equation? | $\frac{N_s}{N_p} = \frac{V_s}{V_p}$
+What is the output voltage of a transformer with 1000 primary turns and 50 secondary turns connected to a 230 V supply? | $V_s = V_p \frac{N_s}{N_p} = 230 \times \frac{50}{1000} = 11.5\;\text{V}$
+What is a step-up transformer? | One with more turns on the secondary coil than the primary ($N_s > N_p$), so it increases the voltage
+What is a step-down transformer? | One with more turns on the primary coil than the secondary ($N_p > N_s$), so it decreases the voltage
+Where are step-up transformers used in the National Grid? | Between power stations and the transmission lines
+Where are step-down transformers used in the National Grid? | Between the transmission lines and homes or other buildings
+How are input and output power related in an ideal transformer? | They are equal: $I_p V_p = I_s V_s$
+In an ideal transformer, how is the current ratio related to the turns ratio? | $\frac{I_s}{I_p} = \frac{V_p}{V_s} = \frac{N_p}{N_s}$
+What is the secondary current of an ideal transformer with a primary current of 0.50 A and a turns ratio $N_p : N_s$ of 20 : 1? | $I_s = I_p \frac{N_p}{N_s} = 0.50 \times 20 = 10\;\text{A}$
+What is the equation for transformer efficiency? | $\text{efficiency} = \frac{I_s V_s}{I_p V_p}$, the output power divided by the input power
+What is the efficiency of a transformer with $V_p = 200$ V, $I_p = 0.50$ A, $V_s = 20$ V and $I_s = 4.0$ A? | $\frac{I_s V_s}{I_p V_p} = \frac{20 \times 4.0}{200 \times 0.50} = \frac{80}{100} = 0.80$
+What are eddy currents in a transformer? | Circulating currents induced in the conducting core by the changing magnetic flux
+Circulating currents induced in the conducting core of a transformer by the changing magnetic flux — what term is this? | Eddy currents
+What energy loss do eddy currents cause in a transformer? | Heating of the core
+How does the magnetic field of eddy currents relate to the flux change that induced them? | It opposes that change
+How is a transformer core constructed to reduce eddy currents? | It is laminated: built from thin layers of iron insulated from each other
+Why does laminating a transformer core reduce eddy currents? | The insulation stops current flowing between layers, so eddy currents are confined to thin layers and are much smaller
+What property of the core material reduces eddy currents? | High resistivity
+Why do the coils of a transformer waste energy? | The wires have resistance, so the current flowing through them causes heating
+How is heating in transformer coils reduced? | By using thick wires, which have low resistance
+Which coil of a step-down transformer most needs thick wire? | The secondary coil, as it carries the larger current
+What causes hysteresis loss in a transformer core? | The energy needed to repeatedly reverse the magnetisation of the core
+What core design reduces energy loss from magnetic flux in a transformer? | A core that links all the flux from the primary coil to the secondary coil
+What is the equation for the power lost as heat in a transmission cable? | $P = I^2 R$
+What is the power lost in a cable of resistance 5.0 Ω carrying a current of 100 A? | $P = I^2 R = 100^2 \times 5.0 = 5.0 \times 10^4\;\text{W}$
+By what factor does the power lost in a transmission cable change if the current doubles? | It increases by a factor of 4
+Why is electrical power transmitted at high voltage? | For the same power, a higher voltage means a lower current, which reduces $I^2 R$ heating losses in the cables
+Why is the voltage stepped down before electricity reaches homes? | To reduce it to the voltage used in homes (230 V)

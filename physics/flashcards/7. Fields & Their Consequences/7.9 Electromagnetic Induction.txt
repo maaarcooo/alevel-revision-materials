@@ -1,0 +1,68 @@
+What is electromagnetic induction? | The process by which an emf is induced in a conductor when the magnetic flux linkage through it changes
+Which three quantities can change to change the flux linkage through a coil? | The flux density, the coil's area, or the coil's angle to the field
+What is magnetic flux? | The product of magnetic flux density and the area perpendicular to the field: $\Phi = BA$
+The product of magnetic flux density and the area perpendicular to the field — what quantity is this? | Magnetic flux
+What is the unit of magnetic flux? | Weber (Wb)
+What is one weber in terms of the tesla? | $1\ \text{Wb} = 1\ \text{T m}^2$
+What is the magnetic flux through an area of $0.050\ \text{m}^2$ perpendicular to a uniform field of $0.20\ \text{T}$? | $\Phi = BA = 0.20 \times 0.050 = 0.010\ \text{Wb}$
+What is magnetic flux linkage? | The product of the magnetic flux through a coil and its number of turns, $N\Phi$
+The product of the magnetic flux through a coil and its number of turns — what quantity is this? | Magnetic flux linkage
+What is the unit of magnetic flux linkage? | Weber turns (Wb turns)
+What is the flux linkage of a coil of $N$ turns and area $A$ at an angle to a uniform field $B$? | $N\Phi = BAN\cos\theta$
+In $N\Phi = BAN\cos\theta$, what angle is $\theta$? | The angle between the field lines and the normal to the plane of the coil
+What is the flux linkage of a 100-turn coil of area $0.020\ \text{m}^2$ in a $0.50\ \text{T}$ field with its normal at $60^\circ$ to the field? | $N\Phi = BAN\cos\theta = 0.50 \times 0.020 \times 100 \times \cos 60^\circ = 0.50\ \text{Wb turns}$
+When is the flux through a flat coil in a uniform magnetic field at its maximum? | When the plane of the coil is perpendicular to the field lines ($\theta = 0^\circ$)
+When is the flux through a flat coil in a uniform magnetic field zero? | When the plane of the coil is parallel to the field lines ($\theta = 90^\circ$)
+State Faraday's law | The magnitude of the induced emf is equal to the rate of change of flux linkage
+State Lenz's law | The induced emf acts in a direction that produces effects opposing the change that causes it
+What is the equation for the magnitude of the emf induced in a coil of $N$ turns? | $\varepsilon = N\frac{\Delta\Phi}{\Delta t}$
+What does the minus sign in $\varepsilon = -N\frac{\Delta\Phi}{\Delta t}$ represent? | Lenz's law (it gives the direction of the induced emf)
+What is the magnitude of the emf induced in a 50-turn coil when the flux through it changes by $2.0 \times 10^{-3}\ \text{Wb}$ in $0.10\ \text{s}$? | $\varepsilon = N\frac{\Delta\Phi}{\Delta t} = 50 \times \frac{2.0 \times 10^{-3}}{0.10} = 1.0\ \text{V}$
+What does the gradient of a flux linkage against time graph represent? | The induced emf
+What apparatus is used to verify Lenz's law? | A bar magnet, a coil of wire and a sensitive ammeter (no cell)
+When the north pole of a bar magnet is pushed into a coil, what pole is induced at the end of the coil nearest the magnet? | A north pole, which repels the magnet
+When the north pole of a bar magnet is pulled out of a coil, what pole is induced at the end of the coil nearest the magnet? | A south pole, which attracts the magnet
+Using the right-hand grip rule on a coil, what do the curled fingers and the thumb show? | Fingers: the direction of the current. Thumb: the direction of the magnetic field inside the coil (towards its north pole)
+Why is no emf induced when a magnet is held stationary inside a coil? | The flux linkage is not changing
+How does the induced emf change when a magnet is pulled out of a coil rather than pushed in? | Its direction reverses
+Name three changes that increase the emf induced by a magnet moving through a coil | Move the magnet faster, use more turns, use a stronger magnet
+What is the frequency of the emf induced in a coil placed in the magnetic field of a second coil connected to an a.c. supply? | The same as the supply frequency
+Which device uses electromagnetic induction to convert kinetic energy into electrical energy? | A generator
+What emf is induced across a straight conductor of length $L$ moving at speed $v$ perpendicular to a uniform field of flux density $B$? | $\varepsilon = BLv$
+In which direction must a straight conductor move through a magnetic field for the induced emf to be maximum? | Perpendicular to the field lines
+Explain how $\varepsilon = BLv$ follows from Faraday's law for a rod moving perpendicular to a uniform field | In time $\Delta t$ the rod sweeps an area $Lv\Delta t$, cutting flux $\Delta\Phi = BLv\Delta t$. Dividing by $\Delta t$ with $N = 1$ gives $\varepsilon = BLv$
+What is the emf across a $0.25\ \text{m}$ rod moving at $3.0\ \text{m s}^{-1}$ perpendicular to a $0.40\ \text{T}$ field? | $\varepsilon = BLv = 0.40 \times 0.25 \times 3.0 = 0.30\ \text{V}$
+What length is used for $L$ when calculating the emf between the wing tips of an aircraft flying through Earth's magnetic field? | The wingspan
+What is the flux linkage of a coil rotating at angular speed $\omega$ in a uniform field, timed from when its plane is perpendicular to the field? | $N\Phi = BAN\cos(\omega t)$
+What emf is induced in a coil rotating at angular speed $\omega$ in a uniform field, timed from when its plane is perpendicular to the field? | $\varepsilon = BAN\omega\sin(\omega t)$
+What is the peak emf of a 200-turn coil of area $0.010\ \text{m}^2$ rotating at $50\ \text{rad s}^{-1}$ in a $0.10\ \text{T}$ field? | $\varepsilon_0 = BAN\omega = 0.10 \times 0.010 \times 200 \times 50 = 10\ \text{V}$
+For a coil rotating in a uniform magnetic field, at what orientation is the induced emf maximum? | When the plane of the coil is parallel to the field lines
+For a coil rotating in a uniform magnetic field, at what orientation is the induced emf zero? | When the plane of the coil is perpendicular to the field lines
+Explain why the emf of a coil rotating in a uniform field is greatest when its flux linkage is zero | At that orientation the coil's sides cut the field lines fastest, so the flux linkage changes at its greatest rate
+What is the phase difference between the flux linkage and the induced emf of a coil rotating in a uniform field? | $90^\circ$
+Which calculator mode is needed to evaluate $\sin(\omega t)$ when $\omega$ is in $\text{rad s}^{-1}$? | Radians
+What is the aim of the search coil required practical? | To find how the flux linkage through a search coil varies with the angle between the coil and the magnetic field
+How is the magnetic field produced in the search coil practical? | A slinky spring (large coil) connected to a low-voltage 50 Hz a.c. supply
+Why is an a.c. supply used for the slinky in the search coil practical? | It produces a changing magnetic field, so an emf is induced in the stationary search coil
+What instrument measures the induced emf in the search coil practical? | A cathode-ray oscilloscope (CRO)
+What is the independent variable in the search coil practical? | The angle $\theta$ between the normal to the search coil and the field lines
+What is the dependent variable in the search coil practical? | The peak induced emf
+Which two properties of the search coil are controlled in the search coil practical? | Its area and its number of turns
+Which two properties of the slinky's magnetic field are kept constant in the search coil practical? | Its peak flux density and its frequency
+Why is the CRO time-base switched off in the search coil practical? | So the trace is a vertical line whose length shows the peak-to-peak voltage
+How is the peak emf found from the CRO trace in the search coil practical? | Halve the peak-to-peak voltage
+Where along the slinky is the search coil placed in the search coil practical? | Halfway along it
+What is the starting orientation of the search coil in the search coil practical? | Its plane perpendicular to the field, so $\theta = 0^\circ$
+How is the angle varied in the search coil practical? | The coil is rotated in $10^\circ$ steps up to $90^\circ$, measured with a protractor
+What graph is plotted in the search coil practical? | Peak emf $\varepsilon_0$ against $\cos\theta$
+What shape is the expected graph of peak emf against $\cos\theta$ in the search coil practical? | A straight line through the origin
+What is the gradient of the graph of peak emf against $\cos\theta$ in the search coil practical? | $B_0AN\omega$
+What relationship between flux linkage and angle does the search coil practical confirm? | Flux linkage (and so peak emf) is proportional to $\cos\theta$
+Why might the graph of peak emf against $\cos\theta$ have a non-zero intercept at $\cos\theta = 0$? | The field lines are not perfectly uniform, so some flux still links the coil at $90^\circ$
+How is parallax error reduced when reading the protractor in the search coil practical? | Read it from directly above, at the same point each time
+How could the reliability of the search coil practical be improved? | Take readings over a full $360^\circ$ rotation
+How could the angle increments be set more precisely in the search coil practical? | Rotate the coil with a calibrated motor in fixed increments
+How is the protractor kept in the same place between readings in the search coil practical? | Fix it with blu-tack
+Why should the supply to the slinky not be left on longer than necessary? | The coil heats up, especially if its wire is thin
+What limit must not be exceeded to avoid damaging the slinky coil? | Its rated current
+What checks on the leads reduce the risk of a short circuit or fire in the search coil practical? | No damaged wires or connections, and appropriate fuses fitted

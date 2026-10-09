@@ -1,0 +1,37 @@
+Define gravitational potential at a point | The work done per unit mass in bringing a small test mass from infinity to that point
+The work done per unit mass in bringing a small test mass from infinity to a point — what quantity is this? | Gravitational potential
+What is the unit of gravitational potential? | $\text{J kg}^{-1}$
+Where is gravitational potential defined to be zero? | At infinity
+How is gravitational potential related to gravitational potential energy? | V is the gravitational potential energy per unit mass at that point ($E_p = mV$)
+Explain why gravitational potential is negative everywhere near an isolated mass, given that V = 0 at infinity | Gravity is attractive, so work must be done on a mass to move it out to infinity. The mass therefore has less potential energy at any closer point
+How does the gravitational potential change as a mass moves away from a planet? | It increases (becomes less negative) towards zero
+What is the equation for gravitational potential at distance r from a point mass M? | $V = -\frac{GM}{r}$
+In $V = -\frac{GM}{r}$, where is r measured from? | The centre of the mass M, not its surface
+What is the gravitational potential $4.0 \times 10^6$ m from the centre of a planet of mass $6.0 \times 10^{24}$ kg? | $V = -\frac{GM}{r} = -\frac{(6.67 \times 10^{-11})(6.0 \times 10^{24})}{4.0 \times 10^6} = -1.0 \times 10^8\;\text{J kg}^{-1}$
+State whether gravitational potential and gravitational field strength are scalar or vector quantities | Gravitational potential is a scalar, gravitational field strength is a vector
+What is the gravitational potential difference between an initial and a final point? | $\Delta V = V_f - V_i$
+What is the work done moving a mass m through a gravitational potential difference $\Delta V$? | $\Delta W = m\Delta V$
+What is the work done moving a 50 kg mass through a gravitational potential difference of $2.0 \times 10^6\;\text{J kg}^{-1}$? | $\Delta W = m\Delta V = 50 \times 2.0 \times 10^6 = 1.0 \times 10^8$ J
+The work done against a gravitational field equals the change in [...] | gravitational potential energy
+What is the gravitational potential energy of a mass m at distance r from the centre of a mass M? | $E_p = -\frac{GMm}{r}$
+What is the change in gravitational potential energy when a mass m moves from $r_1$ to $r_2$ from the centre of a mass M? | $\Delta E_p = GMm\left(\frac{1}{r_1} - \frac{1}{r_2}\right)$
+What is the change in GPE when a 100 kg mass moves from $2.0 \times 10^7$ m to $4.0 \times 10^7$ m from the centre of a planet of mass $6.0 \times 10^{24}$ kg? | $\Delta E_p = GMm\left(\frac{1}{r_1} - \frac{1}{r_2}\right) = (6.67 \times 10^{-11})(6.0 \times 10^{24})(100)\left(\frac{1}{2.0 \times 10^7} - \frac{1}{4.0 \times 10^7}\right) = 1.0 \times 10^9$ J
+When can $\Delta E_p = mg\Delta h$ be used instead of $\Delta E_p = GMm\left(\frac{1}{r_1} - \frac{1}{r_2}\right)$? | Only when g is effectively constant (a uniform field), as for small height changes near a planet's surface
+What is the equation linking gravitational field strength to potential gradient? | $g = -\frac{\Delta V}{\Delta r}$
+What does the minus sign in $g = -\frac{\Delta V}{\Delta r}$ indicate? | The field points towards decreasing potential (towards the mass)
+What is the magnitude of g where the gravitational potential rises by $2.0 \times 10^4\;\text{J kg}^{-1}$ over a radial distance of 10 km? | $g = \frac{\Delta V}{\Delta r} = \frac{2.0 \times 10^4}{1.0 \times 10^4} = 2.0\;\text{N kg}^{-1}$
+How is g found at a point on a V–r graph? | Draw a tangent at that point. g is the negative of its gradient
+What does the area under a g–r graph between two distances represent? | The magnitude of the change in gravitational potential $\Delta V$ between them
+How can the area under a plotted g–r curve be estimated? | Count the squares, or split it into trapeziums and sum their areas
+How do the V–r and g–r graphs outside a planet differ in shape? | V–r: negative values rising gently towards zero ($-\frac{1}{r}$). g–r: positive values falling steeply ($\frac{1}{r^2}$, inverse square)
+By what factor does g change outside a planet when the distance from its centre doubles? | It decreases by a factor of 4
+Along the line between two planets, where does the gravitational potential reach its maximum? | Where the resultant field strength is zero, which is closer to the less massive planet
+What is an equipotential surface? | A surface joining points of equal gravitational potential
+A surface joining points of equal gravitational potential — what term is this? | Equipotential surface
+How much work is done moving a mass along an equipotential surface? | None, since $\Delta V = 0$
+At what angle do equipotentials meet gravitational field lines? | 90° (perpendicular)
+What shape are the equipotential surfaces around a spherical mass? | Concentric spheres centred on the mass (concentric circles in 2D)
+How does the spacing of equipotentials at equal potential steps change with distance from a planet? | It increases
+Explain why equipotentials at equal potential steps get further apart with distance from a planet | The field weakens with distance, so a greater distance must be moved for the same $\Delta V$
+Describe the equipotentials in the uniform gravitational field near the Earth's surface | Horizontal, parallel and equally spaced (for equal potential steps)
+How are equipotential lines drawn differently from field lines? | Dashed, with no arrows (potential has no direction). Field lines are solid with arrows

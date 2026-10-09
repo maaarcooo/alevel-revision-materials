@@ -1,0 +1,58 @@
+What is the electric potential at a point? | The work done per unit charge in bringing a small positive test charge from infinity to that point
+The work done per unit charge in bringing a small positive test charge from infinity to a point — what quantity is this? | Electric potential
+What are the units of electric potential? | Volts (V), equivalent to $\text{J C}^{-1}$
+Is electric potential a scalar or a vector quantity? | Scalar
+What is the value of electric potential at infinity? | Zero
+What two factors determine the electric potential at a point near a point charge? | The magnitude of the charge and the distance from it
+What is the sign of the electric potential around an isolated positive charge? | Positive
+What is the sign of the electric potential around an isolated negative charge? | Negative
+How does the electric potential change as a test charge moves closer to an isolated positive charge? | It increases
+How does the electric potential change as a test charge moves closer to an isolated negative charge? | It decreases
+Why must work be done to move a positive test charge towards a positive charge? | To overcome the electrostatic repulsion between them
+How does electric potential change along the direction of the electric field lines? | It decreases
+How does the sign of electric potential differ from that of gravitational potential? | Gravitational potential is always negative. Electric potential takes the sign of the charge producing it
+What is the equation for the electric potential at distance $r$ from a point charge $Q$? | $V = \frac{Q}{4\pi\varepsilon_0 r}$
+What is the electric potential 0.45 m from a point charge of $+4.0\;\mu\text{C}$? | $V = \frac{Q}{4\pi\varepsilon_0 r} = \frac{4.0\times10^{-6}}{4\pi \times 8.85\times10^{-12} \times 0.45} = 8.0\times10^{4}\;\text{V}$
+How does electric potential vary with distance $r$ from a point charge? | $V \propto \frac{1}{r}$
+How is a charged conducting sphere treated when calculating the potential outside it? | As a point charge at its centre, so $r$ is measured from the centre
+What is the electric potential inside a charged conducting sphere? | Constant, equal to the potential at its surface
+How is the total electric potential at a point due to several charges found? | Add the potentials due to each charge, including their signs
+What is the potential gradient in an electric field? | The rate of change of electric potential with respect to displacement in the direction of the field
+What is the unit of potential gradient? | $\text{V m}^{-1}$
+How is electric field strength related to potential gradient? | $E = -\frac{\Delta V}{\Delta r}$
+What does the minus sign in $E = -\frac{\Delta V}{\Delta r}$ indicate? | The field points in the direction of decreasing potential
+What is the magnitude of the field strength where the potential changes by 200 V over 0.040 m? | $E = \frac{\Delta V}{\Delta r} = \frac{200}{0.040} = 5000\;\text{V m}^{-1}$
+What does the gradient of a $V$–$r$ graph give at a point? | The electric field strength there ($E$ equals minus the gradient)
+What does the area under an $E$–$r$ graph between two distances give? | The potential difference between those two points
+How does electric field strength vary with distance $r$ from a point charge? | $E \propto \frac{1}{r^2}$ (inverse square law)
+Which falls off more rapidly with distance from a point charge, $E$ or $V$? | $E$, as it varies with $\frac{1}{r^2}$ while $V$ varies with $\frac{1}{r}$
+What is the equation for the work done moving a charge $q$ through a potential difference $\Delta V$? | $\Delta W = q\Delta V$
+What is the work done moving a charge of $2.0\;\mu\text{C}$ through a potential difference of 50 V? | $\Delta W = q\Delta V = 2.0\times10^{-6} \times 50 = 1.0\times10^{-4}\;\text{J}$
+What is the potential difference between two points in terms of their potentials? | $\Delta V = V_f - V_i$
+What is the potential difference between distances $r_i$ and $r_f$ from a point charge $Q$? | $\Delta V = \frac{Q}{4\pi\varepsilon_0}\left(\frac{1}{r_f} - \frac{1}{r_i}\right)$
+In work done problems involving two charges, how do $q$ and $Q$ differ? | $q$ is the charge being moved. $Q$ is the charge producing the potential
+What is the electric potential energy of two point charges $Q_1$ and $Q_2$ separated by $r$? | $E_p = \frac{Q_1 Q_2}{4\pi\varepsilon_0 r}$, with the charges including their signs
+What is the electric potential energy of two $+1.0\;\mu\text{C}$ charges 0.10 m apart? | $E_p = \frac{Q_1 Q_2}{4\pi\varepsilon_0 r} = \frac{(1.0\times10^{-6})^2}{4\pi \times 8.85\times10^{-12} \times 0.10} = 0.090\;\text{J}$
+How is electric potential related to electric potential energy? | $V = \frac{E_p}{q}$
+What is the work done on a charge moved between two points in an electric field equal to? | The change in its electric potential energy
+What is the electric potential energy of a charge at a point where $V = 0$? | Zero
+How does the electric potential energy of two like charges change as their separation increases? | It decreases
+How does the electric potential energy of two opposite charges change as their separation increases? | It increases (becomes less negative)
+What does the gradient of an $E_p$–$r$ graph give at a point? | The electric force there ($F$ equals minus the gradient)
+What does the area under a force–distance graph for two charges give? | The change in electric potential energy
+In which direction must a positive charge move for work to be done on it by an external force? | Against the electric field lines
+In which direction must a negative charge move for work to be done on it by an external force? | With the electric field lines
+What is an equipotential surface? | A surface joining points of equal electric potential
+At what angle do equipotential surfaces meet electric field lines? | 90° (perpendicular)
+How much work is done moving a charge along an equipotential surface? | None
+What shape are the equipotentials around a point charge? | Concentric circles (spheres in 3D) centred on the charge
+How does the spacing of equipotentials at equal potential intervals change with distance from a point charge? | They become further apart
+What shape are the equipotentials in the uniform field between two parallel plates? | Straight lines parallel to the plates
+What does the spacing of equipotentials at equal potential intervals indicate? | The field strength: closer spacing means a stronger field
+What do equally spaced equipotentials at equal potential intervals indicate? | A uniform (constant) electric field strength
+How do the equipotentials outside a charged conducting sphere compare with those of an equal point charge at its centre? | They are the same
+What is the electric potential along the perpendicular bisector of two equal and opposite charges? | 0 V
+Where is the point of zero resultant field strength between two unequal like charges? | Closer to the smaller charge
+What does a greater density of field lines around one of two charges indicate? | A stronger field, so a larger charge
+What shape are the equipotentials far from a pair of like charges? | Closed curves enclosing both charges
+Why are equipotential lines drawn without arrows? | Potential is a scalar, so equipotentials have no direction

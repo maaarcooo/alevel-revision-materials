@@ -1,0 +1,68 @@
+State Coulomb's law | The electrostatic force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of their separation
+What is the equation for Coulomb's law? | $F = \frac{Q_1 Q_2}{4\pi\varepsilon_0 r^2}$
+In Coulomb's law, between which points is the separation $r$ measured? | The centres of the two charges
+What does the symbol $\varepsilon_0$ represent? | The permittivity of free space
+What is the unit of $\varepsilon_0$? | $\text{F m}^{-1}$ (equivalent to $\text{C}^2\,\text{N}^{-1}\,\text{m}^{-2}$)
+What is the Coulomb constant $k$ in terms of $\varepsilon_0$? | $k = \frac{1}{4\pi\varepsilon_0} \approx 8.99 \times 10^9\ \text{N m}^2\,\text{C}^{-2}$
+What approximation is made about air when calculating the force between charges in air? | Air is treated as a vacuum, so $\varepsilon_0$ is used
+Coulomb's law for charges is analogous to which law for masses? | Newton's law of gravitation
+In Coulomb's law, what does a positive value of $F$ indicate? | Repulsion between like charges
+In Coulomb's law, what does a negative value of $F$ indicate? | Attraction between opposite charges
+What is the electrostatic force between two charges of $1.0 \times 10^{-6}$ C separated by 0.10 m in a vacuum? | $F = \frac{Q_1 Q_2}{4\pi\varepsilon_0 r^2} = \frac{(1.0 \times 10^{-6})^2}{4\pi (8.85 \times 10^{-12})(0.10)^2} = 0.90\ \text{N}$
+Outside a uniformly charged sphere, where can the sphere's charge be considered to act? | At its centre, as a point charge
+What is the electric field strength inside a charged conducting sphere? | Zero
+What is an electric field? | A region of space in which a charged object experiences a force
+Define electric field strength | The force per unit charge experienced by a small positive test charge placed at that point
+The force per unit charge experienced by a small positive test charge placed at a point — what quantity is this? | Electric field strength
+What is the equation for electric field strength in terms of force and charge? | $E = \frac{F}{Q}$
+What is the unit of electric field strength? | $\text{N C}^{-1}$, equivalent to $\text{V m}^{-1}$
+What type of quantity is electric field strength? | A vector
+Why does the definition of electric field strength specify a positive test charge? | It sets the convention for the direction of the field
+In what direction is the force on a positive charge in an electric field? | In the direction of the field
+In what direction is the force on a negative charge in an electric field? | Opposite to the direction of the field
+What is the electric field strength where a 2.0 μC charge experiences a force of 0.050 N? | $E = \frac{F}{Q} = \frac{0.050}{2.0 \times 10^{-6}} = 2.5 \times 10^4\ \text{N C}^{-1}$
+Which two properties of an electric field do field lines represent? | Its direction and its magnitude
+In what direction do electric field lines point between charges? | From the positive charge to the negative charge
+How does the spacing of electric field lines indicate field strength? | Closer lines mean a stronger field
+What do the field lines of a uniform electric field look like? | Parallel and equally spaced
+How does electric field strength vary across a uniform field? | It is constant in magnitude and direction at all points
+What is the field around a positive point charge like? | Radial, pointing outwards
+What is the field around a negative point charge like? | Radial, pointing inwards
+How do the field lines between two opposite charges differ from those between two like charges? | Opposite charges: lines run from one charge to the other. Like charges: lines do not connect the two charges
+Where is the neutral point between two equal like charges? | At the midpoint, where the resultant field is zero
+What two rules apply when sketching electric field lines? | Lines never cross, and they start or end on the surface of a charge or plate
+What type of field is produced between two oppositely charged parallel plates? | A uniform field
+What is the electric field like beyond the edges of two charged parallel plates? | Weaker and non-uniform
+What is the equation for the electric field strength between two parallel plates? | $E = \frac{V}{d}$, where $V$ is the potential difference and $d$ is the plate separation
+What is the electric field strength between parallel plates 0.020 m apart with a potential difference of 500 V? | $E = \frac{V}{d} = \frac{500}{0.020} = 2.5 \times 10^4\ \text{V m}^{-1}$
+Why can $E = \frac{V}{d}$ not be used for the field around a point charge? | The field around a point charge is radial, not uniform
+What is the potential of an earthed plate? | 0 V
+What expression for the force on a charge $Q$ between parallel plates follows from equating $E = \frac{F}{Q}$ and $E = \frac{V}{d}$? | $F = \frac{QV}{d}$
+What is the work done moving a charge $Q$ through a potential difference $V$? | $W = QV$
+What is the work done moving a charge of $2.0 \times 10^{-6}$ C through a potential difference of 300 V? | $W = QV = (2.0 \times 10^{-6})(300) = 6.0 \times 10^{-4}\ \text{J}$
+How does a charged particle initially at rest in a uniform electric field move? | It accelerates in a straight line parallel to the field lines
+What path does a charged particle follow when it enters a uniform electric field at right angles to the field lines? | A parabola
+Why does a charged particle entering a uniform field at right angles follow a parabolic path? | It experiences a constant force in a fixed direction perpendicular to its initial velocity, like a projectile
+Towards which plate is a positive particle deflected between charged parallel plates? | The negative plate
+Towards which plate is a negative particle deflected between charged parallel plates? | The positive plate
+How does a neutron move through the field between charged parallel plates? | In a straight line, undeflected, because it has no charge
+For a charged particle entering a uniform field at right angles, how does a greater mass affect its deflection? | Deflection decreases
+For a charged particle entering a uniform field at right angles, how does a greater charge affect its deflection? | Deflection increases
+For a charged particle entering a uniform field at right angles, how does a greater speed affect its deflection? | Deflection decreases
+Explain why a boron-11 nucleus is deflected less than a proton entering the same uniform field with the same velocity | Its charge is 5 times larger but its mass is 11 times larger, so its acceleration towards the plate is smaller
+What is the equation for the electric field strength at distance $r$ from a point charge $Q$? | $E = \frac{Q}{4\pi\varepsilon_0 r^2}$
+How does the electric field strength of a point charge vary with distance $r$? | Inverse square law, $E \propto \frac{1}{r^2}$
+What is the electric field strength 0.30 m from a point charge of $1.0 \times 10^{-9}$ C? | $E = \frac{Q}{4\pi\varepsilon_0 r^2} = \frac{1.0 \times 10^{-9}}{4\pi (8.85 \times 10^{-12})(0.30)^2} = 1.0 \times 10^2\ \text{N C}^{-1}$
+How is the resultant electric field at a point due to several charges found? | By vector addition of the individual fields
+On the line through two charges, what is the resultant field where their fields $E_1$ and $E_2$ act in the same direction? | $E_1 + E_2$
+On the line through two charges, what is the magnitude of the resultant field where their fields $E_1$ and $E_2$ act in opposite directions? | $E_1 - E_2$
+What is the magnitude of the resultant of two perpendicular electric fields $E_1$ and $E_2$? | $\sqrt{E_1^2 + E_2^2}$
+What is the resultant field at a point where perpendicular fields of 3.0 kN C⁻¹ and 4.0 kN C⁻¹ act? | $\sqrt{3.0^2 + 4.0^2} = 5.0\ \text{kN C}^{-1}$
+How does the origin of the gravitational force differ from that of the electrostatic force? | Gravitational force acts between masses. Electrostatic force acts between charges
+How does the nature of the gravitational force differ from that of the electrostatic force? | Gravitational force is always attractive. Electrostatic force can be attractive or repulsive
+How does the sign of gravitational potential differ from that of electric potential? | Gravitational potential is always negative. Electric potential can be positive or negative
+How does the gravitational force between two protons compare with the electrostatic force between them? | It is negligibly small in comparison
+The field lines around a point mass are identical to those around which type of point charge? | A negative point charge
+How do gravitational and electric potential vary with distance $r$ from a point mass or charge? | Both are proportional to $\frac{1}{r}$
+What shape are the equipotential surfaces around a point charge? | Concentric spheres centred on the charge
+What do the equipotentials in a uniform electric field look like? | Equally spaced planes parallel to the plates, perpendicular to the field lines

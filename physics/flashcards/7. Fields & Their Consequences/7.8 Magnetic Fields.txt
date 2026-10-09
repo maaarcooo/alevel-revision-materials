@@ -1,0 +1,84 @@
+What is a magnetic field? | A region of space in which a magnetic pole experiences a force
+A region of space in which a magnetic pole experiences a force — what is this? | A magnetic field
+What two things produce a magnetic field? | Moving electric charges (such as a current) and permanent magnets
+What kind of electric charge does not produce a magnetic field? | A stationary charge
+What is magnetic flux density? | The magnetic flux per unit area perpendicular to the field
+The magnetic flux per unit area perpendicular to the field — what quantity is this? | Magnetic flux density, $B$
+What is the unit of magnetic flux density? | Tesla (T)
+Define one tesla | The magnetic flux density that causes a force of 1 N on a 1 m length of wire carrying a current of 1 A at right angles to the field
+The magnetic flux density that causes a force of 1 N on a 1 m length of wire carrying 1 A at right angles to the field — what unit is this? | The tesla (T)
+In which direction do magnetic field lines point outside a magnet? | From the north pole to the south pole
+What does the direction of a magnetic field line at a point show? | The direction of the force a free north pole would experience at that point
+How is a region of stronger magnetic field shown on a field line diagram? | Field lines drawn closer together
+Where is the magnetic flux density greatest around a bar magnet? | At the poles
+What rule about crossing do magnetic field lines always obey? | They never cross
+On a diagram, what does a dot (or circled dot) represent for a magnetic field? | A field directed out of the page
+On a diagram, what does a cross represent for a magnetic field? | A field directed into the page
+In which direction does conventional current flow? | From positive to negative, opposite to the direction of electron flow
+What is the equation for the force on a current-carrying conductor at an angle $\theta$ to a magnetic field? | $F = BIL\sin\theta$, where $\theta$ is the angle between the conductor and the field
+What is the equation for the force on a current-carrying conductor perpendicular to a magnetic field? | $F = BIL$
+What length $L$ is used in $F = BIL$? | The length of conductor that is within the field
+What is the force on a 0.50 m wire carrying 3.0 A perpendicular to a 0.20 T magnetic field? | $F = BIL = 0.20 \times 3.0 \times 0.50 = 0.30\;\text{N}$
+At what angle to a magnetic field does a current-carrying conductor experience the maximum force? | 90° (perpendicular to the field)
+What is the force on a current-carrying conductor lying parallel to a magnetic field? | Zero
+Why does a current-carrying conductor parallel to a magnetic field experience no force? | Only the component of current perpendicular to the field produces a force, and this component is zero when parallel
+State three ways to increase the force on a current-carrying conductor perpendicular to a magnetic field | Increase the flux density, increase the current, increase the length of conductor in the field
+What happens to a copper rod resting on rails in a uniform magnetic field when a current passes through it? | It experiences a force and accelerates in the direction of that force
+What is Fleming's left-hand rule used to find? | The direction of the force on a current-carrying conductor or moving charge in a magnetic field
+How are the force, field and current oriented when a current-carrying conductor is perpendicular to a magnetic field? | All mutually perpendicular
+In Fleming's left-hand rule, what does the thumb represent? | The force (motion) on the conductor
+In Fleming's left-hand rule, what does the first finger represent? | The magnetic field direction
+In Fleming's left-hand rule, what does the second finger represent? | The conventional current
+How does the use of Fleming's left-hand rule differ from that of Fleming's right-hand rule? | Left-hand rule: force on a current in a magnetic field (motors). Right-hand rule: current induced in a conductor (generators)
+A horizontal wire in a magnetic field directed into the page experiences a downward force. In which direction is the current? | From right to left
+What is the equation for the magnetic force on a charge moving at an angle $\theta$ to a magnetic field? | $F = BQv\sin\theta$, where $\theta$ is the angle between the velocity and the field
+What is the equation for the magnetic force on a charge moving perpendicular to a magnetic field? | $F = BQv$
+What is the magnetic force on a charged particle moving parallel to a magnetic field? | Zero
+What is the force on a particle of charge $3.2 \times 10^{-19}$ C moving at $2.0 \times 10^6$ m s$^{-1}$ perpendicular to a 0.50 T field? | $F = BQv = 0.50 \times 3.2 \times 10^{-19} \times 2.0 \times 10^6 = 3.2 \times 10^{-13}\;\text{N}$
+When is $F = BIL$ used rather than $F = BQv$? | $F = BIL$ for a current-carrying conductor. $F = BQv$ for an individual moving charge, including one inside a conductor
+In what direction is the magnetic force on a moving charge relative to its velocity and the field? | Perpendicular to both
+In Fleming's left-hand rule, which way does the second finger point for a negatively charged particle? | Opposite to the particle's velocity
+How does the magnetic force on a negative particle compare with that on a positive particle moving the same way in the same field? | It acts in the opposite direction
+A positive charge moves from left to right through a magnetic field directed into the page. In which direction is the force on it? | Upwards
+What path does a charged particle follow when moving perpendicular to a uniform magnetic field? | A circle
+Why does a charged particle moving perpendicular to a uniform magnetic field follow a circular path? | The magnetic force is always perpendicular to its velocity, so it acts as a centripetal force towards a fixed centre
+What happens to the speed of a charged particle moving in a circle in a uniform magnetic field? | It stays constant
+Which two forces are equated to derive the radius of a charged particle's circular path in a magnetic field? | Centripetal force and magnetic force: $\frac{mv^2}{r} = BQv$
+What is the equation for the radius of a charged particle's path perpendicular to a uniform magnetic field? | $r = \frac{mv}{BQ}$
+What is the radius of the path of a particle of mass $2.0 \times 10^{-26}$ kg and charge $1.6 \times 10^{-19}$ C moving at $4.0 \times 10^5$ m s$^{-1}$ perpendicular to a 0.50 T field? | $r = \frac{mv}{BQ} = \frac{2.0 \times 10^{-26} \times 4.0 \times 10^5}{0.50 \times 1.6 \times 10^{-19}} = 0.10\;\text{m}$
+How does the radius of a charged particle's circular path in a magnetic field depend on its speed? | Directly proportional ($r \propto v$)
+How does the radius of a charged particle's circular path in a magnetic field depend on its mass? | Directly proportional ($r \propto m$)
+How does the radius of a charged particle's circular path in a magnetic field depend on its charge? | Inversely proportional ($r \propto \frac{1}{Q}$)
+How does the radius of a charged particle's circular path in a magnetic field depend on the flux density? | Inversely proportional ($r \propto \frac{1}{B}$)
+In what direction is the centripetal acceleration of a charged particle circling in a magnetic field? | Towards the centre of the circle, the same direction as the magnetic force
+What is a cyclotron? | A particle accelerator that uses a magnetic field to bend charged particles into a spiral path while accelerating them to very high speeds
+What are two medical uses of cyclotrons? | Producing tracers for imaging and creating high-energy beams for radiotherapy
+What are the three main parts of a cyclotron? | Two dees, a strong uniform magnetic field, and an alternating electric field across the gap between the dees
+What are the dees in a cyclotron? | Two hollow semicircular electrodes
+Where is the source of charged particles in a cyclotron? | At the centre
+What is the role of the uniform magnetic field in a cyclotron? | To supply the centripetal force that keeps the particles moving in circular paths
+What is the role of the alternating electric field in a cyclotron? | To accelerate the particles across the gap between the dees
+How much energy does a particle of charge $Q$ gain each time it crosses the gap in a cyclotron with accelerating p.d. $V$? | $QV$
+Why does the radius of a particle's path increase after each gap crossing in a cyclotron? | The particle has been accelerated, and radius is proportional to speed
+Why does the direction of the electric field in a cyclotron reverse each time the particles reach the gap? | So the particles are always accelerated towards the opposite dee
+Why does each half-circle in a cyclotron take the same time even though the particles speed up? | Radius increases in proportion to speed, so the time for each half-circle, $\frac{\pi m}{BQ}$, does not depend on speed
+What overall path do particles follow in a cyclotron? | A spiral outwards from the centre until they leave at the desired speed
+What is the aim of the top-pan balance magnetic field required practical? | To determine the flux density of a magnet by measuring the force on a current-carrying wire perpendicular to its field
+What is the independent variable in the top-pan balance magnetic field practical? | Current, $I$
+What is the dependent variable in the top-pan balance magnetic field practical? | The top-pan balance reading (mass, $m$)
+Which two variables are kept constant in the top-pan balance magnetic field practical? | The length of wire in the field and the magnetic flux density (same magnets)
+How must the wire be positioned in the top-pan balance magnetic field practical? | Between the magnets, perpendicular to the field
+How is the force on the wire measured in the top-pan balance magnetic field practical? | As the change in reading of a top-pan balance supporting the magnets
+How is the current varied and measured in the top-pan balance magnetic field practical? | Varied with a variable resistor and measured with an ammeter
+How is the length of wire in the field found in the top-pan balance magnetic field practical? | Measure the length of the magnet with a ruler
+Why is the top-pan balance zeroed with the magnets on it and no current flowing? | So the reading shows only the change caused by the magnetic force (avoids a zero error)
+Why does the balance reading change when the wire is pushed upwards by the magnetic force? | By Newton's third law the magnets experience an equal and opposite force, pushing them down onto the balance
+How is the magnetic force on the wire calculated from the balance reading $m$? | $F = mg$, with $m$ converted to kg
+How is the current changed between readings in the top-pan balance magnetic field practical? | In steps of 0.5 A, for 8 to 10 readings, not exceeding 6 A
+How many times is each set of readings repeated in the top-pan balance magnetic field practical? | At least three times, then a mean mass is calculated for each current
+What graph is plotted in the top-pan balance magnetic field practical, and what shape is it? | Mass against current, a straight line through the origin
+What does the gradient of the mass against current graph equal in the top-pan balance magnetic field practical? | $\frac{BL}{g}$, so $B = \frac{g \times \text{gradient}}{L}$
+Why should high currents be avoided in the top-pan balance magnetic field practical? | The wire heats up, raising its resistance, so the current drifts during a reading
+What safety precaution follows from the wire heating up at high current? | Do not touch the wire while current is flowing
+How is the risk of a short circuit or fire reduced in the top-pan balance magnetic field practical? | Check that wires and connections are undamaged and use appropriate fuses
+What must be kept away from the electrical equipment in the top-pan balance magnetic field practical? | Water and any other fluids

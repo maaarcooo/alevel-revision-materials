@@ -1,0 +1,35 @@
+What is damping? | The loss of energy from an oscillating system through resistive forces, which reduces the amplitude of its oscillations
+The loss of energy from an oscillating system through resistive forces, which reduces the amplitude of its oscillations - what term is this? | Damping
+In which direction does a damping force act on an oscillator? | Opposite to its velocity
+How does a resistive force on an oscillator differ from the restoring force? | Resistive force: opposes the velocity and removes energy. Restoring force: acts towards the equilibrium position and keeps the system oscillating
+What is light damping? | Damping in which the system oscillates many times while its amplitude gradually decreases
+How does the amplitude of a lightly damped oscillator vary with time? | It decreases exponentially
+How does light damping affect the period of an oscillator as its amplitude falls? | The period stays almost constant
+What is critical damping? | Damping that returns a displaced system to its equilibrium position in the shortest possible time without oscillating
+Damping that returns a displaced system to its equilibrium position in the shortest possible time without oscillating - what term is this? | Critical damping
+What is heavy damping? | Damping greater than critical damping, so the system returns to equilibrium slowly without oscillating
+Give an example of a critically damped system | A car's suspension, which settles quickly after a bump without bouncing
+Give an example of a heavily damped system | A door fitted with a closer, which shuts slowly without slamming
+What is a free vibration? | An oscillation with no external periodic force acting and no energy supplied after it is set going
+An oscillation with no external periodic force acting and no energy supplied after it is set going - what term is this? | Free vibration
+What is the natural frequency of a system? | The frequency at which it oscillates when it vibrates freely
+The frequency at which a system oscillates when it vibrates freely - what term is this? | Natural frequency
+What is a forced vibration? | An oscillation produced by an external periodic driving force acting on the system
+An oscillation produced by an external periodic driving force acting on the system - what term is this? | Forced vibration
+At what frequency does a system in forced vibration oscillate? | The frequency of the driving force (the driving frequency)
+Why must a periodic force be applied to keep a damped system oscillating at constant amplitude? | It does work on the system that replaces the energy removed by damping
+What is resonance? | The large increase in the amplitude of a forced vibration when the driving frequency equals the natural frequency of the system
+The large increase in the amplitude of a forced vibration when the driving frequency equals the natural frequency of the system - what term is this? | Resonance
+Explain why the amplitude of a driven system is greatest at resonance | Energy is transferred from the driver to the system at the greatest rate when the driving frequency matches the natural frequency
+What does a resonance curve show? | The amplitude of a driven system against the driving frequency, with a peak at the natural frequency
+How does increasing the damping affect the maximum amplitude of a driven system at resonance? | The maximum amplitude decreases
+How does increasing the damping affect the sharpness of a resonance peak? | The peak becomes broader and less sharp
+How does heavier damping affect the frequency at which a driven system has its maximum amplitude? | It falls slightly below the natural frequency
+What is the phase difference between the displacement of a driven system and its driver at resonance? | $\frac{\pi}{2}$ rad, with the system lagging the driver
+How does the phase of a driven system compare with its driver when the driving frequency is well below the natural frequency? | They are almost in phase
+How does the phase of a driven system compare with its driver when the driving frequency is well above the natural frequency? | They are almost in antiphase, a phase difference of $\pi$ rad
+What do Barton's pendulums demonstrate? | Resonance: of several pendulums driven by one heavy pendulum, the one with the same length as the driver swings with the largest amplitude
+In Barton's pendulums, why does the pendulum of the same length as the driver respond most? | Its natural frequency equals the driving frequency
+Give an example of resonance that involves stationary waves | The air column in an organ pipe, or a stretched string, driven at one of its natural frequencies
+Give an example of unwanted resonance in a mechanical system | A bridge swaying with a large amplitude when footsteps or the wind drive it near its natural frequency
+State two ways of reducing unwanted resonance in a structure | Increase its damping, or change its mass or stiffness so its natural frequency is far from the driving frequency

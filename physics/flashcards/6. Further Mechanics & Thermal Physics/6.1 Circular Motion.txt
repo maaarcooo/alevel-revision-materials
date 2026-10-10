@@ -1,0 +1,40 @@
+Why is an object moving in a circle at constant speed accelerating? | Its direction of motion, and so its velocity, is continuously changing
+In what direction is the velocity of an object in circular motion at any instant? | Along the tangent to the circle
+What is centripetal acceleration? | The acceleration of an object moving in a circle, directed towards the centre of the circle
+The acceleration of an object moving in a circle, directed towards the centre of the circle - what term is this? | Centripetal acceleration
+What is centripetal force? | The resultant force towards the centre of the circle that keeps an object moving in a circular path
+The resultant force towards the centre of the circle that keeps an object moving in a circular path - what term is this? | Centripetal force
+In what direction does the centripetal force act relative to an object's velocity? | Perpendicular to it
+Why are the centripetal force and the centripetal acceleration in the same direction? | By Newton's second law, an object accelerates in the direction of the resultant force on it
+What kind of force is a centripetal force? | Not a separate force. It is the resultant of the real forces acting, such as tension, friction or gravity
+What provides the centripetal force on a car turning on a level road? | Friction between the tyres and the road
+What path does an object in circular motion follow if the centripetal force is suddenly removed? | A straight line along the tangent to the circle
+Explain why a centripetal force does no work on an object in uniform circular motion | The force is always perpendicular to the direction of motion, so the object never moves in the direction of the force
+What happens to the speed of an object acted on only by a centripetal force? | It stays constant. Only the direction of motion changes
+What is a radian? | The angle subtended at the centre of a circle by an arc equal in length to the radius
+The angle subtended at the centre of a circle by an arc equal in length to the radius - what unit is this? | The radian (rad)
+How many radians are there in a complete circle? | $2\pi$
+How is an angle converted from degrees to radians? | Multiply it by $\frac{\pi}{180}$
+What is $90^\circ$ in radians? | $90 \times \frac{\pi}{180} = \frac{\pi}{2}\;\text{rad}$
+What is an angle in radians in terms of the arc length $s$ and the radius $r$? | $\theta = \frac{s}{r}$
+What is angular displacement? | The angle, in radians, through which an object has turned about the centre of its circle
+What is angular speed? | The angle turned through per unit time, $\omega = \frac{\Delta\theta}{\Delta t}$
+The angle turned through per unit time - what quantity is this? | Angular speed, $\omega$
+What is the unit of angular speed? | $\text{rad s}^{-1}$
+What is the equation for angular speed in terms of linear speed and radius? | $\omega = \frac{v}{r}$
+What is the equation for angular speed in terms of frequency and period? | $\omega = 2\pi f = \frac{2\pi}{T}$
+What is the angular speed of a wheel rotating at 5.0 Hz? | $\omega = 2\pi f = 2\pi \times 5.0 = 31\;\text{rad s}^{-1}$
+What is the linear speed of a point 0.40 m from the axis of a wheel turning at $12\;\text{rad s}^{-1}$? | $v = \omega r = 12 \times 0.40 = 4.8\;\text{m s}^{-1}$
+For points on the same rigid rotating object, how do angular speed and linear speed vary with distance from the axis? | Angular speed is the same for every point. Linear speed is proportional to the distance from the axis
+What is the equation for centripetal acceleration in terms of linear speed? | $a = \frac{v^2}{r}$
+What is the equation for centripetal acceleration in terms of angular speed? | $a = \omega^2 r$
+What is the centripetal acceleration of a car travelling at $20\;\text{m s}^{-1}$ round a bend of radius 50 m? | $a = \frac{v^2}{r} = \frac{20^2}{50} = 8.0\;\text{m s}^{-2}$
+What is the centripetal acceleration of a point 1.5 m from the axis of an object rotating at $3.5\;\text{rad s}^{-1}$? | $a = \omega^2 r = 3.5^2 \times 1.5 = 18\;\text{m s}^{-2}$
+What is the equation for centripetal force in terms of linear speed? | $F = \frac{mv^2}{r}$
+What is the equation for centripetal force in terms of angular speed? | $F = m\omega^2 r$
+What centripetal force keeps a 0.30 kg ball moving at $4.0\;\text{m s}^{-1}$ in a circle of radius 0.80 m? | $F = \frac{mv^2}{r} = \frac{0.30 \times 4.0^2}{0.80} = 6.0\;\text{N}$
+What centripetal force acts on a 2.0 kg mass moving in a circle of radius 0.50 m at $6.0\;\text{rad s}^{-1}$? | $F = m\omega^2 r = 2.0 \times 6.0^2 \times 0.50 = 36\;\text{N}$
+How does the centripetal force needed change when the speed doubles at the same radius? | It increases by a factor of 4, since $F \propto v^2$
+For a mass $m$ on a string at the bottom of a vertical circle, how are the tension $T$ and the weight related to the centripetal force? | $T - mg = \frac{mv^2}{r}$
+For a mass $m$ on a string at the top of a vertical circle, how are the tension $T$ and the weight related to the centripetal force? | $T + mg = \frac{mv^2}{r}$
+At which point of a vertical circle is the tension in the string greatest, for a mass moving at constant speed? | At the bottom, where the tension supports the weight as well as supplying the centripetal force

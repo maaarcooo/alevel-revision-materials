@@ -95,6 +95,9 @@ Settled owners for ideas that cross topics:
 | Conventional current | 5.1 |
 | Thermistors | 5.2 |
 | The potential divider | 5.3 |
+| Radians, angular speed and $\omega = 2\pi f$, centripetal force and acceleration | 6.1 |
+| Simple harmonic motion, the restoring force, amplitude and the equilibrium position of an oscillator | 6.2 |
+| Damping, natural frequency, free and forced vibrations, resonance | 6.3 |
 | Why an ideal gas has no potential energy, $Q = mc\Delta\theta$ and the units of $\Delta\theta$ | 6.4 |
 | The gas constants and $k = \frac{R}{N_A}$ | 6.5 |
 | The internal energy of an ideal gas, how gas molecules exert a pressure | 6.6 |
@@ -146,13 +149,14 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 |---|---|---|---|
 | Computer Science 1 to 8 | 8 October 2026 | 5 October 2026 | Yes |
 | Physics 1 to 5 | 8 October 2026 | 5 October 2026, against AS papers | Yes |
+| Physics 6.1 to 6.3 | Written to them on 10 October 2026 | Not done | None |
 | Physics 6.4 to 6.6 | 8 October 2026 | Not done | None |
 | Physics 7.1 to 7.10 | 10 October 2026 | Not done | None |
 
 Still to do:
 
 - **Physics topics 6 and 7** have had no mark-scheme pass. `sources/physics/papers/` holds AS papers (7407) and topic questions for topics 2 and 3, none of which examine them. The pass needs A-level papers (AQA 7408 Papers 1 and 2) or topic 6 and 7 question sets added to `sources/` first. `sources/physics/spec/` has the specification, but its data booklets are the AS ones, without the topic 6 and 7 equations.
-- **Physics topics 6 and 7** have no revision notes, and 6.1 to 6.3 have no decks.
+- **Physics topics 6 and 7** have no revision notes.
 
 ## Note rules
 

@@ -1,0 +1,71 @@
+What is simple harmonic motion? | An oscillation in which the acceleration is directly proportional to the displacement from the equilibrium position and is always directed towards it
+An oscillation in which the acceleration is directly proportional to the displacement from the equilibrium position and is always directed towards it - what term is this? | Simple harmonic motion (SHM)
+State the condition for simple harmonic motion as a proportionality | $a \propto -x$
+What is the defining equation of simple harmonic motion? | $a = -\omega^2 x$
+What does the minus sign in $a = -\omega^2 x$ show? | The acceleration is always in the opposite direction to the displacement, towards the equilibrium position
+What is $\omega$ called in the equations of simple harmonic motion? | The angular frequency, measured in $\text{rad s}^{-1}$
+What is the equilibrium position of an oscillator? | The position at which the resultant force on it is zero
+What is the amplitude of an oscillation? | The maximum displacement from the equilibrium position
+What is the restoring force on an oscillator? | The resultant force that acts on it towards the equilibrium position
+How does the restoring force on an object in SHM depend on its displacement? | It is directly proportional to the displacement, in the opposite direction
+How does the period of an object in SHM depend on its amplitude? | It does not. The period is the same for any amplitude
+Explain why a person bouncing on a trampoline is not in simple harmonic motion | While they are in the air the only force on them is their weight, which is constant and so not proportional to displacement
+What does a graph of acceleration against displacement look like for SHM? | A straight line through the origin with a negative gradient
+What is the gradient of a graph of acceleration against displacement for SHM? | $-\omega^2$
+What is the acceleration of an oscillator with $\omega = 4.0\;\text{rad s}^{-1}$ at a displacement of 0.050 m? | $a = -\omega^2 x = -4.0^2 \times 0.050 = -0.80\;\text{m s}^{-2}$
+What is the equation for the displacement of an object in SHM released from its maximum displacement at $t = 0$? | $x = A\cos\omega t$
+What is the equation for the displacement of an object in SHM that passes through its equilibrium position at $t = 0$? | $x = A\sin\omega t$
+An oscillator of amplitude 4.0 cm and $\omega = 2.0\;\text{rad s}^{-1}$ is released from its maximum displacement. What is its displacement after 1.0 s? | $x = A\cos\omega t = 4.0 \times \cos(2.0 \times 1.0) = -1.7\;\text{cm}$
+What is the equation for the velocity of an object in SHM at displacement $x$? | $v = \pm\omega\sqrt{A^2 - x^2}$
+What does the $\pm$ sign in $v = \pm\omega\sqrt{A^2 - x^2}$ show? | At any displacement the object may be moving in either direction
+What is the speed of an oscillator with $\omega = 5.0\;\text{rad s}^{-1}$ and amplitude 0.10 m at a displacement of 0.060 m? | $v = \omega\sqrt{A^2 - x^2} = 5.0 \times \sqrt{0.10^2 - 0.060^2} = 0.40\;\text{m s}^{-1}$
+What is the equation for the maximum speed of an object in SHM? | $v_{\text{max}} = \omega A$
+Where in its oscillation does an object in SHM have its maximum speed? | At the equilibrium position, $x = 0$
+Where in its oscillation is the speed of an object in SHM zero? | At its maximum displacement, $x = \pm A$
+What is the maximum speed of an oscillator with $\omega = 3.0\;\text{rad s}^{-1}$ and amplitude 0.20 m? | $v_{\text{max}} = \omega A = 3.0 \times 0.20 = 0.60\;\text{m s}^{-1}$
+What is the equation for the maximum acceleration of an object in SHM? | $a_{\text{max}} = \omega^2 A$
+Where in its oscillation does an object in SHM have its maximum acceleration? | At its maximum displacement, $x = \pm A$
+Where in its oscillation is the acceleration of an object in SHM zero? | At the equilibrium position
+What is the maximum acceleration of an oscillator with $\omega = 3.0\;\text{rad s}^{-1}$ and amplitude 0.20 m? | $a_{\text{max}} = \omega^2 A = 3.0^2 \times 0.20 = 1.8\;\text{m s}^{-2}$
+How is the velocity-time graph of an oscillator found from its displacement-time graph? | From the gradient of the displacement-time graph
+How is the acceleration-time graph of an oscillator found from its velocity-time graph? | From the gradient of the velocity-time graph
+What is the phase difference between the displacement and the velocity of an object in SHM? | $\frac{\pi}{2}$ rad, a quarter of a cycle
+What is the phase difference between the displacement and the acceleration of an object in SHM? | $\pi$ rad. They are in antiphase
+For an oscillator released from its maximum positive displacement, what shapes are its displacement-time, velocity-time and acceleration-time graphs? | Displacement: cosine. Velocity: negative sine. Acceleration: negative cosine
+What is the equation for the period of a mass-spring system? | $T = 2\pi\sqrt{\frac{m}{k}}$
+What is the period of a 0.50 kg mass oscillating on a spring of spring constant $20\;\text{N m}^{-1}$? | $T = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{0.50}{20}} = 0.99\;\text{s}$
+What is the restoring force on the mass in a mass-spring system at displacement $x$ from equilibrium? | $F = -kx$
+How does the period of a mass-spring system change when the mass is made four times larger? | It doubles, since $T \propto \sqrt{m}$
+How does a stiffer spring affect the period of a mass-spring system? | The period is shorter, since $T \propto \frac{1}{\sqrt{k}}$
+How would the period of a mass-spring system on the Moon compare with its period on Earth? | It would be the same, because the period does not depend on $g$
+What is the equation for the period of a simple pendulum? | $T = 2\pi\sqrt{\frac{l}{g}}$
+In $T = 2\pi\sqrt{\frac{l}{g}}$, what length is $l$? | The distance from the point of suspension to the centre of mass of the bob
+What is the period of a simple pendulum of length 1.0 m where $g = 9.81\;\text{m s}^{-2}$? | $T = 2\pi\sqrt{\frac{l}{g}} = 2\pi\sqrt{\frac{1.0}{9.81}} = 2.0\;\text{s}$
+How does the mass of the bob affect the period of a simple pendulum? | It has no effect
+How does the period of a simple pendulum change when its length is made four times larger? | It doubles, since $T \propto \sqrt{l}$
+How would the period of a simple pendulum on the Moon compare with its period on Earth? | It would be longer, because $g$ is smaller
+For what size of swing does a simple pendulum move with simple harmonic motion? | Small angles only, less than about $10^\circ$ from the vertical
+What approximation is used to derive the period of a simple pendulum? | The small-angle approximation, $\sin\theta \approx \theta$ with $\theta$ in radians
+What provides the restoring force on the bob of a simple pendulum? | The component of its weight along the arc, towards the equilibrium position
+What is assumed about the string of a simple pendulum? | It is light and inextensible
+Between which two forms does the energy of a mass oscillating horizontally on a spring change? | Kinetic energy and elastic potential energy
+Between which two forms does the energy of a simple pendulum change? | Kinetic energy and gravitational potential energy
+Where in its oscillation is the kinetic energy of an object in SHM greatest? | At the equilibrium position
+Where in its oscillation is the potential energy of an object in SHM greatest? | At its maximum displacement
+How does the total energy of an undamped oscillator vary with time? | It stays constant, equal to the sum of its kinetic and potential energies
+What is the total energy of an oscillator of mass $m$ in SHM in terms of its amplitude? | $E = \frac{1}{2}m\omega^2 A^2$, its kinetic energy at the equilibrium position
+What shape is a graph of potential energy against displacement for SHM? | A U-shaped curve that is zero at the equilibrium position and greatest at $x = \pm A$
+What shape is a graph of kinetic energy against displacement for SHM? | An inverted U-shaped curve that is greatest at the equilibrium position and zero at $x = \pm A$
+How many times does the kinetic energy of an object in SHM reach its maximum in one oscillation? | Twice
+What is found from the mass-spring part of the simple harmonic motion required practical? | How the period depends on the mass, and from it the spring constant
+What graph is plotted for a mass-spring system in the simple harmonic motion practical, and what shape is it? | $T^2$ against $m$, a straight line through the origin
+What is the gradient of a graph of $T^2$ against $m$ for a mass-spring system? | $\frac{4\pi^2}{k}$
+What is found from the pendulum part of the simple harmonic motion required practical? | How the period depends on the length, and from it a value for $g$
+What graph is plotted for a simple pendulum in the simple harmonic motion practical, and what shape is it? | $T^2$ against $l$, a straight line through the origin
+What is the gradient of a graph of $T^2$ against $l$ for a simple pendulum? | $\frac{4\pi^2}{g}$
+A graph of $T^2$ against $l$ for a simple pendulum has a gradient of $4.0\;\text{s}^2\,\text{m}^{-1}$. What value of $g$ does it give? | $g = \frac{4\pi^2}{\text{gradient}} = \frac{4\pi^2}{4.0} = 9.9\;\text{m s}^{-2}$
+Why is the time for ten or more oscillations measured when finding the period? | It reduces the percentage uncertainty in the period, because the reaction-time error is shared between many oscillations
+What is a fiducial marker used for when timing oscillations? | It marks the equilibrium position, so timing starts and stops as the oscillator passes a fixed point
+Why are oscillations timed as the oscillator passes its equilibrium position? | It is moving fastest there, so the moment it passes can be judged most precisely
+Why must a pendulum be released from a small angle in the simple harmonic motion practical? | The equation for its period only holds for small angles
+How can the timing of oscillations be made more accurate than with a stopwatch? | Use a light gate or motion sensor with a data logger, which removes the reaction-time error

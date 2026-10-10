@@ -1,7 +1,7 @@
 # A-Level Revision Materials
 
 Flashcards and revision notes for **OCR A-Level Computer Science** (H446) and
-**AQA A-Level Physics** (AS topics 1 to 5, thermal physics from topic 6, and topic 7).
+**AQA A-Level Physics** (topics 1 to 7).
 
 There is one copy of each deck and each note. They are improved in place, so there are
 no version numbers in file or folder names. The history is in git, and
@@ -18,7 +18,7 @@ against the official specification.
 | Subject | Decks | Cards | Notes |
 |---------|------:|------:|------:|
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
-| Physics (AQA, AS topics 1 to 5, 6.4 to 6.6, and topic 7) | 37 | 2039 | 24 |
+| Physics (AQA 7408, topics 1 to 7) | 40 | 2185 | 24 |
 
 Each subtopic has one flashcard deck and one note with the same name. The topic 6 and
 topic 7 decks have no notes yet.

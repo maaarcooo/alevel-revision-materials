@@ -3,6 +3,37 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-10: Physics 6.1 to 6.3 added
+
+Three new decks complete topic 6: 6.1 Circular Motion (40 cards), 6.2 Simple Harmonic
+Motion (71) and 6.3 Forced Vibrations & Resonance (35). They were written from the
+source notes for those sections against AQA 7408 section 3.6.1, to the current card
+rules (flashcard-v3.10). Physics now has 2185 cards in 40 decks. They have no revision
+notes yet, and no mark-scheme pass.
+
+**Where the decks differ from the source notes**
+
+- Fixed: a freely vibrating system oscillates at its natural frequency. The source
+  called it the resonant frequency.
+- Fixed: a centripetal force does no work because it is perpendicular to the motion.
+  The source gave only that the kinetic energy does not change.
+- Fixed: timing ten or more oscillations reduces the percentage uncertainty in the
+  period. The source said it reduces random errors.
+- Tightened: angular speed is the same for every point on one rigid rotating object,
+  and linear speed is proportional to the distance from the axis. The source said an
+  object further from the centre has a smaller angular velocity, which is only true at
+  the same linear speed.
+- Skipped: the period of liquid in a U-tube. The source's formula takes the wrong
+  length, and the specification says questions on other oscillators give the
+  information needed.
+- Skipped: the source's list of everyday examples of simple harmonic motion, several of
+  which are not simple harmonic.
+- Added beyond the source: the forces on a mass at the top and bottom of a vertical
+  circle, the phase of a driven system relative to its driver, the total energy
+  $\frac{1}{2}m\omega^2 A^2$, and the fiducial marker, all of which exam questions use.
+- Kept: $x = A\sin\omega t$ for an oscillator timed from its equilibrium position,
+  although the specification names only $x = A\cos\omega t$.
+
 ## 2026-10-10: Physics topic 7 brought up to the card rules
 
 The ten Fields and their Consequences decks, added on 9 October as generated, were

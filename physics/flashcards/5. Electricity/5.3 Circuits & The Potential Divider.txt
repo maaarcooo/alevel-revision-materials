@@ -3,45 +3,45 @@ What is the formula for combined resistance of resistors in parallel? | $\frac{1
 How does the total resistance of resistors in parallel compare to each individual resistance? | It is always less than the smallest individual resistance
 What is the combined resistance of two equal resistors connected in parallel? | Half the resistance of one of them
 What is the combined resistance of a $4\;\Omega$ and a $6\;\Omega$ resistor in parallel? | $\frac{1}{R} = \frac{1}{4} + \frac{1}{6} = \frac{5}{12}$, so $R = 2.4\;\Omega$
-Why does adding a resistor in parallel reduce the total resistance? | It provides another path for the current, so more current flows for the same p.d.
+Why does adding a resistor in parallel reduce the total resistance? | It provides another path for the current, so more current flows for the same PD
 How is current distributed in a series circuit? | The current is the same through all components
 How is current distributed in a parallel circuit? | It splits across the branches. The total current into a junction equals the total current out
 What determines the amount of current in each branch of a parallel circuit? | The total resistance of the components in that branch
-How is the e.m.f. of the supply shared in a series circuit? | It is divided among the components in different amounts, depending on their resistance
-What is the p.d. across each branch in a parallel circuit? | The same across every branch
+How is the EMF of the supply shared in a series circuit? | It is divided among the components in different amounts, depending on their resistance
+What is the PD across each branch in a parallel circuit? | The same across every branch
 What is the total voltage of cells connected in series? | The sum of the potential differences across each cell
 What is the total voltage of identical cells connected in parallel? | The same as the voltage of one cell
-What is gained by connecting identical cells in parallel? | The p.d. stays the same, but each cell supplies less current and more energy is stored in total, so the cells last longer
+What is gained by connecting identical cells in parallel? | The PD stays the same, but each cell supplies less current and more energy is stored in total, so the cells last longer
 What is conservation of charge in a circuit? | Charge is never used up or lost in a circuit
 State Kirchhoff's First Law | The sum of the currents entering a junction equals the sum of the currents leaving the junction
 What is a junction in a circuit? | A point where at least three circuit paths meet
 What is a branch in a circuit? | A path connecting two junctions
 Which conservation law does Kirchhoff's First Law follow from? | Conservation of charge
 How does conservation of energy apply to a circuit? | The energy given to the charge by the source equals the energy the charge transfers to the components
-State Kirchhoff's Second Law | The total e.m.f. in a closed circuit equals the sum of the potential differences across each component
+State Kirchhoff's Second Law | The total EMF in a closed circuit equals the sum of the potential differences across each component
 Which conservation law does Kirchhoff's Second Law follow from? | Conservation of energy
-How can each closed loop in a parallel circuit be analysed? | As its own independent series circuit. The sum of voltages in each loop equals the total e.m.f.
+How can each closed loop in a parallel circuit be analysed? | As its own independent series circuit. The sum of voltages in each loop equals the total EMF
 Give two reasons why parallel circuits are used in home wiring | All appliances receive the same voltage from a single supply, and if one component breaks current can still flow to the rest
 Define electrical power | The rate of energy transfer (work done per second) in an electrical component
 The rate of energy transfer in an electrical component - what quantity is this? | Electrical power
 What is the equation for electrical power in terms of energy and time? | $P = \frac{E}{t} = \frac{W}{t}$
 What is the equation for electrical power in terms of current and voltage? | $P = IV$
-A lamp has a p.d. of 12 V across it and carries a current of 2.0 A. What power does it transfer? | $P = IV = 2.0 \times 12 = 24$ W
+A lamp has a PD of 12 V across it and carries a current of 2.0 A. What power does it transfer? | $P = IV = 2.0 \times 12 = 24$ W
 State the two equations for electrical power in terms of resistance | $P = I^2 R$ and $P = \frac{V^2}{R}$
 A $3.0\;\Omega$ resistor carries a current of 2.0 A. What power does it dissipate? | $P = I^2R = 2.0^2 \times 3.0 = 12$ W
 What is the equation for energy transferred in a circuit? | $E = VIt$
 For a given resistor, if the current or voltage across it doubles, what happens to the power dissipated? | It quadruples (since $P = I^2 R$ and $P = \frac{V^2}{R}$)
 What is a potential divider? | A circuit that produces an output voltage as a fraction of its input voltage, using two or more resistors in series
 A circuit that produces an output voltage as a fraction of its input voltage - what is this called? | A potential divider
-State three purposes of a potential divider | To provide a variable p.d., to select a specific p.d., and to split the p.d. of a power source between components
-Why can a potential divider control a lamp over a wider range than a variable resistor in series with it? | The potential divider can give any p.d. from zero up to the supply p.d. A series variable resistor can never reduce the p.d. across the lamp to zero
+State three purposes of a potential divider | To provide a variable PD, to select a specific PD, and to split the PD of a power source between components
+Why can a potential divider control a lamp over a wider range than a variable resistor in series with it? | The potential divider can give any PD from zero up to the supply PD. A series variable resistor can never reduce the PD across the lamp to zero
 What is the potential divider equation? | $V_{out} = \frac{R_2}{R_1 + R_2} \times V_{in}$, where $R_2$ is the resistance of the resistor across which $V_{out}$ is measured
 In the potential divider equation, which resistance must be in the numerator? | The resistance of the component across which the output voltage is measured
-A 12 V supply is connected across a $4\;\mathrm{k\Omega}$ resistor in series with a $2\;\mathrm{k\Omega}$ resistor. What is the p.d. across the $2\;\mathrm{k\Omega}$ resistor? | $V_{out} = \frac{2}{4 + 2} \times 12 = 4$ V
-In a potential divider, how does the p.d. across a component relate to its resistance? | The p.d. is proportional to its resistance (from $V = IR$). The larger resistance gets the greater share of the p.d.
+A 12 V supply is connected across a $4\;\mathrm{k\Omega}$ resistor in series with a $2\;\mathrm{k\Omega}$ resistor. What is the PD across the $2\;\mathrm{k\Omega}$ resistor? | $V_{out} = \frac{2}{4 + 2} \times 12 = 4$ V
+In a potential divider, how does the PD across a component relate to its resistance? | The PD is proportional to its resistance (from $V = IR$). The larger resistance gets the greater share of the PD
 How does an LDR's resistance vary with light intensity? | The higher the light intensity, the lower the resistance (and vice versa)
 Name two types of sensory resistor used in potential divider circuits | Light dependent resistors (LDRs) and thermistors
 Give one application of an LDR circuit | Street and security lights
-In a potential divider, if the sensory resistor's resistance decreases, what happens to the p.d.s in the circuit? | The p.d. across the sensory resistor decreases, and the p.d. across the fixed resistor increases
+In a potential divider, if the sensory resistor's resistance decreases, what happens to the PDs in the circuit? | The PD across the sensory resistor decreases, and the PD across the fixed resistor increases
 How can a potential divider switch on a lamp when it gets dark? | Take $V_{out}$ across the LDR. In the dark its resistance rises, so $V_{out}$ rises until it reaches the value needed to switch on the lamp
-In a potential divider with a fixed resistor and a thermistor, what happens when temperature decreases? | The thermistor's resistance increases, so its p.d. increases and the p.d. across the fixed resistor decreases
+In a potential divider with a fixed resistor and a thermistor, what happens when temperature decreases? | The thermistor's resistance increases, so its PD increases and the PD across the fixed resistor decreases

@@ -17,7 +17,7 @@ The electrical work done per unit charge flowing between two points - what quant
 What is the equation for potential difference? | $V = \frac{W}{Q}$
 What is the SI unit of potential difference? | Volt (V)
 What is 1 volt equivalent to? | The transfer of 1 joule of electrical energy per coulomb of charge ($1\;\text{V} = 1\;\text{J C}^{-1}$)
-How much energy is transferred when 3.0 C of charge passes through a p.d. of 6.0 V? | $W = QV = 3.0 \times 6.0 = 18$ J
+How much energy is transferred when 3.0 C of charge passes through a PD of 6.0 V? | $W = QV = 3.0 \times 6.0 = 18$ J
 How does a cell create a potential difference? | Through the separation of charge: one terminal has excess positive charge and the other has excess negative charge
 What happens to the energy of charge carriers as they pass through a cell? | They gain energy (each coulomb gains energy equal to the cell's voltage in joules)
 What happens to the energy of charge carriers as they flow through circuit components? | They lose energy, transferring it to the wires and components
@@ -27,21 +27,21 @@ What is resistance? | The opposition of a component to the flow of electric curr
 The opposition of a component to the flow of electric current through it - what quantity is this? | Resistance
 What is the equation defining resistance? | $R = \frac{V}{I}$
 What is the SI unit of resistance? | Ohm ($\Omega$)
-What does a resistance of $1\;\Omega$ correspond to? | A p.d. of 1 V across a component producing a current of 1 A through it
-A p.d. of 12 V across a resistor drives a current of 0.50 A through it. What is its resistance? | $R = \frac{V}{I} = \frac{12}{0.50} = 24\;\Omega$
-For a given p.d., what is the effect of increasing the resistance of a component? | The current decreases
+What does a resistance of $1\;\Omega$ correspond to? | A PD of 1 V across a component producing a current of 1 A through it
+A PD of 12 V across a resistor drives a current of 0.50 A through it. What is its resistance? | $R = \frac{V}{I} = \frac{12}{0.50} = 24\;\Omega$
+For a given PD, what is the effect of increasing the resistance of a component? | The current decreases
 Why is copper commonly used for connecting wires? | It has low electrical resistance, making it a good conductor
 What assumption is made about connecting wire resistance in exam calculations? | The resistance of wires is taken to be zero
 State Ohm's law | For a conductor at constant temperature, the current through it is proportional to the potential difference across it
 What does constant temperature imply for a conductor obeying Ohm's law? | Constant resistance
-What is an ohmic conductor? | A conductor for which the current is directly proportional to the p.d. across it, so its resistance is constant, provided its temperature stays constant
-In a circuit for plotting I-V characteristics, what component is adjusted to vary the current and p.d.? | A variable resistor connected in series with the test component
+What is an ohmic conductor? | A conductor for which the current is directly proportional to the PD across it, so its resistance is constant, provided its temperature stays constant
+In a circuit for plotting I-V characteristics, what component is adjusted to vary the current and PD? | A variable resistor connected in series with the test component
 How can you tell from an I-V graph that a component obeys Ohm's law? | The graph is a straight line through the origin
 How is the resistance of a component found from its I-V graph? | Read $V$ and $I$ at the point and calculate $R = \frac{V}{I}$. It equals $\frac{1}{\text{gradient}}$ only for a straight line through the origin
 For an ohmic conductor, how is resistance found from a graph with V on the y-axis and I on the x-axis? | It equals the gradient
 Describe the I-V characteristic of a semiconductor diode | In reverse bias almost no current flows. In forward bias almost no current flows until the threshold voltage is reached, then the current rises steeply
 What is forward bias in a diode? | When current flows in the direction of the arrowhead symbol, and the diode conducts
-What is the threshold voltage of a diode? | The smallest forward p.d. at which the diode starts to conduct, roughly 0.6 V to 0.7 V for a silicon diode
+What is the threshold voltage of a diode? | The smallest forward PD at which the diode starts to conduct, roughly 0.6 V to 0.7 V for a silicon diode
 What is reverse bias in a diode? | When the diode is connected the opposite way round, so its resistance is extremely high and only a tiny current flows
 What is the purpose of a diode in a circuit? | To allow current to flow in only one direction
 Describe the I-V characteristic of a filament lamp | An S-shaped curve: current increases at a proportionally slower rate than the potential difference

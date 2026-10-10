@@ -1,36 +1,36 @@
-What is electromotive force (e.m.f.)? | The amount of chemical energy converted to electrical energy per coulomb of charge when passing through a power supply, $\varepsilon = \frac{E}{Q}$
-The amount of chemical energy converted to electrical energy per coulomb of charge when passing through a power supply - what quantity is this? | Electromotive force (e.m.f.)
-A cell transfers 9.0 J of energy to 6.0 C of charge. What is its e.m.f.? | $\varepsilon = \frac{E}{Q} = \frac{9.0}{6.0} = 1.5$ V
-What symbol represents e.m.f.? | $\varepsilon$ (Greek letter epsilon)
-In what unit is e.m.f. measured? | Volts (V)
-How is e.m.f. measured? | Connect a high-resistance voltmeter in parallel with the cell in an open circuit (no current flowing)
+What is electromotive force (EMF)? | The amount of chemical energy converted to electrical energy per coulomb of charge when passing through a power supply, $\varepsilon = \frac{E}{Q}$
+The amount of chemical energy converted to electrical energy per coulomb of charge when passing through a power supply - what quantity is this? | Electromotive force (EMF)
+A cell transfers 9.0 J of energy to 6.0 C of charge. What is its EMF? | $\varepsilon = \frac{E}{Q} = \frac{9.0}{6.0} = 1.5$ V
+What symbol represents EMF? | $\varepsilon$ (Greek letter epsilon)
+In what unit is EMF measured? | Volts (V)
+How is EMF measured? | Connect a high-resistance voltmeter in parallel with the cell in an open circuit (no current flowing)
 What is terminal potential difference? | The potential difference across the terminals of a cell, given by $V = IR$ where $R$ is the external resistance
-The potential difference across the terminals of a cell - what term is this? | Terminal potential difference (terminal p.d.)
-When is the terminal p.d. of a cell equal to its e.m.f.? | When no current flows, because there are then no lost volts
+The potential difference across the terminals of a cell - what term is this? | Terminal potential difference (terminal PD)
+When is the terminal PD of a cell equal to its EMF? | When no current flows, because there are then no lost volts
 What is internal resistance? | The resistance of the materials within the battery
 The resistance of the materials within the battery - what term is this? | Internal resistance
 Explain why a cell becomes warm during use | Internal resistance causes the circulating charge to dissipate electrical energy within the power supply itself
 What are lost volts? | The work done per unit charge to overcome the internal resistance inside the battery when current flows, $v = Ir$
 The work done per unit charge to overcome the internal resistance inside the battery - what quantity is this? | Lost volts
-How are e.m.f., terminal p.d. and lost volts related? | $\varepsilon = V + v$, so the terminal p.d. is $V = \varepsilon - Ir$
-Why does the terminal p.d. of a cell fall as the current drawn from it increases? | The lost volts, $Ir$, increase, leaving less of the e.m.f. across the external circuit
+How are EMF, terminal PD and lost volts related? | $\varepsilon = V + v$, so the terminal PD is $V = \varepsilon - Ir$
+Why does the terminal PD of a cell fall as the current drawn from it increases? | The lost volts, $Ir$, increase, leaving less of the EMF across the external circuit
 How is the power supplied by a cell shared in a circuit with internal resistance? | $\varepsilon I = I^2R + I^2r$: the power supplied by the cell equals the power delivered to the load plus the power wasted in the internal resistance
-State the e.m.f. equation for a circuit with internal resistance | $\varepsilon = IR + Ir = I(R + r)$, where $R$ = load resistance, $r$ = internal resistance
-How is a cell with internal resistance modelled in a circuit? | As a source of e.m.f. in series with an internal resistance $r$
-What does "negligible internal resistance" imply in an exam question? | The e.m.f. equals the terminal p.d., so no internal resistance calculations are needed
-A battery has e.m.f. 7.3 V and internal resistance 0.3 $\Omega$, connected to a 9.5 $\Omega$ resistor. Calculate the current | $I = \frac{\varepsilon}{R + r} = \frac{7.3}{9.5 + 0.3} = 0.74$ A (2 s.f.)
-A cell of e.m.f. 1.5 V has a terminal p.d. of 1.2 V when it delivers 0.50 A. What is its internal resistance? | $r = \frac{\varepsilon - V}{I} = \frac{1.5 - 1.2}{0.50} = 0.60\;\Omega$
-What is the aim of the e.m.f. and internal resistance required practical? | To investigate the relationship between e.m.f. and internal resistance by measuring the variation of current and voltage using a variable resistor
-In the e.m.f. and internal resistance experiment, what is the independent variable? | Resistance of the variable resistor, $R$ ($\Omega$)
-In the e.m.f. and internal resistance experiment, what are the dependent variables? | Voltage $V$ (V) and current $I$ (A)
-In the e.m.f. and internal resistance experiment, what are the control variables? | E.m.f. of the cell and internal resistance of the cell
-How are the ammeter and voltmeter connected in the e.m.f. experiment? | Ammeter in series with the circuit, voltmeter in parallel across the variable resistor
-Describe the procedure for collecting data in the e.m.f. experiment | Set the variable resistor to maximum, close the switch, and record $V$ and $I$. Vary the resistance for 8-10 readings across the full range, opening the switch between each reading
-What graph is plotted in the e.m.f. experiment, and what do the gradient and y-intercept represent? | $V$ against $I$. Gradient $= -r$ (negative internal resistance), y-intercept $= \varepsilon$ (e.m.f.)
-Which equation gives the straight-line graph in the e.m.f. experiment? | $V = -rI + \varepsilon$, which has the form $y = mx + c$
-Why is the switch opened between readings in the e.m.f. experiment? | To prevent the cell from heating up, which would change the internal resistance and introduce systematic error
-Why might a fixed resistor be put in series with the variable resistor in the e.m.f. experiment? | It limits the current when the variable resistor is set to zero, so the cell does not overheat or run down quickly
-Why should fairly new cells be used in the e.m.f. experiment? | Run-down batteries have e.m.f. and internal resistance that vary during the experiment, introducing random error
-Why are readings allowed to stabilise before recording in the e.m.f. experiment? | To reduce random error from fluctuating voltmeter and ammeter readings
-How are random errors minimised in the e.m.f. experiment? | Take at least 3 repeat readings for each resistance value and calculate a mean
-State the safety precautions for the e.m.f. experiment | Components can get hot with prolonged use, so switch off the power supply if burning is smelt. Keep liquids away from the electrical equipment
+State the EMF equation for a circuit with internal resistance | $\varepsilon = IR + Ir = I(R + r)$, where $R$ = load resistance, $r$ = internal resistance
+How is a cell with internal resistance modelled in a circuit? | As a source of EMF in series with an internal resistance $r$
+What does "negligible internal resistance" imply in an exam question? | The EMF equals the terminal PD, so no internal resistance calculations are needed
+A battery has EMF 7.3 V and internal resistance 0.3 $\Omega$, connected to a 9.5 $\Omega$ resistor. Calculate the current | $I = \frac{\varepsilon}{R + r} = \frac{7.3}{9.5 + 0.3} = 0.74$ A (2 s.f.)
+A cell of EMF 1.5 V has a terminal PD of 1.2 V when it delivers 0.50 A. What is its internal resistance? | $r = \frac{\varepsilon - V}{I} = \frac{1.5 - 1.2}{0.50} = 0.60\;\Omega$
+What is the aim of the EMF and internal resistance required practical? | To investigate the relationship between EMF and internal resistance by measuring the variation of current and voltage using a variable resistor
+In the EMF and internal resistance experiment, what is the independent variable? | Resistance of the variable resistor, $R$ ($\Omega$)
+In the EMF and internal resistance experiment, what are the dependent variables? | Voltage $V$ (V) and current $I$ (A)
+In the EMF and internal resistance experiment, what are the control variables? | EMF of the cell and internal resistance of the cell
+How are the ammeter and voltmeter connected in the EMF experiment? | Ammeter in series with the circuit, voltmeter in parallel across the variable resistor
+Describe the procedure for collecting data in the EMF experiment | Set the variable resistor to maximum, close the switch, and record $V$ and $I$. Vary the resistance for 8-10 readings across the full range, opening the switch between each reading
+What graph is plotted in the EMF experiment, and what do the gradient and y-intercept represent? | $V$ against $I$. Gradient $= -r$ (negative internal resistance), y-intercept $= \varepsilon$ (EMF)
+Which equation gives the straight-line graph in the EMF experiment? | $V = -rI + \varepsilon$, which has the form $y = mx + c$
+Why is the switch opened between readings in the EMF experiment? | To prevent the cell from heating up, which would change the internal resistance and introduce systematic error
+Why might a fixed resistor be put in series with the variable resistor in the EMF experiment? | It limits the current when the variable resistor is set to zero, so the cell does not overheat or run down quickly
+Why should fairly new cells be used in the EMF experiment? | Run-down batteries have EMF and internal resistance that vary during the experiment, introducing random error
+Why are readings allowed to stabilise before recording in the EMF experiment? | To reduce random error from fluctuating voltmeter and ammeter readings
+How are random errors minimised in the EMF experiment? | Take at least 3 repeat readings for each resistance value and calculate a mean
+State the safety precautions for the EMF experiment | Components can get hot with prolonged use, so switch off the power supply if burning is smelt. Keep liquids away from the electrical equipment

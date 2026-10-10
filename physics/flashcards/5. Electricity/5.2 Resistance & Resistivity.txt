@@ -15,7 +15,7 @@ Why do insulators not conduct electricity? | They have very high resistivity (e.
 What is a thermistor? | A semiconductor component whose resistance changes with temperature, used as a temperature sensor
 A semiconductor component whose resistance changes with temperature - what component is this? | Thermistor
 What does NTC mean for a thermistor? | Negative temperature coefficient: as temperature increases, resistance decreases, and vice versa
-Why does the resistance of an NTC thermistor fall as it gets hotter? | More charge carriers are released in the semiconductor, which increases the current for a given p.d.
+Why does the resistance of an NTC thermistor fall as it gets hotter? | More charge carriers are released in the semiconductor, which increases the current for a given PD
 Why does the resistance of a thermistor fall as the current through it increases? | The current heats the thermistor, and at a higher temperature more charge carriers are released
 Describe the shape of the resistance-temperature graph for an NTC thermistor | A steep curve starting high at low temperature that decreases and levels off at high temperature
 Give three applications of thermistors | Ovens, fire alarms, digital thermometers
@@ -32,7 +32,7 @@ How do maglev trains use superconductors? | Superconducting electromagnets produ
 What is the aim of the required practical on resistivity? | To determine the resistivity of a constantan wire
 In the resistivity practical, what is the independent variable? | Length $L$ of the wire
 In the resistivity practical, what is the dependent variable? | The current through the wire, from which the resistance $R = \frac{V}{I}$ is calculated
-In the resistivity practical, name three control variables | The p.d. across the wire, the material and diameter of the wire, and its temperature
+In the resistivity practical, name three control variables | The PD across the wire, the material and diameter of the wire, and its temperature
 How is the diameter of the wire measured in the resistivity practical? | Using a micrometer screw gauge, taking 5–10 measurements at random positions along the wire and calculating the mean
 In the resistivity practical, how are the ammeter and voltmeter connected? | Ammeter in series with the wire, voltmeter in parallel across the wire
 In the resistivity practical, why must the current be switched off between readings? | To prevent the wire from heating up, which would change its resistivity and affect the results

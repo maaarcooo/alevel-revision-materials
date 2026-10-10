@@ -1,17 +1,16 @@
-What is a capacitor used for in electronic circuits? | Storing energy, commonly as a backup supply if the power fails
+What does a capacitor store? | Charge, and with it energy in the electric field between its plates
 What is the basic structure of a parallel-plate capacitor? | Two parallel conducting plates separated by an insulator
 What is the circuit symbol for a capacitor? | Two short parallel lines of equal length, with a wire from each
 What is a dielectric? | An insulating material placed between the plates of a capacitor
 Define capacitance | The charge stored per unit potential difference between the plates, $C = \frac{Q}{V}$
-The charge stored per unit potential difference between the plates — what quantity is this? | Capacitance
+The charge stored per unit potential difference between the plates - what quantity is this? | Capacitance
 What is the unit of capacitance? | The farad (F)
 Why are capacitances usually quoted in μF, nF or pF? | 1 F is a very large capacitance
 In $C = \frac{Q}{V}$, what does $Q$ refer to? | The magnitude of the charge on each plate. The capacitor as a whole stores no net charge
-What is the capacitance of a capacitor that stores 30 μC at a pd of 6.0 V? | $C = \frac{Q}{V} = \frac{30 \times 10^{-6}}{6.0} = 5.0 \times 10^{-6}\;\text{F} = 5.0\;\mu\text{F}$
-How does the charge stored on a capacitor vary with the pd across it? | Directly proportional, giving a straight-line graph through the origin
-In capacitor questions, what do the italic symbol $C$ and the unit C stand for? | Italic $C$ is capacitance. Upright C is the coulomb, the unit of charge
+What is the capacitance of a capacitor that stores 30 μC at a PD of 6.0 V? | $C = \frac{Q}{V} = \frac{30 \times 10^{-6}}{6.0} = 5.0 \times 10^{-6}\;\text{F} = 5.0\;\mu\text{F}$
+How does the charge stored on a capacitor vary with the PD across it? | Directly proportional, giving a straight-line graph through the origin
 Define relative permittivity | The ratio of the permittivity of a material to the permittivity of free space, $\varepsilon_r = \frac{\varepsilon}{\varepsilon_0}$
-The ratio of the permittivity of a material to the permittivity of free space — what quantity is this? | Relative permittivity
+The ratio of the permittivity of a material to the permittivity of free space - what quantity is this? | Relative permittivity
 What is another name for relative permittivity? | The dielectric constant
 What is the unit of permittivity? | $\text{F m}^{-1}$
 What are the units of relative permittivity? | None, as it is a ratio of two quantities with the same unit
@@ -19,25 +18,23 @@ What is the relative permittivity of a material with permittivity $1.77 \times 1
 What is the relative permittivity of air? | Approximately 1, the same as a vacuum
 What is the equation for the capacitance of a parallel-plate capacitor? | $C = \frac{A\varepsilon_0\varepsilon_r}{d}$, where $d$ is the plate separation
 In $C = \frac{A\varepsilon_0\varepsilon_r}{d}$, what area is $A$? | The area of one plate (where the plates overlap), not the two plates added together
-What is the capacitance of a parallel-plate capacitor with plate area 0.010 m², separation 0.20 mm and a dielectric of relative permittivity 4.0? ($\varepsilon_0 = 8.85 \times 10^{-12}\;\text{F m}^{-1}$) | $C = \frac{A\varepsilon_0\varepsilon_r}{d} = \frac{0.010 \times 8.85 \times 10^{-12} \times 4.0}{0.20 \times 10^{-3}} = 1.77 \times 10^{-9}\;\text{F}$
+What is the capacitance of a parallel-plate capacitor with plate area $0.010\;\text{m}^2$, separation 0.20 mm and a dielectric of relative permittivity 4.0? ($\varepsilon_0 = 8.85 \times 10^{-12}\;\text{F m}^{-1}$) | $C = \frac{A\varepsilon_0\varepsilon_r}{d} = \frac{0.010 \times 8.85 \times 10^{-12} \times 4.0}{0.20 \times 10^{-3}} = 1.77 \times 10^{-9}\;\text{F}$
 How does the capacitance of a parallel-plate capacitor depend on the plate separation? | Inversely proportional to the separation
 How does the capacitance of a parallel-plate capacitor depend on the plate area? | Directly proportional to the area of overlap
 By what factor does filling the gap of a vacuum parallel-plate capacitor with a dielectric change its capacitance? | It multiplies the capacitance by the dielectric's relative permittivity $\varepsilon_r$
 What is a polar molecule? | A molecule with a positive end and a negative end
 How are the polar molecules in a dielectric oriented when the capacitor is uncharged? | In random directions
 How do the polar molecules in a dielectric respond when the capacitor is charged? | They rotate to align with the electric field, negative ends towards the positive plate
-Explain why a dielectric increases a capacitor's capacitance | The aligned polar molecules produce an electric field opposing the field from the plates. For the same charge this reduces the overall field and the pd, so $C = \frac{Q}{V}$ is larger
+Explain why a dielectric increases a capacitor's capacitance | The aligned polar molecules produce an electric field opposing the field from the plates. For the same charge this reduces the overall field and the PD, so $C = \frac{Q}{V}$ is larger
 How does the size of the opposing field produced by a dielectric's molecules relate to its relative permittivity? | The larger the opposing field, the larger the relative permittivity
 Where does the energy stored by a charging capacitor come from? | Work done by the power supply on the electrons it moves
-During charging, where do electrons from the negative terminal of the supply go? | Onto the negative plate of the capacitor
-During charging, where do electrons from the positive plate of a capacitor go? | To the positive terminal of the supply
 Explain why more work must be done to add each electron as a capacitor charges | Electrons already on the negative plate repel incoming electrons, and this repulsion grows as the charge builds up
-What does the area under a graph of pd against charge for a capacitor represent? | The energy stored
-Explain why the energy stored by a capacitor is less than $QV$ | The pd rises from zero to $V$ as charge is added, so on average each coulomb is moved through only $\frac{V}{2}$
+What does the area under a graph of charge against PD for a capacitor represent? | The energy stored by the capacitor
+Explain why the energy stored by a capacitor is less than $QV$ | The PD rises from zero to $V$ as charge is added, so on average each coulomb is moved through only $\frac{V}{2}$
 State the energy stored by a capacitor in terms of $Q$ and $V$ | $E = \frac{1}{2}QV$
 State the energy stored by a capacitor in terms of $C$ and $V$ | $E = \frac{1}{2}CV^2$
 State the energy stored by a capacitor in terms of $Q$ and $C$ | $E = \frac{Q^2}{2C}$
-What energy is stored by a capacitor holding 4.0 mC at a pd of 50 V? | $E = \frac{1}{2}QV = \frac{1}{2} \times 4.0 \times 10^{-3} \times 50 = 0.10\;\text{J}$
+What energy is stored by a capacitor holding 4.0 mC at a PD of 50 V? | $E = \frac{1}{2}QV = \frac{1}{2} \times 4.0 \times 10^{-3} \times 50 = 0.10\;\text{J}$
 What energy is stored by a 100 μF capacitor charged to 20 V? | $E = \frac{1}{2}CV^2 = \frac{1}{2} \times 100 \times 10^{-6} \times 20^2 = 0.020\;\text{J}$
 What energy is stored by a 2.0 μF capacitor holding 6.0 μC? | $E = \frac{Q^2}{2C} = \frac{(6.0 \times 10^{-6})^2}{2 \times 2.0 \times 10^{-6}} = 9.0 \times 10^{-6}\;\text{J}$
-For a fixed pd, how does the energy stored by a capacitor depend on its capacitance? | Directly proportional
+For a fixed PD, how does the energy stored by a capacitor depend on its capacitance? | Directly proportional

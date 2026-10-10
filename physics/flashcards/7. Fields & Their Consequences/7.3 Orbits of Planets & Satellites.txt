@@ -12,14 +12,15 @@ What does Kepler's third law state? | For orbits around the same central body, t
 What is the period of a satellite in a circular orbit of radius $4.2 \times 10^7$ m around a planet of mass $6.0 \times 10^{24}$ kg? ($G = 6.67 \times 10^{-11}\ \text{N m}^2\,\text{kg}^{-2}$) | $T = \sqrt{\frac{4\pi^2 r^3}{GM}} = \sqrt{\frac{4\pi^2 \times (4.2 \times 10^7)^3}{6.67 \times 10^{-11} \times 6.0 \times 10^{24}}} = 8.5 \times 10^4\ \text{s}$
 For orbits around one central body, what graph of $T$ and $r$ gives a straight line through the origin? | $T^2$ against $r^3$
 What is the gradient of a graph of $\log T$ against $\log r$ for orbits around the same central body? | $1.5$
-In a binary star system, what distance is used in the gravitational force between the two stars? | Their separation, $R_1 + R_2$, not either star's own orbital radius
-In a binary star system, which two quantities are the same for both stars? | Angular speed and orbital period
 What happens to the kinetic and gravitational potential energy of a satellite as it travels around a circular orbit? | Both remain constant
+What is the kinetic energy of a satellite of mass $m$ in a circular orbit of radius $r$ around a body of mass $M$? | $E_k = \frac{1}{2}mv^2 = \frac{GMm}{2r}$
+What is the total energy of a satellite of mass $m$ in a circular orbit of radius $r$ around a body of mass $M$? | $E = E_k + E_p = \frac{GMm}{2r} - \frac{GMm}{r} = -\frac{GMm}{2r}$
 What happens to a satellite's kinetic energy when it moves to a circular orbit of larger radius? | It decreases
 What happens to a satellite's gravitational potential energy when it moves to a circular orbit of larger radius? | It increases (becomes less negative)
+What happens to a satellite's total energy when it moves to a circular orbit of larger radius? | It increases (becomes less negative), because the gain in potential energy is twice the loss in kinetic energy
 How does the gravitational force on a satellite change when it moves to a circular orbit of larger radius? | It decreases ($F \propto \frac{1}{r^2}$)
 What is escape velocity? | The minimum speed an object needs to escape a gravitational field from a given point, with no further energy input
-The minimum speed an object needs to escape a gravitational field from a given point, with no further energy input — what term is this? | Escape velocity
+The minimum speed an object needs to escape a gravitational field from a given point, with no further energy input - what term is this? | Escape velocity
 What is the escape velocity from a point a distance $r$ from the centre of a body of mass $M$? | $v = \sqrt{\frac{2GM}{r}}$
 What energy equation is used to derive escape velocity? | $\frac{1}{2}mv^2 = \frac{GMm}{r}$: the kinetic energy at launch equals the energy needed to move the object from $r$ to infinity
 Why is the escape velocity from Earth the same for a rocket and a tennis ball? | The escaping object's mass cancels from the energy equation
@@ -28,15 +29,13 @@ What is the escape velocity from the surface of a planet of mass $6.0 \times 10^
 Why do rockets not need to reach escape velocity to get into Earth orbit? | Their engines continuously supply energy through thrust
 How does the energy needed to put an object into Earth orbit compare with the energy needed for it to escape Earth's gravitational field? | Less energy is needed to reach orbit
 What is a synchronous orbit? | An orbit whose period equals the rotational period (length of day) of the body being orbited
-An orbit whose period equals the rotational period (length of day) of the body being orbited — what term is this? | Synchronous orbit
-What is a geosynchronous orbit? | A synchronous orbit around the Earth, with a period of 24 hours
-What is a geostationary orbit? | A geosynchronous orbit in the plane of the equator, so the satellite stays above one fixed point on Earth's surface
-A geosynchronous orbit in the plane of the equator, so the satellite stays above one fixed point on Earth's surface — what term is this? | Geostationary orbit
+An orbit whose period equals the rotational period (length of day) of the body being orbited - what term is this? | Synchronous orbit
+What is a geostationary orbit? | An orbit above the equator with a period of 24 hours in the direction of the Earth's rotation, so the satellite stays above one point on the surface
+An orbit above the equator with a period of 24 hours in the direction of the Earth's rotation, so the satellite stays above one point on the surface - what term is this? | Geostationary orbit
 In which direction does a geostationary satellite orbit? | West to east, the same direction as Earth's rotation
-Approximately what height above Earth's surface is a geostationary orbit? | About 36 000 km ($3.6 \times 10^7$ m)
-How does a geosynchronous orbit differ from a geostationary orbit? | A geosynchronous orbit may be inclined or slightly elliptical, so the satellite does not stay above one point. A geostationary orbit is equatorial, so the satellite does
+In which plane does a geostationary satellite orbit? | The plane of the equator
+What is the radius of a geostationary orbit? | About $4.2 \times 10^7$ m from the centre of the Earth, which is about 36 000 km above the surface
 What are geostationary satellites used for? | Telecommunications and TV broadcasting
-How is a TV signal transmitted via a geostationary satellite? | A ground station sends the signal up, and the satellite amplifies it and broadcasts it back down to receivers
 Why can receiver dishes for geostationary satellites be fixed in position? | The satellite stays at the same point in the sky
 What is a polar orbit? | A low orbit in which the satellite passes over the north and south poles
 What are low orbits used for? | High-quality imaging of Earth's surface, such as for weather monitoring and military applications

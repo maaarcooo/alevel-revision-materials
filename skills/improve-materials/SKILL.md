@@ -28,6 +28,7 @@ This repository keeps one living copy of each deck and note. An improvement edit
 - **Add** a fact, term or worked card only when the specification requires it or an exam question could plainly ask it, and only when you are confident the exam board accepts it.
 - **Remove** trivia, case-study figures, content beyond the specification, and cards that repeat another card.
 - **Reword** a card that is ambiguous, has more than one right answer, or gives away another card's answer.
+- **Use the repository's spellings**: `PD` and `EMF` in capitals with no full stops, `a.c.` and `d.c.` with them, and symbols as AQA's data and formulae sheet writes them ($F = BIl$, $T_{1/2} = 0.69RC$, time constant $RC$).
 - **Do not** rewrite cards that are already correct and clear. Changing a question's wording breaks its link to a learner's review history in apps that match cards by text, so only reword where the card is better for it.
 
 ## Deck rules
@@ -78,10 +79,11 @@ Settled owners for ideas that cross topics:
 | Physics | Owner |
 |---|---|
 | The electron volt and unit conversions | 1.1 |
-| Precision, accuracy, repeatability, reproducibility | 1.2 |
+| Precision, accuracy, repeatability, reproducibility, parallax and zero errors | 1.2 |
 | Photon energy, the Planck constant, the neutrino hypothesis | 2.1 |
 | Exchange particles | 2.3 |
 | Wave-particle duality, the de Broglie wavelength | 2.5 |
+| Frequency and period, $f = \frac{1}{T}$ | 3.1 |
 | The principle of superposition | 3.2 |
 | Coherence and path difference | 3.3 |
 | The diffraction grating equation | 3.4 |
@@ -90,11 +92,18 @@ Settled owners for ideas that cross topics:
 | Newton's second law in terms of momentum, impulse | 4.5 |
 | Kinetic and gravitational potential energy | 4.6 |
 | Hooke's law and elastic strain energy | 4.7 |
+| Conventional current | 5.1 |
 | Thermistors | 5.2 |
 | The potential divider | 5.3 |
 | Why an ideal gas has no potential energy, $Q = mc\Delta\theta$ and the units of $\Delta\theta$ | 6.4 |
 | The gas constants and $k = \frac{R}{N_A}$ | 6.5 |
 | The internal energy of an ideal gas, how gas molecules exert a pressure | 6.6 |
+| Force fields, the inverse square law, where $r$ is measured from | 7.1 |
+| What an equipotential surface is, and why equipotentials have no arrows | 7.2 |
+| Comparing gravitational and electric fields, how $E$ varies with $r$ for a point charge | 7.4 |
+| $\Delta W = Q\Delta V$, the equipotentials of electric fields, the sign of electric potential | 7.5 |
+| How electrons move as a capacitor charges and discharges | 7.7 |
+| Magnetic flux and flux linkage | 7.9 |
 
 When a new overlap turns up, settle it by the specification, move the definition to the owner, and add the row here.
 
@@ -138,12 +147,11 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 | Computer Science 1 to 8 | 8 October 2026 | 5 October 2026 | Yes |
 | Physics 1 to 5 | 8 October 2026 | 5 October 2026, against AS papers | Yes |
 | Physics 6.4 to 6.6 | 8 October 2026 | Not done | None |
-| Physics 7.1 to 7.10 | Not done | Not done | None |
+| Physics 7.1 to 7.10 | 10 October 2026 | Not done | None |
 
 Still to do:
 
-- **Physics topic 7** was added on 9 October 2026 as generated, and has not been edited. Its decks still have em dashes and semicolons, and "What is an equipotential surface" is asked in both 7.2 and 7.5, so the check reports one duplicate question. Give it the card-rule pass: punctuation, reverse cards, worked cards, constants the data sheet supplies, and owners for the ideas that gravitational and electric fields share.
-- **Physics topics 6 and 7** have had no mark-scheme pass. `sources/physics/papers/` holds AS papers, which do not examine them. The pass needs A-level papers (AQA 7408 Papers 1 and 2) added to `sources/` first.
+- **Physics topics 6 and 7** have had no mark-scheme pass. `sources/physics/papers/` holds AS papers (7407) and topic questions for topics 2 and 3, none of which examine them. The pass needs A-level papers (AQA 7408 Papers 1 and 2) or topic 6 and 7 question sets added to `sources/` first. `sources/physics/spec/` has the specification, but its data booklets are the AS ones, without the topic 6 and 7 equations.
 - **Physics topics 6 and 7** have no revision notes, and 6.1 to 6.3 have no decks.
 
 ## Note rules

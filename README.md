@@ -18,11 +18,10 @@ against the official specification.
 | Subject | Decks | Cards | Notes |
 |---------|------:|------:|------:|
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
-| Physics (AQA, AS topics 1 to 5, 6.4 to 6.6, and topic 7) | 37 | 2083 | 24 |
+| Physics (AQA, AS topics 1 to 5, 6.4 to 6.6, and topic 7) | 37 | 2039 | 24 |
 
 Each subtopic has one flashcard deck and one note with the same name. The topic 6 and
-topic 7 decks have no notes yet, and the topic 7 decks have not yet been edited to the
-current card rules.
+topic 7 decks have no notes yet.
 
 ## Layout
 

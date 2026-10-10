@@ -32,6 +32,7 @@ themselves, so open the file.
   Science has none. Marco's Maths board is OCR.
 - No em dashes or semicolons on a card. A reverse card is
   `<definition> - what term is this? | <term>`, with a hyphen.
+- Write `PD` and `EMF`, in capitals with no full stops, in decks and notes.
 
 ## Every change
 

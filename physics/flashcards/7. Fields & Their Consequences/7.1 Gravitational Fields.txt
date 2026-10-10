@@ -1,17 +1,16 @@
 What is a force field? | A region in which a body experiences a non-contact force
-A region in which a body experiences a non-contact force — what term is this? | Force field
+A region in which a body experiences a non-contact force - what term is this? | Force field
 What is a non-contact force? | A force that acts between bodies without physical contact
 What property must a particle have to experience a force in a gravitational field? | Mass
 Which type of force field acts on a charged particle whether it is stationary or moving? | Electric field
 What must a charged particle be doing to experience a force in a magnetic field? | Moving across the field lines
 What does the direction of a field line show? | The direction of the force on a body placed at that point in the field
-Give an effect on Earth of the Moon's and Sun's gravitational fields | Tides
 What is a gravitational field? | A region of space where a mass experiences a force due to the gravitational attraction of another mass
 What is the weight of an object? | The gravitational force acting on it
-Gravitational forces between masses are always [...] | attractive
+What kind of force does gravity exert between any two masses? | An attractive force, always
 What is the range of the gravitational force? | Infinite
 What is gravitational field strength at a point? | The gravitational force per unit mass on a mass placed at that point ($g = \frac{F}{m}$)
-The gravitational force per unit mass on a mass placed at a point — what quantity is this? | Gravitational field strength, $g$
+The gravitational force per unit mass on a mass placed at a point - what quantity is this? | Gravitational field strength, $g$
 What is the unit of gravitational field strength? | $\text{N kg}^{-1}$ (equivalent to $\text{m s}^{-2}$)
 What is the gravitational field strength where a 2.0 kg mass experiences a gravitational force of 19.6 N? | $g = \frac{F}{m} = \frac{19.6}{2.0} = 9.8\;\text{N kg}^{-1}$
 What type of quantity is gravitational field strength, and in what direction does it act? | A vector, directed towards the centre of mass of the body creating the field
@@ -29,14 +28,12 @@ Why can stars and planets be treated as point masses when applying Newton's law 
 State Newton's law of gravitation | The gravitational force between two point masses is proportional to the product of their masses and inversely proportional to the square of their separation
 What is the equation for Newton's law of gravitation? | $F = \frac{Gm_1m_2}{r^2}$
 What is the gravitational force between two 1000 kg point masses 2.0 m apart? ($G = 6.67 \times 10^{-11}\;\text{N m}^2\,\text{kg}^{-2}$) | $F = \frac{Gm_1m_2}{r^2} = \frac{6.67 \times 10^{-11} \times 1000 \times 1000}{2.0^2} = 1.7 \times 10^{-5}\;\text{N}$
-The $\frac{1}{r^2}$ relationship in gravitation is called the [...] | inverse square law
+What name is given to a relationship in which a quantity is proportional to $\frac{1}{r^2}$? | An inverse square law
 What happens to the gravitational force between two point masses when their separation doubles? | It falls to a quarter of its original value
 From where is the distance $r$ measured in gravitational equations? | From the centre of mass of each body
 What is $r$ for a satellite orbiting at height $h$ above a planet of radius $R$? | $r = R + h$
 What is the equation for gravitational field strength due to a point mass $M$? | $g = \frac{GM}{r^2}$
 What is the gravitational field strength at the surface of a planet of mass $6.0 \times 10^{24}$ kg and radius $6.4 \times 10^{6}$ m? ($G = 6.67 \times 10^{-11}\;\text{N m}^2\,\text{kg}^{-2}$) | $g = \frac{GM}{r^2} = \frac{6.67 \times 10^{-11} \times 6.0 \times 10^{24}}{(6.4 \times 10^{6})^2} = 9.8\;\text{N kg}^{-1}$
 How does $g$ vary with distance $r$ from the centre of a planet of radius $R$, for $r > R$? | $g \propto \frac{1}{r^2}$
-How does $g$ vary with distance $r$ from the centre inside a planet of uniform density ($r < R$)? | $g \propto r$
-At what distance from the centre of a uniform-density planet is $g$ greatest? | At the surface ($r = R$)
 A planet has surface field strength $g$ and radius $R$. What is the field strength at a distance $3R$ from its centre? | $\frac{g}{9}$
 What is the surface gravitational field strength of a uniform planet in terms of its density $\rho$ and radius $R$? | $g = \frac{4}{3}\pi G\rho R$

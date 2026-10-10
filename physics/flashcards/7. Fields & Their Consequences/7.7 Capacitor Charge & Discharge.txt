@@ -1,64 +1,59 @@
 When a capacitor charges, what happens to the plate connected to the positive terminal of the supply? | Electrons are pulled off it, leaving it positively charged
 When a capacitor charges, where do the electrons removed from one plate go? | Around the circuit onto the plate connected to the negative terminal, making it negatively charged
 Explain why the charging current of a capacitor decreases as it charges | Electrons already on the negative plate repel incoming electrons, so fewer are pushed onto it as charge builds up
-When does a capacitor connected to a supply stop charging? | When the p.d. across the capacitor equals the p.d. of the supply
+When does a capacitor connected to a supply stop charging? | When the PD across the capacitor equals the PD of the supply
 How does the current vary with time while a capacitor charges? | It starts at a maximum and decreases exponentially towards zero
-How do the charge and p.d. of a charging capacitor vary with time? | They rise from zero, quickly at first then more slowly, towards a maximum value
-How do the shapes of the charge-time and p.d.-time graphs for a charging capacitor compare? | They are identical
+How do the charge and PD of a charging capacitor vary with time? | They rise from zero, quickly at first then more slowly, towards a maximum value
+How do the shapes of the charge-time and PD-time graphs for a charging capacitor compare? | They are identical
 What is meant by exponential decay of a quantity? | Its rate of decrease is proportional to the amount of the quantity remaining
 How is a charged capacitor discharged? | Through a resistor, with no power supply in the circuit
-In which direction do electrons flow when a capacitor discharges through a resistor? | From the negative plate back to the positive plate, until there is no p.d. between the plates
+In which direction do electrons flow when a capacitor discharges through a resistor? | From the negative plate back to the positive plate, until there is no PD between the plates
 How does the direction of the discharge current compare with the charging current? | It is in the opposite direction
-How do current, p.d. and charge vary with time for a capacitor discharging through a resistor? | All three decrease exponentially from their initial values, with identically shaped graphs
+How do current, PD and charge vary with time for a capacitor discharging through a resistor? | All three decrease exponentially from their initial values, with identically shaped graphs
 How does increasing the resistance affect the discharge of a capacitor? | Charge flows off the plates more slowly, so the capacitor takes longer to discharge
-For a capacitor discharging through a resistor, how is the current related to the p.d. across the capacitor and the charge on it? | Directly proportional to both
+For a capacitor discharging through a resistor, how is the current related to the PD across the capacitor and the charge on it? | Directly proportional to both
 What does the area under a current-time graph for a charging or discharging capacitor represent? | The charge that flows onto or off the plates in that time interval
 What does the gradient of a charge-time graph for a capacitor represent? | The current at that time
 How is the current found from a curved charge-time graph at a given time? | Draw a tangent to the curve at that time and calculate its gradient
-What is the time constant of a capacitor discharging through a resistor? | The time for the charge, current or p.d. to fall to $\frac{1}{e}$ (about 37%) of its initial value
-The time for the charge, current or p.d. of a discharging capacitor to fall to $\frac{1}{e}$ (about 37%) of its initial value — what term is this? | Time constant
-What is the time constant of a capacitor charging through a resistor? | The time for the charge or p.d. to rise to about 63% of its maximum value
-The time for the charge or p.d. of a charging capacitor to rise to about 63% of its maximum value — what term is this? | Time constant
+What is the time constant of a capacitor discharging through a resistor? | The time for the charge, current or PD to fall to $\frac{1}{e}$ (about 37%) of its initial value
+The time for the charge, current or PD of a discharging capacitor to fall to $\frac{1}{e}$ (about 37%) of its initial value - what term is this? | Time constant
+What is the time constant of a capacitor charging through a resistor? | The time for the charge or PD to rise to about 63% of its maximum value
 What value is the time constant measured relative to for a charging capacitor compared with a discharging one? | Charging: the maximum (final) value. Discharging: the initial value
-What is the equation for the time constant of a capacitor-resistor circuit? | $\tau = RC$
+What is the equation for the time constant of a capacitor-resistor circuit? | Time constant $= RC$, the resistance multiplied by the capacitance
 What is the unit of the time constant? | Second (s)
-What is the time constant of a $2\;\mu\text{F}$ capacitor discharging through a $5\;\text{k}\Omega$ resistor? | $\tau = RC = 5000 \times 2 \times 10^{-6} = 0.01\;\text{s}$
+What is the time constant of a $2\;\mu\text{F}$ capacitor discharging through a $5\;\text{k}\Omega$ resistor? | $RC = 5000 \times 2 \times 10^{-6} = 0.01\;\text{s}$
 How does a smaller time constant affect the discharge of a capacitor? | The exponential decay is quicker
-How is the time constant found from a p.d.-time graph for a discharging capacitor? | Read off the time at which $V = 0.37V_0$
-How is the time constant found from a p.d.-time graph for a charging capacitor? | Read off the time at which $V = 0.63V_0$
-What is the half-time of a discharging capacitor? | The time for the charge, current or p.d. to fall to half its initial value
-The time for the charge, current or p.d. of a discharging capacitor to fall to half its initial value — what term is this? | Half-time ($t_{1/2}$)
-What is the equation for the half-time of a discharging capacitor? | $t_{1/2} = 0.69RC$
-What is the half-time of a capacitor discharging with a time constant of 10 s? | $t_{1/2} = 0.69RC = 0.69 \times 10 = 6.9\;\text{s}$
-How does the half-time of a discharging capacitor depend on its initial charge? | It is independent of it, so the charge always takes the same time to halve
+How is the time constant found from a PD-time graph for a discharging capacitor? | Read off the time at which $V = 0.37V_0$
+How is the time constant found from a PD-time graph for a charging capacitor? | Read off the time at which $V = 0.63V_0$
+What is the time to halve, $T_{1/2}$, of a discharging capacitor? | The time for the charge, current or PD to fall to half its initial value
+The time for the charge, current or PD of a discharging capacitor to fall to half its initial value - what term is this? | Time to halve ($T_{1/2}$)
+What is the equation for the time to halve of a discharging capacitor? | $T_{1/2} = 0.69RC$
+What is the time to halve of a capacitor discharging with a time constant of 10 s? | $T_{1/2} = 0.69RC = 0.69 \times 10 = 6.9\;\text{s}$
+How does the time to halve of a discharging capacitor depend on its initial charge? | It is independent of it, so the charge always takes the same time to halve
 What is the equation for the charge on a capacitor discharging through a resistor? | $Q = Q_0 e^{-\frac{t}{RC}}$
-What is the equation for the p.d. across a capacitor discharging through a resistor? | $V = V_0 e^{-\frac{t}{RC}}$
+What is the equation for the PD across a capacitor discharging through a resistor? | $V = V_0 e^{-\frac{t}{RC}}$
 What is the equation for the current from a capacitor discharging through a resistor? | $I = I_0 e^{-\frac{t}{RC}}$
 A capacitor with initial charge $50\;\mu\text{C}$ discharges with $RC = 4\;\text{s}$. What is the charge after 4 s? | $Q = Q_0 e^{-\frac{t}{RC}} = 50 \times e^{-1} = 18\;\mu\text{C}$
 What is the equation for the charge on a capacitor charging through a resistor? | $Q = Q_0\left(1 - e^{-\frac{t}{RC}}\right)$
-What is the equation for the p.d. across a capacitor charging through a resistor? | $V = V_0\left(1 - e^{-\frac{t}{RC}}\right)$
+What is the equation for the PD across a capacitor charging through a resistor? | $V = V_0\left(1 - e^{-\frac{t}{RC}}\right)$
 What is the equation for the current while a capacitor charges through a resistor? | $I = I_0 e^{-\frac{t}{RC}}$, the same form as for discharge
-How does the meaning of $Q_0$ and $V_0$ differ between the charging and discharging equations? | Charging: the final (maximum) charge and p.d. Discharging: the initial charge and p.d.
-A capacitor charges towards a maximum of 12 V with $RC = 2\;\text{s}$. What is the p.d. across it after 2 s? | $V = V_0\left(1 - e^{-\frac{t}{RC}}\right) = 12\left(1 - e^{-1}\right) = 7.6\;\text{V}$
-What is the inverse function of $e^x$? | The natural logarithm, $\ln$
-What is the aim of the capacitor discharge required practical? | To determine the capacitance of a capacitor
+How does the meaning of $Q_0$ and $V_0$ differ between the charging and discharging equations? | Charging: the final (maximum) charge and PD. Discharging: the initial charge and PD
+A capacitor charges towards a maximum of 12 V with $RC = 2\;\text{s}$. What is the PD across it after 2 s? | $V = V_0\left(1 - e^{-\frac{t}{RC}}\right) = 12\left(1 - e^{-1}\right) = 7.6\;\text{V}$
+What is the aim of the capacitor discharge required practical? | To investigate the discharge of a capacitor through a resistor and determine the time constant $RC$
 In the capacitor discharge practical, what is the independent variable? | Time
-In the capacitor discharge practical, what is the dependent variable? | The p.d. across the capacitor
-In the capacitor discharge practical, what is kept constant? | The resistance of the resistor, the capacitor used, and the starting p.d. from the supply
+In the capacitor discharge practical, what is the dependent variable? | The PD across the capacitor
+In the capacitor discharge practical, what is kept constant? | The resistance of the resistor, the capacitor used, and the starting PD from the supply
 In the capacitor discharge practical, how is the voltmeter connected? | In parallel across the capacitor
-In the capacitor discharge practical, how is the capacitor fully charged? | Switch it to the supply until the voltmeter reads the supply p.d.
+In the capacitor discharge practical, how is the capacitor fully charged? | Switch it to the supply until the voltmeter reads the supply PD
 In the capacitor discharge practical, how is the discharge started? | Move the switch so the capacitor is connected across the resistor only
-In the capacitor discharge practical, what readings are taken during discharge? | The p.d. across the capacitor at regular time intervals, e.g. every 10 s
-In the capacitor discharge practical, what graph is plotted to find the capacitance? | $\ln V$ against $t$
+In the capacitor discharge practical, what readings are taken during discharge? | The PD across the capacitor at regular time intervals, e.g. every 10 s
+In the capacitor discharge practical, what graph is plotted to find the time constant? | $\ln V$ against $t$
 Why is $\ln V$ plotted against $t$ in the capacitor discharge practical? | Taking logs of $V = V_0 e^{-\frac{t}{RC}}$ gives a straight line, $\ln V = -\frac{t}{RC} + \ln V_0$
 What is the gradient of a graph of $\ln V$ against $t$ for a discharging capacitor? | $-\frac{1}{RC}$
 What is the y-intercept of a graph of $\ln V$ against $t$ for a discharging capacitor? | $\ln V_0$
-How is the capacitance calculated from the gradient of a $\ln V$ against $t$ graph? | $C = -\frac{1}{R \times \text{gradient}}$
-A $\ln V$ against $t$ graph for discharge through $10\;\text{k}\Omega$ has gradient $-0.020\;\text{s}^{-1}$. What is the capacitance? | $C = -\frac{1}{R \times \text{gradient}} = \frac{1}{10\,000 \times 0.020} = 5.0 \times 10^{-3}\;\text{F}$
+How is the time constant found from the gradient of a $\ln V$ against $t$ graph? | $RC = -\frac{1}{\text{gradient}}$, and dividing by $R$ gives the capacitance
+A $\ln V$ against $t$ graph for discharge through $10\;\text{k}\Omega$ has gradient $-0.020\;\text{s}^{-1}$. What is the capacitance? | $RC = \frac{1}{0.020} = 50\;\text{s}$, so $C = \frac{50}{10\,000} = 5.0 \times 10^{-3}\;\text{F}$
 Why is a large resistance used in the capacitor discharge practical? | So the capacitor discharges slowly enough for readings to be timed accurately
-Why does using a datalogger improve the capacitor discharge practical? | It removes the reaction-time error in reading the p.d. at set times
-How is a zero error on the voltmeter avoided in the capacitor discharge practical? | Check it reads zero before starting
-What should be done if a digital voltmeter reading fluctuates between two values? | Wait until the reading settles
-How is parallax error avoided when reading an analogue voltmeter? | Read the scale at eye level
+Why does using a datalogger improve the capacitor discharge practical? | It removes the reaction-time error in reading the PD at set times
 Why is a resistor with too low a resistance a safety hazard in the capacitor practical? | The current is high, so the wires become very hot
 Why can a capacitor be a shock hazard after the power is removed? | It can still retain charge, so it should be fully discharged before handling

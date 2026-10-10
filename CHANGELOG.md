@@ -3,6 +3,69 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-10: Physics topic 7 brought up to the card rules
+
+The ten Fields and their Consequences decks, added on 9 October as generated, were
+checked card by card against AQA 7408 section 3.7 and the current card rules
+(flashcard-v3.10). They went from 573 cards to 529: 48 removed, 4 added and 93 changed, most of those
+only in spelling or punctuation.
+Physics now has 2039 cards in 37 decks. No fact was found to be wrong. Every worked
+answer was recalculated and stands.
+
+**Wording brought into line with AQA**
+
+- 7.8: magnetic flux density is the force per unit current per unit length on a
+  current-carrying conductor at right angles to the field, which is how the
+  specification defines it through $F = BIl$. The old card gave flux per unit area.
+- 7.5: field strength and potential gradient are related by $E = \frac{\Delta V}{\Delta r}$
+  in magnitude, as the specification and the data sheet write it, with the direction
+  stated in words. The old card had a minus sign.
+- 7.5: work done is $\Delta W = Q\Delta V$, with $Q$ the charge moved. The old cards
+  used $q$.
+- 7.7: the time to halve, $T_{1/2} = 0.69RC$, and the time constant $RC$. The old cards
+  said half-time, $t_{1/2}$ and $\tau$.
+- 7.7: the required practical determines the time constant from a graph of $\ln V$
+  against $t$, and the capacitance follows from it.
+- 7.8 and 7.9: $F = BIl$ and $\varepsilon = Blv$, with a lower-case $l$.
+- 7.6: the energy stored is the area under a graph of charge against p.d.
+- 7.3: a geostationary orbit is described by its plane, period and direction, and its
+  radius is given from the centre of the Earth (about $4.2 \times 10^7$ m) as well as
+  the height above the surface.
+
+**Added**
+
+- 7.3: the kinetic energy and the total energy of a satellite in a circular orbit,
+  $-\frac{GMm}{2r}$, how the total energy changes with radius, and the plane of a
+  geostationary orbit. The specification names all of these.
+
+**Removed**
+
+- Beyond the specification: $g$ inside a planet, binary stars, geosynchronous orbits,
+  the Coulomb constant $k$, the $\sin\theta$ forms of $F = BIl$ and $F = BQv$, Fleming's
+  right-hand rule, graphs of potential energy against distance, and trivia (tides,
+  how a TV signal is relayed, medical uses of a cyclotron).
+- Supplied by the exam: the unit of $\varepsilon_0$, which is on the data sheet.
+- Repeats of an idea another deck owns: what an equipotential surface is (7.2), work
+  done moving a charge and the equipotentials of electric fields (7.5), how $E$ varies
+  with distance (7.4), how electrons move as a capacitor charges (7.7), $f = \frac{1}{T}$
+  (3.1), conventional current (5.1), and parallax and zero errors (1.2).
+- A second reverse card for the time constant, and practical cards that were general
+  safety advice or one method's step sizes.
+
+**Punctuation and form**
+
+- 22 reverse cards take a hyphen where they had an em dash.
+- Three fill-in-the-blank cards are now questions.
+
+**Spelling, in every Physics deck and note**
+
+- `PD` and `EMF` replace `p.d.` and `e.m.f.` (194 places in 15 files), at Marco's
+  request.
+
+**Not done**
+
+- No mark-scheme pass: `sources/` has AS papers only, which do not examine topic 7.
+
 ## 2026-10-08: card rules brought up to date, and thermal physics added
 
 Every deck was checked against the current card rules (flashcard-generator v3.10, the

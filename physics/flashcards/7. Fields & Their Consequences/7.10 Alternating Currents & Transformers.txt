@@ -1,15 +1,13 @@
 What is an alternating current? | A current that periodically reverses direction, varying between positive and negative values with time
-A current that periodically reverses direction, varying between positive and negative values with time — what term is this? | Alternating current (a.c.)
+A current that periodically reverses direction, varying between positive and negative values with time - what term is this? | Alternating current (a.c.)
 How often does the direction of an alternating current reverse? | Every half cycle
 To what shape of waveform do the A-level rms equations apply? | Sinusoidal waveforms only
-What is the relationship between the period and frequency of an a.c. supply? | $T = \frac{1}{f}$
-What is the frequency of an a.c. supply with a period of 20 ms? | $f = \frac{1}{T} = \frac{1}{0.020} = 50\;\text{Hz}$
 What is the peak value of an alternating current or voltage? | Its maximum value measured from zero, equal to the amplitude of the waveform
 What is the peak-to-peak value of an alternating voltage? | The difference between its maximum positive and maximum negative values
 How is peak voltage related to peak-to-peak voltage for a sinusoidal a.c.? | $V_0 = \frac{\text{peak-to-peak voltage}}{2}$
 What is the peak-to-peak voltage of a sinusoidal supply with a peak voltage of 325 V? | $2 \times 325 = 650\;\text{V}$
 What is the rms value of an alternating current? | The steady direct current that delivers the same average power in a resistor as the alternating current
-The steady direct current that delivers the same average power in a resistor as the alternating current — what term is this? | Root-mean-square (rms) current
+The steady direct current that delivers the same average power in a resistor as the alternating current - what term is this? | Root-mean-square (rms) current
 How is the rms value of an alternating current calculated from its values over a cycle? | The square root of the mean of the squares of all the current values in one cycle
 What is the equation for the rms current of a sinusoidal a.c.? | $I_{rms} = \frac{I_0}{\sqrt{2}} \approx 0.707 I_0$
 What is the equation for the rms voltage of a sinusoidal a.c.? | $V_{rms} = \frac{V_0}{\sqrt{2}} \approx 0.707 V_0$
@@ -34,8 +32,8 @@ What is a transformer? | A device that changes a high alternating voltage at low
 What are the three main parts of a transformer? | A primary coil, a secondary coil, and an iron core
 What is the purpose of the iron core in a transformer? | It concentrates the magnetic flux from the primary coil and links it through the secondary coil
 Why is a transformer core made of soft iron? | It is easily magnetised and demagnetised, which reduces hysteresis losses
-Explain how a transformer produces an output voltage | An alternating current in the primary coil creates an alternating magnetic flux in the core, which passes through the secondary coil. The changing flux linkage induces an alternating e.m.f. in the secondary (Faraday's law)
-Why must the input to a transformer be alternating? | Only a changing current produces the changing flux linkage needed to induce an e.m.f. in the secondary coil
+Explain how a transformer produces an output voltage | An alternating current in the primary coil creates an alternating magnetic flux in the core, which passes through the secondary coil. The changing flux linkage induces an alternating EMF in the secondary (Faraday's law)
+Why must the input to a transformer be alternating? | Only a changing current produces the changing flux linkage needed to induce an EMF in the secondary coil
 How does the frequency of a transformer's output compare with its input? | It is the same
 What is the transformer equation? | $\frac{N_s}{N_p} = \frac{V_s}{V_p}$
 What is the output voltage of a transformer with 1000 primary turns and 50 secondary turns connected to a 230 V supply? | $V_s = V_p \frac{N_s}{N_p} = 230 \times \frac{50}{1000} = 11.5\;\text{V}$
@@ -49,7 +47,7 @@ What is the secondary current of an ideal transformer with a primary current of 
 What is the equation for transformer efficiency? | $\text{efficiency} = \frac{I_s V_s}{I_p V_p}$, the output power divided by the input power
 What is the efficiency of a transformer with $V_p = 200$ V, $I_p = 0.50$ A, $V_s = 20$ V and $I_s = 4.0$ A? | $\frac{I_s V_s}{I_p V_p} = \frac{20 \times 4.0}{200 \times 0.50} = \frac{80}{100} = 0.80$
 What are eddy currents in a transformer? | Circulating currents induced in the conducting core by the changing magnetic flux
-Circulating currents induced in the conducting core of a transformer by the changing magnetic flux — what term is this? | Eddy currents
+Circulating currents induced in the conducting core of a transformer by the changing magnetic flux - what term is this? | Eddy currents
 What energy loss do eddy currents cause in a transformer? | Heating of the core
 How does the magnetic field of eddy currents relate to the flux change that induced them? | It opposes that change
 How is a transformer core constructed to reduce eddy currents? | It is laminated: built from thin layers of iron insulated from each other

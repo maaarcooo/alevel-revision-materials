@@ -127,7 +127,24 @@ sources/computer-science/papers/<level>/raw/       # the separate papers the fol
 4. **Add a card** when a mark scheme point comes up that no card covers and the specification section includes it.
 5. **Leave a card alone** when it already says what the mark scheme credits in other words.
 
-Status: every topic in both subjects had this pass on 5 October 2026. Run it again for a topic when new papers are added to `sources/`, or when a deck is rewritten.
+Run it again for a topic when new papers are added to `sources/`, or when a deck is rewritten. The status table below says which topics have had it.
+
+## Status
+
+What each topic has had done to it. Update this table whenever a pass is finished or a deck is added.
+
+| Topics | Card rules (flashcard-v3.10) | Mark-scheme pass | Notes |
+|---|---|---|---|
+| Computer Science 1 to 8 | 8 October 2026 | 5 October 2026 | Yes |
+| Physics 1 to 5 | 8 October 2026 | 5 October 2026, against AS papers | Yes |
+| Physics 6.4 to 6.6 | 8 October 2026 | Not done | None |
+| Physics 7.1 to 7.10 | Not done | Not done | None |
+
+Still to do:
+
+- **Physics topic 7** was added on 9 October 2026 as generated, and has not been edited. Its decks still have em dashes and semicolons, and "What is an equipotential surface" is asked in both 7.2 and 7.5, so the check reports one duplicate question. Give it the card-rule pass: punctuation, reverse cards, worked cards, constants the data sheet supplies, and owners for the ideas that gravitational and electric fields share.
+- **Physics topics 6 and 7** have had no mark-scheme pass. `sources/physics/papers/` holds AS papers, which do not examine them. The pass needs A-level papers (AQA 7408 Papers 1 and 2) added to `sources/` first.
+- **Physics topics 6 and 7** have no revision notes, and 6.1 to 6.3 have no decks.
 
 ## Note rules
 

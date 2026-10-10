@@ -1,26 +1,28 @@
 # A-Level Revision Materials
 
 Flashcards and revision notes for **OCR A-Level Computer Science** (H446) and
-**AQA A-Level Physics** (AS topics 1 to 5, and thermal physics from topic 6).
+**AQA A-Level Physics** (AS topics 1 to 5, thermal physics from topic 6, and topic 7).
 
 There is one copy of each deck and each note. They are improved in place, so there are
 no version numbers in file or folder names. The history is in git, and
 [CHANGELOG.md](CHANGELOG.md) records what changed and where the content came from.
 
-All content is AI-generated and checked against the exam board specifications. Every
-topic has also been compared with past-paper mark schemes and examiner reports (AQA AS
-papers for Physics, OCR AS and A-Level papers for Computer Science). Always verify
-anything important against the official specification.
+All content is AI-generated and checked against the exam board specifications. Computer
+Science topics 1 to 8 and Physics topics 1 to 5 have also been compared with past-paper
+mark schemes and examiner reports (AQA AS papers for Physics, OCR AS and A-Level papers
+for Computer Science). Physics topics 6 and 7 have not. Always verify anything important
+against the official specification.
 
 ## What is here
 
 | Subject | Decks | Cards | Notes |
 |---------|------:|------:|------:|
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
-| Physics (AQA, AS topics 1 to 5, and 6.4 to 6.6) | 27 | 1510 | 24 |
+| Physics (AQA, AS topics 1 to 5, 6.4 to 6.6, and topic 7) | 37 | 2083 | 24 |
 
-Each subtopic has one flashcard deck and one note with the same name. The three topic 6
-decks (6.4 to 6.6) have no notes yet.
+Each subtopic has one flashcard deck and one note with the same name. The topic 6 and
+topic 7 decks have no notes yet, and the topic 7 decks have not yet been edited to the
+current card rules.
 
 ## Layout
 
@@ -34,6 +36,7 @@ alevel-revision-materials/
 │   └── notes/<n>. <topic>/<n.m> <subtopic>.md
 ├── skills/        # the generator skills and the procedure for improving materials
 ├── scripts/       # check_decks.py, paper_digest.py, pull_mark_schemes.py
+├── CLAUDE.md      # where an AI session starts: what to read and what has been asked for
 ├── CHANGELOG.md
 └── LICENSE
 ```
@@ -85,7 +88,8 @@ committed.
 
 The procedure is in [skills/improve-materials/SKILL.md](skills/improve-materials/SKILL.md).
 It covers how to check a change against the specification, which deck owns an idea that
-appears in more than one topic, and how to record the change.
+appears in more than one topic, how to record the change, and a status table of what
+each topic has had done to it.
 
 The generator skills used to produce new decks and notes from source material are in
 `skills/flashcard-generator` and `skills/revision-notes-generator`.

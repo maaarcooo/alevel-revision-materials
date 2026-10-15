@@ -4,6 +4,10 @@ Flashcard decks and revision notes for OCR A-Level Computer Science (H446) and A
 A-Level Physics (7408). There is one living copy of each deck and each note, improved in
 place. Marco studies from these and imports the decks into NeuroCards.
 
+NeuroCards' Discover page does not read this repository. Its decks were copied to
+`../neurocards-catalog` on 15 October 2026, which is now the published copy. A deck fixed
+here reaches Discover only if the same fix is made there.
+
 ## Before changing a deck or a note
 
 Read [skills/improve-materials/SKILL.md](skills/improve-materials/SKILL.md) and follow

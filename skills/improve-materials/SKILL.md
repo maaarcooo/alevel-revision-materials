@@ -121,6 +121,8 @@ sources/<subject>/notes/<provider>/          # PMT, SME and Cognito note sets
 sources/physics/papers/as/combined/          # AQA AS papers 2016 to 2025, question and mark scheme together
 sources/physics/papers/as/cleaned/           # the examiner report for each paper
 sources/physics/papers/as/raw/               # the separate papers the two folders above were built from
+sources/physics/papers/alevel/combined/      # AQA A-level papers 2017 to 2025 (Papers 1, 2, 3A and 3BD), question and mark scheme together
+sources/physics/papers/alevel/clean/         # the examiner report for each A-level paper, one section per question
 sources/physics/papers/topic-questions/      # topic-sorted questions and mark schemes
 sources/computer-science/papers/alevel/combined/   # OCR H446 papers 2021 to 2025, question and mark scheme together
 sources/computer-science/papers/as/combined/       # OCR H046 papers 2022 to 2025
@@ -149,14 +151,17 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 |---|---|---|---|
 | Computer Science 1 to 8 | 8 October 2026 | 5 October 2026 | Yes |
 | Physics 1 to 5 | 8 October 2026 | 5 October 2026, against AS papers | Yes |
-| Physics 6.1 to 6.3 | Written to them on 10 October 2026 | Not done | None |
-| Physics 6.4 to 6.6 | 8 October 2026 | Not done | None |
-| Physics 7.1 to 7.10 | 10 October 2026 | Not done | None |
+| Physics 6.1 to 6.3 | Written to them on 10 October 2026 | 16 October 2026, against A-level papers | None |
+| Physics 6.4 to 6.6 | 8 October 2026 | 16 October 2026, against A-level papers | None |
+| Physics 7.1 to 7.10 | 10 October 2026 | 16 October 2026, against A-level papers | None |
 
 Still to do:
 
-- **Physics topics 6 and 7** have had no mark-scheme pass. `sources/physics/papers/` holds AS papers (7407) and topic questions for topics 2 and 3, none of which examine them. The pass needs A-level papers (AQA 7408 Papers 1 and 2) or topic 6 and 7 question sets added to `sources/` first. `sources/physics/spec/` has the specification, but its data booklets are the AS ones, without the topic 6 and 7 equations.
+- **Physics topics 1 to 5** were checked against the AS papers only. The A-level papers
+  examine them too (Paper 1 and Paper 3A), so they need the pass again.
 - **Physics topics 6 and 7** have no revision notes.
+- **Physics topic 8 (Nuclear physics) and the Turning Points in Physics option** have no
+  decks yet. Marco takes the Turning Points option, which Paper 3BD examines.
 
 ## Note rules
 

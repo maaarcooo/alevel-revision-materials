@@ -3,6 +3,66 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-16: Physics topics 6 and 7 checked against A-level papers
+
+AQA 7408 A-level papers from 2017 to 2025 (Papers 1, 2 and 3A, with mark schemes and
+examiner reports) are now in `sources/physics/papers/alevel/`, so topics 6 and 7 had
+their mark-scheme pass. Most cards already said what the mark schemes credit. Physics
+now has 2193 cards, 8 more than before.
+
+**Facts corrected**, each backed by a mark scheme or examiner report
+
+- 6.4: the word a definition of internal energy must include is "sum" or "total", not
+  "random". 2019 Paper 2 Q02.1 credits the sum of the particles' energies, puts the
+  random motion in brackets as optional, and rejects an average.
+- 6.5: at absolute zero the particles have zero kinetic energy, not minimum kinetic
+  energy. 2019 Paper 2 Q02.2 requires the zero to be explicit, and the report did not
+  credit "the lowest possible temperature" on its own.
+- 6.5: molar mass is given in $\text{kg mol}^{-1}$ in physics questions, not
+  $\text{g mol}^{-1}$ (2019 Paper 2 Q02.3, 2023 Paper 2 Q02.1).
+
+**Reworded to the wording that earns the mark**
+
+- 6.1: the card on why the centripetal force and acceleration share a direction became
+  an explanation, using Newton's laws, of why a resultant force acts. 2022 Paper 1 Q05.4
+  needs the change of direction, not only a change of velocity.
+- 6.3: resonance is the amplitude reaching its maximum, not a large increase in it.
+  The 2023 Paper 1 report limited answers without "maximum" to one mark. The reverse
+  card changed with it.
+- 6.3: more damping lowers the amplitude at every driving frequency, because more energy
+  is lost (2017 Paper 1 Q07.3).
+- 6.5: why a gas expands when heated at constant pressure, in terms of mean speed,
+  collision rate, change of momentum and wall area (2025 Paper 2 Q02.3).
+- 6.6: how molecules exert a pressure now names force as the rate of change of momentum
+  and pressure as force over area (2019 Paper 2 Q02.5 and its report).
+- 7.1: a radial field's strength varies with the inverse square of distance, not only
+  "decreases" (2023 Paper 2 Q03.1 and its report).
+- 7.8: a charge in a magnetic field keeps its speed because the force is perpendicular
+  to its velocity and does no work (2017 Paper 2 Q03.1).
+
+**Added**
+
+- 6.1: why a car can take a bend faster on a sloped track (2025 Paper 1 Q07.5).
+- 6.2: how to show that an oscillator moves with simple harmonic motion (2023 Paper 1
+  Q06.1).
+- 6.5: absolute zero interpreted through the gas laws (2019 Paper 2 Q02.2), and the mass
+  of one molecule from the molar mass, with a worked card (2019 Paper 2 Q02.3).
+- 6.6: molecules of two gases at the same temperature have the same mean kinetic energy
+  (2019 Paper 2 report).
+- 7.1: the spacing of gravitational field lines shows the field strength (2017 Paper 2
+  Q06.2).
+- 7.10: why the transmission voltage is not made higher still (2022 Paper 2 Q05.3).
+
+**Left as they were**
+
+- 7.4 to 7.7 needed no change: their definitions and explanations match the mark
+  schemes.
+- 6.3 keeps its cards on the phase of a driven oscillator. The specification does not
+  name it and the 2023 mark scheme ignores phase, but the cards are correct.
+
+`scripts/paper_digest.py` now finds the examiner comment for one part in the A-level
+reports, which group their comments by whole question.
+
 ## 2026-10-10: Physics 6.1 to 6.3 added
 
 Three new decks complete topic 6: 6.1 Circular Motion (40 cards), 6.2 Simple Harmonic

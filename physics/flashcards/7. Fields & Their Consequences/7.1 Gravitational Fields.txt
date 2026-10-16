@@ -5,6 +5,7 @@ What property must a particle have to experience a force in a gravitational fiel
 Which type of force field acts on a charged particle whether it is stationary or moving? | Electric field
 What must a charged particle be doing to experience a force in a magnetic field? | Moving across the field lines
 What does the direction of a field line show? | The direction of the force on a body placed at that point in the field
+What does the spacing of gravitational field lines show? | The field strength: closer lines mean a stronger field
 What is a gravitational field? | A region of space where a mass experiences a force due to the gravitational attraction of another mass
 What is the weight of an object? | The gravitational force acting on it
 What kind of force does gravity exert between any two masses? | An attractive force, always
@@ -21,7 +22,7 @@ How does $g$ differ from $G$? | $g$ is gravitational field strength, which varie
 What is the pattern of gravitational field lines around a point mass? | Radial lines pointing inwards towards the mass
 How are the field lines of a uniform gravitational field drawn? | Parallel, equally spaced lines
 Where is Earth's gravitational field approximately uniform? | Near its surface
-How does $g$ vary in a uniform field compared with a radial field? | Uniform: $g$ is the same at every point. Radial: $g$ decreases with distance from the centre
+How does $g$ vary in a uniform field compared with a radial field? | Uniform: $g$ is the same at every point. Radial: $g$ decreases with the inverse square of the distance from the centre
 When can a uniform sphere be treated as a point mass at its centre? | For any point outside the sphere
 What is a uniform sphere? | A sphere whose mass is distributed evenly
 Why can stars and planets be treated as point masses when applying Newton's law of gravitation? | They are approximately uniform spheres and their separation is much larger than their radii

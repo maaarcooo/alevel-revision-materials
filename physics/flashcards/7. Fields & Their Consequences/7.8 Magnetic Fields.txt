@@ -38,7 +38,7 @@ How does the magnetic force on a negative particle compare with that on a positi
 A positive charge moves from left to right through a magnetic field directed into the page. In which direction is the force on it? | Upwards
 What path does a charged particle follow when moving perpendicular to a uniform magnetic field? | A circle
 Why does a charged particle moving perpendicular to a uniform magnetic field follow a circular path? | The magnetic force is always perpendicular to its velocity, so it acts as a centripetal force towards a fixed centre
-What happens to the speed of a charged particle moving in a circle in a uniform magnetic field? | It stays constant
+What happens to the speed of a charged particle moving in a circle in a uniform magnetic field? | It stays constant. The force is always perpendicular to the velocity, so it does no work and only changes the direction
 Which two forces are equated to derive the radius of a charged particle's circular path in a magnetic field? | Centripetal force and magnetic force: $\frac{mv^2}{r} = BQv$
 What is the equation for the radius of a charged particle's path perpendicular to a uniform magnetic field? | $r = \frac{mv}{BQ}$
 What is the radius of the path of a particle of mass $2.0 \times 10^{-26}$ kg and charge $1.6 \times 10^{-19}$ C moving at $4.0 \times 10^5$ m s$^{-1}$ perpendicular to a 0.50 T field? | $r = \frac{mv}{BQ} = \frac{2.0 \times 10^{-26} \times 4.0 \times 10^5}{0.50 \times 1.6 \times 10^{-19}} = 0.10\;\text{m}$

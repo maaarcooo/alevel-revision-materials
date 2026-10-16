@@ -35,8 +35,25 @@ def examiner_comments(combined):
     comments = {}
     for section in re.split(r"\n(?=## Q)", report.read_text())[1:]:
         heading, _, body = section.partition("\n")
-        comments[heading[3:].strip()] = squash(body)
+        comments[heading[3:].strip()] = body
     return comments
+
+
+def comment_for(number, comments):
+    """The report's comment on one part. The AS reports have a section per part. The
+    A-level reports have one per question: take the part's own **Qnn.n** block, else
+    the paragraphs that name the part, else the whole section."""
+    if number in comments:
+        return squash(comments[number])
+    whole = comments.get(number.split(".")[0])
+    if whole is None:
+        return None
+    part = number[1:]
+    labelled = re.split(r"\*\*Q(\d+\.\d+)\*\*", whole)
+    if part in labelled[1::2]:
+        return squash(labelled[labelled.index(part) + 1])
+    named = [p for p in re.split(r"\n\s*\n", whole) if part in p]
+    return squash("\n".join(named or [whole]))
 
 
 def main():
@@ -69,8 +86,9 @@ def main():
             print(f"\n##### {level} {paper.stem} {heading}")
             print("Q:", squash(re.sub(r"!\[[^\]]*\]\([^)]*\)", "", question)))
             print("MS:", "\n".join(squash(l) for l in scheme.split("\n") if l.strip()))
-            if number in comments:
-                print("ER:", comments[number])
+            comment = comment_for(number, comments)
+            if comment:
+                print("ER:", comment)
             shown += 1
     print(f"\n{shown} questions matched", file=sys.stderr)
 

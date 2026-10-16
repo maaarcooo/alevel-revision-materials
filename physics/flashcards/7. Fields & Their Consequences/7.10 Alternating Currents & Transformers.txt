@@ -62,4 +62,5 @@ What is the equation for the power lost as heat in a transmission cable? | $P = 
 What is the power lost in a cable of resistance 5.0 Ω carrying a current of 100 A? | $P = I^2 R = 100^2 \times 5.0 = 5.0 \times 10^4\;\text{W}$
 By what factor does the power lost in a transmission cable change if the current doubles? | It increases by a factor of 4
 Why is electrical power transmitted at high voltage? | For the same power, a higher voltage means a lower current, which reduces $I^2 R$ heating losses in the cables
+Why is the transmission voltage not made as high as possible? | Very high voltages need much better insulation, taller pylons and more expensive equipment
 Why is the voltage stepped down before electricity reaches homes? | To reduce it to the voltage used in homes (230 V)

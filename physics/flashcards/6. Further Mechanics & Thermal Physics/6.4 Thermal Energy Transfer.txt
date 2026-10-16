@@ -3,7 +3,7 @@ The sum of the randomly distributed kinetic and potential energies of the partic
 What are the symbol and unit of internal energy? | $U$, measured in joules (J)
 What property of molecules gives them kinetic energy? | Their speed
 What gives molecules their potential energy? | The intermolecular forces between them, which vary with particle separation
-What word must a definition of internal energy include to avoid losing a mark? | "Random" (random motion of the particles or random distribution of the energies)
+What word must a definition of internal energy include to avoid losing a mark? | "Sum" or "total": it is the total of the particles' kinetic and potential energies, never an average
 Why does an ideal gas have no potential energy? | There are no intermolecular forces between its particles
 How does raising the temperature of a substance affect its internal energy? | Internal energy increases as the particles' kinetic energy increases
 For the same substance, which phase has the highest internal energy? | Gas (solid has the lowest)

@@ -8,6 +8,7 @@ What is the equilibrium position of an oscillator? | The position at which the r
 What is the amplitude of an oscillation? | The maximum displacement from the equilibrium position
 What is the restoring force on an oscillator? | The resultant force that acts on it towards the equilibrium position
 How does the restoring force on an object in SHM depend on its displacement? | It is directly proportional to the displacement, in the opposite direction
+How do you show that an oscillator moves with simple harmonic motion? | Equate its resultant force to $ma$ and show that $a$ is proportional to the displacement, since everything else is constant, with a minus sign because it acts towards the equilibrium position
 How does the period of an object in SHM depend on its amplitude? | It does not. The period is the same for any amplitude
 Explain why a person bouncing on a trampoline is not in simple harmonic motion | While they are in the air the only force on them is their weight, which is constant and so not proportional to displacement
 What does a graph of acceleration against displacement look like for SHM? | A straight line through the origin with a negative gradient

@@ -1,5 +1,6 @@
-What is absolute zero? | The lowest possible temperature, at which molecules have minimum kinetic energy
-The lowest possible temperature, at which molecules have minimum kinetic energy - what term is this? | Absolute zero
+What is absolute zero? | The temperature at which the particles of a substance have zero kinetic energy
+The temperature at which the particles of a substance have zero kinetic energy - what term is this? | Absolute zero
+How is absolute zero interpreted using the gas laws? | The temperature at which the volume or pressure of a gas extrapolates to zero
 What is absolute zero in kelvin and in degrees Celsius? | $0\ \text{K}$ and $-273.15\ ^\circ\text{C}$
 How much more energy can be removed from a system at 0 K? | None
 What is the equation to convert a Celsius temperature $\theta$ to a kelvin temperature $T$? | $T/\text{K} = \theta/^\circ\text{C} + 273.15$
@@ -25,7 +26,7 @@ What single relation combines the three gas laws for a fixed mass of ideal gas? 
 What molecular property is the temperature of a gas related to? | The average kinetic energy of its molecules
 Explain why the pressure of a gas rises when it is heated at constant volume | Molecules move faster, so they hit the walls more frequently and with a greater change in momentum, increasing the force per unit area
 Explain why the pressure of a gas rises when its volume is reduced at constant temperature | Molecules collide with each unit area of wall more frequently, increasing the force per unit area
-Explain why a gas expands when heated at constant pressure | Molecules move faster and collide harder and more often with the walls. The gas must expand so the force per unit area stays the same
+Explain why a gas expands when heated at constant pressure | The molecules' mean speed rises, so they hit the walls more often and with a greater change of momentum. The gas must expand so collisions are less frequent over a larger wall area, keeping the pressure the same
 In an ideal gas, what is the volume of the molecules? | Negligible
 What type of collisions occur between ideal gas molecules? | Elastic collisions
 What forces act between the molecules of an ideal gas? | None, except during collisions
@@ -47,10 +48,12 @@ The number of atoms in 12 g of carbon-12 - what constant is this? | The Avogadro
 What is the equation for the number of particles $N$ in $n$ moles? | $N = nN_A$
 Find the number of atoms in 0.25 mol of magnesium | $N = 0.25 \times 6.02 \times 10^{23} = 1.51 \times 10^{23}$
 What is the mass of one mole of an element? | Its relative atomic mass in grams
-What is molar mass? | The mass in grams of one mole of a substance, unit $\text{g mol}^{-1}$
+What is molar mass? | The mass of one mole of a substance. Physics questions give it in $\text{kg mol}^{-1}$
 How is the molar mass of a compound found? | Add the relative atomic masses of its atoms (e.g. $\text{H}_2\text{O}$: $2 \times 1 + 16 = 18\ \text{g mol}^{-1}$)
 What is the equation for number of moles from mass? | $n = \frac{\text{mass}}{\text{molar mass}}$
 Find the number of moles in 6 g of magnesium-24 | $n = \frac{6}{24} = 0.25\ \text{mol}$
+How is the mass of one molecule found from the molar mass? | $m = \frac{\text{molar mass}}{N_A}$, with the molar mass in $\text{kg mol}^{-1}$
+What is the mass of one argon atom, molar mass $4.0 \times 10^{-2}\ \text{kg mol}^{-1}$? | $m = \frac{4.0 \times 10^{-2}}{6.02 \times 10^{23}} = 6.6 \times 10^{-26}\ \text{kg}$
 What is the equation linking $k$, $R$ and $N_A$? | $k = \frac{R}{N_A}$
 What does the Boltzmann constant relate? | Microscopic properties of particles (e.g. molecular kinetic energy) to macroscopic properties (e.g. temperature)
 What is the aim of the Boyle's law required practical? | To investigate how the pressure of a fixed mass of air varies with its volume at constant temperature

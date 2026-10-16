@@ -22,7 +22,7 @@ Kinetic theory assumption: what kind of motion do the molecules have? | Continuo
 Kinetic theory assumption: which laws govern the motion of the molecules? | Newton's laws of motion
 Kinetic theory assumption: how many molecules are there? | A very large number
 Why does kinetic theory use the average behaviour of molecules rather than individual molecules? | The number of molecules is very large
-How do gas molecules exert a pressure on the walls of their container? | Each molecule's change in momentum when it rebounds from a wall exerts a force, and many collisions give an average force per unit area
+How do gas molecules exert a pressure on the walls of their container? | Molecules collide with the walls and change momentum. The force on a wall is the rate of change of momentum, and the pressure is that force divided by the wall's area
 What is the change in momentum of a molecule of mass $m$ and speed $c_1$ that hits a wall perpendicularly and rebounds elastically? | $\Delta p = -2mc_1$ (magnitude $2mc_1$)
 What is the time between successive collisions of a molecule of speed $c_1$ with the same wall of a cube of side $L$? | $\Delta t = \frac{2L}{c_1}$
 What is the average force exerted on a wall by one molecule of mass $m$ and speed $c_1$ in a cube of side $L$? | $F = \frac{mc_1^2}{L}$
@@ -44,6 +44,7 @@ What is the mean kinetic energy of one ideal gas molecule in terms of temperatur
 What is the mean kinetic energy of an ideal gas molecule at 300 K? | $\bar{E}_k = \frac{3}{2}kT = \frac{3}{2} \times 1.38 \times 10^{-23} \times 300 = 6.21 \times 10^{-21}\;\text{J}$
 What is the mean kinetic energy of an ideal gas molecule in terms of $R$, $T$ and $N_A$? | $\frac{3RT}{2N_A}$
 How does the mean kinetic energy of an ideal gas molecule depend on temperature? | Directly proportional to the thermodynamic (absolute) temperature, $\bar{E}_k \propto T$
+How do the mean kinetic energies of the molecules of two different gases at the same temperature compare? | They are equal. The mean kinetic energy $\frac{3}{2}kT$ depends only on temperature, not on the mass of the molecules
 In what unit must temperature be expressed in $\frac{1}{2}m(c_{\text{rms}})^2 = \frac{3}{2}kT$? | Kelvin (K)
 How does $c_{\text{rms}}$ of a given gas depend on its absolute temperature? | $c_{\text{rms}} \propto \sqrt{T}$
 Helium has $c_{\text{rms}} = 720$ m s$^{-1}$ at 318 K. Find $c_{\text{rms}}$ at 353 K | $c_{\text{rms}} = 720 \times \sqrt{\frac{353}{318}} = 760\;\text{m s}^{-1}$

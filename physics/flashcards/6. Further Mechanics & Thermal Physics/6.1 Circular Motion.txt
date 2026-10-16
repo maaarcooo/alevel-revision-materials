@@ -5,9 +5,10 @@ The acceleration of an object moving in a circle, directed towards the centre of
 What is centripetal force? | The resultant force towards the centre of the circle that keeps an object moving in a circular path
 The resultant force towards the centre of the circle that keeps an object moving in a circular path - what term is this? | Centripetal force
 In what direction does the centripetal force act relative to an object's velocity? | Perpendicular to it
-Why are the centripetal force and the centripetal acceleration in the same direction? | By Newton's second law, an object accelerates in the direction of the resultant force on it
+Explain, using Newton's laws, why a resultant force must act on an object moving in a circle at constant speed | Its direction of motion keeps changing, so it is accelerating. By Newton's second law an acceleration needs a resultant force, acting in the same direction, towards the centre
 What kind of force is a centripetal force? | Not a separate force. It is the resultant of the real forces acting, such as tension, friction or gravity
 What provides the centripetal force on a car turning on a level road? | Friction between the tyres and the road
+Why can a car take a bend of the same radius faster on a track sloped towards the centre than on a level track? | The normal reaction force has a horizontal component towards the centre, which adds to the centripetal force. A greater centripetal force allows a greater speed at the same radius
 What path does an object in circular motion follow if the centripetal force is suddenly removed? | A straight line along the tangent to the circle
 Explain why a centripetal force does no work on an object in uniform circular motion | The force is always perpendicular to the direction of motion, so the object never moves in the direction of the force
 What happens to the speed of an object acted on only by a centripetal force? | It stays constant. Only the direction of motion changes

@@ -3,6 +3,39 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-16: Revision notes for Physics topics 6 and 7
+
+Every Physics subtopic now has a note: 16 new notes for 6.1 to 6.6 and 7.1 to 7.10,
+written from the Save My Exams and PMT source notes with the `revision-notes-generator`
+skill. Each follows the AQA 7408 specification section named on its first line, matches
+the facts in its deck, and carries the wording the A-level mark schemes credit (internal
+energy as a sum, absolute zero as zero kinetic energy, resonance as maximum amplitude).
+The comparison of gravitational and electric fields (specification 3.7.1) is in 7.4.
+No deck changed. Physics now has 40 notes.
+
+**Where the notes differ from the source notes**
+
+- 6.2: the period of liquid in a U-tube is $2\pi\sqrt{\frac{L}{2g}}$ for a column of
+  total length $L$. The source used $2\pi\sqrt{\frac{l}{g}}$ with $l$ the column length.
+- 6.4: the internal energy of a system rises by heating it or doing work on it. One
+  source listed "increase the temperature" as a separate way, which is a result, not a
+  cause. The source claim that metals conduct heat well because of a low specific heat
+  capacity was left out.
+- 6.4: a definition of internal energy needs "sum" or "total", as the 2019 mark scheme
+  shows. One source said the word "random" was the one that earns the mark.
+- 6.5: pressure is force per unit area, from the rate of change of momentum of the
+  molecules. One source defined it as the frequency of collisions per unit area.
+- 6.5: at absolute zero the volume or pressure of a gas extrapolates to zero. One source
+  said they are zero. Molar mass is given in $\text{kg mol}^{-1}$, not grams.
+- 6.3: the source definition of forced vibrations said the amplitude is large at low
+  driving frequencies. It was left out, since the amplitude is greatest near the natural
+  frequency.
+- 7.7: the time for a capacitor to discharge does not depend on the initial current. One
+  source said a larger initial current makes it take longer. The source also listed the
+  current as a control variable in required practical 9, which it cannot be.
+- 7.9: a magnet falling through a coil is slowed by magnetic forces from the induced
+  current. One source called them electrostatic.
+
 ## 2026-10-16: Physics topics 6 and 7 checked against A-level papers
 
 AQA 7408 A-level papers from 2017 to 2025 (Papers 1, 2 and 3A, with mark schemes and

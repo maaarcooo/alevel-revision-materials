@@ -151,15 +151,14 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 |---|---|---|---|
 | Computer Science 1 to 8 | 8 October 2026 | 5 October 2026 | Yes |
 | Physics 1 to 5 | 8 October 2026 | 5 October 2026, against AS papers | Yes |
-| Physics 6.1 to 6.3 | Written to them on 10 October 2026 | 16 October 2026, against A-level papers | None |
-| Physics 6.4 to 6.6 | 8 October 2026 | 16 October 2026, against A-level papers | None |
-| Physics 7.1 to 7.10 | 10 October 2026 | 16 October 2026, against A-level papers | None |
+| Physics 6.1 to 6.3 | Written to them on 10 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
+| Physics 6.4 to 6.6 | 8 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
+| Physics 7.1 to 7.10 | 10 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
 
 Still to do:
 
 - **Physics topics 1 to 5** were checked against the AS papers only. The A-level papers
   examine them too (Paper 1 and Paper 3A), so they need the pass again.
-- **Physics topics 6 and 7** have no revision notes.
 - **Physics topic 8 (Nuclear physics) and the Turning Points in Physics option** have no
   decks yet. Marco takes the Turning Points option, which Paper 3BD examines.
 

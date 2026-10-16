@@ -8,20 +8,19 @@ no version numbers in file or folder names. The history is in git, and
 [CHANGELOG.md](CHANGELOG.md) records what changed and where the content came from.
 
 All content is AI-generated and checked against the exam board specifications. Computer
-Science topics 1 to 8 and Physics topics 1 to 5 have also been compared with past-paper
-mark schemes and examiner reports (AQA AS papers for Physics, OCR AS and A-Level papers
-for Computer Science). Physics topics 6 and 7 have not. Always verify anything important
-against the official specification.
+Science topics 1 to 8 and Physics topics 1 to 7 have also been compared with past-paper
+mark schemes and examiner reports (OCR AS and A-Level papers for Computer Science, AQA
+A-level papers for Physics topics 6 and 7, and AQA AS papers for Physics topics 1 to 5).
+Always verify anything important against the official specification.
 
 ## What is here
 
 | Subject | Decks | Cards | Notes |
 |---------|------:|------:|------:|
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
-| Physics (AQA 7408, topics 1 to 7) | 40 | 2193 | 24 |
+| Physics (AQA 7408, topics 1 to 7) | 40 | 2193 | 40 |
 
-Each subtopic has one flashcard deck and one note with the same name. The topic 6 and
-topic 7 decks have no notes yet.
+Each subtopic has one flashcard deck and one note with the same name.
 
 ## Layout
 

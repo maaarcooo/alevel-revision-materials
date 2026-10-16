@@ -38,6 +38,7 @@ How do you convert joules to kilowatt-hours? | Divide by $3.6 \times 10^{6}$
 What is an order of magnitude? | The power of ten nearest to a quantity
 The power of ten nearest to a quantity - what is this called? | Order of magnitude
 What is the order of magnitude of $6 \times 10^{8}$? | $10^{9}$ (the coefficient rounds up because $6 \geq 5$)
+How is an order of magnitude given as a final answer? | As the power of ten alone, e.g. $10^{8}$, not as $1 \times 10^{8}$
 By what factor is a quantity larger when it is one order of magnitude greater? | About 10 times
 How many orders of magnitude larger is a galaxy ($\sim 10^{21}$ m wide) than an atom ($\sim 10^{-10}$ m)? | 31, so the galaxy is about $10^{31}$ times wider
 Why do physicists estimate quantities? | To make comparisons and to check whether a calculated value is reasonable

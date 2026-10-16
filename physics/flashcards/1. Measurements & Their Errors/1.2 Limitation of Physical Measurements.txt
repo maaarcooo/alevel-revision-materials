@@ -11,6 +11,8 @@ Which property of measurements do systematic errors affect? | Accuracy: all read
 How can systematic errors be reduced? | Calibrate the instrument against a known value, or use a different instrument or technique
 Why does repeating readings not reduce a systematic error? | Every reading is shifted by the same amount, so the mean is shifted by that amount too
 What is parallax error? | An error caused by reading a scale at an angle instead of at right angles to it
+How is the volume of a liquid in a measuring cylinder read without parallax error? | With the eye level with the bottom of the meniscus
+How does a mirror behind a pointer help avoid parallax error? | Move your head until the pointer hides its own reflection. The scale is then read at right angles to it
 How can calibration reveal a systematic error? | Measure a known value, such as a 1 kg standard mass. A reading that differs from it shows the instrument has a systematic error
 What systematic correction is needed in radioactivity experiments? | The background count, measured beforehand, is subtracted from every reading
 What is a zero error? | A type of systematic error where an instrument gives a non-zero reading when the true value is zero
@@ -58,3 +60,12 @@ What is the worst acceptable line on a graph with error bars? | The steepest or 
 What is the equation for the percentage uncertainty in a gradient from a graph? | $\frac{\lvert\text{best gradient} - \text{worst gradient}\rvert}{\text{best gradient}} \times 100\%$
 What is the equation for the percentage uncertainty in a y-intercept from a graph? | $\frac{\lvert\text{best y-intercept} - \text{worst y-intercept}\rvert}{\text{best y-intercept}} \times 100\%$
 What are anomalies in experimental data, and how are they handled? | Readings that do not fit the expected pattern, identified through repeated measurements and omitted from the final results
+How should a graph axis be labelled? | With the quantity and its unit separated by a solidus, e.g. $t$ / s
+How is the y-intercept found when the x-axis of a graph does not start at zero? | Read a point on the line and use $y = mx + c$ with the gradient to calculate $c$
+How can data in a table be tested for direct proportion, $y \propto x$? | Calculate $\frac{y}{x}$ for at least three pairs of values and check whether the results agree
+How can data in a table be tested for inverse proportion, $y \propto \frac{1}{x}$? | Calculate $xy$ for at least three pairs of values and check whether the results agree
+Why is "the values are different" not enough to reject a proportional relationship? | Real data always scatter, so the size of the difference must be judged, for example as a percentage difference between the values
+What graph confirms that $y$ decreases exponentially with $x$, as in $y = y_0 e^{-kx}$? | A graph of $\ln y$ against $x$ that is a straight line with a negative gradient. The gradient is $-k$
+What graph confirms a power law, $y = Ax^n$? | A graph of $\log y$ against $\log x$ that is a straight line. The gradient is $n$
+How is $A$ found from a graph of $\log y$ against $\log x$ for $y = Ax^n$? | The intercept where $\log x = 0$ is $\log A$, so $A = 10^{\text{intercept}}$
+How is the axis of a logarithmic graph labelled? | As the log of the quantity divided by its unit, e.g. $\ln(V / \text{V})$, because a logarithm has no unit

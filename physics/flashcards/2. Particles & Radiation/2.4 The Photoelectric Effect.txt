@@ -24,6 +24,7 @@ What equation relates the maximum kinetic energy of photoelectrons to the stoppi
 The stopping potential for a metal surface is 1.5 V. What is the maximum kinetic energy of the photoelectrons, in joules? | $E_{k\,\text{max}} = eV_s = 1.60 \times 10^{-19} \times 1.5 = 2.4 \times 10^{-19}$ J
 What happens to the stopping potential when the intensity of the radiation is increased? | It stays the same, because the maximum kinetic energy depends only on the frequency and the work function
 What happens to the stopping potential when the frequency of the radiation is increased? | It increases, because each photon has more energy, so the maximum kinetic energy of the photoelectrons is greater
+The same radiation falls on a metal with a smaller work function. What happens to the stopping potential? | It increases, because $eV_s = hf - \Phi$, so the photoelectrons have a greater maximum kinetic energy
 Why does the photoelectric current fall as the opposing potential difference is increased towards the stopping potential? | Photoelectrons are emitted with a range of kinetic energies, so fewer of them have enough kinetic energy to cross the gap
 Why does the photoelectric current reach a constant value when the collector is made positive? | All the photoelectrons emitted each second already reach the collector, and their number depends on the intensity, not on the potential difference
 What is the photoelectric equation? | $hf = \Phi + E_{k\,\text{max}}$

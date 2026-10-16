@@ -33,6 +33,7 @@ What is electron capture? | A process where an atomic electron is absorbed by a 
 A process where an atomic electron is absorbed by a proton in the nucleus, producing a neutron and an electron neutrino - what term is this? | Electron capture
 Write the equation for electron capture | $p + e^- \rightarrow n + \nu_e$
 What is the exchange particle in electron capture? | $W^+$ boson (the proton acts on the electron)
+What quark change occurs in electron capture? | An up quark changes to a down quark, and the electron becomes an electron neutrino
 What is the exchange particle in an electron-proton collision? | $W^-$ boson (the electron acts on the proton)
 How does electron capture differ from an electron-proton collision? | Same equation ($p + e^- \rightarrow n + \nu_e$), but in electron capture the proton acts on the electron (mediated by $W^+$), while in a collision the electron acts on the proton (mediated by $W^-$)
 Which fundamental interaction facilitates the collision in electron-proton interactions? | The weak interaction (although the particles are attracted via the electromagnetic interaction)

@@ -50,7 +50,7 @@ In beta-plus decay, how do the proton number and nucleon number change? | Proton
 Write the general equation for beta-plus decay | $^A_Z X \rightarrow \;^A_{Z-1} Y + \;^0_{+1} \beta + \;^0_0 \nu_e$
 Which type of neutrino is produced in beta-minus decay? | An electron antineutrino ($\bar{\nu}_e$)
 Which type of neutrino is produced in beta-plus decay? | An electron neutrino ($\nu_e$)
-Why was the neutrino hypothesised to exist? | To account for the conservation of energy in beta decay, since beta particles were observed with a continuous range of energies rather than a single fixed value
+Why was the neutrino hypothesised to exist? | Beta particles have a continuous range of kinetic energies, but each decay releases a fixed amount of energy. Another particle must carry away the missing energy
 What type of energy spectrum do alpha particles have? | Discrete energies (specific fixed values, shown as spikes on a number-versus-energy graph)
 Why do beta particles have a continuous range of energies? | The energy released in beta decay is shared between the beta particle and the neutrino (or antineutrino), in varying proportions
 What is an antiparticle? | The antimatter counterpart of a particle, with the same mass and rest mass-energy but opposite charge

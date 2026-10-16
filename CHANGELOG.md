@@ -3,6 +3,93 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-16: Physics topics 1 to 5 checked against A-level papers
+
+Topics 1 to 5 had their mark-scheme pass against the AS papers on 5 October. The A-level
+Papers 1 and 3A from 2017 to 2025 examine them too, so they had the pass again. Most
+cards already said what the mark schemes credit. Physics now has 2222 cards, 29 more,
+most of them on the practical and graph skills that Paper 3A tests every year.
+
+**Facts corrected**
+
+- 4.6: $P = Fv$ is not limited to constant velocity. It gives the power at the instant
+  the speed is $v$, including while an object accelerates, as 2023 Paper 1 Q02.3 uses
+  it. The card and note had limited it to constant velocity.
+- 4.3: in the two light gate method for $g$, residual magnetism in the electromagnet does
+  not lengthen the timed fall, because the timer starts at the first gate. The card and
+  note gave it as the systematic error. Air resistance replaced it, and a new card
+  explains why the release delay is not timed. Standard physics, not from a mark scheme.
+- 4.8: a vernier scale reduces the uncertainty in each extension reading through its
+  finer resolution. The card and note said it reduces systematic error. Standard physics.
+- 2.1: the neutrino was proposed because beta particles have a range of kinetic energies
+  while each decay releases a fixed amount of energy. The card gave only the range and
+  conservation of energy, which 2022 Paper 1 Q02.2 says is not enough.
+- 5.4 note: an example called 0.7 A two significant figures and rounded the lost volts
+  to 0.2 V. It now gives 0.74 A and 0.22 V. Arithmetic.
+
+**Reworded to the wording that earns the mark**
+
+- 1.2 note: a measuring cylinder is read with the eye level with the bottom of the
+  meniscus. "At eye level" alone is not enough (2018 Paper 3A Q03.3).
+- 3.1: transverse and longitudinal waves are defined by the direction of energy
+  transfer. 2025 Paper 1 Q02.1 does not allow "direction of travel" or "vibrations", so
+  the definitions, their reverse cards and the demonstration cards changed.
+- 3.2: a stationary wave forms when a wave is reflected and the incident and reflected
+  waves, travelling in opposite directions, superpose. 2018 Paper 1 Q03.1 gives no credit
+  for "interferes with itself". The control variables in the stationary waves practical
+  are now both quantities, tension and mass per unit length (2025 Paper 3A Q01.1).
+- 4.3 and 4.6: energy dissipated by drag or friction heats something that must be named,
+  such as the air or the object. 2018 Paper 1 Q01.3 gave no credit for "heat and sound".
+- 5.1: each coulomb gains energy equal to the cell's EMF, not its "voltage" (2023 Paper 1
+  Q03.1).
+- 5.2: the dependent variable in the resistivity practical is the resistance, from the
+  voltmeter and ammeter readings, and the PD across the wire is no longer listed as a
+  control variable. Standard practice for required practical 5, which 2024 Paper 3A
+  Q01.6 analyses as resistance against length.
+- 5.3: cells in series give the sum of their EMFs, not of their PDs.
+- 5.4: the voltmeter in the EMF practical reads the terminal PD across the whole external
+  circuit (2020 Paper 3A Q03.1).
+
+**Added**
+
+- 1.1: an order of magnitude is given as the power of ten alone (2018 and 2020 Paper 3A).
+- 1.2: reading a meniscus and using a mirror to avoid parallax (2018, 2019, 2021 and 2022
+  Paper 3A), labelling axes with a solidus, finding an intercept when an axis has a false
+  origin, testing data for direct and inverse proportion and judging the difference
+  (2021 and 2022 Paper 3A), and log graphs for exponential and power laws with their axis
+  labels (2017, 2018 and 2025 Paper 3A). The 1.2 note has a new section on testing
+  relationships.
+- 2.3: the quark change in electron capture (2025 Paper 1 Q01.1).
+- 2.4: a smaller work function gives a larger stopping potential (2020 Paper 1 Q02.5).
+- 3.1: showing that microwaves are polarised by rotating the receiver (2021 Paper 1
+  Q02.1).
+- 3.4: the maxima for light with a range of wavelengths (2019 Paper 1 Q03.4), and a use
+  of a grating outside astronomy (2024 Paper 1 Q03.3).
+- 3.5: light escaping from a sharply bent optical fibre (2021 Paper 1 Q03.3).
+- 4.2: three forces in equilibrium act through one point (2017 Paper 1 Q05.2), and the
+  assumption that a ruler is uniform (2018 Paper 3A Q01.1).
+- 4.3: the acceleration at an instant from a tangent to a curved velocity-time graph
+  (2018 Paper 1 Q01.1).
+- 4.5: a longer stopping distance reduces the force, by work done (2019 Paper 1 Q05.5,
+  2024 Paper 1 Q05.3), and the lighter fragment of an explosion gains more kinetic energy
+  (2024 Paper 1 Q04.1).
+- 5.2: keeping superconducting cables below the critical temperature (2020 Paper 1
+  Q05.5).
+- 5.3: using meters to show conservation of charge and energy (2024 Paper 1 Q06.4).
+- 5.4: the EMF and internal resistance of cells in series and in parallel (2019 Paper 1
+  Q07.2), and why a lamp dims when another component is connected in parallel with it
+  (2022 Paper 1 Q04.5).
+
+Each change went into the matching note as well. The 5.3 and 5.4 notes now write EMF in
+capitals, not "e.m.f".
+
+**Left as they were**
+
+- 2.2, 2.5, 3.3, 4.1, 4.4 and 4.7 needed no change: their definitions and explanations
+  match the A-level mark schemes.
+- Paper 2 was not used, since it examines sections 6.2 to 8. Multiple-choice questions
+  were skipped because their mark schemes have no wording to compare.
+
 ## 2026-10-16: Revision notes for Physics topics 6 and 7
 
 Every Physics subtopic now has a note: 16 new notes for 6.1 to 6.6 and 7.1 to 7.10,

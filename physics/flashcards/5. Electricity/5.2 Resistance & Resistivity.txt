@@ -27,12 +27,13 @@ The temperature at which a material becomes superconducting - what term is this?
 On a resistivity-temperature graph, how does a superconductor differ from a normal metal? | A superconductor's resistivity drops sharply to zero at the critical temperature, while a normal metal's resistivity decreases gradually but never reaches zero
 Why can superconductors carry large currents without energy loss? | They have zero resistance, so no electrical energy is dissipated as heat
 What two properties of superconductors make them useful? | They can produce strong magnetic fields, and they eliminate energy loss in power transmission
+What is the main difficulty in using superconductors for long-distance power transmission? | The cables must be kept below the critical temperature along their whole length, which needs constant cooling
 Give three applications of superconductors | MRI scanners, maglev trains, particle accelerators
 How do maglev trains use superconductors? | Superconducting electromagnets produce strong magnetic fields that levitate the train above the track
 What is the aim of the required practical on resistivity? | To determine the resistivity of a constantan wire
 In the resistivity practical, what is the independent variable? | Length $L$ of the wire
-In the resistivity practical, what is the dependent variable? | The current through the wire, from which the resistance $R = \frac{V}{I}$ is calculated
-In the resistivity practical, name three control variables | The PD across the wire, the material and diameter of the wire, and its temperature
+In the resistivity practical, what is the dependent variable? | The resistance $R$ of the wire, calculated from the voltmeter and ammeter readings using $R = \frac{V}{I}$
+In the resistivity practical, name three control variables | The material of the wire, its diameter, and its temperature
 How is the diameter of the wire measured in the resistivity practical? | Using a micrometer screw gauge, taking 5–10 measurements at random positions along the wire and calculating the mean
 In the resistivity practical, how are the ammeter and voltmeter connected? | Ammeter in series with the wire, voltmeter in parallel across the wire
 In the resistivity practical, why must the current be switched off between readings? | To prevent the wire from heating up, which would change its resistivity and affect the results

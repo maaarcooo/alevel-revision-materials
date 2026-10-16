@@ -19,7 +19,7 @@ What is the SI unit of potential difference? | Volt (V)
 What is 1 volt equivalent to? | The transfer of 1 joule of electrical energy per coulomb of charge ($1\;\text{V} = 1\;\text{J C}^{-1}$)
 How much energy is transferred when 3.0 C of charge passes through a PD of 6.0 V? | $W = QV = 3.0 \times 6.0 = 18$ J
 How does a cell create a potential difference? | Through the separation of charge: one terminal has excess positive charge and the other has excess negative charge
-What happens to the energy of charge carriers as they pass through a cell? | They gain energy (each coulomb gains energy equal to the cell's voltage in joules)
+What happens to the energy of charge carriers as they pass through a cell? | They gain energy: each coulomb gains energy in joules equal to the cell's EMF in volts
 What happens to the energy of charge carriers as they flow through circuit components? | They lose energy, transferring it to the wires and components
 How is a voltmeter connected in a circuit? | In parallel with the component being measured
 What resistance is an ideal voltmeter assumed to have, and why? | Infinite, so that no current flows through it and the circuit is not changed

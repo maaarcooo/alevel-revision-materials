@@ -9,7 +9,7 @@ How is current distributed in a parallel circuit? | It splits across the branche
 What determines the amount of current in each branch of a parallel circuit? | The total resistance of the components in that branch
 How is the EMF of the supply shared in a series circuit? | It is divided among the components in different amounts, depending on their resistance
 What is the PD across each branch in a parallel circuit? | The same across every branch
-What is the total voltage of cells connected in series? | The sum of the potential differences across each cell
+What is the total voltage of cells connected in series? | The sum of their EMFs
 What is the total voltage of identical cells connected in parallel? | The same as the voltage of one cell
 What is gained by connecting identical cells in parallel? | The PD stays the same, but each cell supplies less current and more energy is stored in total, so the cells last longer
 What is conservation of charge in a circuit? | Charge is never used up or lost in a circuit
@@ -20,6 +20,7 @@ Which conservation law does Kirchhoff's First Law follow from? | Conservation of
 How does conservation of energy apply to a circuit? | The energy given to the charge by the source equals the energy the charge transfers to the components
 State Kirchhoff's Second Law | The total EMF in a closed circuit equals the sum of the potential differences across each component
 Which conservation law does Kirchhoff's Second Law follow from? | Conservation of energy
+How can ammeters and voltmeters show conservation of charge and energy in a series circuit? | Ammeters at different points read the same current, showing charge is conserved. The PDs across the components add up to the supply's terminal PD, showing energy is conserved
 How can each closed loop in a parallel circuit be analysed? | As its own independent series circuit. The sum of voltages in each loop equals the total EMF
 Give two reasons why parallel circuits are used in home wiring | All appliances receive the same voltage from a single supply, and if one component breaks current can still flow to the rest
 Define electrical power | The rate of energy transfer (work done per second) in an electrical component

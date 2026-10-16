@@ -24,5 +24,5 @@ In the Young Modulus experiment, how is the load calculated from the mass? | $F 
 How should the wire be checked for exceeding its elastic limit during the experiment? | Remove the load and check the wire returns to its original length before taking new readings
 What random error affects reading the marker on the ruler in the Young Modulus experiment? | Parallax error
 How can random errors in the extension measurements be reduced? | Repeat the experiment for all loads and find an average extension
-What improvement reduces systematic error when measuring extension in the Young Modulus experiment? | Use a vernier scale instead of a metre ruler for more precise extension readings
+How can the uncertainty in each extension reading be reduced in the Young Modulus experiment? | Use a vernier scale, which has a finer resolution than a metre ruler
 What safety precautions are taken in the Young Modulus experiment? | Wear safety goggles in case the wire snaps, and place a cushion below the mass hanger in case it falls

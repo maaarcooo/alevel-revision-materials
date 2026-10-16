@@ -28,6 +28,7 @@ What does the gradient of a velocity-time graph represent? | Acceleration
 What does the y-intercept of a velocity-time graph represent? | Initial velocity
 On a velocity-time graph, what does a straight line represent? | Uniform (constant) acceleration
 On a velocity-time graph, what does a curved line represent? | Non-uniform acceleration
+How is the acceleration at an instant found from a curved velocity-time graph? | Draw a tangent at that time and calculate its gradient
 On a velocity-time graph, what does a horizontal line represent? | Constant velocity (zero acceleration)
 What does the area under a velocity-time graph represent? | Displacement or distance travelled
 How does a velocity-time graph differ from a speed-time graph? | A velocity-time graph can show positive or negative values on the y-axis. A speed-time graph has only positive values
@@ -77,7 +78,7 @@ What are drag forces? | Forces that oppose the motion of an object moving throug
 In what direction do drag forces act? | In the opposite direction to the motion of the object
 How does drag force change with the speed of an object? | Drag force increases as the speed increases
 Besides speed, which properties of an object affect the drag on it? | Its shape and its cross-sectional area
-What energy conversions occur due to drag forces? | Kinetic energy is converted into heat and sound
+What energy transfers occur due to drag forces? | Kinetic energy of the object becomes kinetic energy of the fluid it pushes aside, and internal energy that heats the fluid and the object
 What is lift? | An upward force on an object moving through a fluid, acting perpendicular to the fluid flow
 Explain how lift is generated on an aeroplane wing | The wing pushes air downward as it moves. By Newton's third law, the air exerts an equal and opposite upward force (lift) on the wing
 Why do aeroplanes fly at high altitudes? | The air is less dense at higher altitudes, so there is less air resistance
@@ -102,7 +103,8 @@ What graph is plotted to determine $g$ from the free-fall experiment? | $\frac{2
 In the determination of $g$ graph, what does the gradient represent? | The acceleration due to gravity, $g$
 In the determination of $g$ graph, what does the y-intercept represent? | $2u$, where $u$ is the initial velocity of the ball-bearing
 Which SUVAT equation is rearranged for the determination of $g$ graph, and what form does it take? | $s = ut + \frac{1}{2}at^2$ rearranges to $\frac{2h}{t} = gt + 2u$, which has the form $y = mx + c$
-Name one systematic error in the determination of $g$ experiment | Residual magnetism after the electromagnet is switched off delays the ball's release, making the recorded time longer than it should be
+Name one systematic error in the determination of $g$ experiment | Air resistance on the ball, which makes the measured value of $g$ slightly too small
+Why does a delay in the ball's release, from residual magnetism, not affect the timing when two light gates are used? | The timer starts only when the ball passes the first light gate. A release delay matters only in versions where switching off the electromagnet starts the timer
 Name two random errors in the determination of $g$ experiment | Parallax error when reading height $h$ on the metre ruler, and the ball not falling accurately through the centre of each light gate
 How are random errors reduced in the determination of $g$ experiment? | Repeat the experiment at least 3-5 times for each value of $h$ and calculate an average time
 How is the uncertainty in $g$ determined from the graph? | The fractional uncertainty equals the difference between the gradients of the best fit and worst fit lines, divided by the gradient of the best fit line

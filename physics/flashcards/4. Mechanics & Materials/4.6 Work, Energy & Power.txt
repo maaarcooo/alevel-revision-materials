@@ -14,7 +14,7 @@ What is the equation relating power, work done, and time? | $P = \frac{\Delta W}
 A motor does 1500 J of work in 5.0 s. What is its power? | $P = \frac{\Delta W}{\Delta t} = \frac{1500}{5.0} = 300$ W
 What is the unit of power? | Watt (W)
 What is the equation for power in terms of force and velocity? | $P = Fv$, where $F$ = force (N) and $v$ = velocity (m s$^{-1}$)
-Under what conditions can the equation $P = Fv$ be used? | When an object moves at constant velocity with a constant force in the direction of the velocity
+Under what conditions can the equation $P = Fv$ be used? | When the force acts in the direction of the velocity. It gives the power at the instant the speed is $v$, so it also applies while the object accelerates
 A car travels at a steady $30\;\mathrm{m\,s^{-1}}$ against resistive forces of 600 N. What power does its engine deliver? | $P = Fv = 600 \times 30 = 18$ kW
 What does the area under a force-displacement graph represent? | The work done
 How is work done found when the force is not constant? | From the area under the force-displacement graph (splitting into standard shapes if necessary)
@@ -30,7 +30,7 @@ What determines whether a type of energy transfer is useful or wasted in a syste
 State the principle of conservation of energy | Energy cannot be created or destroyed. It can only be transferred from one form to another
 What does the principle of conservation of energy imply for a closed system? | The total amount of energy remains constant, although the amount in each form may change
 What is dissipated energy? | Energy transferred to the surroundings in forms that cannot easily be used for a useful purpose (wasted energy)
-In what forms is energy commonly dissipated? | Thermal (heat), light, and sound energy
+In what forms is energy commonly dissipated? | Mainly by heating something, such as the surroundings or the object itself, and as sound. An answer should name what is heated
 What energy transfer occurs for a falling object in a vacuum? | Gravitational potential energy is converted to kinetic energy
 A ball is dropped from a height of 5.0 m. What is its speed just before it lands, ignoring air resistance? | $mgh = \frac{1}{2}mv^2$, so $v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 5.0} = 9.9\;\mathrm{m\,s^{-1}}$
 Why does a ball thrown upwards not reach the height predicted by energy conservation alone? | Work is done against air resistance, which transfers some of its kinetic energy to thermal energy

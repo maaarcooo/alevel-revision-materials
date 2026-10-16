@@ -32,6 +32,7 @@ What does the area under a force-time graph represent? | Impulse (change in mome
 How do you find impulse from a curved force-time graph? | Count the squares under the curve
 How do you find impulse from a straight-line force-time graph? | Split into geometric sections (triangles, rectangles, trapeziums) and sum their areas
 Explain why increasing the contact time reduces the impact force for the same change in momentum | Since $F = \frac{\Delta p}{\Delta t}$, for a fixed $\Delta p$, increasing $\Delta t$ decreases $F$
+Explain, using work done, why a longer stopping distance reduces the average force in a collision | The work done to remove the kinetic energy, $Fs$, is fixed, so a larger $s$ means a smaller average $F$
 How does a cricket fielder reduce the force on their hands when catching? | By moving their hands backwards, increasing the time over which the momentum changes, which reduces the force
 What is the purpose of crumple zones in vehicles? | To crush in a controlled way during a collision, increasing the time over which the vehicle's momentum reaches zero and reducing the force on passengers
 How do seat belts reduce injury in a collision? | They keep the passenger fixed to the seat and stretch slightly, increasing the contact time and reducing the force
@@ -39,6 +40,7 @@ How do airbags reduce injury in a collision? | They act as a soft cushion, incre
 On a force-time graph, how does increasing contact time affect the curve for the same impulse? | Lower peak force and wider base, with the same area under the curve
 In both collisions and explosions, what quantity is always conserved? | Momentum (provided no external forces act)
 What is an explosion, in terms of momentum? | An event in which objects that were at rest move apart, so the total momentum stays at zero
+In an explosion from rest, which of two fragments gains more kinetic energy? | The lighter one. Both have the same magnitude of momentum, and $E_k = \frac{p^2}{2m}$
 What is an elastic collision? | A collision in which kinetic energy is conserved
 A collision in which kinetic energy is conserved - what type of collision is this? | Elastic
 What is an inelastic collision? | A collision in which kinetic energy is not conserved

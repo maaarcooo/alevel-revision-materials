@@ -28,6 +28,7 @@ How does a diffraction grating pattern compare to a double slit pattern? | The b
 Why does a diffraction grating give sharper maxima than a double slit? | Light from many more slits reinforces only in very precise directions, so the maxima are narrower and brighter
 What does a diffraction grating produce when monochromatic light passes through it? | A pattern of bright and dark fringes
 What does a diffraction grating produce when white light passes through it? | It separates the white light into its different wavelength components (spectra)
+Light with a range of wavelengths passes through a diffraction grating. How do the maxima differ from those for monochromatic light? | The central maximum is unchanged, because every wavelength has its maximum at $0°$. Each other order spreads into a band, which is wider at higher orders
 What is the diffraction grating equation? | $d \sin \theta = n\lambda$
 In the diffraction grating equation $d \sin \theta = n\lambda$, what does $d$ represent? | The distance between adjacent slits on the grating (m)
 In the diffraction grating equation $d \sin \theta = n\lambda$, what does $\theta$ represent? | The angle of diffraction of the light of order $n$ from the normal as it leaves the grating
@@ -44,5 +45,6 @@ What is the path difference between light from adjacent slits at the $n$th order
 What is the path difference at the zeroth-order (central) maximum of a diffraction grating? | Zero
 How is the diffraction grating equation derived from the path difference? | At the $n$th order maximum the path difference is $n\lambda$. From trigonometry, $\sin \theta = \frac{n\lambda}{d}$, which rearranges to $d \sin \theta = n\lambda$
 Why are diffraction gratings used in spectrometers? | They separate light of different wavelengths with high resolution, enabling measurement of wavelength, stellar composition, and red shift
+Give a use of a diffraction grating outside astronomy | Identifying the elements in a sample from the wavelengths in its spectrum, or measuring the wavelength of a light source
 Why can a thin crystal act as a diffraction grating for X-rays? | The wavelength of X-rays is similar in size to the gaps between atoms in the crystal
 What can the diffraction pattern from X-ray crystallography be used to measure? | The atomic spacing in materials

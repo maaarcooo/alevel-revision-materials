@@ -1,6 +1,6 @@
 What is a stationary (standing) wave? | A wave formed by the superposition of two waves of the same frequency and amplitude travelling in opposite directions, producing a pattern where the peaks and troughs do not move
 A wave formed by superposition of two waves of the same frequency and amplitude travelling in opposite directions, where the peaks and troughs do not move - what type of wave is this? | Stationary (standing) wave
-How is a stationary wave usually produced? | By a travelling wave superposing with its own reflection
+How is a stationary wave usually produced? | A wave is reflected at a boundary, and the incident and reflected waves, travelling in opposite directions, superpose
 How do stationary waves and progressive waves differ in terms of energy? | Stationary waves store energy. Progressive waves transfer energy
 How does the amplitude of individual points differ between a progressive wave and a stationary wave? | Progressive wave: all points have the same amplitude. Stationary wave: each point has a different amplitude depending on its position
 What is a node on a stationary wave? | A point of no vibration (zero displacement at all times)
@@ -43,7 +43,7 @@ A string of length 0.50 m and mass per unit length $2.0 \times 10^{-3}\;\mathrm{
 How does the first harmonic frequency of a string change if the tension is made four times larger? | It doubles, because $f \propto \sqrt{T}$
 How does the first harmonic frequency of a string change if its length is halved? | It doubles, because $f \propto \frac{1}{L}$
 What is the aim of the required practical on stationary waves? | To investigate how the frequency of the first harmonic depends on the length, tension, or mass per unit length of a string
-In the stationary waves required practical (varying length), what are the independent, dependent, and control variables? | IV: length of string. DV: frequency of first harmonic. CVs: tension (same hanging mass) and same string (constant mass per unit length)
+In the stationary waves required practical (varying length), what are the independent, dependent, and control variables? | IV: length of string. DV: frequency of first harmonic. CVs: tension (same hanging mass) and mass per unit length of the string
 Describe the setup for the stationary waves required practical | A string is attached to a vibration generator at one end, passes over a pulley at the other end, and has masses hung from it to provide tension. A moveable bridge sets the vibrating length $L$
 In the stationary waves practical, how is the first harmonic identified? | The frequency of the vibration generator is gradually increased until a single stationary wave loop (one antinode, two nodes at the ends) is observed
 When plotting $f$ against $\frac{1}{L}$ for the stationary waves practical, what does the gradient represent? | The gradient equals $\frac{v}{2}$, so the wave speed is $v = 2 \times \text{gradient}$

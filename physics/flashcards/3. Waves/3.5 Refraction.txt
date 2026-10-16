@@ -34,6 +34,7 @@ Name the three main components of an optical fibre | Optically dense core (glass
 How does light travel through an optical fibre? | It refracts into the core at one end, undergoes repeated total internal reflection at the core-cladding boundary, and refracts out at the other end
 State two uses of optical fibres | Communications (telephone and internet) and medical imaging (endoscopes)
 Why must $n_{\text{cladding}} < n_{\text{core}}$ in an optical fibre? | Total internal reflection requires light to travel from a higher to a lower refractive index medium
+Why can light escape from an optical fibre that is bent sharply? | At the bend the angle of incidence at the core-cladding boundary falls below the critical angle, so some light refracts into the cladding
 State three functions of cladding in an optical fibre | It protects the core from scratches, provides the lower refractive index needed for total internal reflection, and prevents signals crossing between fibres that touch
 What is a step-index optical fibre? | A fibre in which the refractive index changes abruptly, in a single step, between the core and the cladding
 What is pulse broadening? | The output pulses from an optical fibre are longer (wider in time) than the input pulses

@@ -19,18 +19,18 @@ What is the phase difference between two points a quarter of a wavelength apart?
 When are two waves said to be in phase? | When their crests or troughs are aligned, giving a phase difference of $0°$ or $360°$ ($2\pi$ radians)
 When are two waves said to be in antiphase? | When the crest of one wave aligns with the trough of another, giving a phase difference of $180°$ ($\pi$ radians)
 If wave A reaches a peak before wave B, what is the phase relationship? | Wave A leads wave B (wave B lags wave A)
-Define a transverse wave | A wave in which the particles oscillate perpendicular to the direction of wave travel and energy transfer
-A wave in which the particles oscillate perpendicular to the direction of wave travel - what type of wave is this? | Transverse wave
+Define a transverse wave | A wave in which the oscillations are perpendicular to the direction of energy transfer
+A wave in which the oscillations are perpendicular to the direction of energy transfer - what type of wave is this? | Transverse wave
 What features do transverse waves show? | Crests (peaks) and troughs
-Define a longitudinal wave | A wave in which the particles oscillate parallel to the direction of wave travel and energy transfer
-A wave in which the particles oscillate parallel to the direction of wave travel - what type of wave is this? | Longitudinal wave
+Define a longitudinal wave | A wave in which the oscillations are parallel to the direction of energy transfer
+A wave in which the oscillations are parallel to the direction of energy transfer - what type of wave is this? | Longitudinal wave
 What features do longitudinal waves show? | Compressions (regions of increased pressure) and rarefactions (regions of decreased pressure)
 What is the wavelength of a longitudinal wave? | The distance between two successive compressions or two successive rarefactions
 Give three examples of transverse waves | Electromagnetic waves (e.g. light, radio, UV), vibrations on a string, seismic S-waves
 What do all electromagnetic waves have in common in a vacuum? | They all travel at the same speed, $3.00 \times 10^{8}\;\mathrm{m\,s^{-1}}$
 Give three examples of longitudinal waves | Sound waves, ultrasound waves, seismic P-waves
-How can transverse waves be demonstrated? | Using a rope, with vibrations perpendicular to the direction of wave travel
-How can longitudinal waves be demonstrated? | Using a slinky spring, with vibrations parallel to the direction of wave travel
+How can transverse waves be demonstrated? | Using a rope, with oscillations perpendicular to the direction of energy transfer
+How can longitudinal waves be demonstrated? | Using a slinky spring, with oscillations parallel to the direction of energy transfer
 Which type of wave can be polarised? | Transverse waves only (longitudinal waves cannot be polarised)
 What is unpolarised light? | Light whose oscillations are in many planes, all perpendicular to its direction of travel
 What is polarisation? | The restriction of the oscillations of a transverse wave to a single plane, with the oscillations still perpendicular to the direction of propagation
@@ -47,4 +47,5 @@ What happens to unpolarised light when it reflects off a horizontal surface such
 How do Polaroid sunglasses reduce glare from reflective surfaces? | They contain vertically oriented polarising filters that block horizontally polarised light reflected from surfaces such as water or wet roads
 Why can a polarising filter reveal objects beneath water? | Glare reflected from the surface is mostly horizontally polarised and is absorbed by the filter, while light from the underwater objects is unpolarised, so about half of it passes through
 Why must a TV reception aerial be aligned to match the transmitter's signal polarisation? | Broadcasting towers transmit either vertically or horizontally polarised signals. The aerial must be in the same orientation to receive the signal
+How can a receiver show that microwaves from a transmitter are polarised? | Rotate the receiving aerial. The signal is a maximum when the aerial is aligned with the plane of polarisation and a minimum when it is perpendicular to it
 Name three processes (besides passing through a polariser) by which light can become polarised | Reflection, refraction, and scattering

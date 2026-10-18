@@ -1,0 +1,104 @@
+In Rutherford's scattering experiment, what were alpha particles fired at? | A thin sheet of gold foil
+What two things were measured in Rutherford's scattering experiment? | The angles through which alpha particles were deflected and the number deflected at each angle
+Why was the alpha source in Rutherford's experiment placed in a lead container with a narrow opening? | To produce a narrow, collimated beam of alpha particles
+Why did the gold foil in Rutherford's experiment need to be extremely thin? | So each alpha particle was scattered by at most one nucleus, and was not absorbed
+Why was Rutherford's scattering experiment carried out in an evacuated chamber? | So the alpha particles were not absorbed or scattered by air molecules on the way to the foil
+What did the observation that most alpha particles passed straight through the gold foil suggest? | The atom is mostly empty space
+What did the observation that some alpha particles were deflected through small angles suggest? | The positive charge of the atom is concentrated in a central nucleus that repels the positive alpha particles
+What did the observation that a very small number of alpha particles were deflected through more than 90° suggest? | The nucleus is extremely small and contains most of the atom's mass
+In Rutherford scattering, how does the number of alpha particles detected per unit time vary with deflection angle? | It is greatest at small angles and falls rapidly as the angle increases
+Which particle did J.J. Thomson discover in 1897? | The electron
+What did Thomson's plum pudding model propose? | A sphere of uniformly spread positive charge with electrons embedded in it, neutral overall
+Who carried out the gold foil experiments that tested the plum pudding model? | Geiger and Marsden, working under Rutherford
+Which result of the gold foil experiment could the plum pudding model not explain? | A small number of alpha particles were deflected through large angles, some bouncing back
+Which model of the atom replaced the plum pudding model after the gold foil experiment? | The Rutherford (nuclear) model
+Who discovered the neutron, and when? | James Chadwick, 1932
+What are the charge and mass of an alpha particle? | Charge $+2e$, mass $4u$
+What is gamma radiation? | High-energy electromagnetic radiation (photons) emitted from a nucleus
+Why do nuclei emit gamma radiation? | To lose excess energy
+What is the nuclear notation for gamma radiation? | ${}^{0}_{0}\gamma$
+How is the ionising ability of a radiation quantified? | By the number of ion pairs it produces per cm of air
+Why is ionising radiation harmful to living cells? | Ionisation causes chemical changes that damage cells
+Which type of radiation is the most ionising? | Alpha
+Why is alpha radiation the most ionising? | It has the largest charge, $+2e$, and moves relatively slowly, so it interacts strongly with the atoms it passes
+Roughly how many ion pairs per cm of air does alpha radiation produce? | About $10^4$
+Roughly how many ion pairs per cm of air does beta radiation produce? | About 100
+Roughly how many ion pairs per cm of air does gamma radiation produce? | About 1
+Which type of radiation is the least ionising? | Gamma
+Why is gamma radiation the least ionising? | Gamma photons have no charge
+Which type of radiation is the most penetrating? | Gamma
+Which type of radiation is the least penetrating? | Alpha
+How are ionising ability and penetrating power related across alpha, beta and gamma? | Inversely: the more ionising the radiation, the less penetrating it is
+What is the range of alpha particles in air? | About 3 to 7 cm
+What is the range of beta particles in air? | About 20 cm to 3 m, depending on their energy
+How does the intensity of gamma radiation in air vary with distance from a point source? | It has no definite range; intensity falls according to the inverse-square law
+What absorbs alpha particles? | A sheet of paper
+What absorbs beta particles? | A few millimetres of aluminium
+What significantly reduces the intensity of gamma radiation? | Several centimetres of lead or several metres of concrete
+Towards which plate are alpha particles deflected when passing between charged plates? | The negative plate
+Towards which plate are beta-minus particles deflected when passing between charged plates? | The positive plate
+Why is gamma radiation not deflected by electric or magnetic fields? | It is uncharged
+Why are beta-minus particles deflected much more than alpha particles in the same magnetic field? | Their far smaller mass gives a much smaller momentum per unit charge, so their path has a much smaller radius
+Which radioactive source is used in smoke detectors? | Americium-241, an alpha emitter
+Explain how a smoke detector uses alpha radiation | Alpha particles ionise the air between two plates so a small current flows. Smoke absorbs the alpha particles, the current falls and the alarm sounds
+Why is an alpha source suitable for a smoke detector inside a home? | Its short range means it poses little hazard to occupants
+Why does the americium-241 in a smoke detector need a long half-life? | So its activity does not fall significantly over the detector's lifetime and it need not be replaced
+Which type of radiation is used to monitor the thickness of paper or aluminium foil during manufacture? | Beta
+Why is alpha radiation unsuitable for monitoring the thickness of aluminium foil? | It would be completely absorbed by the foil
+Why is gamma radiation unsuitable for monitoring the thickness of thin foil? | It passes through almost unabsorbed, so small changes in thickness barely change the count rate
+In beta thickness monitoring, how is the roller pressure adjusted if the detected count rate falls? | It is increased, because a falling count rate means the material is too thick
+Why does a thickness-monitoring source need a long half-life? | So it does not need to be replaced often
+Which type of radiation is used to sterilise medical equipment? | Gamma, e.g. from cobalt-60
+Why is gamma radiation suitable for sterilising medical equipment? | It is penetrating enough to reach all sides of the instruments without removing their sealed packaging
+Why does gamma sterilisation not make the equipment radioactive? | Gamma radiation does not affect the nuclei of the equipment's atoms, and only a change to a nucleus can make it radioactive
+How does gamma radiotherapy deliver a high dose to a tumour while limiting damage to surrounding tissue? | Beams are concentrated on the tumour from many directions as the machine rotates around the patient
+How are parts of a radiotherapy patient's body that are not being treated protected? | They are covered with lead
+Which type of radiation can treat skin cancer by direct application to the affected area? | Beta
+What is a radioactive tracer? | A radioisotope put into the body to monitor processes occurring in it
+Why are radioactive tracers with short half-lives preferred? | They decay quickly, so the patient's dose is lower
+Why is only a small sample of a short-half-life tracer needed? | Its initial activity is very high
+Why is a gamma emitter ideal as a medical tracer? | Gamma penetrates out of the body to an external detector and is weakly ionising, so causes minimal damage
+Which organ takes up iodine-131? | The thyroid gland
+State the inverse-square law for gamma radiation | The intensity of gamma radiation from a point source is inversely proportional to the square of the distance from the source
+What is the equation for the inverse-square law for gamma radiation? | $I = \frac{k}{x^2}$
+Why does the intensity of gamma radiation from a point source follow an inverse-square law? | The radiation spreads out uniformly over a sphere whose area is proportional to $x^2$
+What is the unit of intensity? | $\text{W m}^{-2}$
+By what factor does gamma intensity change when the distance from a point source doubles? | It falls to one quarter
+A gamma source gives a corrected count rate of 200 counts s⁻¹ at 0.2 m. What is the corrected count rate at 0.5 m? | $C_2 = C_1\left(\frac{x_1}{x_2}\right)^2 = 200 \times \left(\frac{0.2}{0.5}\right)^2 = 32\ \text{s}^{-1}$
+How can count rates at different distances be tested against the inverse-square law? | Check that $Cx^2$ is constant for at least three distances, where C is the corrected count rate
+Why does the inverse-square law not apply to alpha and beta radiation in air? | They are absorbed by the air within a short distance
+What is background radiation? | The ionising radiation present in the environment at all times, from natural and artificial sources
+The ionising radiation present in the environment at all times, from natural and artificial sources - what term is this? | Background radiation
+What is the largest source of background radiation in the UK? | Radon gas
+Where does radon gas come from? | The decay of uranium found naturally in rocks, soil and building materials such as stone and brick
+Which type of radiation does radon emit? | Alpha
+Why is radon gas particularly hazardous? | It is inhaled, so its alpha particles are emitted inside the lungs
+Where do cosmic rays come from? | The Sun and high-energy events in space such as supernovae
+Which radioactive isotope is found in all organic matter? | Carbon-14
+What is the largest artificial source of background radiation? | Medical uses, e.g. X-rays and CT scans
+Besides medical uses, what artificial sources add to background radiation? | Nuclear waste, and fallout from weapons tests and accidents such as Chernobyl
+What is the corrected count rate? | The count rate from a source with the background count rate subtracted
+The count rate from a source with the background count rate subtracted - what term is this? | Corrected count rate
+How is the background count rate measured? | By recording counts with a GM tube and counter with no source present
+A GM tube records 24 counts per minute with no source and 285 counts per minute with a source. What is the corrected count rate? | $285 - 24 = 261$ counts per minute
+Why are repeat readings and averages essential when measuring count rates? | Radioactive decay is random
+How does the percentage uncertainty in a count N depend on N? | It is proportional to $\frac{1}{\sqrt{N}}$
+Why should counts be recorded over as long a time as possible? | A larger count has a smaller percentage uncertainty
+Why are radioactive sources stored in lead-lined boxes when not in use? | The lead absorbs the radiation, reducing exposure
+Why are radioactive sources handled with long tongs? | It increases the distance from the source, reducing the intensity received
+Why should exposure time to radioactive sources be kept short? | Less time exposed means a smaller dose received
+Which safe-handling rule applies to the open end of a sealed source? | Never point it at anyone, including yourself
+How is the radiation exposure of workers such as radiographers monitored? | With detector badges
+What is the aim of the inverse-square law required practical? | To verify the inverse-square law for gamma radiation
+What is the independent variable in the gamma inverse-square law practical? | The distance x between the source and the GM tube
+What is the dependent variable in the gamma inverse-square law practical? | The count rate
+What is measured first in the gamma inverse-square law practical, before the source is brought in? | The background count, averaged over several readings
+Why is a 2 to 3 mm aluminium sheet placed in front of the GM tube in the gamma inverse-square law practical? | The source also emits alpha and beta, which the sheet absorbs so only gamma is counted
+What graph is plotted to verify the inverse-square law for gamma radiation? | $\frac{1}{\sqrt{C}}$ against $x$, where C is the corrected count rate
+Why is $\frac{1}{\sqrt{C}}$ plotted against x in the gamma inverse-square law practical? | If $C \propto \frac{1}{x^2}$, then $\frac{1}{\sqrt{C}} \propto x$, giving a straight line
+If $C = \frac{k}{x^2}$, what is the gradient of a graph of $\frac{1}{\sqrt{C}}$ against x? | $\frac{1}{\sqrt{k}}$
+In the gamma inverse-square law practical, why is the measured distance usually smaller than the true source-detector distance? | The radioactive material and the detecting region sit inside their casings, behind the points x is measured from
+In the gamma inverse-square law practical, what does a graph of $\frac{1}{\sqrt{C}}$ against x that cuts the negative x-axis show? | A systematic error in distance, equal in size to the intercept
+What is the dead time of a GM tube? | The short time (about 100 μs) after a count during which the tube cannot register another
+What effect does dead time have on recorded counts? | They are lower than the true counts
+How would alpha or beta radiation reaching the detector affect the graph of $\frac{1}{\sqrt{C}}$ against x? | It would make the graph curve slightly

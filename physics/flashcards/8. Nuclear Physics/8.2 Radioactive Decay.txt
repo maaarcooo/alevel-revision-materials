@@ -1,0 +1,48 @@
+What is radioactive decay? | The spontaneous disintegration of an unstable nucleus to form a more stable nucleus, emitting alpha, beta or gamma radiation
+What does it mean for radioactive decay to be random? | It is impossible to predict which nucleus will decay next or when a particular nucleus will decay
+What does it mean for radioactive decay to be spontaneous? | It is not affected by external conditions such as temperature or pressure
+How does the probability of decay per unit time compare between nuclei of the same isotope? | It is the same for every nucleus and stays constant over time
+What can be predicted about the decay of a large sample of nuclei? | The proportion of nuclei expected to decay in a given time
+What evidence from a GM tube shows that radioactive decay is random? | The count rate fluctuates irregularly and unpredictably
+What is the decay constant $\lambda$? | The probability that an individual nucleus will decay per unit time
+The probability that an individual nucleus will decay per unit time - what quantity is this? | The decay constant $\lambda$
+What is the unit of the decay constant? | $\text{s}^{-1}$ (or any inverse time unit, e.g. $\text{year}^{-1}$)
+What is the activity of a radioactive sample? | The number of nuclei that decay per unit time
+The number of nuclei in a sample that decay per unit time - what quantity is this? | Activity
+What is the unit of activity? | The becquerel (Bq), where 1 Bq = 1 decay per second
+What is the equation for the rate of change of the number of undecayed nuclei $N$? | $\frac{\Delta N}{\Delta t} = -\lambda N$
+What does the minus sign in $\frac{\Delta N}{\Delta t} = -\lambda N$ show? | The number of undecayed nuclei decreases with time
+What is the equation linking activity, decay constant and number of undecayed nuclei? | $A = \lambda N$
+What is the activity of a sample of $5.0 \times 10^{12}$ undecayed nuclei with $\lambda = 2.0 \times 10^{-5}\;\text{s}^{-1}$? | $A = \lambda N = 2.0 \times 10^{-5} \times 5.0 \times 10^{12} = 1.0 \times 10^{8}\;\text{Bq}$
+What equation gives the number of undecayed nuclei $N$ remaining after time $t$? | $N = N_0 e^{-\lambda t}$
+How many of $1.0 \times 10^{6}$ undecayed nuclei remain after 10 s if $\lambda = 0.10\;\text{s}^{-1}$? | $N = N_0 e^{-\lambda t} = 1.0 \times 10^{6} \times e^{-1.0} = 3.7 \times 10^{5}$
+What equation gives the activity $A$ of a sample after time $t$? | $A = A_0 e^{-\lambda t}$
+What equation gives the background-corrected count rate $C$ from a source after time $t$? | $C = C_0 e^{-\lambda t}$
+How does the decay constant affect the shape of a graph of undecayed nuclei against time? | A larger $\lambda$ gives a steeper curve
+How can dice model radioactive decay? | Each throw, remove the dice showing a chosen face. Every die has the same fixed chance of being removed each throw, like the decay probability of a nucleus
+What is the decay constant of dice with $n$ faces, when one face counts as decayed? | $\lambda = \frac{1}{n}$ per throw
+What is half-life? | The time taken for the number of undecayed nuclei of an isotope (or its activity) to halve
+The time taken for the number of undecayed nuclei of an isotope (or its activity) to halve - what term is this? | Half-life
+What is the equation linking half-life and decay constant? | $T_{1/2} = \frac{\ln 2}{\lambda}$
+What is the half-life of an isotope with decay constant $1.0 \times 10^{-3}\;\text{s}^{-1}$? | $T_{1/2} = \frac{\ln 2}{\lambda} = \frac{0.693}{1.0 \times 10^{-3}} = 693\;\text{s}$
+How does the half-life of an isotope change as its decay constant increases? | It decreases (half-life is inversely proportional to $\lambda$)
+What fraction of the original undecayed nuclei remains after $n$ half-lives? | $\left(\frac{1}{2}\right)^n$
+How is half-life found from a graph of activity against time? | Read off the time taken for the activity to fall from $A_0$ to $\frac{A_0}{2}$
+What graph of radioactive decay data gives a straight line? | $\ln N$ against $t$
+What is the gradient of a graph of $\ln N$ against $t$ for a decaying sample? | $-\lambda$
+What is the y-intercept of a graph of $\ln N$ against $t$ for a decaying sample? | $\ln N_0$
+What is the equation for the number of nuclei in a sample of known mass? | $N = \frac{\text{mass} \times N_A}{\text{molar mass}}$
+How many nuclei are in 2.0 g of a nuclide with molar mass $200\;\text{g mol}^{-1}$? | $N = \frac{\text{mass} \times N_A}{\text{molar mass}} = \frac{2.0 \times 6.02 \times 10^{23}}{200} = 6.02 \times 10^{21}$
+Name three medical uses of radioactivity | Radiotherapy, tracers and sterilising equipment
+Why is the proportion of carbon-14 in a living organism constant? | Carbon is continually taken in, replacing the carbon-14 that decays
+Why does the carbon-14 activity of organic matter fall after the organism dies? | It no longer takes in carbon, so decayed carbon-14 is not replaced
+How is the age of a once-living sample found by radiocarbon dating? | Compare its current carbon-14 activity with the initial value, estimated from the carbon-14 to carbon-12 ratio in living material
+Why is radiocarbon dating unreliable for samples only a few hundred years old? | Too little carbon-14 has decayed, so the fall in activity is too small to measure accurately
+Why is radiocarbon dating unreliable for samples tens of thousands of years old? | The activity is too low to distinguish from background radiation
+What stable isotope does uranium-238 ultimately decay into? | Lead-206, via a decay chain
+What is assumed about the lead-206 in a rock dated by uranium-lead dating? | None was present initially, so all of it came from uranium-238 decay
+How is the age of a rock found by uranium-lead dating? | From the ratio of lead-206 to uranium-238 atoms, which increases with time
+What does a radioisotope power system do? | Converts heat released by radioactive decay into electrical power
+What are radioisotope power systems used to power? | Space probes and satellites
+Which isotope is typically used as fuel in radioisotope power systems? | Plutonium-238 (an alpha emitter)
+How does the power output of a radioisotope power system change over time? | It decreases exponentially, in proportion to the source's activity

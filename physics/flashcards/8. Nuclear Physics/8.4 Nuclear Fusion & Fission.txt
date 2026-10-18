@@ -1,0 +1,102 @@
+What is mass-energy equivalence? | Mass and energy are interchangeable: mass can be converted into energy and energy into mass
+What equation gives the energy equivalent of a mass m? | $E = mc^2$
+What energy is equivalent to a mass of $2.0 \times 10^{-28}$ kg? | $E = mc^2 = 2.0 \times 10^{-28} \times (3.0 \times 10^8)^2 = 1.8 \times 10^{-11}$ J
+Why does the mass of a spring increase slightly when it is stretched? | $E = mc^2$ applies to all energy changes, so the elastic potential energy it stores adds a mass of $\frac{E}{c^2}$
+What is the mass defect of a nucleus? | The difference between the total mass of its separate protons and neutrons and the mass of the nucleus
+The difference between the total mass of a nucleus's separate protons and neutrons and the mass of the nucleus - what term is this? | Mass defect
+What is the equation for the mass defect of a nucleus? | $\Delta m = Zm_p + (A - Z)m_n - m_{nucleus}$
+What is the mass defect of a helium-4 nucleus of mass 4.001506 u, given $m_p = 1.007276$ u and $m_n = 1.008665$ u? | $\Delta m = 2(1.007276) + 2(1.008665) - 4.001506 = 0.030376$ u
+What is binding energy? | The energy required to separate a nucleus into its constituent protons and neutrons
+The energy required to separate a nucleus into its constituent protons and neutrons - what term is this? | Binding energy
+How does the binding energy of a nucleus relate to its formation? | It equals the energy released when the nucleus forms from separate protons and neutrons
+What unit is nuclear binding energy usually quoted in? | MeV
+What energy, in MeV, is equivalent to a mass defect of 0.20 u? | $E = 0.20 \times 931.5 = 186.3$ MeV
+Explain why nuclear reactions release far more energy than chemical reactions | Nuclear reactions change nuclear binding energy (MeV), whereas chemical reactions change electron binding energy (a few eV)
+What is the unified atomic mass unit (u)? | One-twelfth of the mass of a carbon-12 atom
+One-twelfth of the mass of a carbon-12 atom - what unit is this? | The unified atomic mass unit (u)
+What is the approximate mass in u of an atom with nucleon number A? | About A u (e.g. uranium-235 is about 235 u)
+What is nuclear fusion? | The joining together of two light nuclei to form a heavier nucleus
+The joining together of two light nuclei to form a heavier nucleus - what process is this? | Nuclear fusion
+What is the equation for the fusion of two protons? | ${}^1_1\text{H} + {}^1_1\text{H} \rightarrow {}^2_1\text{H} + e^+ + \nu_e$
+When two protons fuse, by what process does one proton become a neutron? | Beta-plus decay
+In the core of a star, what do four hydrogen nuclei fuse to form? | One helium-4 nucleus, releasing energy
+Which fusion reaction is the focus of fusion research on Earth? | Deuterium-tritium (D-T) fusion
+What is the equation for deuterium-tritium fusion? | ${}^2_1\text{H} + {}^3_1\text{H} \rightarrow {}^4_2\text{He} + {}^1_0\text{n}$
+Using nuclear masses ${}^2_1\text{H}$ = 2.01355 u, ${}^3_1\text{H}$ = 3.01550 u, ${}^4_2\text{He}$ = 4.00151 u and neutron = 1.00867 u, how much energy does one D-T fusion release? | $\Delta m = 2.01355 + 3.01550 - 4.00151 - 1.00867 = 0.01887$ u, so $E = 0.01887 \times 931.5 = 17.6$ MeV
+Explain why nuclei need a high kinetic energy to fuse | They must overcome the electrostatic repulsion between their protons to get close enough for the short-range strong nuclear force to act
+What conditions are needed for fusion to occur? | Extremely high temperature and density, as in the core of a star
+What is nuclear fission? | The splitting of a heavy nucleus into two smaller nuclei
+The splitting of a heavy nucleus into two smaller nuclei - what process is this? | Nuclear fission
+What is induced fission? | Fission of a heavy nucleus triggered by absorbing a slow-moving (thermal) neutron
+What nucleus forms when uranium-235 absorbs a neutron? | Uranium-236
+Why is uranium-236 usually left out of fission equations? | It splits almost immediately after forming
+${}^1_0\text{n} + {}^{235}_{92}\text{U} \rightarrow {}^{144}_{56}\text{Ba} + {}^{89}_{36}\text{Kr} + x\,{}^1_0\text{n}$. What is $x$? | $3$, since the nucleon numbers must balance: $1 + 235 = 144 + 89 + 3$
+What are the products of a single induced fission of uranium-235? | Two smaller daughter nuclei and two or three neutrons, with energy released
+Why do fission fragments usually decay by $\beta^-$ emission? | They have a high $N/Z$ ratio, lying above the line of stability on a graph of $N$ against $Z$, so a neutron changes into a proton
+Explain why both fission and fusion release energy | The products have a higher binding energy per nucleon than the reactants, so their total mass is less and the mass difference is released as energy
+How is the energy released in a nuclear reaction found from binding energies? | Total binding energy of the products minus total binding energy of the reactants
+What is the total binding energy of a nucleus with A = 56 and a binding energy per nucleon of 8.8 MeV? | $56 \times 8.8 = 493$ MeV
+What is binding energy per nucleon? | The binding energy of a nucleus divided by the number of nucleons in it
+The binding energy of a nucleus divided by the number of nucleons in it - what quantity is this? | Binding energy per nucleon
+What does a higher binding energy per nucleon indicate about a nucleus? | Greater stability
+Which nucleus has about the highest binding energy per nucleon? | Iron-56
+What is the approximate maximum binding energy per nucleon of any nucleus? | About 8.8 MeV
+For which nuclei does fusion release energy? | Light nuclei, with A less than about 56
+For which nuclei does fission release energy? | Heavy nuclei, with A greater than about 56
+Explain why fusion releases more energy per nucleon than fission | The binding energy per nucleon curve rises much more steeply at low A than it falls at high A
+Which light nuclei lie above the general trend of the binding energy per nucleon curve? | Helium-4, carbon-12 and oxygen-16
+Explain why very heavy nuclei have a lower binding energy per nucleon than iron | Electrostatic repulsion between the many protons begins to dominate over the short-range attractive strong nuclear force
+How does fusion differ from fission in energy released and energy needed to start it? | Fusion releases more energy per kg of fuel but needs a much greater initial energy input
+What is a thermal neutron? | A neutron in thermal equilibrium with its surroundings (slow-moving, with low kinetic energy)
+A neutron in thermal equilibrium with its surroundings - what is this? | A thermal neutron
+What is the mean kinetic energy of thermal neutrons in surroundings at temperature T? | $\frac{3}{2}kT$
+Why are thermal neutrons used to induce fission of uranium-235? | They are much more likely to be absorbed by uranium-235 nuclei than fast neutrons
+What is a chain reaction in nuclear fission? | Neutrons released by each fission go on to cause further fissions
+What condition gives a steady, controlled chain reaction? | On average, exactly one neutron from each fission goes on to cause another fission
+What is critical mass? | The minimum mass of fuel required to maintain a steady chain reaction
+The minimum mass of fuel required to maintain a steady chain reaction - what term is this? | Critical mass
+What happens to a chain reaction in less than the critical mass of fuel? | Neutrons are lost faster than fission creates them, so the reaction dies out
+What happens to a chain reaction in more than the critical mass of fuel, with nothing absorbing the excess neutrons? | Fission creates neutrons faster than they are lost, so the reaction rate rises and can run away
+Which two properties of the free neutrons must be controlled in a reactor? | Their number and their energy
+What is the purpose of the moderator in a thermal reactor? | To slow fast neutrons down to thermal speeds
+How does a moderator slow neutrons down? | Neutrons make repeated elastic collisions with moderator nuclei, transferring kinetic energy to them
+What size of nuclei must a moderator be made from, and why? | Light nuclei, close in mass to a neutron, so each elastic collision removes a large share of its kinetic energy and fewer collisions are needed
+How well must a moderator material absorb neutrons? | It must be a poor absorber of neutrons
+Name two common moderator materials | Water and graphite
+What is the purpose of control rods? | To absorb neutrons, controlling the rate of fission
+What happens to the rate of fission when control rods are inserted further into the core? | It decreases
+What property must control rod material have? | It absorbs neutrons without itself undergoing fission or becoming dangerously unstable
+Name two common control rod materials | Boron and cadmium
+What is the purpose of the coolant in a nuclear reactor? | To carry thermal energy from the core to the heat exchanger, which also keeps the core at a safe temperature
+Why is water a good reactor coolant? | It has a high specific heat capacity, so it can carry large amounts of thermal energy
+Give three properties of a good liquid reactor coolant | A high specific heat capacity, a low viscosity so it flows easily, and little absorption of neutrons
+Name two reactor coolants other than water | Carbon dioxide gas and liquid sodium
+What happens in the heat exchanger of a nuclear power station? | The hot coolant heats water in a separate circuit, producing steam that drives the turbines
+Why must a reactor core be surrounded by thick shielding? | To absorb the neutrons and gamma radiation escaping from the core
+Name two materials used to shield a nuclear reactor | Steel and thick concrete
+How are fuel rods handled to protect workers? | Remotely, by machines
+What happens in an emergency shut-down of a reactor? | The control rods are fully inserted, absorbing the free neutrons so fission stops
+What is enriched uranium? | Uranium in which the proportion of uranium-235 has been increased, to a few per cent
+Which uranium isotope undergoes fission in a thermal reactor? | Uranium-235
+What happens when a thermal neutron meets a uranium-238 nucleus in a reactor? | It may be absorbed or scattered, but uranium-238 does not undergo fission
+Why must some radioactive waste be stored for a very long time? | It contains isotopes with very long half-lives
+What are the three categories of nuclear waste? | Low-level, intermediate-level and high-level
+Give an example of low-level nuclear waste | Lightly contaminated clothing, gloves or tools
+How is low-level nuclear waste stored? | Encased in concrete and buried a few metres underground
+What is the main source of intermediate-level nuclear waste? | Decommissioning (dismantling) nuclear power stations
+How is intermediate-level nuclear waste packaged? | Encased in cement in steel drums
+What is high-level nuclear waste? | Spent fuel rods and the unusable fission products from them
+Why is high-level waste the most dangerous type of nuclear waste? | It is highly radioactive and remains radioactive for thousands of years
+Where is spent fuel first stored after removal from a reactor? | In cooling ponds of water near the reactor, for several years
+Why does spent fuel need to be stored in cooling ponds? | It is extremely hot as well as highly radioactive
+Which elements are extracted from spent fuel for reuse? | Plutonium and uranium
+What is vitrification? | Mixing high-level waste with molten glass and letting it solidify
+How is vitrified high-level waste finally stored? | Sealed in steel containers deep underground, in a geologically stable area
+Why is radioactive waste sealed underground? | It is less likely to be disturbed or released by natural disasters
+Which polluting gases do nuclear power stations not emit during operation, unlike fossil fuel stations? | Carbon dioxide and sulphur dioxide
+How do the lifetime greenhouse gas emissions of a nuclear power station compare with coal or gas stations? | Significantly lower
+How does the electrical output of a nuclear power station differ from wind or solar? | It is continuous and does not depend on the weather
+How does the energy released per kilogram of nuclear fuel compare with fossil fuels? | It is far greater, so only small amounts of fuel are needed
+Give an example of a useful by-product of nuclear reactors | Medical isotopes such as molybdenum-99, used to produce technetium-99m
+Why is nuclear power not a renewable energy resource? | Its uranium fuel is mined and will eventually run out
+Which type of reactor accident can have catastrophic consequences for the environment and nearby people? | A nuclear meltdown, e.g. Chernobyl

@@ -1,0 +1,62 @@
+On a graph of $N$ (vertical) against $Z$, along which line do stable light nuclei (up to about $Z = 20$) lie? | Close to $N = Z$
+How does $N$ compare with $Z$ for stable nuclei heavier than about $Z = 20$? | $N > Z$, and the ratio $N/Z$ increases as $Z$ increases
+Explain why stable heavy nuclei need more neutrons than protons | Electrostatic repulsion between protons acts across the whole nucleus and grows with $Z$. Extra neutrons add strong-force attraction without adding repulsion
+Explain why very heavy nuclei are unstable | The strong force is short-range so only acts between neighbouring nucleons, while electrostatic repulsion between protons acts across the whole nucleus
+Which decay mode does a nucleus with too many neutrons undergo? | $\beta^-$ decay
+Which decay modes can a nucleus with too many protons undergo? | $\beta^+$ decay or electron capture
+Which decay mode does a nucleus with too many nucleons undergo? | Alpha decay
+On a graph of $N$ (vertical) against $Z$, where are $\beta^-$ emitters found? | Above (to the left of) the line of stability, in the neutron-rich region
+On a graph of $N$ (vertical) against $Z$, where are $\beta^+$ and electron capture nuclei found? | Below (to the right of) the line of stability, in the proton-rich region
+On a graph of $N$ against $Z$, where are alpha emitters found? | Heavy nuclei, mostly $Z > 82$, beyond the end of the line of stability
+How do $N$ and $Z$ change in $\beta^-$ decay? | $N$ decreases by 1 and $Z$ increases by 1 ($A$ unchanged)
+How do $N$ and $Z$ change in $\beta^+$ decay and in electron capture? | In both, $N$ increases by 1 and $Z$ decreases by 1 ($A$ unchanged)
+How do $N$ and $Z$ change in alpha decay? | Both decrease by 2 ($A$ decreases by 4)
+How do $N$ and $Z$ change when a nucleus emits a gamma photon? | Neither changes. The nucleus only loses energy
+What is the general equation for electron capture? | ${}^{A}_{Z}\text{X} + {}^{0}_{-1}\text{e} \to {}^{A}_{Z-1}\text{Y} + \nu_e$
+After electron capture, what radiation does the atom emit? | X-rays as outer electrons fall to fill the inner vacancy, and gamma rays if the nucleus is left in an excited state
+What nucleus forms when ${}^{239}_{94}\text{Pu}$ undergoes alpha decay? | ${}^{235}_{92}\text{U}$
+What nucleus forms when ${}^{14}_{6}\text{C}$ undergoes $\beta^-$ decay? | ${}^{14}_{7}\text{N}$
+When does a nucleus emit a gamma photon? | When a daughter nucleus left in an excited state after alpha or beta decay drops to a lower energy level
+How does an excited nucleus reach its ground state? | Directly, or via one or more lower-energy excited states, emitting a gamma photon at each step
+What is a metastable state of a nucleus? | An excited state that lasts much longer than a typical excited state before emitting a gamma photon
+An excited state of a nucleus that lasts much longer than a typical excited state - what term is this? | Metastable state
+What is technetium-99m used for in medicine? | As a gamma source for medical diagnosis
+What radiation does technetium-99m emit? | Only gamma rays
+How is technetium-99m produced? | By $\beta^-$ decay of molybdenum-99, a product of nuclear reactors
+What is the half-life of technetium-99m? | About 6 hours
+Explain why a 6-hour half-life suits technetium-99m for diagnosis | Long enough to carry out the examination, short enough to limit the radiation dose to the patient
+Why is molybdenum-99 rather than technetium-99m transported to hospitals? | Its 66-hour half-life survives transport, and the technetium-99m is separated from it at the hospital
+On a nuclear energy level diagram, how is an alpha or beta decay shown? | As a diagonal line from the parent level to the daughter level
+On a nuclear energy level diagram, what is the maximum kinetic energy of a $\beta^-$ particle emitted in a decay to a given excited state? | The energy difference between the parent level and that excited state
+Which gamma transition between nuclear energy levels gives the longest wavelength? | The one across the smallest energy gap
+What are the two experimental methods for finding nuclear radius? | Closest approach of alpha particles (Rutherford scattering) and electron diffraction
+In a head-on collision, what has an alpha particle's kinetic energy become at its distance of closest approach to a nucleus? | Electric potential energy (the alpha particle is momentarily at rest)
+What equation links an alpha particle's initial kinetic energy to its distance of closest approach $r$ to a nucleus of proton number $Z$? | $E_k = \frac{2Ze^2}{4\pi\varepsilon_0 r}$
+What is the distance of closest approach of an alpha particle with $8.0 \times 10^{-13}$ J of kinetic energy fired head-on at a gold nucleus ($Z = 79$)? | $r = \frac{2Ze^2}{4\pi\varepsilon_0 E_k} = \frac{2 \times 79 \times (1.6 \times 10^{-19})^2}{4\pi \times 8.85 \times 10^{-12} \times 8.0 \times 10^{-13}} = 4.5 \times 10^{-14}\;\text{m}$
+Why does the closest-approach method only give an upper limit for nuclear radius? | The alpha particle stops and turns back before reaching the nucleus, so the closest-approach distance is larger than the radius
+Why does the strong force limit the closest-approach method for high-energy alpha particles? | Alpha particles are made of hadrons, so within a few fm of the nucleus the strong force acts on them, which the Coulomb calculation ignores
+In the closest-approach method, what does the target nucleus do that the simple calculation ignores? | It recoils as the alpha particle approaches
+Why does the closest-approach method not give a single value for nuclear radius? | The closest-approach distance depends on the alpha particle's initial kinetic energy
+In electron diffraction to measure nuclear radius, what diffracts the electrons? | Individual nuclei, not the gaps between nuclei, since the electron wavelength is far smaller than those gaps
+What does the electron diffraction pattern from a thin target look like? | A central bright spot surrounded by dimmer concentric rings
+Describe the graph of intensity against angle for electron diffraction by nuclei | Intensity falls steeply from a central maximum as angle increases, reaching a first minimum (not zero) followed by a lower secondary maximum
+Which feature of the electron diffraction intensity-angle graph is used to find nuclear radius? | The angle of the first minimum
+What equation links the angle $\theta$ of the first minimum to nuclear radius $R$ in electron diffraction? | $\sin\theta = \frac{1.22\lambda}{2R}$
+What is the radius of a nucleus that gives a first diffraction minimum at $30°$ for electrons of wavelength $4.0 \times 10^{-15}$ m? | $R = \frac{1.22\lambda}{2\sin\theta} = \frac{1.22 \times 4.0 \times 10^{-15}}{2 \times \sin 30°} = 4.9 \times 10^{-15}\;\text{m}$
+Why is electron diffraction unaffected by the strong nuclear force? | Electrons are leptons
+How does electron diffraction compare with the closest-approach method as a measure of nuclear radius? | Electron diffraction gives a direct, more accurate value. Closest approach only gives an upper limit
+What is the typical order of magnitude of a nuclear radius? | $10^{-15}$ m (a few fm)
+What equation relates nuclear radius $R$ to nucleon number $A$? | $R = R_0 A^{1/3}$, where $R_0$ is a constant
+What is the radius of a nucleus with $A = 64$ if $R_0 = 1.2$ fm? | $R = R_0 A^{1/3} = 1.2 \times 64^{1/3} = 1.2 \times 4 = 4.8$ fm
+Describe the shape of a graph of nuclear radius $R$ against nucleon number $A$ | $R$ increases with $A$ but with a steadily decreasing gradient, so $R$ is not proportional to $A$
+Which graph of nuclear radius gives a straight line through the origin, and what is its gradient? | $R$ against $A^{1/3}$, gradient $R_0$
+What is the gradient of a graph of $\ln R$ against $\ln A$ for nuclei? | $\frac{1}{3}$
+What is the y-intercept of a graph of $\ln R$ against $\ln A$ for nuclei? | $\ln R_0$
+Show how nuclear volume depends on nucleon number $A$ | $V = \frac{4}{3}\pi R^3 = \frac{4}{3}\pi R_0^3 A$, so $V \propto A$
+What is the equation for nuclear density in terms of $R_0$? | $\rho = \frac{3u}{4\pi R_0^3}$
+What is the nuclear density if $R_0 = 1.2$ fm? | $\rho = \frac{3u}{4\pi R_0^3} = \frac{3 \times 1.661 \times 10^{-27}}{4\pi \times (1.2 \times 10^{-15})^3} = 2.3 \times 10^{17}\;\text{kg m}^{-3}$
+How does nuclear density depend on nucleon number? | It is independent of nucleon number. All nuclei have about the same density
+What does the constant density of nuclear material suggest about nucleons? | They are equally spaced whatever the size of the nucleus
+What is the order of magnitude of nuclear density? | $10^{17}\;\text{kg m}^{-3}$
+What does nuclear density being far greater than atomic density suggest about the atom's mass? | Almost all of it is concentrated in the nucleus
+What does nuclear density being far greater than atomic density suggest about the atom's volume? | It is mostly empty space, with a nucleus tiny compared with the atom

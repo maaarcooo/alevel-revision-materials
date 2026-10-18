@@ -1,0 +1,77 @@
+What was the luminiferous aether? | A hypothetical medium thought to fill space and carry light waves
+Why did physicists assume light needed a medium to travel through? | All other known waves, such as sound and water waves, travel through a medium
+What was the aim of the Michelson-Morley experiment? | To detect the Earth's absolute motion through the aether
+What is meant by absolute motion? | Motion measured relative to a single fixed frame (the aether) that applies to every body in the Universe
+What is the aether wind? | The apparent flow of aether past the Earth caused by the Earth's motion through it
+According to aether theory, along which interferometer arm should a beam take longer to travel there and back? | The arm parallel to the Earth's motion through the aether
+What were the main parts of the Michelson-Morley interferometer? | Two equal-length arms at right angles, each with a mirror at its end, and a beam splitter where they meet
+What is a beam splitter? | A semi-silvered mirror that transmits part of the light and reflects the rest
+Why do the two beams in the Michelson-Morley interferometer form an interference pattern? | They come from the same source, so they are coherent
+What was the purpose of the extra glass plate in one arm of the Michelson-Morley interferometer? | To make both beams pass through the same thickness of glass and air
+Why was the Michelson-Morley interferometer floated on mercury? | So it could be rotated smoothly with minimal friction
+Why did Michelson and Morley expect the fringes to shift when the interferometer was rotated by 90°? | Rotation changes which arm is parallel to the aether wind, so the time difference between the beams would change
+How large a fringe shift did aether theory predict, and what could the apparatus detect? | About 0.4 of a fringe was predicted, and shifts of 0.05 of a fringe could be detected
+Why would fringes be seen whatever the interferometer's orientation? | The two beams always interfere. Aether theory predicted only that the pattern would shift as the apparatus was rotated
+What result did the Michelson-Morley experiment give? | A null result: no significant fringe shift at any orientation or time of day
+How was the null result of the Michelson-Morley experiment interpreted? | Absolute motion cannot be detected, refuting the idea of a fixed aether frame
+What did the Michelson-Morley null result show about the speed of light? | It is invariant: unaffected by the Earth's motion
+What speed does a stationary observer measure for light emitted by a moving source? | $c$, regardless of the source's speed
+What is a frame of reference? | A set of coordinates used to record the position and time of events
+What is an inertial frame of reference? | A frame that is not accelerating, in which Newton's first law holds
+A frame that is not accelerating, in which Newton's first law holds - what term is this? | Inertial frame of reference
+How do any two inertial frames move relative to each other? | At constant velocity
+Why can special relativity not be applied to a spacecraft whose path is bent by the Sun's gravity? | Special relativity applies only in inertial frames, and the spacecraft is accelerating
+What does special relativity say about an absolutely stationary frame of reference? | None exists: all motion is relative
+What is Galilean relativity? | Newton's laws are the same in all inertial frames, with space and time treated as absolute
+Why does Galilean velocity addition fail near the speed of light? | It can give speeds above $c$, e.g. $0.7c + 0.5c = 1.2c$, which is impossible
+State Einstein's first postulate of special relativity | The laws of physics have the same form in all inertial frames of reference
+State Einstein's second postulate of special relativity | The speed of light in free space is the same in all inertial frames of reference
+Two spaceships approach each other at $0.5c$ and $0.3c$. What speed does one measure for a radio signal from the other? | $c$, because the speed of light in free space is the same for every observer
+How is the second postulate consistent with $c = \frac{1}{\sqrt{\mu_0 \varepsilon_0}}$? | The equation contains only constants that do not depend on the frame of reference, so $c$ in free space is the same in every frame
+How do the results of an experiment on a train moving at constant velocity compare with the same experiment on the platform? | They are identical, so uniform motion cannot be detected
+What is time dilation? | A clock moving relative to an observer is measured to run slow, so the time interval it records is shorter than the observer measures
+What is proper time? | The time interval between two events measured by an observer at rest relative to them, so both events occur at the same position
+The time interval between two events measured by an observer at rest relative to them - what term is this? | Proper time
+What is the time dilation equation? | $t = \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}$, where $t_0$ is the proper time
+What is the gamma factor? | $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+What range of values can the gamma factor take? | $\gamma \geq 1$: equal to 1 when $v = 0$, tending to infinity as $v \to c$
+Two observers move at high speed relative to each other. How does each measure the other's clock? | Each measures the other's clock running slow
+Explain why a light clock moving relative to an observer is measured to tick slower | The observer sees the light follow a longer diagonal path at the same speed $c$ (second postulate), so each tick takes longer
+A clock moving at $0.6c$ records $8.0\ \text{s}$. What time interval does a stationary observer measure? | $t = \frac{8.0}{\sqrt{1 - 0.6^2}} = \frac{8.0}{0.8} = 10\ \text{s}$
+What is length contraction? | An object moving relative to an observer is measured to be shorter than its proper length
+What is proper length? | The length of an object measured by an observer at rest relative to it
+The length of an object measured by an observer at rest relative to it - what term is this? | Proper length
+What is the length contraction equation? | $l = l_0\sqrt{1 - \frac{v^2}{c^2}}$, where $l_0$ is the proper length
+Along which direction does length contraction occur? | Only along the direction of relative motion
+How must an observer measure the length of a moving object? | Record the positions of both ends at the same time in their own frame
+A rod of proper length $5.0\ \text{m}$ moves at $0.8c$. What length does a stationary observer measure? | $l = 5.0\sqrt{1 - 0.8^2} = 5.0 \times 0.6 = 3.0\ \text{m}$
+Where are muons produced? | In the upper atmosphere, from the decay of pions produced by cosmic rays
+Muons with a half-life of $1.5\ \mu\text{s}$ travel 10 km at $0.98c$. Using Newtonian physics, about how many half-lives pass? | $t = \frac{1.0 \times 10^4}{0.98 \times 3.0 \times 10^8} = 3.4 \times 10^{-5}$ s, about 23 half-lives, so very few muons would reach the ground
+Explain, in the Earth's frame, why many more muons reach the ground than Newtonian physics predicts | The muons' half-life is dilated by $\gamma$, so far fewer half-lives pass during the journey
+Explain, in the muons' frame, why many more muons reach the ground than Newtonian physics predicts | The distance to the ground is length-contracted by $\gamma$, so the journey takes far fewer half-lives
+In the muon experiment, in which frame is the proper time of the muon half-life measured? | The muon's rest frame
+In the muon experiment, in which frame is the proper length of the journey measured? | The Earth's frame
+What measurements give evidence of time dilation from muons? | Muon count rates at high altitude and at ground level. Far more muons reach the ground than expected without time dilation
+What is rest mass? | The mass of an object measured by an observer at rest relative to it, $m_0$
+What is the equation for relativistic mass? | $m = \frac{m_0}{\sqrt{1 - \frac{v^2}{c^2}}}$
+Describe how the relativistic mass of an object varies with its speed | Close to $m_0$ at low speeds, then rising steeply towards infinity as $v \to c$
+What is the equation for the total energy of an object moving at speed $v$? | $E = mc^2 = \frac{m_0c^2}{\sqrt{1 - \frac{v^2}{c^2}}}$
+What is the equation for the rest energy of an object? | $E_0 = m_0c^2$
+What is the equation for relativistic kinetic energy? | $E_k = mc^2 - m_0c^2$
+Why is $\frac{1}{2}mv^2$ with the relativistic mass wrong for relativistic kinetic energy? | Kinetic energy is total energy minus rest energy, $E_k = mc^2 - m_0c^2$, which does not equal $\frac{1}{2}mv^2$
+How does relativistic kinetic energy vary with speed compared with Newtonian kinetic energy? | Almost equal at low speeds, but at high speeds relativistic $E_k$ is greater and rises towards infinity as $v \to c$
+Why can no object with mass be accelerated to the speed of light? | It would need an infinite amount of energy
+When must relativistic rather than Newtonian kinetic energy be used? | When the speed is a significant fraction of $c$
+Electrons pass through several equal accelerating pds. How do the gains in kinetic energy and speed compare between the first and last stages? | Each stage adds the same kinetic energy, $eV$, but the speed gain is far smaller in the last stage as the speed approaches $c$
+A particle with rest energy $938\ \text{MeV}$ moves at $0.6c$. What is its total energy? | $E = \frac{938}{\sqrt{1 - 0.6^2}} = \frac{938}{0.8} \approx 1170\ \text{MeV}$
+An electron with rest energy $0.511\ \text{MeV}$ has $\gamma = 3.0$. What is its kinetic energy? | $E_k = (\gamma - 1)m_0c^2 = 2.0 \times 0.511 = 1.02\ \text{MeV}$
+What did Bertozzi's experiment provide direct evidence for? | The relativistic variation of kinetic energy with speed
+How did Bertozzi give electrons different kinetic energies? | By accelerating them from rest through different potential differences
+How did Bertozzi measure the speed of the electrons? | Timed their flight between two signal points a known distance apart using an oscilloscope, then speed = distance / time
+Why did the electrons in Bertozzi's experiment travel at constant speed after leaving the electric field? | No forces acted on them in the evacuated tube
+What graph did Bertozzi plot? | Speed squared ($v^2$) against kinetic energy
+How do the Newtonian and relativistic predictions differ for Bertozzi's graph of $v^2$ against $E_k$? | Newtonian: straight line through the origin, with $v^2$ exceeding $c^2$. Relativistic: $v^2$ levels off, approaching $c^2$
+Which prediction did Bertozzi's results support? | The relativistic one: electron speeds approached but never exceeded $c$
+How did Bertozzi independently check the electrons' kinetic energy? | Measured the energy gained by the aluminium target using $\Delta E = mc\Delta\theta$, then divided by the number of electrons
+In Bertozzi's experiment, how was the number of electrons hitting the target found? | Total charge collected divided by the electron charge, $n = \frac{Q}{e}$
+A target collects $3.2\ \mu\text{C}$ of charge from electrons. How many electrons hit it? | $n = \frac{3.2 \times 10^{-6}}{1.6 \times 10^{-19}} = 2.0 \times 10^{13}$

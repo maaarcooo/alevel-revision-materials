@@ -81,6 +81,8 @@ Settled owners for ideas that cross topics:
 | The electron volt and unit conversions | 1.1 |
 | Precision, accuracy, repeatability, reproducibility, parallax and zero errors | 1.2 |
 | Photon energy, the Planck constant, the neutrino hypothesis | 2.1 |
+| Alpha and beta particles and their decay equations, the range of the strong nuclear force | 2.1 |
+| Electron capture | 2.3 |
 | Exchange particles | 2.3 |
 | Wave-particle duality, the de Broglie wavelength | 2.5 |
 | Frequency and period, $f = \frac{1}{T}$ | 3.1 |
@@ -99,14 +101,17 @@ Settled owners for ideas that cross topics:
 | Simple harmonic motion, the restoring force, amplitude and the equilibrium position of an oscillator | 6.2 |
 | Damping, natural frequency, free and forced vibrations, resonance | 6.3 |
 | Why an ideal gas has no potential energy, $Q = mc\Delta\theta$ and the units of $\Delta\theta$ | 6.4 |
-| The gas constants and $k = \frac{R}{N_A}$ | 6.5 |
+| The gas constants and $k = \frac{R}{N_A}$, moles, molar mass and the Avogadro constant | 6.5 |
 | The internal energy of an ideal gas, how gas molecules exert a pressure | 6.6 |
 | Force fields, the inverse square law, where $r$ is measured from | 7.1 |
 | What an equipotential surface is, and why equipotentials have no arrows | 7.2 |
 | Comparing gravitational and electric fields, how $E$ varies with $r$ for a point charge | 7.4 |
 | $\Delta W = Q\Delta V$, the equipotentials of electric fields, the sign of electric potential | 7.5 |
 | How electrons move as a capacitor charges and discharges | 7.7 |
+| The force on a charge moving in a magnetic field, the radius of its circular path | 7.8 |
 | Magnetic flux and flux linkage | 7.9 |
+| Mass-energy equivalence, $E = mc^2$ for all energy changes | 8.4 |
+| Thermionic emission and the electron gun | 12.1 |
 
 When a new overlap turns up, settle it by the specification, move the definition to the owner, and add the row here.
 
@@ -154,11 +159,15 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 | Physics 6.1 to 6.3 | Written to them on 10 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
 | Physics 6.4 to 6.6 | 8 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
 | Physics 7.1 to 7.10 | 10 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
+| Physics 8.1 to 8.4 | Written to them on 18 October 2026 | 19 October 2026, against A-level papers | Not yet |
+| Physics 12.1 to 12.3 (Turning Points) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 3BD | Not yet |
 
 Still to do:
 
-- **Physics topic 8 (Nuclear physics) and the Turning Points in Physics option** have no
-  decks yet. Marco takes the Turning Points option, which Paper 3BD examines.
+- **Notes for Physics topic 8 (Nuclear physics) and Turning Points.** The decks exist.
+  Marco takes the Turning Points option, which Paper 3BD examines, and its decks sit in
+  `physics/flashcards/12. Turning Points in Physics`, numbered after specification
+  section 3.12.
 
 ## Note rules
 

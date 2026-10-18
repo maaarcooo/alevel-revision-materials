@@ -1,0 +1,95 @@
+What is Newton's corpuscular theory of light? | Light is made of tiny particles (corpuscles) emitted by luminous objects
+What did corpuscular theory predict about objects that emit light? | They slowly lose mass
+How did corpuscular theory explain reflection? | A repulsive force from the surface reverses the velocity component perpendicular to it and leaves the parallel component unchanged
+How did corpuscular theory explain light bending towards the normal on entering a denser medium? | A short-range attraction at the boundary increases the velocity component perpendicular to it, while the parallel component is unchanged
+Which two phenomena of light could corpuscular theory not explain? | Diffraction and interference
+How did corpuscular theory explain sharp shadows? | Corpuscles travel in straight lines
+What is Huygens' theory of light? | Light is a wave that travels as a series of wavefronts
+What medium did Huygens propose light travels through? | The luminiferous aether, a massless medium filling the Universe
+What is Huygens' principle? | Every point on a wavefront acts as a secondary source of wavelets, which combine to form the next wavefront
+How did Huygens' wave theory explain reflection? | Different parts of the wavefront reach the surface at different times, and each point of reflection emits new wavelets, so the new wavefront forms in a new direction
+How did Huygens' wave theory explain refraction? | The part of the wavefront that reaches the boundary first slows down before the rest, so the wavefront changes direction
+How do corpuscular and wave theory predictions differ for the speed of light entering a denser medium? | Corpuscular theory: light speeds up. Wave theory: light slows down
+Which two phenomena of light could both corpuscular and wave theory explain? | Reflection and refraction
+What factor about Newton himself favoured his theory of light over Huygens'? | Newton was already highly respected for his work on motion and gravity
+What experimental limitation stopped the corpuscular and wave theories being tested against each other at the time? | The speed of light in a dense medium could not be measured, and diffraction of light had not been observed
+What did Young's double slit experiment produce on the screen? | Alternating bright and dark interference fringes
+What pattern does corpuscular theory predict for light passing through two slits? | Only two bright regions, one behind each slit
+Why is a single slit placed before the double slit in Young's experiment? | Light diffracting from the single slit reaches both slits in phase, so the two slits act as coherent sources
+Explain how wave theory accounts for the fringes in Young's double slit experiment | Wavelets from the two slits overlap. Bright fringes form where the path difference is a whole number of wavelengths (in phase), dark fringes where it is an odd number of half wavelengths (antiphase)
+Which theory of light did Young's double slit experiment provide evidence for? | Huygens' wave theory
+Whose measurement of the speed of light in water supported wave theory over corpuscular theory? | Foucault's
+What did Foucault find about the speed of light in water compared with air? | It is slower in water, as wave theory predicted
+What did Maxwell's equations predict the existence of? | Electromagnetic waves
+What is an electromagnetic wave? | Oscillating electric and magnetic fields in phase, perpendicular to each other and to the direction of travel
+What produces an electromagnetic wave? | An accelerating charge
+Why can electromagnetic waves travel without a medium? | The changing electric field generates a changing magnetic field and vice versa, so the wave is self-propagating
+What is Maxwell's equation for the speed of electromagnetic waves in a vacuum? | $c = \frac{1}{\sqrt{\mu_0 \varepsilon_0}}$
+What is $\mu_0$? | The permeability of free space, which relates magnetic flux density to the current producing it in free space
+What is $\varepsilon_0$? | The permittivity of free space, which relates electric field strength to the charged object producing it in free space
+What speed do $\mu_0 = 4\pi \times 10^{-7}\ \text{H m}^{-1}$ and $\varepsilon_0 = 8.85 \times 10^{-12}\ \text{F m}^{-1}$ give for electromagnetic waves? | $c = \frac{1}{\sqrt{4\pi \times 10^{-7} \times 8.85 \times 10^{-12}}} = 3.00 \times 10^{8}\ \text{m s}^{-1}$
+How did Hertz produce radio waves? | A high voltage across a short air gap made sparks jump the gap, and the sparks emitted radio waves
+What showed that Hertz's wire loop detector was receiving radio waves? | Sparks across a small gap in the loop
+Besides a wire loop, what detector did Hertz use for radio waves? | Two parallel metal rods at the centre of a concave metal sheet, across which an oscillating pd was induced
+How did Hertz show that radio waves can be reflected? | A metal screen placed behind the transmitter gave a stronger signal at the detector
+How did Hertz show that radio waves pass through insulators? | Placing an insulator between transmitter and detector made no difference to the signal
+What did Hertz show by rotating his detector through 90° about the line to the transmitter? | The radio waves were plane polarised (the sparks stopped)
+Why were the radio waves from Hertz's transmitter polarised? | Charges in the transmitter were accelerated in one direction only
+How did Hertz set up a standing wave to measure the speed of radio waves? | He reflected the waves off a flat metal sheet so the incident and reflected waves interfered
+How did Hertz find the wavelength of his standing radio waves? | He moved the detector to locate antinodes (strongest signal). Adjacent antinodes are $\frac{\lambda}{2}$ apart
+How did Hertz know the frequency of his radio waves? | From the properties of the transmitter circuit
+What did Hertz's measured speed of radio waves show? | It matched the speed Maxwell predicted for electromagnetic waves, confirming Maxwell's theory
+What did scientists believe about the speed of light before it was measured? | It was infinite (light travelled instantaneously)
+What was Fizeau's apparatus for measuring the speed of light? | A light beam passed through a gap in a rapidly rotating toothed wheel to a mirror several kilometres away, then back through the wheel to an observer
+What was the purpose of the toothed wheel in Fizeau's experiment? | To chop the continuous beam into regular pulses of light
+At what condition did Fizeau's observer first see no returning light? | Light that passed through a gap returned to find the adjacent tooth in its place
+In Fizeau's experiment, what is the round-trip time of the light? | $t = \frac{2d}{c}$, where $d$ is the distance from wheel to mirror
+For a toothed wheel with $n$ teeth rotating at frequency $f$, how long does a gap take to be replaced by the adjacent tooth? | $t = \frac{1}{2nf}$
+What is Fizeau's equation for the speed of light? | $c = 4dnf$, where $d$ is the wheel-to-mirror distance, $n$ the number of teeth and $f$ the wheel's rotation frequency
+What speed of light is found with a mirror 8.6 km away and a 720-tooth wheel that first blocks the returning light at 12.6 revolutions per second? | $c = 4dnf = 4 \times 8600 \times 720 \times 12.6 = 3.1 \times 10^{8}\ \text{m s}^{-1}$
+In Fizeau's experiment, at what rotation frequency does the returning light first reappear at maximum brightness? | Twice the frequency at which it first disappeared
+In Fizeau's experiment, at what rotation frequency is the returning light next blocked after $f_0$? | $3f_0$, when the light passes a gap and meets the following tooth
+What did the match between Fizeau's speed of light and Maxwell's predicted speed suggest? | Light is an electromagnetic wave
+What is a black body? | An object that absorbs all the radiation incident on it, reflecting and transmitting none
+An object that absorbs all the radiation incident on it, reflecting and transmitting none - what is this? | A black body
+Why would a perfect black body also be the best possible emitter? | A good absorber is also a good emitter
+What is black-body radiation? | Electromagnetic radiation emitted by a black body, with a spectrum whose peak depends only on its temperature
+How does the wavelength of peak intensity of a black-body spectrum change as temperature increases? | It decreases
+In which region of the spectrum does an object at room temperature emit most intensely? | Infrared
+What was the ultraviolet catastrophe? | Classical wave theory predicted black-body intensity rising without limit as wavelength decreased into the ultraviolet, contradicting experiment
+How did experimental black-body curves differ from the classical prediction? | Experiment showed a peak, with intensity falling to zero at short wavelengths. Theory agreed only at long wavelengths
+What did Planck propose to resolve the ultraviolet catastrophe? | Electromagnetic radiation is emitted in quanta, each with energy proportional to its frequency
+What is Planck's equation for the energy of an oscillator of frequency $f$? | $E = nhf$, where $n$ is an integer
+What did classical wave theory predict for photoelectric emission using high-intensity radiation below the threshold frequency? | Electrons would eventually be emitted, since waves transfer energy continuously
+What did classical wave theory predict about the delay before photoelectric emission with weak radiation? | A delay while electrons absorbed enough energy, as the wave's energy is spread over the surface
+What did classical wave theory predict about how intensity affects photoelectron kinetic energy? | Greater intensity would give each electron more kinetic energy
+What is observed when low-intensity radiation above the threshold frequency falls on a metal? | Photoelectrons are emitted immediately
+What did Einstein propose electromagnetic radiation consists of? | Discrete packets of energy (photons), each of energy $E = hf$
+Whose work did Einstein's explanation of photoelectricity build on? | Planck's quantisation of energy in black-body radiation
+What is the de Broglie wavelength of an electron accelerated from rest through a pd $V$? | $\lambda = \frac{h}{\sqrt{2meV}}$
+What accelerating pd gives an electron a de Broglie wavelength of $1.5 \times 10^{-10}$ m, about the size of an atom? | $V = \frac{h^2}{2me\lambda^2} = \frac{(6.63 \times 10^{-34})^2}{2 \times 9.11 \times 10^{-31} \times 1.60 \times 10^{-19} \times (1.5 \times 10^{-10})^2} = 67\ \text{V}$
+By what factor does an electron's de Broglie wavelength change when its accelerating pd is multiplied by 25? | It falls to $\frac{1}{5}$ of its original value
+How does electron diffraction support de Broglie's hypothesis as the anode pd is raised? | A higher pd gives the electrons more momentum and the rings shrink, showing a shorter wavelength, as $\lambda = \frac{h}{p}$ predicts
+How is the electron diffraction pattern made visible? | A fluorescent (phosphor) screen glows where electrons strike
+What is the resolving power of a microscope? | Its ability to distinguish between two nearby points on an object
+Its ability to distinguish between two nearby points on an object - what property of a microscope is this? | Resolving power
+How does the wavelength used affect a microscope's resolving power? | Shorter wavelength gives higher resolving power (finer detail)
+Why can electron microscopes resolve more detail than light microscopes? | Electrons have a much shorter wavelength than visible light
+What focuses the electron beam in a transmission electron microscope (TEM)? | Magnetic lenses
+What is the function of the condenser lens in a TEM? | It deflects the electrons into a wide parallel beam that is uniformly incident on the sample
+What is the function of the objective lens in a TEM? | It forms an image of the sample
+What is the function of the projector lens in a TEM? | It casts a magnified second image onto the fluorescent screen
+Why does passing through the sample reduce a TEM's resolution? | The electrons slow down, so their wavelength increases
+Why do electrons in a TEM beam have a range of speeds? | They leave the gun at different speeds and are slowed by different amounts in the sample
+Why does a range of electron speeds blur a TEM image? | Magnetic lenses deflect electrons of different speeds by different amounts, so electrons from one point on the sample land at a range of positions
+What is the probe of a scanning tunnelling microscope (STM)? | A very fine tip, only a few atoms across
+What moves the tip of an STM? | Piezoelectric transducers, in tiny increments in any direction
+How is an STM tip arranged relative to the sample surface? | Held very close to the surface at a constant pd
+What is the tunnelling current in an STM? | The current produced by electrons tunnelling across the gap between the sample surface and the tip
+What happens to the tunnelling current when the gap between STM tip and surface decreases? | It increases
+In constant current mode, how does an STM keep the tunnelling current constant? | The tip moves up or down to keep the gap the same
+How do constant height and constant current STM modes differ in what they record to map the surface? | Constant height: changes in tunnelling current. Constant current: the vertical movement of the tip
+Explain how electrons can tunnel across the gap in an STM | They lack the energy to cross the gap, a potential barrier, but their wave nature gives a small probability of being found on the other side
+What condition must a barrier meet for quantum tunnelling to occur? | It must be very narrow (a small enough gap)
+Why does an STM have very high resolving power? | The tunnelling current is very sensitive to changes in gap width
+What can STM images show? | Individual atoms on a surface

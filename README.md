@@ -1,17 +1,17 @@
 # A-Level Revision Materials
 
 Flashcards and revision notes for **OCR A-Level Computer Science** (H446) and
-**AQA A-Level Physics** (topics 1 to 7).
+**AQA A-Level Physics** (topics 1 to 8 and the Turning Points in Physics option).
 
 There is one copy of each deck and each note. They are improved in place, so there are
 no version numbers in file or folder names. The history is in git, and
 [CHANGELOG.md](CHANGELOG.md) records what changed and where the content came from.
 
 All content is AI-generated and checked against the exam board specifications. Computer
-Science topics 1 to 8 and Physics topics 1 to 7 have also been compared with past-paper
+Science topics 1 to 8 and every Physics deck have also been compared with past-paper
 mark schemes and examiner reports (OCR AS and A-Level papers for Computer Science, AQA
-A-level papers for all seven Physics topics, and AQA AS papers for Physics topics 1 to 5
-as well).
+A-level papers for all Physics topics including Turning Points, and AQA AS papers for
+Physics topics 1 to 5 as well).
 Always verify anything important against the official specification.
 
 ## What is here
@@ -19,9 +19,10 @@ Always verify anything important against the official specification.
 | Subject | Decks | Cards | Notes |
 |---------|------:|------:|------:|
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
-| Physics (AQA 7408, topics 1 to 7) | 40 | 2222 | 40 |
+| Physics (AQA 7408, topics 1 to 8 and Turning Points) | 47 | 2772 | 40 |
 
-Each subtopic has one flashcard deck and one note with the same name.
+Each subtopic has one flashcard deck and one note with the same name. Physics topic 8 and
+Turning Points have decks but no notes yet.
 
 ## Layout
 

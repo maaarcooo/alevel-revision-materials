@@ -1,0 +1,62 @@
+What is a cathode? | A negatively charged electrode
+What is an anode? | A positively charged electrode
+What is a discharge tube? | A glass tube of low-pressure gas with an anode at one end and a cathode at the other, connected to a high-voltage supply
+What are cathode rays? | Beams of electrons emitted from the cathode
+What showed that cathode rays are negatively charged particles? | Their deflection by a magnetic field in the direction expected for a negative charge
+In Crookes' tube, a paddle wheel turned and moved towards the anode. What did this show about cathode rays? | They are particles carrying momentum and energy from the cathode towards the anode
+How are cathode rays produced in a discharge tube? | The strong electric field ionises gas atoms. Positive ions accelerate into the cathode and release electrons, which are accelerated towards the anode
+In a discharge tube, which way do the electrons and positive ions move? | Electrons move towards the anode, positive ions towards the cathode
+Why must the gas in a discharge tube be at low pressure? | The particles are widely spaced, so charged particles can accelerate to high kinetic energy between collisions
+Explain how recombination produces light in a discharge tube | Positive ions and electrons collide and recombine into atoms in excited states. These de-excite to the ground state, emitting photons
+Explain how collisions between fast electrons and gas atoms produce light in a discharge tube | The electrons excite the gas atoms. The atoms then de-excite, emitting photons
+What is thermionic emission? | The emission of electrons from a heated metal surface
+The emission of electrons from a heated metal surface - what term is this? | Thermionic emission
+Explain why heating a metal filament causes it to emit electrons | Its electrons gain enough kinetic energy to escape the metal surface
+In thermionic emission, what is the role of the current through the filament? | It heats the filament. The high temperature, not the current itself, gives electrons enough energy to escape
+What is an electron gun? | A device that emits electrons from a heated cathode and accelerates them towards an anode to form a beam
+How does an electron gun produce a narrow beam of electrons? | Electrons accelerated towards the anode pass through a small hole in its centre
+What pds does an electron gun use? | A low pd (a few volts) to heat the filament, and a high pd (hundreds of volts or more) to accelerate the electrons
+What must surround the filament and anode of an electron gun, and why? | A vacuum or very low-pressure gas, so the electrons are not stopped or scattered by gas molecules
+What speed do electrons reach in an electron gun with anode pd $V$? | $v = \sqrt{\frac{2eV}{m_e}}$, from $\frac{1}{2}m_e v^2 = eV$
+What speed do electrons reach in an electron gun with an anode pd of 500 V? | $v = \sqrt{\frac{2 \times 1.60 \times 10^{-19} \times 500}{9.11 \times 10^{-31}}} = 1.33 \times 10^{7}\;\text{m s}^{-1}$
+Why does an electron beam moving perpendicular to a uniform magnetic field follow a circular path? | The magnetic force is always perpendicular to the velocity, so it provides the centripetal force
+In the magnetic-field method, what expression for electron speed comes from equating magnetic and centripetal force? | $v = \frac{Ber}{m_e}$, from $Bev = \frac{m_e v^2}{r}$
+What is the specific charge of electrons accelerated through anode pd $V_A$ that then move in a circle of radius $r$ in a field $B$? | $\frac{e}{m_e} = \frac{2V_A}{B^2 r^2}$
+Electrons accelerated through 200 V move in a circle of radius $4.8 \times 10^{-2}$ m in a $1.0 \times 10^{-3}$ T field. What is their specific charge? | $\frac{e}{m_e} = \frac{2V_A}{B^2 r^2} = \frac{2 \times 200}{(1.0 \times 10^{-3})^2 \times (4.8 \times 10^{-2})^2} = 1.7 \times 10^{11}\;\text{C kg}^{-1}$
+Why does a fine beam tube contain a low-pressure gas? | Electrons excite the gas atoms, which emit light, making the circular path visible so its radius can be measured
+In Thomson's crossed-field method, what produces the uniform magnetic field? | Helmholtz coils
+In the crossed-field method, what condition makes the electron beam travel in a straight line? | The electric force is equal in magnitude and opposite in direction to the magnetic force, so the resultant force is zero
+What is the speed of electrons passing undeflected through crossed fields with plate pd $V$, plate separation $d$ and flux density $B$? | $v = \frac{V}{Bd}$
+Electrons pass undeflected between plates 5.0 cm apart with pd 200 V in a $2.0 \times 10^{-3}$ T magnetic field. What is their speed? | $v = \frac{V}{Bd} = \frac{200}{2.0 \times 10^{-3} \times 0.050} = 2.0 \times 10^{6}\;\text{m s}^{-1}$
+In the crossed-field method, how is the radius $r$ of the beam's path found? | Switch off the electric field and measure the radius of the circular path in the magnetic field alone
+What expression for specific charge does the crossed-field method give? | $\frac{e}{m_e} = \frac{V}{B^2 r d}$
+In the crossed-field method, how is the specific charge found from the accelerating pd $V_A$? | $\frac{e}{m_e} = \frac{v^2}{2V_A}$, with $v = \frac{V}{Bd}$ from the balanced fields
+For an electron beam deflected between parallel plates, which component of its velocity stays constant? | The component perpendicular to the electric field
+How long does an electron with speed $v$ parallel to the plates spend between plates of length $w$? | $t = \frac{w}{v}$
+What is the acceleration of an electron between parallel plates separated by $d$ with pd $V$? | $a = \frac{eV}{d m_e}$
+What is the vertical deflection $y$ of an electron leaving plates of length $w$, having entered parallel to them at speed $v$? | $y = \frac{1}{2}a\frac{w^2}{v^2}$
+How is the specific charge found from the electrons' vertical acceleration $a$ between the plates? | $\frac{e}{m_e} = \frac{ad}{V}$, from $m_e a = \frac{eV}{d}$
+How did Thomson's specific charge for cathode-ray particles compare with that of the hydrogen ion, the largest then known? | It was much larger, about 1800 times
+What two explanations could account for the electron's specific charge being much larger than the hydrogen ion's? | The electron has a much smaller mass, or a much larger charge
+Why could a measurement of $\frac{e}{m_e}$ alone not show whether the electron had a small mass or a large charge? | Specific charge is a ratio, so charge and mass cannot be separated from it
+What did Millikan's oil drop experiment determine? | The charge of the electron
+Why did Millikan use oil drops rather than water drops? | Oil does not evaporate quickly, so each drop's mass stays constant
+How are the oil drops observed in Millikan's experiment? | Through a microscope
+What is the condition for a charged oil drop to be held stationary between parallel plates? | $\frac{QV}{d} = mg$
+What is adjusted to hold a charged oil drop stationary between the plates? | The potential difference between the plates
+An oil drop of mass $1.6 \times 10^{-15}$ kg is held stationary between plates 10 mm apart with a pd of 980 V. What is its charge? | $Q = \frac{mgd}{V} = \frac{1.6 \times 10^{-15} \times 9.81 \times 0.010}{980} = 1.6 \times 10^{-19}\;\text{C}$
+What is Stokes' law? | The viscous drag on a sphere of radius $r$ moving at speed $v$ through a fluid of viscosity $\eta$ is $F = 6\pi\eta r v$
+Under what conditions does Stokes' law apply? | A small, spherical object moving at low speed
+What is the unit of viscosity? | Pa s (N s m$^{-2}$)
+What is the drag on a sphere of radius $1.0 \times 10^{-6}$ m moving at $1.0 \times 10^{-4}$ m s$^{-1}$ through air of viscosity $1.8 \times 10^{-5}$ Pa s? | $F = 6\pi\eta r v = 6\pi \times 1.8 \times 10^{-5} \times 1.0 \times 10^{-6} \times 1.0 \times 10^{-4} = 3.4 \times 10^{-14}\;\text{N}$
+Why are the oil drops allowed to fall with the electric field switched off? | To measure their terminal velocity, from which each drop's radius and mass are found
+How is the terminal velocity of an oil drop measured? | By timing the drop as it falls a known distance
+What forces balance on an oil drop falling at terminal velocity with no electric field? | Weight and viscous drag: $mg = 6\pi\eta r v$
+What forces balance on an oil drop rising at constant speed $v$ with the field on? | $\frac{QV}{d} = mg + 6\pi\eta r v$
+What is the mass of a spherical oil drop of radius $r$ and density $\rho$? | $m = \frac{4}{3}\pi r^3 \rho$
+What expression gives the radius of an oil drop falling at terminal velocity $v$ with no electric field? | $r = \sqrt{\frac{9\eta v}{2\rho g}}$
+What two assumptions are made in finding an oil drop's radius from its terminal velocity? | The drop is spherical, and the upthrust from the air is negligible
+Which two measurements on each oil drop let Millikan find its charge? | Its terminal velocity with the field off, and the pd needed to hold it stationary
+What pattern did Millikan find in the charges on the oil drops? | Every charge was an integer multiple of $1.60 \times 10^{-19}$ C
+What is meant by quantisation of electric charge? | Charge exists only in integer multiples of the electron charge $e$
+Why does a charged oil drop always carry an integer multiple of $e$? | It has gained or lost a whole number of electrons

@@ -3,6 +3,73 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-19: Physics topic 8 and Turning Points added and checked
+
+New decks for topic 8 (8.1 to 8.4, Nuclear physics) and for the Turning Points in Physics
+option (12.1 to 12.3, specification section 3.12, examined in Paper 3BD). They were
+generated, then checked against the specification and the A-level papers from 2017 to
+2025: Paper 2 and Paper 3A for topic 8, and every Turning Points section of Paper 3BD,
+each with its examiner report. Physics now has 47 decks and 2772 cards. Topic 8 and
+Turning Points have no notes yet.
+
+**Facts corrected**
+
+- 12.2: the speed of light in water was measured, and found slower than in air, by
+  Foucault. The cards credited Fizeau (2025 Paper 3BD Q03).
+- 12.2: Hertz's measured speed of radio waves confirmed Maxwell's prediction for the
+  speed of electromagnetic waves. The card said it showed radio waves are electromagnetic,
+  which the 2025 examiner report says gets no credit.
+- 12.2: Planck proposed that radiation is emitted in quanta, with energy proportional to
+  frequency. The card said "discrete packets", and 2020 Paper 3BD Q02.3 does not condone
+  "packet" for quanta.
+- 12.2: an electromagnetic wave's electric and magnetic fields oscillate in phase. The
+  card left out "in phase" (2019 Paper 3BD Q02.3).
+- 12.2: the classical prediction for black-body radiation agreed with experiment at long
+  wavelengths, and experiment shows intensity falling to zero at short wavelengths
+  (2025 Paper 3BD Q02.1).
+- 12.1: cathode rays come from the cathode when positive ions strike it. The card said
+  only that electrons are "also emitted" from it (2017 and 2020 Paper 3BD Q01).
+- 8.4: the coolant carries thermal energy to the heat exchanger. The card said only that
+  it removes heat from the core (2024 Paper 2 Q04.1). Reactor shielding absorbs neutrons
+  as well as gamma radiation, and is steel and concrete rather than lead.
+- 8.4: other coolants are now carbon dioxide gas and liquid sodium, the ones the papers
+  use, in place of molten salt and helium.
+- 8.2: the half-life is written $T_{1/2}$, as on the data and formulae sheet.
+
+**Added from the mark schemes**
+
+- 8.1: testing data against the inverse-square law by checking $Cx^2$ is constant at three
+  or more distances.
+- 8.2: modelling decay with dice, where $\lambda = \frac{1}{n}$ per throw.
+- 8.3: the X-rays and gamma rays emitted after electron capture, technetium-99m emitting
+  only gamma rays, and the closest-approach distance depending on the alpha particle's
+  energy.
+- 8.4: $E = mc^2$ for any energy change (a stretched spring), a worked D-T fusion energy,
+  why fission fragments decay by $\beta^-$, the properties of a coolant, U-238 not
+  undergoing fission, and why a moderator needs light nuclei.
+- 12.1: Crookes' paddle wheel, the two pds in an electron gun, the fine beam tube's gas,
+  $\frac{e}{m} = \frac{v^2}{2V_A}$ and $\frac{e}{m} = \frac{ad}{V}$, the forces on a
+  rising oil drop and the assumptions in finding its radius.
+- 12.2: corpuscles' straight-line paths, Fizeau's next dark frequency $3f_0$ and what his
+  result implied, the classical predictions for the photoelectric effect, and electron
+  diffraction as support for de Broglie's hypothesis.
+- 12.3: the size of the expected and detectable fringe shift, why fringes appear in
+  every orientation, why special relativity does not apply to an accelerating
+  spacecraft, applying the second postulate, the muon measurements, and why
+  $\frac{1}{2}mv^2$ with relativistic mass is wrong.
+
+**Removed**
+
+- Cards that repeat a definition another deck owns: alpha and beta particles, the strong
+  force's range, electron capture, ionisation, de Broglie's equation, the photoelectric
+  observations, electron diffraction rings, specific charge, $F = BQv$, $r = \frac{mv}{BQ}$,
+  $W = QV$, moles and molar mass, atomic and nuclear sizes, and mass-energy equivalence
+  in 12.3.
+- Trivia and figures beyond the specification: Dalton's and Bohr's models, the
+  quantum-mechanical model, potassium-40 in bananas, half-lives that questions supply,
+  the formation of carbon-14, and the costs of commissioning a power station.
+- Fill-in-the-blank cards, rewritten as questions.
+
 ## 2026-10-16: Physics topics 1 to 5 checked against A-level papers
 
 Topics 1 to 5 had their mark-scheme pass against the AS papers on 5 October. The A-level

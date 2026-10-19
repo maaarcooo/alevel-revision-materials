@@ -19,10 +19,9 @@ Always verify anything important against the official specification.
 | Subject | Decks | Cards | Notes |
 |---------|------:|------:|------:|
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
-| Physics (AQA 7408, topics 1 to 8 and Turning Points) | 47 | 2772 | 40 |
+| Physics (AQA 7408, topics 1 to 8 and Turning Points) | 47 | 2772 | 47 |
 
-Each subtopic has one flashcard deck and one note with the same name. Physics topic 8 and
-Turning Points have decks but no notes yet.
+Each subtopic has one flashcard deck and one note with the same name.
 
 ## Layout
 

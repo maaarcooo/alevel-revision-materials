@@ -159,15 +159,12 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 | Physics 6.1 to 6.3 | Written to them on 10 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
 | Physics 6.4 to 6.6 | 8 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
 | Physics 7.1 to 7.10 | 10 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
-| Physics 8.1 to 8.4 | Written to them on 18 October 2026 | 19 October 2026, against A-level papers | Not yet |
-| Physics 12.1 to 12.3 (Turning Points) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 3BD | Not yet |
+| Physics 8.1 to 8.4 | Written to them on 18 October 2026 | 19 October 2026, against A-level papers | 19 October 2026 |
+| Physics 12.1 to 12.3 (Turning Points) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 3BD | 19 October 2026 |
 
-Still to do:
-
-- **Notes for Physics topic 8 (Nuclear physics) and Turning Points.** The decks exist.
-  Marco takes the Turning Points option, which Paper 3BD examines, and its decks sit in
-  `physics/flashcards/12. Turning Points in Physics`, numbered after specification
-  section 3.12.
+Every Physics topic now has decks and notes. Marco takes the Turning Points option, which
+Paper 3BD examines. Its decks and notes sit in `12. Turning Points in Physics` folders,
+numbered after specification section 3.12.
 
 ## Note rules
 

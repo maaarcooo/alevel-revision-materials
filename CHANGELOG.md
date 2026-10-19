@@ -3,6 +3,41 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-19: Revision notes for Physics topic 8 and Turning Points
+
+Seven new notes, for 8.1 to 8.4 and 12.1 to 12.3, written from the Save My Exams and PMT
+source notes with the `revision-notes-generator` skill. Each follows the AQA 7408
+specification sections named on its first line, matches the facts in its deck after the
+mark-scheme pass below, and carries the wording the A-level mark schemes credit (the
+coolant carrying heat to the heat exchanger, Planck's quanta, the fields of an
+electromagnetic wave in phase). 8.4 adds the simple mechanical model of moderation that
+specification 3.8.1.7 asks for. No deck changed. Physics now has 47 notes, one for every
+deck.
+
+**Where the notes differ from the source notes**
+
+- 8.1: thickness monitoring uses beta radiation for paper as well as aluminium foil, and
+  gamma for steel. One source used alpha for paper, which paper would absorb completely.
+- 8.3: after electron capture the atom emits X-rays as outer electrons fill the inner
+  vacancy, and gamma rays only if the nucleus is left excited. One source said electron
+  capture releases a gamma ray. The same source gave β⁻ decay, including molybdenum-99's,
+  a neutrino where it emits an antineutrino.
+- 8.3: the sources gave $R_0$ as 1.05 fm and 1.4 fm and nuclear densities to match. The
+  note uses 1.2 fm, as the deck does, says questions give the value, and keeps the order
+  of magnitude, $10^{17}\ \text{kg m}^{-3}$.
+- 8.4: uranium-238 may absorb or scatter a thermal neutron but does not undergo fission.
+  One source said its absorbing neutrons helps control the rate of fission. Shielding is
+  steel and concrete, not lead, and absorbs neutrons as well as gamma radiation. The
+  coolant carries heat from the core to the heat exchanger, not between water systems,
+  and the other coolants named are carbon dioxide and liquid sodium, not molten salt and
+  helium.
+- 12.1: in a discharge tube, positive ions striking the cathode release the electrons.
+  One source said only that electrons are also emitted from it.
+- 12.2: Foucault measured light travelling slower in water. One source credited Fizeau.
+- 12.3: the Michelson-Morley apparatus could detect a shift of 0.05 of a fringe. One
+  source said 0.01. The muon example uses the deck's half-life of 1.5 μs, so about 23
+  half-lives in Newtonian physics rather than the source's 21.
+
 ## 2026-10-19: Physics topic 8 and Turning Points added and checked
 
 New decks for topic 8 (8.1 to 8.4, Nuclear physics) and for the Turning Points in Physics

@@ -3,6 +3,35 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-19: Maths Mechanics decks (OCR H240 3.01 to 3.04)
+
+Four decks for the Mechanics sections of OCR A-Level Mathematics A, 122 cards:
+quantities and units, kinematics, forces and Newton's laws, and moments. The
+specification's Mechanics ends at 3.04, so with these every section of H240 has a deck
+(19 decks, 743 cards). They were written from the specification and checked against
+every Mechanics question in the A-level Paper 3 and AS Paper 2 papers from 2018 to 2025
+(Section B of each), with their mark schemes and examiner reports.
+
+- From the mark schemes and examiner reports: Newton's second law applied to each
+  connected particle separately, with the mass (not the weight) on the right-hand side;
+  the normal contact force perpendicular to the surface, including the component of any
+  force at an angle; friction opposing the direction of motion, found first; tension
+  zero once a string breaks; $2T$ on a pulley; a different tension on each side of a rough
+  pulley; the contact force at rough ground or a hinge as the combination of both
+  components; the direction of a force or projectile given as an angle above or below
+  the horizontal; speed as the magnitude of the velocity vector; direction of motion from
+  the velocity, not the position; total distance as the sum of the magnitudes of areas or
+  integrals either side of a change of direction; and the constant of integration found
+  from initial conditions rather than dropped.
+- Modelling: what a particle, light, inextensible, smooth, uniform and rigid assume; that
+  a particle model ignores size and mass distribution (not mass); which refinements to a
+  projectile or ladder model are credited and which are not (mass, smooth ground); and
+  that an improvement is not the same as a limitation.
+- Formula sheet: the constant acceleration formulae, $F = ma$, $W = mg$, $F \le \mu R$
+  and the calculus relations for kinematics keep their cards.
+- The repository's notes had said Mechanics ran to 3.05. It ends at 3.04, and the
+  README and skill now say so.
+
 ## 2026-10-19: Maths Pure decks (OCR H240 1.01 to 1.10)
 
 Ten decks for the Pure sections of OCR A-Level Mathematics A, 411 cards, one per

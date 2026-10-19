@@ -1,0 +1,18 @@
+What is the moment of a force about a point? | The magnitude of the force times the perpendicular distance from the point to its line of action
+What is the moment of a 20 N force about a point 3 m away, measured perpendicular to the force? | $20 \times 3 = 60$ N m
+What is the moment about one end of a rod of a force $F$ acting at distance $d$ along the rod, at angle $\theta$ to it? | $Fd\sin\theta$
+What are the conditions for a rigid body to be in equilibrium? | The resultant force is zero and the resultant moment about any point is zero
+In equilibrium, how are the clockwise and anticlockwise moments about a point related? | They are equal
+About which point is it best to take moments? | One where unknown forces act, so their moments are zero
+What should be stated when taking moments? | The point the moments are taken about
+Where does the weight of a uniform rod act? | At its midpoint
+Where does the weight of a non-uniform rod act? | At a given point, or at a point found by taking moments
+Where does the weight of a uniform rectangular lamina act? | At its centre, the point of symmetry
+What does "rigid" mean for a rod in a model? | It does not bend
+A uniform beam of weight 100 N rests on supports at its ends. What force does each support exert? | 50 N, by symmetry or by taking moments about one end
+What is the reaction at a support when a beam is on the point of tilting about another support? | Zero
+In which direction does a smooth vertical wall push on a ladder resting against it? | Horizontally, perpendicular to the wall
+In which direction does a smooth peg or the top edge of a wall push on a rod resting on it? | Perpendicular to the rod
+In which direction does friction act at the foot of a ladder on rough ground? | Towards the wall, opposing the foot slipping away from it
+How is the magnitude of the contact force at a hinge or on rough ground found? | Find its horizontal and vertical components, then combine them with Pythagoras
+What improvements to a model of a ladder are credited? | Modelling it as non-uniform, including friction at the wall, or allowing for its thickness

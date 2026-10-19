@@ -1,0 +1,44 @@
+What is a force? | A push or pull with magnitude and direction, which can change the velocity of a mass
+What is Newton's first law? | A particle stays at rest or moves with constant velocity unless a resultant external force acts on it
+What is Newton's second law? | The resultant force on a body equals its mass times its acceleration, $F = ma$
+What is Newton's third law? | When one body exerts a force on another, the second exerts an equal and opposite force on the first
+What is the weight of a body of mass $m$? | $W = mg$
+What value of $g$ is used, and why is it not a universal constant? | $9.8\ \text{m s}^{-2}$ unless stated, and it depends on location
+In $F = ma$, what goes on each side of the equation? | The resultant force in N, with weights written as $mg$, on the left, and the mass in kg times the acceleration on the right
+What is the acceleration of a 5 kg mass with a resultant force of 20 N? | $a = \frac{20}{5} = 4\ \text{m s}^{-2}$
+When is a particle in equilibrium? | When the resultant force on it is zero, so the sum of the resolved parts in every direction is zero
+What are the components of a force $F$ at angle $\theta$ to a given direction? | $F\cos\theta$ along that direction and $F\sin\theta$ perpendicular to it
+A rope at $15°$ above the horizontal has a horizontal component of 60 N. What is the tension? | $T\cos 15° = 60$, so $T = 62.1$ N
+What are the components of the weight of a particle on a plane inclined at $\theta$? | $mg\sin\theta$ down the slope and $mg\cos\theta$ into the plane
+In which direction does a normal contact force act? | Perpendicular to the surface of contact
+When a force acts at an angle to an inclined plane, why is the normal contact force not just $mg\cos\theta$? | The perpendicular component of that force also acts, so it must be included when resolving
+What is the normal contact force on a body resting on a horizontal surface with no other vertical forces? | Equal and opposite to its weight, $R = mg$
+What happens when the normal contact force $R$ becomes zero? | Contact is lost
+What is the normal contact force on a person of mass $m$ in a lift accelerating upwards at $a$? | $R - mg = ma$, so $R = m(g + a)$
+How is the resultant of several forces found? | Resolve each force in two perpendicular directions and add the components
+How are the magnitude and direction of a resultant found from its components $X$ and $Y$? | Magnitude $\sqrt{X^2 + Y^2}$, direction $\tan^{-1}\frac{Y}{X}$, stated above or below the horizontal
+If a third force keeps two forces in equilibrium, how is it related to their resultant? | It has the same magnitude and the opposite direction, so its bearing differs by $180°$
+In which direction does a particle accelerate when several forces act on it? | In the direction of the resultant force
+How is Newton's second law used with forces given as vectors? | $\mathbf{F} = m\mathbf{a}$, applied to each component, so $\lvert \mathbf{F} \rvert = m\lvert \mathbf{a} \rvert$
+What force gives a 2 kg mass an acceleration of $(4\mathbf{i} - 3\mathbf{j})\ \text{m s}^{-2}$? | $\mathbf{F} = 2(4\mathbf{i} - 3\mathbf{j}) = 8\mathbf{i} - 6\mathbf{j}$ N, magnitude 10 N
+What does the friction model $F \le \mu R$ state? | Friction is at most $\mu$ times the normal contact force
+When does friction equal $\mu R$? | When the body is moving, or on the point of moving (limiting equilibrium)
+What is limiting equilibrium? | The state of a body at rest on a rough surface that is on the point of moving, with $F = \mu R$
+In which direction does friction act? | Along the surface, opposing the motion or the motion that would happen without it
+What must be decided before friction is put into an equation of motion? | Which way the body moves or tends to move, so that friction opposes it
+What is the coefficient of friction for a particle on the point of slipping down a rough plane inclined at $\theta$, with no other forces? | $mg\sin\theta = \mu mg\cos\theta$, so $\mu = \tan\theta$
+What does a smooth surface mean in a model? | There is no friction
+What are the two components of the contact force between two rough surfaces? | The normal contact force and the frictional force
+How is the magnitude of the contact force between two rough surfaces found? | $\sqrt{R^2 + F^2}$, combining the normal contact force and the friction
+What does modelling an object as a particle assume? | Its mass is concentrated at a single point, so its size and the distribution of its mass are ignored
+What does "light" mean for a string or rod in a model? | Its mass is negligible
+What does "inextensible" mean for a string in a model? | Its length does not change, so the particles it joins have the same speed and acceleration
+What is the tension in a light string passing over a smooth pulley? | The same on both sides of the pulley
+What happens to the tension in a string over a pulley that is not smooth? | It is not the same throughout the string
+What is the force exerted on a pulley by a string hanging vertically on both sides with tension $T$? | $2T$
+How should Newton's second law be applied to connected particles? | To each particle separately, with its own mass and forces
+When can a system of connected bodies be treated as a single particle? | When none of its parts move relative to each other
+What is the tension in a light inextensible string joining masses of 3 kg and 5 kg hanging over a smooth pulley? | $5g - T = 5a$ and $T - 3g = 3a$ give $a = \frac{g}{4}$ and $T = 36.75$ N
+What changes in the equations of motion when a string breaks or goes slack? | The tension becomes zero, so each acceleration is found again with Newton's second law
+How are the frictional forces between two blocks in contact related? | By Newton's third law they are equal in magnitude and opposite in direction
+When asked for an improvement to a model, what must the answer give? | A change that makes the model more realistic, not a limitation of it

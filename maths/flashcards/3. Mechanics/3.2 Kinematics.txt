@@ -1,0 +1,50 @@
+What is the difference between displacement and distance travelled? | Displacement is a vector, the position relative to a starting point, and distance travelled is a scalar, the total length of the path
+What is the difference between velocity and speed? | Velocity is a vector, the rate of change of displacement, and speed is its magnitude, a scalar
+What is acceleration? | The rate of change of velocity
+How is a deceleration stated? | As a positive value, so an acceleration of $-11\ \text{m s}^{-2}$ is a deceleration of $11\ \text{m s}^{-2}$
+What does the gradient of a displacement-time graph represent? | Velocity
+What does the gradient of a velocity-time graph represent? | Acceleration
+What does the area between a velocity-time graph and the time axis represent? | Displacement
+How is the total distance travelled found when part of a velocity-time graph is below the time axis? | Find each area separately and add their magnitudes
+When can the constant acceleration formulae be used? | Only when the acceleration is constant
+What is the constant acceleration formula without $s$? | $v = u + at$
+What is the constant acceleration formula without $v$? | $s = ut + \frac{1}{2}at^2$
+What is the constant acceleration formula without $a$? | $s = \frac{1}{2}(u + v)t$
+What is the constant acceleration formula without $t$? | $v^2 = u^2 + 2as$
+What is the constant acceleration formula without $u$? | $s = vt - \frac{1}{2}at^2$
+What is the final velocity after 4 s for $u = 3\ \text{m s}^{-1}$ and $a = 2\ \text{m s}^{-2}$? | $v = 3 + 2 \times 4 = 11\ \text{m s}^{-1}$
+How far does a particle travel in 3 s from rest with acceleration $4\ \text{m s}^{-2}$? | $s = 0 + \frac{1}{2} \times 4 \times 3^2 = 18$ m
+What is the speed of an object dropped from rest after falling 10 m, with $g = 9.8$? | $v^2 = 0 + 2 \times 9.8 \times 10 = 196$, so $v = 14\ \text{m s}^{-1}$
+How is $s = \frac{1}{2}(u + v)t$ derived from a velocity-time graph? | It is the area of the trapezium under the graph
+How is $v = u + at$ derived by integration? | $v = \int a\,dt = at + c$, and $v = u$ when $t = 0$ gives $c = u$
+How are signs chosen for an object moving vertically under gravity? | Choose a positive direction and give $s$, $u$, $v$ and $a$ signs relative to it, such as $a = -g$ when upwards is positive
+What is the displacement of a ball thrown upwards from 2 m above the ground when it lands, taking upwards as positive? | $s = -2$ m
+What is the vertical velocity of an object at its greatest height? | Zero
+How are velocity and acceleration found from displacement as a function of time? | $v = \frac{ds}{dt}$ and $a = \frac{dv}{dt} = \frac{d^2s}{dt^2}$
+How are displacement and velocity found from acceleration as a function of time? | $v = \int a\,dt$ and $s = \int v\,dt$, each with a constant found from the initial conditions
+Why must the constant of integration not be left out when finding displacement from velocity? | It is found from the initial conditions, and if it is zero this must be shown
+What condition gives the time when a particle is instantaneously at rest? | $v = 0$
+What condition gives the time of maximum or minimum velocity? | $a = 0$
+How is distance travelled found when a particle with variable velocity changes direction? | Find when $v = 0$, then integrate over each part separately and add the magnitudes
+Which constant acceleration formula is not used in vector form at A level? | $v^2 = u^2 + 2as$
+How is the speed found from a velocity vector? | Its magnitude, $\sqrt{v_1^2 + v_2^2}$
+What gives the direction of motion of a particle moving in a plane? | The direction of its velocity vector
+How is it shown that a particle moving in a plane is never stationary? | Show that the $\mathbf{i}$ and $\mathbf{j}$ components of velocity are never zero at the same time
+What condition shows that a particle is moving in the direction of $a\mathbf{i} + b\mathbf{j}$? | Its velocity is a positive multiple of $a\mathbf{i} + b\mathbf{j}$
+How are velocity and acceleration found from a position vector $\mathbf{r} = f(t)\mathbf{i} + g(t)\mathbf{j}$? | Differentiate each component: $\mathbf{v} = f'(t)\mathbf{i} + g'(t)\mathbf{j}$ and $\mathbf{a} = f''(t)\mathbf{i} + g''(t)\mathbf{j}$
+What must be added when a velocity vector is integrated to give a position vector? | A vector constant, found from the initial position
+What is the acceleration vector of a particle moving freely under gravity? | $\mathbf{a} = -g\mathbf{j}$, with $\mathbf{j}$ vertically upwards
+What does the model of a projectile assume? | The projectile is a particle moving with constant acceleration $g$ vertically downwards, with no air resistance
+What are the horizontal and vertical components of a projectile's initial velocity $u$ at angle $\theta$ above the horizontal? | $u\cos\theta$ horizontally and $u\sin\theta$ vertically
+Why is the horizontal component of a projectile's velocity constant? | No horizontal force acts on it in the model
+How is the time of flight of a projectile over horizontal ground found? | Set the vertical displacement to zero and solve for $t$
+How is the greatest height of a projectile found? | Use $v^2 = u^2 + 2as$ vertically with the vertical velocity $v = 0$
+How long does a projectile with initial vertical velocity $14.7\ \text{m s}^{-1}$ take to reach its greatest height? | $0 = 14.7 - 9.8t$, so $t = 1.5$ s
+How is the range of a projectile on horizontal ground found? | Horizontal velocity $u\cos\theta$ multiplied by the time of flight
+How are the speed and direction of a projectile found at a given time? | From the horizontal and vertical velocity components: speed by Pythagoras, angle by $\tan^{-1}\frac{v_y}{v_x}$
+How must the direction of motion of a projectile be stated? | As an angle above or below the horizontal, not just an angle
+How is the cartesian equation of a projectile's path found? | Eliminate $t$ between $x = (u\cos\theta)t$ and $y = (u\sin\theta)t - \frac{1}{2}gt^2$
+What is the cartesian equation of the path of a projectile? | $y = x\tan\theta - \frac{gx^2}{2u^2\cos^2\theta}$
+Which refinements to a projectile model are credited, apart from air resistance? | The size or spin of the projectile, the wind, and a more accurate value of $g$
+Why does the mass of a projectile not affect its path in the model? | The only force is its weight, so its acceleration is $g$ whatever its mass
+How would air resistance change the greatest height of a projectile? | It would be less than the model predicts

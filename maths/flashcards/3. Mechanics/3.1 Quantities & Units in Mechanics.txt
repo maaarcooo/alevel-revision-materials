@@ -1,0 +1,10 @@
+What are the S.I. units of length, time and mass? | The metre (m), the second (s) and the kilogram (kg)
+What does it mean that length, time and mass are mutually independent? | None of them can be expressed in terms of the others
+What is the S.I. unit of velocity? | $\text{m s}^{-1}$
+What is the S.I. unit of acceleration? | $\text{m s}^{-2}$
+What is the S.I. unit of force? | The newton (N)
+What is a newton in base units? | $\text{kg m s}^{-2}$, the force that gives a mass of 1 kg an acceleration of $1\ \text{m s}^{-2}$
+What is the difference between mass and weight? | Mass is the amount of matter, in kg, and weight is the gravitational force on it, in N
+What is the S.I. unit of a moment? | The newton metre (N m)
+What is $72\ \text{km h}^{-1}$ in $\text{m s}^{-1}$? | $\frac{72 \times 1000}{3600} = 20\ \text{m s}^{-1}$
+What must an answer to a question set in context include? | Its units

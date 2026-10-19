@@ -187,8 +187,8 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 | Maths 2.1 to 2.5 (Statistics) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 2 and AS Paper 1 | Decks only |
 | Maths 3.1 to 3.4 (Mechanics) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 3 and AS Paper 2 | Decks only |
 
-Every section of OCR H240 now has a deck (Mechanics ends at 3.04). The whole Maths set is
-ready to go into the NeuroCards catalog.
+Every section of OCR H240 now has a deck (Mechanics ends at 3.04). The whole Maths set was
+copied into the NeuroCards catalog on 19 October 2026.
 
 Every Physics topic now has decks and notes. Marco takes the Turning Points option, which
 Paper 3BD examines. Its decks and notes sit in `12. Turning Points in Physics` folders,

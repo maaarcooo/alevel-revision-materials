@@ -1,13 +1,15 @@
 # A-Level Revision Materials
 
 Flashcard decks and revision notes for OCR A-Level Computer Science (H446) and AQA
-A-Level Physics (7408). There is one living copy of each deck and each note, improved in
-place. Marco studies from these and imports the decks into NeuroCards.
+A-Level Physics (7408), and flashcard decks for OCR A-Level Mathematics A (H240). There
+is one living copy of each deck and each note, improved in place. Marco studies from
+these and imports the decks into NeuroCards.
 
 NeuroCards' Discover page does not read this repository. Its decks were copied to the
-NeuroCards catalog on 15 October 2026, which is now the published copy. Since 18 October
-it lives in the NeuroCards monorepo at `~/Code/active/neurocards/catalog`. A deck fixed
-here reaches Discover only if the same fix is made there.
+NeuroCards catalog (Computer Science and Physics on 15 October 2026, Maths on 19 October
+2026), which is now the published copy. Since 18 October it lives in the NeuroCards
+monorepo at `~/Code/active/neurocards/catalog`. A deck fixed here reaches Discover only
+if the same fix is made there.
 
 ## Before changing a deck or a note
 

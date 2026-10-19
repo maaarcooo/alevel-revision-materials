@@ -1,0 +1,51 @@
+What does area represent in a histogram? | Frequency
+What is frequency density? | Frequency divided by class width
+What is the frequency density of a class from 20 to 30 with frequency 15? | $\frac{15}{30 - 20} = 1.5$
+How is a probability found from a histogram? | Area of the bars in the required range divided by the total area
+Why can a histogram not be drawn for data on method of travel to work? | The data are not numerical
+What does the box of a box-and-whisker plot show? | The lower quartile, median and upper quartile, so the middle 50% of the data
+What do the whiskers of a box-and-whisker plot show? | They extend to the smallest and largest values that are not outliers
+How are outliers shown on a box-and-whisker plot? | As separate crosses beyond the whiskers
+What is the advantage of box-and-whisker plots for comparing data sets? | They show the median, spread and outliers of each set side by side
+What is the disadvantage of a box-and-whisker plot? | It does not show individual values or the detailed shape of the distribution
+What advantage does a stem-and-leaf diagram have over a grouped frequency table? | It keeps the original data values
+On a cumulative frequency diagram, at what value is each class plotted? | Its upper class boundary
+How is the median estimated from a cumulative frequency diagram? | Read off the value at half the total frequency
+How are the quartiles estimated from a cumulative frequency diagram? | Read off the values at a quarter and three quarters of the total frequency
+What does a horizontal final section of a cumulative frequency graph show? | No values lie above the point where it becomes horizontal
+What does positive correlation mean on a scatter diagram? | As one variable increases, the other tends to increase
+What does negative correlation mean on a scatter diagram? | As one variable increases, the other tends to decrease
+What does a scatter diagram with points close to a straight line show? | Strong linear correlation
+What does "correlation does not imply causation" mean? | Two variables can be correlated without a change in one causing a change in the other
+Apart from causation, what can explain a correlation between two variables? | A third factor that affects both variables
+How can two separate clusters of points in a scatter diagram give a misleading correlation? | The clusters together can suggest strong correlation even when there is little correlation within each cluster
+What does the gradient $b$ of a regression line $y = a + bx$ show? | The change in $y$ for each increase of 1 in $x$
+When is an estimate from a regression line reliable? | When it is made within the range of the data (interpolation)
+Why is extrapolation from a regression line unreliable? | The relationship may not continue outside the range of the data
+What is the interquartile range? | The upper quartile minus the lower quartile
+What is the 90th percentile of a data set? | The value below which 90% of the data lie
+What does standard deviation measure? | The spread of the data about the mean, as the root mean square deviation from the mean
+What is the variance of a data set? | The square of the standard deviation
+What is the formula for the standard deviation of a list of $n$ values? | $\sqrt{\frac{\sum(x - \bar{x})^2}{n}} = \sqrt{\frac{\sum x^2}{n} - \bar{x}^2}$
+What is the standard deviation of 5 values with $\sum x = 20$ and $\sum x^2 = 100$? | $\bar{x} = 4$, so $\sqrt{\frac{100}{5} - 4^2} = \sqrt{4} = 2$
+What is the formula for the standard deviation of a frequency distribution? | $\sqrt{\frac{\sum f(x - \bar{x})^2}{\sum f}} = \sqrt{\frac{\sum fx^2}{\sum f} - \bar{x}^2}$
+What value represents each class when estimating the mean of grouped data? | The class midpoint
+What is the estimated mean of grouped data with midpoints 5, 15 and 25 and frequencies 2, 3 and 5? | $\frac{\sum fx}{\sum f} = \frac{10 + 45 + 125}{10} = 18$
+Why are the mean and standard deviation of a grouped frequency distribution only estimates? | The class midpoints are used in place of the actual values
+When comparing two distributions, what two things should be compared? | A measure of average and a measure of spread, each in context
+Why might the median represent a data set better than the mean? | The median is less affected by outliers
+When asked why the median suits a particular data set better than the mean, what must the answer refer to? | The actual outlier or extreme value in that data set, in context
+By the interquartile range rule, when is a value an outlier? | When it is more than $1.5 \times$ IQR below the lower quartile or above the upper quartile
+What are the outlier limits for data with lower quartile 20 and upper quartile 32? | IQR $= 12$, so $20 - 1.5 \times 12 = 2$ and $32 + 1.5 \times 12 = 50$
+By the standard deviation rule, when is a value an outlier? | When it is more than 2 standard deviations away from the mean
+What are the outlier limits for data with mean 50 and standard deviation 6? | $50 - 2 \times 6 = 38$ and $50 + 2 \times 6 = 62$
+What is cleaning data? | Finding and dealing with errors, missing values and outliers before the data are analysed
+How should an outlier caused by an error be treated when cleaning data? | Correct it or remove it
+How should an outlier that is a genuine value be treated? | Keep it in the data
+What does OCR's large data set contain? | Census data from 2001 and 2011 for Local Authorities, on method of travel to work and age structure
+In the large data set, which method of travel is recorded for a journey that uses several methods? | The one used for the longest part, by distance, of the usual journey to work
+Why should proportions rather than numbers be compared between Local Authorities? | Local Authorities differ in population size
+Why can a percentage increase from a small starting number be misleading? | A small change in a small number gives a large percentage change
+Why compare an age group in the 2001 census with the age group 10 years older in the 2011 census? | They contain the same generation of people, ten years later
+Why does a similar count for the same generation in 2001 and 2011 not show that nobody moved in or out? | People who moved out may have been replaced by others moving in
+What must be assumed when census counts are used to follow a generation or predict future numbers in a Local Authority? | Little movement of people into or out of the Local Authority

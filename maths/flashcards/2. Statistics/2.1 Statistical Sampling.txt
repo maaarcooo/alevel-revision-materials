@@ -1,0 +1,31 @@
+What is a population in statistics? | The whole set of items or people that are of interest
+The whole set of items or people that are of interest - what term is this? | Population
+What is a sample? | A subset of the population, from which data are collected
+A subset of the population, from which data are collected - what term is this? | Sample
+What is a census? | Data collected from every member of the population
+Give two reasons for using a sample rather than a census | A sample is quicker and cheaper. It is the only option when testing destroys the items
+How can a sample be used to make an informal inference about a population? | Use the sample statistic, such as the sample mean or proportion, as an estimate of the population value
+Why can two random samples from the same population lead to different conclusions? | Each sample contains different members, so its statistics vary by chance from sample to sample
+What is a simple random sample? | A sample in which every member of the population has an equal chance of being chosen, independently of the others
+A sample in which every member of the population has an equal chance of being chosen, independently of the others - what term is this? | Simple random sample
+How is a simple random sample chosen? | Number every member of the population, then use random numbers to select members, ignoring repeats
+Unless told otherwise, what may be assumed about the population when taking a random sample? | It is large enough to sample without replacement
+Why is a sample chosen by a method that makes some members more likely to be picked not random? | Each member does not have an equal chance of being chosen
+What is the disadvantage of a small simple random sample from a population made up of distinct groups? | By chance it may include too many from one group and too few from another, so it does not represent the groups
+What is opportunity sampling? | Choosing members of the population who are available and convenient at the time
+What is the advantage of opportunity sampling? | It is quick and easy
+What is the disadvantage of opportunity sampling? | It is unlikely to be representative of the population, so it may be biased
+What is systematic sampling? | Choosing every $k$th member from an ordered list, starting from a randomly chosen member among the first $k$
+What is the disadvantage of systematic sampling? | It can be biased if the list has a repeating pattern that matches the interval $k$
+What is stratified sampling? | Dividing the population into groups (strata) by a characteristic, then taking a random sample from each group in proportion to its size
+What is the advantage of stratified sampling over simple random sampling? | Each group in the population is represented in the right proportion
+What is the disadvantage of stratified sampling? | The size of each group in the population must be known
+A school has 600 students, 240 of them in the sixth form. How many sixth formers belong in a stratified sample of 50? | $50 \times \frac{240}{600} = 20$
+What is cluster sampling? | Dividing the population into groups (clusters), choosing some clusters at random, and sampling the members of the chosen clusters
+What is the advantage of cluster sampling? | It is cheaper and quicker when the population is spread over a wide area
+What is the disadvantage of cluster sampling? | The sample may not be representative if the clusters differ from each other
+What is quota sampling? | An interviewer chooses members until a set number (quota) from each group of the population has been filled
+What is the advantage of quota sampling? | Each group is represented without needing a list of the whole population
+What is the disadvantage of quota sampling? | It is not random, so the interviewer's choices can bias it
+What is a biased sample? | A sample that does not represent the population, because some members or groups are more likely to be chosen than others
+Why can results from a sample at one school not support conclusions about all students in the UK? | The sample is not representative of the whole population, since students elsewhere may differ

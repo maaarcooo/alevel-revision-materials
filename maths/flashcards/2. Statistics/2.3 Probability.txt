@@ -1,0 +1,28 @@
+What does $A'$ mean for an event $A$? | The event that $A$ does not happen
+What is the rule for the probability of $A'$? | $P(A') = 1 - P(A)$
+What does $A \cap B$ mean? | Both $A$ and $B$ happen
+What does $A \cup B$ mean? | $A$ or $B$ or both happen
+What does $P(A \mid B)$ mean? | The probability that $A$ happens, given that $B$ has happened
+What are mutually exclusive events? | Events that cannot both happen at the same time
+Events that cannot both happen at the same time - what term is this? | Mutually exclusive events
+What is $P(A \cap B)$ for mutually exclusive events $A$ and $B$? | 0
+What is $P(A \cup B)$ for mutually exclusive events $A$ and $B$? | $P(A) + P(B)$
+What are independent events? | Events where the occurrence of one does not affect the probability of the other
+Events where the occurrence of one does not affect the probability of the other - what term is this? | Independent events
+What is $P(A \cap B)$ for independent events $A$ and $B$? | $P(A) \times P(B)$
+For independent events $A$ and $B$, what is $P(A \mid B)$? | $P(A)$
+What shows that events with $P(A) = 0.4$, $P(B) = 0.5$ and $P(A \cap B) = 0.2$ are independent? | $P(A) \times P(B) = 0.4 \times 0.5 = 0.2 = P(A \cap B)$
+What is the general addition rule for $P(A \cup B)$? | $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+What is $P(A \cup B)$ if $P(A) = 0.5$, $P(B) = 0.4$ and $P(A \cap B) = 0.2$? | $0.5 + 0.4 - 0.2 = 0.7$
+What is the multiplication rule for $P(A \cap B)$? | $P(A \cap B) = P(A) \times P(B \mid A)$
+What is $P(A \cap B)$ if $P(A) = 0.6$ and $P(B \mid A) = 0.5$? | $0.6 \times 0.5 = 0.3$
+What is the conditional probability formula for $P(A \mid B)$? | $P(A \mid B) = \frac{P(A \cap B)}{P(B)}$
+What is $P(A \mid B)$ if $P(A \cap B) = 0.12$ and $P(B) = 0.3$? | $\frac{0.12}{0.3} = 0.4$
+How is a conditional probability found from a two-way table? | Divide the count in the cell for both events by the total for the given event's row or column
+How is the probability of one path through a tree diagram found? | Multiply the probabilities along its branches
+How are the probabilities of several end outcomes on a tree diagram combined? | Add them, since the outcomes are mutually exclusive
+What do the probabilities on the second set of branches of a tree diagram represent? | Conditional probabilities, given the outcome on the first branch
+How many equally likely outcomes are there when two fair six-sided dice are thrown? | 36
+When two items are chosen without replacement, how does the second probability change? | The total is one less, and so is the count of the first item's type if it is the same type
+Why is a probability multiplied by 2 for "exactly one of the two chosen items is $A$"? | The $A$ can be the first or the second item chosen
+When a model uses probabilities, which two assumptions often fail in reality? | That the events are independent, and that the probabilities stay the same each time

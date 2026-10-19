@@ -1,0 +1,57 @@
+What is a hypothesis test used to do with a sample? | Make an inference about a parameter of the population
+What is the null hypothesis $H_0$? | The hypothesis assumed true during the test, giving the population parameter a single value
+The hypothesis assumed true during the test, giving the population parameter a single value - what term is this? | Null hypothesis ($H_0$)
+What is the alternative hypothesis $H_1$? | The hypothesis that the population parameter is less than, greater than, or not equal to the value in $H_0$
+The hypothesis that the population parameter is less than, greater than, or not equal to the value in $H_0$ - what term is this? | Alternative hypothesis ($H_1$)
+How must the hypotheses of a test be written? | In terms of a population parameter, such as $p$ or $\mu$, with its meaning defined in context
+Give correctly written hypotheses for a test of whether fewer than 90% of customers are satisfied | $H_0: p = 0.9$, $H_1: p < 0.9$, where $p$ is the proportion of customers who are satisfied
+Which value of the parameter goes in the hypotheses? | The claimed or previous population value, never the value from the sample
+What is the significance level of a test? | The probability of incorrectly rejecting $H_0$
+The probability of incorrectly rejecting $H_0$ - what term is this? | Significance level
+What is the test statistic? | The value calculated from the sample that is used to decide whether to reject $H_0$
+What is a 1-tail test? | A test whose $H_1$ states a direction, with $<$ or $>$
+What is a 2-tail test? | A test whose $H_1$ uses $\neq$, testing for a change in either direction
+How does the question's wording decide between a 1-tail and a 2-tail test? | "Increased" or "decreased" gives a 1-tail test. "Changed" gives a 2-tail test
+What is the critical region? | The set of values of the test statistic for which $H_0$ is rejected
+The set of values of the test statistic for which $H_0$ is rejected - what term is this? | Critical region
+What is the critical value? | The first value of the test statistic inside the critical region
+What is the acceptance region? | The set of values of the test statistic for which $H_0$ is not rejected
+What is a p-value? | The probability, assuming $H_0$ is true, of a value of the test statistic at least as extreme as the one observed
+The probability, assuming $H_0$ is true, of a value of the test statistic at least as extreme as the one observed - what term is this? | p-value
+When is $H_0$ rejected in a 1-tail test? | When the p-value is less than the significance level
+In a 2-tail test, what is the probability in the tail of the observed value compared with? | Half the significance level
+What is the first step of a hypothesis test? | State $H_0$ and $H_1$ in terms of a defined population parameter
+In a hypothesis test, what follows stating the hypotheses? | Stating the distribution of the test statistic, assuming $H_0$ is true
+In a hypothesis test, what follows stating the distribution of the test statistic? | Finding the probability of a value at least as extreme as the observed one, or finding the critical region
+In a hypothesis test, what follows finding the probability or critical region? | Comparing it with the significance level, explicitly
+In a hypothesis test, what follows the comparison with the significance level? | Stating whether or not $H_0$ is rejected
+What is the final step of a hypothesis test? | A conclusion in context that is not definite
+When $H_0$ is rejected, how should the conclusion be worded? | "There is sufficient evidence at the 5% level to suggest that..." followed by $H_1$ in context
+When $H_0$ is not rejected, how should the conclusion be worded? | "There is insufficient evidence at the 5% level to suggest that..." followed by $H_1$ in context
+Why is it wrong to conclude that $H_0$ is true when it is not rejected? | Not rejecting $H_0$ does not prove it. It only shows there is not enough evidence against it
+What must the claim in the conclusion match? | $H_1$, including its direction, such as "has increased" for $H_1: \mu > 3300$ rather than "has changed"
+In a binomial test with $H_1: p < p_0$ and observed value $x$, which probability is found? | $P(X \le x)$, assuming $X \sim B(n, p_0)$
+In a binomial test with $H_1: p > p_0$ and observed value $x$, which probability is found? | $P(X \ge x) = 1 - P(X \le x - 1)$, assuming $X \sim B(n, p_0)$
+Why does a test use $P(X \le x)$ rather than $P(X = x)$? | The test asks how likely a result this extreme or more extreme is, and any single value has a small probability
+With $X \sim B(10, 0.5)$ and $H_1: p < 0.5$, what is the p-value for an observed $X = 1$? | $P(X \le 1) = \frac{1 + 10}{1024} = 0.0107$
+When finding a binomial critical region, which two probabilities must be shown? | The tail probabilities for the boundary value and the next value, one on each side of the significance level
+In a binomial test, how does the probability of the test statistic falling in the critical region compare with the significance level? | It is less than or equal to the significance level
+What is the actual significance level of a binomial test? | The probability of the test statistic falling in the critical region when $H_0$ is true
+If $X \sim N(\mu, \sigma^2)$, what is the distribution of the mean $\bar{X}$ of a random sample of size $n$? | $\bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right)$
+What is the distribution of $\bar{X}$ for samples of 36 from $N(\mu, 144)$? | $\bar{X} \sim N\left(\mu, \frac{144}{36}\right) = N(\mu, 4)$
+How is a sample mean standardised in a test for the mean of a normal distribution? | $z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}}$, which comes from $N(0, 1)$
+What is the standardised value of a sample mean of 52 from 36 values, if $H_0: \mu = 50$ and $\sigma = 6$? | $z = \frac{52 - 50}{6 / \sqrt{36}} = 2$
+In a 2-tail test of a normal mean at the 5% level, which percentage point gives the critical values? | The one for $p = 0.975$ ($z = 1.960$), since 2.5% lies in each tail
+What must be assumed about the population in a test for the mean of a normal distribution? | It is normally distributed, with a known standard deviation
+When a test uses the standard deviation of a wider population for one group within it, what must be assumed? | The group has the same standard deviation as the wider population
+What must be assumed about the sample in a hypothesis test? | It is a random sample, representative of the population
+What does Pearson's product-moment correlation coefficient measure? | How close data points lie to a straight line
+What values can Pearson's product-moment correlation coefficient take? | From $-1$ to $1$
+What does a product-moment correlation coefficient of 0 show? | No linear correlation
+What are the hypotheses of a test for positive correlation? | $H_0: \rho = 0$, $H_1: \rho > 0$, where $\rho$ is the population product-moment correlation coefficient between the two variables
+What must be assumed about the data in a test using Pearson's correlation coefficient? | They come from a bivariate normal distribution
+How can a scatter diagram suggest that data are not bivariate normal? | The points do not lie roughly within an ellipse, for example they form separate clusters
+In a test for positive correlation, when is $H_0$ rejected? | When $r$ is greater than the critical value from the table for the sample size and significance level
+In a test for negative correlation, when is $H_0$ rejected? | When $r$ is less than the negative of the critical value from the table
+In a 2-tail test with $r = -0.62$ and a 2-tail critical value of 0.5494, what is the decision? | $-0.62 < -0.5494$, so reject $H_0$
+How should the conclusion of a correlation test be worded? | Evidence of (linear) correlation between the two variables, in context, not a "relationship" and not "proved"

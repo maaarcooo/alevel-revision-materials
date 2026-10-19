@@ -1,7 +1,8 @@
 # A-Level Revision Materials
 
 Flashcards and revision notes for **OCR A-Level Computer Science** (H446) and
-**AQA A-Level Physics** (topics 1 to 8 and the Turning Points in Physics option).
+**AQA A-Level Physics** (topics 1 to 8 and the Turning Points in Physics option), and
+flashcards for **OCR A-Level Mathematics A** (H240), so far for Statistics.
 
 There is one copy of each deck and each note. They are improved in place, so there are
 no version numbers in file or folder names. The history is in git, and
@@ -11,7 +12,8 @@ All content is AI-generated and checked against the exam board specifications. C
 Science topics 1 to 8 and every Physics deck have also been compared with past-paper
 mark schemes and examiner reports (OCR AS and A-Level papers for Computer Science, AQA
 A-level papers for all Physics topics including Turning Points, and AQA AS papers for
-Physics topics 1 to 5 as well).
+Physics topics 1 to 5 as well). The Maths decks were written from the specification and
+checked against OCR's A-level and AS papers.
 Always verify anything important against the official specification.
 
 ## What is here
@@ -20,8 +22,12 @@ Always verify anything important against the official specification.
 |---------|------:|------:|------:|
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
 | Physics (AQA 7408, topics 1 to 8 and Turning Points) | 47 | 2772 | 47 |
+| Maths (OCR H240, Statistics 2.1 to 2.5) | 5 | 210 | 0 |
 
-Each subtopic has one flashcard deck and one note with the same name.
+Each Computer Science and Physics subtopic has one flashcard deck and one note with the
+same name. Maths has decks only: one per section of the specification, for the facts,
+rules and procedures that must be remembered rather than problem-solving practice. Pure
+(1.01 to 1.10) and Mechanics (3.01 to 3.05) are still to come.
 
 ## Layout
 
@@ -33,6 +39,8 @@ alevel-revision-materials/
 ├── physics/
 │   ├── flashcards/<n>. <topic>/<n.m> <subtopic>.txt
 │   └── notes/<n>. <topic>/<n.m> <subtopic>.md
+├── maths/
+│   └── flashcards/<n>. <area>/<n.m> <section>.txt
 ├── skills/        # the generator skills and the procedure for improving materials
 ├── scripts/       # check_decks.py, paper_digest.py, pull_mark_schemes.py
 ├── CLAUDE.md      # where an AI session starts: what to read and what has been asked for

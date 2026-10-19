@@ -3,6 +3,40 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-19: Maths Statistics decks (OCR H240 2.01 to 2.05)
+
+The first Maths decks: five for the Statistics sections of OCR A-Level Mathematics A,
+210 cards. They hold what must be remembered rather than problem-solving practice:
+definitions, rules, the steps of a hypothesis test, the two outlier rules, the
+properties of the binomial and normal distributions, and the wording mark schemes
+credit. They were written from the specification and checked against every Statistics
+question in the A-level Paper 2 and AS Paper 1 papers from 2018 to 2025, with their mark
+schemes and examiner reports. Maths has no notes.
+
+- Wording from the mark schemes: hypotheses in terms of a defined population parameter
+  holding the claimed value, never the sample's; a non-definite conclusion in context
+  that matches $H_1$ ("increased", not "changed"); explicit comparison with the
+  significance level, or half of it in each tail; both boundary probabilities when
+  finding a binomial critical region; the calculator's cumulative function giving
+  $P(X \le x)$; independence of events rather than of probabilities; "bell-shaped" to
+  justify a normal model; correlation not causation with a third factor; clusters making
+  a correlation misleading; and the method of travel in the large data set being the one
+  used for the longest part of the journey.
+- Outliers: the specification's two definitions, more than $1.5 \times$ IQR from the
+  nearer quartile, and more than 2 standard deviations from the mean.
+- Formula sheet: the standard deviation, binomial and $\bar{X}$ results and the
+  probability rules keep their cards, as the repository's rule asks. The values in the
+  table of percentage points get no card, except which one a 2-tail test at 5% uses.
+- Assumptions, as the mark schemes ask for them: the four binomial assumptions (constant
+  probability, independent trials, a fixed number of trials, two outcomes), each stated
+  in context, why sampling without replacement or at an untypical time breaks them, a
+  normal population with known standard deviation for a test of the mean, the same
+  standard deviation for a group as for its wider population, a random sample, a
+  bivariate normal distribution for a correlation test, and little movement in or out
+  of a Local Authority when following census counts. The mark schemes call the binomial
+  properties both conditions and assumptions, and the cards use "assumption".
+- `paper_digest.py` now also reads `sources/maths/paper/`, which is singular.
+
 ## 2026-10-19: Revision notes for Physics topic 8 and Turning Points
 
 Seven new notes, for 8.1 to 8.4 and 12.1 to 12.3, written from the Save My Exams and PMT

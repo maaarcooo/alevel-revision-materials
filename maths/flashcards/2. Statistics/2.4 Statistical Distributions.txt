@@ -1,0 +1,43 @@
+What is a discrete probability distribution? | A list of every possible value of a discrete random variable with its probability
+What must the probabilities in a discrete probability distribution add up to? | 1
+If $P(X = x) = kx$ for $x = 1, 2, 3$, what is $k$? | $k(1 + 2 + 3) = 1$, so $k = \frac{1}{6}$
+What does $X \sim B(n, p)$ mean? | $X$ has a binomial distribution with $n$ trials and probability of success $p$
+What is the binomial model's assumption about the probability of success? | It is the same (constant) for every trial
+What is the binomial model's assumption about how the trials relate to each other? | The trials are independent of each other
+What is the binomial model's assumption about the number of trials? | It is fixed
+What is the binomial model's assumption about the outcomes of each trial? | Each trial has exactly two outcomes, success or failure
+When stating the independence assumption for a binomial model, what must be independent? | The events, such as whether each patient has side effects, not their probabilities
+How should a binomial assumption be stated in an exam answer? | In the context of the question, such as "the probability that the train arrives on time is the same every day"
+Why does choosing a sample without replacement affect the binomial assumptions? | Whether one member has the property is then not independent of whether the others do
+Why can a sample taken at an untypical time, such as the last day of term, make a binomial conclusion unreliable? | The probability of success may be different at other times, so it is not constant
+What is the binomial probability formula? | $P(X = x) = \binom{n}{x}p^x(1 - p)^{n - x}$
+If $X \sim B(4, 0.5)$, what is $P(X = 2)$? | $\binom{4}{2} \times 0.5^2 \times 0.5^2 = 6 \times 0.0625 = 0.375$
+In set notation, what values can $X$ take if $X \sim B(20, p)$? | $\{x : x \in \mathbb{Z},\ 0 \le x \le 20\}$
+What probability does a calculator's binomial cumulative function give? | $P(X \le x)$
+How is $P(X \ge a)$ found from the binomial cumulative function? | $1 - P(X \le a - 1)$
+How is $P(5 \le X \le 9)$ found from the binomial cumulative function? | $P(X \le 9) - P(X \le 4)$
+What is the mean of $X \sim B(n, p)$? | $np$
+What is the variance of $X \sim B(n, p)$? | $np(1 - p)$
+What are the mean and variance of $X \sim B(50, 0.2)$? | Mean $= 50 \times 0.2 = 10$, variance $= 50 \times 0.2 \times 0.8 = 8$
+When can $B(n, p)$ be approximated by a normal distribution? | When $n$ is large and $p$ is not close to 0 or 1
+Which normal distribution approximates $B(n, p)$? | $N(np,\ np(1 - p))$
+What does $X \sim N(\mu, \sigma^2)$ mean? | $X$ is normally distributed with mean $\mu$ and variance $\sigma^2$
+What is the standard deviation of $X \sim N(40, 100)$? | $\sqrt{100} = 10$
+Describe the shape of a normal distribution | Bell-shaped and symmetrical about the mean
+For a normal distribution, how do the mean, median and mode compare? | They are equal
+What justifies using a normal model for data shown in a histogram? | The histogram is roughly bell-shaped: symmetrical, highest in the middle and tailing off at each end
+About what proportion of a normal distribution lies within $\mu \pm \sigma$? | About two-thirds
+About what proportion of a normal distribution lies within $\mu \pm 2\sigma$? | About 95%
+About what proportion of a normal distribution lies within $\mu \pm 3\sigma$? | Almost all of it
+Where are the points of inflection of a normal curve? | At $x = \mu \pm \sigma$
+How can the standard deviation be estimated from the points of inflection of a normal curve? | Half the distance between them, since each is one standard deviation from the mean
+For a continuous random variable $X$, what is $P(X = a)$? | 0, so $P(X < a) = P(X \le a)$
+What is the standard normal distribution $Z$? | The normal distribution with mean 0 and variance 1, $Z \sim N(0, 1)$
+How is a value $x$ of $X \sim N(\mu, \sigma^2)$ standardised? | $z = \frac{x - \mu}{\sigma}$
+If $X \sim N(50, 16)$, what is the standardised value of $x = 58$? | $z = \frac{58 - 50}{4} = 2$
+How is $x$ found when $P(X < x)$ is known for $X \sim N(\mu, \sigma^2)$? | Use the inverse normal function on the calculator
+How is an unknown $\mu$ or $\sigma$ of a normal distribution found from a known probability? | Use the inverse normal to find $z$, then solve $\frac{x - \mu}{\sigma} = z$
+For $X \sim N(100, \sigma^2)$, half the values lie between 90 and 110. What is $\sigma$? | $P(X < 110) = 0.75$, so $\frac{10}{\sigma} = 0.674$ and $\sigma = 14.8$
+Why might a normal model be unsuitable for a quantity that cannot be negative? | If the mean is close to 0, the model gives a noticeable probability to negative values
+When is a normal model not appropriate for a data set? | When the data are clearly skewed rather than symmetrical
+All 1000 values in a sample lie within 2 standard deviations of the mean. Why does this cast doubt on a normal model? | About 5% of values, so about 50, would be expected more than 2 standard deviations from the mean

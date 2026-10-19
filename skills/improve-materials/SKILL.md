@@ -10,7 +10,7 @@ This repository keeps one living copy of each deck and note. An improvement edit
 ## Process
 
 1. **Read what is there.** Read the whole deck and the matching note for the subtopic, not only the lines you were asked about. They share a name: `<subject>/flashcards/<n>. <topic>/<n.m> <subtopic>.txt` and `<subject>/notes/<n>. <topic>/<n.m> <subtopic>.md`.
-2. **Read the specification section.** The note's **Specification** line names it (OCR H446 for Computer Science, AQA 7408 for Physics). The specification decides what belongs, what it is called and how deep to go.
+2. **Read the specification section.** The note's **Specification** line names it (OCR H446 for Computer Science, AQA 7408 for Physics). Maths has decks only, one per section of OCR H240, named after the section number. The specification decides what belongs, what it is called and how deep to go.
 3. **Read any source material you were given**, in full. Source notes are copyrighted: keep them in `sources/` (ignored by git) and never commit them.
 4. **Decide each change** using the rules below, then edit the files in place.
 5. **Keep the deck and the note in step.** A correction to a fact goes in both.
@@ -113,6 +113,13 @@ Settled owners for ideas that cross topics:
 | Mass-energy equivalence, $E = mc^2$ for all energy changes | 8.4 |
 | Thermionic emission and the electron gun | 12.1 |
 
+| Maths | Owner |
+|---|---|
+| Informal correlation, correlation and causation, outliers and their two rules | 2.2 |
+| Mutually exclusive and independent events | 2.3 |
+| Binomial conditions, mean and variance, the normal approximation to the binomial | 2.4 |
+| The distribution of $\bar{X}$, Pearson's correlation coefficient and its tests | 2.5 |
+
 When a new overlap turns up, settle it by the specification, move the definition to the owner, and add the row here.
 
 ## Checking against mark schemes
@@ -133,6 +140,9 @@ sources/computer-science/papers/alevel/combined/   # OCR H446 papers 2021 to 202
 sources/computer-science/papers/as/combined/       # OCR H046 papers 2022 to 2025
 sources/computer-science/papers/<level>/clean/     # the examiner report for each paper
 sources/computer-science/papers/<level>/raw/       # the separate papers the folders above were built from
+sources/maths/paper/alevel/combined/               # OCR H240 papers 2018 to 2025, question and mark scheme together (paper/, not papers/)
+sources/maths/paper/as/combined/                   # OCR H230 AS papers 2018 to 2025
+sources/maths/paper/<level>/clean/                 # the examiner report for each paper
 ```
 
 1. **Collect the topic's questions.** Print every question on the topic with its mark scheme and examiner comment:
@@ -140,7 +150,7 @@ sources/computer-science/papers/<level>/raw/       # the separate papers the fol
    python3 scripts/paper_digest.py physics "polaris|stationary wave|coheren" > /tmp/waves.txt
    python3 scripts/paper_digest.py computer-science "normal form|foreign key" --paper 1 > /tmp/databases.txt
    ```
-   Use a pattern of the topic's key terms. In Computer Science, Paper 1 covers topics 1 to 5 and Paper 2 covers topics 6 to 8, and data structures (4.2) come up in both. Add `--calculations` to include questions whose mark scheme is mostly working. For more Physics questions, `scripts/pull_mark_schemes.py waves "3. Waves"` downloads topic-sorted papers (sets M, N and P are AQA; sets A to D include other boards).
+   Use a pattern of the topic's key terms. In Computer Science, Paper 1 covers topics 1 to 5 and Paper 2 covers topics 6 to 8, and data structures (4.2) come up in both. In Maths, Statistics is Section B of A-level Paper 2 and of AS Paper 1, so use `--paper 2` and `--paper 1` and keep only that section's questions. Add `--calculations` to include questions whose mark scheme is mostly working. For more Physics questions, `scripts/pull_mark_schemes.py waves "3. Waves"` downloads topic-sorted papers (sets M, N and P are AQA; sets A to D include other boards).
 2. **Read them next to the decks.** Definitions and "explain" answers matter most, because marks depend on their wording. Calculations rarely need changing.
 3. **Change a card** when its wording would not earn the mark, when the mark scheme or examiner report rejects it (look for "do not allow", "reject", "insufficient" and "common error"), or when it is wrong.
 4. **Add a card** when a mark scheme point comes up that no card covers and the specification section includes it.
@@ -161,6 +171,10 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 | Physics 7.1 to 7.10 | 10 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
 | Physics 8.1 to 8.4 | Written to them on 18 October 2026 | 19 October 2026, against A-level papers | 19 October 2026 |
 | Physics 12.1 to 12.3 (Turning Points) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 3BD | 19 October 2026 |
+| Maths 2.1 to 2.5 (Statistics) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 2 and AS Paper 1 | Decks only |
+
+Still to do: Maths Pure (1.01 to 1.10) and Mechanics (3.01 to 3.05). The Maths decks go
+into the NeuroCards catalog once the whole set is done.
 
 Every Physics topic now has decks and notes. Marco takes the Turning Points option, which
 Paper 3BD examines. Its decks and notes sit in `12. Turning Points in Physics` folders,

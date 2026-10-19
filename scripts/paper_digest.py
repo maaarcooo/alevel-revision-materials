@@ -67,7 +67,9 @@ def main():
     subject, pattern = args[0], re.compile(args[1], re.I)
     keep_calculations = "--calculations" in flags
     shown = 0
-    for paper in sorted((SOURCES / subject / "papers").glob("*/combined/*.md")):
+    # Maths keeps its papers in paper/, the other subjects in papers/.
+    papers = [p for folder in ("papers", "paper") for p in (SOURCES / subject / folder).glob("*/combined/*.md")]
+    for paper in sorted(papers):
         if paper_number and not paper.stem.endswith(f"p{paper_number}"):
             continue
         level = paper.parent.parent.name

@@ -1,0 +1,41 @@
+What does the fundamental theorem of calculus say about integration? | It reverses differentiation: $\int f(x)\,dx = F(x) + c \Leftrightarrow F'(x) = f(x)$
+What is an indefinite integral? | An integral without limits, giving a function plus a constant $c$
+What is a definite integral? | An integral between two limits, giving a value
+What is $\int x^n\,dx$? | $\frac{x^{n + 1}}{n + 1} + c$, for $n \neq -1$
+What is $\int (6x^2 + 4x)\,dx$? | $2x^3 + 2x^2 + c$
+How is the constant of integration found? | Substitute the coordinates of a known point, straight after integrating
+What is $\int e^{kx}\,dx$? | $\frac{1}{k}e^{kx} + c$
+What is $\int \frac{1}{x}\,dx$? | $\ln\lvert x \rvert + c$
+What is $\int \sin kx\,dx$? | $-\frac{1}{k}\cos kx + c$
+What is $\int \cos kx\,dx$? | $\frac{1}{k}\sin kx + c$
+What is $\int \sec^2 kx\,dx$? | $\frac{1}{k}\tan kx + c$
+What is $\int \frac{f'(x)}{f(x)}\,dx$? | $\ln\lvert f(x) \rvert + c$
+What is $\int \frac{2x}{x^2 + 1}\,dx$? | $\ln(x^2 + 1) + c$
+What is $\int \tan x\,dx$? | $-\ln\lvert \cos x \rvert + c$, or $\ln\lvert \sec x \rvert + c$
+What is $\int f'(x)(f(x))^n\,dx$? | $\frac{(f(x))^{n + 1}}{n + 1} + c$
+What is $\int (2x + 3)^5\,dx$? | $\frac{(2x + 3)^6}{12} + c$
+What is $\int \frac{1}{(x + 1)^2}\,dx$? | $-\frac{1}{x + 1} + c$
+What is $\int \frac{1}{1 - x}\,dx$? | $-\ln\lvert 1 - x \rvert + c$
+How is $\int \cos^2 x\,dx$ found? | Use $\cos^2 x = \frac{1}{2}(1 + \cos 2x)$, giving $\frac{1}{2}x + \frac{1}{4}\sin 2x + c$
+How is the area between a curve and the $x$-axis found? | $\int_a^b y\,dx$, for a curve above the axis
+How is the area of a region below the $x$-axis found? | Integrate as usual and take the modulus of the negative result
+How is the area found when a curve is partly above and partly below the $x$-axis? | Integrate each part separately between the roots and add their magnitudes
+How is the area between two curves found? | $\int_a^b (\text{upper curve} - \text{lower curve})\,dx$
+How is the area between a curve and the $y$-axis found? | $\int_c^d x\,dy$
+How is the area under a parametric curve found? | $\int y\frac{dx}{dt}\,dt$, with limits that are values of $t$
+How is a definite integral written as the limit of a sum? | $\int_a^b y\,dx = \lim_{\delta x \to 0} \sum_{x = a}^{b} y\,\delta x$
+Which rule of differentiation does integration by substitution reverse? | The chain rule
+When integrating by substitution, how is $dx$ replaced? | Differentiate the substitution and write $dx$ in terms of $du$
+When a definite integral is found by substitution, what happens to the limits? | They are changed to the corresponding values of $u$
+What must be done before integrating an improper fraction such as $\frac{2u}{2 + u}$? | Divide, to write it as $2 - \frac{4}{2 + u}$
+What is the formula for integration by parts? | $\int u\frac{dv}{dx}\,dx = uv - \int v\frac{du}{dx}\,dx$
+Which rule of differentiation does integration by parts reverse? | The product rule
+In integration by parts, which part is usually chosen as $u$? | The part that becomes simpler when differentiated, and always $\ln x$ when it appears
+How is $\int \ln x\,dx$ found? | By parts, with $u = \ln x$ and $\frac{dv}{dx} = 1$, giving $x\ln x - x + c$
+What is $\int xe^x\,dx$? | $xe^x - e^x + c$
+How is a fraction with linear factors in the denominator integrated? | Split it into partial fractions, then integrate each term
+What does a repeated factor term such as $\frac{C}{(x + 1)^2}$ integrate to? | $-\frac{C}{x + 1}$, not a logarithm
+How is a differential equation $\frac{dy}{dx} = f(x)g(y)$ solved? | Separate the variables, $\int \frac{1}{g(y)}\,dy = \int f(x)\,dx$, then integrate both sides
+What is the difference between a general and a particular solution of a differential equation? | The general solution contains the constant $c$, a particular solution uses a given condition to find it
+What is the general solution of $\frac{dy}{dx} = ky$? | $\ln\lvert y \rvert = kx + c$, so $y = Ae^{kx}$
+How is the solution of a differential equation interpreted in context? | Describe what the variable does as $t$ increases, including any limiting value, and state any limitations

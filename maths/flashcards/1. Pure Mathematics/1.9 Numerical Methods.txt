@@ -1,0 +1,28 @@
+What does the change of sign method use to locate a root of $f(x) = 0$? | If $f$ is continuous on $[a, b]$ and $f(a)$ and $f(b)$ have opposite signs, a root lies between $a$ and $b$
+What must the conclusion of a change of sign argument state? | That there is a change of sign and $f$ is continuous, so a root lies in the interval
+How is a root of $f(x) = 0$ shown to be 0.79 correct to 2 decimal places? | Show that $f(0.785)$ and $f(0.795)$ have opposite signs
+Why can the change of sign method miss a root where the curve touches the $x$-axis? | $f(x)$ does not change sign at a repeated root
+How can a vertical asymptote mislead the change of sign method? | $f(x)$ changes sign across the asymptote although there is no root
+Why can the change of sign method miss two roots that are close together? | $f(x)$ changes sign twice, so the values at the ends of the interval have the same sign
+How is an equation $f(x) = 0$ prepared for a simple iterative method? | Rearrange it into the form $x = g(x)$ and use $x_{n + 1} = g(x_n)$
+When does the iteration $x_{n + 1} = g(x_n)$ converge to a root $\alpha$? | When $\lvert g'(\alpha) \rvert < 1$ and the starting value is close enough to $\alpha$
+How is it shown that an iteration $x_{n + 1} = g(x_n)$ will converge near a value such as 1.2? | Evaluate $g'(1.2)$ and state that its modulus is less than 1
+When does the iteration $x_{n + 1} = g(x_n)$ fail to converge to a root $\alpha$? | When $\lvert g'(x) \rvert > 1$ near $\alpha$
+Which diagram shows an iteration with $0 < g'(\alpha) < 1$? | A staircase diagram
+Which diagram shows an iteration with $-1 < g'(\alpha) < 0$? | A cobweb diagram
+How is a staircase or cobweb diagram drawn? | Draw $y = x$ and $y = g(x)$, then move from $x_1$ vertically to the curve and horizontally to the line, and repeat
+What is the Newton-Raphson formula? | $x_{n + 1} = x_n - \frac{f(x_n)}{f'(x_n)}$
+What is $x_1$ for Newton-Raphson on $f(x) = x^2 - 2$ with $x_0 = 1$? | $1 - \frac{-1}{2} = 1.5$
+What does each Newton-Raphson step do geometrically? | It follows the tangent at $x_n$ to where it crosses the $x$-axis, giving $x_{n + 1}$
+When does the Newton-Raphson method fail? | When $f'(x_n) = 0$, so a starting value at a stationary point gives a tangent that never meets the $x$-axis
+Which function must Newton-Raphson be applied to? | The $f(x)$ in the equation $f(x) = 0$ being solved, such as the derivative when finding a stationary point
+When is an iterative answer given to the required accuracy? | When successive iterates agree to that accuracy, with each iterate shown
+When are numerical methods used in context? | When an equation cannot be solved analytically
+What is the trapezium rule? | $\int_a^b y\,dx \approx \frac{1}{2}h\{(y_0 + y_n) + 2(y_1 + y_2 + \ldots + y_{n - 1})\}$, where $h = \frac{b - a}{n}$
+How many $y$-values are needed for the trapezium rule with $n$ strips? | $n + 1$
+What is the strip width for the trapezium rule with 4 strips from $x = 1$ to $x = 3$? | $h = \frac{3 - 1}{4} = 0.5$
+When does the trapezium rule give an under-estimate? | When the curve is concave, so the trapezia lie below it
+When does the trapezium rule give an over-estimate? | When the curve is convex, so the trapezia lie above it
+Why can it be unclear whether the trapezium rule over- or under-estimates? | The curve has a point of inflection, so some trapezia lie above it and some below
+How can the trapezium rule give a more accurate estimate? | Use more strips of smaller width over the same interval
+How do rectangles give bounds for the area under an increasing curve? | Rectangles with left-hand heights give a lower bound, and right-hand heights give an upper bound

@@ -115,6 +115,13 @@ Settled owners for ideas that cross topics:
 
 | Maths | Owner |
 |---|---|
+| The discriminant and its conditions for roots (its use for a line and a circle is 1.3) | 1.2 |
+| The binomial expansion and $\binom{n}{r}$ (binomial probabilities are 2.4) | 1.4 |
+| Trigonometric identities, including $\cos^2 A$ and $\sin^2 A$ in terms of $\cos 2A$ | 1.5 |
+| Exponential models and why $e^{kx}$ suits them | 1.6 |
+| Standard derivatives, including $e^{kx}$, and tangents and normals to curves | 1.7 |
+| Areas by integration and integration as the limit of a sum | 1.8 |
+| The trapezium rule and rectangle bounds | 1.9 |
 | Informal correlation, correlation and causation, outliers and their two rules | 2.2 |
 | Mutually exclusive and independent events | 2.3 |
 | Binomial conditions, mean and variance, the normal approximation to the binomial | 2.4 |
@@ -150,7 +157,7 @@ sources/maths/paper/<level>/clean/                 # the examiner report for eac
    python3 scripts/paper_digest.py physics "polaris|stationary wave|coheren" > /tmp/waves.txt
    python3 scripts/paper_digest.py computer-science "normal form|foreign key" --paper 1 > /tmp/databases.txt
    ```
-   Use a pattern of the topic's key terms. In Computer Science, Paper 1 covers topics 1 to 5 and Paper 2 covers topics 6 to 8, and data structures (4.2) come up in both. In Maths, Statistics is Section B of A-level Paper 2 and of AS Paper 1, so use `--paper 2` and `--paper 1` and keep only that section's questions. Add `--calculations` to include questions whose mark scheme is mostly working. For more Physics questions, `scripts/pull_mark_schemes.py waves "3. Waves"` downloads topic-sorted papers (sets M, N and P are AQA; sets A to D include other boards).
+   Use a pattern of the topic's key terms. In Computer Science, Paper 1 covers topics 1 to 5 and Paper 2 covers topics 6 to 8, and data structures (4.2) come up in both. In Maths, Pure is all of A-level Paper 1 and Section A of every other paper, and Statistics is Section B of A-level Paper 2 and of AS Paper 1, so use `--paper 2` and `--paper 1` and keep only that section's questions. Add `--calculations` to include questions whose mark scheme is mostly working. For more Physics questions, `scripts/pull_mark_schemes.py waves "3. Waves"` downloads topic-sorted papers (sets M, N and P are AQA; sets A to D include other boards).
 2. **Read them next to the decks.** Definitions and "explain" answers matter most, because marks depend on their wording. Calculations rarely need changing.
 3. **Change a card** when its wording would not earn the mark, when the mark scheme or examiner report rejects it (look for "do not allow", "reject", "insufficient" and "common error"), or when it is wrong.
 4. **Add a card** when a mark scheme point comes up that no card covers and the specification section includes it.
@@ -171,10 +178,11 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 | Physics 7.1 to 7.10 | 10 October 2026 | 16 October 2026, against A-level papers | 16 October 2026 |
 | Physics 8.1 to 8.4 | Written to them on 18 October 2026 | 19 October 2026, against A-level papers | 19 October 2026 |
 | Physics 12.1 to 12.3 (Turning Points) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 3BD | 19 October 2026 |
+| Maths 1.1 to 1.10 (Pure) | Written to them on 19 October 2026 | 19 October 2026, against A-level Papers 1 to 3 and AS Papers 1 and 2 | Decks only |
 | Maths 2.1 to 2.5 (Statistics) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 2 and AS Paper 1 | Decks only |
 
-Still to do: Maths Pure (1.01 to 1.10) and Mechanics (3.01 to 3.05). The Maths decks go
-into the NeuroCards catalog once the whole set is done.
+Still to do: Maths Mechanics (3.01 to 3.05). The Maths decks go into the NeuroCards
+catalog once the whole set is done.
 
 Every Physics topic now has decks and notes. Marco takes the Turning Points option, which
 Paper 3BD examines. Its decks and notes sit in `12. Turning Points in Physics` folders,

@@ -1,0 +1,53 @@
+What does $\frac{dy}{dx}$ represent? | The gradient of the tangent to the curve, the rate of change of $y$ with respect to $x$
+What is the definition of the derivative from first principles? | $f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$
+When differentiating from first principles, why must $-f(x)$ be written in brackets? | Every term of $f(x)$ must be subtracted, or signs go wrong
+What is the final step of differentiation from first principles? | Let $h \to 0$, written with the limit notation, once the numerator has been simplified and divided by $h$
+What is the derivative of $x^2$ from first principles? | $\frac{(x + h)^2 - x^2}{h} = \frac{2xh + h^2}{h} = 2x + h \to 2x$ as $h \to 0$
+What is the derivative of $x^n$? | $nx^{n - 1}$
+What is the derivative of $4x^3 - 2\sqrt{x}$? | $12x^2 - x^{-\frac{1}{2}}$
+What is the derivative of $e^{kx}$? | $ke^{kx}$
+What is the derivative of $a^{kx}$? | $ka^{kx}\ln a$
+What is the derivative of $2^x$? | $2^x\ln 2$
+What is the derivative of $\ln x$? | $\frac{1}{x}$
+What is the derivative of $\ln(f(x))$? | $\frac{f'(x)}{f(x)}$
+What is the derivative of $\sin kx$? | $k\cos kx$
+What is the derivative of $\cos kx$? | $-k\sin kx$
+What is the derivative of $\tan kx$? | $k\sec^2 kx$
+What is the derivative of $\sec x$? | $\sec x\tan x$
+What is the derivative of $\operatorname{cosec} x$? | $-\operatorname{cosec} x\cot x$
+What is the derivative of $\cot x$? | $-\operatorname{cosec}^2 x$
+What is the chain rule? | $\frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx}$
+What is the derivative of $(3x + 1)^5$? | $5(3x + 1)^4 \times 3 = 15(3x + 1)^4$
+What is the product rule for $y = uv$? | $\frac{dy}{dx} = u\frac{dv}{dx} + v\frac{du}{dx}$
+What is the derivative of $x\sin x$? | $\sin x + x\cos x$
+What is the quotient rule for $y = \frac{u}{v}$? | $\frac{dy}{dx} = \frac{v\frac{du}{dx} - u\frac{dv}{dx}}{v^2}$
+What is the derivative of $\frac{x^2}{x + 1}$? | $\frac{2x(x + 1) - x^2}{(x + 1)^2} = \frac{x^2 + 2x}{(x + 1)^2}$
+How is $\frac{dy}{dx}$ found from $\frac{dx}{dy}$? | $\frac{dy}{dx} = 1 \div \frac{dx}{dy}$
+How is the equation of the tangent at the point where $x = a$ found? | Find the gradient $f'(a)$, then use $y - y_1 = m(x - x_1)$
+What is the gradient of the normal at a point where the gradient of the curve is $m$? | $-\frac{1}{m}$
+What gradient must be used in the equation of a tangent or normal? | Its numerical value at the point, not the expression for $\frac{dy}{dx}$
+What is the condition for a stationary point? | $\frac{dy}{dx} = 0$
+What does $\frac{d^2y}{dx^2} > 0$ at a stationary point show? | A minimum
+What does $\frac{d^2y}{dx^2} < 0$ at a stationary point show? | A maximum
+How is a stationary point classified when $\frac{d^2y}{dx^2} = 0$? | Look at the sign of $\frac{dy}{dx}$ on each side of it
+What does the second derivative measure? | The rate of change of the gradient
+When is a function increasing on an interval? | When $f'(x) > 0$ throughout the interval
+When is a function decreasing on an interval? | When $f'(x) < 0$ throughout the interval
+When is a curve convex on an interval? | When $f''(x) > 0$ throughout the interval
+When is a curve concave on an interval? | When $f''(x) < 0$ throughout the interval
+What are the conditions for a point of inflection? | $f''(x) = 0$ and $f''(x)$ changes sign on either side
+What makes a point of inflection a stationary point as well? | $f'(x) = 0$ there too
+How is a curve shown to be convex for all $x$? | Show that $f''(x) > 0$ for all $x$, giving a reason that each part of the expression is positive
+How is an optimisation problem solved with calculus? | Write the quantity in terms of one variable, set its derivative equal to 0, then show whether it is a maximum or minimum
+What must be done with a solution such as $r = 0$ that cannot answer an optimisation problem? | Reject it, with a reason in context
+What is the derivative of $y^2$ with respect to $x$? | $2y\frac{dy}{dx}$
+What is the derivative of $xy$ with respect to $x$? | $x\frac{dy}{dx} + y$, by the product rule
+What is $\frac{dy}{dx}$ for the curve $x^2 + y^2 = 25$? | $2x + 2y\frac{dy}{dx} = 0$, so $\frac{dy}{dx} = -\frac{x}{y}$
+How is $\frac{dy}{dx}$ found from parametric equations? | $\frac{dy}{dx} = \frac{dy/dt}{dx/dt}$
+What is $\frac{dy}{dx}$ for $x = t^2$, $y = 2t$? | $\frac{2}{2t} = \frac{1}{t}$
+Where is the tangent to a curve parallel to the $y$-axis? | Where the denominator of $\frac{dy}{dx}$ is zero
+Where is the tangent to a curve parallel to the $x$-axis? | Where the numerator of $\frac{dy}{dx}$ is zero
+How are connected rates of change, such as $\frac{dV}{dt}$ and $\frac{dr}{dt}$, linked? | By the chain rule: $\frac{dV}{dt} = \frac{dV}{dr} \times \frac{dr}{dt}$
+What must be done before differentiating a volume that depends on two lengths, such as $V = \frac{1}{3}\pi r^2 h$? | Use the given geometry to write it in terms of one variable
+What does $\frac{dB}{dF}$ mean in context? | The rate of change of $B$ with respect to $F$
+What differential equation models a temperature $\theta$ falling at a rate proportional to its difference from a room at $20°$? | $\frac{d\theta}{dt} = -k(\theta - 20)$, where $k > 0$

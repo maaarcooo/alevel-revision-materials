@@ -3,6 +3,40 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-19: Maths Pure decks (OCR H240 1.01 to 1.10)
+
+Ten decks for the Pure sections of OCR A-Level Mathematics A, 411 cards, one per
+section: proof, algebra and functions, coordinate geometry, sequences and series,
+trigonometry, exponentials and logarithms, differentiation, integration, numerical
+methods and vectors. Like the Statistics decks, they hold what must be remembered:
+the laws, identities, standard derivatives and integrals, the rules for transformations,
+the conditions from the discriminant, and the steps of standard methods, with one
+single-step worked card for each main formula. They were written from the specification
+and checked against every Pure question in the A-level and AS papers from 2018 to 2025
+(all of A-level Paper 1 and Section A of the others), with their mark schemes and
+examiner reports.
+
+- Wording and steps from the mark schemes and examiner reports: transformations described
+  as a translation by a column vector or a stretch "parallel to" an axis with its scale
+  factor, never "along", "in" or "shift"; the direction of a vector measured anticlockwise
+  from the positive $x$-axis in $[0°, 360°)$; set notation with $\cup$ for two separate
+  intervals; a reason whenever a root is rejected ($\sin\theta = -3$, $e^y = -2$,
+  $x^2 = -3$); a numerical gradient in the equation of a tangent or normal;
+  $\lvert g'(\alpha) \rvert < 1$ for a converging iteration; $f(x)$ evaluated at the
+  bounds of the rounding interval to confirm a root; and the shared point $A$ when
+  showing three points lie on a line.
+- Proof: the structure of each method, different letters for different integers, a
+  remainder to show something is not a multiple, a stated conclusion, and the two proofs
+  the specification names, $\sqrt{2}$ irrational and infinitely many primes.
+- Formula sheet: the series, the binomial expansions, the less common derivatives, the
+  quotient rule, first principles, integration by parts, the compound angle identities,
+  the small angle approximations, the trapezium rule and Newton-Raphson keep their cards,
+  as the repository's rule asks.
+- Common errors from the examiner reports: the radius taken as the whole diameter, the
+  sum confused with the $n$th term, $n$ ordinates instead of $n + 1$ for $n$ strips, the
+  factor $a^n$ forgotten in $(a + bx)^n$, the narrower interval of validity for a product
+  of expansions, and $\int \frac{1}{1 - x}\,dx$ taken as $\ln(1 - x)$.
+
 ## 2026-10-19: Maths Statistics decks (OCR H240 2.01 to 2.05)
 
 The first Maths decks: five for the Statistics sections of OCR A-Level Mathematics A,

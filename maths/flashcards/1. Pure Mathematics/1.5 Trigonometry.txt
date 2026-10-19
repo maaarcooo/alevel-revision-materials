@@ -1,0 +1,58 @@
+What is the sine rule? | $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$
+What is the cosine rule? | $a^2 = b^2 + c^2 - 2bc\cos A$
+What is the formula for the area of a triangle using an angle? | $\frac{1}{2}ab\sin C$
+In a triangle with $b = 5$, $c = 8$ and $A = 60°$, what is $a$? | $a^2 = 25 + 64 - 2 \times 5 \times 8 \times \frac{1}{2} = 49$, so $a = 7$
+What is the area of a triangle with sides 6 and 4 and an included angle of $30°$? | $\frac{1}{2} \times 6 \times 4 \times \sin 30° = 6$
+Why can the sine rule give two possible values for an angle? | $\sin\theta = \sin(180° - \theta)$, so an obtuse angle can fit as well as an acute one
+How many radians are equal to $180°$? | $\pi$
+What is $45°$ in radians? | $45 \times \frac{\pi}{180} = \frac{\pi}{4}$
+What is the arc length of a sector with radius $r$ and angle $\theta$ radians? | $s = r\theta$
+What is the area of a sector with radius $r$ and angle $\theta$ radians? | $A = \frac{1}{2}r^2\theta$
+What is the area of a sector with radius 6 and angle 0.5 radians? | $\frac{1}{2} \times 6^2 \times 0.5 = 9$
+What is the area of a segment with radius $r$ and angle $\theta$ radians? | Sector minus triangle: $\frac{1}{2}r^2(\theta - \sin\theta)$
+In what unit must angles be when calculus is used with trigonometric functions? | Radians
+What is the small angle approximation for $\sin\theta$? | $\sin\theta \approx \theta$, with $\theta$ small and in radians
+What is the small angle approximation for $\cos\theta$? | $\cos\theta \approx 1 - \frac{1}{2}\theta^2$, with $\theta$ small and in radians
+What is the small angle approximation for $\tan\theta$? | $\tan\theta \approx \theta$, with $\theta$ small and in radians
+What is the small angle approximation of $2\cos\theta + (1 - \tan\theta)^2$? | $2 - \theta^2 + 1 - 2\theta + \theta^2 = 3 - 2\theta$
+What are the exact values of $\sin 30°$, $\cos 30°$ and $\tan 30°$ ($30° = \frac{\pi}{6}$)? | $\frac{1}{2}$, $\frac{\sqrt{3}}{2}$ and $\frac{\sqrt{3}}{3}$
+What are the exact values of $\sin 45°$, $\cos 45°$ and $\tan 45°$ ($45° = \frac{\pi}{4}$)? | $\frac{\sqrt{2}}{2}$, $\frac{\sqrt{2}}{2}$ and 1
+What are the exact values of $\sin 60°$, $\cos 60°$ and $\tan 60°$ ($60° = \frac{\pi}{3}$)? | $\frac{\sqrt{3}}{2}$, $\frac{1}{2}$ and $\sqrt{3}$
+What are the periods of $\sin x$, $\cos x$ and $\tan x$? | $360°$ ($2\pi$) for $\sin x$ and $\cos x$, $180°$ ($\pi$) for $\tan x$
+Where are the asymptotes of $y = \tan x$? | At $x = 90° + 180°n$, where $n$ is an integer
+If $\sin\theta = k$ has a solution $\theta_1$, what is the other solution in $0° \le \theta < 360°$? | $180° - \theta_1$
+If $\cos\theta = k$ has a solution $\theta_1$, what is the other solution in $0° \le \theta < 360°$? | $360° - \theta_1$
+If $\tan\theta = k$ has a solution $\theta_1$, what is the other solution in $0° \le \theta < 360°$? | $\theta_1 + 180°$
+Why does $\sin x = 0.5$ not imply $x = 30°$? | $\sin$ is many-one, so other angles such as $150°$ also give 0.5
+What is $\sec\theta$? | $\frac{1}{\cos\theta}$
+What is $\operatorname{cosec}\theta$? | $\frac{1}{\sin\theta}$
+What is $\cot\theta$? | $\frac{1}{\tan\theta} = \frac{\cos\theta}{\sin\theta}$
+What are the domain and range of $\arcsin x$? | Domain $-1 \le x \le 1$, range $-\frac{\pi}{2} \le \arcsin x \le \frac{\pi}{2}$
+What are the domain and range of $\arccos x$? | Domain $-1 \le x \le 1$, range $0 \le \arccos x \le \pi$
+What are the domain and range of $\arctan x$? | Domain all real $x$, range $-\frac{\pi}{2} < \arctan x < \frac{\pi}{2}$
+What identity links $\tan\theta$ with $\sin\theta$ and $\cos\theta$? | $\tan\theta \equiv \frac{\sin\theta}{\cos\theta}$
+What identity links $\sin^2\theta$ and $\cos^2\theta$? | $\sin^2\theta + \cos^2\theta \equiv 1$
+What identity links $\sec^2\theta$ and $\tan^2\theta$? | $\sec^2\theta \equiv 1 + \tan^2\theta$
+What identity links $\operatorname{cosec}^2\theta$ and $\cot^2\theta$? | $\operatorname{cosec}^2\theta \equiv 1 + \cot^2\theta$
+What is the identity for $\sin(A \pm B)$? | $\sin A\cos B \pm \cos A\sin B$
+What is the identity for $\cos(A \pm B)$? | $\cos A\cos B \mp \sin A\sin B$
+What is the identity for $\tan(A \pm B)$? | $\frac{\tan A \pm \tan B}{1 \mp \tan A\tan B}$
+How is $\cos(A - B)$ obtained from the identity for $\cos(A + B)$? | Replace $B$ with $-B$, using $\cos(-B) = \cos B$ and $\sin(-B) = -\sin B$
+What is the exact value of $\cos 15°$? | $\cos(45° - 30°) = \frac{\sqrt{2}}{2} \times \frac{\sqrt{3}}{2} + \frac{\sqrt{2}}{2} \times \frac{1}{2} = \frac{\sqrt{6} + \sqrt{2}}{4}$
+What is the identity for $\sin 2A$? | $2\sin A\cos A$
+What are the three forms of the identity for $\cos 2A$? | $\cos^2 A - \sin^2 A$, $2\cos^2 A - 1$ and $1 - 2\sin^2 A$
+What is the identity for $\tan 2A$? | $\frac{2\tan A}{1 - \tan^2 A}$
+How is $\cos^2 A$ written in terms of $\cos 2A$? | $\frac{1}{2}(1 + \cos 2A)$
+How is $\sin^2 A$ written in terms of $\cos 2A$? | $\frac{1}{2}(1 - \cos 2A)$
+How are $R$ and $\alpha$ found when $a\cos\theta + b\sin\theta$ is written as $R\cos(\theta - \alpha)$? | Expand and compare coefficients: $R\cos\alpha = a$ and $R\sin\alpha = b$, so $R = \sqrt{a^2 + b^2}$ and $\tan\alpha = \frac{b}{a}$
+What is $3\cos x + 4\sin x$ in the form $R\cos(x - \alpha)$? | $5\cos(x - 53.13°)$, since $R = \sqrt{9 + 16} = 5$ and $\tan\alpha = \frac{4}{3}$
+What are the maximum and minimum values of $R\cos(\theta - \alpha)$? | $R$ and $-R$
+For what value of $\theta$ does $R\cos(\theta - \alpha)$ first reach its maximum? | $\theta = \alpha$, where $\theta - \alpha = 0$
+How is an equation such as $\tan 3\theta = -1$ for $-180° < \theta < 180°$ solved? | Solve for $3\theta$ in $-540° < 3\theta < 540°$, then divide each solution by 3
+How is an equation containing both $\cos^2\theta$ and $\sin\theta$ turned into a quadratic? | Replace $\cos^2\theta$ with $1 - \sin^2\theta$
+When a quadratic in $\sin\theta$ gives $\sin\theta = -3$, what must be written? | That it has no solutions, since $-1 \le \sin\theta \le 1$
+When $\sin^2\theta = k$, which values of $\sin\theta$ must be solved? | Both $\sqrt{k}$ and $-\sqrt{k}$
+Why should an equation not be divided through by $\sin\theta$ when solving it? | Solutions where $\sin\theta = 0$ would be lost, so factorise instead
+Why must solutions be checked after both sides of a trigonometric equation are squared? | Squaring can introduce extra solutions
+How is a trigonometric identity proved? | Start from one side, often the more complicated one, and use identities to reach the other side
+What is often a good first step when proving a trigonometric identity? | Write every term in $\sin\theta$ and $\cos\theta$

@@ -1,0 +1,29 @@
+What are the key features of the graph of $y = a^x$ for $a > 1$? | It passes through $(0, 1)$, is always positive and has the asymptote $y = 0$
+What does $\log_a x = n$ mean? | $a^n = x$
+What are the values of $\log_a a$ and $\log_a 1$? | 1 and 0
+What is $\ln x$? | The logarithm of $x$ to base $e$, $\log_e x$
+What are the values of $\ln e^x$ and $e^{\ln x}$? | Both equal $x$ (for $x > 0$ in the second)
+What are the key features of the graph of $y = \ln x$? | It passes through $(1, 0)$, is defined only for $x > 0$ and has the asymptote $x = 0$
+How are the graphs of $y = e^x$ and $y = \ln x$ related? | They are reflections of each other in the line $y = x$, as the functions are inverses
+What is $\log_a x + \log_a y$ as a single logarithm? | $\log_a(xy)$
+What is $\log_a x - \log_a y$ as a single logarithm? | $\log_a\left(\frac{x}{y}\right)$
+What is $k\log_a x$ as a single logarithm? | $\log_a(x^k)$
+What is $2\log 3 + \log 4$ as a single logarithm? | $\log 9 + \log 4 = \log 36$
+What is the solution of $\log_3(x + 1) = 2$? | $x + 1 = 3^2$, so $x = 8$
+How is an equation of the form $a^x = b$ solved? | Take logarithms of both sides: $x = \frac{\log b}{\log a}$
+What is the solution of $2^x = 10$? | $x = \frac{\ln 10}{\ln 2} = 3.32$
+How should logarithms be taken when solving an equation such as $4^{2x + 1} = 5^x$? | Use the same base on both sides: $(2x + 1)\ln 4 = x\ln 5$
+What is the solution of $e^{2x} = 5$? | $2x = \ln 5$, so $x = \frac{1}{2}\ln 5$
+How is $2^{2y} - 7 \times 2^y - 8 = 0$ solved? | As a quadratic in $2^y$: $(2^y - 8)(2^y + 1) = 0$, so $2^y = 8$ and $y = 3$
+Why does $e^y = -2$ give no solution? | $e^y > 0$ for all real $y$
+Why does $y = Ae^{kx}$ suit a quantity whose rate of change is proportional to its size? | $\frac{dy}{dx} = kAe^{kx} = ky$
+In the model $y = Ae^{kt}$, what do $A$ and the sign of $k$ show? | $A$ is the initial value, $k > 0$ gives growth and $k < 0$ gives decay
+For $m = 160e^{-0.055t}$, when is the mass half of its original value? | $e^{-0.055t} = \frac{1}{2}$, so $t = \frac{\ln 2}{0.055} = 12.6$
+When a question asks for a rate of decay, what form should the answer take? | A positive value, with units, since "decay" already shows the decrease
+Why is an exponential growth model unrealistic in the long term? | It predicts unlimited growth, but resources such as food or space are limited
+Why may a prediction from an exponential model far beyond the data be unreliable? | It is extrapolation, and conditions such as competition or limited resources may change the trend
+How is $y = ax^n$ reduced to a linear form? | $\log y = n\log x + \log a$, so $\log y$ against $\log x$ is a straight line
+For $y = ax^n$, what do the gradient and intercept of the graph of $\log y$ against $\log x$ give? | The gradient is $n$ and the intercept is $\log a$
+How is $y = kb^x$ reduced to a linear form? | $\log y = x\log b + \log k$, so $\log y$ against $x$ is a straight line
+For $y = kb^x$, what do the gradient and intercept of the graph of $\log y$ against $x$ give? | The gradient is $\log b$ and the intercept is $\log k$
+For $y = kb^x$, the graph of $\log_{10} y$ against $x$ has intercept 2. What is $k$? | $k = 10^2 = 100$

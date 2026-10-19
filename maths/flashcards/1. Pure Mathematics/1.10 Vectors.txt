@@ -1,0 +1,22 @@
+What is the difference between a scalar and a vector? | A scalar has magnitude only, a vector has magnitude and direction
+What are $\mathbf{i}$, $\mathbf{j}$ and $\mathbf{k}$? | Unit vectors in the positive $x$, $y$ and $z$ directions
+What is the magnitude of $x\mathbf{i} + y\mathbf{j}$? | $\sqrt{x^2 + y^2}$
+What is the magnitude of $x\mathbf{i} + y\mathbf{j} + z\mathbf{k}$? | $\sqrt{x^2 + y^2 + z^2}$
+What is the magnitude of $3\mathbf{i} - 4\mathbf{j}$? | $\sqrt{9 + 16} = 5$
+How is the direction of a two-dimensional vector measured? | As the angle from the positive $x$-axis, anticlockwise, in the interval $[0°, 360°)$
+What is the direction of $0.5\mathbf{i} - 0.5\mathbf{j}$? | $315°$
+What are the components of a vector with magnitude $r$ and direction $\theta$? | $r\cos\theta\,\mathbf{i} + r\sin\theta\,\mathbf{j}$
+What are the components of a vector with magnitude 6 and direction $60°$? | $3\mathbf{i} + 3\sqrt{3}\mathbf{j}$
+What is a unit vector? | A vector with magnitude 1
+What is the unit vector in the direction of $\mathbf{a}$? | $\frac{\mathbf{a}}{\lvert \mathbf{a} \rvert}$
+What is a position vector? | The vector from the origin to a point
+What is $\overrightarrow{AB}$ in terms of the position vectors $\mathbf{a}$ and $\mathbf{b}$? | $\mathbf{b} - \mathbf{a}$
+What is $\overrightarrow{AB}$ for $A(1, 2)$ and $B(4, 6)$? | $3\mathbf{i} + 4\mathbf{j}$
+How is the distance between two points found from their position vectors? | $\lvert \mathbf{b} - \mathbf{a} \rvert$
+What is the position vector of the midpoint of $AB$? | $\frac{1}{2}(\mathbf{a} + \mathbf{b})$
+What is the position vector of the point that divides $AB$ in the ratio $1 : 2$? | $\mathbf{a} + \frac{1}{3}(\mathbf{b} - \mathbf{a})$
+When are two vectors parallel? | When one is a scalar multiple of the other
+What are equal vectors? | Vectors with the same magnitude and the same direction
+What is a resultant vector? | The single vector equal to the sum of two or more vectors
+How is it shown that $A$, $B$ and $C$ lie on a straight line? | Show that $\overrightarrow{AB}$ is a scalar multiple of $\overrightarrow{AC}$, and state that they share the point $A$
+In the parallelogram $ABCD$, which vector equals $\overrightarrow{AB}$? | $\overrightarrow{DC}$, since the vertices are labelled in order around the shape

@@ -1,0 +1,43 @@
+What is $n!$? | $n \times (n - 1) \times \ldots \times 2 \times 1$
+What is the value of $0!$? | 1
+What is the formula for $\binom{n}{r}$? | $\frac{n!}{r!(n - r)!}$
+Where does $\binom{n}{r}$ appear in Pascal's triangle? | As entry $r$ of row $n$, counting both from 0
+What is the binomial expansion of $(a + b)^n$ for a positive integer $n$? | $a^n + \binom{n}{1}a^{n - 1}b + \binom{n}{2}a^{n - 2}b^2 + \ldots + b^n$
+What is the general term of the expansion of $(a + b)^n$? | $\binom{n}{r}a^{n - r}b^r$
+What is the coefficient of $x^2$ in the expansion of $(1 + 2x)^5$? | $\binom{5}{2} \times 2^2 = 10 \times 4 = 40$
+How are binomial coefficients linked to binomial probabilities? | $\binom{n}{r}$ is the number of ways of getting $r$ successes in $n$ trials
+What is the expansion of $(1 + x)^n$ when $n$ is not a positive integer? | $1 + nx + \frac{n(n - 1)}{2!}x^2 + \frac{n(n - 1)(n - 2)}{3!}x^3 + \ldots$
+For what values of $x$ is the expansion of $(1 + x)^n$ valid when $n$ is not a positive integer? | $\lvert x \rvert < 1$
+What are the first three terms of the expansion of $(1 + x)^{-1}$? | $1 - x + x^2$
+How is $(a + bx)^n$ rewritten before it is expanded, when $n$ is not a positive integer? | $a^n\left(1 + \frac{bx}{a}\right)^n$
+What factor is taken outside the bracket when expanding $(4 + 3x)^{\frac{3}{2}}$? | $4^{\frac{3}{2}} = 8$
+For what values of $x$ is the expansion of $(a + bx)^n$ valid? | $\left\lvert \frac{bx}{a} \right\rvert < 1$
+For what values of $x$ is the expansion of $(1 + 3x)^{\frac{1}{2}}$ valid? | $\lvert 3x \rvert < 1$, so $\lvert x \rvert < \frac{1}{3}$
+When two expansions are multiplied, for what values of $x$ is the product valid? | Where both are valid, so the narrower of the two intervals
+When an expansion is used to approximate a number, what must be true of the value of $x$? | It must lie within the range of validity, and smaller values give better accuracy
+What is the difference between a sequence and a series? | A sequence is a list of terms, a series is the sum of the terms
+What is a recurrence relation? | A rule that gives each term from the one before, such as $u_{n + 1} = f(u_n)$
+What is an increasing sequence? | A sequence with $u_{n + 1} > u_n$ for all $n$
+What is a decreasing sequence? | A sequence with $u_{n + 1} < u_n$ for all $n$
+What is a periodic sequence? | A sequence whose terms repeat at regular intervals, $u_{n + k} = u_n$, where $k$ is the period
+What is a convergent sequence? | A sequence whose terms tend to a finite limit
+What does $\sum_{r = 1}^{n} u_r$ mean? | The sum $u_1 + u_2 + \ldots + u_n$
+What is $\sum_{r = 1}^{4} (2r + 1)$? | $3 + 5 + 7 + 9 = 24$
+What is an arithmetic sequence? | A sequence with a constant difference $d$ between consecutive terms
+What is the $n$th term of an arithmetic sequence? | $u_n = a + (n - 1)d$
+What is the sum of the first $n$ terms of an arithmetic series? | $S_n = \frac{n}{2}(2a + (n - 1)d) = \frac{n}{2}(a + l)$, where $l$ is the last term
+What is the 10th term of the arithmetic sequence with $a = 5$ and $d = 3$? | $5 + 9 \times 3 = 32$
+What is the sum of the first 10 terms of the arithmetic series with $a = 2$ and $d = 3$? | $\frac{10}{2}(2 \times 2 + 9 \times 3) = 5 \times 31 = 155$
+When a question asks for a total over $n$ years, which formula is needed? | The sum to $n$ terms, not the $n$th term
+When $n$ must be a whole number, how is the solution of an inequality such as $S_n > 500000$ given? | As the smallest integer $n$ that satisfies it
+What is the condition for $x$, $y$ and $z$ to be consecutive terms of an arithmetic sequence? | $y - x = z - y$, so $2y = x + z$
+What is a geometric sequence? | A sequence with a constant ratio $r$ between consecutive terms
+What is the $n$th term of a geometric sequence? | $u_n = ar^{n - 1}$
+What is the sum of the first $n$ terms of a geometric series? | $S_n = \frac{a(1 - r^n)}{1 - r}$
+What is the sum to infinity of a geometric series? | $S_\infty = \frac{a}{1 - r}$
+What is the condition for a geometric series to converge? | $\lvert r \rvert < 1$
+What is the sum to infinity of a geometric series with first term 18 and common ratio $\frac{2}{3}$? | $\frac{18}{1 - \frac{2}{3}} = 54$
+What is the condition for $x$, $y$ and $z$ to be consecutive terms of a geometric sequence? | $\frac{y}{x} = \frac{z}{y}$, so $y^2 = xz$
+What is the common ratio when each term is 5% less than the one before? | 0.95
+What is the value after $n$ years of $P$ invested at 4% compound interest per year? | $P \times 1.04^n$
+Why does the inequality reverse when $0.6^n < k$ is solved by taking logarithms? | Dividing by $\log 0.6$, which is negative

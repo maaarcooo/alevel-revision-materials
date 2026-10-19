@@ -1,0 +1,78 @@
+What is $x^a \times x^b$? | $x^{a + b}$
+What is $x^a \div x^b$? | $x^{a - b}$
+What is $(x^a)^b$? | $x^{ab}$
+What is $x^{-a}$? | $\frac{1}{x^a}$
+What is $x^{\frac{m}{n}}$ in surd form? | $\sqrt[n]{x^m}$, or $(\sqrt[n]{x})^m$
+What is $8^{\frac{2}{3}}$? | $(\sqrt[3]{8})^2 = 2^2 = 4$
+What is $\sqrt{ab}$ in terms of $\sqrt{a}$ and $\sqrt{b}$? | $\sqrt{a} \times \sqrt{b}$
+How is the denominator of $\frac{1}{a + \sqrt{b}}$ rationalised? | Multiply the numerator and denominator by $a - \sqrt{b}$
+What is $\frac{1}{3 - \sqrt{5}}$ with a rational denominator? | $\frac{3 + \sqrt{5}}{(3 - \sqrt{5})(3 + \sqrt{5})} = \frac{3 + \sqrt{5}}{4}$
+How are a linear and a quadratic equation solved simultaneously? | Rearrange the linear equation for one variable and substitute it into the quadratic
+After solving a linear and a quadratic equation simultaneously, which equation gives the other coordinate most safely? | The linear equation
+What is the quadratic formula? | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+What is the discriminant of $ax^2 + bx + c$? | $b^2 - 4ac$
+What does $b^2 - 4ac > 0$ show about the roots of $ax^2 + bx + c = 0$? | Two distinct real roots
+What does $b^2 - 4ac = 0$ show about the roots of $ax^2 + bx + c = 0$? | One repeated real root
+What does $b^2 - 4ac < 0$ show about the roots of $ax^2 + bx + c = 0$? | No real roots
+For what values of $k$ does $x^2 + 4x + k = 0$ have two distinct real roots? | $16 - 4k > 0$, so $k < 4$
+In what form is $ax^2 + bx + c$ written when the square is completed? | $a(x + p)^2 + q$
+What is $x^2 + 6x + 11$ in completed square form? | $(x + 3)^2 - 9 + 11 = (x + 3)^2 + 2$
+What does the form $y = a(x + p)^2 + q$ give directly? | The turning point $(-p, q)$ and the line of symmetry $x = -p$
+How is an equation such as $x^4 - 5x^2 + 6 = 0$ solved? | As a quadratic in $x^2$, for example by letting $u = x^2$
+When one root of a disguised quadratic is impossible, such as $x^2 = -3$, what must be written? | A reason it gives no real solutions, such as a square cannot be negative
+In a "detailed reasoning" question, what must be shown when solving a quadratic? | The method, such as factorising or the formula, not only the roots from a calculator
+How is a quadratic inequality solved? | Find the critical values, sketch the graph and choose the region that satisfies the inequality
+What is the solution of $x^2 + 3x \le 10$? | $(x + 5)(x - 2) \le 0$, so $-5 \le x \le 2$
+What happens to an inequality when both sides are multiplied or divided by a negative number? | The inequality sign reverses
+How is "$x < -5$ or $x > 2$" written in set notation? | $\{x : x < -5\} \cup \{x : x > 2\}$
+How is $-2 \le x \le 4$ written in set notation? | $\{x : -2 \le x \le 4\}$
+Why must "$x < -5$ or $x > 2$" not be joined with "and"? | No value is both less than $-5$ and greater than 2
+How is $2 \le x < 3$ written in interval notation? | $[2, 3)$
+How is the boundary of a strict inequality such as $y > x + 1$ drawn on a graph? | As a dashed line, since points on it are not included
+What does the factor theorem state? | $f(a) = 0 \Leftrightarrow (x - a)$ is a factor of $f(x)$
+If $f\left(\frac{b}{a}\right) = 0$, what is a factor of $f(x)$? | $(ax - b)$
+What does $f(1)$ show for $f(x) = x^3 + 2x^2 - 5x + 2$? | $1 + 2 - 5 + 2 = 0$, so $(x - 1)$ is a factor
+When a calculator gives a root $x = \frac{1}{2}$ of a cubic with leading coefficient 2, which factor should be written? | $(2x - 1)$, so that the leading coefficient is kept
+How is a rational expression simplified? | Factorise the numerator and denominator, then cancel the common factors
+What does $\lvert x \rvert$ mean? | The non-negative value of $x$: $x$ when $x \ge 0$ and $-x$ when $x < 0$
+What equation without a modulus is equivalent to $\lvert a \rvert = \lvert b \rvert$? | $a^2 = b^2$
+What is $\lvert x - a \rvert < b$ equivalent to? | $a - b < x < a + b$
+What is the solution of $\lvert 2x - 5 \rvert < 1$? | $-1 < 2x - 5 < 1$, so $2 < x < 3$
+Why must solutions of $\lvert f(x) \rvert = g(x)$ be checked? | Values where $g(x) < 0$ can appear, but a modulus is never negative
+How is the graph of $y = \lvert ax + b \rvert$ formed from $y = ax + b$? | The part below the $x$-axis is reflected in the $x$-axis, giving a V shape
+Where is the vertex of the graph of $y = \lvert ax + b \rvert$? | On the $x$-axis, at $x = -\frac{b}{a}$
+What is the difference between plotting and sketching a graph? | Plotting marks accurate points, sketching shows the shape and key features such as intercepts, turning points and asymptotes
+How does a polynomial graph behave at a repeated root? | It touches the $x$-axis without crossing it
+What are the asymptotes of $y = \frac{a}{x}$? | $x = 0$ and $y = 0$
+How does the graph of $y = \frac{a}{x^2}$ differ from $y = \frac{a}{x}$ when $a > 0$? | Both branches of $y = \frac{a}{x^2}$ lie above the $x$-axis
+How are the solutions of $f(x) = g(x)$ found from graphs? | They are the $x$-coordinates of the intersections of $y = f(x)$ and $y = g(x)$
+What equation shows that $y$ is inversely proportional to $x$? | $y = \frac{k}{x}$, where $k$ is a constant
+When several proportionality statements are combined, what must each one have? | Its own constant of proportionality
+What is a function? | A mapping in which each value in the domain has exactly one image
+What is the domain of a function? | The set of input values
+What is the range of a function? | The set of all possible output values
+What is a one-one function? | A function in which each output comes from exactly one input
+What is a many-one function? | A function in which some outputs come from more than one input
+What is the range of $f(x) = \frac{1}{x}$ for the domain $\{x : 0 < x \le 2\}$? | $\{f(x) : f(x) \ge \frac{1}{2}\}$
+When does a function have an inverse? | When it is one-one
+How is the graph of $y = f^{-1}(x)$ related to the graph of $y = f(x)$? | It is the reflection in the line $y = x$
+How are the domain and range of $f^{-1}$ related to those of $f$? | The domain of $f^{-1}$ is the range of $f$, and the range of $f^{-1}$ is the domain of $f$
+How is $f^{-1}(x)$ found algebraically? | Write $y = f(x)$, make $x$ the subject, then write the result in terms of $x$
+What is $f^{-1}(x)$ for $f(x) = x^3 - 8$? | $\sqrt[3]{x + 8}$
+What does $fg(x)$ mean? | $f(g(x))$, so $g$ is applied first and then $f$
+Why can $ff(5)$ be undefined even when $f(5)$ exists? | $f(5)$ may lie outside the domain of $f$
+Which transformation maps $y = f(x)$ to $y = f(x) + a$? | A translation by $\begin{pmatrix} 0 \\ a \end{pmatrix}$
+Which transformation maps $y = f(x)$ to $y = f(x + a)$? | A translation by $\begin{pmatrix} -a \\ 0 \end{pmatrix}$
+Which transformation maps $y = f(x)$ to $y = af(x)$? | A stretch parallel to the $y$-axis, scale factor $a$
+Which transformation maps $y = f(x)$ to $y = f(ax)$? | A stretch parallel to the $x$-axis, scale factor $\frac{1}{a}$
+Which transformation maps $y = f(x)$ to $y = -f(x)$? | A reflection in the $x$-axis
+Which transformation maps $y = f(x)$ to $y = f(-x)$? | A reflection in the $y$-axis
+How should the direction of a transformation be described? | "Parallel to the $x$-axis", "in the positive $x$-direction" or a column vector, not "along", "in" or "shift"
+What must a description of a stretch include? | Its direction, such as parallel to the $y$-axis, and its scale factor
+Which two transformations, in order, map $y = e^x$ to $y = e^{2x + 3}$? | A translation by $\begin{pmatrix} -3 \\ 0 \end{pmatrix}$, then a stretch parallel to the $x$-axis with scale factor $\frac{1}{2}$
+What is the equation of $y = \frac{1}{x^3}$ after a translation of 4 units in the positive $x$-direction? | $y = \frac{1}{(x - 4)^3}$
+What partial fractions does $\frac{px + q}{(ax + b)(cx + d)}$ split into? | $\frac{A}{ax + b} + \frac{B}{cx + d}$
+What partial fractions does $\frac{px + q}{(ax + b)(cx + d)^2}$ split into? | $\frac{A}{ax + b} + \frac{B}{cx + d} + \frac{C}{(cx + d)^2}$
+How are the constants in partial fractions found? | Multiply by the denominator, then substitute values of $x$ that make each factor zero, or compare coefficients
+What is $\frac{5}{(x - 2)(x + 3)}$ in partial fractions? | $\frac{1}{x - 2} - \frac{1}{x + 3}$
+When asked for a limitation of a model, what must the answer refer to? | The context of the question, such as the particular value or situation named, not general behaviour

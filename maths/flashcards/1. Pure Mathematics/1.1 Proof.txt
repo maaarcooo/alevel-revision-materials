@@ -1,0 +1,31 @@
+What is proof by deduction? | Starting from known facts or assumptions and reaching the conclusion through a series of logical steps
+Starting from known facts or assumptions and reaching the conclusion through a series of logical steps - what term is this? | Proof by deduction
+What is proof by exhaustion? | Splitting the statement into a finite number of cases that cover every possibility, and proving each case
+Splitting the statement into a finite number of cases that cover every possibility, and proving each case - what term is this? | Proof by exhaustion
+What is disproof by counter example? | Finding one value for which the condition of the statement is true but its conclusion is false
+Finding one value for which the condition of the statement is true but its conclusion is false - what term is this? | Disproof by counter example
+What is proof by contradiction? | Assuming the statement is false and showing that this leads to a contradiction
+Assuming the statement is false and showing that this leads to a contradiction - what term is this? | Proof by contradiction
+What does $P \Rightarrow Q$ mean? | If $P$ is true then $Q$ is true ($P$ implies $Q$)
+What does $P \Leftrightarrow Q$ mean? | $P$ is true if and only if $Q$ is true, so each statement implies the other
+What does the symbol $\equiv$ mean? | Is identically equal to, so true for every value of the variable
+What is a rational number? | A number that can be written as $\frac{a}{b}$, where $a$ and $b$ are integers and $b \neq 0$
+What is an irrational number? | A real number that cannot be written as a fraction of two integers
+Why is a recurring decimal such as $0.333\ldots$ rational? | It can be written as a fraction of two integers, here $\frac{1}{3}$
+How are a general even number and a general odd number written? | $2n$ and $2n + 1$, where $n$ is an integer
+How are two different odd numbers written in a general proof? | With different letters, such as $2m + 1$ and $2n + 1$, where $m$ and $n$ are integers
+How are the integers split into cases when a proof concerns division by 3? | $3k$, $3k + 1$ and $3k + 2$, where $k$ is an integer
+Why do numerical examples not prove a general statement? | They show only those cases, not every possible value
+What must the last line of a proof contain? | A conclusion stating that the result has been proved
+How is it shown that an expression such as $4k + 2$ is not a multiple of 4? | State that it leaves a remainder of 2 when divided by 4
+When a counter example disproves a statement about primes, what must be shown? | That the number is not prime, by giving a factor, such as $85 = 5 \times 17$
+When proving that a product such as $(m - n)(m + n)$ is not prime, what must also be shown? | That neither factor equals 1
+What is a counter example to "if $x$ and $y$ are irrational then $x + y$ is irrational"? | $\sqrt{2} + (-\sqrt{2}) = 0$, which is rational
+What assumption starts the proof that $\sqrt{2}$ is irrational? | $\sqrt{2} = \frac{a}{b}$, where $a$ and $b$ are integers with no common factors and $b \neq 0$
+In the proof that $\sqrt{2}$ is irrational, what follows from $a^2 = 2b^2$? | $a^2$ is even, so $a$ is even
+In the proof that $\sqrt{2}$ is irrational, what follows from writing $a = 2k$? | $4k^2 = 2b^2$, so $b^2 = 2k^2$ and $b$ is even
+What contradiction ends the proof that $\sqrt{2}$ is irrational? | $a$ and $b$ are both even, so they have a common factor of 2
+What assumption starts the proof that there are infinitely many primes? | There is a finite list of all the primes, $p_1, p_2, \ldots, p_n$
+Which number is considered in the proof that there are infinitely many primes? | $N = p_1 p_2 \ldots p_n + 1$
+Why does $N = p_1 p_2 \ldots p_n + 1$ give a contradiction? | Dividing $N$ by any prime in the list leaves remainder 1, so $N$ is prime or has a prime factor that is not in the list
+What must the end of a proof by contradiction state? | That the result contradicts the assumption, so the assumption is false and the original statement is true

@@ -3,7 +3,7 @@
 Flashcards and revision notes for **OCR A-Level Computer Science** (H446) and
 **AQA A-Level Physics** (topics 1 to 8 and the Turning Points in Physics option), and
 flashcards for **OCR A-Level Mathematics A** (H240): Pure, Statistics and Mechanics, and
-**OCR A-Level Further Mathematics A** (H245): Pure Core and Mechanics so far.
+**OCR A-Level Further Mathematics A** (H245): Pure Core, Mechanics and Additional Pure.
 
 There is one copy of each deck and each note. They are improved in place, so there are
 no version numbers in file or folder names. The history is in git, and
@@ -25,7 +25,7 @@ Always verify anything important against the official specification.
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
 | Physics (AQA 7408, topics 1 to 8 and Turning Points) | 47 | 2772 | 47 |
 | Maths (OCR H240, Pure 1.1 to 1.10, Statistics 2.1 to 2.5, Mechanics 3.1 to 3.4) | 19 | 743 | 0 |
-| Further Maths (OCR H245, Pure Core 4.1 to 4.10, Mechanics 6.1 to 6.6) | 16 | 566 | 0 |
+| Further Maths (OCR H245, Pure Core 4.1 to 4.10, Mechanics 6.1 to 6.6, Additional Pure 8.1 to 8.6) | 22 | 809 | 0 |
 
 Each Computer Science and Physics subtopic has one flashcard deck and one note with the
 same name. Maths and Further Maths have decks only: one per section of the

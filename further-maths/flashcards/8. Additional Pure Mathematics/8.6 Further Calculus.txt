@@ -1,0 +1,19 @@
+What is a reduction formula? | A formula that gives the integral $I_n$ in terms of integrals with a lower index, such as $I_{n-1}$ or $I_{n-2}$
+Which method usually establishes a reduction formula? | Integration by parts
+How are the parts chosen when deriving a reduction formula? | So that differentiating one part lowers the power, sometimes after splitting off a factor, such as $\cos^n x = \cos^{n-1} x \cos x$
+How is a $\sin^2 x$ dealt with when deriving a reduction formula for $\int \cos^n x\,\mathrm{d}x$? | Replace it with $1 - \cos^2 x$, then collect the $I_n$ terms on one side
+What is the reduction formula for $I_n = \int_0^{\frac{1}{2}\pi} \cos^n x\,\mathrm{d}x$? | $nI_n = (n - 1)I_{n-2}$
+How does a reduction formula give an exact value such as $I_8$? | Apply it repeatedly down to $I_0$ or $I_1$, which are worked out directly
+What is $I_4$ for $I_n = \int_0^{\frac{1}{2}\pi} \cos^n x\,\mathrm{d}x$, given $I_0 = \frac{1}{2}\pi$? | $I_4 = \frac{3}{4}I_2 = \frac{3}{4} \times \frac{1}{2} \times \frac{1}{2}\pi = \frac{3}{16}\pi$
+How is $\int_0^{\frac{1}{2}\pi} \cos^6 x\sin^2 x\,\mathrm{d}x$ written with $I_n = \int_0^{\frac{1}{2}\pi} \cos^n x\,\mathrm{d}x$? | $I_6 - I_8$, using $\sin^2 x = 1 - \cos^2 x$
+What notation is often lost when proving a reduction formula? | The limits and the $\mathrm{d}x$ on each integral
+What is the arc length of $y = \mathrm{f}(x)$ from $x = a$ to $x = b$? | $s = \int_a^b \sqrt{1 + \left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2}\,\mathrm{d}x$
+What is the arc length of a curve given parametrically in $t$? | $s = \int_{t_1}^{t_2} \sqrt{\dot{x}^2 + \dot{y}^2}\,\mathrm{d}t$
+Which limits are used in a parametric arc length or surface area integral? | The values of $t$ at the ends of the arc, not the $x$-values
+What is the area of the surface formed by rotating $y = \mathrm{f}(x)$ through $2\pi$ about the $x$-axis? | $S_x = 2\pi\int_a^b y\sqrt{1 + \left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2}\,\mathrm{d}x$
+What is the area of the surface formed by rotating a curve through $2\pi$ about the $y$-axis? | $S_y = 2\pi\int_c^d x\sqrt{1 + \left(\frac{\mathrm{d}x}{\mathrm{d}y}\right)^2}\,\mathrm{d}y$
+What is the area of the surface formed by rotating a parametric curve through $2\pi$ about the $x$-axis? | $S_x = 2\pi\int_{t_1}^{t_2} y\sqrt{\dot{x}^2 + \dot{y}^2}\,\mathrm{d}t$
+What usually happens to $1 + \left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2$ in exam questions on arc length or surface area? | It simplifies to a perfect square, so the square root can be taken
+What is the arc length of $y = \frac{2}{3}x^{\frac{3}{2}}$ from $x = 0$ to $x = 3$? | $\int_0^3 \sqrt{1 + x}\,\mathrm{d}x = \left[\frac{2}{3}(1 + x)^{\frac{3}{2}}\right]_0^3 = \frac{14}{3}$
+What is $\dot{x}^2 + \dot{y}^2$ for $x = \cos^3 t$ and $y = \sin^3 t$? | $9\cos^4 t\sin^2 t + 9\sin^4 t\cos^2 t$, which factorises to $9\sin^2 t\cos^2 t$ using $\sin^2 t + \cos^2 t = 1$
+When can an arc length or surface area integral be evaluated on a calculator? | When the question does not ask for detailed reasoning, once the integral is written out with its limits

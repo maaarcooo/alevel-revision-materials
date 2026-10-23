@@ -1,0 +1,49 @@
+What is the closed form, or position-to-term formula, of a sequence? | A formula giving $u_n$ directly from $n$, $u_n = f(n)$
+What three parts make up a recurrence system? | A recurrence relation, an initial condition such as $u_0 = 1000$, and the range of $n$
+What is the order of a recurrence relation? | The number of earlier terms each term depends on, so $u_{n+2} = au_{n+1} + bu_n$ is second order
+How is it proved that a sequence given by a recurrence relation is periodic? | Work out terms until the starting terms come round again, then state that every later term repeats because each depends only on the terms before it
+For a second-order recurrence relation, what must repeat to prove the sequence is periodic? | A pair of consecutive terms, not just a single term
+What does monotonic mean for a sequence? | It always increases or always decreases
+Which kinds of sequence can oscillate? | Both convergent and divergent ones, such as $\left(-\frac{1}{2}\right)^n$ and $(-2)^n$
+What does divergent mean for a sequence? | It does not converge, whether it is bounded, such as $(-1)^n$, or unbounded
+How is the limit $L$ of a convergent sequence $u_{n+1} = f(u_n)$ found? | Set $u_{n+1} = u_n = L$ and solve $L = f(L)$
+What must be checked when $L = f(L)$ has more than one root? | Which root the sequence actually tends to, rejecting the others with a reason such as the starting value or the context
+How is the limit of a convergent sequence found when no working is needed? | Iterate the recurrence on a calculator with the Ans key until the terms settle
+How is the limit of a non-linear second-order recurrence such as $F_{n+2} = 1.25F_{n+1} - rF_{n+1}F_n$ found? | Set $F_n = F_{n+1} = F_{n+2} = L$ and solve for $L$, not with an auxiliary equation
+Why can the auxiliary equation not be used for $F_{n+2} = 1.25F_{n+1} - rF_{n+1}F_n$? | The relation is not linear, because it contains a product of terms
+What is a steady state of a recurrence relation? | A value that the relation maps to itself, so a sequence starting there stays constant
+How is it shown that a recurrence model keeps a population constant at a value $P$? | Substitute $P_{n+1} = P_n = P$ to form an equation and solve it for the unknown, rather than only checking one step
+How is the long-term behaviour of a sequence described? | Say how it moves and what it tends to, such as "decreases monotonically towards 500"
+What is the Fibonacci sequence? | $F_0 = 0$, $F_1 = 1$ and $F_{n+1} = F_n + F_{n-1}$, giving 0, 1, 1, 2, 3, 5, 8, ...
+What are the Lucas numbers? | The sequence with the Fibonacci recurrence but $L_0 = 2$ and $L_1 = 1$, giving 2, 1, 3, 4, 7, ...
+What is the exact value of $\phi$? | $\frac{1}{2}(1 + \sqrt{5})$
+Which quadratic equation does $\phi$ satisfy? | $x^2 = x + 1$, so $\phi^2 = \phi + 1$ and $\frac{1}{\phi} = \phi - 1$
+What does $\frac{F_{n+1}}{F_n}$ tend to as $n \to \infty$? | $\phi$
+What is the closed form of the Fibonacci numbers with $F_0 = 0$ and $F_1 = 1$? | $F_n = \frac{1}{\sqrt{5}}(\phi^n - \psi^n)$, where $\psi = \frac{1}{2}(1 - \sqrt{5})$
+How is $F_{n+4}$ written in terms of $F_n$ and $F_{n-1}$? | Apply $F_{n+1} = F_n + F_{n-1}$ repeatedly, replacing the highest term each time, giving $F_{n+4} = 5F_n + 3F_{n-1}$
+How is a result such as $3 \mid F_{4n}$ proved? | Write $F_{4k+4}$ in terms of $F_{4k}$, such as $5F_{4k} + 3F_{4k-1}$, then use induction in steps of 4
+How is $S_{n+2}$ found for $S_n = \alpha^n + \beta^n$, where $\alpha$ and $\beta$ are the roots of $x^2 = px + q$? | Multiply $\alpha^2 = p\alpha + q$ by $\alpha^n$, do the same for $\beta$, and add, giving $S_{n+2} = pS_{n+1} + qS_n$
+How many base cases does a proof by induction need when it uses a second-order recurrence? | Two, since each term depends on the two before it
+In a proof by induction for odd $n$ only, what is the inductive step? | Assume the result for $n = 2k + 1$ and prove it for $n = 2k + 3$, the next odd number
+What is the complementary function of $u_{n+1} = au_n + f(n)$? | $Aa^n$, from the auxiliary equation $m = a$
+How is the general solution of $u_{n+1} = au_n + f(n)$ formed? | The complementary function plus a particular solution
+What trial particular solution is used when $f(n)$ is a constant? | A constant $\lambda$
+What trial particular solution is used when $f(n)$ is a polynomial of degree $k$? | A general polynomial of degree $k$, such as $an^2 + bn + c$ for $n^2$
+What trial particular solution is used when $f(n) = dk^n$? | $\lambda k^n$
+What trial particular solution is used when the usual trial already appears in the complementary function? | The usual trial multiplied by $n$, such as $\lambda n$ for $u_{n+1} = u_n + 3$
+How are the constants in a trial particular solution found? | Substitute the trial into the recurrence relation and compare coefficients
+When is the initial condition used to find the arbitrary constant? | After the particular solution is added, on the full general solution
+What is the solution of $u_{n+1} = 2u_n + 3$ with $u_0 = 1$? | $u_n = A \times 2^n - 3$, and $u_0 = 1$ gives $A = 4$, so $u_n = 4 \times 2^n - 3$
+What is the auxiliary equation of $u_{n+2} = au_{n+1} + bu_n$? | $m^2 = am + b$
+What is the complementary function when the auxiliary equation has distinct real roots $\alpha$ and $\beta$? | $A\alpha^n + B\beta^n$
+What is the complementary function when the auxiliary equation has a repeated root $\alpha$? | $(A + Bn)\alpha^n$
+What is the complementary function when the auxiliary equation has complex roots $r\mathrm{e}^{\pm\mathrm{i}\theta}$? | $r^n(A\cos n\theta + B\sin n\theta)$, or the distinct-roots form with complex constants
+What are the roots of the auxiliary equation for $T_{n+2} + 2T_n = 0$? | $m^2 + 2 = 0$, so $m = \pm\sqrt{2}\,\mathrm{i}$, which is $\sqrt{2}\,\mathrm{e}^{\pm\frac{1}{2}\pi\mathrm{i}}$
+What is the general solution of $H_{n+2} = 5H_{n+1} - 4H_n$? | $m^2 - 5m + 4 = 0$ gives $m = 1$ or $4$, so $H_n = A + B \times 4^n$
+How many initial conditions does a second-order recurrence system need? | Two, such as $u_0$ and $u_1$, to find both arbitrary constants
+How is the long-term behaviour of a second-order recurrence found when both auxiliary roots have modulus less than 1? | The complementary function tends to 0, so $u_n$ tends to the particular solution and the constants need not be found
+How are an unknown coefficient and $G_0$ found from $G_1$ and $G_2$ in $G_{n+1} = 1.25 - qG_n$? | Use the relation with $n = 1$ to find $q$, then with $n = 0$ to find $G_0$, rather than the general solution
+How is a loss of 8% and an addition of 40 each month written as a recurrence relation? | $A_{n+1} = 0.92A_n + 40$
+How is a recurrence formed when one eighth is lost every hour but the time step is six hours? | Apply the hourly multiplier six times, giving a factor of $\left(\frac{7}{8}\right)^6$ on $E_n$
+Why is the INT function used in a recurrence model? | So that the model gives whole numbers, such as whole animals, rather than fractions
+How is $A_{n+1} = 0.9A_n + 50$ changed to give whole-number values? | $A_{n+1} = \mathrm{INT}(0.9A_n + 50)$, applying INT to the whole right-hand side

@@ -3,6 +3,43 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-23: Further Maths Additional Pure decks (OCR H245 8.01 to 8.06)
+
+Six decks for the Additional Pure option (Y545) of OCR A-Level Further Mathematics A,
+243 cards: sequences and series, number theory, groups, further vectors, surfaces and
+partial differentiation, and further calculus. As for Pure Core and Mechanics, the cards
+are about choosing the method and recalling its steps, with one single-step worked card
+for each routine calculation. They were written from the specification and the formulae
+booklet and checked against every question in the A-level Additional Pure paper (Y545)
+from 2019 to 2025 and the AS Additional Pure paper (Y535) from 2018 to 2025, with their
+mark schemes and examiner reports. The vector and scalar products from Pure Core, and the sequence terms
+and integration by parts from A-level Maths, are not repeated.
+
+- From the examiner reports: a repeated pair of terms, not one term, to prove a
+  second-order sequence periodic; the angle $\frac{1}{2}\pi$ for complex auxiliary
+  roots $\pm\sqrt{2}\,\mathrm{i}$; long-term behaviour from the auxiliary roots without
+  finding the constants, described with its direction; the limit of a non-linear
+  recurrence by setting every term equal; unknown coefficients from the recurrence, not
+  the general solution; the initial term in a recurrence system; INT applied to the
+  whole right-hand side; induction for odd $n$ in steps of 2; a congruence answer as
+  $x \equiv 9 \pmod{19}$, not $x = 9$; $\mathrm{hcf}(k, n) = 1$ stated before dividing,
+  and before using Fermat's little theorem; the order of $a$ modulo $p$ dividing
+  $p - 1$; $h \mid 19$, not $h = 19$, from a linear combination; both factors greater
+  than 1 for a composite number; coprime factors such as 8, 9 and 11 for a composite
+  divisibility test; both directions of an "if and only if" test; powers of 2 taken out
+  first when looking for odd factors; closure stated from the table's entries and
+  inverses named in pairs; the identity found by solving, not by checking; closure
+  counterexamples that use elements of the set; a named generator for a cyclic group and
+  element orders for groups that are not isomorphic; Lagrange's theorem not working in
+  reverse; inverses pairing off in a group of even order; the $\frac{1}{2}$ in a
+  triangle's area; $\sin\theta = 0$ as the reason $\mathbf{x} \times \mathbf{y} =
+  \mathbf{0}$ means parallel, and the zero vector as the other case; all three
+  components checked for parallel vectors; two planes for a fixed tetrahedron volume;
+  the $z$-coordinate of a stationary point and the solutions lost by dividing by $x$;
+  the Hessian test failing when $\lvert \mathbf{H} \rvert = 0$; limits and
+  $\mathrm{d}x$ on every integral in a reduction formula; and factorising $\dot{x}^2 +
+  \dot{y}^2$ before using $\sin^2 t + \cos^2 t = 1$.
+
 ## 2026-10-23: Further Maths Mechanics decks (OCR H245 6.01 to 6.06)
 
 Six decks for the Mechanics option (Y543) of OCR A-Level Further Mathematics A, 165

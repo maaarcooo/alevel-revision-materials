@@ -1,0 +1,31 @@
+What does an equation $z = \mathrm{f}(x, y)$ describe? | A surface in three dimensions
+What is a section of the surface $z = \mathrm{f}(x, y)$? | The curve where a vertical plane such as $x = a$ or $y = b$ cuts it, so $z = \mathrm{f}(a, y)$ or $z = \mathrm{f}(x, b)$
+What is a contour of the surface $z = \mathrm{f}(x, y)$? | The curve $\mathrm{f}(x, y) = c$ where the horizontal plane $z = c$ cuts it, drawn in the $x$-$y$ plane
+Which equation gives a section parallel to the $x$-$z$ plane? | $y = k$ for a constant $k$
+How is a section of a surface sketched? | Substitute the fixed value, sketch $z$ against the other variable, and label the axes and the intercepts
+Why might the contour $z = c$ of a surface be empty? | The surface never reaches the height $c$
+What is $\frac{\partial \mathrm{f}}{\partial x}$, also written $\mathrm{f}_x$? | The derivative of $\mathrm{f}$ with respect to $x$, treating $y$ as a constant
+What are $\mathrm{f}_x$ and $\mathrm{f}_y$ for $\mathrm{f}(x, y) = x^2y + 3y^2$? | $\mathrm{f}_x = 2xy$ and $\mathrm{f}_y = x^2 + 6y$
+What is a mixed partial derivative such as $\mathrm{f}_{xy}$? | The result of differentiating partially with respect to one variable and then the other
+What is $\mathrm{f}_{xy}$ for $\mathrm{f}(x, y) = x^3y^2$? | $\mathrm{f}_x = 3x^2y^2$, so $\mathrm{f}_{xy} = 6x^2y$
+What does the mixed derivative theorem say? | $\mathrm{f}_{xy} = \mathrm{f}_{yx}$ for well-behaved continuous functions
+How is $\frac{\partial z}{\partial x}$ found for a surface given implicitly as $\mathrm{g}(x, y, z) = c$? | Differentiate implicitly with respect to $x$, holding $y$ constant and treating $z$ as a function of $x$ and $y$
+What is the condition for a stationary point on the surface $z = \mathrm{f}(x, y)$? | Both first partial derivatives are zero, $\mathrm{f}_x = \mathrm{f}_y = 0$
+How are the stationary points of $z = \mathrm{f}(x, y)$ found? | Solve $\mathrm{f}_x = 0$ and $\mathrm{f}_y = 0$ simultaneously, then substitute into the surface's equation for each $z$-coordinate
+What is lost by dividing $\mathrm{f}_x = 0$ by $x$? | Any solutions with $x = 0$, so factorise instead
+How can awkward simultaneous linear equations from $\mathrm{f}_x = 0$ and $\mathrm{f}_y = 0$ be solved? | With the calculator's simultaneous equation solver, after writing both equations down
+How is it verified that a given point is a stationary point of a surface? | Show that $\mathrm{f}_x = 0$ and $\mathrm{f}_y = 0$ there, and check that its $z$-value lies on the surface
+How is it shown that a surface has no stationary point? | Show that $\mathrm{f}_x = 0$ and $\mathrm{f}_y = 0$ cannot both hold, such as by reaching a contradiction
+What is a saddle point? | A stationary point that is a maximum on one section through it and a minimum on another
+What is the Hessian matrix of $z = \mathrm{f}(x, y)$? | $\mathbf{H} = \begin{pmatrix} \mathrm{f}_{xx} & \mathrm{f}_{xy} \\ \mathrm{f}_{yx} & \mathrm{f}_{yy} \end{pmatrix}$
+How is $\lvert \mathbf{H} \rvert$ calculated? | $\mathrm{f}_{xx}\mathrm{f}_{yy} - \mathrm{f}_{xy}^2$, using $\mathrm{f}_{xy} = \mathrm{f}_{yx}$
+What stationary point has $\lvert \mathbf{H} \rvert > 0$ and $\mathrm{f}_{xx} > 0$? | A local minimum
+What stationary point has $\lvert \mathbf{H} \rvert > 0$ and $\mathrm{f}_{xx} < 0$? | A local maximum
+What stationary point has $\lvert \mathbf{H} \rvert < 0$? | A saddle point
+What does $\lvert \mathbf{H} \rvert = 0$ show about a stationary point? | Nothing, as the Hessian test cannot decide its nature
+How can a stationary point be classified when $\lvert \mathbf{H} \rvert = 0$? | Look at how $z$ behaves near it, such as along sections through it
+What is the nature of the stationary point of $z = x^2 + xy + y^2$ at the origin? | $\lvert \mathbf{H} \rvert = 2 \times 2 - 1^2 = 3 > 0$ and $\mathrm{f}_{xx} = 2 > 0$, so it is a minimum
+What does $\mathrm{f}_x$ changing from positive to negative through a stationary point show? | The section through it parallel to the $x$-$z$ plane has a maximum there
+What is the equation of the tangent plane to $z = \mathrm{f}(x, y)$ at $(a, b, \mathrm{f}(a, b))$? | $z = \mathrm{f}(a, b) + (x - a)\mathrm{f}_x(a, b) + (y - b)\mathrm{f}_y(a, b)$
+What is the tangent plane to $z = x^2 + y^2$ at $(1, 2, 5)$? | $\mathrm{f}_x = 2$ and $\mathrm{f}_y = 4$ there, so $z = 5 + 2(x - 1) + 4(y - 2)$, which is $2x + 4y - z = 5$
+How is the shortest distance between two moving points found with partial differentiation? | Write the squared distance as a function of the two parameters, find its stationary point, then take the square root

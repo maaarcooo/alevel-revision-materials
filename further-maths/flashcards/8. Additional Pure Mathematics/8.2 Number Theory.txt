@@ -1,0 +1,63 @@
+What number does $2013_n$ stand for? | $2n^3 + 0n^2 + 1n + 3$
+What is $213_5$ in base 10? | $2 \times 25 + 1 \times 5 + 3 = 58$
+What is $\mathrm{2B}_{12}$ in base 10? | $2 \times 12 + 11 = 35$
+Which symbols stand for the digits 10 to 15 in bases above 10? | The letters A to F
+What restriction does a digit $d$ put on the base $n$ of a number? | $n > d$, since every digit is less than the base
+How is a base-10 number converted to base $n$? | Divide repeatedly by $n$, and the remainders read from last to first are the digits
+What are the divisibility tests for 2 and 5? | The last digit is even, or the last digit is 0 or 5
+What are the divisibility tests for 3 and 9? | The sum of the digits is divisible by 3, or by 9
+What is the divisibility test for 4? | The number formed by the last two digits is divisible by 4
+What is the divisibility test for 8? | The number formed by the last three digits is divisible by 8
+What is the divisibility test for 11? | The difference between the sum of the digits in odd places and the sum in even places is a multiple of 11, including 0
+Why is 2 573 208 divisible by 9? | Its digit sum is $2 + 5 + 7 + 3 + 2 + 0 + 8 = 27$, a multiple of 9
+How is 11 shown to divide 918 082? | $(9 + 8 + 8) - (1 + 0 + 2) = 22$, a multiple of 11
+How is divisibility by a composite number such as 792 tested? | Split it into coprime factors that have tests, such as $8 \times 9 \times 11$, and apply each test
+Why must the factors be coprime when testing divisibility by a composite number? | Otherwise passing both tests proves nothing, as 12 is divisible by 4 and by 6 but not by 24
+How is a divisibility test for a prime $p$ built from $N = 10a + b$? | Choose $M = a + kb$ so that a combination such as $3N + M$ is a multiple of $p$, then prove $p \mid N \iff p \mid M$
+Given $3N + M = 31a$, how is $31 \mid M \Rightarrow 31 \mid N$ proved? | $3N = 31a - M$ is a multiple of 31, and $\mathrm{hcf}(3, 31) = 1$, so $31 \mid N$ by Euclid's lemma
+How is a test such as "$31 \mid N$ if and only if $31 \mid a - 3b$" applied to a large number? | Repeatedly remove the last digit $b$ and form $a - 3b$, until the number is small enough to see whether 31 divides it
+Why can multiples of 7 be subtracted from a number without changing whether 7 divides it? | $7 \mid N$ if and only if $7 \mid N - 7k$
+What is the division algorithm? | For positive integers $a$ and $b$, there are unique integers $q$ and $r$ with $a = bq + r$ and $0 \leqslant r < b$
+How is 1071 written in the form $67q + r$ with $0 \leqslant r < 67$? | $1071 = 67 \times 15 + 66$
+What forms can $n$ take when it is a multiple of 3 but not of 9? | $n = 9k + 3$ or $n = 9k + 6$
+What does $a \equiv b \pmod{n}$ mean? | $n \mid (a - b)$, so $a$ and $b$ leave the same remainder when divided by $n$
+How is a large power reduced modulo $n$? | Find a power congruent to 1 or $-1$, then split the exponent, such as $2^{10} \equiv 1 \pmod{11}$ giving $2^{103} \equiv 2^3 = 8$
+How can negative equivalents simplify working modulo $n$? | Replace a number by a small negative one, such as $95 \equiv -6 \pmod{101}$ or $p - 2 \equiv -2 \pmod{p}$
+When can both sides of $ka \equiv kb \pmod{n}$ be divided by $k$? | Only when $\mathrm{hcf}(k, n) = 1$, which must be stated
+What is an inverse of $a$ modulo $n$? | A number $b$ with $ab \equiv 1 \pmod{n}$, which exists only when $\mathrm{hcf}(a, n) = 1$
+How is $ax \equiv b \pmod{n}$ solved by adding multiples of $n$? | Add multiples of $n$ to $b$ until it is a multiple of $a$, then divide by $a$, stating that $\mathrm{hcf}(a, n) = 1$
+How is $ax \equiv b \pmod{n}$ solved with an inverse? | Multiply both sides by the inverse of $a$ modulo $n$
+How is $7x \equiv 6 \pmod{19}$ solved? | $6 \equiv 25 \equiv 44 \equiv 63 = 7 \times 9$, and $\mathrm{hcf}(7, 19) = 1$, so $x \equiv 9 \pmod{19}$
+How is the solution of a linear congruence written? | As a congruence such as $x \equiv 9 \pmod{19}$, or $x = 19k + 9$, never just $x = 9$
+When does $ax \equiv b \pmod{n}$ have no solution? | When $\mathrm{hcf}(a, n)$ does not divide $b$
+How are simultaneous linear congruences solved? | Write the first as $x = m_1k + a$, substitute into the second and solve for $k$, then combine with the third in the same way
+What is the modulus of the combined solution of $x \equiv a \pmod{m_1}$ and $x \equiv b \pmod{m_2}$ when $\mathrm{hcf}(m_1, m_2) = 1$? | $m_1m_2$
+How are $x \equiv 1 \pmod{3}$ and $x \equiv 5 \pmod{11}$ solved? | $x = 11k + 5 \equiv 2k + 2 \equiv 1 \pmod{3}$, so $k \equiv 1$ and $x \equiv 16 \pmod{33}$
+How is it shown that simultaneous congruences have no solution? | Find a contradiction, such as $x \equiv 3 \pmod{4}$ making $x$ odd while $x \equiv 4 \pmod{6}$ makes it even
+What is a quadratic residue modulo $n$? | A value that $x^2$ can take modulo $n$
+How are the quadratic residues modulo $n$ found? | Square each of $0, 1, \ldots, n - 1$ modulo $n$, noting $(n - x)^2 \equiv x^2$ so only half are needed
+What are the quadratic residues modulo 10? | 0, 1, 4, 5, 6 and 9
+How is it proved that the terms of a sequence are never perfect squares? | Show that their values modulo some $n$ are never quadratic residues modulo $n$
+How is $n^6 + 3n^4 + 7n^2 \equiv 11 \pmod{32}$ proved for all odd $n$? | List the possible values of $n^2$ modulo 32 for odd $n$, then check the expression for each one
+What is a composite number? | A positive integer with a factor other than 1 and itself
+How is it shown that $f(n) = a(n)b(n)$ is always composite? | Show that both factors are always greater than 1
+What is the fundamental theorem of arithmetic? | Every integer greater than 1 is a product of primes in exactly one way, apart from the order
+What does it mean for $a$ and $b$ to be coprime? | $\mathrm{hcf}(a, b) = 1$
+What is the result about divisibility of linear combinations? | If $a \mid b$ and $a \mid c$, then $a \mid (bx + cy)$ for any integers $x$ and $y$
+How is $\mathrm{hcf}(4n + 1, 6n + 1) = 1$ proved? | The hcf $h$ divides $3(4n + 1) - 2(6n + 1) = 1$, so $h = 1$
+What does $3a - 2b = 19$ show about $h = \mathrm{hcf}(a, b)$? | $h \mid 19$, so $h$ is 1 or 19, not that $h = 19$
+How are the values of $n$ found for which $2n + 7$ and $3n + 1$ share the factor 19? | Solve $2n + 7 \equiv 0 \pmod{19}$, giving $n \equiv 6 \pmod{19}$
+What is Euclid's lemma? | If $a \mid rs$ and $\mathrm{hcf}(a, r) = 1$, then $a \mid s$
+Given $7 \mid 11N$, why does $7 \mid N$? | By Euclid's lemma, because $\mathrm{hcf}(7, 11) = 1$
+What is the first form of Fermat's little theorem? | If $p$ is prime and $\mathrm{hcf}(a, p) = 1$, then $a^{p-1} \equiv 1 \pmod{p}$
+What is the second form of Fermat's little theorem? | If $p$ is prime, then $a^p \equiv a \pmod{p}$ for every integer $a$
+Which condition is often left out when using $a^{p-1} \equiv 1 \pmod{p}$? | That $a$ and $p$ are coprime
+What is a pseudoprime to base $a$? | A composite $n$ with $a^{n-1} \equiv 1 \pmod{n}$, which shows the converse of Fermat's little theorem is false
+What is $3^{100}$ modulo 7? | $3^6 \equiv 1$ and $100 = 6 \times 16 + 4$, so $3^{100} \equiv 3^4 = 81 \equiv 4$
+How is $30 \mid n^5 - n$ proved for every integer $n$? | Show $n^5 \equiv n$ modulo 2, 3 and 5 separately, then combine since 2, 3 and 5 are coprime
+What is the order of $a$ modulo $p$? | The least positive integer $n$ with $a^n \equiv 1 \pmod{p}$
+What values can the order of $a$ modulo a prime $p$ take? | Only factors of $p - 1$, since $a^{p-1} \equiv 1 \pmod{p}$
+How is it shown that the order of $a$ modulo $p$ is $p - 1$? | Show $a^d \not\equiv 1 \pmod{p}$ for every factor $d$ of $p - 1$ smaller than $p - 1$
+What is the order of 2 modulo 7? | $2^1 = 2$, $2^2 = 4$ and $2^3 = 8 \equiv 1$, so the order is 3
+Why is $(a + b)^p \equiv a^p + b^p \pmod{p}$ for a prime $p$? | Every middle binomial coefficient $\binom{p}{r}$ is a multiple of $p$, since $p$ divides $p!$ but not $r!(p - r)!$
+What is done first when looking for odd prime factors of a large number? | Take out every factor of 2, then look for a factorisation such as a difference of two squares

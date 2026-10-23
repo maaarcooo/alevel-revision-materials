@@ -1,0 +1,35 @@
+What is $\sinh x$ in terms of exponentials? | $\frac{1}{2}(\mathrm{e}^x - \mathrm{e}^{-x})$
+What is $\cosh x$ in terms of exponentials? | $\frac{1}{2}(\mathrm{e}^x + \mathrm{e}^{-x})$
+What is $\tanh x$ in terms of $\sinh x$ and $\cosh x$? | $\frac{\sinh x}{\cosh x}$
+What is $\tanh x$ in terms of exponentials? | $\frac{\mathrm{e}^{2x} - 1}{\mathrm{e}^{2x} + 1}$
+What are $\sinh 0$ and $\cosh 0$? | 0 and 1
+What is $\cosh(\ln 3)$? | $\frac{1}{2}\left(3 + \frac{1}{3}\right) = \frac{5}{3}$
+What are $\operatorname{sech} x$, $\operatorname{cosech} x$ and $\coth x$? | $\frac{1}{\cosh x}$, $\frac{1}{\sinh x}$ and $\frac{1}{\tanh x}$
+What is the range of $\sinh x$? | All real numbers
+What is the range of $\tanh x$? | $-1 < \tanh x < 1$
+What does the graph of $\cosh x$ look like? | A U shape, symmetric in the $y$-axis, with its minimum at $(0, 1)$
+What does the graph of $\sinh x$ look like? | An increasing curve through the origin with rotational symmetry about it
+What does the graph of $\tanh x$ look like? | An increasing curve through the origin with asymptotes $y = 1$ and $y = -1$
+Which of $\sinh x$, $\cosh x$ and $\tanh x$ are odd functions? | $\sinh x$ and $\tanh x$
+Why is a solution such as $\cosh x = -1$ rejected? | The range of $\cosh x$ is $\cosh x \geqslant 1$
+What is the identity linking $\cosh x$ and $\sinh x$? | $\cosh^2 x - \sinh^2 x \equiv 1$
+What is $\cosh 2x$ in terms of $\cosh x$? | $2\cosh^2 x - 1$
+What is $\cosh 2x$ in terms of $\sinh x$? | $1 + 2\sinh^2 x$
+What is $\sinh 2x$ in terms of $\sinh x$ and $\cosh x$? | $2\sinh x\cosh x$
+How is a hyperbolic identity proved? | Write the functions in exponentials, start from one side and simplify to the other, stating both sides in full
+How is an equation such as $5\cosh x + 3\sinh x = 4$ solved? | Write it in exponentials, multiply by $\mathrm{e}^x$ to get a quadratic in $\mathrm{e}^x$, solve, then take logarithms
+How is an equation with $\cosh 2x$ and $\cosh x$ solved? | Use the identity for $\cosh 2x$ to get a quadratic in $\cosh x$, reject any value below 1, then solve
+What are the solutions of $\cosh x = k$ for $k > 1$? | $x = \pm\ln(k + \sqrt{k^2 - 1})$
+What is $\sinh^{-1} x$ as a logarithm? | $\ln(x + \sqrt{x^2 + 1})$
+What is $\cosh^{-1} x$ as a logarithm? | $\ln(x + \sqrt{x^2 - 1})$, for $x \geqslant 1$
+What is $\tanh^{-1} x$ as a logarithm? | $\frac{1}{2}\ln\left(\frac{1 + x}{1 - x}\right)$, for $-1 < x < 1$
+What is $\sinh^{-1} 2$ as a logarithm? | $\ln(2 + \sqrt{5})$
+What is the range of $\cosh^{-1} x$? | $\cosh^{-1} x \geqslant 0$
+How is the logarithmic form of $\sinh^{-1} x$ derived? | Let $x = \sinh y$, write it in exponentials and multiply by $\mathrm{e}^y$ to get $\mathrm{e}^{2y} - 2x\mathrm{e}^y - 1 = 0$, then solve and reject the negative root because $\mathrm{e}^y > 0$
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\sinh x)$? | $\cosh x$
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\cosh x)$? | $\sinh x$, with no minus sign, unlike the derivative of $\cos x$
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\tanh x)$? | $\operatorname{sech}^2 x$
+What is $\int \sinh kx\,\mathrm{d}x$? | $\frac{1}{k}\cosh kx + c$
+What is $\int \cosh kx\,\mathrm{d}x$? | $\frac{1}{k}\sinh kx + c$
+What is $\int \tanh x\,\mathrm{d}x$? | $\ln(\cosh x) + c$
+What are $\sinh x$ and $\cosh x$ approximately for large positive $x$? | Both are about $\frac{1}{2}\mathrm{e}^x$

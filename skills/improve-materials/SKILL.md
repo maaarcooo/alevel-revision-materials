@@ -10,7 +10,7 @@ This repository keeps one living copy of each deck and note. An improvement edit
 ## Process
 
 1. **Read what is there.** Read the whole deck and the matching note for the subtopic, not only the lines you were asked about. They share a name: `<subject>/flashcards/<n>. <topic>/<n.m> <subtopic>.txt` and `<subject>/notes/<n>. <topic>/<n.m> <subtopic>.md`.
-2. **Read the specification section.** The note's **Specification** line names it (OCR H446 for Computer Science, AQA 7408 for Physics). Maths has decks only, one per section of OCR H240, named after the section number. The specification decides what belongs, what it is called and how deep to go.
+2. **Read the specification section.** The note's **Specification** line names it (OCR H446 for Computer Science, AQA 7408 for Physics). Maths has decks only, one per section of OCR H240, named after the section number, and so has Further Maths, one per section of OCR H245 (Pure Core 4.01 to 4.10, Mechanics 6.01 to 6.06, Additional Pure 8.01 to 8.06). The specification decides what belongs, what it is called and how deep to go.
 3. **Read any source material you were given**, in full. Source notes are copyrighted: keep them in `sources/` (ignored by git) and never commit them.
 4. **Decide each change** using the rules below, then edit the files in place.
 5. **Keep the deck and the note in step.** A correction to a fact goes in both.
@@ -132,6 +132,19 @@ Settled owners for ideas that cross topics:
 | Binomial conditions, mean and variance, the normal approximation to the binomial | 2.4 |
 | The distribution of $\bar{X}$, Pearson's correlation coefficient and its tests | 2.5 |
 
+| Further Maths | Owner |
+|---|---|
+| Exam command words: show that, verify, determine, hence, detailed reasoning | 4.1 |
+| Roots of unity and the geometry of multiplying complex numbers | 4.2 |
+| How three planes meet, from the determinant and consistency | 4.3 |
+| The scalar and vector products, equations of lines and planes | 4.4 |
+| Partial fraction forms (their integration is 4.8) | 4.5 |
+| Hyperbolic definitions, identities and logarithmic forms (their inverses' derivatives are 4.8) | 4.7 |
+| Simple harmonic motion and damping as differential equations | 4.10 |
+
+Further Maths assumes A-level Maths, so its decks do not repeat what the Maths decks own,
+such as the basic partial fractions or vector magnitudes.
+
 When a new overlap turns up, settle it by the specification, move the definition to the owner, and add the row here.
 
 ## Checking against mark schemes
@@ -154,7 +167,7 @@ Physics is AQA 7408 and 7407 (A-level Papers 1, 2, 3A and 3BD), Computer Science
    python3 scripts/paper_digest.py physics "polaris|stationary wave|coheren" > /tmp/waves.txt
    python3 scripts/paper_digest.py computer-science "normal form|foreign key" --paper 1 > /tmp/databases.txt
    ```
-   Use a pattern of the topic's key terms. In Computer Science, Paper 1 covers topics 1 to 5 and Paper 2 covers topics 6 to 8, and data structures (4.2) come up in both. In Maths, Pure is all of A-level Paper 1 and Section A of every other paper, Statistics is Section B of A-level Paper 2 and of AS Paper 1, and Mechanics is Section B of A-level Paper 3 and of AS Paper 2, so choose the papers with `--paper` and keep only that section's questions. Add `--calculations` to include questions whose mark scheme is mostly working. For more Physics questions, `scripts/pull_mark_schemes.py waves "3. Waves"` downloads topic-sorted papers (sets M, N and P are AQA; sets A to D include other boards).
+   Use a pattern of the topic's key terms. In Computer Science, Paper 1 covers topics 1 to 5 and Paper 2 covers topics 6 to 8, and data structures (4.2) come up in both. In Maths, Pure is all of A-level Paper 1 and Section A of every other paper, Statistics is Section B of A-level Paper 2 and of AS Paper 1, and Mechanics is Section B of A-level Paper 3 and of AS Paper 2, so choose the papers with `--paper` and keep only that section's questions. In Further Maths, A-level Papers 1 and 2 and AS Paper 1 are Pure Core, Paper 3 and AS Paper 3 are Mechanics, and Paper 5 and AS Paper 5 are Additional Pure. Add `--calculations` to include questions whose mark scheme is mostly working. For more Physics questions, `scripts/pull_mark_schemes.py waves "3. Waves"` downloads topic-sorted papers (sets M, N and P are AQA; sets A to D include other boards).
 2. **Read them next to the decks.** Definitions and "explain" answers matter most, because marks depend on their wording. Calculations rarely need changing.
 3. **Change a card** when its wording would not earn the mark, when the mark scheme or examiner report rejects it (look for "do not allow", "reject", "insufficient" and "common error"), or when it is wrong.
 4. **Add a card** when a mark scheme point comes up that no card covers and the specification section includes it.
@@ -178,8 +191,13 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 | Maths 1.1 to 1.10 (Pure) | Written to them on 19 October 2026 | 19 October 2026, against A-level Papers 1 to 3 and AS Papers 1 and 2 | Decks only |
 | Maths 2.1 to 2.5 (Statistics) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 2 and AS Paper 1 | Decks only |
 | Maths 3.1 to 3.4 (Mechanics) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 3 and AS Paper 2 | Decks only |
+| Further Maths 4.1 to 4.10 (Pure Core) | Written to them on 23 October 2026 | 23 October 2026, against A-level Papers 1 and 2 and AS Paper 1 | Decks only |
 
-Every section of OCR H240 now has a deck (Mechanics ends at 3.04). The whole Maths set was
+Every section of OCR H240 now has a deck (Mechanics ends at 3.04). Further Maths has
+Pure Core so far. Mechanics (6.01 to 6.06) and Additional Pure (8.01 to 8.06), Marco's
+two options, come next. Its cards lean on recognising which method a question needs and
+the steps of that method, with one single-step worked card for each routine calculation
+such as a scalar product, a vector product or a matrix product. The whole Maths set was
 copied into the NeuroCards catalog on 19 October 2026.
 
 Every Physics topic now has decks and notes. Marco takes the Turning Points option, which

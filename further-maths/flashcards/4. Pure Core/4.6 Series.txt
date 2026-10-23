@@ -1,0 +1,19 @@
+What is $\sum_{r=1}^{n} r$? | $\frac{1}{2}n(n + 1)$
+What is $\sum_{r=1}^{n} r^2$? | $\frac{1}{6}n(n + 1)(2n + 1)$
+What is $\sum_{r=1}^{n} r^3$? | $\frac{1}{4}n^2(n + 1)^2$
+What is $\sum_{r=1}^{n} 1$? | $n$
+What is $\sum_{r=1}^{10} r^2$? | $\frac{1}{6} \times 10 \times 11 \times 21 = 385$
+How is a sum such as $\sum_{r=1}^{n} (3r^2 - 2r)$ found? | Split it, $3\sum r^2 - 2\sum r$, then use the standard formulae
+How is $\sum_{r=k}^{n}$ found from sums that start at $r = 1$? | $\sum_{r=1}^{n} - \sum_{r=1}^{k-1}$
+Why are common factors taken out before expanding when simplifying a sum? | Taking out factors such as $\frac{1}{6}n(n + 1)$ first keeps the algebra short and leaves the answer factorised
+How is a sum of squares of odd numbers written with sigma notation? | As $\sum (2r - 1)^2$, with $r$ running from 1 to the number of terms
+How many terms are in $1^2 + 3^2 + 5^2 + \ldots + 779^2$? | $2r - 1 = 779$ gives $r = 390$
+How are the limits found for the sum of the cube numbers from 216 to 512000? | Take cube roots of the end values, giving $r = 6$ to $r = 80$
+What is the method of differences? | Write each term as $f(r) - f(r + k)$, list the terms so that most cancel, and add the ones left at the start and the end
+How is a term such as $\frac{1}{r(r + 2)}$ prepared for the method of differences? | Split it into partial fractions, $\frac{1}{2}\left(\frac{1}{r} - \frac{1}{r + 2}\right)$
+What is $\sum_{r=1}^{n} \left(\frac{1}{r} - \frac{1}{r + 1}\right)$? | $1 - \frac{1}{n + 1}$
+Which terms are left when $\frac{1}{r} - \frac{1}{r + 2}$ is summed from $r = 1$ to $n$? | The first two positive terms and the last two negative terms, $1 + \frac{1}{2} - \frac{1}{n + 1} - \frac{1}{n + 2}$
+How many terms must be written out in the method of differences? | Enough at the start and at the end to show the cancelling pattern and every term that is left
+How is the sum to infinity found after the method of differences? | Find the sum to $n$ terms, then its limit as $n \to \infty$
+How is the limit written when finding a sum to infinity? | With $\lim_{n \to \infty}$ and a statement such as $\frac{1}{n + 1} \to 0$, never substituting $\infty$ as a number
+When does an infinite series have a sum? | When its sum to $n$ terms tends to a finite limit as $n \to \infty$

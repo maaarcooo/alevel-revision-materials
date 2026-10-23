@@ -2,7 +2,8 @@
 
 Flashcards and revision notes for **OCR A-Level Computer Science** (H446) and
 **AQA A-Level Physics** (topics 1 to 8 and the Turning Points in Physics option), and
-flashcards for **OCR A-Level Mathematics A** (H240): Pure, Statistics and Mechanics.
+flashcards for **OCR A-Level Mathematics A** (H240): Pure, Statistics and Mechanics, and
+**OCR A-Level Further Mathematics A** (H245): Pure Core so far.
 
 There is one copy of each deck and each note. They are improved in place, so there are
 no version numbers in file or folder names. The history is in git, and
@@ -13,7 +14,8 @@ Science topics 1 to 8 and every Physics deck have also been compared with past-p
 mark schemes and examiner reports (OCR AS and A-Level papers for Computer Science, AQA
 A-level papers for all Physics topics including Turning Points, and AQA AS papers for
 Physics topics 1 to 5 as well). The Maths decks were written from the specification and
-checked against OCR's A-level and AS papers.
+checked against OCR's A-level and AS papers, and the Further Maths decks the same way
+against OCR's H245 and H235 papers.
 Always verify anything important against the official specification.
 
 ## What is here
@@ -23,10 +25,13 @@ Always verify anything important against the official specification.
 | Computer Science (OCR H446, topics 1 to 8) | 26 | 1952 | 26 |
 | Physics (AQA 7408, topics 1 to 8 and Turning Points) | 47 | 2772 | 47 |
 | Maths (OCR H240, Pure 1.1 to 1.10, Statistics 2.1 to 2.5, Mechanics 3.1 to 3.4) | 19 | 743 | 0 |
+| Further Maths (OCR H245, Pure Core 4.1 to 4.10) | 10 | 401 | 0 |
 
 Each Computer Science and Physics subtopic has one flashcard deck and one note with the
-same name. Maths has decks only: one per section of the specification, for the facts,
-rules and procedures that must be remembered rather than problem-solving practice.
+same name. Maths and Further Maths have decks only: one per section of the
+specification, for the facts, rules and procedures that must be remembered rather than
+problem-solving practice. Further Maths leans on which method a question needs and the
+steps of that method.
 
 ## Layout
 
@@ -39,6 +44,8 @@ alevel-revision-materials/
 │   ├── flashcards/<n>. <topic>/<n.m> <subtopic>.txt
 │   └── notes/<n>. <topic>/<n.m> <subtopic>.md
 ├── maths/
+│   └── flashcards/<n>. <area>/<n.m> <section>.txt
+├── further-maths/
 │   └── flashcards/<n>. <area>/<n.m> <section>.txt
 ├── skills/        # the generator skills and the procedure for improving materials
 ├── scripts/       # check_decks.py, paper_digest.py, pull_mark_schemes.py

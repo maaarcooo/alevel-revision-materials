@@ -1,0 +1,21 @@
+Which method proves a statement for every integer $n$ from some starting value? | Proof by induction
+What is the first step of a proof by induction? | Show that the statement is true for the first value of $n$
+Which value of $n$ is used for the base case? | The smallest value the statement covers, such as $n = 0$ when it says $n \geqslant 0$
+How is the base case shown for a formula? | Work out the left-hand side and the right-hand side separately for that value of $n$ and show they are equal
+After the base case, what is assumed in a proof by induction? | That the statement is true for $n = k$
+What is the inductive step? | Using the assumption for $n = k$ to show that the statement is true for $n = k + 1$
+What must the conclusion of a proof by induction state? | If it is true for $n = k$ then it is true for $n = k + 1$, and since it is true for the base case, it is true for every $n$ in the range
+How is the assumption written in a divisibility proof by induction? | As an equation, such as $f(k) = 7m$ for some integer $m$
+How is $f(k + 1)$ shown to be divisible in a divisibility proof by induction? | Rewrite $f(k + 1)$ in terms of $f(k)$, such as $f(k + 1) - 9f(k)$ for $f(n) = 2^{n+1} + 5 \times 9^n$, so that every term is clearly a multiple of the divisor
+How is the inductive step done for a sum $\sum_{r=1}^{n}$? | Add the $(k + 1)$th term to the assumed sum to $k$ terms, then simplify to the formula with $n = k + 1$
+How is the inductive step done for a matrix power $\mathbf{M}^n$? | Multiply the assumed $\mathbf{M}^k$ by $\mathbf{M}$ and show the product is the formula with $n = k + 1$
+How is the inductive step done for a formula for the $n$th derivative? | Differentiate the assumed $k$th derivative and show the result is the formula with $n = k + 1$
+How is the inductive step done for an inequality such as $3^n > 10n$? | Write the $n = k + 1$ case in terms of the $n = k$ case, use the assumption, then justify each further inequality from the range of $k$
+What is the base case check for $\sum_{r=1}^{n} r = \frac{1}{2}n(n + 1)$? | When $n = 1$, the left side is 1 and the right side is $\frac{1}{2}(1)(2) = 1$
+How is a formula for $\mathbf{A}^n$ conjectured? | Work out the first few powers of $\mathbf{A}$, spot the pattern in terms of $n$, then prove it by induction
+What does "show that" require when the answer is given? | Every step, starting from one side or the given information and ending with an explicit statement of the result
+What does "verify" ask for? | Substitute the given values or result and show that it works, which is usually quicker than deriving it
+What does "determine" require? | A justified answer, with the reasoning and working shown
+What does "hence" require? | Using the result just found, not a different method
+What does "in this question you must show detailed reasoning" require? | A complete method with every step shown, so an answer from a calculator alone earns no marks
+How is an "if and only if" statement proved? | Prove the implication in both directions

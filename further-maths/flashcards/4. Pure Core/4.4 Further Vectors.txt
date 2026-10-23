@@ -1,0 +1,49 @@
+What is the vector equation of a line through the point $A$ with direction $\mathbf{b}$? | $\mathbf{r} = \mathbf{a} + \lambda\mathbf{b}$
+What is the cartesian equation of a line through $(a_1, a_2, a_3)$ with direction $\begin{pmatrix} u_1 \\ u_2 \\ u_3 \end{pmatrix}$? | $\frac{x - a_1}{u_1} = \frac{y - a_2}{u_2} = \frac{z - a_3}{u_3}$
+How is a vector equation of the line through $A$ and $B$ found? | $\mathbf{r} = \mathbf{a} + \lambda(\mathbf{b} - \mathbf{a})$, using $\overrightarrow{AB}$ as the direction
+How must a vector equation of a line be written to count as an equation? | Starting with $\mathbf{r} =$
+How is a cartesian equation of a line converted to vector form? | Rewrite each part as $\frac{x - a_1}{u_1}$ with $x$, $y$ or $z$ having coefficient 1, then read off the point and the direction
+What is a direction vector of the line $\frac{x}{2} = y - 3 = 2z + 4$? | $2z + 4 = \frac{z + 2}{\frac{1}{2}}$, so $\begin{pmatrix} 2 \\ 1 \\ \frac{1}{2} \end{pmatrix}$ or $\begin{pmatrix} 4 \\ 2 \\ 1 \end{pmatrix}$
+What are the forms of the equation of a plane? | $ax + by + cz = d$, $\mathbf{r} = \mathbf{a} + \lambda\mathbf{b} + \mu\mathbf{c}$, and $\mathbf{r} \cdot \mathbf{n} = p$
+What is a normal vector to the plane $ax + by + cz = d$? | $\begin{pmatrix} a \\ b \\ c \end{pmatrix}$
+In the plane equation $\mathbf{r} \cdot \mathbf{n} = p$, how is $p$ found? | $p = \mathbf{a} \cdot \mathbf{n}$ for any point $A$ on the plane
+How is $\mathbf{r} \cdot \mathbf{n} = p$ written in cartesian form? | Replace $\mathbf{r}$ with $\begin{pmatrix} x \\ y \\ z \end{pmatrix}$ and expand, giving $n_1x + n_2y + n_3z = p$
+How is the equation of a plane through three points $A$, $B$ and $C$ found? | Take $\mathbf{n} = \overrightarrow{AB} \times \overrightarrow{AC}$, then $\mathbf{r} \cdot \mathbf{n} = \mathbf{a} \cdot \mathbf{n}$
+How is $\mathbf{r} = \mathbf{a} + \lambda\mathbf{b} + \mu\mathbf{c}$ written in the form $\mathbf{r} \cdot \mathbf{n} = p$? | Take $\mathbf{n} = \mathbf{b} \times \mathbf{c}$ and $p = \mathbf{a} \cdot \mathbf{n}$
+How is it verified that a plane given parametrically has a given cartesian equation? | Substitute its $x$, $y$ and $z$ components into the cartesian equation and show that $\lambda$ and $\mu$ cancel
+How do the scalar product and the vector product differ in what they give? | The scalar product gives a number and is used for angles and perpendicularity. The vector product gives a vector perpendicular to both vectors and is used for normals
+What is $\mathbf{a} \cdot \mathbf{b}$ in terms of the angle $\theta$ between $\mathbf{a}$ and $\mathbf{b}$? | $\lvert \mathbf{a} \rvert \lvert \mathbf{b} \rvert \cos\theta$
+How is the scalar product of two column vectors calculated? | Multiply corresponding components and add, $a_1b_1 + a_2b_2 + a_3b_3$
+What is $\begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix} \cdot \begin{pmatrix} 4 \\ -1 \\ 2 \end{pmatrix}$? | $4 - 2 + 6 = 8$
+How is the angle between two vectors found? | $\cos\theta = \frac{\mathbf{a} \cdot \mathbf{b}}{\lvert \mathbf{a} \rvert \lvert \mathbf{b} \rvert}$
+What does a scalar product of zero show about two non-zero vectors? | They are perpendicular
+Which vectors are used to find the angle between two lines? | Their direction vectors, never the position vectors of points on them
+How is the angle between a line and a coordinate axis found? | Use the scalar product of the line's direction with that axis's unit vector, such as $\mathbf{j}$ for the $y$-axis
+How is the acute angle found when the scalar product gives an obtuse angle $\theta$? | $180° - \theta$, or use the modulus of the scalar product in the formula
+How is the angle between two planes found? | As the angle between their normal vectors
+How is the angle between a line and a plane found? | Find the acute angle $\theta$ between the line's direction and the plane's normal, then the answer is $90° - \theta$
+What is the formula for the vector product $\mathbf{a} \times \mathbf{b}$? | $\begin{pmatrix} a_2b_3 - a_3b_2 \\ a_3b_1 - a_1b_3 \\ a_1b_2 - a_2b_1 \end{pmatrix}$
+What is $\begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix} \times \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}$? | $\begin{pmatrix} 2 - 3 \\ 0 - 1 \\ 1 - 0 \end{pmatrix} = \begin{pmatrix} -1 \\ -1 \\ 1 \end{pmatrix}$
+How is a vector product checked? | Its scalar product with each of the two original vectors is 0
+What is $\mathbf{b} \times \mathbf{a}$ in terms of $\mathbf{a} \times \mathbf{b}$? | $-(\mathbf{a} \times \mathbf{b})$
+What does $\mathbf{a} \times \mathbf{b} = \mathbf{0}$ show about two non-zero vectors? | They are parallel
+How is it shown that two vectors are parallel? | Show that one is a scalar multiple of the other
+How is it shown that two lines intersect? | Set the general points equal, solve two of the component equations for $\lambda$ and $\mu$, then show that they satisfy the third
+What are skew lines? | Lines that are not parallel and do not intersect
+How is it shown that two lines are skew? | Show the directions are not multiples of each other, then that the values of $\lambda$ and $\mu$ from two components do not satisfy the third
+How is it checked whether a point lies on a line? | Find $\lambda$ from one component and check whether the same $\lambda$ gives the other two
+How is the intersection of a line and a plane found? | Substitute the line's general point into the plane's equation, solve for $\lambda$, then substitute $\lambda$ back into the line
+How is a line shown to be parallel to a plane? | Show that its direction is perpendicular to the normal, $\mathbf{d} \cdot \mathbf{n} = 0$
+How is the foot of the perpendicular from a point $A$ to a plane found? | Intersect the plane with the line through $A$ in the direction of the normal
+How is the reflection of a point $A$ in a plane found? | Find $\lambda$ where the line through $A$ along the normal meets the plane, then use $2\lambda$
+How is the foot of the perpendicular from a point $A$ to a line found? | Take the general point $P$ on the line, solve $\overrightarrow{AP} \cdot \mathbf{d} = 0$ for $\lambda$, where $\mathbf{d}$ is the line's direction
+How is the shortest distance from a point to a line in 3-D found? | Find the foot of the perpendicular $P$ from the point $A$, then $\lvert \overrightarrow{AP} \rvert$
+What is the shortest distance from a point to the plane $\mathbf{r} \cdot \mathbf{n} = p$? | $D = \frac{\lvert \mathbf{b} \cdot \mathbf{n} - p \rvert}{\lvert \mathbf{n} \rvert}$, where $\mathbf{b}$ is the position vector of the point
+What is the shortest distance from the origin to the plane $x + 2y + 2z = 9$? | $\frac{\lvert 0 - 9 \rvert}{\sqrt{1 + 4 + 4}} = 3$
+What is the shortest distance from $(x_1, y_1)$ to the line $ax + by = c$? | $D = \frac{\lvert ax_1 + by_1 - c \rvert}{\sqrt{a^2 + b^2}}$
+What is the shortest distance between skew lines? | $D = \frac{\lvert (\mathbf{b} - \mathbf{a}) \cdot \mathbf{n} \rvert}{\lvert \mathbf{n} \rvert}$, where $\mathbf{a}$ and $\mathbf{b}$ are the position vectors of a point on each line
+In the shortest distance formula for skew lines, what is $\mathbf{n}$? | A vector perpendicular to both lines, the vector product of their directions
+How is the distance between two parallel lines found? | Find the shortest distance from a point on one line to the other line
+Why does the skew lines formula fail for parallel lines? | The vector product of their directions is $\mathbf{0}$, so it gives no common perpendicular
+How is the distance between two parallel planes $\mathbf{r} \cdot \mathbf{n} = p_1$ and $\mathbf{r} \cdot \mathbf{n} = p_2$ found? | $\frac{\lvert p_1 - p_2 \rvert}{\lvert \mathbf{n} \rvert}$, with both written using the same $\mathbf{n}$
+How is the area of a triangle $ABC$ found with vectors? | Find angle $A$ from the scalar product of $\overrightarrow{AB}$ and $\overrightarrow{AC}$, then use $\frac{1}{2}\lvert \overrightarrow{AB} \rvert \lvert \overrightarrow{AC} \rvert \sin A$

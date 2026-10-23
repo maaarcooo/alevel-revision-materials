@@ -1,0 +1,45 @@
+What is the difference between the general and a particular solution of a differential equation? | The general solution contains arbitrary constants, a particular solution uses given conditions to find them
+How many arbitrary constants does the general solution of a second order differential equation have? | Two
+Which method solves $\frac{\mathrm{d}y}{\mathrm{d}x} = f(x)g(y)$? | Separating the variables
+Which method solves $\frac{\mathrm{d}y}{\mathrm{d}x} + P(x)y = Q(x)$? | The integrating factor method
+What must be done before finding an integrating factor? | Rearrange into the form $\frac{\mathrm{d}y}{\mathrm{d}x} + P(x)y = Q(x)$, with coefficient 1 on $\frac{\mathrm{d}y}{\mathrm{d}x}$
+What is the integrating factor for $\frac{\mathrm{d}y}{\mathrm{d}x} + P(x)y = Q(x)$? | $\mathrm{e}^{\int P(x)\,\mathrm{d}x}$
+What is the integrating factor for $\frac{\mathrm{d}y}{\mathrm{d}x} + \frac{2}{x}y = x$? | $\mathrm{e}^{\int \frac{2}{x}\,\mathrm{d}x} = \mathrm{e}^{2\ln x} = x^2$
+What happens to the left-hand side when the equation is multiplied by the integrating factor $I$? | It becomes $\frac{\mathrm{d}}{\mathrm{d}x}(Iy)$
+After writing the left-hand side as $\frac{\mathrm{d}}{\mathrm{d}x}(Iy)$, what are the next steps? | Integrate both sides, adding the constant to the right-hand side, then divide by $I$
+What is the auxiliary equation of $a\frac{\mathrm{d}^2y}{\mathrm{d}x^2} + b\frac{\mathrm{d}y}{\mathrm{d}x} + cy = 0$? | $am^2 + bm + c = 0$
+What decides the form of the complementary function? | The sign of the discriminant $b^2 - 4ac$ of the auxiliary equation
+What is the complementary function when the auxiliary equation has distinct real roots $m_1$ and $m_2$? | $y = A\mathrm{e}^{m_1x} + B\mathrm{e}^{m_2x}$
+What is the complementary function when the auxiliary equation has a repeated root $m$? | $y = (A + Bx)\mathrm{e}^{mx}$
+What is the complementary function when the auxiliary equation has complex roots $p \pm q\mathrm{i}$? | $y = \mathrm{e}^{px}(A\cos qx + B\sin qx)$
+What is the complementary function when the auxiliary equation has roots $\pm q\mathrm{i}$? | $y = A\cos qx + B\sin qx$
+What is the complementary function when one root of the auxiliary equation is 0? | $y = A + B\mathrm{e}^{mx}$, where $m$ is the other root
+What is the general solution of $\frac{\mathrm{d}^2y}{\mathrm{d}x^2} - 2\frac{\mathrm{d}y}{\mathrm{d}x} + 5y = 0$? | $m = 1 \pm 2\mathrm{i}$, so $y = \mathrm{e}^x(A\cos 2x + B\sin 2x)$
+How is the general solution of $a\frac{\mathrm{d}^2y}{\mathrm{d}x^2} + b\frac{\mathrm{d}y}{\mathrm{d}x} + cy = f(x)$ formed? | Complementary function plus a particular integral
+What is a particular integral? | Any one function that satisfies the whole differential equation, including $f(x)$
+What trial particular integral is used when $f(x)$ is a polynomial of degree $n$? | A general polynomial of degree $n$, such as $ax^2 + bx + c$ for a quadratic
+What trial particular integral is used when $f(x) = k\mathrm{e}^{px}$? | $\lambda\mathrm{e}^{px}$
+What trial particular integral is used when $f(x)$ contains $\cos px$ or $\sin px$? | $\lambda\cos px + \mu\sin px$, with both terms even if $f(x)$ has only one
+What trial particular integral is used when the usual trial already appears in the complementary function? | The usual trial multiplied by $x$, or by $x^2$ if the complementary function has $x$ times that term too
+What trial particular integral is used for $f(t) = 64t + 32$ when the complementary function contains a constant? | $at^2 + bt$, since a constant term would already satisfy the homogeneous equation
+How are the constants in a particular integral found? | Substitute the trial and its derivatives into the differential equation and compare coefficients
+When are initial conditions used to find the arbitrary constants? | After the particular integral is added, on the full general solution
+What differential equation describes simple harmonic motion? | $\ddot{x} = -\omega^2x$
+What is the general solution of $\ddot{x} = -\omega^2x$? | $x = A\cos\omega t + B\sin\omega t$, or $x = R\sin(\omega t + \varphi)$
+What is the period of simple harmonic motion with $\ddot{x} = -\omega^2x$? | $\frac{2\pi}{\omega}$
+What is the solution of $\ddot{x} = -\omega^2x$ for a particle released from rest at $x = a$ when $t = 0$? | $x = a\cos\omega t$
+What do $\dot{x}$ and $\ddot{x}$ mean? | $\frac{\mathrm{d}x}{\mathrm{d}t}$ and $\frac{\mathrm{d}^2x}{\mathrm{d}t^2}$
+In $\ddot{x} + k\dot{x} + \omega^2x = 0$ with $k > 0$, what does the $k\dot{x}$ term model? | A resistance proportional to the velocity, which damps the motion
+When is motion modelled by $\ddot{x} + k\dot{x} + \omega^2x = 0$ overdamped? | When the auxiliary equation has distinct real roots, $k^2 > 4\omega^2$, so it returns to equilibrium without oscillating
+When is motion modelled by $\ddot{x} + k\dot{x} + \omega^2x = 0$ critically damped? | When the auxiliary equation has a repeated root, $k^2 = 4\omega^2$
+When is motion modelled by $\ddot{x} + k\dot{x} + \omega^2x = 0$ underdamped? | When the auxiliary equation has complex roots, $k^2 < 4\omega^2$, so it oscillates with decreasing amplitude
+What must be remembered when solving an inequality for a damping condition in context? | The physical quantities are positive, so keep only the positive range, such as $0 < m < \ldots$
+What does the solution tend to for large $t$ when the complementary function decays? | The particular integral, because the terms with negative exponentials tend to 0
+When can a term such as $\mathrm{e}^{-at}\cosh bt$ be ignored for large $t$? | When $b < a$, since $\cosh bt$ is about $\frac{1}{2}\mathrm{e}^{bt}$ and $\mathrm{e}^{(b - a)t} \to 0$
+How is a differential equation formed from forces in context? | Apply Newton's second law, stating $F = ma$ with $a = \frac{\mathrm{d}v}{\mathrm{d}t}$ or $\ddot{x}$
+What sign does a resistance force take in an equation of motion? | Negative when the velocity is positive, because it opposes the motion
+What decides the sign of an initial velocity in a model? | The direction of motion, such as negative when moving towards $O$ along the positive axis
+When a model changes at time $t_0$, which condition is used for the new model? | The value at $t_0$ from the first model
+Why can $\sin\theta$ be replaced by $\theta$ in a pendulum model? | When $\theta$ is small and in radians, $\sin\theta \approx \theta$
+How is a pair of coupled first order differential equations in $x$ and $y$ solved? | Differentiate one equation and substitute from both to eliminate $y$, giving a second order equation in $x$
+After solving coupled equations for $x$, how is $y$ found? | Rearrange the first equation for $y$ in terms of $x$ and $\frac{\mathrm{d}x}{\mathrm{d}t}$, so the same constants are used

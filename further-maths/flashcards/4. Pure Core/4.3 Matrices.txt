@@ -1,0 +1,71 @@
+What does "an $m$ by $n$ matrix" mean? | A matrix with $m$ rows and $n$ columns
+When can two matrices be added? | When they have the same dimensions
+When are matrices $\mathbf{A}$ and $\mathbf{B}$ conformable for the product $\mathbf{AB}$? | When the number of columns of $\mathbf{A}$ equals the number of rows of $\mathbf{B}$
+What are the dimensions of the product of an $m \times n$ matrix and an $n \times p$ matrix? | $m \times p$
+How is the entry in row $i$ and column $j$ of $\mathbf{AB}$ found? | Multiply row $i$ of $\mathbf{A}$ by column $j$ of $\mathbf{B}$ entry by entry and add the products
+What is $\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} 5 \\ 6 \end{pmatrix}$? | $\begin{pmatrix} 1 \times 5 + 2 \times 6 \\ 3 \times 5 + 4 \times 6 \end{pmatrix} = \begin{pmatrix} 17 \\ 39 \end{pmatrix}$
+What is $\begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} 3 & 0 \\ 1 & 2 \end{pmatrix}$? | $\begin{pmatrix} 5 & 4 \\ 1 & 2 \end{pmatrix}$
+What is the transpose $\mathbf{A}^T$ of a matrix? | The matrix whose rows are the columns of $\mathbf{A}$
+What is the identity matrix $\mathbf{I}$? | A square matrix with 1s on the leading diagonal and 0s elsewhere, so $\mathbf{AI} = \mathbf{IA} = \mathbf{A}$
+What is a zero matrix? | A matrix whose entries are all 0
+Which law of ordinary multiplication does matrix multiplication obey? | The associative law, $(\mathbf{AB})\mathbf{C} = \mathbf{A}(\mathbf{BC})$
+Which law of ordinary multiplication does matrix multiplication not obey? | The commutative law, since in general $\mathbf{AB} \neq \mathbf{BA}$
+How is it shown that matrix multiplication is not commutative? | Work out $\mathbf{AB}$ and $\mathbf{BA}$ for two particular matrices and state that $\mathbf{AB} \neq \mathbf{BA}$
+How is the matrix of a 2-D linear transformation found? | Its columns are the images of $\begin{pmatrix} 1 \\ 0 \end{pmatrix}$ and $\begin{pmatrix} 0 \\ 1 \end{pmatrix}$
+What is the matrix for a reflection in the $x$-axis? | $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$
+What is the matrix for a reflection in the $y$-axis? | $\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$
+What is the matrix for a reflection in the line $y = x$? | $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$
+What is the matrix for a reflection in the line $y = -x$? | $\begin{pmatrix} 0 & -1 \\ -1 & 0 \end{pmatrix}$
+What is the matrix for an anticlockwise rotation by $\theta$ about the origin? | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$
+What is the matrix for a rotation of $90°$ anticlockwise about the origin? | $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$
+What is the matrix for an enlargement with scale factor $k$, centre the origin? | $\begin{pmatrix} k & 0 \\ 0 & k \end{pmatrix}$
+What is the matrix for a stretch with scale factor $k$ parallel to the $x$-axis? | $\begin{pmatrix} k & 0 \\ 0 & 1 \end{pmatrix}$, with the $y$-axis invariant
+What is the matrix for a stretch with scale factor $k$ parallel to the $y$-axis? | $\begin{pmatrix} 1 & 0 \\ 0 & k \end{pmatrix}$, with the $x$-axis invariant
+What is the matrix for a shear with the $x$-axis invariant? | $\begin{pmatrix} 1 & k \\ 0 & 1 \end{pmatrix}$, which maps $(0, 1)$ to $(k, 1)$
+What is the matrix for a shear with the $y$-axis invariant? | $\begin{pmatrix} 1 & 0 \\ k & 1 \end{pmatrix}$, which maps $(1, 0)$ to $(1, k)$
+What must a full description of a rotation give? | The centre, the angle and the direction
+What must a full description of an enlargement give? | The centre and the scale factor
+What must a full description of a stretch give? | The invariant axis and the scale factor
+What must a full description of a shear give? | The invariant axis and the image of one point not on it
+Which matrix represents transformation $\mathbf{A}$ followed by transformation $\mathbf{B}$? | $\mathbf{BA}$
+What is the matrix for a reflection in the plane $x = 0$? | $\begin{pmatrix} -1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+What is the matrix for a reflection in the plane $y = 0$ (the $x$-$z$ plane)? | $\begin{pmatrix} 1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+What is the matrix for a reflection in the plane $z = 0$? | $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -1 \end{pmatrix}$
+What is the matrix for a rotation by $\theta$ about the $z$-axis? | $\begin{pmatrix} \cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+Which direction is a positive rotation about a coordinate axis in 3-D? | Anticlockwise when looking towards the origin from the positive side of the axis
+How is a high power such as $\mathbf{A}^{423}$ found for a rotation matrix? | Find the smallest $n$ with $\mathbf{A}^n = \mathbf{I}$ from the angle, then reduce the power, such as $\mathbf{A}^{423} = \mathbf{A}^3$ when $\mathbf{A}^4 = \mathbf{I}$
+What is an invariant point of a transformation? | A point that is mapped to itself
+What is a line of invariant points? | A line on which every point is mapped to itself
+What is an invariant line? | A line on which every point is mapped to a point on the same line
+How are the invariant points of $\mathbf{M}$ found? | Solve $\mathbf{M}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} x \\ y \end{pmatrix}$
+How are the invariant lines of the form $y = mx + c$ found? | Find the image $(x', y')$ of the point $(x, mx + c)$, set $y' = mx' + c$ for all $x$, then solve for $m$ and $c$
+How is a point shown not to be invariant? | Work out its image and state that it is different from the original point
+What is the determinant of $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$? | $ad - bc$
+What is $\det\begin{pmatrix} 3 & 2 \\ 1 & 4 \end{pmatrix}$? | $3 \times 4 - 2 \times 1 = 10$
+What does the determinant of a $2 \times 2$ transformation matrix tell you? | Its absolute value is the area scale factor, so the image's area is the object's area times the absolute value of the determinant
+What does a negative determinant show about a transformation? | It reverses orientation
+How is the determinant of $\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix}$ found by hand? | $a\begin{vmatrix} e & f \\ h & i \end{vmatrix} - b\begin{vmatrix} d & f \\ g & i \end{vmatrix} + c\begin{vmatrix} d & e \\ g & h \end{vmatrix}$, expanding along the first row
+What is $\det\begin{pmatrix} 1 & 0 & 2 \\ 0 & 1 & 0 \\ 3 & 0 & 1 \end{pmatrix}$? | $1(1 - 0) - 0 + 2(0 - 3) = -5$
+What does the determinant of a $3 \times 3$ transformation matrix tell you? | Its absolute value is the volume scale factor
+What is a singular matrix? | A square matrix with determinant 0, so it has no inverse
+How are the values that make a matrix singular found? | Set its determinant equal to 0 and solve
+What is $\det(\mathbf{AB})$? | $\det(\mathbf{A}) \times \det(\mathbf{B})$
+What is the inverse of $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$? | $\frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$
+What is the inverse of $\begin{pmatrix} 3 & 2 \\ 1 & 4 \end{pmatrix}$? | $\frac{1}{10}\begin{pmatrix} 4 & -2 \\ -1 & 3 \end{pmatrix}$
+What is the minor of an entry in a $3 \times 3$ matrix? | The determinant of the $2 \times 2$ matrix left after deleting that entry's row and column
+How is a cofactor found from a minor? | Give it the sign from the pattern of alternating signs that starts with $+$ in the top left
+How is the inverse of a $3 \times 3$ matrix found by hand? | Transpose the matrix of cofactors, then divide by the determinant
+What is $(\mathbf{AB})^{-1}$? | $\mathbf{B}^{-1}\mathbf{A}^{-1}$
+What does the inverse of a transformation matrix represent? | The inverse transformation, which maps each image back to its object
+Why is the matrix of a reflection its own inverse? | Reflecting twice in the same line returns every point to where it started
+How is the matrix equation $\mathbf{AX} = \mathbf{B}$ solved for $\mathbf{X}$? | Pre-multiply both sides by $\mathbf{A}^{-1}$, so $\mathbf{X} = \mathbf{A}^{-1}\mathbf{B}$
+How are simultaneous linear equations solved with a matrix? | Write them as $\mathbf{A}\mathbf{x} = \mathbf{b}$, with each equation's coefficients as a row of $\mathbf{A}$, then $\mathbf{x} = \mathbf{A}^{-1}\mathbf{b}$
+When do three linear equations in three unknowns have a unique solution? | When the determinant of the matrix of coefficients is not zero
+When the determinant is zero, what are the two possibilities for three linear equations? | Infinitely many solutions (consistent) or no solutions (inconsistent)
+How is it shown that equations with a zero determinant are consistent? | Show that one equation is a combination of the others, such as equation 1 plus equation 2 giving equation 3
+How do three planes meet when the matrix of their equations is non-singular? | At a single point
+What is a sheaf of planes? | Three planes that meet in a common line, from consistent equations with a zero determinant
+How do three planes, no two parallel, meet when their equations are inconsistent? | They form a triangular prism, each pair meeting in a line and the three lines parallel
+How do two planes meet when one equation is a multiple of the other, constant included? | They are the same plane
+How do two planes meet when their normals are parallel but their equations are not multiples? | They are parallel and do not meet
+How do two parallel planes and a third plane that is not parallel to them meet? | The third plane cuts each in a line, the two lines are parallel, and there is no common point

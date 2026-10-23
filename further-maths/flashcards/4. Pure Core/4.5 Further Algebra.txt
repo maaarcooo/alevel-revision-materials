@@ -1,0 +1,27 @@
+For $ax^2 + bx + c = 0$ with roots $\alpha$ and $\beta$, what are $\alpha + \beta$ and $\alpha\beta$? | $\alpha + \beta = -\frac{b}{a}$ and $\alpha\beta = \frac{c}{a}$
+For $ax^3 + bx^2 + cx + d = 0$ with roots $\alpha$, $\beta$ and $\gamma$, what are $\sum\alpha$, $\sum\alpha\beta$ and $\alpha\beta\gamma$? | $-\frac{b}{a}$, $\frac{c}{a}$ and $-\frac{d}{a}$
+For $ax^4 + bx^3 + cx^2 + dx + e = 0$, what are $\sum\alpha$ and $\sum\alpha\beta$? | $-\frac{b}{a}$ and $\frac{c}{a}$
+For $ax^4 + bx^3 + cx^2 + dx + e = 0$, what are $\sum\alpha\beta\gamma$ and $\alpha\beta\gamma\delta$? | $-\frac{d}{a}$ and $\frac{e}{a}$
+What sign pattern do the symmetric functions of the roots follow? | They alternate in sign, starting with minus for the sum of the roots
+What is $\alpha\beta\gamma$ for $2x^3 + 3x^2 - 5x + 4 = 0$? | $-\frac{4}{2} = -2$
+How is $\alpha^2 + \beta^2 + \gamma^2$ found from the symmetric functions? | $(\sum\alpha)^2 - 2\sum\alpha\beta$
+What is $\alpha^2 + \beta^2 + \gamma^2$ for $x^3 - 2x^2 + 3x - 1 = 0$? | $2^2 - 2 \times 3 = -2$, so not all the roots are real
+How is $\alpha^2\beta^2 + \beta^2\gamma^2 + \gamma^2\alpha^2$ found? | $(\sum\alpha\beta)^2 - 2\alpha\beta\gamma\sum\alpha$
+How is $\frac{1}{\alpha} + \frac{1}{\beta} + \frac{1}{\gamma}$ found? | $\frac{\sum\alpha\beta}{\alpha\beta\gamma}$
+How is $\frac{1}{\alpha^2} + \frac{1}{\beta^2}$ found for a quadratic? | $\frac{\alpha^2 + \beta^2}{(\alpha\beta)^2}$, with $\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta$
+How is a cubic equation written from the symmetric functions of its roots? | $x^3 - (\sum\alpha)x^2 + (\sum\alpha\beta)x - \alpha\beta\gamma = 0$, multiplied up to integer coefficients if asked
+How can a missing root of a cubic be found quickly when the other two are known? | From the sum or the product of the roots
+What must the final answer include when asked for an equation with given roots? | "$= 0$", and integer coefficients when the question asks for them
+When is a substitution the quicker way to find an equation with related roots? | When every new root is the same function of one old root, such as $\alpha + 2$, $2\alpha$, $\frac{1}{\alpha}$ or $\alpha^2$
+What substitution gives the equation whose roots are $\alpha + 2$, $\beta + 2$ and $\gamma + 2$? | $w = x + 2$, so replace $x$ with $w - 2$
+What substitution gives the equation whose roots are $\frac{1}{\alpha}$, $\frac{1}{\beta}$ and $\frac{1}{\gamma}$? | $x = \frac{1}{w}$, then multiply through by $w^3$
+What substitution gives the equation whose roots are $2\alpha$, $2\beta$ and $2\gamma$? | $x = \frac{w}{2}$
+What substitution gives the equation whose roots are $\alpha^2$, $\beta^2$ and $\gamma^2$? | $x = \sqrt{w}$, then collect the terms with $\sqrt{w}$ on one side and square both sides
+What substitution gives a cubic with roots $\alpha + \beta$, $\beta + \gamma$ and $\gamma + \alpha$? | Each new root is $\sum\alpha$ minus one old root, so $x = \sum\alpha - w$
+What substitution gives a cubic with roots $\alpha\beta$, $\beta\gamma$ and $\gamma\alpha$? | Each new root is $\frac{\alpha\beta\gamma}{\text{one old root}}$, so $x = \frac{\alpha\beta\gamma}{w}$
+What partial fraction does a factor $ax^2 + c$ in the denominator give? | $\frac{Bx + C}{ax^2 + c}$
+What partial fractions does $\frac{x^2 + 18}{x^2(x^2 + 9)}$ split into? | $\frac{A}{x} + \frac{B}{x^2} + \frac{Cx + D}{x^2 + 9}$
+What is an improper algebraic fraction? | One whose numerator has degree equal to or greater than the degree of its denominator
+What must be done with an improper fraction before splitting into partial fractions? | Divide first, or include a polynomial term such as a constant $A$ when the degrees are equal
+What partial fractions does $\frac{12x^3}{(2x + 1)(2x^2 + 1)}$ split into? | $A + \frac{B}{2x + 1} + \frac{Cx + D}{2x^2 + 1}$
+When clearing partial fractions, what are both sides multiplied by? | The denominator of the original fraction, not the product of every partial denominator

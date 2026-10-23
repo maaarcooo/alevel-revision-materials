@@ -1,0 +1,21 @@
+What are polar coordinates? | $(r, \theta)$, where $r$ is the distance from the pole and $\theta$ is the angle measured anticlockwise from the initial line
+How are polar coordinates converted to cartesian coordinates? | $x = r\cos\theta$ and $y = r\sin\theta$
+How are cartesian coordinates converted to polar coordinates? | $r = \sqrt{x^2 + y^2}$, and $\theta$ from $\tan\theta = \frac{y}{x}$ in the correct quadrant
+What are the cartesian coordinates of the point with polar coordinates $\left(2, \frac{\pi}{3}\right)$? | $\left(2\cos\frac{\pi}{3}, 2\sin\frac{\pi}{3}\right) = (1, \sqrt{3})$
+How is a polar equation converted to a cartesian equation? | Multiply or rearrange so that $r\cos\theta$, $r\sin\theta$ and $r^2$ appear, then replace them with $x$, $y$ and $x^2 + y^2$
+What curve is $r = a$ for a constant $a > 0$? | A circle with centre the pole and radius $a$
+What curve is $\theta = \alpha$? | A half-line from the pole at angle $\alpha$ to the initial line
+What curve is $r = a\theta$ for $\theta \geqslant 0$? | A spiral starting at the pole, getting further from it as $\theta$ increases
+With the convention $r \geqslant 0$, which values of $\theta$ have no points on a polar curve? | The values for which the equation gives a negative $r$
+How are the directions in which a polar curve reaches the pole found? | Solve $r = 0$, and the lines $\theta = $ those values are tangents at the pole
+How is it shown that a polar curve forms a loop between two angles? | Show that $r = 0$ at both angles and $r > 0$ for every angle between them
+How is the greatest value of $r$ on a polar curve found? | Solve $\frac{\mathrm{d}r}{\mathrm{d}\theta} = 0$, or use the greatest value of the trigonometric part
+How is a polar curve shown to be symmetric about the initial line? | Show that replacing $\theta$ with $-\theta$ gives the same $r$
+How is a polar curve shown to be symmetric about the line $y = x$? | Show that replacing $\theta$ with $\frac{\pi}{2} - \theta$ gives the same $r$, or that swapping $x$ and $y$ in its cartesian equation gives the same equation
+How are the points where two polar curves meet found? | Set their equations for $r$ equal and solve for $\theta$, then check separately whether both pass through the pole
+What is the area enclosed by a polar curve between $\theta = \alpha$ and $\theta = \beta$? | $\frac{1}{2}\int_\alpha^\beta r^2\,\mathrm{d}\theta$
+Which limits give the area of one loop of a polar curve? | Two neighbouring values of $\theta$ at which $r = 0$
+What is the area enclosed by the circle $r = a$? | $\frac{1}{2}\int_0^{2\pi} a^2\,\mathrm{d}\theta = \pi a^2$
+How is the area between two polar curves found? | $\frac{1}{2}\int (r_1^2 - r_2^2)\,\mathrm{d}\theta$, squaring each before subtracting
+Which identities are used to integrate $\cos^2\theta$ or $\sin^2\theta$ in a polar area? | $\cos^2\theta = \frac{1}{2}(1 + \cos 2\theta)$ and $\sin^2\theta = \frac{1}{2}(1 - \cos 2\theta)$
+What must be remembered when symmetry is used to find a polar area? | Multiply the area of the part found by the number of equal parts

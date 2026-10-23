@@ -3,6 +3,44 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-23: Further Maths Pure Core decks (OCR H245 4.01 to 4.10)
+
+Ten decks for the Pure Core of OCR A-Level Further Mathematics A, 401 cards: proof by
+induction, complex numbers, matrices, further vectors, further algebra, series,
+hyperbolic functions, further calculus, polar coordinates and differential equations.
+Marco asked for cards that help him recognise which method a question needs and recall
+its steps, with one single-step worked card for each routine calculation (a scalar
+product, a vector product, a matrix product, a determinant). They were written from the
+specification and the formulae booklet and checked against every question in the
+A-level Pure Core papers (Y540 and Y541) and the AS Pure Core paper (Y531) from 2018 to
+2025, with their mark schemes and examiner reports. Topics A-level Maths already covers
+are not repeated.
+
+- From the examiner reports: the base case for $n \geqslant 0$ is $n = 0$, the
+  assumption written as an equation, and a conclusion stating every part; what "show
+  that", "verify", "determine", "hence" and "detailed reasoning" require; the argument in
+  the right quadrant; $r(\cos\theta - \mathrm{i}\sin\theta)$ not accepted as
+  modulus-argument form; $\sin\theta$ over $2\mathrm{i}$, not 2; the two square roots
+  of a complex number as negatives, not conjugates; the conjugate as a reflection in the
+  real axis; the minus sign on the middle term of a $3 \times 3$ determinant; the area
+  scale factor named as an area; the reflection in the $x$-$z$ plane; enlargement, not
+  stretch, with its centre; $\mathbf{BA}$ for $\mathbf{A}$ followed by $\mathbf{B}$;
+  equations as rows of the matrix; identical planes, not parallel ones; showing
+  consistency with a combination of equations; direction vectors, not position vectors,
+  for angles; the distance between parallel lines and why the skew lines formula fails
+  for them; reflecting a point in a plane by doubling $\lambda$; "$= 0$" and integer
+  coefficients in a transformed equation; substitution as the quicker method; the
+  $\frac{Cx + D}{x^2 + a^2}$ term and improper fractions in partial fractions; enough
+  terms in the method of differences and limits never written with $\infty$ as a
+  number; $\cosh x \geqslant 1$ as the reason for rejecting a root, and $\pm$ in the
+  solutions of $\cosh x = k$; standard Maclaurin series multiplied rather than
+  differentiated, and the interval of validity checked; the factor $\pi$ and the axis
+  in volumes of revolution; squaring each polar curve before subtracting; a loop needing
+  $r > 0$ between its ends; the zero root of an auxiliary equation; multiplying a trial
+  particular integral by $x$; initial conditions applied after the particular integral
+  is added; the long-term behaviour as the particular integral; and the sign of a
+  resistance force and of an initial velocity in a model.
+
 ## 2026-10-23: New layout for sources
 
 `sources/` has one layout for every subject: `<subject>/<level>/spec`, `papers` and

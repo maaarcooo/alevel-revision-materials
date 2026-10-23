@@ -1,13 +1,14 @@
 # A-Level Revision Materials
 
 Flashcard decks and revision notes for OCR A-Level Computer Science (H446) and AQA
-A-Level Physics (7408), and flashcard decks for OCR A-Level Mathematics A (H240). There
+A-Level Physics (7408), and flashcard decks for OCR A-Level Mathematics A (H240) and
+OCR A-Level Further Mathematics A (H245). There
 is one living copy of each deck and each note, improved in place. Marco studies from
 these and imports the decks into NeuroCards.
 
 NeuroCards' Discover page does not read this repository. Its decks were copied to the
 NeuroCards catalog (Computer Science and Physics on 15 October 2026, Maths on 19 October
-2026), which is now the published copy. Since 18 October it lives in the NeuroCards
+2026), which is now the published copy. Further Maths has not been copied there yet. Since 18 October it lives in the NeuroCards
 monorepo at `~/Code/active/neurocards/catalog`. A deck fixed here reaches Discover only
 if the same fix is made there.
 
@@ -36,7 +37,8 @@ themselves, so open the file.
   supplies it, because candidates are expected to know it. The value of a supplied
   constant gets no card, and a complicated supplied result may be left out. This is a
   judgement for each card. Physics uses AQA's data and formulae sheet. OCR Computer
-  Science has none. Marco's Maths board is OCR.
+  Science has none. Marco's Maths and Further Maths board is OCR, and his Further Maths
+  options are Mechanics and Additional Pure.
 - No em dashes or semicolons on a card. A reverse card is
   `<definition> - what term is this? | <term>`, with a hyphen.
 - Write `PD` and `EMF`, in capitals with no full stops, in decks and notes.

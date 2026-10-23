@@ -1,0 +1,48 @@
+What is the Maclaurin series of $f(x)$? | $f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \ldots + \frac{f^{(r)}(0)}{r!}x^r + \ldots$
+How is a Maclaurin series found by differentiation? | Find $f(0)$, $f'(0)$, $f''(0)$ and so on, then substitute them into the Maclaurin series
+What is the Maclaurin series of $\mathrm{e}^x$? | $1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \ldots$, valid for all $x$
+What is the Maclaurin series of $\sin x$? | $x - \frac{x^3}{3!} + \frac{x^5}{5!} - \ldots$, valid for all $x$
+What is the Maclaurin series of $\cos x$? | $1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \ldots$, valid for all $x$
+What is the Maclaurin series of $\ln(1 + x)$? | $x - \frac{x^2}{2} + \frac{x^3}{3} - \ldots$, valid for $-1 < x \leqslant 1$
+What is the Maclaurin series of $(1 + x)^n$? | $1 + nx + \frac{n(n - 1)}{2!}x^2 + \ldots$, valid for $\lvert x \rvert < 1$
+How is the Maclaurin series of a function such as $\ln(1 + 3x)$ found? | Replace $x$ with $3x$ in the standard series, which also changes the validity to $-1 < 3x \leqslant 1$
+What are the first two non-zero terms of the Maclaurin series of $\sin 2x$? | $2x - \frac{(2x)^3}{3!} = 2x - \frac{4}{3}x^3$
+How is the Maclaurin series of a product or power such as $(\ln(1 + x))^2$ found quickly? | Multiply out the standard series, keeping only the terms up to the power needed
+When must a Maclaurin series be found by differentiation? | When the question says to use differentiation
+Before using a value of $x$ found from a Maclaurin approximation, what must be checked? | That it lies in the interval of validity of the series
+For which values of $x$ is a truncated Maclaurin series a good approximation? | Values close to 0
+What is an improper integral? | A definite integral with an infinite limit, or with an integrand that is undefined at some value in the range of integration
+How is $\int_a^\infty f(x)\,\mathrm{d}x$ evaluated? | Replace $\infty$ with $k$, integrate, then find the limit as $k \to \infty$
+How is an integral such as $\int_0^2 \frac{1}{\sqrt{x}}\,\mathrm{d}x$ evaluated when the integrand is undefined at a limit? | Replace that limit with $a$, integrate, then find the limit as $a \to 0$
+When does an improper integral exist? | When the limit is finite
+What is $\int_1^\infty \frac{1}{x^2}\,\mathrm{d}x$? | $\lim_{k \to \infty}\left(1 - \frac{1}{k}\right) = 1$
+What is $\lim_{k \to \infty} k^n\mathrm{e}^{-k}$ for any power $n$? | 0, because the exponential dominates
+What is the volume of revolution when $y = f(x)$ is rotated $2\pi$ about the $x$-axis? | $\pi\int_a^b y^2\,\mathrm{d}x$
+What is the volume of revolution when a curve is rotated $2\pi$ about the $y$-axis? | $\pi\int_c^d x^2\,\mathrm{d}y$, with $x^2$ written in terms of $y$ and limits that are values of $y$
+What is the volume when the region between two curves is rotated about the $x$-axis? | $\pi\int_a^b (y_1^2 - y_2^2)\,\mathrm{d}x$, squaring each curve before subtracting
+What is the volume of revolution about the $x$-axis for a parametric curve? | $\pi\int y^2\frac{\mathrm{d}x}{\mathrm{d}t}\,\mathrm{d}t$, with limits that are values of $t$
+What is the mean value of $f(x)$ over $[a, b]$? | $\frac{1}{b - a}\int_a^b f(x)\,\mathrm{d}x$
+What is the mean value of $x^2$ over $[0, 3]$? | $\frac{1}{3}\int_0^3 x^2\,\mathrm{d}x = \frac{1}{3} \times 9 = 3$
+How is a mean value with respect to displacement found? | Integrate with respect to $x$ over the displacement interval and divide by its length
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\sin^{-1} x)$? | $\frac{1}{\sqrt{1 - x^2}}$
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\cos^{-1} x)$? | $-\frac{1}{\sqrt{1 - x^2}}$
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\tan^{-1} x)$? | $\frac{1}{1 + x^2}$
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\sinh^{-1} x)$? | $\frac{1}{\sqrt{x^2 + 1}}$
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\cosh^{-1} x)$? | $\frac{1}{\sqrt{x^2 - 1}}$
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\tanh^{-1} x)$? | $\frac{1}{1 - x^2}$
+How is the derivative of an inverse function such as $\sin^{-1} x$ derived? | Write $x = \sin y$, find $\frac{\mathrm{d}x}{\mathrm{d}y}$, write it in terms of $x$, then take the reciprocal
+Why is the positive root taken when deriving the derivative of $\sinh^{-1} x$? | $\cosh y$ is always positive, so $\cosh y = +\sqrt{1 + \sinh^2 y}$
+What is $\frac{\mathrm{d}}{\mathrm{d}x}(\sin^{-1}(x^2))$? | $\frac{2x}{\sqrt{1 - x^4}}$, using the chain rule
+What is $\frac{\mathrm{d}}{\mathrm{d}x}\left(\cosh^{-1}\frac{x}{3}\right)$? | $\frac{1}{3} \times \frac{1}{\sqrt{\frac{x^2}{9} - 1}} = \frac{1}{\sqrt{x^2 - 9}}$
+What is $\int \frac{1}{a^2 + x^2}\,\mathrm{d}x$? | $\frac{1}{a}\tan^{-1}\frac{x}{a} + c$
+Which inverse function do $\int \frac{1}{\sqrt{a^2 - x^2}}\,\mathrm{d}x$, $\int \frac{1}{\sqrt{x^2 + a^2}}\,\mathrm{d}x$ and $\int \frac{1}{\sqrt{x^2 - a^2}}\,\mathrm{d}x$ give? | $\sin^{-1}\frac{x}{a}$, $\sinh^{-1}\frac{x}{a}$ and $\cosh^{-1}\frac{x}{a}$, each plus $c$
+What is $\int \frac{1}{\sqrt{9 - 4x^2}}\,\mathrm{d}x$? | $\frac{1}{2}\int \frac{1}{\sqrt{\frac{9}{4} - x^2}}\,\mathrm{d}x = \frac{1}{2}\sin^{-1}\frac{2x}{3} + c$
+What substitution suits an integrand containing $\sqrt{a^2 - x^2}$? | $x = a\sin\theta$
+What substitution suits an integrand containing $\sqrt{x^2 + a^2}$? | $x = a\sinh u$
+What substitution suits an integrand containing $\sqrt{x^2 - a^2}$? | $x = a\cosh u$
+How is an integrand such as $\frac{1}{\sqrt{3x^2 - 3x + 1}}$ prepared? | Complete the square in the quadratic, then use a standard integral with $u = x - p$
+What must be complete after integrating by substitution? | Every $x$ and $\mathrm{d}x$ replaced, and either the limits changed or the answer written back in $x$
+How is $\int \frac{Bx + C}{x^2 + a^2}\,\mathrm{d}x$ integrated? | Split it: $\frac{Bx}{x^2 + a^2}$ gives $\frac{B}{2}\ln(x^2 + a^2)$ and $\frac{C}{x^2 + a^2}$ gives an inverse tan
+What is $\int \frac{x}{\sqrt{1 - x^2}}\,\mathrm{d}x$? | $-\sqrt{1 - x^2} + c$, since $x$ is a multiple of the derivative of $1 - x^2$
+How is $\int \sin^{-1} x\,\mathrm{d}x$ found? | By parts, with $u = \sin^{-1} x$ and $\frac{\mathrm{d}v}{\mathrm{d}x} = 1$
+Which three methods can integrate a product of functions? | Inspection (reversing the chain rule), substitution, and integration by parts

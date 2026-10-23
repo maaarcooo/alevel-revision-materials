@@ -1,0 +1,65 @@
+What is $\mathrm{i}$? | The number with $\mathrm{i}^2 = -1$
+What are the real and imaginary parts of $z = x + \mathrm{i}y$? | $\mathrm{Re}(z) = x$ and $\mathrm{Im}(z) = y$, both real numbers
+What is the complex conjugate of $z = x + \mathrm{i}y$? | $z^* = x - \mathrm{i}y$
+What is the modulus of $z = x + \mathrm{i}y$? | $\lvert z \rvert = \sqrt{x^2 + y^2}$, the distance of $z$ from the origin on an Argand diagram
+What is the modulus of $3 - 4\mathrm{i}$? | $\sqrt{3^2 + 4^2} = 5$
+What is the argument of a complex number $z$? | The angle from the positive real axis to the line from the origin to $z$, anticlockwise positive, in radians
+In which intervals can the principal argument lie? | $(-\pi, \pi]$ or $[0, 2\pi)$, either unless the question specifies one
+How is the argument of $z = x + \mathrm{i}y$ found? | Sketch $z$ to see its quadrant, find the angle $\tan^{-1}\frac{\lvert y \rvert}{\lvert x \rvert}$ with the real axis, then adjust it for the quadrant
+What is $\arg(3 - 4\mathrm{i})$? | $-\tan^{-1}\frac{4}{3} = -0.927$
+When are two complex numbers equal? | When their real parts are equal and their imaginary parts are equal
+How is an equation involving $z$ and $z^*$ solved? | Write $z = x + \mathrm{i}y$, then equate real parts and imaginary parts to get two equations
+How is $\frac{a + b\mathrm{i}}{c + d\mathrm{i}}$ written in the form $x + \mathrm{i}y$? | Multiply the numerator and the denominator by the conjugate of the denominator, $c - d\mathrm{i}$
+What is $(2 + 3\mathrm{i})(1 - \mathrm{i})$? | $2 - 2\mathrm{i} + 3\mathrm{i} - 3\mathrm{i}^2 = 5 + \mathrm{i}$
+What is $zz^*$? | $\lvert z \rvert^2$, a real number
+What is $z + z^*$? | $2\mathrm{Re}(z)$
+What is the modulus-argument form of $z$? | $z = r(\cos\theta + \mathrm{i}\sin\theta)$, where $r = \lvert z \rvert$ and $\theta = \arg z$
+Why is $r(\cos\theta - \mathrm{i}\sin\theta)$ not in modulus-argument form? | The form needs a plus sign, so write it as $r(\cos(-\theta) + \mathrm{i}\sin(-\theta))$
+What is the exponential form of $z$? | $z = r\mathrm{e}^{\mathrm{i}\theta}$
+What is Euler's formula? | $\mathrm{e}^{\mathrm{i}\theta} = \cos\theta + \mathrm{i}\sin\theta$
+How is $z = r(\cos\theta + \mathrm{i}\sin\theta)$ written in cartesian form? | $x = r\cos\theta$ and $y = r\sin\theta$, giving $x + \mathrm{i}y$ with the values worked out
+How are complex numbers multiplied in modulus-argument form? | Multiply the moduli and add the arguments
+How are complex numbers divided in modulus-argument form? | Divide the moduli and subtract the arguments
+What is $2\mathrm{e}^{\mathrm{i}\pi/3} \times 3\mathrm{e}^{\mathrm{i}\pi/6}$? | $6\mathrm{e}^{\mathrm{i}\pi/2} = 6\mathrm{i}$
+What is true of the non-real roots of a polynomial equation with real coefficients? | They occur in conjugate pairs
+Why does a cubic equation with real coefficients have at least one real root? | Non-real roots come in conjugate pairs, so at most two of its three roots are non-real
+How is a quadratic equation with complex roots solved in a detailed reasoning question? | Use the formula or complete the square, showing $\sqrt{-k}$ written as $\mathrm{i}\sqrt{k}$
+What real quadratic factor do the roots $a \pm b\mathrm{i}$ give? | $z^2 - 2az + (a^2 + b^2)$
+What real quadratic factor do the roots $2 \pm 5\mathrm{i}$ give? | $z^2 - 4z + 29$
+How is a cubic or quartic with real coefficients solved given a complex root? | Its conjugate is also a root, so form their real quadratic factor and divide or compare coefficients to find the other factor
+How are the square roots of $a + b\mathrm{i}$ found algebraically? | Set $(x + \mathrm{i}y)^2 = a + b\mathrm{i}$, equate real parts $x^2 - y^2 = a$ and imaginary parts $2xy = b$, then solve
+How are the two square roots of a complex number related? | One is the negative of the other, so their arguments differ by $\pi$
+What is an Argand diagram? | A diagram showing $x + \mathrm{i}y$ as the point $(x, y)$, with the real axis horizontal and the imaginary axis vertical
+What does taking the conjugate do to a point on an Argand diagram? | Reflects it in the real axis
+What does adding $w$ to $z$ do on an Argand diagram? | Translates $z$ by the vector that represents $w$
+What does multiplying by $r\mathrm{e}^{\mathrm{i}\theta}$ do on an Argand diagram? | An enlargement with scale factor $r$ about the origin and an anticlockwise rotation by $\theta$
+What does multiplying by $\mathrm{i}$ do on an Argand diagram? | Rotates the point by $\frac{\pi}{2}$ anticlockwise about the origin
+What does $\lvert z - w \rvert$ represent on an Argand diagram? | The distance between the points representing $z$ and $w$
+What is the locus $\lvert z - a \rvert = k$? | A circle with centre $a$ and radius $k$
+What is the locus $\lvert z - 3 + 2\mathrm{i} \rvert = 4$? | $\lvert z - (3 - 2\mathrm{i}) \rvert = 4$, a circle with centre $3 - 2\mathrm{i}$ and radius 4
+What is the locus $\lvert z - a \rvert = \lvert z - b \rvert$? | The perpendicular bisector of the line joining $a$ and $b$
+Which side of the perpendicular bisector is the region $\lvert z - a \rvert < \lvert z - b \rvert$? | The side containing $a$, the points closer to $a$ than to $b$
+What is the locus $\arg(z - a) = \alpha$? | A half-line from $a$ at angle $\alpha$ to the positive real direction, not including $a$
+How are included and excluded boundaries drawn on a locus sketch? | A solid line for an included boundary ($\leqslant$) and a dashed line for an excluded one ($<$)
+How is a region written in set notation? | As $\{z : \text{condition}\}$, such as $\{z : \lvert z - 3 \rvert < 2\}$ for the inside of a circle with centre 3 and radius 2
+What does $\cap$ mean between two loci? | The points that lie in both
+When the origin is outside the circle $\lvert z - a \rvert = k$, where is the point of the circle closest to the origin? | On the line from the origin through the centre $a$, at distance $\lvert a \rvert - k$ from the origin
+When the origin is outside the circle, how is the greatest argument of a point in the region $\lvert z - a \rvert \leqslant k$ found? | Draw the tangent from the origin to the circle, where the right angle is between the tangent and the radius
+What is de Moivre's theorem? | $(r(\cos\theta + \mathrm{i}\sin\theta))^n = r^n(\cos n\theta + \mathrm{i}\sin n\theta)$
+What is $(2\mathrm{e}^{\mathrm{i}\pi/6})^3$? | $8\mathrm{e}^{\mathrm{i}\pi/2} = 8\mathrm{i}$
+How is $\cos n\theta$ or $\sin n\theta$ written in powers of $\cos\theta$ and $\sin\theta$? | Expand $(\cos\theta + \mathrm{i}\sin\theta)^n$ binomially, set it equal to $\cos n\theta + \mathrm{i}\sin n\theta$, then equate real parts for cos or imaginary parts for sin
+How is $\tan n\theta$ found with de Moivre's theorem? | Divide the expression for $\sin n\theta$ by the one for $\cos n\theta$, then divide every term by $\cos^n\theta$
+If $z = \mathrm{e}^{\mathrm{i}\theta}$, what are $z^n + \frac{1}{z^n}$ and $z^n - \frac{1}{z^n}$? | $2\cos n\theta$ and $2\mathrm{i}\sin n\theta$
+What is $\sin\theta$ in terms of $\mathrm{e}^{\mathrm{i}\theta}$? | $\frac{\mathrm{e}^{\mathrm{i}\theta} - \mathrm{e}^{-\mathrm{i}\theta}}{2\mathrm{i}}$
+What is $\cos\theta$ in terms of $\mathrm{e}^{\mathrm{i}\theta}$? | $\frac{\mathrm{e}^{\mathrm{i}\theta} + \mathrm{e}^{-\mathrm{i}\theta}}{2}$
+How is a power such as $\sin^5\theta$ written in terms of multiple angles? | Expand $(z - \frac{1}{z})^5 = (2\mathrm{i}\sin\theta)^5$, pair each $z^n$ with $z^{-n}$ to make $2\mathrm{i}\sin n\theta$ or $2\cos n\theta$, then divide by $(2\mathrm{i})^5$
+How is a series such as $\sum_{k=0}^{n-1} \cos k\theta$ summed? | Write it as the real part of a geometric series in $\mathrm{e}^{\mathrm{i}\theta}$, sum that with $\frac{a(1 - r^n)}{1 - r}$, then take the real part
+How are the $n$th roots of $r\mathrm{e}^{\mathrm{i}\theta}$ found? | $r^{\frac{1}{n}}\mathrm{e}^{\mathrm{i}(\theta + 2\pi k)/n}$ for $k = 0, 1, \ldots, n - 1$
+What shape do the $n$th roots of a complex number form on an Argand diagram? | The vertices of a regular $n$-gon centred at the origin
+What angle separates neighbouring $n$th roots of a complex number? | $\frac{2\pi}{n}$
+What are the $n$th roots of unity? | The solutions of $z^n = 1$, which are $\mathrm{e}^{2\pi k\mathrm{i}/n}$ for $k = 0, 1, \ldots, n - 1$
+If $\omega = \mathrm{e}^{2\pi\mathrm{i}/n}$, how are the $n$th roots of unity written? | $1, \omega, \omega^2, \ldots, \omega^{n-1}$
+What are the cube roots of unity? | $1$ and $-\frac{1}{2} \pm \frac{\sqrt{3}}{2}\mathrm{i}$
+What is the sum of the $n$th roots of unity for $n \geqslant 2$? | 0
+How is it shown that $1 + \omega + \omega^2 + \ldots + \omega^{n-1} = 0$? | Sum the geometric series to get $\frac{1 - \omega^n}{1 - \omega}$, which is 0 because $\omega^n = 1$
+How are all the roots of $z^n = w$ found from one root $z_0$? | Multiply $z_0$ by each of the $n$th roots of unity

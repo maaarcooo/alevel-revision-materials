@@ -141,21 +141,13 @@ The specification says what to cover. The mark schemes say which wording earns t
 Source material lives in `sources/`, which git ignores. It is copyrighted: never commit it, and never move it out of `sources/`.
 
 ```
-sources/<subject>/notes/<provider>/          # PMT, SME and Cognito note sets
-sources/physics/papers/as/combined/          # AQA AS papers 2016 to 2025, question and mark scheme together
-sources/physics/papers/as/cleaned/           # the examiner report for each paper
-sources/physics/papers/as/raw/               # the separate papers the two folders above were built from
-sources/physics/papers/alevel/combined/      # AQA A-level papers 2017 to 2025 (Papers 1, 2, 3A and 3BD), question and mark scheme together
-sources/physics/papers/alevel/clean/         # the examiner report for each A-level paper, one section per question
-sources/physics/papers/topic-questions/      # topic-sorted questions and mark schemes
-sources/computer-science/papers/alevel/combined/   # OCR H446 papers 2021 to 2025, question and mark scheme together
-sources/computer-science/papers/as/combined/       # OCR H046 papers 2022 to 2025
-sources/computer-science/papers/<level>/clean/     # the examiner report for each paper
-sources/computer-science/papers/<level>/raw/       # the separate papers the folders above were built from
-sources/maths/paper/alevel/combined/               # OCR H240 papers 2018 to 2025, question and mark scheme together (paper/, not papers/)
-sources/maths/paper/as/combined/                   # OCR H230 AS papers 2018 to 2025
-sources/maths/paper/<level>/clean/                 # the examiner report for each paper
+sources/<subject>/notes/<provider>/       # PMT, SME and Cognito note sets
+sources/<subject>/<level>/spec/spec.md    # the specification (alevel/ and as/), with data-booklet.md where there is one
+sources/<subject>/<level>/papers/         # past papers, question and mark scheme together, e.g. 2024-jun-p1.md
+sources/<subject>/<level>/reports/        # the examiner report for each paper, e.g. 2024-jun-p1-er.md
 ```
+
+Physics is AQA 7408 and 7407 (A-level Papers 1, 2, 3A and 3BD), Computer Science OCR H446 and H046, Maths OCR H240 and H230, and Further Maths OCR H245 and H235 (Pure Core, Mechanics and Additional Pure only).
 
 1. **Collect the topic's questions.** Print every question on the topic with its mark scheme and examiner comment:
    ```bash

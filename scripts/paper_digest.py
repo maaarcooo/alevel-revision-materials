@@ -5,7 +5,7 @@ Usage: python3 scripts/paper_digest.py <subject> "<regex>" [--paper N] [--calcul
   e.g. python3 scripts/paper_digest.py physics "polaris|stationary wave|coheren"
        python3 scripts/paper_digest.py computer-science "pipelin|register" --paper 1
 
-Reads every combined paper under sources/<subject>/papers and, for each question
+Reads every combined paper under sources/<subject>/<level>/papers and, for each question
 or part question whose text matches the pattern, prints the question, the mark
 scheme and the examiner report comment. --paper keeps only paper 1 or paper 2.
 Questions whose mark scheme has little wording (calculations, traces, code) are
@@ -26,11 +26,8 @@ def squash(text):
 
 def examiner_comments(combined):
     """Examiner report sections by question number. The reports sit in a sibling folder."""
-    for folder in ("clean", "cleaned"):
-        report = combined.parent.parent / folder / f"{combined.stem}-er.md"
-        if report.exists():
-            break
-    else:
+    report = combined.parent.parent / "reports" / f"{combined.stem}-er.md"
+    if not report.exists():
         return {}
     comments = {}
     for section in re.split(r"\n(?=## Q)", report.read_text())[1:]:
@@ -45,7 +42,7 @@ def comment_for(number, comments):
     the paragraphs that name the part, else the whole section."""
     if number in comments:
         return squash(comments[number])
-    whole = comments.get(number.split(".")[0])
+    whole = comments.get(re.split(r"[.(]", number)[0])
     if whole is None:
         return None
     part = number[1:]
@@ -67,8 +64,7 @@ def main():
     subject, pattern = args[0], re.compile(args[1], re.I)
     keep_calculations = "--calculations" in flags
     shown = 0
-    # Maths keeps its papers in paper/, the other subjects in papers/.
-    papers = [p for folder in ("papers", "paper") for p in (SOURCES / subject / folder).glob("*/combined/*.md")]
+    papers = (SOURCES / subject).glob("*/papers/*.md")
     for paper in sorted(papers):
         if paper_number and not paper.stem.endswith(f"p{paper_number}"):
             continue

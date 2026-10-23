@@ -3,6 +3,16 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-23: New layout for sources
+
+`sources/` has one layout for every subject: `<subject>/<level>/spec`, `papers` and
+`reports`, with the note sets in `<subject>/notes`. It also has OCR Further Mathematics A
+(H245 and H235) for Pure Core, Mechanics and Additional Pure.
+
+- `paper_digest.py` reads `sources/<subject>/<level>/papers/` and finds each examiner
+  report in `reports/`. It takes `further-maths` as a subject.
+- `pull_mark_schemes.py` saves to `sources/physics/topic-questions/`.
+
 ## 2026-10-19: Maths Mechanics decks (OCR H240 3.01 to 3.04)
 
 Four decks for the Mechanics sections of OCR A-Level Mathematics A, 122 cards:

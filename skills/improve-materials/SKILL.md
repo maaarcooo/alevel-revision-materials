@@ -140,7 +140,12 @@ Settled owners for ideas that cross topics:
 | The scalar and vector products, equations of lines and planes | 4.4 |
 | Partial fraction forms (their integration is 4.8) | 4.5 |
 | Hyperbolic definitions, identities and logarithmic forms (their inverses' derivatives are 4.8) | 4.7 |
-| Simple harmonic motion and damping as differential equations | 4.10 |
+| Simple harmonic motion and damping as differential equations, forming a differential equation from Newton's second law | 4.10 |
+| Dimensions of mechanical quantities | 6.1 |
+| Work, kinetic and elastic energy, power, including $\mathbf{F} \cdot \mathbf{x}$ and $\mathbf{F} \cdot \mathbf{v}$ and the sign of work or power | 6.2 |
+| Impulse, restitution and collisions in one and two dimensions | 6.3 |
+| Centres of mass, suspension, sliding and toppling | 6.4 |
+| $v\frac{\mathrm{d}v}{\mathrm{d}x}$ and variable-force motion (the methods of solving are 4.10) | 6.6 |
 
 Further Maths assumes A-level Maths, so its decks do not repeat what the Maths decks own,
 such as the basic partial fractions or vector magnitudes.
@@ -192,10 +197,11 @@ What each topic has had done to it. Update this table whenever a pass is finishe
 | Maths 2.1 to 2.5 (Statistics) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 2 and AS Paper 1 | Decks only |
 | Maths 3.1 to 3.4 (Mechanics) | Written to them on 19 October 2026 | 19 October 2026, against A-level Paper 3 and AS Paper 2 | Decks only |
 | Further Maths 4.1 to 4.10 (Pure Core) | Written to them on 23 October 2026 | 23 October 2026, against A-level Papers 1 and 2 and AS Paper 1 | Decks only |
+| Further Maths 6.1 to 6.6 (Mechanics) | Written to them on 23 October 2026 | 23 October 2026, against A-level Paper 3 and AS Paper 3 | Decks only |
 
 Every section of OCR H240 now has a deck (Mechanics ends at 3.04). Further Maths has
-Pure Core so far. Mechanics (6.01 to 6.06) and Additional Pure (8.01 to 8.06), Marco's
-two options, come next. Its cards lean on recognising which method a question needs and
+Pure Core and Mechanics (6.01 to 6.06) so far. Additional Pure (8.01 to 8.06), Marco's
+other option, comes next. Its cards lean on recognising which method a question needs and
 the steps of that method, with one single-step worked card for each routine calculation
 such as a scalar product, a vector product or a matrix product. The whole Maths set was
 copied into the NeuroCards catalog on 19 October 2026.

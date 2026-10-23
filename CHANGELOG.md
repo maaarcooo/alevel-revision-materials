@@ -3,6 +3,34 @@
 What changed in the materials, newest first, followed by a note on where the content
 came from.
 
+## 2026-10-23: Further Maths Mechanics decks (OCR H245 6.01 to 6.06)
+
+Six decks for the Mechanics option (Y543) of OCR A-Level Further Mathematics A, 165
+cards: dimensional analysis, work, energy and power, impulse and momentum, centre of
+mass, motion in a circle, and further dynamics and kinematics. As for Pure Core, the
+cards are about choosing the method and recalling its steps, with one single-step worked
+card for each routine calculation. They were written from the specification and the
+formulae booklet and checked against every question in the A-level Mechanics paper
+(Y543) and the AS Mechanics paper (Y533) from 2018 to 2025, with their mark schemes and
+examiner reports. Kinematics, forces and moments from A-level Maths are not repeated.
+
+- From the examiner reports: "dimensionless", not "no units"; dimensions written
+  without square brackets round the answer; the dimensionless constant $k$ kept in a
+  formula from dimensional analysis, whose value it cannot find; $\mathbf{F} \cdot
+  \mathbf{x}$ and $\mathbf{F} \cdot \mathbf{v}$ as scalar products, not products of
+  magnitudes; negative power or work meaning the force opposes the motion, not that the
+  particle moves backwards; the 2 in $\frac{\lambda x^2}{2l}$ and the extension, not the
+  full length; $l(1 - \cos\theta)$ for the height on a pendulum; the initial kinetic
+  energy in the work-energy principle; the units N s for impulse; kinetic energy lost
+  from every particle in a collision; the triangle's centre of mass measured from the vertex, and
+  the coordinate average working for triangles only; the $\frac{1}{2}$ in $\bar{y}$;
+  weight, not mass, in moments; the angle with the vertical or with the horizontal for
+  a suspended lamina; the radius $l\sin\theta$ for a conical pendulum; radial
+  acceleration stated as towards the centre; $T \geqslant 0$ at the top, not $v
+  \geqslant 0$, for complete circles on a string; a difference of $\pi$ for two
+  particles to be in the same vertical plane; dividing Newton's second law by the mass;
+  and describing a limit as approached but never reached.
+
 ## 2026-10-23: Further Maths Pure Core decks (OCR H245 4.01 to 4.10)
 
 Ten decks for the Pure Core of OCR A-Level Further Mathematics A, 401 cards: proof by

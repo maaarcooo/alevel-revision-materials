@@ -1,0 +1,29 @@
+What is the centre of mass of a body? | The point at which its whole weight can be taken to act as a single force
+How can a rigid body be modelled for linear motion? | As a particle of the same mass at its centre of mass
+Where is the centre of mass of a uniform body with a line or axis of symmetry? | On that line or axis of symmetry
+What is the centre of mass of a system of particles along the $x$-axis? | $\bar{x} = \frac{\sum m_ix_i}{\sum m_i}$
+What is the centre of mass of particles of mass 2 kg at $x = 1$ and 3 kg at $x = 6$? | $\bar{x} = \frac{2 + 18}{5} = 4$
+How is the centre of mass of a composite body found? | Treat each part as a particle at its own centre of mass, then use $\bar{x} = \frac{\sum m_ix_i}{\sum m_i}$
+How is a removed part handled when finding a centre of mass? | Give it a negative mass, subtracting its mass and its moment from the whole
+For a uniform lamina, what is each part's mass proportional to? | Its area
+Where is the centre of mass of a uniform triangular lamina? | $\frac{2}{3}$ of the way along a median from the vertex
+What are the coordinates of the centre of mass of a uniform triangular lamina with vertices $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$? | $\left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$, which works for a triangle but not for other shapes
+Where is the centre of mass of a uniform solid hemisphere of radius $r$? | $\frac{3}{8}r$ from the centre of its flat face
+Where is the centre of mass of a uniform hemispherical shell of radius $r$? | $\frac{1}{2}r$ from the centre
+Where is the centre of mass of a uniform circular arc of radius $r$ with angle $2\alpha$ at the centre? | $\frac{r\sin\alpha}{\alpha}$ from the centre
+Where is the centre of mass of a uniform sector of radius $r$ with angle $2\alpha$ at the centre? | $\frac{2r\sin\alpha}{3\alpha}$ from the centre
+Where is the centre of mass of a uniform solid cone of height $h$? | $\frac{1}{4}h$ above the base, on the axis
+Where is the centre of mass of a uniform conical shell of height $h$? | $\frac{1}{3}h$ above the base, on the axis
+What is $\bar{x}$ for a uniform lamina under $y = f(x)$ from $x = a$ to $x = b$? | $\bar{x} = \frac{\int_a^b xy\,\mathrm{d}x}{\int_a^b y\,\mathrm{d}x}$
+What is $\bar{y}$ for a uniform lamina under $y = f(x)$ from $x = a$ to $x = b$? | $\bar{y} = \frac{\frac{1}{2}\int_a^b y^2\,\mathrm{d}x}{\int_a^b y\,\mathrm{d}x}$
+What is $\bar{x}$ for the uniform solid formed by rotating $y = f(x)$ about the $x$-axis? | $\bar{x} = \frac{\int_a^b xy^2\,\mathrm{d}x}{\int_a^b y^2\,\mathrm{d}x}$, since the $\pi$ cancels
+Why is $\bar{y} = 0$ for a uniform solid of revolution about the $x$-axis? | The solid is symmetric about the $x$-axis
+Where is the centre of mass of a body freely suspended from a point and hanging in equilibrium? | Vertically below the point of suspension
+How is the angle a line in a suspended lamina makes with the vertical found? | Draw the line from the suspension point to the centre of mass as vertical, then use trigonometry with the centre of mass coordinates
+What must be checked when giving the angle for a suspended body? | Whether the question asks for the angle with the vertical or with the horizontal
+How is a rigid body in equilibrium under coplanar forces solved? | Resolve in two directions and take moments about a point
+Which goes into a moment, the weight or the mass? | The weight, $mg$
+When does a body on a rough inclined plane slide? | When $\tan\theta > \mu$, since the component of its weight down the slope then exceeds $\mu R$
+When does a body on an inclined plane topple? | When the vertical line through its centre of mass passes outside its base, beyond the lowest edge
+Where does the normal reaction act on a body about to topple? | At the edge about which it is about to turn
+How is it decided whether a body on a steepening slope slides or topples first? | Find the angle at which each would happen, and the smaller angle comes first

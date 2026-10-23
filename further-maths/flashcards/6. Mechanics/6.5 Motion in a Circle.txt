@@ -1,0 +1,25 @@
+What is angular velocity? | The rate of change of the angle turned, $\omega = \dot{\theta}$, in $\text{rad s}^{-1}$
+What is the speed of a particle moving in a circle of radius $r$ with angular velocity $\omega$? | $v = r\omega$
+What is the acceleration of a particle moving in a circle with constant speed? | $\frac{v^2}{r} = r\omega^2 = v\omega$, towards the centre
+What is the period of motion in a circle with angular velocity $\omega$? | $\frac{2\pi}{\omega}$
+What are the speed and acceleration of a particle moving in a circle of radius 0.5 m at $4\ \text{rad s}^{-1}$? | $v = 0.5 \times 4 = 2\ \text{m s}^{-1}$ and $a = 0.5 \times 4^2 = 8\ \text{m s}^{-2}$
+How is Newton's second law applied to motion in a horizontal circle? | Resolve vertically, where forces balance, and horizontally towards the centre, where the resultant is $\frac{mv^2}{r}$
+For a conical pendulum of string length $l$ at angle $\theta$ to the vertical, what is the radius of the circle? | $l\sin\theta$
+What are the equations for a conical pendulum with tension $T$ at angle $\theta$ to the vertical? | $T\cos\theta = mg$ vertically and $T\sin\theta = mr\omega^2$ horizontally
+Why can a particle on a string not move in a horizontal circle with the string horizontal? | Nothing would balance its weight, since the tension would have no vertical component
+On a smooth banked track at angle $\theta$, what provides the force towards the centre? | The horizontal component of the normal reaction
+What is the speed on a smooth banked track at angle $\theta$ with no sideways friction? | $\tan\theta = \frac{v^2}{rg}$
+On a rough banked track, which way does friction act when a car goes faster than the speed needing no friction? | Down the slope, since the car tends to slide up
+When are two particles circling the same vertical axis next in the same vertical plane? | When the difference in the angles they have turned through is $\pi$
+In a vertical circle, how is the speed at a point found? | Conservation of energy between that point and a point where the speed is known
+What are the radial and tangential accelerations in motion in a circle with variable speed? | Radial $\frac{v^2}{r}$ towards the centre, tangential $\dot{v} = r\ddot{\theta}$
+How is the tangential acceleration found in a vertical circle? | From the component of the resultant force along the tangent, such as $g\sin\theta$ from the weight at angle $\theta$ to the downward vertical
+How is the magnitude of the total acceleration found from its radial and tangential components? | $\sqrt{a_r^2 + a_t^2}$
+What equation applies along the radius for a particle on a string at angle $\theta$ to the downward vertical? | $T - mg\cos\theta = \frac{mv^2}{r}$
+What is the condition for a particle on a string to complete vertical circles? | The tension at the top is at least 0, $T \geqslant 0$, not just $v \geqslant 0$
+What is the condition for a bead on a wire or a particle on a rod to complete vertical circles? | It has enough energy to reach the top with $v \geqslant 0$, because a rod or wire can push as well as pull
+How is it decided whether a rod is in tension or compression? | Find the force along the rod from Newton's second law, and its sign shows whether it pulls or pushes
+When does a string become slack in a vertical circle? | When the tension falls to 0
+When does a particle moving on the outside of a smooth circular surface leave it? | When the normal reaction falls to 0
+What is the radial equation for a particle on the outside of a smooth sphere at angle $\theta$ from the top? | $mg\cos\theta - R = \frac{mv^2}{r}$
+How does a particle move after its string goes slack or it leaves a circular surface? | As a projectile, starting with its velocity along the tangent at that point

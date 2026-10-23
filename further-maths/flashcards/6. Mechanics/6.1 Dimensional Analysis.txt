@@ -1,0 +1,30 @@
+What are the three dimensions used in mechanics? | Mass M, length L and time T
+What does $[d]$ mean? | The dimensions of the quantity $d$
+How are the dimensions of a quantity found from its units? | Replace kg with M, m with L and s with T, writing newtons as $\text{kg m s}^{-2}$ first
+How are dimensions written in an answer? | As powers of M, L and T, such as $\mathrm{MLT}^{-2}$, with square brackets only round the quantity, as in $[F] = \mathrm{MLT}^{-2}$
+What are the dimensions of velocity? | $\mathrm{LT}^{-1}$
+What are the dimensions of acceleration? | $\mathrm{LT}^{-2}$
+What are the dimensions of force? | $\mathrm{MLT}^{-2}$
+What are the dimensions of work and energy? | $\mathrm{ML}^2\mathrm{T}^{-2}$
+What are the dimensions of power? | $\mathrm{ML}^2\mathrm{T}^{-3}$
+What are the dimensions of momentum and impulse? | $\mathrm{MLT}^{-1}$
+What are the dimensions of density? | $\mathrm{ML}^{-3}$
+What are the dimensions of pressure, which has units $\text{N m}^{-2}$? | $\mathrm{MLT}^{-2} \times \mathrm{L}^{-2} = \mathrm{ML}^{-1}\mathrm{T}^{-2}$
+What are the dimensions of angular velocity and frequency? | $\mathrm{T}^{-1}$
+What are the dimensions of $G$ in $F = \frac{Gm_1m_2}{r^2}$? | $[G] = \frac{\mathrm{MLT}^{-2} \times \mathrm{L}^2}{\mathrm{M}^2} = \mathrm{M}^{-1}\mathrm{L}^3\mathrm{T}^{-2}$
+What does it mean for a quantity to be dimensionless? | Its dimensions are $\mathrm{M}^0\mathrm{L}^0\mathrm{T}^0$. Say "dimensionless", not "no units"
+Which quantities in mechanics are dimensionless? | Angles, the coefficients of friction and restitution, and ratios of two quantities with the same dimensions, such as strain
+What are the dimensions of $\frac{\mathrm{d}y}{\mathrm{d}x}$? | $\frac{[y]}{[x]}$
+What are the dimensions of $\int y\,\mathrm{d}x$? | $[y][x]$
+What must be true of quantities that are added or subtracted, such as in $\sqrt{a^2 - x^2}$? | They have the same dimensions, so $[a] = [x]$
+What must be true of the argument of a function such as $\mathrm{e}^{kt}$ or $\sin\omega t$? | It is dimensionless
+What does it mean for an equation to be dimensionally consistent? | Every term has the same dimensions
+How is dimensional analysis used as an error check? | Check that both sides of the formula, and every term, have the same dimensions
+How are the unknown indices in a formula such as $v = kl^\alpha m^\beta g^\gamma$ found? | Write the dimensions of both sides, equate the powers of M, L and T, then solve the simultaneous equations
+How many unknown indices can dimensional analysis find at most? | Three, one for each of M, L and T
+What does dimensional analysis give for the period of a simple pendulum in terms of $l$, $m$ and $g$? | $T = k\sqrt{\frac{l}{g}}$, which does not depend on $m$
+What does an index of 0 found by dimensional analysis show? | The quantity does not depend on that variable
+What must a formula found by dimensional analysis include? | A dimensionless constant $k$
+What can dimensional analysis not find? | The value of a dimensionless constant, such as the $6\pi$ in a formula
+Why can dimensional analysis not show how a quantity depends on a dimensionless quantity such as a number of turns? | Any power of a dimensionless quantity is still dimensionless, so its index cannot be found
+If $c = k\sqrt{\frac{E}{\rho}}$, what happens to $c$ when $E$ is doubled? | It is multiplied by $\sqrt{2}$

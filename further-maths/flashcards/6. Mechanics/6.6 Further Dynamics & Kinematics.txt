@@ -1,0 +1,12 @@
+What are the three expressions for acceleration in one dimension? | $\frac{\mathrm{d}v}{\mathrm{d}t}$, $v\frac{\mathrm{d}v}{\mathrm{d}x}$ and $\frac{\mathrm{d}^2x}{\mathrm{d}t^2}$
+When is the acceleration written as $v\frac{\mathrm{d}v}{\mathrm{d}x}$? | When the force depends on the displacement $x$, or $v$ is wanted in terms of $x$
+When is the acceleration written as $\frac{\mathrm{d}v}{\mathrm{d}t}$? | When the force depends on time $t$, or $v$ is wanted in terms of $t$
+What is the acceleration when $v = 3x$? | $v\frac{\mathrm{d}v}{\mathrm{d}x} = 3x \times 3 = 9x$
+What is often forgotten when rearranging Newton's second law into a differential equation? | Dividing every term by the mass
+Which methods solve the differential equations for motion under a variable force? | Separating the variables, or an integrating factor
+How is the arbitrary constant found when solving an equation of motion? | Substitute the initial conditions, the values when the motion starts
+How is the displacement found from $v$ in terms of $t$? | Integrate $v$ with respect to $t$, with a constant from the initial position
+How is the time found from $v$ in terms of $x$? | Write $v = \frac{\mathrm{d}x}{\mathrm{d}t}$, separate the variables and integrate
+How is a terminal velocity found? | Set the acceleration to 0, or find the limit of $v$ as $t \to \infty$
+How is motion described when $x$ tends to a value as $t \to \infty$? | The particle approaches that point but never reaches it, with its speed tending to 0
+How is the distance found when a force acts for only part of the motion? | Split the motion into stages, using the velocity at the end of one stage to start the next

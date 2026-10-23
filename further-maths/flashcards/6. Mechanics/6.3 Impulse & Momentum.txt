@@ -1,0 +1,29 @@
+What is the momentum of a body of mass $m$ with velocity $\mathbf{v}$? | $m\mathbf{v}$, a vector in the direction of the velocity
+What are the units of momentum and impulse? | $\text{N s}$, or $\text{kg m s}^{-1}$
+What is the impulse of a constant force $F$ acting for a time $t$? | $Ft$
+What is the impulse of a variable force $F$ from $t = a$ to $t = b$? | $\int_a^b F\,\mathrm{d}t$
+What is the impulse of $F = 6t$ N from $t = 0$ to $t = 2$? | $\int_0^2 6t\,\mathrm{d}t = 12$ N s
+What is the impulse-momentum principle? | Impulse equals change in momentum, $\mathbf{I} = m\mathbf{v} - m\mathbf{u}$
+What impulse sets a 0.16 kg ball moving at $15\ \text{m s}^{-1}$ from rest? | $0.16 \times 15 = 2.4$ N s
+How is the impulse exerted on $A$ by $B$ in a collision related to the impulse exerted on $B$ by $A$? | Equal in magnitude and opposite in direction, by Newton's third law
+What is the principle of conservation of linear momentum? | When no external impulse acts, the total momentum of a system is the same before and after, $m_1\mathbf{u}_1 + m_2\mathbf{u}_2 = m_1\mathbf{v}_1 + m_2\mathbf{v}_2$
+How are the directions handled in a one-dimensional collision? | Choose a positive direction, give every velocity a sign, and draw unknown velocities in the positive direction
+What happens when a slack inextensible string joining two particles becomes taut? | Momentum is conserved, the particles then move with the same speed along the string, and kinetic energy is lost
+When a string jerks taut at an angle to a particle's velocity, which component of that velocity is unchanged? | The component perpendicular to the string
+What is the coefficient of restitution $e$? | $\frac{\text{speed of separation}}{\text{speed of approach}}$, with $0 \leqslant e \leqslant 1$
+What is Newton's experimental law for the direct impact of two smooth spheres? | $v_1 - v_2 = -e(u_1 - u_2)$
+What is Newton's experimental law for a smooth sphere hitting a fixed surface directly? | $v = -eu$
+What is the coefficient of restitution when the speed of approach is $8\ \text{m s}^{-1}$ and the speed of separation is $6\ \text{m s}^{-1}$? | $e = \frac{6}{8} = 0.75$
+A ball hits a fixed wall directly at $4\ \text{m s}^{-1}$ with $e = 0.5$. What is its rebound speed? | $0.5 \times 4 = 2\ \text{m s}^{-1}$
+What does $e = 1$ mean for a collision? | It is perfectly elastic, so no kinetic energy is lost
+What does $e = 0$ mean for a collision? | It is inelastic, so the bodies coalesce and the greatest possible kinetic energy is lost
+How is it shown that a collision is not perfectly elastic? | Show that kinetic energy is lost, or that $e < 1$
+How is the loss of kinetic energy in a collision found? | Total kinetic energy of every particle before minus the total after
+Which two equations find the velocities after a direct collision of two spheres? | Conservation of momentum and Newton's experimental law, solved simultaneously
+How is it decided whether two particles collide again? | Compare their final velocities: they collide again if the one behind moves faster in the same direction, or they move towards each other
+What happens to the velocity of a smooth sphere that hits a smooth fixed plane obliquely? | The component parallel to the plane is unchanged and the component perpendicular to it is reversed and multiplied by $e$
+In which direction does the impulse on a smooth sphere from a smooth fixed plane act? | Perpendicular to the plane
+In an oblique impact of two smooth spheres, which velocity components are unchanged? | The components perpendicular to the line of centres
+In an oblique impact of two smooth spheres, how are the components along the line of centres found? | Conservation of momentum and Newton's experimental law along the line of centres
+In which direction does the impulse between two smooth spheres act? | Along the line of centres
+How is the angle between an impulse $\mathbf{I}$ and $\mathbf{i}$ found? | From the components of $\mathbf{I} = m\mathbf{v} - m\mathbf{u}$, using $\tan^{-1}$ or the scalar product with $\mathbf{i}$

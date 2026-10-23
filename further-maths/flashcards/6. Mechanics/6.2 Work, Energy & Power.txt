@@ -1,0 +1,40 @@
+What is the work done by a constant force $F$ that moves its point of application a distance $s$ in its own direction? | $Fs$
+What is the work done by a constant force $F$ at angle $\theta$ to the direction of motion through a distance $s$? | $Fs\cos\theta$
+What is the work done by a constant force $\mathbf{F}$ through a displacement $\mathbf{x}$? | The scalar product $\mathbf{F} \cdot \mathbf{x}$
+What is the work done by $\mathbf{F} = 3\mathbf{i} + 2\mathbf{j}$ N through a displacement of $4\mathbf{i} - \mathbf{j}$ m? | $12 - 2 = 10$ J
+What is the work done by a variable force $F$ along the $x$-axis from $x = a$ to $x = b$? | $\int_a^b F\,\mathrm{d}x$
+What is the unit of work and energy? | The joule (J)
+What is the mechanical energy of a body? | Its kinetic energy and its potential energy, gravitational and elastic
+What is the kinetic energy of a body of mass $m$ with velocity $\mathbf{v}$? | $\frac{1}{2}mv^2 = \frac{1}{2}m\mathbf{v} \cdot \mathbf{v}$
+What is the kinetic energy of a 2 kg particle with velocity $(3\mathbf{i} + 4\mathbf{j})\ \text{m s}^{-1}$? | $\frac{1}{2} \times 2 \times (9 + 16) = 25$ J
+Which equation gives $\mathbf{v} \cdot \mathbf{v}$ from the initial velocity and a constant acceleration? | $\mathbf{v} \cdot \mathbf{v} = \mathbf{u} \cdot \mathbf{u} + 2\mathbf{a} \cdot \mathbf{x}$
+What is the change in gravitational potential energy when a mass $m$ rises a height $h$? | $mgh$
+How high above its lowest point is a particle on a string of length $l$ at angle $\theta$ to the downward vertical? | $l(1 - \cos\theta)$
+What is Hooke's law for an elastic string or spring? | $T = \frac{\lambda x}{l}$, where $\lambda$ is the modulus of elasticity, $x$ the extension and $l$ the natural length
+What is the unit of the modulus of elasticity $\lambda$? | The newton (N)
+When does an elastic string exert a tension? | Only when it is stretched beyond its natural length
+How does an elastic spring differ from an elastic string? | A spring can also be compressed, so it can push (a thrust) as well as pull
+When does Hooke's law stop applying? | When the string or spring is stretched beyond its elastic limit
+What is the elastic potential energy stored in a stretched string or spring? | $\frac{\lambda x^2}{2l}$
+What is the tension in a string with $\lambda = 20$ N and natural length 0.5 m when stretched by 0.1 m? | $T = \frac{20 \times 0.1}{0.5} = 4$ N
+What is the elastic potential energy in a string with $\lambda = 20$ N and natural length 0.5 m when stretched by 0.1 m? | $\frac{20 \times 0.1^2}{2 \times 0.5} = 0.2$ J
+In Hooke's law and the elastic energy formula, what is $x$? | The extension beyond the natural length, not the full length of the string
+What is the principle of conservation of mechanical energy? | When no work is done by forces other than weight and elastic tension, the total mechanical energy stays constant
+What is the work-energy principle? | The work done by the forces other than weight and elastic tension equals the change in mechanical energy
+How is the work done against a constant friction or resistance found? | The force times the distance moved
+How is energy lost to resistance found from an energy equation? | Initial mechanical energy minus final mechanical energy
+Why is the work done on a moving body not equal to its final kinetic energy? | The body already had kinetic energy before the force acted
+What does a negative value for the work done by a force show? | The force opposes the motion, so it reduces the body's kinetic energy
+What is power? | The rate at which a force does work
+What is the unit of power? | The watt (W), $1\ \text{J s}^{-1}$
+How is average power found? | $\frac{\text{work done}}{\text{time taken}}$
+What is the relationship between power, driving force and speed? | $P = Fv$
+What driving force does an engine working at 20 kW give at $25\ \text{m s}^{-1}$? | $F = \frac{20000}{25} = 800$ N
+What is the power of a force $\mathbf{F}$ acting on a particle with velocity $\mathbf{v}$? | The scalar product $\mathbf{F} \cdot \mathbf{v}$
+What does a negative power show about a force? | It acts against the motion, so the particle's kinetic energy is decreasing
+When is a vehicle travelling at its greatest steady speed? | When its acceleration is zero, so the driving force $\frac{P}{v}$ balances the resistance and any component of weight
+What is the equation for the greatest steady speed of a vehicle with power $P$ going up a slope at angle $\theta$ against resistance $R$? | $\frac{P}{v} = R + mg\sin\theta$
+How is the acceleration of a vehicle at power $P$ and speed $v$ found? | Newton's second law with driving force $\frac{P}{v}$: $\frac{P}{v} - R = ma$ on a level road
+What changes in a model where the resistance is proportional to the speed? | The resistance is written as $kv$, so it grows as the vehicle speeds up
+When does a particle acted on by a single varying force have its least or greatest speed? | When the power is zero, $\mathbf{F} \cdot \mathbf{v} = 0$
+What is the total power of all the forces on a particle whose velocity is constant? | 0, because the resultant force is zero
